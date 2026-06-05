@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PathoLogic!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="app-shell">
+        <section id="map-view">
+            <header class="map-header">
+                <div class="top-stats">
+                    <span><i class="fas fa-fire" style="color:#ff9600"></i> 1</span>
+                    <span><i class="fas fa-star" style="color:#ffce00"></i> <span id="xp-count">0</span></span>
+                </div>
+                <h1>PathoLogic!</h1>
+                <button onclick="resetApp()" class="reset-link">Reset Progress</button>
+            </header>
+
+            <div class="path-scroll-area">
+                <!-- CHAPTER 0: INTRODUCTION TO PATHOLOGY -->
+                
+                <div class="section-banner theme-blue">
+                    <div class="banner-title">INTRODUCTION TO PATHOLOGY</div>
+                    <div class="banner-subtitle">Welcome to the bridge between basic science and clinical medicine.</div>
+                </div>
+
+                <div id="node-0.1" class="path-node unlocked theme-blue" onclick="showPreview('0.1')">
+                    <div class="node-icon"><i class="fas fa-book-medical"></i></div>
+                    <div class="node-label">1. What is Pathology?</div>
+                </div>
+                <div id="node-0.2" class="path-node locked theme-blue" onclick="showPreview('0.2')">
+                    <div class="node-icon"><i class="fas fa-virus"></i></div>
+                    <div class="node-label">2. The Core Four (Part 1 - The Causes)</div>
+                </div>
+                <div id="node-0.3" class="path-node locked theme-blue" onclick="showPreview('0.3')">
+                    <div class="node-icon"><i class="fas fa-eye"></i></div>
+                    <div class="node-label">3. The Core Four (Part 2 - The Results)</div>
+                </div>
+                <div id="node-0.4" class="path-node locked theme-blue" onclick="showPreview('0.4')">
+                    <div class="node-icon"><i class="fas fa-comment-medical"></i></div>
+                    <div class="node-label">4. Speaking the Language of Pathology</div>
+                </div>
+                <div id="node-0.5" class="path-node locked theme-blue" onclick="showPreview('0.5')">
+                    <div class="node-icon"><i class="fas fa-microscope"></i></div>
+                    <div class="node-label">5. Inside the Histopathology Lab</div>
+                </div>
+
+            </div>
+            
+        </section>
+
+        <div id="lesson-modal" class="modal-overlay hidden">
+            <div class="modal-content">
+                <button class="close-modal" onclick="closeModal()">✕</button>
+                <div id="modal-icon-circle"><i class="fas fa-book-open"></i></div>
+                <h2 id="modal-title"></h2>
+                <div class="objectives-container">
+                    <h3>Objectives:</h3>
+                    <ul id="modal-objectives"></ul>
+                </div>
+                <button id="start-lesson-btn" class="primary-btn">START LESSON</button>
+            </div>
+        </div>
+
+        <section id="lesson-view" class="hidden">
+            <nav class="lesson-nav">
+                <button id="close-lesson" onclick="exitLesson()">✕</button>
+                <div class="progress-container"><div id="progress-bar"></div></div>
+            </nav>
+            <main id="stage"></main>
+            <footer id="feedback-bar" class="hidden">
+                <div id="feedback-content">
+                    <h2 id="feedback-title"></h2>
+                    <div id="feedback-msg"></div>
+                </div>
+                <button id="next-btn">CONTINUE</button>
+            </footer>
+        </section>
+    </div>
+    <script src="content.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
