@@ -125,10 +125,36 @@ body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #fff; color: 
 .incorrect { background: #ffdfe0; border-top: 4px solid #ff9393; color: #911111; }
 /* ... (Keep your Flashcard, Fill, and Match CSS from the bottom of your file) */
 
-.sort-pool { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; padding: 15px; min-height: 60px; background: #f9f9f9; border-radius: 15px; border: 2px dashed #ddd; margin-bottom: 20px; }
+.sort-pool {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    padding: 15px;
+    min-height: 60px;
+    background: #f9f9f9;
+    border-radius: 15px;
+    border: 2px dashed #ddd;
+    margin-bottom: 20px;
+    -webkit-overflow-scrolling: touch; /* Butter-smooth scrolling on older iOS */
+}
 .bucket-container { display: flex; gap: 10px; margin-bottom: 20px; }
 .sort-bucket { flex: 1; min-height: 100px; background: white; border: 2px solid #ddd; border-radius: 15px; padding: 8px; display: flex; flex-direction: column; gap: 5px; }
-.draggable-chip { padding: 8px 12px; background: white; border: 2px solid var(--gray-light); border-radius: 10px; cursor: grab; box-shadow: 0 3px 0 var(--gray-light); font-weight: 700; font-size: 0.8rem; }
+.draggable-chip {
+    padding: 8px 12px;
+    background: white;
+    border: 2px solid var(--gray-light);
+    border-radius: 10px;
+    cursor: grab;
+    box-shadow: 0 3px 0 var(--gray-light);
+    font-weight: 700;
+    font-size: 0.8rem;
+    
+    /* Touchscreen Fixes */
+    touch-action: none;                 
+    -webkit-user-select: none;          
+    user-select: none;                  
+}
 
 .order-slot { min-height: 45px; border: 2px dashed #ddd; border-radius: 10px; margin-bottom: 5px; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold; }
 
