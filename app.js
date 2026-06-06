@@ -5,8 +5,8 @@ let currentModule = [];
 let currentIndex = 0;
 let xp = parseInt(localStorage.getItem('pathXP')) || 0;
 let currentActiveID = "";
-let unlockedModules = JSON.parse(localStorage.getItem('pathUnlocked')) || ['0.1'];
-// let unlockedModules = Object.keys(moduleContent); 
+// let unlockedModules = JSON.parse(localStorage.getItem('pathUnlocked')) || ['0.1'];
+let unlockedModules = Object.keys(moduleContent); 
 
 document.getElementById('xp-count').innerText = xp;
 
@@ -95,8 +95,9 @@ function startModule(id) {
 }
 
 function renderScreen() {
-    const data = currentModule[currentIndex];
     const stage = document.getElementById('stage');
+    stage.scrollTop = 0;
+    const data = currentModule[currentIndex];
     if (!data) return;
     stage.innerHTML = ''; 
     document.getElementById('feedback-bar').classList.remove('show');
@@ -136,19 +137,25 @@ function renderScreen() {
         window.selectedChip = null;
         stage.innerHTML = `
             ${reviewHeader}<h3>${formatText(data.question)}</h3>
-            <div id="sort-pool" class="sort-pool">
+            <div class="fill-instruction">Tap a card, then tap a box to move it</div>
+            
+            <!-- Added onclick to the pool so items can be moved back -->
+            <div id="sort-pool" class="sort-pool" onclick="placeInPool(this)">
                 ${shuffleArray([...data.items]).map((item, i) => `
-                    <div class="draggable-chip" id="chip-${i}" onclick="selectChip(this)" data-correct="${item.bucket}">${item.text}</div>
+                    <div class="draggable-chip" id="chip-${i}" 
+                        onclick="selectChip(this, event)" 
+                        data-correct="${item.bucket}">${item.text}</div>
                 `).join('')}
             </div>
+
             <div class="bucket-container">
                 ${data.buckets.map((b, i) => `
                     <div class="sort-bucket" onclick="placeInBucket(this)" data-id="${i}">
-                        <span class="unit-tag" style="position:static; font-size:0.6rem;">${b}</span>
+                        <span class="unit-tag" style="position:static; font-size:0.6rem; margin-bottom:5px; display:block;">${b}</span>
                     </div>
                 `).join('')}
             </div>
-            <button id="verify-sort-btn" class="primary-btn" style="display:none;" onclick="verifySort()">CHECK ANSWER</button>`;
+            <button id="verify-sort-btn" class="primary-btn" style="display:none; margin-top:20px;" onclick="verifySort()">CHECK ANSWER</button>`;
     }
     else if (data.type === "order") {
         window.userOrder = [];
@@ -193,22 +200,67 @@ function verifySort() {
     else { addToMistakes(data); showFeedback(false, "❌ Not Quite", data.explanation); }
 }
 
-function selectChip(el) {
-    document.querySelectorAll('.draggable-chip').forEach(c => c.style.borderColor = "var(--gray-light)");
+function selectChip(el, event) {
+    // Prevent the click from "bubbling" up to the bucket or pool underneath
+    if (event) event.stopPropagation();
+
+    // If clicking the same chip again, deselect it
+    if (window.selectedChip === el) {
+        el.style.borderColor = "var(--gray-light)";
+        el.style.transform = "scale(1)";
+        window.selectedChip = null;
+        return;
+    }
+
+    // Deselect all other chips
+    document.querySelectorAll('.draggable-chip').forEach(c => {
+        c.style.borderColor = "var(--gray-light)";
+        c.style.transform = "scale(1)";
+    });
+
+    // Select this one
     el.style.borderColor = "var(--blue)";
+    el.style.transform = "scale(1.05)"; // Slight "lift" effect
     window.selectedChip = el;
 }
 
 function placeInBucket(bucketEl) {
     if (!window.selectedChip) return;
+    
+    // Move the chip
     bucketEl.appendChild(window.selectedChip);
-    window.selectedChip.style.borderColor = "var(--gray-light)";
+    
+    // Clean up appearance
+    const chip = window.selectedChip;
+    chip.style.borderColor = "var(--gray-light)";
+    chip.style.transform = "scale(1)";
     window.selectedChip = null;
     
-    // Show check button if pool is empty
+    checkSortCompletion();
+}
+
+function placeInPool(poolEl) {
+    if (!window.selectedChip) return;
+
+    // Only move if it's not already in the pool
+    if (window.selectedChip.parentElement === poolEl) return;
+
+    poolEl.appendChild(window.selectedChip);
+    
+    const chip = window.selectedChip;
+    chip.style.borderColor = "var(--gray-light)";
+    chip.style.transform = "scale(1)";
+    window.selectedChip = null;
+
+    checkSortCompletion();
+}
+
+function checkSortCompletion() {
+    // Hide or show the verify button based on if the pool is empty
     const pool = document.getElementById('sort-pool');
-    if (pool.children.length === 0) {
-        document.getElementById('verify-sort-btn').style.display = "block";
+    const btn = document.getElementById('verify-sort-btn');
+    if (btn) {
+        btn.style.display = (pool.children.length === 0) ? "block" : "none";
     }
 }
 

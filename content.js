@@ -273,7 +273,6 @@ const moduleContent = {
                 question: "You are the pathologist! Arrange the lab steps in the correct chronological order to prepare your slide.", 
                 items: ["Gross Examination", "Fixation (Formalin)", "Embedding (Wax)", "Sectioning (Microtome)", "Staining (H&E)"], 
                 explanation: "" }
-        ],
-        next: "1.1.1"
+        ]
     }
 };

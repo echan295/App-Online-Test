@@ -78,6 +78,7 @@ body {
 /* CHAPTER BANNERS (Restored to your exact original look) */
 .section-banner { 
     width: 92%; 
+    min-height: 80px;
     color: white; 
     padding: 16px 20px; 
     border-radius: 18px; 
@@ -145,13 +146,20 @@ body {
 .locked { opacity: 0.4; filter: grayscale(1); pointer-events: none; }
 
 .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); backdrop-filter: blur(4px); display: flex; align-items: center; justify-content: center; z-index: 1000; }
-.modal-content { background: white; width: 85%; max-width: 380px; border-radius: 25px; padding: 30px; text-align: center; position: relative; }
+.modal-content { background: white; width: 85%; max-width: 380px; max-height: 85vh; overflow-y: auto; border-radius: 25px; padding: 30px; text-align: center; position: relative; }
 .close-modal { position: absolute; top: 15px; right: 15px; background: none; border: none; font-size: 1.5rem; color: #ccc; }
 #modal-icon-circle { width: 70px; height: 70px; background: var(--blue); border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.8rem; }
 .objectives-container { text-align: left; background: #f8f9fa; padding: 15px; border-radius: 15px; margin: 20px 0; }
 .objectives-container h3 { font-size: 0.7rem; text-transform: uppercase; color: #888; margin: 0 0 5px 0; }
 #modal-objectives { padding-left: 20px; font-size: 0.9rem; line-height: 1.4; margin: 0; }
 .lesson-nav { padding: 15px; display: flex; align-items: center; gap: 15px; }
+#lesson-view {
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Stacks Nav, Stage, and Footer */
+    overflow: hidden;
+    position: relative;
+}
 #close-lesson { border: none; background: none; font-size: 1.5rem; color: #afafaf; cursor: pointer; }
 
 /* BUTTONS (Pressing Logic Restored) */
@@ -160,7 +168,7 @@ body {
 .primary-btn { background: var(--blue); color: white; box-shadow: 0 5px 0 var(--blue-dark); margin-bottom: 12px; font-size: 1rem;}
 .primary-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--blue-dark); }
 
-.option-btn { background: white; border: 2px solid var(--gray-light); box-shadow: 0 4px 0 var(--gray-light); margin-bottom: 12px; color: var(--text); font-size: 1rem; }
+.option-btn { min-height: 55px; height: auto; background: white; border: 2px solid var(--gray-light); box-shadow: 0 4px 0 var(--gray-light); margin-bottom: 12px; color: var(--text); font-size: 1rem; }
 .option-btn:active { transform: translateY(2px); box-shadow: 0 2px 0 var(--gray-light); }
 
 #next-btn { font-size: 1.1rem; color: white; margin-top: 10px; font-size: 1.1rem; }
@@ -169,22 +177,38 @@ body {
 #next-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 rgba(0,0,0,0.2); }
 
 /* All other styles (Stage, Feedback, Flashcards, Fill, Match) remain exactly as in your reference */
-#stage { padding: 20px; text-align: center; overflow-y: auto; width: 100%; box-sizing: border-box; -webkit-overflow-scrolling: touch;}
+#stage { flex: 1; padding: 20px; padding-bottom: 150px; text-align: center; overflow-y: auto; width: 100%; box-sizing: border-box; -webkit-overflow-scrolling: touch;}
 #stage h2, #stage .concept-card, #stage div {
     user-select: text;
 }
 .progress-container { flex-grow: 1; height: 14px; background: var(--gray-light); border-radius: 10px; overflow: hidden; }
 #progress-bar { width: 0%; height: 100%; background: var(--success-green); transition: 0.4s; }
-#feedback-bar { position: absolute; bottom: 0; left: 0; right: 0; padding: 20px; transform: translateY(100%); transition: 0.3s; z-index: 100; visibility: hidden; }
+#feedback-bar { position: absolute; bottom: 0; left: 0; right: 0; padding: 20px; padding-bottom: calc(20px + env(safe-area-inset-bottom)); transform: translateY(100%); transition: 0.3s; z-index: 100; visibility: hidden; }
 #feedback-bar.show { transform: translateY(0); visibility: visible; }
-.correct { background: #d7ffb8; border-top: 4px solid #a5d6a7; color: #2d5a01; }
-.incorrect { background: #ffdfe0; border-top: 4px solid #ff9393; color: #911111; }
+.correct { background: #d7ffb8 !important; border-top: 4px solid #a5d6a7; color: #2d5a01; }
+.incorrect { background: #ffdfe0 !important; border-top: 4px solid #ff9393; color: #911111; }
 /* ... (Keep your Flashcard, Fill, and Match CSS from the bottom of your file) */
 
 .sort-pool { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; padding: 15px; min-height: 60px; background: #f9f9f9; border-radius: 15px; border: 2px dashed #ddd; margin-bottom: 20px; }
 .bucket-container { display: flex; gap: 10px; margin-bottom: 20px; }
-.sort-bucket { flex: 1; min-height: 100px; background: white; border: 2px solid #ddd; border-radius: 15px; padding: 8px; display: flex; flex-direction: column; gap: 5px; }
-.draggable-chip { padding: 8px 12px; background: white; border: 2px solid var(--gray-light); border-radius: 10px; cursor: grab; box-shadow: 0 3px 0 var(--gray-light); font-weight: 700; font-size: 0.8rem; }
+.sort-bucket { flex: 1; min-height: 120px; background: white; border: 2px solid #ddd; border-radius: 15px; padding: 10px; display: flex; flex-direction: column; gap: 5px; }
+.sort-bucket:active {
+    background-color: #f0f8ff;
+}
+.draggable-chip {
+    padding: 10px 15px;
+    background: white;
+    border: 2px solid var(--gray-light);
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 3px 0 var(--gray-light);
+    font-weight: 700;
+    font-size: 0.85rem;
+    transition: all 0.1s; /* Fast transition for snapping */
+    width: fit-content;
+    max-width: 90%;
+    margin: 0 auto;
+}
 
 .order-slot { min-height: 45px; border: 2px dashed #ddd; border-radius: 10px; margin-bottom: 5px; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold; }
 
