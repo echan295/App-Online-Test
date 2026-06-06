@@ -5,8 +5,8 @@ let currentModule = [];
 let currentIndex = 0;
 let xp = parseInt(localStorage.getItem('pathXP')) || 0;
 let currentActiveID = "";
-// let unlockedModules = JSON.parse(localStorage.getItem('pathUnlocked')) || ['0.1'];
-let unlockedModules = Object.keys(moduleContent); 
+let unlockedModules = JSON.parse(localStorage.getItem('pathUnlocked')) || ['0.1'];
+// let unlockedModules = Object.keys(moduleContent); 
 
 document.getElementById('xp-count').innerText = xp;
 
