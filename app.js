@@ -21,11 +21,27 @@ function formatText(rawText) {
                   .replace(/\n/g, '<br>');                
 }
 
+function applyWindingPath() {
+    const nodes = document.querySelectorAll('.path-node');
+    nodes.forEach((node, index) => {
+        // --- THE MATH ---
+        // index * 0.9: Controls how fast the wave turns (frequency)
+        // 80: Controls how far left/right the nodes go (amplitude)
+        const xOffset = Math.sin(index * 0.8) * 70; 
+        node.style.transform = `translateX(${xOffset}px)`;
+    });
+}
+
 function updateMapUI() {
     unlockedModules.forEach(id => {
         const node = document.getElementById(`node-${id}`);
-        if (node) { node.classList.remove('locked'); node.classList.add('unlocked'); }
+        if (node) { 
+            node.classList.remove('locked'); 
+            node.classList.add('unlocked'); 
+        }
     });
+    // Call the winding path logic
+    applyWindingPath();
 }
 updateMapUI();
 
@@ -82,6 +98,7 @@ function renderScreen() {
     const data = currentModule[currentIndex];
     const stage = document.getElementById('stage');
     if (!data) return;
+    stage.innerHTML = ''; 
     document.getElementById('feedback-bar').classList.remove('show');
     document.getElementById('progress-bar').style.width = (currentIndex / currentModule.length * 100) + "%";
 
@@ -116,12 +133,22 @@ function renderScreen() {
             <button id="verify-fill-btn" class="primary-btn" style="display:none; margin-top:20px;" onclick="verifyFill()">CHECK ANSWER</button>`;
     }
     else if (data.type === "sort") {
-        stage.innerHTML = `${reviewHeader}<h3>${formatText(data.question)}</h3>
-            <div id="sort-pool" class="sort-pool" ondrop="drop(event)" ondragover="allowDrop(event)">
-                ${shuffleArray([...data.items]).map((item, i) => `<div class="draggable-chip" draggable="true" ondragstart="drag(event)" id="drag-${i}" data-correct="${item.bucket}">${item.text}</div>`).join('')}
+        window.selectedChip = null;
+        stage.innerHTML = `
+            ${reviewHeader}<h3>${formatText(data.question)}</h3>
+            <div id="sort-pool" class="sort-pool">
+                ${shuffleArray([...data.items]).map((item, i) => `
+                    <div class="draggable-chip" id="chip-${i}" onclick="selectChip(this)" data-correct="${item.bucket}">${item.text}</div>
+                `).join('')}
             </div>
-            <div class="bucket-container">${data.buckets.map((b, i) => `<div class="sort-bucket" ondrop="drop(event)" ondragover="allowDrop(event)" data-id="${i}"><span>${b}</span></div>`).join('')}</div>
-            <button class="primary-btn" onclick="verifySort()">CHECK ANSWER</button>`;
+            <div class="bucket-container">
+                ${data.buckets.map((b, i) => `
+                    <div class="sort-bucket" onclick="placeInBucket(this)" data-id="${i}">
+                        <span class="unit-tag" style="position:static; font-size:0.6rem;">${b}</span>
+                    </div>
+                `).join('')}
+            </div>
+            <button id="verify-sort-btn" class="primary-btn" style="display:none;" onclick="verifySort()">CHECK ANSWER</button>`;
     }
     else if (data.type === "order") {
         window.userOrder = [];
@@ -164,6 +191,25 @@ function verifySort() {
     if (placed < data.items.length) return alert("Sort all items!");
     if (correct) showFeedback(true, "✨ Correct!", data.explanation);
     else { addToMistakes(data); showFeedback(false, "❌ Not Quite", data.explanation); }
+}
+
+function selectChip(el) {
+    document.querySelectorAll('.draggable-chip').forEach(c => c.style.borderColor = "var(--gray-light)");
+    el.style.borderColor = "var(--blue)";
+    window.selectedChip = el;
+}
+
+function placeInBucket(bucketEl) {
+    if (!window.selectedChip) return;
+    bucketEl.appendChild(window.selectedChip);
+    window.selectedChip.style.borderColor = "var(--gray-light)";
+    window.selectedChip = null;
+    
+    // Show check button if pool is empty
+    const pool = document.getElementById('sort-pool');
+    if (pool.children.length === 0) {
+        document.getElementById('verify-sort-btn').style.display = "block";
+    }
 }
 
 function handleOrderTap(val, idx) {
@@ -274,7 +320,21 @@ function showFeedback(corr, title, msg) {
     if (corr) { xp += 10; updateXP(); }
 }
 
-document.getElementById('next-btn').onclick = () => { currentIndex++; if (currentIndex < currentModule.length) renderScreen(); else finishModule(); };
+document.getElementById('next-btn').onclick = () => {
+    // 1. Instantly hide the feedback bar so it doesn't "ghost" onto the next slide
+    const bar = document.getElementById('feedback-bar');
+    bar.classList.remove('show');
+    
+    // 2. Small delay or instant clear to ensure the UI resets
+    currentIndex++; 
+    if (currentIndex < currentModule.length) {
+        // 3. Reset scroll position to top for the next question
+        document.getElementById('stage').scrollTop = 0;
+        renderScreen(); 
+    } else {
+        finishModule(); 
+    }
+};
 
 function finishModule() {
     document.getElementById('feedback-bar').classList.remove('show');
