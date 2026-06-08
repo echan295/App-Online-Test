@@ -80,7 +80,7 @@ function startModule(id) {
         }
     });
 
-    if (["0.", "1."].some(prefix => id.startsWith(prefix))) {
+    if (["0.", "1.", "2.", "3.", "4.", "5."].some(prefix => id.startsWith(prefix))) {
         currentModule = raw;
     } else {
         let concepts = raw.filter(i => i.type === "concept");

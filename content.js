@@ -1301,6 +1301,9066 @@ const moduleContent = {
                 ],
                 explanation: ""
             }
+        ],
+        next: "2.1.1"
+    },
+
+    // CHAPTER 2
+    // UNIT 1
+    "2.1.1": {
+        title: "The Cell Under Stress ⚡",
+        objectives: ["Master the concept of cellular homeostasis and the timeline of how cells progressively react to persistent stress and injury."],
+        data: [
+            {
+                type: "concept",
+                title: "Homeostasis",
+                text: "Every normal cell is confined to a narrow range of function and structure. By balancing its metabolic needs with its environment, it maintains a healthy, stable steady state called **Homeostasis**.",
+                subtext: "In this state, the cell handles normal physiologic demands based on its specialization and the constraints of its neighbors.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "What is the healthy, baseline steady state of a normal cell called?", 
+                options: ["Derangement", "Homeostasis", "Impairment", "Necrosis", "Apoptosis"], 
+                answer: 1, 
+                explanation: "Homeostasis is the physiological steady state where the cell maintains a balance between internal needs and external environmental pressures." 
+            },
+            {
+                type: "concept",
+                title: "Adaptation",
+                text: "When a cell faces stress, it **adapts**. Adaptations are functional and structural responses to changes in physiologic states or pathologic stimuli.",
+                subtext: "By adapting, the cell achieves a new, altered steady state that allows it to survive and continue functioning despite the stress.",
+                buttonText: "Is it permanent?"
+            },
+            { 
+                type: "mcq", 
+                question: "If a stress is eliminated, an adapted cell is permanently stuck in its altered state and cannot return to normal.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Adaptations are reversible; the cell returns to its original homeostasis once the injurious or stressful stimulus is removed." 
+            },
+            {
+                type: "concept",
+                title: "Crossing the Line - Cell Injury",
+                text: "Adaptation has its limits. If the limits of adaptive responses are exceeded, or if cells are exposed to damaging insults, a sequence of events follows termed **Cell Injury**.",
+                subtext: "Cell injury can also be triggered by nutrient deprivation or mutations that affect essential cellular functions.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "If the limits of adaptive responses are ____________, the cell enters a state of cell injury.",
+                options: ["Eliminated", "Exceeded", "Maintained", "Decreased"],
+                answer: 1,
+                explanation: "Cell injury begins when the stress level surpasses the cell's ability to maintain a functional steady state through adaptation.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Progression Timeline",
+                text: "Cell injury is a stage of progressive impairment. It starts out as reversible, but if the stimulus is persistent or severe, the cell crosses a 'point of no return'.",
+                subtext: "The progression follows a specific timeline: Adaptation ➔ Reversible Injury ➔ Irreversible Injury ➔ Cell Death.",
+                buttonText: "Got it!"
+            },
+            { 
+                type: "order", 
+                question: "Arrange the stages of progressive cellular impairment in the correct order.", 
+                items: ["Adaptation", "Reversible Injury", "Irreversible Injury", "Cell Death"], 
+                explanation: "This sequence represents the worsening of cellular health as the injurious stimulus persists or intensifies." 
+            },
+            {
+                type: "concept",
+                title: "Clinical Correlation: The Heart 🫀",
+                text: "Consider the heart muscle: Increased workload (like high blood pressure) causes the heart to enlarge (Adaptation). This larger size increases metabolic demands.",
+                subtext: "If the blood supply becomes inadequate, the muscle first suffers reversible injury before progressing to irreversible injury and death.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "In the heart example, what happens if the blood supply to the enlarged heart becomes inadequate?", 
+                options: [
+                    "It immediately undergoes cell death", 
+                    "It first suffers reversible injury", 
+                    "It instantly returns to normal homeostasis"
+                ], 
+                answer: 1, 
+                explanation: "Cellular damage is progressive; the cell first undergoes reversible changes. Only if the blood supply is not restored does it cross into irreversible injury and death." 
+            }
+        ]
+    },
+    "2.1.2": {
+        title: "Causes of Cell Injury ⚠️",
+        objectives: ["Master the seven broad categories of injurious stimuli that can cause a cell to undergo injury or death."],
+        data: [
+            {
+                type: "concept",
+                title: "The 7 Culprits",
+                text: "A cell can be injured by factors ranging from massive mechanical trauma to microscopic genetic mutations. These are grouped into 7 broad categories.",
+                subtext: "The categories are: Oxygen Deprivation, Physical Agents, Chemical Agents, Infectious Agents, Immunologic Reactions, Genetic Abnormalities, and Nutritional Imbalances.",
+                buttonText: "Let's investigate"
+            },
+            {
+                type: "concept",
+                title: "1. Oxygen Deprivation",
+                text: "**Hypoxia** (oxygen deficiency) is an extremely common cause of cell injury. It interferes with aerobic oxidative respiration.",
+                subtext: "Causes include Ischemia (reduced blood flow), cardiorespiratory failure, or decreased oxygen-carrying capacity (as seen in anemia or carbon monoxide poisoning).",
+                buttonText: "Hypoxia vs Ischemia"
+            },
+            {
+                type: "fill",
+                question: "While hypoxia is a general lack of oxygen, ____________ refers specifically to hypoxia caused by reduced blood flow.",
+                options: ["Anemia", "Ischemia", "Trauma", "Stasis"],
+                answer: 1,
+                explanation: "Ischemia is the loss of blood supply in a tissue due to impeded arterial flow or reduced venous drainage. It is the most common cause of hypoxia in clinical settings.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "2. Physical & 3. Chemical Agents",
+                text: "**Physical agents** include mechanical trauma, extreme temperatures, radiation, and electric shock.\n\n**Chemical agents** include known poisons (like cyanide), environmental pollutants, and therapeutic drugs.",
+                subtext: "Even simple substances like glucose, salt, or oxygen can cause injury if administered in toxic, hypertonic concentrations.",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "Simple, everyday substances like glucose, salt, and oxygen are completely harmless and cannot cause cell injury.",
+                options: ["True", "False"],
+                answer: 1,
+                explanation: "In excessively high concentrations, substances like glucose and salt can derange fluid and electrolyte balance, leading to cellular injury."
+            },
+            {
+                type: "concept",
+                title: "4. Infectious & 5. Immunologic",
+                text: "**Infectious agents** range from submicroscopic viruses to large parasites like tapeworms.\n\n**Immunologic reactions** include defensive responses that cause damage (e.g., allergies) or the failure to recognize 'self'.",
+                subtext: "When the immune system attacks endogenous antigens, it leads to autoimmune diseases.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "mcq",
+                question: "When the immune system mistakenly attacks the body's own normal cells, this is known as a(n):",
+                options: [
+                    "Allergic reaction",
+                    "Autoimmune disease",
+                    "Infection",
+                    "Ischemic event",
+                    "Toxic reaction"
+                ],
+                answer: 1,
+                explanation: "Autoimmune diseases occur when the immune system fails to maintain self-tolerance and attacks the body's own tissues."
+            },
+            {
+                type: "concept",
+                title: "6. Genetic Abnormalities",
+                text: "Genetic defects range from gross chromosomal abnormalities (like Down syndrome) to single base pair substitutions (like Sickle cell anemia).",
+                subtext: "These defects may result in deficient proteins, misfolded proteins, or damaged DNA that cannot be repaired.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "7. Nutritional Imbalances",
+                text: "Nutritional deficiencies (protein or vitamin shortages) are major causes of injury. Conversely, **Nutritional Excess** is equally significant.",
+                subtext: "Excesses such as obesity and high-lipid diets are major risk factors for atherosclerosis and cardiovascular disease.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "match",
+                question: "Time to play detective! Match the specific cause of injury to its broad category.",
+                pairs: [
+                    { left: "Ischemia", right: "Oxygen Deprivation" },
+                    { left: "Extreme Cold", right: "Physical Agents" },
+                    { left: "Tapeworm", right: "Infectious Agents" },
+                    { left: "Sickle Cell Anemia", right: "Genetic Abnormalities" },
+                    { left: "Obesity", right: "Nutritional Imbalances" }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "2.2.1"
+    },
+
+    // UNIT 2
+    "2.2.1": {
+        title: "The Power Outage (ATP Depletion) 🔋",
+        objectives: ["Master the role of mitochondria, how ATP depletion occurs, and the disastrous domino effect that happens when a cell loses its energy supply."],
+        data: [
+            {
+                type: "concept",
+                title: "The Arbiter of Life and Death",
+                text: "Mitochondria are the cell's power plants, producing life-sustaining ATP. Because of this, they are the ultimate arbiters of cell life and death!",
+                subtext: "They are highly sensitive to injury. Increases in calcium, lack of oxygen (hypoxia), and toxins can all damage the mitochondria and trigger cell death.",
+                buttonText: "How is ATP made?"
+            },
+            {
+                type: "concept",
+                title: "ATP Production",
+                text: "Cells make ATP in two ways:\n\n" +
+                    "1. **Oxidative Phosphorylation:** Uses oxygen in the mitochondria (high yield).\n" +
+                    "2. **Glycolysis:** Uses glucose without oxygen (low yield).",
+                subtext: "If a cell loses its oxygen supply (ischemia/hypoxia) or is exposed to toxins like cyanide, oxidative phosphorylation fails, leading to severe ATP depletion.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "When mitochondria are damaged, a high-conductance channel opens in their membrane called the Mitochondrial Permeability Transition ____________.",
+                options: ["Tube", "Pore", "Valve", "Gate"],
+                answer: 1,
+                explanation: "The opening of this pore ruins the mitochondrial membrane potential, stopping ATP production and ultimately leading to necrosis.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The 5% Danger Zone",
+                text: "ATP is required for virtually everything: membrane transport, making proteins, and building lipids.",
+                subtext: "When ATP levels drop to just 5% to 10% of normal, a massive, cell-wide crisis begins across three major systems.",
+                buttonText: "See Disaster 1"
+            },
+            {
+                type: "concept",
+                title: "Disaster 1: Cell Swelling",
+                text: "ATP powers the **Na+/K+ pump** on the cell membrane. Without ATP, the pump fails and Sodium (Na+) accumulates inside the cell.",
+                subtext: "Where sodium goes, water follows. This osmotic pull causes severe cell swelling (edema) and ER dilation.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "When the ATP-dependent sodium pump fails, what causes the cell to swell?", 
+                options: [
+                    "Water leaves the cell to follow potassium", 
+                    "Sodium enters the cell, dragging water in with it", 
+                    "The mitochondria expand and fill with glucose"
+                ], 
+                answer: 1, 
+                explanation: "Intracellular sodium accumulation drives osmotic water gain, which results in cellular swelling."
+            },
+            {
+                type: "concept",
+                title: "Disaster 2: Lactic Acidosis",
+                text: "When mitochondria fail, the cell switches to anaerobic glycolysis to generate emergency ATP from glycogen.",
+                subtext: "Glycolysis produces **Lactic Acid** as a byproduct. This buildup lowers intracellular pH, which inhibits many essential cellular enzymes.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Because the starving cell relies on glycolysis to survive, its intracellular glycogen stores rapidly increase.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Glycogen stores are rapidly depleted because the cell is burning through its glucose reserves to maintain ATP production." 
+            },
+            {
+                type: "concept",
+                title: "Disaster 3: Factory Shutdown",
+                text: "Prolonged ATP depletion causes the cell's structural scaffolding to break down, leading to the detachment of ribosomes from the rough ER.",
+                subtext: "This results in a severe reduction in protein synthesis and an increase in toxic, misfolded proteins.",
+                buttonText: "The Final Blow"
+            },
+            {
+                type: "match",
+                question: "The power is out! Match the cellular system failure to its direct consequence.",
+                pairs: [
+                    { left: "Na+/K+ Pump Failure", right: "Cellular Swelling" },
+                    { left: "Shift to Glycolysis", right: "Lactic Acid buildup & pH drop" },
+                    { left: "Ribosome Detachment", right: "Decreased Protein Synthesis" }
+                ],
+                explanation: ""
+            },
+            {
+                type: "concept",
+                title: "The Final Blow",
+                text: "If the power is not restored, irreversible damage occurs. Mitochondrial and lysosomal membranes eventually rupture, leading to necrosis.",
+                subtext: "Damaged mitochondria also leak ROS and pro-apoptotic proteins like BAX and BAK, triggering cell death.",
+                buttonText: "Finish Lesson"
+            }
+        ]
+    },
+    "2.2.2": {
+        title: "The Calcium Flood 🌊",
+        objectives: ["Master how calcium is normally regulated in the cell and the destructive mechanisms triggered when too much calcium floods the cytoplasm."],
+        data: [
+            {
+                type: "concept",
+                title: "The Sleeping Giant",
+                text: "Calcium (Ca²⁺) is a vital second messenger for cell signaling, but excess cytosolic calcium is a major cause of cell injury.",
+                subtext: "Normally, free calcium in the cytosol is kept at extremely low levels. Most intracellular calcium is sequestered inside the Mitochondria and the Endoplasmic Reticulum (ER).",
+                buttonText: "How is it kept low?"
+            },
+            { 
+                type: "mcq", 
+                question: "In a healthy cell, the free calcium concentration floating around in the cytosol is naturally kept very high.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Cytosolic calcium is actively maintained at low levels. It is primarily stored outside the cell or sequestered within internal organelles like the ER and mitochondria." 
+            },
+            {
+                type: "concept",
+                title: "The Floodgates Open",
+                text: "Ischemia and certain toxins cause cytosolic calcium levels to spike in two distinct phases.",
+                subtext: "First, calcium is released from internal stores (ER and mitochondria). Second, massive amounts of calcium influx across the plasma membrane from the extracellular space.",
+                buttonText: "Where is the first wave?"
+            },
+            { 
+                type: "mcq", 
+                question: "During cell injury, where does the initial wave of excess cytosolic calcium come from?", 
+                options: [
+                    "It is newly synthesized by the nucleus", 
+                    "It is released from intracellular stores (ER and mitochondria)", 
+                    "It rushes in from outside the plasma membrane"
+                ], 
+                answer: 1, 
+                explanation: "The initial rise in cytosolic calcium is caused by the breakdown of internal storage sequestering in the mitochondria and endoplasmic reticulum."
+            },
+            {
+                type: "concept",
+                title: "Mitochondrial Ruin",
+                text: "Excess cytosolic calcium forces open the mitochondrial permeability transition pore.",
+                subtext: "This opening ruins the membrane potential and stops the generation of ATP, furthering the energy crisis of the injured cell.",
+                buttonText: "What else does it do?"
+            },
+            {
+                type: "concept",
+                title: "Rogue Enzymes",
+                text: "High calcium levels improperly activate a variety of destructive cellular enzymes that can damage the cell's structural and genetic components.",
+                subtext: "",
+                buttonText: "Meet the enzymes"
+            },
+            {
+                type: "match",
+                question: "Match the rogue enzyme activated by Calcium to the specific destruction it causes.",
+                pairs: [
+                    { left: "Phospholipases", right: "Destroy the cell membrane lipids." },
+                    { left: "Proteases", right: "Break down cytoskeletal proteins." },
+                    { left: "Endonucleases", right: "Fragment DNA and chromatin." },
+                    { left: "ATPases", right: "Hasten the depletion of ATP." }
+                ],
+                explanation: ""
+            },
+            {
+                type: "fill",
+                question: "When excessive calcium activates ____________, the cell's genetic material (DNA and chromatin) gets fragmented and destroyed.",
+                options: ["ATPases", "Endonucleases", "Phospholipases", "Polymerases"],
+                answer: 1,
+                explanation: "Endonucleases are enzymes that cleave the phosphodiester bond within a polynucleotide chain, leading to DNA fragmentation during cell injury.",
+                buttonText: "Continue"
+            }
+        ]
+    },
+    "2.2.3": {
+        title: "The Radical Threat (ROS & Oxidative Stress) 🔥",
+        objectives: ["Master what free radicals are, how the cell defends against them, and the three main cellular targets they destroy during oxidative stress."],
+        data: [
+            {
+                type: "concept",
+                title: "The Angry Unpaired Electron",
+                text: "Free Radicals are highly reactive chemical species that have a single unpaired electron in their outer orbit.",
+                subtext: "Because they are missing an electron, they are unstable and attack adjacent molecules to steal one. Reactive Oxygen Species (ROS) are the most common type of free radical in biology.",
+                buttonText: "Are they always bad?"
+            },
+            { 
+                type: "mcq", 
+                question: "Free radicals are only produced during diseases and have no normal physiological function.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Normal mitochondrial respiration produces small amounts of ROS as a byproduct. Additionally, activated white blood cells (leukocytes) intentionally produce ROS to destroy invading microbes." 
+            },
+            {
+                type: "concept",
+                title: "Sources of ROS",
+                text: "ROS are generated by normal metabolism, absorption of radiant energy (UV light, X-rays), and inflammation.",
+                subtext: "Transition metals like Iron and Copper can catalyze these reactions. For example, Iron drives the **Fenton reaction**, which creates highly reactive hydroxyl radicals.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "To prevent ROS generation, transition metals like iron and ____________ are normally bound to storage and transport proteins like ferritin and transferrin.",
+                options: ["Calcium", "Copper", "Sodium", "Potassium"],
+                answer: 1,
+                explanation: "Free iron and copper are dangerous catalysts for radical formation. The cell sequesters them in proteins to prevent them from participating in redox reactions that generate ROS.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Defense System",
+                text: "When free radical production exceeds the cell's ability to clear them, the cell enters a state of **Oxidative Stress**.",
+                subtext: "To prevent this, the cell uses a defense army of antioxidants (Vitamins A, E, and C) and specific detoxifying enzymes.",
+                buttonText: "Meet the enzymes"
+            },
+            {
+                type: "match",
+                question: "Match the cell's defensive enzyme to its specific function.",
+                pairs: [
+                    { left: "Catalase", right: "Found in peroxisomes; breaks down hydrogen peroxide (H₂O₂)." },
+                    { left: "Superoxide Dismutase", right: "Converts superoxide to H₂O₂." },
+                    { left: "Glutathione Peroxidase", right: "Uses GSH to catalyze free radical breakdown." }
+                ],
+                explanation: "These enzymes work in sequence to neutralize reactive species before they can damage cellular components."
+            },
+            {
+                type: "concept",
+                title: "The 3 Targets of Destruction",
+                text: "If the defense system is overwhelmed, ROS run wild. They specifically attack three major cellular targets: **Lipids, Proteins, and DNA**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "sort",
+                question: "Match the cellular target to the specific damage caused by free radicals.",
+                buckets: ["Membrane Lipids", "Proteins", "DNA"],
+                items: [
+                    { text: "Peroxidation (causes an autocatalytic chain reaction).", bucket: 0 },
+                    { text: "Oxidation and cross-linking (causes misfolding).", bucket: 1 },
+                    { text: "Single and double-strand breaks (causes mutations).", bucket: 2 }
+                ],
+                explanation: ""
+            },
+            { 
+                type: "mcq", 
+                question: "When ROS attack the unsaturated fatty acids of the cell membrane (Lipid Peroxidation), what makes this process especially destructive?", 
+                options: [
+                    "It immediately shuts down the mitochondria", 
+                    "It yields unstable peroxides that trigger a continuous, autocatalytic chain reaction", 
+                    "It causes the cell to safely undergo apoptosis"
+                ], 
+                answer: 1, 
+                explanation: "This process is known as propagation. The interaction of reactive species with membrane lipids generates new radicals, creating a self-sustaining cycle of membrane destruction."
+            }
+        ]
+    },
+    "2.2.4": {
+        title: "Bursting the Bubble (Membrane Damage) 🫧",
+        objectives: ["Master the four mechanisms that destroy cellular membranes and the specific disasters that occur when the plasma, mitochondrial, and lysosomal membranes rupture."],
+        data: [
+            {
+                type: "concept",
+                title: "The Universal Feature",
+                text: "A cell is only as strong as its walls. The early loss of selective membrane permeability is a consistent feature of almost all forms of cell injury.",
+                subtext: "One major exception is **Apoptosis** (programmed cell death), where the plasma membrane remains intact while the cell is neatly dismantled.",
+                buttonText: "Is it always damaged?"
+            },
+            { 
+                type: "mcq", 
+                question: "Severe membrane damage and rupture is a consistent feature of ALL types of cell death, including apoptosis.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Membrane damage is a hallmark of necrosis and severe injury, but during apoptosis, the membrane remains intact to prevent the leakage of cellular contents into the surrounding tissue." 
+            },
+            {
+                type: "concept",
+                title: "How membranes break",
+                text: "While membranes can be damaged directly by toxins, four major internal biochemical mechanisms drive their destruction:\n\n" +
+                    "1. **ROS** (Lipid Peroxidation)\n" +
+                    "2. **Decreased Phospholipid Synthesis**\n" +
+                    "3. **Increased Phospholipid Breakdown**\n" +
+                    "4. **Cytoskeletal Abnormalities**",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Making new membrane lipids requires energy. Therefore, hypoxia reduces the production of ____________, which starves the cell of the energy needed to synthesize new phospholipids.",
+                options: ["Calcium", "ATP", "ROS", "Protein"],
+                answer: 1,
+                explanation: "Without ATP, the cell's synthetic pathways fail, preventing the replacement of damaged or degraded membrane lipids.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Detergent Effect",
+                text: "High cytosolic calcium activates phospholipases that aggressively break down membrane lipids.",
+                subtext: "This process creates toxic lipid byproducts, such as free fatty acids, which act like detergents that insert into the lipid bilayer and destroy its permeability.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "The membrane is normally anchored to the inside of the cell. What happens when high calcium levels activate proteases?", 
+                options: [
+                    "They strengthen the anchors to prevent swelling", 
+                    "They damage the cytoskeletal tethers, causing the membrane to detach and rupture", 
+                    "They convert the anchors into ATP"
+                ], 
+                answer: 1, 
+                explanation: "Proteases cleave the cytoskeletal elements that support the plasma membrane. In a swelling cell, this detachment makes the membrane more susceptible to stretching and rupture."
+            },
+            {
+                type: "concept",
+                title: "Location, Location, Location",
+                text: "The consequences of membrane damage depend on which membrane is affected.",
+                subtext: "Rupture of the plasma, mitochondrial, or lysosomal membranes each leads to a specific cellular disaster.",
+                buttonText: "See the disasters"
+            },
+            {
+                type: "sort",
+                question: "Match the damaged membrane to the specific disaster it causes.",
+                buckets: ["Plasma Membrane", "Mitochondrial Membrane", "Lysosomal Membrane"],
+                items: [
+                    { text: "Loss of osmotic balance and leakage of cellular contents.", bucket: 0 },
+                    { text: "Opens the transition pore and releases apoptotic proteins.", bucket: 1 },
+                    { text: "Leaks acid hydrolases that digest the cell from the inside.", bucket: 2 }
+                ],
+                explanation: ""
+            },
+            { 
+                type: "mcq", 
+                question: "When the lysosomal membrane ruptures, it dumps enzymes like RNases and proteases into the cytoplasm. What is the ultimate fate of the cell?", 
+                options: [
+                    "It undergoes controlled apoptosis", 
+                    "It successfully adapts and recovers", 
+                    "It is enzymatically digested and enters necrosis"
+                ], 
+                answer: 2, 
+                explanation: "Lysosomes contain acid hydrolases intended for controlled digestion. When these leak into the cytoplasm, they trigger the unregulated enzymatic digestion of the entire cell (necrosis)."
+            }
+        ]
+    },
+        "2.2.5": {
+        title: "The Factory Glitch (Misfolded Proteins) 🪲",
+        objectives: ["Master how the Endoplasmic Reticulum (ER) handles misfolded proteins, the Unfolded Protein Response (UPR), and why a broken quality control system triggers cell suicide."],
+        data: [
+            {
+                type: "concept",
+                title: "The Quality Control Department",
+                text: "The cell’s Endoplasmic Reticulum (ER) is a massive protein factory. To ensure proteins fold into the correct 3D shape, the ER uses helper proteins called **Chaperones**.",
+                subtext: "Incorrectly folded proteins are exported to the cytoplasm, tagged with **ubiquitin**, and shredded by a disposal unit called the **Proteasome**.",
+                buttonText: "Got it!"
+            },
+            { 
+                type: "mcq", 
+                question: "In a healthy cell, misfolded proteins are permanently stored in the nucleus.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Misfolded proteins are immediately shuttled to the cytoplasm to be degraded by the proteasome, preventing toxic accumulation within the factory." 
+            },
+            {
+                type: "concept",
+                title: "The Unfolded Protein Response (UPR)",
+                text: "If misfolded proteins accumulate faster than they can be cleared, the cell triggers the **Unfolded Protein Response (UPR)**.",
+                subtext: "This is a cytoprotective reaction that attempts to restore cellular homeostasis by reducing the load of misfolded proteins.",
+                buttonText: "How does it fix it?"
+            },
+            {
+                type: "match",
+                question: "The UPR has three emergency protocols to save the cell. Match the action to its intended goal.",
+                pairs: [
+                    { left: "Increase Chaperones", right: "Help fold more proteins correctly." },
+                    { left: "Enhance Degradation", right: "Shred existing bad proteins faster." },
+                    { left: "Slow Translation", right: "Stop making new proteins until the backlog is cleared." }
+                ],
+                explanation: ""
+            },
+            {
+                type: "concept",
+                title: "ER Stress: The Nuclear Option",
+                text: "If the UPR cannot cope with the protein backlog, the cell enters a state of **ER Stress**.",
+                subtext: "In this state, the cell activates executioner enzymes called **caspases** and induces **Apoptosis** (programmed cell death).",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "When the accumulation of misfolded proteins is so severe that the UPR fails, what is the ultimate fate of the cell?", 
+                options: [
+                    "It undergoes uncontrolled necrosis", 
+                    "It activates caspases and induces apoptosis", 
+                    "It indefinitely pauses all functions and waits"
+                ], 
+                answer: 1, 
+                explanation: "Severe ER stress leads the cell to initiate a controlled shutdown via apoptosis to prevent the damage from affecting surrounding tissues."
+            },
+            {
+                type: "concept",
+                title: "Why does the factory glitch?",
+                text: "Protein misfolding can be caused by genetic mutations, viral infections, or the natural decline of repair capacity during aging.",
+                subtext: "This mechanism is heavily linked to neurodegenerative diseases and the failure of secretory cells, such as insulin-producing cells in the pancreas.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Because foldases require ____________, oxygen deprivation (hypoxia) and glucose deprivation can increase the burden of misfolded proteins.",
+                options: ["ATP", "Calcium", "ROS", "Iron"],
+                answer: 0,
+                explanation: "Protein folding is an energy-dependent process. A lack of ATP halts chaperone function, leading to a massive accumulation of misfolded proteins.",
+                buttonText: "Continue"
+            }
+        ],
+        next: "2.3.1"
+    },
+
+    // UNIT 3
+    "2.3.1": {
+        title: "Reversible Injury - The Warning Signs 🔄",
+        objectives: ["Master the early, correctable warning signs of cell injury, including cellular swelling, fatty change, and key microscopic/ultrastructural alterations."],
+        data: [
+            {
+                type: "concept",
+                title: "The Fork in the Road",
+                text: "When a cell is injured, it reaches a fork in the road. In the early stages, or during mild injury, the cell undergoes **Reversible Injury**.",
+                subtext: "These functional and structural alterations are completely correctable if the damaging stimulus is removed before the cell crosses the point of no return.",
+                buttonText: "Can we go back?"
+            },
+            { 
+                type: "mcq", 
+                question: "Reversible cell injury involves permanent structural damage that cannot be fixed, even if the harmful stress is taken away.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "If the damaging stimulus is removed early enough, the cell can repair the damage and return to normal homeostasis." 
+            },
+            {
+                type: "concept",
+                title: "Warning Sign #1: The Swelling Cell",
+                text: "The earliest and most universal manifestation of cell injury is **Cellular Swelling**.",
+                subtext: "When ATP levels drop, the Na+/K+ pump fails. Sodium and water rush into the cell, causing it and its organelles to swell. A swollen organ typically becomes heavy, pale, and turgid.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Because this pattern of nonlethal injury looks like tiny clear vacuoles of water, pathologists often call it vacuolar degeneration or ____________ change.",
+                options: ["Hydropic", "Necrotic", "Apoptotic", "Lipid"],
+                answer: 0,
+                explanation: "Hydropic change refers to the cellular accumulation of water due to the failure of energy-dependent ion pumps in the plasma membrane.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Under the Microscope: H&E Stain 🔬",
+                text: "Healthy cytoplasm often has a purple/blue tint (basophilia) because its RNA binds the blue Hematoxylin dye.",
+                subtext: "In reversible injury, the cell loses RNA. Without RNA to bind the blue dye, the cytoplasm binds more Eosin and becomes noticeably more **Red (Eosinophilic)**.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Why does the cytoplasm of an injured cell appear more red/eosinophilic under an H&E stain?", 
+                options: [
+                    "It produces too much red blood", 
+                    "It loses RNA, which normally binds the blue dye", 
+                    "It absorbs more water from the outside"
+                ], 
+                answer: 1, 
+                explanation: "As RNA is lost from the cytoplasm and proteins are denatured, the cell loses its affinity for basic dyes (Hematoxylin) and binds more acidic dyes (Eosin)."
+            },
+            {
+                type: "concept",
+                title: "Warning Sign #2: Fatty Change",
+                text: "In organs that actively metabolize lipids, such as the liver, toxic injury often causes **Fatty Change**.",
+                subtext: "Injury disrupts metabolic pathways, leading to the accumulation of triglyceride-filled lipid vacuoles inside the cytoplasm.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Zooming In: Electron Microscopy",
+                text: "Electron Microscopy (EM) reveals ultrastructural changes in a reversibly injured cell:\n\n" +
+                    "• **Plasma Membrane:** Blebbing and loss of microvilli.\n" +
+                    "• **Mitochondria:** Swelling and small amorphous densities.\n" +
+                    "• **ER:** Dilation and ribosome detachment.\n" +
+                    "• **Nucleus:** Chromatin clumping.",
+                subtext: "You may also see 'myelin figures'—swirled phospholipid masses derived from damaged membranes.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "sort",
+                question: "Match the organelle to its classic reversible injury warning sign.",
+                buckets: ["Plasma Membrane", "Endoplasmic Reticulum", "Nucleus", "Cytosol"],
+                items: [
+                    { text: "Blebbing and loss of microvilli.", bucket: 0 },
+                    { text: "Dilation and ribosome detachment.", bucket: 1 },
+                    { text: "Clumping of chromatin.", bucket: 2 },
+                    { text: "Accumulation of 'myelin figures'.", bucket: 3 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+        "2.3.2": {
+        title: "Irreversible Injury - The Point of No Return 🚫",
+        objectives: ["Master the defining hallmarks of irreversible cell injury and the clinical importance of leaky membranes as the cell crosses the threshold toward necrosis."],
+        data: [
+            {
+                type: "concept",
+                title: "Crossing the Threshold",
+                text: "If an injurious stimulus is too severe or lasts too long, the cell hits the **Point of No Return** and enters **Irreversible Injury**.",
+                subtext: "Once this line is crossed, the cell is destined to die (usually by necrosis). Even if the stress is removed or oxygen is restored, the cell cannot be saved.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "If a cell has suffered irreversible injury due to ischemia, rapidly restoring its blood supply will allow it to heal and return to normal.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Once the point of no return is crossed, the damage is permanent. Restoring blood flow or nutrients cannot repair the profound structural and functional failures of the cell." 
+            },
+            {
+                type: "concept",
+                title: "The Two Hallmarks",
+                text: "Pathologists define irreversible injury by two key phenomena:\n\n" +
+                    "1. **Mitochondrial dysfunction:** The ATP factory is permanently broken.\n" +
+                    "2. **Membrane dysfunction:** The cellular and organellar walls are fundamentally compromised.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "The massive opening of the mitochondrial permeability transition ____________ causes a permanent loss of membrane potential, stopping ATP production forever.",
+                options: ["Pore", "Pump", "Vesicle", "Bleb"],
+                answer: 0,
+                explanation: "The permanent opening of this high-conductance channel in the inner mitochondrial membrane prevents the generation of the proton gradient necessary for ATP synthesis.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Clinical Correlation: Leaky Membranes 🩺",
+                text: "When the plasma membrane is profoundly damaged, intracellular contents leak into the bloodstream. This is a critical diagnostic tool in clinical medicine.",
+                subtext: "For example, when heart muscle cells undergo irreversible injury (myocardial infarction), the protein **Troponin** leaks through broken membranes and can be detected in a blood test.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "A patient has elevated levels of liver enzymes (AST/ALT) in their blood. What does this suggest about their liver cells?", 
+                options: [
+                    "The liver cells are undergoing healthy adaptation", 
+                    "The liver cells have suffered irreversible membrane damage and are leaking", 
+                    "The liver cells are multiplying too quickly"
+                ], 
+                answer: 1, 
+                explanation: "Intracellular enzymes detected in the blood are a clinical indicator that cell membranes have ruptured, releasing their contents into the systemic circulation." 
+            },
+            {
+                type: "concept",
+                title: "The Lysosomal Acid Bath",
+                text: "Rupture of lysosomal membranes dumps highly destructive acid hydrolases (RNases, DNases, proteases) into the cytoplasm.",
+                subtext: "This results in the enzymatic digestion of the cell from the inside out, leading directly to the morphology of necrosis.",
+                buttonText: "Finish Lesson"
+            }
+        ]
+    },
+
+    // UNIT 4
+    "2.4.1": {
+        title: "Introduction to Necrosis (The Messy Death) 💥",
+        objectives: ["Master the mechanisms of necrotic cell death, the role of DAMPs and inflammation, clinical biomarkers, and the hallmark microscopic changes of the cytoplasm and nucleus."],
+        data: [
+            {
+                type: "concept",
+                title: "The Messy Death",
+                text: "Unlike controlled cell suicide (apoptosis), **Necrosis** is a messy, pathologic process resulting from severe injury such as ischemia, toxins, or burns.",
+                subtext: "It is characterized by the denaturation of cellular proteins, severe membrane leakage, and the enzymatic digestion of the lethally injured cell.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Ringing the Alarm: DAMPs",
+                text: "When a necrotic cell's membrane ruptures, it spills molecules that are normally hidden inside. These are called **Damage-Associated Molecular Patterns (DAMPs)**.",
+                subtext: "Examples include ATP (from broken mitochondria) and Uric Acid (from broken DNA). They act as biochemical alarms for the immune system.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "When macrophages detect spilled DAMPs, what host reaction do they trigger to clean up the dead necrotic cells?", 
+                options: ["Adaptation", "Inflammation", "Homeostasis"], 
+                answer: 1, 
+                explanation: "Necrosis triggers local inflammation. Inflammatory cells arrive at the site to digest and phagocytose the dead cellular debris." 
+            },
+            {
+                type: "concept",
+                title: "Clinical Correlation: Biomarkers 🩺",
+                text: "Because necrotic cells leak tissue-specific proteins into the blood, clinicians use them as biomarkers to locate and quantify tissue damage.",
+                subtext: "For example, necrotic hepatocytes leak transaminases (AST/ALT), while necrotic bile ducts leak alkaline phosphatase.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Cardiac-specific ____________ can be detected in the blood as early as 2 hours after myocardial cell necrosis, making it critical for early diagnosis.",
+                options: ["Glycogen", "Troponin", "Uric Acid", "ATP"],
+                answer: 1,
+                explanation: "Serial measurements of serum cardiac troponin are the gold standard for diagnosing a myocardial infarction (heart attack).",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Microscopic Changes: Cytoplasm",
+                text: "Under H&E stain, necrotic cytoplasm becomes intensely **Red (Eosinophilic)** due to lost RNA and the binding of eosin to denatured proteins.",
+                subtext: "It also appears 'glassy' due to the loss of glycogen and eventually 'moth-eaten' as enzymes digest the organelles.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "A necrotic cell looks 'glassy' and homogeneous under a microscope because it has accumulated massive amounts of new glycogen.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "The glassy appearance is actually due to the loss of glycogen particles, which leaves a blank, homogeneous space in the cytoplasm." 
+            },
+            {
+                type: "concept",
+                title: "The Nuclear Demise",
+                text: "As the cell is digested by endonucleases, the nucleus undergoes three progressive stages of destruction before disappearing entirely.",
+                subtext: "",
+                buttonText: "See the stages"
+            },
+            {
+                type: "match",
+                question: "Match the medical term to its specific pattern of nuclear breakdown.",
+                pairs: [
+                    { left: "Pyknosis", right: "Nuclear shrinkage and increased basophilia (darkening)." },
+                    { left: "Karyorrhexis", right: "The shrunken nucleus undergoes fragmentation (shattering)." },
+                    { left: "Karyolysis", right: "Basophilia fades due to enzymatic degradation of DNA." }
+                ],
+                explanation: "These three stages represent the progressive destruction of the genetic material during necrotic cell death."
+            }
+        ]
+    },
+    "2.4.2": {
+        title: "Patterns of Necrosis - Part 1 (The Ghost Town & The Puddle) 🏛️",
+        objectives: ["Master the difference between tissue-level Coagulative and Liquefactive necrosis, their clinical triggers, and the classic 'Brain Exception' tested on board exams."],
+        data: [
+            {
+                type: "concept",
+                title: "Macro vs. Micro",
+                text: "When massive numbers of cells die at once, the whole tissue or organ becomes necrotic.",
+                subtext: "Tissue necrosis falls into specific morphologic patterns. Recognizing these patterns allows pathologists to determine the underlying cause of the damage.",
+                buttonText: "See the patterns"
+            },
+            {
+                type: "concept",
+                title: "Pattern 1: Coagulative Necrosis",
+                text: "In **Coagulative Necrosis**, the tissue architecture is preserved for several days even though the cells are dead. The tissue typically becomes firm.",
+                subtext: "This occurs because the injury denatures both structural proteins and digestive enzymes, preventing the dead cells from dissolving immediately.",
+                buttonText: "The Ghost Cells"
+            },
+            { 
+                type: "mcq", 
+                question: "In coagulative necrosis, the dead cells immediately dissolve into liquid.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Because digestive enzymes are denatured, the dead cells persist as eosinophilic, 'ghost-like' outlines for days until inflammatory cells arrive to clear them." 
+            },
+            {
+                type: "concept",
+                title: "The Infarct Rule",
+                text: "A localized area of coagulative necrosis is called an **Infarct** (e.g., a myocardial infarction).",
+                subtext: "Ischemia (loss of blood supply) causes coagulative necrosis in all solid organs of the body, except for one notable exception.",
+                buttonText: "Next Pattern"
+            },
+            {
+                type: "concept",
+                title: "Pattern 2: Liquefactive Necrosis",
+                text: "In **Liquefactive Necrosis**, dead cells are rapidly digested, transforming the tissue into a viscous liquid (pus).",
+                subtext: "This is commonly seen in focal bacterial or fungal infections where microbes attract leukocytes that release powerful digestive enzymes.",
+                buttonText: "The Board Exam Trap"
+            },
+            { 
+                type: "mcq", 
+                question: "Ischemia/hypoxia in which specific organ causes Liquefactive necrosis instead of Coagulative necrosis?", 
+                options: ["Heart (Myocardium)", "Liver (Hepatic tissue)", "Brain (Central Nervous System)"], 
+                answer: 2, 
+                explanation: "Ischemia in the central nervous system uniquely results in liquefactive necrosis, whereas ischemia in other solid organs results in coagulative necrosis."
+            },
+            {
+                type: "sort",
+                question: "Match the clinical clue or feature to the correct necrosis pattern.",
+                buckets: ["Coagulative Necrosis", "Liquefactive Necrosis"],
+                items: [
+                    { text: "Bacterial Infection (Pus)", bucket: 1 },
+                    { text: "Ischemia in the Heart", bucket: 0 },
+                    { text: "Ischemia in the Brain", bucket: 1 },
+                    { text: "Firm, preserved tissue architecture", bucket: 0 }
+                ],
+                explanation: ""
+            },
+            {
+                type: "concept",
+                title: "The Unabsorbed Leftovers",
+                text: "If necrotic debris is not promptly destroyed and reabsorbed, it can act as a site for mineral deposition.",
+                subtext: "Calcium salts may deposit on dead tissue, a process known as **Dystrophic Calcification**.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "fill",
+                question: "The deposition of calcium salts on uncleared necrotic cellular debris is known as ____________ calcification.",
+                options: ["Dystrophic", "Metastatic", "Coagulative", "Liquefactive"],
+                answer: 0,
+                explanation: "Dystrophic calcification occurs specifically in damaged, necrotic, or degenerating tissues, even when serum calcium levels are normal.",
+                buttonText: "Continue"
+            }
+        ]
+    },
+    "2.4.3": {
+        title: "Patterns of Necrosis - Part 2 (Limbs, Cheese, Chalk, and Vessels) 🧀",
+        objectives: ["Master four highly specific, clinically important patterns of necrosis: Gangrenous, Caseous, Fat, and Fibrinoid."],
+        data: [
+            {
+                type: "concept",
+                title: "The Specialty Patterns",
+                text: "Beyond the basic patterns, there are four 'specialty' patterns of necrosis strongly tied to specific clinical scenarios.",
+                subtext: "These include conditions like severe frostbite, tuberculosis, pancreatitis, and certain autoimmune diseases.",
+                buttonText: "Let's explore"
+            },
+            {
+                type: "concept",
+                title: "Pattern 3: Gangrenous Necrosis",
+                text: "Meet Gangrenous Necrosis: **The Dead Limb**. This clinical term usually refers to a lower leg that has lost its blood supply and suffered coagulative necrosis across multiple tissue layers.",
+                subtext: "When it is purely caused by ischemia (e.g., in severe diabetes or frostbite) without infection, it is called **Dry Gangrene**.",
+                buttonText: "What if it gets infected?"
+            },
+            { 
+                type: "mcq", 
+                question: "If a limb with dry gangrene gets infected with bacteria, the tissue begins to liquefy due to bacterial enzymes and leukocytes. What is this combination called?", 
+                options: ["Caseous gangrene", "Wet gangrene", "Chalky gangrene"], 
+                answer: 1, 
+                explanation: "Bacterial enzymes 'melt' the tissue, converting the mummified tissue of dry gangrene into the more dangerous 'wet gangrene,' which involves both coagulative and liquefactive components." 
+            },
+            {
+                type: "concept",
+                title: "Pattern 4: Caseous Necrosis",
+                text: "Meet Caseous Necrosis: **The Crumbly Cheese**. The term 'caseous' is derived from the Latin word for cheese.",
+                subtext: "This pattern is most famously caused by **Tuberculosis (TB)** infections. To the naked eye, the necrotic tissue appears friable and crumbly white, similar to cheese.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Microscopically, caseous necrosis is characterized by a distinctive inflammatory border enclosing the necrotic center. This structure is called a ____________.",
+                options: ["Granuloma", "Infarct", "Saponification", "Vacuole"],
+                answer: 0,
+                explanation: "Granulomas are the body's attempt to wall off injurious agents, such as TB bacteria, that are difficult to eradicate.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Pattern 5: Fat Necrosis",
+                text: "Meet Fat Necrosis: **The Chalky Soap**. This typically occurs during **Acute Pancreatitis**, an abdominal emergency.",
+                subtext: "Damaged pancreatic cells leak lipases that liquefy fat cell membranes and split triglycerides into free fatty acids.",
+                buttonText: "How does it look?"
+            },
+            { 
+                type: "mcq", 
+                question: "In fat necrosis, released fatty acids combine with calcium to produce visible, chalky-white deposits. This process is called:", 
+                options: ["Fat saponification", "Coagulation", "Lysis"], 
+                answer: 0, 
+                explanation: "Saponification is the chemical process of 'making soap'—in this context, it occurs when fatty acids react with calcium to form mineralized deposits in the tissue." 
+            },
+            {
+                type: "concept",
+                title: "Pattern 6: Fibrinoid Necrosis",
+                text: "Meet Fibrinoid Necrosis: **The Pink Wall**. This specific form of damage targets blood vessel walls during severe immune reactions.",
+                subtext: "It occurs when complexes of antigens and antibodies are deposited into the walls of arteries.",
+                buttonText: "See the H&E stain"
+            },
+            { 
+                type: "mcq", 
+                question: "When immune complexes and leaked plasma proteins build up in the artery wall, how do they appear under an H&E stain?", 
+                options: [
+                    "Bright pink, amorphous, and 'fibrin-like'", 
+                    "Friable, white, and 'cheese-like'", 
+                    "Liquid, creamy, and 'pus-like'"
+                ], 
+                answer: 0, 
+                explanation: "It is called 'Fibrinoid' because the bright pink, proteinaceous damage in the vessel wall resembles the appearance of fibrin." 
+            },
+            {
+                type: "match",
+                question: "Final Review! Match the clinical disease or trigger to its classic necrosis pattern.",
+                pairs: [
+                    { left: "Tuberculosis (TB)", right: "Caseous Necrosis" },
+                    { left: "Acute Pancreatitis", right: "Fat Necrosis" },
+                    { left: "Immune complexes in arteries", right: "Fibrinoid Necrosis" },
+                    { left: "Ischemic leg (no infection)", right: "Dry Gangrene" }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "2.5.1"
+    },
+
+    // UNIT 5
+    "2.5.1": {
+        title: "Introduction to Apoptosis (The Clean Suicide) 🤫",
+        objectives: ["Master the fundamental concept of apoptosis, how it packages cellular debris, why it does not cause inflammation, and its vital role in normal development."],
+        data: [
+            {
+                type: "concept",
+                title: "The Controlled Suicide",
+                text: "Unlike necrosis, **Apoptosis** is a highly controlled, tightly regulated suicide program.",
+                subtext: "When a cell is destined to die via apoptosis, it activates intrinsic enzymes that neatly degrade its own genomic DNA, nuclear proteins, and cytoplasmic proteins from the inside out.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Just like in necrosis, the plasma membrane of an apoptotic cell ruptures and leaks its contents everywhere.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "The hallmark of apoptosis is that the plasma membrane remains perfectly intact while the cell dismantles itself, preventing the leakage of cellular contents into the surrounding environment." 
+            },
+            {
+                type: "concept",
+                title: "The Neat Packages",
+                text: "Instead of bursting open, the apoptotic cell shrinks and breaks up into neat, plasma membrane-bound fragments called **Apoptotic Bodies**.",
+                subtext: "These packages contain portions of the digested cytoplasm and nucleus, safely wrapped up and ready for disposal.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The 'Eat Me' Signal",
+                text: "Apoptotic bodies alter their surface components to display 'find me' and 'eat me' signals to attract phagocytes.",
+                subtext: "Phagocytes, such as macrophages, recognize these signals and rapidly devour the cell fragments before any internal contents can leak out.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Because the cellular contents never leak out to trigger biochemical alarms, apoptosis does NOT elicit an ____________ reaction.",
+                options: ["Inflammatory", "Adaptive", "Apoptotic", "Enzymatic"],
+                answer: 0,
+                explanation: "Since there is no leakage of cellular contents (DAMPs), there is no stimulus for an inflammatory response. This makes apoptosis a 'silent' form of cell death.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Falling Leaves",
+                text: "The word 'Apoptosis' is Greek for 'falling off,' describing a natural phenomenon like leaves falling from a tree.",
+                subtext: "It is a natural, programmed cell death controlled by specific genes, rather than an accidental result of severe external injury.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Why would the body purposely program its own cells to die?", 
+                options: [
+                    "To cause autoimmune diseases", 
+                    "Because it is required for normal embryogenesis and development", 
+                    "To trigger massive tissue inflammation"
+                ], 
+                answer: 1, 
+                explanation: "Programmed cell death is essential for development; for example, apoptosis is responsible for the removal of tissue between fingers (interdigital webbing) during embryonic development."
+            },
+            {
+                type: "sort",
+                question: "Compare the two paths of cell death! Match the characteristic to the correct type.",
+                buckets: ["Necrosis", "Apoptosis"],
+                items: [
+                    { text: "Intact plasma membrane.", bucket: 1 },
+                    { text: "Triggers severe inflammation.", bucket: 0 },
+                    { text: "Forms neat 'apoptotic bodies'.", bucket: 1 },
+                    { text: "Messy, leaky, and always pathologic.", bucket: 0 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "2.5.2": {
+        title: "Causes of Apoptosis (The Sculptor and the Assassin) 🗿",
+        objectives: ["Master the two broad contexts of apoptosis: physiologic (normal cell turnover and development) and pathologic (eliminating irreparably damaged or infected cells)."],
+        data: [
+            {
+                type: "concept",
+                title: "The Two Faces of Apoptosis",
+                text: "Apoptosis occurs in two broad contexts: **Physiologic** (normal daily maintenance) and **Pathologic** (disease control).",
+                subtext: "To maintain a healthy steady state, the human body turns over almost 1 million cells every second, mostly through apoptosis!",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Apoptosis only happens when a cell is severely injured or exposed to toxins.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Apoptosis is a normal physiological process that occurs constantly in healthy tissues to maintain homeostatic cell numbers." 
+            },
+            {
+                type: "concept",
+                title: "Physiologic Apoptosis: The Sculptor",
+                text: "In normal physiologic states, apoptosis removes cells that are no longer needed.",
+                subtext: "It deletes extra cells to sculpt organs during development and shrinks hormone-dependent tissues (like during menstruation or weaning) when hormone levels drop.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "When apoptosis happens specifically during embryogenesis and development, it is called ____________ cell death.",
+                options: ["Programmed", "Pathologic", "Necrotic", "Accidental"],
+                answer: 0,
+                explanation: "'Programmed cell death' refers to the carefully timed apoptosis that occurs as an integral part of embryonic development.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Physiologic Apoptosis: Retirees & Guards",
+                text: "Apoptosis 'retires' cells that have finished their jobs (e.g., neutrophils after an immune response) and eliminates dangerous, self-reactive lymphocytes in the bone marrow.",
+                subtext: "Eliminating these self-reactive cells is crucial to preventing autoimmune diseases.",
+                buttonText: "What triggers it?"
+            },
+            { 
+                type: "mcq", 
+                question: "In normal physiologic situations, what usually triggers the cell to undergo apoptosis?", 
+                options: [
+                    "Severe DNA mutations", 
+                    "Deprivation of necessary survival signals (growth factors)", 
+                    "A massive influx of calcium"
+                ], 
+                answer: 1, 
+                explanation: "In physiological contexts, cells often enter apoptosis when they no longer receive specific 'stay alive' signals, such as growth factors or hormones." 
+            },
+            {
+                type: "concept",
+                title: "Pathologic Apoptosis: Quality Control",
+                text: "In pathologic conditions, apoptosis serves as a defense mechanism to eliminate cells injured beyond repair without triggering inflammation.",
+                subtext: "It occurs in response to severe DNA damage (from radiation or chemo) and severe ER stress (misfolded proteins) to prevent the development of cancer.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "If a cell suffers severe, unrepairable DNA damage from radiation, apoptosis has a protective effect on the host.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "By undergoing apoptosis, the damaged cell is eliminated, preventing mutated DNA from surviving and potentially progressing to a malignant tumor." 
+            },
+            {
+                type: "concept",
+                title: "Pathologic Apoptosis: Viral Assassins",
+                text: "Apoptosis is a key response during viral infections. While some viruses cause cell death directly, the immune system often forces infected cells to commit suicide.",
+                subtext: "**Cytotoxic T Lymphocytes (CTLs)** hunt down infected cells and induce apoptosis to destroy the viral reservoir.",
+                buttonText: "Next"
+            },
+            {
+                type: "sort",
+                question: "Sort these triggers of apoptosis into their correct category: Physiologic or Pathologic.",
+                buckets: ["Physiologic (Normal)", "Pathologic (Disease)"],
+                items: [
+                    { text: "Uterus shedding during menstruation", bucket: 0 },
+                    { text: "Eliminating self-reactive lymphocytes", bucket: 0 },
+                    { text: "Severe DNA damage from radiation", bucket: 1 },
+                    { text: "CTLs killing a virus-infected cell", bucket: 1 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "2.5.3": {
+        title: "The Intrinsic Pathway (The Mitochondrial Suicide) 🧬",
+        objectives: ["Master the intrinsic (mitochondrial) pathway of apoptosis, including the BCL-2 family, the role of Cytochrome c, and the activation of Caspase-9."],
+        data: [
+            {
+                type: "concept",
+                title: "The Internal Alarm",
+                text: "The **Intrinsic Pathway** (also called the Mitochondrial Pathway) is the most common way to trigger apoptosis. It is initiated from inside the cell.",
+                subtext: "When a cell suffers DNA damage, severe ER stress, or loses survival signals, the mitochondria take control to initiate the self-destruct sequence.",
+                buttonText: "How is it controlled?"
+            },
+            {
+                type: "concept",
+                title: "The BCL-2 Family",
+                text: "The permeability of the mitochondrial outer membrane is tightly controlled by a group of proteins called the **BCL-2 Family**.",
+                subtext: "This family consists of two opposing factions: The 'Protectors' (Anti-apoptotic) and the 'Assassins' (Pro-apoptotic).",
+                buttonText: "Meet the players"
+            },
+            {
+                type: "match",
+                question: "Match the BCL-2 family protein to its primary role in the cell.",
+                pairs: [
+                    { left: "BCL-2 & BCL-XL", right: "The Protectors: Keep the mitochondrial membrane sealed." },
+                    { left: "BAX & BAK", right: "The Assassins: Puncture the mitochondrial membrane." }
+                ],
+                explanation: "The balance between these pro- and anti-apoptotic proteins determines whether a cell lives or dies."
+            },
+            {
+                type: "concept",
+                title: "Puncturing the Power Plant",
+                text: "Normally, the Protectors (BCL-2) keep the Assassins (BAX and BAK) in check. However, when the cell is severely damaged, the Protectors are neutralized.",
+                subtext: "BAX and BAK are then unleashed to oligomerize and punch holes through the outer mitochondrial membrane.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "When BAX and BAK puncture the mitochondria, a specific protein leaks into the cytoplasm to trigger apoptosis. This protein is called ____________ c.",
+                options: ["Cytochrome", "Calcium", "Troponin", "Caspase"],
+                answer: 0,
+                explanation: "Cytochrome c is a component of the electron transport chain inside the mitochondria, but it acts as a deadly signal once it escapes into the cytosol.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Wheel of Death",
+                text: "Once Cytochrome c enters the cytoplasm, it binds to a protein called **APAF-1**.",
+                subtext: "Together, they assemble into a massive, multi-armed complex called the **Apoptosome**.",
+                buttonText: "What does the wheel do?"
+            },
+            { 
+                type: "mcq", 
+                question: "The primary job of the Apoptosome is to bind and activate a critical initiator enzyme called:", 
+                options: ["Caspase-8", "Caspase-9", "Catalase", "Amylase"], 
+                answer: 1, 
+                explanation: "The Apoptosome acts as a docking station that recruits and activates Caspase-9, the specific initiator caspase of the intrinsic pathway." 
+            },
+            {
+                type: "concept",
+                title: "The Executioners",
+                text: "Caspase-9 is an 'initiator' caspase. Once activated, it triggers the 'executioner' caspases, such as **Caspase-3** and **Caspase-6**.",
+                subtext: "These executioners are the enzymes that actually dismantle the cell by degrading structural proteins and fragmenting DNA.",
+                buttonText: "Next"
+            },
+            { 
+                type: "order", 
+                question: "Trace the Intrinsic Pathway from start to finish by ordering the events.", 
+                items: [
+                    "Cell suffers severe DNA damage", 
+                    "BAX and BAK punch holes in the mitochondria", 
+                    "Cytochrome c leaks into the cytoplasm", 
+                    "The Apoptosome forms and activates Caspase-9"
+                ], 
+                explanation: "This logical sequence ensures the cell only commits suicide when the internal damage is confirmed and the mitochondrial 'point of no return' is crossed." 
+            }
+        ]
+    },
+    "2.5.4": {
+        title: "The Extrinsic Pathway (The External Assassination) 🎯",
+        objectives: ["Master the extrinsic (death receptor) pathway of apoptosis, including Fas/FasL, death domains, and the activation of Caspase-8."],
+        data: [
+            {
+                type: "concept",
+                title: "The External Hitman",
+                text: "While the intrinsic pathway involves self-destruction from the inside, the **Extrinsic Pathway** is triggered from the outside by other cells pushing a 'self-destruct' button on the target cell's surface.",
+                subtext: "This allows the body (usually via the immune system) to eliminate cells that may otherwise appear healthy but are no longer needed or are dangerous.",
+                buttonText: "Meet the buttons"
+            },
+            {
+                type: "concept",
+                title: "The Death Receptors",
+                text: "The 'self-destruct buttons' on the cell surface are called **Death Receptors**.",
+                subtext: "The most prominent examples are **Fas** (CD95) and the **TNF Receptor**. These proteins cross the plasma membrane and possess an intracellular 'Death Domain' that relays the signal inward.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "To trigger the death sequence, a killer T-cell carries a matching key on its surface called Fas ____________ (FasL), which binds directly to the Fas death receptor.",
+                options: ["Ligand", "Lipid", "Domain", "Pore"],
+                answer: 0,
+                explanation: "The Fas Ligand (FasL) on the killer T-cell binds to the Fas receptor on the target cell, inducing a conformational change that activates the death sequence.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Chain Reaction",
+                text: "When FasL binds to Fas, three receptors group together. Their internal 'Death Domains' pull in an adaptor protein called **FADD** (Fas-Associated Death Domain).",
+                subtext: "FADD then acts as a scaffold to recruit and activate a specific initiator caspase.",
+                buttonText: "Which caspase?"
+            },
+            { 
+                type: "mcq", 
+                question: "Which initiator caspase is strictly activated by FADD in the Extrinsic Pathway?", 
+                options: ["Caspase-3", "Caspase-8", "Caspase-9"], 
+                answer: 1, 
+                explanation: "Caspase-8 is the specific initiator for the extrinsic pathway, whereas Caspase-9 is the initiator for the intrinsic mitochondrial pathway." 
+            },
+            { 
+                type: "mcq", 
+                question: "Both the Extrinsic and Intrinsic pathways ultimately activate the same 'executioner' caspases (like Caspase-3).", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Both pathways converge on the same execution phase. Once Caspase-8 or Caspase-9 is activated, they both trigger executioner caspases like Caspase-3 to dismantle the cell." 
+            },
+            {
+                type: "concept",
+                title: "Physiological Role",
+                text: "The extrinsic pathway is vital for immune system regulation.",
+                subtext: "The body uses the Fas/FasL system to eliminate self-reactive immune cells—preventing autoimmune diseases—and to command virus-infected cells to commit suicide.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "sort",
+                question: "Sort the key players into their correct pathway!",
+                buckets: ["Intrinsic Pathway", "Extrinsic Pathway"],
+                items: [
+                    { text: "Cytochrome c leaks from mitochondria.", bucket: 0 },
+                    { text: "Fas Ligand (FasL) binds to Fas.", bucket: 1 },
+                    { text: "Activation of Caspase-9.", bucket: 0 },
+                    { text: "Activation of Caspase-8.", bucket: 1 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "2.5.5": {
+        title: "Morphology of Apoptosis (The Invisible Death) 🫥",
+        objectives: ["Master the ultrastructural hallmarks of apoptosis, how it looks under a microscope, and understand why this 'silent suicide' is so difficult for pathologists to spot!"],
+        data: [
+            {
+                type: "concept",
+                title: "Hallmark 1: Cell Shrinkage",
+                text: "In contrast to necrosis, where cells swell with water, **Cell Shrinkage** is a defining feature of apoptosis.",
+                subtext: "The cell's size is reduced, the cytoplasm becomes extremely dense, and the internal organelles become tightly packed together.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "You are looking at a dying cell under an electron microscope. The cell is massive, swollen, and pale. What type of cell death is this?", 
+                options: ["Apoptosis", "Necrosis", "Normal Homeostasis"], 
+                answer: 1, 
+                explanation: "Necrotic cells swell and burst due to the loss of osmotic control, whereas apoptotic cells condense and shrink." 
+            },
+            {
+                type: "concept",
+                title: "Hallmark 2: Chromatin Condensation",
+                text: "The most characteristic feature of apoptosis is **Chromatin Condensation**.",
+                subtext: "The cell's DNA (chromatin) aggregates into dense masses tightly packed against the edges of the nuclear membrane. Eventually, the nucleus fragments.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "The most characteristic morphologic feature of apoptosis is ____________ condensation.",
+                options: ["Mitochondrial", "Chromatin", "Membrane", "Ribosome"],
+                answer: 1,
+                explanation: "Tightly packed, condensed chromatin is considered the absolute hallmark of programmed cell death.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Hallmark 3 & 4: Blebs and Bodies",
+                text: "During the process, the cell's surface bulges outward, forming **Cytoplasmic Blebs**.",
+                subtext: "These blebs eventually pinch off to form **Apoptotic Bodies**, which are membrane-bound packages containing cytoplasm and nuclear fragments. These are then rapidly consumed by macrophages.",
+                buttonText: "Next"
+            },
+            { 
+                type: "order", 
+                question: "Arrange the morphologic changes of apoptosis in the correct chronological order.", 
+                items: [
+                    "Cell shrinkage & chromatin condensation", 
+                    "Surface membrane blebbing", 
+                    "Fragmentation into apoptotic bodies", 
+                    "Phagocytosis by macrophages"
+                ], 
+                explanation: "" 
+            },
+            {
+                type: "concept",
+                title: "Under the Light Microscope 🔬",
+                text: "When stained with H&E, an apoptotic cell appears as a tiny, round or oval mass.",
+                subtext: "Because the cytoplasm is highly concentrated, it stains intensely **eosinophilic** (bright pink/red) and contains dark, dense shards of nuclear chromatin.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Pathology Challenge",
+                text: "Apoptosis is notoriously difficult to identify on a standard tissue slide.",
+                subtext: "This is due to the speed of the process, the rapid clearance of fragments, and the complete absence of an inflammatory response to draw the pathologist's attention.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "It is very easy to detect apoptosis on a tissue slide because it always triggers a massive inflammatory reaction.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Apoptosis is often called a 'silent' death because it does not trigger inflammation and the resulting cell fragments are cleared before they can be easily visualized." 
+            }
+        ]
+    },
+    "2.5.6": {
+        title: "Removal of Dead Cells (The Silent Cleanup) 🧹",
+        objectives: ["Master how apoptotic bodies attract phagocytes using 'Find Me' and 'Eat Me' signals, the role of Phosphatidylserine, and why the cleanup process actively suppresses inflammation."],
+        data: [
+            {
+                type: "concept",
+                title: "The Final Step",
+                text: "Once a cell breaks apart into apoptotic bodies, the leftover pieces must be cleared out immediately.",
+                subtext: "If apoptotic bodies are not removed, they eventually lose membrane integrity and release contents (secondary necrosis). They are cleared by the body's cleanup crew: **Macrophages**.",
+                buttonText: "How do they find them?"
+            },
+            {
+                type: "concept",
+                title: "The 'Find Me' Signals",
+                text: "Before the cell is completely packaged, it releases soluble chemical messengers (lipids and proteins) into the surrounding tissue.",
+                subtext: "These act as **'Find Me' signals**, creating a chemical trail that attracts macrophages to the site of the dying cell.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Apoptotic cells quietly wait for a macrophage to randomly bump into them.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Apoptotic cells actively secrete chemical signals to lure macrophages directly to their location for efficient clearance." 
+            },
+            {
+                type: "concept",
+                title: "The 'Eat Me' Signal",
+                text: "Once the macrophage arrives, it identifies the dying cell by a specific molecular 'flag'.",
+                subtext: "In a healthy cell, the lipid **Phosphatidylserine (PS)** is restricted to the inner leaflet of the plasma membrane. During apoptosis, the membrane 'flips,' exposing PS to the outer surface.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "The appearance of ____________ on the outer leaflet of the plasma membrane serves as the ultimate 'Eat Me' signal for macrophages.",
+                options: ["Phosphatidylserine", "Cytochrome", "Calcium", "Troponin"],
+                answer: 0,
+                explanation: "The translocation of phosphatidylserine to the outer membrane leaflet is a hallmark of apoptosis that marks the cell for phagocytosis.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Anti-Inflammatory Secret",
+                text: "The clearance of apoptotic bodies is an actively 'silent' process that prevents tissue damage.",
+                subtext: "When a macrophage recognizes Phosphatidylserine, it consumes the body and releases **anti-inflammatory cytokines** (like TGF-β and IL-10) to suppress any local immune response.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Why does the tissue remain peaceful and quiet during apoptosis, even when millions of cells are dying?", 
+                options: [
+                    "Macrophages release pro-inflammatory cytokines to warn the body", 
+                    "Macrophages release anti-inflammatory cytokines (like TGF-β) while eating apoptotic bodies", 
+                    "Macrophages ignore apoptotic bodies completely"
+                ], 
+                answer: 1, 
+                explanation: "Macrophages actively suppress the local immune system by releasing anti-inflammatory mediators like TGF-β and IL-10 during the phagocytosis of apoptotic bodies." 
+            },
+            {
+                type: "sort",
+                question: "Compare how the body cleans up Necrosis vs. Apoptosis.",
+                buckets: ["Necrosis", "Apoptosis"],
+                items: [
+                    { text: "Phosphatidylserine (PS) Flip.", bucket: 1 },
+                    { text: "Leaked DAMPs (like ATP).", bucket: 0 },
+                    { text: "Anti-inflammatory (TGF-β) release.", bucket: 1 },
+                    { text: "Pro-inflammatory (Severe swelling).", bucket: 0 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "2.5.7": {
+        title: "The Hybrids (Other Types of Cell Death & Survival) 🧟‍♂️",
+        objectives: ["Master the specialized 'hybrid' pathways of cell death and survival: Necroptosis, Pyroptosis, Ferroptosis, and Autophagy."],
+        data: [
+            {
+                type: "concept",
+                title: "The Rebels of Cell Death",
+                text: "Beyond the classic paths of necrosis and apoptosis, pathologists have identified 'hybrid' pathways that combine features of both.",
+                subtext: "These specialized pathways include Necroptosis, Pyroptosis, Ferroptosis, and Autophagy, each involving unique triggers and molecular machinery.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Path 1: Necroptosis - The Zombie Cell",
+                text: "**Necroptosis** is a hybrid form of cell death. Morphologically, it resembles necrosis (cell swelling and membrane rupture), but it is a genetically programmed process.",
+                subtext: "Critically, necroptosis is independent of caspases, which distinguishes it from the classic apoptotic pathways.",
+                buttonText: "How is it triggered?"
+            },
+            {
+                type: "fill",
+                question: "Because necroptosis does not use caspases, it relies on a different set of executioner enzymes called ____________ kinases (specifically RIPK1 and RIPK3).",
+                options: ["RIP", "Caspase", "Lipase", "Polymerase"],
+                answer: 0,
+                explanation: "RIP (Receptor-Interacting Protein) kinases are the essential signaling molecules that trigger the programmed necrosis pathway.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Path 2: Pyroptosis - The Fire Death",
+                text: "**Pyroptosis** is a form of programmed cell death that is uniquely associated with the activation of the immune system and fever.",
+                subtext: "When a cell detects certain intracellular microbes, it assembles a danger-sensing protein complex called the **Inflammasome**.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "The Inflammasome activates Caspase-1, which leads to the production of Interleukin-1 (IL-1). What is a common clinical result of IL-1 release?", 
+                options: ["Hypothermia", "Fever", "Bruising"], 
+                answer: 1, 
+                explanation: "IL-1 is a potent pyrogen. Pyroptosis results in cell rupture and the release of inflammatory mediators that trigger fever to help combat infection." 
+            },
+            {
+                type: "concept",
+                title: "Path 3: Ferroptosis - The Rusty Death",
+                text: "**Ferroptosis** is a form of cell death triggered by excessive, toxic levels of intracellular **Iron**.",
+                subtext: "High iron levels catalyze massive lipid peroxidation, which causes widespread destruction of the cell's membrane systems.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Ferroptosis occurs when the cell's antioxidant defense system (specifically Glutathione) fails to neutralize free radicals.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Ferroptosis is prevented by glutathione-dependent antioxidant mechanisms. When these defenses are overwhelmed or inhibited, iron-dependent oxidative damage leads to cell death." 
+            },
+            {
+                type: "concept",
+                title: "Path 4: Autophagy - The Self-Eater",
+                text: "**Autophagy** ('self-eating') is a process where a cell digests its own contents to survive during periods of nutrient deprivation.",
+                subtext: "The cell sequesters organelles into membranes and delivers them to lysosomes for recycling, providing a source of energy and building blocks.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "What happens if the state of starvation is too severe or lasts too long for the cell to recover via autophagy?", 
+                options: [
+                    "The cell duplicates its DNA and divides", 
+                    "The cell successfully becomes immortal", 
+                    "The 'self-eating' process eventually leads to cell death"
+                ], 
+                answer: 2, 
+                explanation: "While autophagy is primarily a survival mechanism, extensive and uncorrected nutrient deprivation can lead to the total consumption of the cell's vital components, resulting in death." 
+            },
+            {
+                type: "sort",
+                question: "Match the specialized cell death or survival pathway to its unique trigger or feature.",
+                buckets: ["Necroptosis", "Pyroptosis", "Ferroptosis", "Autophagy"],
+                items: [
+                    { text: "Programmed necrosis driven by RIP Kinases.", bucket: 0 },
+                    { text: "Inflammasome, Caspase-1, and Fever (IL-1).", bucket: 1 },
+                    { text: "Iron-driven lipid peroxidation damage.", bucket: 2 },
+                    { text: "Recycling organelles for survival during starvation.", bucket: 3 }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "2.6.1"
+    },
+
+    // UNIT 6
+    "2.6.1": {
+        title: "Hypertrophy and Atrophy ⬆️⬇️",
+        objectives: ["Master how cells adapt to stress by altering their size, specifically focusing on the mechanisms and clinical examples of Hypertrophy and Atrophy."],
+        data: [
+            {
+                type: "concept",
+                title: "The Shapeshifter",
+                text: "When a cell faces new physiological demands or chronic stress, it adapts to achieve a new, stable steady state.",
+                subtext: "Cells can alter their size, number, or type. This lesson focuses on adaptations of size: Growing (**Hypertrophy**) and Shrinking (**Atrophy**).",
+                buttonText: "Let's grow"
+            },
+            {
+                type: "concept",
+                title: "Hypertrophy: The Bodybuilder",
+                text: "**Hypertrophy** is an increase in the size of individual cells, which leads to an increase in the size of the entire organ.",
+                subtext: "The cells enlarge because they synthesize more structural proteins and organelles. There is no increase in the number of cells, only their volume.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "When an organ undergoes hypertrophy, it gets larger because the cells are rapidly dividing and multiplying their total numbers.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Hypertrophy specifically refers to an increase in cell size. An increase in cell number is a different adaptation called hyperplasia." 
+            },
+            {
+                type: "concept",
+                title: "Physiologic vs. Pathologic",
+                text: "Hypertrophy occurs when cells are forced to work harder.",
+                subtext: "It can be **Physiologic** (e.g., skeletal muscle growth in athletes) or **Pathologic** (e.g., the heart enlarging to pump against chronic high blood pressure).",
+                buttonText: "Clinical Example"
+            },
+            {
+                type: "fill",
+                question: "Tissues that cannot divide, such as cardiac muscle, rely on ____________ to handle increased workloads, such as chronic high blood pressure.",
+                options: ["Atrophy", "Hypertrophy", "Necrosis", "Apoptosis"],
+                answer: 1,
+                explanation: "Because cardiac myocytes cannot divide to create new cells, they must increase the size and protein content of existing cells to generate more force.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Atrophy: The Shrinking Cell",
+                text: "**Atrophy** is a decrease in cell size and metabolic activity, which can lead to the shrinkage of an entire organ.",
+                subtext: "This is a survival mechanism. By shrinking, the cell reduces its metabolic needs to survive with reduced blood supply, nutrition, or trophic stimulation.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Which of the following scenarios is a classic example of 'disuse atrophy'?", 
+                options: [
+                    "A uterus expanding during pregnancy", 
+                    "Skeletal muscles shrinking after a broken leg is kept in a cast", 
+                    "The heart enlarging from high blood pressure"
+                ], 
+                answer: 1, 
+                explanation: "When skeletal muscles are immobilized, the lack of mechanical demand leads to a reduction in cell size to conserve energy."
+            },
+            {
+                type: "concept",
+                title: "Mechanisms of Atrophy",
+                text: "Cells shrink by decreasing protein synthesis and increasing protein degradation.",
+                subtext: "The **Ubiquitin-Proteasome** pathway is the primary system for protein degradation. Cells also utilize **Autophagy** to digest their own organelles for survival during nutrient deprivation.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "sort",
+                question: "Match the clinical condition to the correct cellular adaptation.",
+                buckets: ["Hypertrophy", "Atrophy"],
+                items: [
+                    { text: "Weightlifter's massive biceps", bucket: 0 },
+                    { text: "Leg muscles shrinking inside a cast", bucket: 1 },
+                    { text: "Heart enlarging due to high blood pressure", bucket: 0 },
+                    { text: "Brain shrinking due to reduced blood flow in old age", bucket: 1 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "2.6.2": {
+        title: "Hyperplasia and Metaplasia 👥🔄",
+        objectives: ["Master how cells adapt by changing their number (Hyperplasia) or their identity (Metaplasia), understand the mechanism of stem cell reprogramming, and recognize the clinical risks."],
+        data: [
+            {
+                type: "concept",
+                title: "Hyperplasia: The Cloner",
+                text: "**Hyperplasia** is an increase in the *number* of cells in an organ or tissue.",
+                subtext: "This adaptation only occurs in tissues capable of dividing (e.g., skin, glands, or bone marrow). It is frequently driven by growth factors or hormonal stimulation.",
+                buttonText: "Can all cells do this?"
+            },
+            { 
+                type: "mcq", 
+                question: "To handle high blood pressure, heart muscle cells undergo massive hyperplasia to create millions of new cardiac cells.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Cardiac muscle cells are permanent cells and generally cannot divide. They adapt to increased workloads exclusively through hypertrophy (increase in size) rather than hyperplasia." 
+            },
+            {
+                type: "concept",
+                title: "Physiologic Hyperplasia",
+                text: "Hyperplasia can be a normal physiologic response to a need for increased functional capacity or compensatory growth.",
+                subtext: "A classic example is compensatory hyperplasia in the liver: if a portion is removed, the remaining cells divide rapidly to restore the organ to its original mass.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Excessive hormonal stimulation can cause pathologic overgrowth, such as endometrial ____________, which is a significant risk factor for uterine cancer.",
+                options: ["Atrophy", "Hyperplasia", "Metaplasia", "Necrosis"],
+                answer: 1,
+                explanation: "Pathologic hyperplasia, while controlled, provides a fertile environment in which cancerous mutations may eventually arise if the stimulus persists.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Metaplasia: The Shapeshifter",
+                text: "**Metaplasia** is a reversible change in which one adult cell type (epithelial or mesenchymal) is replaced by another adult cell type.",
+                subtext: "This allows the tissue to substitute a sensitive cell type with one better able to withstand a specific harsh environment.",
+                buttonText: "How do they change?"
+            },
+            {
+                type: "concept",
+                title: "Mechanism: Stem Cell Reprogramming",
+                text: "Metaplasia does not involve a mature cell changing its identity. Instead, it is the result of **reprogramming of stem cells**.",
+                subtext: "In response to environmental changes (cytokines and growth factors), local tissue stem cells are diverted down a different differentiation pathway to produce a new cell type.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "In metaplasia, an already mature, fully differentiated adult cell directly transforms into another mature cell type.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Fully differentiated cells cannot change their phenotype. Metaplasia occurs because stem cells are reprogrammed to differentiate into a different type of mature cell." 
+            },
+            {
+                type: "fill",
+                question: "Both a deficiency and an excess of Vitamin ____________ (retinoic acid) can disrupt stem cell differentiation and induce metaplasia.",
+                options: ["A", "C", "D", "K"],
+                answer: 0,
+                explanation: "Vitamin A regulates gene transcription through nuclear retinoid receptors; its imbalance interferes with the normal differentiation of epithelial stem cells.",
+                buttonText: "Continue"
+            },
+            { 
+                type: "mcq", 
+                question: "How do the delicate, ciliated columnar cells of the respiratory tract adapt to the chronic irritation of cigarette smoke?", 
+                options: [
+                    "They shrink to hide from the smoke (Atrophy)", 
+                    "Stem cells are reprogrammed to produce tough, flat squamous cells", 
+                    "The delicate cells multiply into a giant tumor"
+                ], 
+                answer: 1, 
+                explanation: "Through squamous metaplasia, the respiratory lining becomes tougher. However, the loss of cilia impairs the clearance of mucus and debris, often leading to a chronic cough." 
+            },
+            {
+                type: "concept",
+                title: "The Clinical Consequence",
+                text: "Another example is **Barrett's Esophagus**, where chronic acid reflux causes the squamous lining of the esophagus to be replaced by columnar cells.",
+                subtext: "While metaplasia is an adaptation for survival, if the injurious stimulus persists, it can progress to dysplasia and eventually malignant transformation (cancer).",
+                buttonText: "Next"
+            },
+            {
+                type: "sort",
+                question: "Final Review! Match the clinical scenario to the correct cellular adaptation.",
+                buckets: ["Hypertrophy", "Hyperplasia", "Metaplasia", "Atrophy"],
+                items: [
+                    { text: "Weightlifter's enlarged muscle cells", bucket: 0 },
+                    { text: "A liver regenerating after surgery", bucket: 1 },
+                    { text: "Lung airways changing into squamous cells", bucket: 2 },
+                    { text: "Leg muscles shrinking inside a cast", bucket: 3 }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "2.7.1"
+    },
+
+    // UNIT 7
+    "2.7.1": {
+        title: "Intracellular Accumulations (The Clutter) 📦",
+        objectives: ["Master why cells become 'hoarders' and learn to identify the classic clinical accumulations of the main macromolecules (lipids, proteins, carbohydrates) and pigments."],
+        data: [
+            {
+                type: "concept",
+                title: "The Hoarder Cell",
+                text: "Normally, cells keep their cytoplasm clean. However, under metabolic stress or chronic injury, they can begin to hoard various substances.",
+                subtext: "This is called **Intracellular Accumulation**. Cells may store normal cellular components, abnormal misfolded materials, or foreign substances that they cannot digest.",
+                buttonText: "What do they hoard?"
+            },
+            {
+                type: "concept",
+                title: "The Big Three",
+                text: "Most commonly, cells accumulate excessive amounts of the body's three main macromolecules: **Lipids**, **Proteins**, and **Carbohydrates**.",
+                subtext: "This occurs due to abnormal metabolism, missing digestive enzymes, or production levels that exceed the cell's capacity to package and secrete them.",
+                buttonText: "See Clutter: Lipids"
+            },
+            {
+                type: "concept",
+                title: "Clutter Type 1: Lipids",
+                text: "The most frequent macromolecule accumulation is fat, known as **Steatosis** (Fatty Change).",
+                subtext: "This occurs most often in the liver. Toxins like alcohol disrupt lipid metabolism, causing triglycerides to accumulate in massive clear vacuoles that displace the cytoplasm.",
+                buttonText: "See Clutter: Proteins"
+            },
+            {
+                type: "concept",
+                title: "Clutter Type 2: Proteins",
+                text: "Cells hoard **Proteins** when they synthesize excessive amounts or when misfolded proteins cannot be exported.",
+                subtext: "Unlike lipid vacuoles, accumulated proteins typically appear as glassy, bright pink (eosinophilic) droplets under H&E stain. An example is the 'Russell bodies' found in plasma cells.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Massive glycogen clutter occurs in genetic 'Lysosomal ____________ Diseases,' where the specific enzyme needed to break these molecules down is missing.",
+                options: ["Storage", "Excretion", "Folding", "Metaplasia"],
+                answer: 0,
+                explanation: "Lysosomal Storage Diseases are hereditary disorders where a deficiency in a specific lysosomal enzyme leads to the accumulation of undigested substrates within the cell.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Clutter Type 3: Exogenous Pigments",
+                text: "Cells also hoard pigments from the outside world. The most common exogenous pigment is **Carbon** (coal dust/pollution).",
+                subtext: "Alveolar macrophages in the lungs ingest carbon but lack the enzymes to digest it. This results in the pigment remaining in the tissue permanently, a condition called anthracosis.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Tattoos are permanent because the ink is eaten by dermal macrophages and safely digested away within a few days.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Tattoos are permanent because macrophages cannot digest the ink particles. The cells ingest the pigment and remain in the dermis, holding the ink in place indefinitely." 
+            },
+            {
+                type: "concept",
+                title: "Clutter Type 4: Endogenous Pigments",
+                text: "The body can also produce its own colored clutter, known as **Endogenous pigments**.",
+                subtext: "• **Hemosiderin:** A golden-yellow pigment derived from hemoglobin (iron storage).\n• **Lipofuscin:** A brownish-yellow pigment composed of oxidized lipids and proteins.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Because Lipofuscin slowly accumulates over a lifetime from chronic free radical damage, it is famously known as the ________ pigment.", 
+                options: [
+                    "Wear and Tear (Aging)", 
+                    "Iron Storage", 
+                    "Foreign Body"
+                ], 
+                answer: 0, 
+                explanation: "Lipofuscin is considered a marker of past free radical injury and aging. It is not harmful to the cell itself but indicates the age of the cell and its history of oxidative stress." 
+            },
+            {
+                type: "sort",
+                question: "You are examining tissues under the microscope. Match the accumulation to its classic description.",
+                buckets: ["Lipids", "Proteins", "Hemosiderin", "Lipofuscin"],
+                items: [
+                    { text: "Massive clear vacuoles of triglycerides.", bucket: 0 },
+                    { text: "Glassy, bright pink (eosinophilic) droplets.", bucket: 1 },
+                    { text: "Golden-yellow accumulations of Iron.", bucket: 2 },
+                    { text: "Brownish-yellow 'wear and tear' pigment.", bucket: 3 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "2.7.2": {
+        title: "Pathologic Calcification (Turning to Stone) 🪨",
+        objectives: ["Master the two main types of pathologic calcification: Dystrophic (normal calcium levels, dead tissue) and Metastatic (high calcium levels, normal tissue), and understand the clinical causes of hypercalcemia."],
+        data: [
+            {
+                type: "concept",
+                title: "Turning to Stone",
+                text: "**Pathologic Calcification** is the abnormal deposition of calcium salts, together with smaller amounts of iron, magnesium, and other mineral salts, in tissues.",
+                subtext: "There are two distinct forms: **Dystrophic Calcification** and **Metastatic Calcification**. They are distinguished by the state of the tissue and the systemic calcium levels.",
+                buttonText: "See Dystrophic"
+            },
+            {
+                type: "concept",
+                title: "Dystrophic Calcification: The Tombstone",
+                text: "**Dystrophic Calcification** occurs locally in nonviable, dying, or damaged tissues.",
+                subtext: "It is seen in areas of any type of necrosis (e.g., caseous TB granulomas), advanced atherosclerosis (damaged vessels), and aging or damaged heart valves.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "In Dystrophic calcification, the patient's overall serum (blood) calcium levels are completely ____________.",
+                options: ["Normal", "High", "Low", "Toxic"],
+                answer: 0,
+                explanation: "In Dystrophic calcification, calcium metabolism is normal; the minerals deposit in damaged tissue even when systemic calcium levels are not elevated.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Metastatic Calcification: The Flood",
+                text: "**Metastatic Calcification** occurs in normal, healthy tissues whenever there is **Hypercalcemia** (high blood calcium).",
+                subtext: "The excess calcium in the blood precipitates out of solution and into various organs throughout the body.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Does the term 'Metastatic' calcification always mean the patient has a malignant cancer spreading through their body?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "While malignancy can cause hypercalcemia, the term 'metastatic' in this context refers to the widespread nature of the mineral deposits in otherwise normal tissues, regardless of whether cancer is present." 
+            },
+            {
+                type: "concept",
+                title: "Culprits of Hypercalcemia (Part 1)",
+                text: "Hypercalcemia (the trigger for metastatic calcification) has several primary causes:\n\n" +
+                    "1. **Increased Parathyroid Hormone (PTH):** Often due to parathyroid tumors, PTH causes excessive bone resorption.\n" +
+                    "2. **Resorption of Bone Tissue:** Occurs due to bone marrow tumors (multiple myeloma) or leukemia.",
+                subtext: "",
+                buttonText: "More causes"
+            },
+            {
+                type: "concept",
+                title: "Culprits of Hypercalcemia (Part 2)",
+                text: "Other major causes of hypercalcemia include:\n\n" +
+                    "1. **Vitamin D Disorders:** Vitamin D intoxication or sarcoidosis causes increased intestinal absorption of calcium.\n" +
+                    "2. **Renal Failure:** Retention of phosphate leads to secondary hyperparathyroidism, ultimately raising calcium levels.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Clinical Tidbit: Milk-Alkali Syndrome 🥛",
+                text: "This syndrome was historically caused by excessive consumption of milk (calcium) and antacids (alkali) for peptic ulcer disease.",
+                subtext: "This combination significantly raises serum calcium and pH, triggering widespread metastatic calcification.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Which organ is a primary target for Metastatic Calcification because it excretes acid (creating an internal alkaline environment)?", 
+                options: ["The Brain", "The Stomach (Gastric mucosa)", "The Skin"], 
+                answer: 1, 
+                explanation: "Calcium salts tend to deposit in tissues that lose acid, such as the stomach, lungs, and kidneys. The localized alkaline environment favors the precipitation of calcium salts." 
+            },
+            {
+                type: "sort",
+                question: "Match the clinical clue to the correct type of calcification.",
+                buckets: ["Dystrophic", "Metastatic"],
+                items: [
+                    { text: "Normal blood calcium; found on a scarred heart valve.", bucket: 0 },
+                    { text: "High blood calcium from Vitamin D; in healthy stomach.", bucket: 1 },
+                    { text: "Found inside a dead, caseous TB granuloma.", bucket: 0 },
+                    { text: "Kidney calcification caused by a parathyroid tumor.", bucket: 1 }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "3.1.1"
+    },
+
+    // CHAPTER 3: INFLAMMATION
+    // UNIT 1: BASICS OF INFLAMMATION
+    "3.1.1": {
+        title: "Friend or Foe? (Definition and Triggers) 🛡️🦠",
+        objectives: [
+            "Define inflammation, understand the 'vascularized tissue' rule, categorize its triggers, and recognize when this protective response becomes the disease itself!"
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Ultimate Security System",
+                text: "Welcome to the Inflammation and Healing chapter! Meet Inflammation, your body's ultimate security system.\n\n**Inflammation** is fundamentally a protective response. Its goal is to eliminate the initial cause of cell injury, clear out dead cells and debris, and pave the way for tissue repair.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Golden Rule",
+                text: "Before we look at what trips the alarm, there is one unbreakable golden rule of pathology:\n\nInflammation only occurs in **living, vascularized tissues**. Dead tissue cannot mount an inflammatory response because it needs blood vessels to deliver the security team (white blood cells) to the site of damage!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "A piece of tissue has completely lost its blood supply and died (necrosis). True or false: This dead tissue can initiate an inflammatory response from within itself.",
+                options: ["True", "False"],
+                answer: 1,
+                explanation: "Inflammation requires a blood supply. Dead tissue can't recruit white blood cells. However, the living, vascularized tissue immediately surrounding the dead zone will launch a massive inflammatory response to clean up the mess!"
+            },
+            {
+                type: "concept",
+                title: "Tripping the Alarm",
+                text: "So, what triggers this security system? We divide the culprits into two main buckets: **Infectious** and **Non-Infectious**.\n\n1. **Infectious Triggers**: The classic invaders like bacteria, viruses, fungi, and parasites.\n2. **Non-Infectious Triggers**: Physical trauma, extreme heat/cold (burns/frostbite), chemical toxins, and tissue necrosis (like a heart attack).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "sort",
+                question: "Let's play the sorting game! Drag the triggers into the correct 'bucket'.",
+                buckets: ["Infectious Bucket", "Non-Infectious Bucket"],
+                items: [
+                    { text: "Streptococcus pneumoniae", bucket: 0 },
+                    { text: "Severe Sunburn", bucket: 1 },
+                    { text: "Influenza Virus", bucket: 0 },
+                    { text: "Myocardial Infarction (Heart Attack)", bucket: 1 }
+                ],
+                explanation: ""
+            },
+            {
+                type: "concept",
+                title: "The Foe",
+                text: "We've established that inflammation is a protective friend... but is it always a good thing?\n\nSometimes the security team gets confused or overreacts. When inflammation is misdirected against the body's own tissues (**Autoimmune diseases**) or overreacts to harmless things in the environment (**Allergies**), the inflammatory response becomes the **disease**!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "A 22-year-old woman inhales harmless tree pollen and develops severe asthma (airway inflammation). In this scenario, how is inflammation acting?",
+                options: [
+                    "As a protective Friend, clearing a dangerous pathogen.",
+                    "As a destructive Foe, overreacting to a harmless substance."
+                ],
+                answer: 1,
+                explanation: "This is a hypersensitivity reaction. When the body's security system attacks a harmless substance like pollen, the resulting collateral damage causes the disease."
+            }
+        ]
+    },
+
+    "3.1.2": {
+        title: "The Security Playbook (The 5 Rs) 📋🏃‍♂️",
+        objectives: [
+            "Master the chronological sequence of the inflammatory response by identifying the '5 Rs': Recognition, Recruitment, Removal, Regulation, and Resolution."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Master Plan",
+                text: "Every good security team has a strict protocol. For the body's inflammatory response, this playbook is known as the **5 Rs**!\n\nFrom the moment a pathogen enters the body to the final healing stage, the immune system follows a precise 5-step master plan: **Recognition, Recruitment, Removal, Regulation, and Resolution**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Step 1: Recognition",
+                text: "**Step 1 is Recognition** (Spotting the threat).\n\nSentinel cells (like resident macrophages and xmast cells) act as the look-outs. They sit quietly in the tissues, using specialized antennae called **Toll-Like Receptors (TLRs)** to detect microbes or dead cells. Once they spot a threat, they sound the chemical alarm!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "How do the resident sentinel cells in the tissue know that a bacterial invader is present?",
+                options: [
+                    "A) They use Toll-Like Receptors (TLRs) to detect microbial patterns.",
+                    "B) They wait for the bacteria to enter the bloodstream.",
+                    "C) They release antibodies to find them."
+                ],
+                answer: 0,
+                explanation: "TLRs are the essential antennae that allow our innate immune system to recognize the bad guys and initiate the alarm."
+            },
+            {
+                type: "concept",
+                title: "Step 2: Recruitment",
+                text: "**Step 2 is Recruitment** (Calling for backup).\n\nThe alarm signals cause nearby blood vessels to dilate and become \"leaky.\" This allows the heavy-hitters—swarms of White Blood Cells (like neutrophils) and plasma proteins—to squeeze out of the bloodstream and rush into the injured tissue.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Step 3: Removal",
+                text: "**Step 3 is Removal** (Taking out the trash).\n\nOnce the backup arrives, they get to work! The recruited white blood cells hunt down, engulf, and destroy the offending microbes or dead cells in a Pac-Man-like process called phagocytosis.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "After the sentinel cells sound the alarm, the blood vessels assist in the ____________ of white blood cells into the tissue. Once there, the cells focus on the ____________ of the pathogen via phagocytosis.",
+                options: ["Recognition", "Recruitment", "Resolution", "Removal"],
+                answer: [1, 3],
+                explanation: "First you bring the troops in (Recruitment), then they neutralize the threat (Removal)!"
+            },
+            {
+                type: "concept",
+                title: "Steps 4 & 5: Regulation & Resolution",
+                text: "The battle is won! But the job isn't finished yet.\n\n• **Regulation**: (Hitting the brakes). The body must actively stop the inflammatory response so it doesn't destroy innocent healthy tissue.\n• **Resolution**: (Rebuilding). The debris is cleared away, and the tissue is repaired either by regenerating normal cells or by laying down a scar.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "order",
+                question: "Put the 5 Rs of Inflammation in the correct chronological order.",
+                items: [
+                    "Recognition",
+                    "Recruitment",
+                    "Removal",
+                    "Regulation",
+                    "Resolution"
+                ],
+                explanation: ""
+            }
+        ]
+    },
+
+    "3.1.3": {
+        title: "The Ancient Alarm (The 5 Cardinal Signs) 🏛️🚩",
+        objectives: [
+            "Memorize the five classic physical signs of acute inflammation, translate their Latin names, and link each sign to its basic underlying physiological cause."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "A 2,000-Year-Old Medical Record",
+                text: "In the first century AD, a Roman scholar named Celsus wrote down the four physical signs of inflammation. Centuries later, a fifth was added.\n\nToday, we call these the **5 Cardinal Signs of Inflammation**. If you ever smash your thumb with a hammer or get a nasty bug bite, you will experience all five of these ancient symptoms firsthand!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Rubor and Calor",
+                text: "The first two signs go hand-in-hand: **Rubor (Redness)** and **Calor (Heat)**.\n\nWhy does an inflamed area get red and hot? Because the blood vessels act like highways. When the security alarm goes off, the local vessels dilate (vasodilation) to bring in a massive rush of warm, red blood to the injured site.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Tumor",
+                text: "The third sign is **Tumor (Swelling)**.\n\nTo get the white blood cells out of the \"blood highway\" and into the tissues, the vessel walls must become leaky. As cells and protein-rich fluid leak out into the surrounding tissue, the area balloons up like a water balloon. We call this fluid accumulation **edema**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Increased blood flow (vasodilation) causes ____________ and ____________, while leaky vessels cause fluid accumulation, leading to ____________.",
+                options: ["Redness", "Swelling", "Heat", "Pain"],
+                answer: [0, 2, 1],
+                explanation: "The vascular flush brings the heat and color, while the \"leaky pipes\" cause the swelling."
+            },
+            {
+                type: "concept",
+                title: "Dolor",
+                text: "The fourth sign is **Dolor (Pain)**.\n\nPain isn't just an accident; it's a warning system! It is caused by two things: the physical stretch of the tissue from all that swelling (Tumor), and specific chemical mediators (like bradykinin and prostaglandins) that actively stimulate your nerve endings to yell \"Ouch!\"",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Functio Laesa",
+                text: "The final sign, added by Rudolf Virchow in the 19th century, is **Functio Laesa (Loss of Function)**.\n\nIf a joint is severely swollen and incredibly painful, you instinctively stop using it. This forced rest is actually a protective mechanism to prevent further injury while the tissue heals.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "match",
+                question: "Match the Latin term to its English translation.",
+                pairs: [
+                    { left: "Rubor", right: "Redness" },
+                    { left: "Calor", right: "Heat" },
+                    { left: "Tumor", right: "Swelling" },
+                    { left: "Dolor", right: "Pain" },
+                    { left: "Functio laesa", right: "Loss of function" }
+                ],
+                explanation: ""
+            },
+            {
+                type: "mcq",
+                question: "A basketball player rolls her ankle. Within an hour, her ankle is visibly enlarged (Tumor), warm to the touch (Calor), bright pink (Rubor), and she cannot bear weight on it (Functio laesa). Which cardinal sign is missing from this description?",
+                options: [
+                    "A) Necrosis",
+                    "B) Vasodilation",
+                    "C) Dolor (Pain)"
+                ],
+                answer: 2,
+                explanation: "If she can't bear weight, she is definitely experiencing Dolor, even if the prompt didn't explicitly say \"it hurts.\""
+            }
+        ]
+    },
+
+    "3.1.4": {
+        title: "The Sprinter vs. The Marathoner (Acute vs. Chronic) ⚡🐢",
+        objectives: [
+            "Distinguish between Acute and Chronic inflammation by comparing their onset, duration, primary cellular players, and extent of tissue damage."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "A Tale of Two Responses",
+                text: "We know why inflammation happens and the 5 steps it follows. But did you know there are two completely different \"modes\" of inflammation?\n\nDepending on the threat, the body will launch either an **Acute** (short-term) or a **Chronic** (long-term) response. Think of Acute inflammation as a **Sprinter**, and Chronic inflammation as a **Marathoner**!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Sprinter: Acute Inflammation",
+                text: "**Acute Inflammation** is the body's rapid response team.\n\n• **Onset**: Fast! It starts within minutes to hours.\n• **Duration**: Short. It lasts for a few days to a week.\n• **Tissue Damage**: Usually mild and self-limited. Once the threat is gone, the tissue typically returns to normal.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Marathoner: Chronic Inflammation",
+                text: "If the rapid response team fails to clear the threat, or if the trigger is a persistent autoimmune disease, the body switches to **Chronic Inflammation**.\n\n• **Onset**: Slow. It takes days to develop.\n• **Duration**: Long. It lasts for weeks, months, or even years!\n• **Tissue Damage**: Often severe and progressive. Because the battle drags on, healthy tissue gets destroyed and replaced by scar tissue (fibrosis).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "____________ inflammation has a rapid onset and usually resolves in a few days, whereas ____________ inflammation has a slow onset and lasts for months, often causing severe scarring.",
+                options: ["Acute", "Chronic", "Systemic", "Local"],
+                answer: [0, 1],
+                explanation: "Acute is fast and brief; Chronic is slow and prolonged."
+            },
+            {
+                type: "concept",
+                title: "Meet the Cellular Soldiers",
+                text: "Just like different missions require different soldiers, Acute and Chronic inflammation use totally different types of White Blood Cells!\n\n• **Acute Cells**: The **Neutrophil**. These are the \"First Responders.\" They arrive instantly, aggressively eat bacteria, but die off very quickly (in about 24-48 hours).\n• **Chronic Cells**: The **Macrophages and Lymphocytes (T-cells and B-cells)**. These are the \"Heavy Artillery.\" They take longer to arrive but can survive in the tissue for months to direct a prolonged war.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "sort",
+                question: "Deploy the correct cells to the correct type of inflammation.",
+                buckets: ["Acute Inflammation Bucket", "Chronic Inflammation Bucket"],
+                items: [
+                    { text: "Neutrophils", bucket: 0 },
+                    { text: "Macrophages", bucket: 1 },
+                    { text: "Lymphocytes", bucket: 1 }
+                ],
+                explanation: ""
+            },
+            {
+                type: "mcq",
+                question: "You see a massive amount of tissue destruction, severe scarring (fibrosis), and thousands of Lymphocytes and Macrophages. What kind of process are you looking at?",
+                options: [
+                    "A) Acute Inflammation",
+                    "B) Chronic Inflammation",
+                    "C) Normal, healthy tissue"
+                ],
+                answer: 1,
+                explanation: "The presence of Macrophages/Lymphocytes paired with severe tissue destruction and scarring is the classic hallmark of Chronic Inflammation."
+            }
+        ],
+        next: "3.2.1"
+    },
+
+    // UNIT 2: ACUTE INFLAMMATION VASCULAR EVENTS
+    "3.2.1": {
+        title: "The Flush and the Flow (Vasodilation & Stasis) 🌡️🏎️",
+        objectives: [
+            "Understand the very first reactions of blood vessels to injury, including the histamine-driven 'flush' (vasodilation) and the resulting 'traffic jam' (stasis)."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "Changing the Highways",
+                text: "The alarm has been sounded, and now the body needs to bring the cellular army to the battlefield.\n\nTo do this, the local blood vessels (the \"highways\") must completely change their behavior. We call these the **Vascular Events** of acute inflammation, and they happen in two main steps: **changes in flow** and **changes in permeability**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Flush: Vasodilation",
+                text: "The very first major event is **Vasodilation** (widening of the blood vessels).\n\nChemical messengers, most notably **Histamine**, tell the smooth muscle around the blood vessels to relax. The vessels open wide, allowing a massive rush of warm, red blood into the capillary beds.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "The massive influx of blood during vasodilation is directly responsible for which two Cardinal Signs of inflammation?",
+                options: [
+                    "A) Tumor (Swelling) and Dolor (Pain)",
+                    "B) Rubor (Redness) and Calor (Heat)",
+                    "C) Functio laesa (Loss of function)"
+                ],
+                answer: 1,
+                explanation: "The rush of warm blood causes the area to turn red and feel hot to the touch. The \"Flush\" is complete!"
+            },
+            {
+                type: "concept",
+                title: "The Fluid Shift",
+                text: "But as the blood rushes in and the vessels widen, something else happens: fluid begins to escape.\n\nAs water pushes out of the bloodstream and into the tissues, the **Red Blood Cells** get left behind inside the vessel.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Traffic Jam: Stasis",
+                text: "Imagine a river suddenly losing half its water. The river becomes thick with mud, and the current slows to a crawl.\n\nBecause the **Red Blood Cells** are now tightly packed together, the blood becomes highly **viscous** (thick). The blood flow slows down dramatically. Pathologists call this localized slowing of blood flow **Stasis**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "As fluid leaves the dilated vessel, the remaining Red Blood Cells become highly concentrated. This increases blood ____________, which leads to a dramatic slowing of blood flow known as ____________.",
+                options: ["Viscosity", "Stasis", "Velocity", "Margination"],
+                answer: [0, 1],
+                explanation: "Loss of fluid = high viscosity = Stasis!"
+            },
+            {
+                type: "concept",
+                title: "Interactive: See the Flow",
+                text: "When **Histamine** is released, the vessel gets wider (**Vasodilation**), fluid escapes, and red blood cells bunch up tightly.\n\nNotice how **Stasis** forces the White Blood Cells to the edges of the vessel? This is the perfect setup for them to exit!",
+                subtext: "This process prepares the cells for the next stage: Cellular Events.",
+                buttonText: "Next"
+            }
+        ]
+    },
+
+    "3.2.2": {
+        title: "Opening the Gates (Vascular Permeability) 🚪💧",
+        objectives: [
+            "Understand how blood vessels become 'leaky' through endothelial cell contraction, and link this increased permeability to the formation of edema (tissue swelling)."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "Escaping the Highway",
+                text: "We have a traffic jam (Stasis) and the blood vessel is packed. But the white blood cells and plasma proteins are still trapped inside the vessel!\n\nTo fight the infection in the tissues, the body needs to open the gates and let them out. This process is called increasing **Vascular Permeability** (making the vessels \"leaky\").",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Living Wallpaper",
+                text: "The inside of every blood vessel is lined by a single layer of flat, tightly packed cells called the **Endothelium**.\n\nNormally, these endothelial cells are glued tightly together, forming a waterproof barrier so blood doesn't leak out into your tissues.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Endothelial Contraction",
+                text: "So, how do we open the gates? The most common way is **Endothelial Cell Contraction**.\n\nChemical messengers (like our old friend **Histamine**) bind to the endothelial cells and tell them to **contract** (shrink). As the cells pull away from each other, tiny \"gaps\" form between them!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "During an acute inflammatory response, how do blood vessels rapidly become leaky?",
+                options: [
+                    "A) The endothelial cells undergo apoptosis (die) and fall off.",
+                    "B) The endothelial cells contract and pull apart, creating intercellular gaps.",
+                    "C) The white blood cells punch physical holes through the cells."
+                ],
+                answer: 1,
+                explanation: "While severe burns or toxins can sometimes cause endothelial cells to die, the immediate, most common mechanism for leakiness is simple contraction triggered by histamine!"
+            },
+            {
+                type: "concept",
+                title: "The Leak and the Swell",
+                text: "Once these gaps open, protein-rich fluid pours out of the blood vessel and into the surrounding tissue space.\n\nThe accumulation of this fluid in the tissue is called **Edema**. This physical buildup of fluid stretches the tissue, which leads us directly to our third Cardinal Sign...",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Increased vascular permeability allows fluid to leak into the tissues, causing ____________. This fluid accumulation is directly responsible for the cardinal sign of ____________ (Swelling).",
+                options: ["Edema", "Tumor", "Rubor", "Vasodilation"],
+                answer: [0, 1],
+                explanation: "Endothelial contraction leads to permeability, which causes edema, which we see clinically as Tumor!"
+            },
+            {
+                type: "concept",
+                title: "Histamine in Action",
+                text: "As you trigger **Histamine**, the **Endothelial Cells** visibly shrink and contract. As these gaps open, fluid starts leaking through until the gates are fully open.\n\nThe highway is now leaky, allowing fluid to escape and cause swelling!",
+                subtext: "",
+                buttonText: "Next"
+            }
+        ]
+    },
+
+    "3.2.3": {
+        title: "The Fluid Showdown (Transudate vs. Exudate) 🧪🔬",
+        objectives: [
+            "Differentiate between the two types of tissue fluid (edema) by comparing their protein content, cellularity, and the state of the endothelial barrier."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "Not All Fluids Are Created Equal",
+                text: "You know that increased permeability causes fluid to leak into the tissues (**Edema**). But in medicine, not all edema is the same!\n\nIf a doctor uses a needle to drain fluid from a swollen knee or lung, they will send it to the lab to determine if it is a **Transudate** or an **Exudate**. The difference tells the doctor exactly why the swelling happened.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Transudate: The Fine Filter",
+                text: "Let's start with **Transudate**. This fluid is created when the endothelial barrier is completely intact and healthy, but pressure imbalances (like high blood pressure or heart failure) force water out of the vessels.\n\nThink of it like a fine coffee filter. Because the endothelial gaps are tightly closed, only water and very small molecules can squeeze through. As a result, **Transudate** is a clear, watery fluid that is **low in protein** and has **very few cells**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Exudate: The Torn Filter",
+                text: "Now, meet **Exudate**. This is the hallmark fluid of inflammation!\n\nBecause **Histamine** caused the endothelial cells to contract and open wide gaps (a \"torn coffee filter\"), large molecules and cells can easily escape. **Exudate** is a cloudy fluid packed with **high protein** and **thousands of white blood cells**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Because the endothelial barrier is completely intact, a ____________ is clear and low in protein. In contrast, because inflammation opens wide gaps, an ____________ is cloudy and packed with high protein and cells.",
+                options: ["Transudate", "Exudate", "Plasma", "Serum"],
+                answer: [0, 1],
+                explanation: "Transudate = Low Protein/Clear. Exudate = High Protein/Cloudy."
+            },
+            {
+                type: "sort",
+                question: "You are working in the pathology lab! Sort the fluid characteristics into the correct category.",
+                buckets: ["Transudate", "Exudate"],
+                items: [
+                    { text: "Low Protein Content", bucket: 0 },
+                    { text: "Contains White Blood Cells", bucket: 1 },
+                    { text: "Caused by Endothelial Contraction (Inflammation)", bucket: 1 },
+                    { text: "Caused by Pressure Imbalances (Heart Failure)", bucket: 0 },
+                    { text: "Clear and Watery", bucket: 0 },
+                    { text: "Cloudy and Thick", bucket: 1 }
+                ],
+                explanation: ""
+            },
+            {
+                type: "mcq",
+                question: "A patient presents with a severely swollen, red, and hot elbow. A doctor drains the fluid and the lab reports: 'Fluid is cloudy, highly cellular, with a high protein concentration.' What is the mechanism behind this swelling?",
+                options: [
+                    "A) Increased hydrostatic pressure with an intact endothelium (Transudate).",
+                    "B) Increased vascular permeability with widened endothelial gaps (Exudate)."
+                ],
+                answer: 1,
+                explanation: "The red, hot elbow was a clue for inflammation, and the cloudy, protein-rich fluid confirms it is an Exudate!"
+            }
+        ],
+        next: "3.3.1"
+    },
+
+    // UNIT 3: ACUTE INFLAMMATION CELLULAR EVENTS
+    "3.3.1": {
+        title: "Pumping the Brakes (Rolling & Adhesion) 🛑🦶",
+        objectives: [
+            "Understand the first steps of the leukocyte journey by defining Margination, explaining how Selectins mediate Rolling, and how Integrins mediate firm Adhesion."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Infantry Arrives",
+                text: "The blood vessels have dilated, fluid has leaked out, and traffic has slowed to a crawl. The stage is perfectly set for the Cellular Events.\n\nNow, we will follow the \"First Responders\" of acute inflammation—the Neutrophils—as they try to exit the blood vessel to hunt down the bacteria.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Margination",
+                text: "Step one is getting out of the fast lane. This is called **Margination**.\n\nRemember the **Stasis** from Unit 2? As fluid leaves the vessel, the heavy, fast-moving **Red Blood Cells** clump together in the center of the stream. This physically pushes the **White Blood Cells** to the outer margins, pressing them right up against the endothelial wall!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Speed Bumps: Rolling",
+                text: "The Neutrophil is at the edge, but it's still moving too fast to just jump out! It needs to slow down.\n\nThe inflamed endothelial cells pop up tiny, temporary \"speed bumps\" called **Selectins**. The Neutrophil loosely binds, lets go, binds again, and lets go, causing it to tumble and **Roll** along the vessel wall.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "The interaction between the Neutrophil and Selectins is intentionally weak and temporary. What is the primary purpose of this Selectin interaction?",
+                options: [
+                    "A) To permanently glue the Neutrophil to the wall.",
+                    "B) To slow the Neutrophil down by making it roll.",
+                    "C) To squeeze the Neutrophil out of the blood vessel."
+                ],
+                answer: 1,
+                explanation: "Selectins aren't strong enough to stop the cell completely. They just act as friction to slow the Neutrophil to a gentle roll."
+            },
+            {
+                type: "concept",
+                title: "The Anchor: Adhesion",
+                text: "Now that the Neutrophil is moving slowly, it’s time to hit the brakes completely! This is called **Adhesion**.\n\nThe Neutrophil activates strong, velcro-like hooks on its surface called **Integrins**. These **Integrins** latch firmly onto receptors (like **ICAM-1**) on the endothelial wall. The Neutrophil comes to a complete, screeching halt!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "The weak \"speed bumps\" that cause the cell to roll are called ____________, while the strong \"anchors\" that cause the cell to firmly adhere are called ____________.",
+                options: ["Integrins", "Selectins", "Histamine", "Endothelium"],
+                answer: [1, 0],
+                explanation: "Selectins = Slow/Speed bumps. Integrins = Iron grip!"
+            },
+            {
+                type: "match",
+                question: "Deploy the correct molecules to slow down and stop the cell.",
+                pairs: [
+                    { left: "Stage 1: The cell is moving too fast! (Speed bumps)", right: "Selectins" },
+                    { left: "Stage 2: The cell is rolling slowly! (Anchors)", right: "Integrins" }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+
+    "3.3.2": {
+        title: "The Great Escape (Transmigration & Chemotaxis) 🚪🐕",
+        objectives: [
+            "Follow the Neutrophil as it escapes the blood vessel by squeezing through the endothelium (Transmigration/Diapedesis via PECAM-1) and navigates to the injury site using a chemical scent trail (Chemotaxis)."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Doors Are Open",
+                text: "Our Neutrophil has successfully hit the brakes and is firmly glued to the vessel wall (**Adhesion**). Now, it needs to get out!\n\nRemember in Unit 2 when **Histamine** caused the endothelial cells to contract and create gaps? The Neutrophil is going to use those exact gaps as its escape hatch!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Squeezing Through: Diapedesis",
+                text: "The process of the white blood cell squeezing between the endothelial cells to leave the blood vessel is called **Transmigration**, or **Diapedesis**.\n\nThe Neutrophil behaves like an octopus, morphing its shape to squeeze its entire body through the tiny crack in the endothelial \"wall\" and out into the tissue space.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The 'Secret Handshake' Molecule",
+                text: "The Neutrophil doesn't just push blindly; it uses a specific molecule to help pull itself through the gap.\n\nThis molecule is called **PECAM-1** (also known as **CD31**). Think of **PECAM-1** as the \"doorknob\" or a \"secret handshake\" between the Neutrophil and the Endothelial cell that allows the Neutrophil to pull itself safely to the other side.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "The physical act of a Neutrophil squeezing through the endothelial gaps is called ____________, and it is mediated by the \"doorknob\" molecule known as ____________.",
+                options: ["Margination", "Diapedesis", "Selectins", "PECAM-1"],
+                answer: [1, 3],
+                explanation: "The cell performs Diapedesis (the escape) by gripping onto PECAM-1!"
+            },
+            {
+                type: "concept",
+                title: "Lost in the Tissue",
+                text: "The Neutrophil is finally out in the tissue! But the tissue is a massive, dark forest. How does it know where the bacteria are hiding?\n\nIt follows a chemical scent! This directed movement along a chemical gradient is called **Chemotaxis**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Chemical Breadcrumbs",
+                text: "The Neutrophil acts like a bloodhound, sniffing out a trail of \"chemical breadcrumbs\" that get stronger as it gets closer to the target.\n\nWhat are these breadcrumbs?\n1. Bacterial toxins (the invader's own perfume).\n2. **C5a** (a protein from the Complement system).\n3. **Leukotriene B4 / LTB4** (a chemical alarm released by the body).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Follow the Scent!",
+                text: "By following the chemical breadcrumbs like **C5a** and **LTB4**, the Neutrophil arrives at the target. Chemotaxis ensures the cell moves toward the highest concentration of attractants until it finds the enemy bacteria!",
+                subtext: "",
+                buttonText: "Next"
+            }
+        ]
+    },
+
+    "3.3.3": {
+        title: "Pac-Man in Action (Phagocytosis & Destruction) 👾🧼",
+        objectives: [
+            "Master the final showdown between the Neutrophil and the bacteria, including opsonization (seasoning), engulfment (the phagosome), and intracellular destruction (ROS and lysosomes)."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Final Showdown",
+                text: "The Neutrophil followed the chemical scent and finally found the invading bacteria! Now, it's time for the main event: **Phagocytosis** (cellular eating).\n\nThis destructive process happens in three distinct steps: **Recognition, Engulfment, and Degradation**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Step 1: Buttering it Up",
+                text: "Bacteria can be slippery and hard for the Neutrophil to grab. To fix this, the body coats the bacteria in special proteins called **Opsonins**.\n\nThink of opsonins as \"handles\" or \"tasty seasoning\" that make the bacteria irresistible to the Neutrophil. The two most important opsonins are **IgG** (an antibody) and **C3b** (a complement protein).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "The process of coating a pathogen to make it easier to eat is called ________, and a major protein responsible for this is ________.",
+                options: [
+                    "A) Margination / Selectin",
+                    "B) Opsonization / C3b",
+                    "C) Chemotaxis / PECAM-1"
+                ],
+                answer: 1,
+                explanation: "\"Opsonin\" comes from the Greek word meaning \"to prepare for dining.\" C3b and IgG set the table for the Neutrophil!"
+            },
+            {
+                type: "concept",
+                title: "Step 2: The Big Bite",
+                text: "Once the bacteria is coated, the Neutrophil extends two cellular arms (pseudopods) around the bacteria and swallows it whole.\n\nThe swallowed bacteria is now trapped inside a little bubble within the Neutrophil's cytoplasm. This bubble is called a **Phagosome**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Step 3: The Chamber of Doom",
+                text: "The bacteria is trapped, but it isn't dead yet. The **Phagosome** must fuse with a **Lysosome** (a cellular sac filled with deadly enzymes).\n\nWhen they merge, they create the ultimate chamber of doom: the **Phagolysosome**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "The bubble holding the bacteria (the ________) fuses with the cell's toxic enzyme pouch (the ________) to form the final digestion chamber known as the ________.",
+                options: ["Phagolysosome", "Phagosome", "Lysosome", "Endosome"],
+                answer: [1, 2, 0],
+                explanation: "Phagosome + Lysosome = Phagolysosome!"
+            },
+            {
+                type: "concept",
+                title: "The Kill: Oxidative Burst",
+                text: "Inside the Phagolysosome, the Neutrophil unleashes its ultimate weapon: **Reactive Oxygen Species (ROS)**.\n\nIn a rapid process called the **Oxidative Burst**, the cell converts oxygen into deadly hydrogen peroxide. Then, a special enzyme called **Myeloperoxidase (MPO)** turns that peroxide into hypochlorite... which is literally household bleach!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Final Destruction",
+                text: "By seasoning the target (**C3b**), engulfing it (**Phagosome**), and releasing the \"bleach\" (**Myeloperoxidase**), the Neutrophil chemically incinerates the threat!",
+                subtext: "",
+                buttonText: "Next"
+            }
+        ],
+        next: "3.4.1"
+    },
+
+    // UNIT 4: MORPHOLOGY, TERMINATION AND OUTCOME
+    "3.4.1": {
+        title: "The Water and the Web (Serous & Fibrinous) 💧🕸️",
+        objectives: [
+            "Transition from microscopic mechanisms to macroscopic appearance. Learn to identify the gross morphological features of Serous (watery) and Fibrinous (sticky/thick) inflammation."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Naked Eye",
+                text: "We’ve spent the last two units looking through a microscope. Now, it's time to put the microscope away and use our naked eye.\n\nWhen acute inflammation happens, it leaves distinct physical footprints in the tissue. Pathologists call these macroscopic appearances **Morphological Patterns**. Let's look at the first two: Serous and Fibrinous.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Serous Inflammation: The Watery Response",
+                text: "**Serous Inflammation** is the mildest pattern. It occurs with mild injuries.\n\nBecause the injury is relatively light, the endothelial gaps don't open very wide. Only watery, relatively protein-poor fluid escapes into the tissue or body cavities.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Classic Blister",
+                text: "You have almost certainly experienced Serous inflammation firsthand!\n\nThink of a skin blister from a sunburn or from wearing tight shoes. That little pocket of clear, yellow-ish fluid trapped just under the epidermis is the perfect, classic example of a **Serous Exudate**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "A patient accidentally touches a hot stove. A few hours later, a raised skin blister filled with clear, watery fluid forms on their finger. What morphological pattern of inflammation is this?",
+                options: [
+                    "A) Chronic Inflammation",
+                    "B) Fibrinous Inflammation",
+                    "C) Serous Inflammation"
+                ],
+                answer: 2,
+                explanation: "A blister filled with clear, watery fluid is the hallmark of mild, Serous inflammation."
+            },
+            {
+                type: "concept",
+                title: "Fibrinous Inflammation: The Sticky Web",
+                text: "Now let's turn up the severity. Meet **Fibrinous Inflammation**.\n\nWhen the tissue injury is severe, the blood vessel gates open very wide. This allows massive proteins—specifically **Fibrinogen**—to spill out into the tissue.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Bread and Butter Pattern",
+                text: "Outside the vessel, **Fibrinogen** is converted into **Fibrin** (a thick, sticky, stringy protein web).\n\nThis sticky web coats the organs, especially in body cavities like the lining of the heart (pericardium) or lungs (pleura). When doctors open the chest, fibrinous pericarditis looks rough and stringy, famously described as looking like two pieces of unbuttered **\"Bread and Butter\"** pulled apart!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "A mild injury causes narrow gaps, allowing watery fluid to form ____________ inflammation. A severe injury causes wide gaps, allowing massive proteins to escape and form the sticky, stringy web of ____________ inflammation.",
+                options: ["Fibrinous", "Serous", "Purulent", "Granulomatous"],
+                answer: [1, 0],
+                explanation: "Narrow gaps = watery (Serous). Wide gaps = thick/sticky (Fibrinous)."
+            },
+            {
+                type: "sort",
+                question: "You're the gross pathologist! Sort the clues into the correct morphological pattern.",
+                buckets: ["Serous 💧", "Fibrinous 🍞"],
+                items: [
+                    { text: "Skin Blister from a tight shoe", bucket: 0 },
+                    { text: "Massive leakage of Fibrinogen", bucket: 1 },
+                    { text: "Clear, watery, low-protein fluid", bucket: 0 },
+                    { text: "Thick, sticky, 'Bread and Butter' appearance", bucket: 1 },
+                    { text: "Typically seen in mild injuries", bucket: 0 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+
+    "3.4.2": {
+        title: "The Pus and the Crater (Purulent & Ulcers) 🧪🕳️",
+        objectives: [
+            "Master the destructive morphological patterns of acute inflammation by defining Purulent (suppurative) inflammation, understanding Abscess formation, and visualizing Ulcers as surface defects."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Messy Aftermath",
+                text: "You know what mild (Serous) and severe (Fibrinous) inflammation look like. But what happens when the bacteria put up a massive, destructive fight?\n\nToday, we are looking at the two messiest morphological patterns: **Purulent** inflammation (pus) and **Ulcers** (surface craters).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Purulent Inflammation: The Pus Soup",
+                text: "**Purulent** (or **suppurative**) inflammation is characterized by the production of large amounts of **Pus**.\n\nWhat exactly is pus? It is a thick, white/yellow/green biological soup made of three things: dead **Neutrophils**, liquefied dead tissue (**necrotic debris**), and the microbes themselves.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Pyogenic Culprits",
+                text: "Not all bacteria cause massive pus formation. The ones that do are called **Pyogenic** (pus-producing) bacteria.\n\nThe most famous pyogenic bacteria is **Staphylococcus**. When these bacteria invade, they cause massive tissue destruction and attract millions of neutrophils!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "Purulent inflammation is characterized by pus. Which of the following is NOT a major component of pus?",
+                options: [
+                    "A) Dead Neutrophils",
+                    "B) Clear, watery, protein-poor fluid (Transudate)",
+                    "C) Liquefied dead tissue cells",
+                    "D) Pyogenic bacteria"
+                ],
+                answer: 1,
+                explanation: "Transudate is clear and watery (Serous). Pus is a thick, destructive Exudate packed with dead neutrophils and necrotic tissue!"
+            },
+            {
+                type: "concept",
+                title: "The Abscess: Walled-Off Pus",
+                text: "Sometimes, the body can't clear the pus, so it tries to quarantine it. This creates an **Abscess**.\n\nAn **abscess** is a localized collection of pus buried deep inside a tissue, surrounded by a thick fibrous wall. Because the wall is so thick, antibiotics often can't penetrate it. The only way to fix it is for a doctor to surgically **\"I&D\"** (Incision and Drainage) it!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Ulcers: The Surface Crater",
+                text: "Our final morphological pattern is the **Ulcer**.\n\nUnlike an abscess (which is buried deep), an **ulcer** is a local defect or crater on the surface of an organ or tissue. It happens when inflamed, necrotic tissue on the surface dies and falls off (**sloughs**).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Location, Location, Location",
+                text: "Ulcers only happen in areas where inflamed tissue can physically fall away from a surface.\n\nYou will classically see ulcers on the mucosa of the GI tract (like a **peptic ulcer** in the stomach) or on the skin (like a **diabetic foot ulcer**).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "match",
+                question: "Match the visual description to the correct pathological term.",
+                pairs: [
+                    { left: "A deep, walled-off pocket of pus", right: "Abscess" },
+                    { left: "A crater-like defect on the stomach surface", right: "Ulcer" },
+                    { left: "A thick soup of dead neutrophils", right: "Purulent Exudate" }
+                ],
+                explanation: ""
+            },
+            {
+                type: "mcq",
+                question: "An abscess is a walled-off pocket under the skin. What is the most effective clinical treatment when antibiotics cannot penetrate the wall?",
+                options: [
+                    "Give an antibiotic pill",
+                    "Incision and Drainage (Scalpel)"
+                ],
+                answer: 1,
+                explanation: "Because the wall is thick, surgical Incision and Drainage is the standard treatment for an abscess."
+            }
+        ]
+    },
+
+    "3.4.3": {
+        title: "Hitting the Brakes (Termination) 🛑📉",
+        objectives: [
+            "Understand how the body actively shuts down the inflammatory response to prevent collateral damage, focusing on Neutrophil apoptosis, the 'Mediator Switch' (Lipoxins), and anti-inflammatory cytokines (IL-10 and TGF-β)."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Ceasefire",
+                text: "The bacteria are dead, and the battle is won! But if the security team keeps firing its weapons (like bleach and ROS), they will destroy the surrounding healthy tissue.\n\nInflammation doesn't just slowly fade away; it must be actively shut down. The body has a strict **\"Ceasefire Protocol\"** to hit the brakes and stop the destruction.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Built-in Timer: Apoptosis",
+                text: "The first mechanism to stop inflammation is a built-in timer.\n\nRemember our First Responders, the Neutrophils? They have a very short lifespan (only 24 to 48 hours outside the bloodstream). Once their job is done, they undergo **Apoptosis** (quiet, programmed cell death) and peacefully fade away.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Lipid Switch",
+                text: "The second mechanism is flipping the \"Mediator Switch.\"\n\nDuring the attack, the body produced lipid messengers called **Leukotrienes** to keep the gas pedal pushed down. To stop the attack, the body switches to producing anti-inflammatory lipids called **Lipoxins, Resolvins, and Protectins**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "During an infection, the body produces ____________ to drive inflammation forward, but switches to producing ____________ to actively resolve and stop the inflammation.",
+                options: ["Lipoxins", "Leukotrienes", "Histamine", "Fibrin"],
+                answer: [1, 0],
+                explanation: "Leukotrienes = Gas pedal. Lipoxins/Resolvins = Brakes!"
+            },
+            {
+                type: "concept",
+                title: "The Peacemaker Cytokines",
+                text: "The final stop signals come from the heavy artillery: the **Macrophages**.\n\nOnce the **Macrophages** arrive and see that the battle is over, they eat up all the dead, apoptotic Neutrophils. Then, they release two massive anti-inflammatory cytokines to officially declare peace: **IL-10 and TGF-β**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "Which two cytokines are secreted by macrophages to actively terminate the acute inflammatory response and initiate tissue repair?",
+                options: [
+                    "A) IL-1 and TNF",
+                    "B) Histamine and Bradykinin",
+                    "C) IL-10 and TGF-β"
+                ],
+                answer: 2,
+                explanation: "IL-1 and TNF start the fire, but **IL-10 and TGF-β** put the fire out!"
+            },
+            {
+                type: "sort",
+                question: "Sort the chemical messengers into the 'Gas Pedal' or the 'Brakes'.",
+                buckets: ["Gas Pedal 🟢", "Brakes 🛑"],
+                items: [
+                    { text: "Histamine", bucket: 0 },
+                    { text: "IL-10", bucket: 1 },
+                    { text: "Leukotrienes", bucket: 0 },
+                    { text: "Lipoxins", bucket: 1 },
+                    { text: "TGF-β", bucket: 1 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+
+    "3.4.4": {
+        title: "The Crossroads (Outcomes) 🛣️🏁",
+        objectives: [
+            "Understand the three primary outcomes of acute inflammation: Complete Resolution, Healing by Scarring (Fibrosis), and Progression to Chronic Inflammation."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Crossroads",
+                text: "The acute battle is over and the ceasefire (**IL-10 & TGF-β**) has been called. But what does the battlefield look like the next day?\n\nFollowing an acute inflammatory response, the tissue stands at a crossroads. Depending on the severity of the injury and the type of tissue involved, it will go down one of three possible paths.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Path 1: Complete Resolution",
+                text: "**Outcome 1: Complete Resolution**. This is the ideal scenario!\n\nIf the injury was mild and the tissue is capable of regenerating (like skin), the area returns to 100% normal. Macrophages eat all the dead cells, and new, healthy cells replace the damaged ones.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Path 2: Scarring / Fibrosis",
+                text: "**Outcome 2: Healing by Scarring (Fibrosis)**. Sometimes, perfect repair just isn't possible.\n\nThis happens if the tissue is incapable of regeneration (like cardiac muscle after a heart attack) or if the destruction was simply too massive. The body patches the hole with tough, fibrous **Collagen**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "If an injury is mild and the tissue regenerates completely, it is called ____________. If the tissue cannot regenerate and the defect is filled with collagen, it results in ____________.",
+                options: ["Resolution", "Scarring", "Edema", "Suppuration"],
+                answer: [0, 1],
+                explanation: "Resolution is the perfect fix; Scarring is the tough, fibrous patch job."
+            },
+            {
+                type: "concept",
+                title: "Path 3: Chronic Inflammation",
+                text: "**Outcome 3: Progression to Chronic Inflammation**. What if the acute response fails to clear the threat?\n\nIf the offending agent (like a tough bacteria or a persistent autoimmune trigger) refuses to die, the short-lived **Neutrophils** eventually give up. The body calls in the \"Marathoners\" (**Macrophages and Lymphocytes**).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "A patient's liver is infected with Hepatitis C. The acute inflammatory response is unable to eradicate the virus after several weeks. What is the most likely outcome for this tissue?",
+                options: [
+                    "A) Complete Resolution",
+                    "B) Progression to Chronic Inflammation",
+                    "C) Formation of a Serous Exudate"
+                ],
+                answer: 1,
+                explanation: "Because the virus persists and cannot be cleared, the acute response fails and evolves into Chronic Inflammation."
+            },
+            {
+                type: "sort",
+                question: "Match the scenario to its pathological outcome.",
+                buckets: ["Resolution 🌿", "Scarring 🩹", "Chronic 🕰️"],
+                items: [
+                    { text: "Mild sunburn; new skin grows back perfectly.", bucket: 0 },
+                    { text: "Heart attack; dead muscle replaced by collagen.", bucket: 1 },
+                    { text: "Tuberculosis; infection lingers for months.", bucket: 2 }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "3.5.1"
+    },
+
+    // UNIT 5: MEDIATORS
+    "3.5.1": {
+        title: "The Messengers' Rulebook (Principles) 📣📡",
+        objectives: [
+            "Master the general principles that govern all inflammatory mediators, including the 'Big Four' classes, where they come from (Cell vs. Plasma), how they are stored, and their strict rules of engagement."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Directors",
+                text: "How does the body know exactly when and where to start inflammation? It uses a complex communication network of **Chemical Mediators**.\n\nMediators are the biochemical substances that initiate and regulate the entire inflammatory reaction. Without them, the immune system is completely blind and deaf!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Big Four",
+                text: "There are countless mediators, but the most important ones belong to four main classes:\n\n1. **Vasoactive Amines** (like Histamine)\n2. **Lipid Products** (like Prostaglandins & Leukotrienes)\n3. **Cytokines & Chemokines** (like IL-1 & TNF)\n4. **Complement Proteins** (like C3b)",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "Each class of mediator has one specific job, and there is absolutely zero overlap in their functions.",
+                options: ["True", "False"],
+                answer: 1,
+                explanation: "While they have distinct mechanisms, there is significant overlap (redundancy). This ensures that if one system fails, the body can still trigger inflammation!"
+            },
+            {
+                type: "concept",
+                title: "Origin 1: Cell-Derived",
+                text: "Where do these messengers come from? The first source is **Cells**.\n\n\"Sentinel\" cells (like macrophages and mast cells) produce mediators in two different ways:\n\n• **Way #1**: They store pre-made mediators in intracellular granules for instant release (like Histamine).\n• **Way #2**: They build them from scratch (**de novo**) when the alarm sounds (like Cytokines).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Because the histamine is already sequestered inside intracellular ____________, the mast cell can secrete it instantly via exocytosis the moment tissue is damaged.",
+                options: ["Nuclei", "Granules", "Mitochondria", "Ribosomes"],
+                answer: 1,
+                explanation: "Granules act like loaded water balloons ready to burst at the first sign of danger."
+            },
+            {
+                type: "concept",
+                title: "Origin 2: Plasma-Derived",
+                text: "The second source is the **Plasma** (the liquid part of your blood).\n\nPlasma-derived mediators (like Complement proteins) are manufactured mainly in the **Liver**. They constantly float through your circulation as inactive precursors, completely asleep!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "How do these inactive plasma mediators finally \"wake up\" to acquire their functional properties?",
+                options: [
+                    "A) They are activated by proteolytic cleavages (enzymatic cuts).",
+                    "B) They go back to the liver to be recharged.",
+                    "C) They wait for the brain to send an electrical signal."
+                ],
+                answer: 0,
+                explanation: "Like cutting a lock off a box, an enzyme must cleave (cut) the inactive precursor to unleash the active mediator!"
+            },
+            {
+                type: "concept",
+                title: "The Golden Rules",
+                text: "To prevent endless inflammation, mediators follow three strict **Golden Rules**:\n\n1. **Strict Triggers**: Produced ONLY in response to microbes or dead tissue.\n2. **Short-Lived**: They rapidly decay or are enzymatically destroyed.\n3. **The Domino Effect**: One mediator can stimulate the release of secondary mediators! These can amplify the signal, but they can also have opposing activities to counteract it!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "Why is it so important that some secondary mediators have \"opposing activities\" to the initial mediator?",
+                options: [
+                    "A) To confuse the white blood cells.",
+                    "B) To completely destroy the healthy tissue.",
+                    "C) To act as a built-in brake, stopping the inflammation from spiraling out of control."
+                ],
+                answer: 2,
+                explanation: "The cascade provides a mechanism to amplify the attack, but also perfectly counteracts it when it's time to stop the inflammation!"
+            },
+            {
+                type: "sort",
+                question: "Sort these mediator characteristics into their correct categories.",
+                buckets: ["Cell-Derived (Granules)", "Plasma-Derived", "Lifespan", "Secondary Mediators"],
+                items: [
+                    { text: "Ready for instant release (e.g., Histamine)", bucket: 0 },
+                    { text: "Made in the liver and circulates in an inactive state", bucket: 1 },
+                    { text: "Very short-lived to prevent endless inflammation", bucket: 2 },
+                    { text: "Can amplify or counteract the initial signal", bucket: 3 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+
+    "3.5.2": {
+        title: "The Fast and the Furious (Vasoactive Amines) 🎈⚡",
+        objectives: [
+            "Meet the fastest mediators in the immune system! Learn the sources, triggers, and vascular effects of Histamine and Serotonin."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Name Decoded",
+                text: "We are starting our \"alphabet soup\" with the fastest mediators of all: the **Vasoactive Amines**.\n\n\"Amine\" refers to their chemical structure. \"**Vasoactive**\" means their primary job is to act on blood vessels. These are the very first mediators released during acute inflammation!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Star of the Show: Histamine",
+                text: "The undisputed superstar of the vasoactive amines is **Histamine**.\n\nIt is the primary chemical responsible for the early vascular events of acute inflammation: causing both **vasodilation** (widening vessels) and **increased vascular permeability** (leaky gaps).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Histamine is pre-packaged and stored inside the intracellular ____________ of **Mast Cells**, allowing for instant release the moment an injury occurs!",
+                options: ["Nuclei", "Granules", "Mitochondria", "Lysosomes"],
+                answer: 1,
+                explanation: "Mast cells are packed with histamine-filled granules. When triggered, they \"degranulate\" (pop!), releasing a massive flood of Histamine instantly."
+            },
+            {
+                type: "concept",
+                title: "Tripping the Mast Cell",
+                text: "What causes the **Mast Cell** to \"pop\" and release all this Histamine?\n\n1. **Physical trauma** (like a scratch or extreme cold/heat).\n2. **Allergies** (when allergens bind to IgE antibodies on the mast cell).\n3. **Anaphylatoxins** (specifically, two complement proteins named **C3a and C5a** that act as intense chemical alarms).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "A patient with a peanut allergy eats a peanut. Their mast cells degranulate, releasing massive amounts of Histamine, causing their throat to swell (edema). You give them a drug like Benadryl (an antihistamine). How does it work?",
+                options: [
+                    "A) It destroys the mast cells.",
+                    "B) It binds to and blocks the Histamine receptors on the blood vessels.",
+                    "C) It turns Histamine into Serotonin."
+                ],
+                answer: 1,
+                explanation: "Mediators need receptors! An antihistamine simply plugs the keyhole so Histamine can't open the door."
+            },
+            {
+                type: "concept",
+                title: "The Sidekick: Serotonin",
+                text: "Histamine has a lesser-known sidekick in the vasoactive amine family: **Serotonin**.\n\nIn pathology, it is primarily stored in **Platelets** (the cells that form blood clots) and in the GI tract.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Platelet Pop",
+                text: "When blood vessels are damaged, **Platelets** clump together to stop the bleeding. As they clump, they release their stored **Serotonin**!\n\n**Serotonin** acts similarly to Histamine, causing changes in the local blood vessels to assist with the early inflammatory and clotting response.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "sort",
+                question: "Time to organize your vasoactive amines! Match the characteristic to the correct mediator.",
+                buckets: ["Histamine", "Serotonin"],
+                items: [
+                    { text: "Stored primarily in Mast Cells", bucket: 0 },
+                    { text: "Stored primarily in Platelets", bucket: 1 },
+                    { text: "Triggered by IgE (Allergies) and C3a/C5a", bucket: 0 },
+                    { text: "Released during blood clotting", bucket: 1 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+
+    "3.5.3": {
+        title: "The Lipid Factories (Arachidonic Acid) 🧬🥩",
+        objectives: [
+            "Master the Arachidonic Acid pathway! Learn how cell membranes are converted into Prostaglandins (via COX) and Leukotrienes (via LOX), and discover exactly where common drugs like NSAIDs and Steroids work."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Hidden Pantry",
+                text: "The second major class of mediators are the **Lipid Products**. But they aren't pre-packaged in granules like Histamine.\n\nInstead, their raw ingredient is actually part of the cell's own structural wall! A 20-carbon fatty acid called **Arachidonic Acid (AA)** is normally locked safely away inside the cell membrane phospholipids.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Scissors: Phospholipase A2",
+                text: "When a cell is injured, a specific enzyme acts like a pair of scissors to cut the **Arachidonic Acid** out of the membrane.\n\nThis enzyme is called **Phospholipase A2 (PLA2)**. Once **PLA2** frees the **Arachidonic Acid**, the newly freed lipid enters the cellular factory to be turned into active mediators!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "The raw ingredient, ____________, is locked inside the cell membrane. It is released during tissue injury by the enzyme ____________.",
+                options: ["Histamine", "Arachidonic Acid", "Cyclooxygenase", "Phospholipase A2"],
+                answer: [1, 3],
+                explanation: "PLA2 acts as the scissors to free the Arachidonic Acid from the membrane!"
+            },
+            {
+                type: "concept",
+                title: "The Fork in the Road",
+                text: "Once **Arachidonic Acid** is free, it stands at a fork in the road. It will be grabbed by one of two completely different factory lines:\n\n1. The **Cyclooxygenase (COX)** factory.\n2. The **Lipoxygenase (LOX)** factory.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The COX Factory",
+                text: "If **Arachidonic Acid** goes down the **COX** pathway, it produces **Prostaglandins** and **Thromboxanes**.\n\n• **Prostaglandins (PGE2)**: These are famous for causing **Pain and Fever** (**PGE2 = Pain & Fever!**). They also cause vasodilation.\n• **Thromboxane A2 (TXA2)**: Causes blood vessels to constrict and makes platelets clump together to form clots.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "Drugs like Aspirin and Ibuprofen (NSAIDs) specifically block the COX enzyme. Why does taking Ibuprofen cure your headache and fever?",
+                options: [
+                    "A) It stops Phospholipase A2 from cutting the membrane.",
+                    "B) It blocks COX, stopping the production of Pain/Fever-causing Prostaglandins.",
+                    "C) It destroys the Arachidonic Acid directly."
+                ],
+                answer: 1,
+                explanation: "By shutting down the COX factory, NSAIDs prevent the cell from making the specific Prostaglandins that trigger pain and fever!"
+            },
+            {
+                type: "concept",
+                title: "The LOX Factory",
+                text: "What if **Arachidonic Acid** goes down the other path? The **LOX** factory produces **Leukotrienes**.\n\n• **LTB4**: A powerful chemical scent trail that calls Neutrophils to the area (\"**LTB4 calls the Boys!**\").\n• **LTC4, D4, E4**: These cause massive bronchospasm (airway tightening) and are the main culprits behind severe Asthma attacks.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Ultimate Brakes",
+                text: "Wait, what about **Corticosteroids** (like Prednisone)? Doctors give steroids for severe, massive inflammation.\n\nSteroids are incredibly powerful because they block the very first step: **Phospholipase A2 (PLA2)**. By stopping the scissors, NO **Arachidonic Acid** is freed, meaning both the **COX** and **LOX** factories are completely shut down!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "sort",
+                question: "You are the Pharmacist! Block the correct enzyme for the patient's scenario.",
+                buckets: ["Block COX (NSAID)", "Block LOX / Leukotrienes", "Block PLA2 (Steroid)"],
+                items: [
+                    { text: "Patient has a headache", bucket: 0 },
+                    { text: "Patient has severe Asthma", bucket: 1 },
+                    { text: "Patient has severe total-body inflammation", bucket: 2 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+
+    "3.5.4": {
+        title: "The Cytokine Bosses 🗣️🗺️",
+        objectives: [
+            "Master the 'bosses' of the inflammatory response (TNF and IL-1), understand the etymology of their names, learn the navigation system of Chemokines, and see how targeting these molecules treats major diseases."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Cell Movers",
+                text: "Welcome to the command center! Let's decode the name: **Cytokine**. In Greek, \"**Cyto**\" means cell, and \"**kinesis**\" means movement or action.\n\nThey are literally \"cell-movers\"! These special proteins act as the \"generals\" of the immune system, commanding other cells to spring into action.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Between the Whites",
+                text: "You will see many cytokines named **Interleukins** (like **IL-1** or **IL-6**). Let's decode this one too! \"**Inter-**\" means between, and \"**leuko-**\" means white blood cell.\n\nWhen first discovered, scientists thought these proteins were exclusively used to communicate between white blood cells!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Printing Press",
+                text: "Where do these **Cytokine Generals** come from? They are **Cell-Derived**!\n\nThe primary producers are the tissue sentinels: **Macrophages**, **Dendritic cells**, and **Mast cells**.\n\nUnlike histamine, they aren't kept in storage. When a **Macrophage** detects a threat, it uses its DNA to synthesize **TNF** and **IL-1** completely from scratch (**de novo**)!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "While Vasoactive Amines are released instantly from pre-made granules, Cytokines like TNF and IL-1 are synthesized ____________ by cells like ____________ after they recognize a pathogen.",
+                options: ["In the Liver", "De Novo (from scratch)", "Macrophages", "Red Blood Cells"],
+                answer: [1, 2],
+                explanation: "Macrophages have to read their DNA and \"print\" fresh cytokines, which is why it takes a few hours for you to get a fever after you catch a bug!"
+            },
+            {
+                type: "concept",
+                title: "The Two Generals",
+                text: "The two most powerful cytokine bosses in acute inflammation are **Tumor Necrosis Factor (TNF)** and **Interleukin-1 (IL-1)**.\n\nTheir first order is **Endothelial Activation**! They command the blood vessels to deploy those \"speed bumps\" (**Selectins** and **Integrin ligands**) we learned about earlier.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "When IL-1 and TNF reach the brain during a severe infection, they induce a systemic ________ to help \"burn out\" the invading microbes.",
+                options: ["Fever", "Apoptosis", "Necrosis", "Hemorrhage"],
+                answer: 0,
+                explanation: "IL-1 and TNF are the classic mediators that cause the system-wide fever you feel when you are sick."
+            },
+            {
+                type: "mcq",
+                question: "TNF suppresses appetite and promotes lipid and protein mobilization. Therefore, if a patient has chronic, sustained TNF production, they will gain a massive amount of weight.",
+                options: ["True", "False"],
+                answer: 1,
+                explanation: "Sustained TNF causes profound weight loss and anorexia, a pathologic wasting state known as **Cachexia**."
+            },
+            {
+                type: "concept",
+                title: "The Pharmacy: Anti-TNF",
+                text: "Because **TNF** is so powerful, scientists created \"**TNF Antagonists**\" (drugs that block **TNF**) to treat chronic inflammatory diseases like **Rheumatoid Arthritis** and **Psoriasis**.\n\nBut there is a catch! By blocking **TNF**, the macrophages lose their ability to kill intracellular microbes. This makes the patient highly susceptible to severe infections like **Tuberculosis**!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Meet the Navigators: Chemokines",
+                text: "If **TNF** and **IL-1** are the Generals, **Chemokines** are the Navigators! \"**Chemo-**\" (Chemical) + \"**-kine**\" (Movement).\n\nThey are a family of small proteins that use a chemical scent trail to guide specific types of leukocytes exactly where they need to go via **chemotaxis**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "sort",
+                question: "Chemokines are classified by a special arrangement of Cysteine (C) amino acids. Match the code to the leukocyte it recruits!",
+                buckets: ["C-X-C (like IL-8)", "C-C (like Eotaxin)", "C"],
+                items: [
+                    { text: "Recruits Neutrophils", bucket: 0 },
+                    { text: "Recruits Monocytes and Eosinophils", bucket: 1 },
+                    { text: "Recruits Lymphocytes", bucket: 2 }
+                ],
+                explanation: ""
+            },
+            {
+                type: "mcq",
+                question: "Which famous virus cleverly hijacks chemokine receptors (like CXCR4 and CCR5), using them as a door to infect human immune cells?",
+                options: [
+                    "A) Influenza (Flu)",
+                    "B) Human Immunodeficiency Virus (HIV)",
+                    "C) Hepatitis B"
+                ],
+                answer: 1,
+                explanation: "HIV specifically targets and binds to **CCR5** and **CXCR4** to force its way into the cell."
+            }
+        ]
+    },
+
+    "3.5.5": {
+        title: "The Liver’s Special Ops (Complement) ⚔️🩸",
+        objectives: [
+            "Understand how the Complement system is activated (Classical, Alternative, Lectin pathways), master the functions of its proteins (C3a, C5a, C3b, MAC), and discover how the Kinin system causes pain (Bradykinin)."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "Waking up the Plasma",
+                text: "We’ve finished the Cell-Derived mediators. Now, it's time to check in on the **Liver**!\n\nRemember our rulebook? The liver constantly produces **Plasma-Derived** mediators that float asleep in your bloodstream. The two most important plasma pathways are the **Complement System** and the **Kinin System**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Complement Cascade",
+                text: "The **Complement System** is a team of 9 proteins (named **C1 through C9**) that act like a Special Ops squad against bacteria.\n\nTo start the attack, the system must activate an enzyme called **C3 Convertase**. This enzyme's job is to cut the **C3** protein, kicking off a massive cascade.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Three Keys",
+                text: "There are three different pathways (or \"keys\") to turn on the **Complement System**. All three lead to the exact same result: activating **C3 Convertase**!\n\n1. The **Classical Pathway**\n2. The **Alternative Pathway**\n3. The **Lectin Pathway**",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Classical Pathway",
+                text: "The **Classical Pathway** is triggered by **Antibodies**.\n\nWhen your adaptive immune system creates specific antibodies (**IgG or IgM**) that bind to a microbe, the **C1** complement protein locks onto those antibodies and turns the system on! (**Mnemonic: GM makes Classic cars -> IgG, IgM = Classical**).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Alternative & Lectin Pathways",
+                text: "What if you don't have antibodies yet? The innate immune system uses the other two pathways:\n\n• **Alternative Pathway**: Triggered directly when complement proteins bump into microbial surface molecules (like **bacterial endotoxins/LPS**).\n• **Lectin Pathway**: Triggered when a plasma protein (**Mannose-Binding Lectin**) detects a specific sugar (**Mannose**) on microbes.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "sort",
+                question: "Match the trigger to the correct pathway that turns on C3 Convertase.",
+                buckets: ["Classical Pathway", "Alternative Pathway", "Lectin Pathway"],
+                items: [
+                    { text: "Triggered by IgG or IgM Antibodies", bucket: 0 },
+                    { text: "Triggered directly by microbial surface molecules (LPS)", bucket: 1 },
+                    { text: "Triggered by detecting microbial sugars (Mannose)", bucket: 2 }
+                ],
+                explanation: ""
+            },
+            {
+                type: "concept",
+                title: "C3a & C5a: The Alarms",
+                text: "Now that the cascade is on, **C3** is cut into pieces! First up are **C3a and C5a**, called the **Anaphylatoxins**.\n\nTheir main job is to act as massive chemical alarms. They float over to **Mast Cells** and trigger them to instantly release **Histamine**! Additionally, **C5a** is a powerful **chemotactic agent**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "C3b: The Seasoning",
+                text: "You actually already met the other half of **C3**: **C3b**!\n\n**C3b** is the ultimate **Opsonin**. It attaches to the surface of the bacteria, acting as a tasty \"seasoning\" or \"handle\" so the **Neutrophil** can easily grab and eat the bug.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The MAC Attack: C5b-C9",
+                text: "The final pieces of the cascade (**C5b, C6, C7, C8, and C9**) join forces to form the ultimate weapon: **The Membrane Attack Complex (MAC)**.\n\nThe **MAC** acts like a microscopic drill. It literally punches a massive hole straight through the bacterial cell wall, and the bacteria explodes (**lysis**!)",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "Which complement protein acts as an opsonin to help neutrophils eat bacteria, and which group of proteins drills a hole to cause bacterial lysis?",
+                options: [
+                    "A) C3a (Opsonin) / Lectin (Lysis)",
+                    "B) C5a (Opsonin) / Bradykinin (Lysis)",
+                    "C) C3b (Opsonin) / MAC (Lysis)"
+                ],
+                answer: 2,
+                explanation: "C3b butters them up, and the MAC (C5b-C9) drills them down!"
+            },
+            {
+                type: "concept",
+                title: "The Kinin System",
+                text: "The second plasma-derived pathway is the **Kinin System**.\n\nJust like Complement, this system uses a cascade to create a highly active final product. The star of this system is a molecule called **Bradykinin**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Bradykinin Brings the Pain",
+                text: "**Bradykinin** does almost the exact same thing as Histamine (causes vasodilation and leaky vessels). But it has one very special unique feature: **Pain**.\n\n**Bradykinin** physically stimulates your nerve endings. It is the primary chemical mediator responsible for **Dolor (Pain)**!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "A patient presents with a swollen, red, and incredibly painful wasp sting. Which plasma-derived mediator is directly responsible for the pain (Dolor)?",
+                options: [
+                    "A) Bradykinin",
+                    "B) C3b",
+                    "C) Lipoxins"
+                ],
+                answer: 0,
+                explanation: "While Prostaglandins (from the lipid pathway) also cause pain, **Bradykinin** is the undisputed king of pain in the plasma-derived systems!"
+            }
+        ],
+        next: "3.6.1"
+    },
+
+    // UNIT 6: CHRONIC INFLAMMATION
+    "3.6.1": {
+        title: "The Marathon Begins (Causes) 🏃‍♂️🕰️",
+        objectives: [
+            "Define the unique simultaneous nature of chronic inflammation and identify its three primary triggers: Persistent Infections, Immune-Mediated Diseases, and Prolonged Exposure to Toxins."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "Welcome to the Marathon",
+                text: "Sometimes, the fast and furious Acute Inflammatory response fails to clear the threat. When this happens, the body settles in for a long, grueling war.\n\nWe have entered the phase of Chronic Inflammation. Instead of lasting days, this response lasts for weeks, months, or even years.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Defining Feature",
+                text: "Chronic inflammation isn't just \"acute inflammation that lasts longer.\" It is a fundamentally different process.\n\nIn acute inflammation, the body destroys the threat first, and heals second. But in Chronic Inflammation, active inflammation, tissue destruction, and attempts at healing (scarring/fibrosis) all happen **SIMULTANEOUSLY**. It is a chaotic, ongoing battlefield!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "During chronic inflammation, the immune system pauses all tissue repair and scarring until the offending agent is 100% destroyed.",
+                options: ["True", "False"],
+                answer: 1,
+                explanation: "In chronic inflammation, the body is desperately trying to heal (laying down scar tissue) at the exact same time the immune cells are causing active tissue destruction!"
+            },
+            {
+                type: "concept",
+                title: "Cause #1: Persistent Infections",
+                text: "So, what triggers this grueling marathon? The first major cause is **Persistent Infections**.\n\nSome microbes are incredibly stubborn. They have tough waxy coats or hide deep inside our own cells, making them impossible for Neutrophils to kill. The classic example is **Mycobacterium tuberculosis** (the bacteria that causes TB)!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Cause #2: Immune-Mediated Diseases",
+                text: "The second major cause is **Immune-Mediated Inflammatory Diseases (Hypersensitivity)**.\n\nSometimes the immune system loses its mind. It either attacks the body's own healthy tissue (**Autoimmune diseases**, like Rheumatoid Arthritis) or launches a massive, never-ending war against harmless environmental substances (**Allergies**, like severe Asthma).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "A patient's immune system mistakenly identifies their own joint cartilage as a dangerous foreign invader and constantly attacks it, leading to Rheumatoid Arthritis. What cause of chronic inflammation is this?",
+                options: [
+                    "A) Persistent Infection",
+                    "B) Autoimmune Disease",
+                    "C) Prolonged Exposure to Toxins"
+                ],
+                answer: 1,
+                explanation: "The immune system is attacking \"self\" antigens. Since the patient can't escape their own joints, the inflammatory trigger is constant, leading to chronic inflammation!"
+            },
+            {
+                type: "concept",
+                title: "Cause #3: Prolonged Exposure",
+                text: "The final cause is **Prolonged Exposure to Toxic Agents**. These toxins can come from outside or inside the body!\n\n• **Exogenous (Outside)**: Inhaling toxic, un-degradable particles like Silica or Asbestos.\n• **Endogenous (Inside)**: A massive buildup of Cholesterol inside the blood vessels leading to atherosclerosis.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "sort",
+                question: "Look at the patient's history and drag them to the correct cause of their chronic inflammation.",
+                buckets: ["Persistent Infection", "Autoimmune Disease", "Prolonged Exposure"],
+                items: [
+                    { text: "Patient inhaled asbestos dust for 20 years", bucket: 2 },
+                    { text: "Patient's immune system attacks their own joints", bucket: 1 },
+                    { text: "Patient's arteries are packed with high cholesterol", bucket: 2 },
+                    { text: "Patient is infected with stubborn Tuberculosis", bucket: 0 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+
+    "3.6.2": {
+        title: "The Heavy Artillery (Chronic Cells) 🔋💣",
+        objectives: [
+            "Identify the primary cellular players of chronic inflammation, understand the Macrophage's dual role (destruction and repair), and master the 'vicious cycle' of Macrophage-Lymphocyte activation."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "Changing the Guard",
+                text: "The rapid-response team has failed. The Neutrophils are all dead. It's time to call in the heavy artillery!\n\nIn Chronic Inflammation, the cell population completely changes. The battlefield is taken over by **Mononuclear cells**: primarily **Macrophages**, **Lymphocytes**, and **Plasma cells**. These cells can survive in the tissues for months or years!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Five-Star General: Macrophage",
+                text: "The absolute dominant player in chronic inflammation is the **Macrophage**.\n\nBut Macrophages don't start out that way! They circulate in the bloodstream as inactive rookies called **Monocytes**. When a **Monocyte** leaves the blood and enters the tissue, it bulks up, gains a ton of lysosomes, and officially transforms into a mature **Macrophage**!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "The circulating white blood cell is called a **____________**. Once it crosses the endothelium and enters the tissue to fight, it matures into a **____________**.",
+                options: ["Lymphocyte", "Monocyte", "Macrophage", "Neutrophil"],
+                answer: [1, 2],
+                explanation: "Monocyte in the blood; Macrophage in the tissue!"
+            },
+            {
+                type: "concept",
+                title: "The Dual Role",
+                text: "Why is the Macrophage the General? Because it commands *both* halves of chronic inflammation: Destruction and Repair!\n\n1. **Destruction:** It eats microbes and secretes toxic ROS and proteases.\n2. **Repair:** It secretes Growth Factors (like **TGF-β**) that tell the body to lay down heavy collagen (scarring/fibrosis).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Special Forces: Lymphocytes",
+                text: "The Macrophages are tough, but for stubborn infections (like Tuberculosis) or autoimmune diseases, they call in the Special Forces: **T-Lymphocytes** (T-cells) and **B-Lymphocytes** (B-cells).\n\nLymphocytes are the masters of *Adaptive Immunity*. They are highly specific, trained assassins.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Vicious Cycle",
+                text: "When Macrophages and T-cells get together, they create an endless hype-loop called **Reciprocal Activation**.\n\n1. The Macrophage shows the microbe to the T-cell and secretes **IL-12** to hype it up.\n2. The activated T-cell fires back a cytokine called **IFN-γ** (Interferon-gamma).\n3. **IFN-γ** turns the Macrophage into a super-charged, hyper-aggressive killer!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "In the vicious cycle of chronic inflammation, T-cells secrete a specific cytokine that turns regular macrophages into hyper-aggressive 'super macrophages.' What is this cytokine?",
+                options: [
+                    "A) Histamine",
+                    "B) IFN-γ (Interferon-gamma)",
+                    "C) IL-10"
+                ],
+                answer: 1,
+                explanation: "IFN-γ is the ultimate Macrophage-activating signal! IL-10 puts the fire out, while IFN-γ throws gas on it!"
+            },
+            {
+                type: "concept",
+                title: "The Artillery: Plasma Cells",
+                text: "Last but not least, we have the **Plasma Cells**.\n\n**Plasma cells** are just fully activated B-Lymphocytes. Think of them as heavy artillery cannons. They set up camp in the chronically inflamed tissue and constantly shoot out thousands of **Antibodies** to neutralize the ongoing threat.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "sort",
+                question: "Match the cell to its job description.",
+                buckets: ["Monocyte", "Macrophage", "T-Lymphocyte", "Plasma Cell"],
+                items: [
+                    { text: "Circulates in the blood, matures in the tissue", bucket: 0 },
+                    { text: "The General: Handles both destruction and repair", bucket: 1 },
+                    { text: "Secretes IFN-γ to super-charge the macrophages", bucket: 2 },
+                    { text: "The Artillery: Acts as an antibody factory", bucket: 3 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+
+    "3.6.3": {
+        title: "The Ultimate Quarantine (Granuloma) 🏰🧱",
+        objectives: [
+            "Understand the structure of a Granuloma (Epithelioid macrophages and Giant cells), classify them by their trigger (Foreign Body vs. Immune), and distinguish their microscopic appearance (Caseating vs. Non-caseating)."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Quarantine Wall",
+                text: "What happens if the immune system faces an invader it absolutely cannot kill? If it can't be destroyed, it must be contained!\n\nThe body builds a biological prison wall around the threat to quarantine it. This unique pattern of chronic inflammation is called **Granulomatous Inflammation**, and the \"prison\" is called a **Granuloma**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Bricklayers: Epithelioid Macrophages",
+                text: "To build a wall, you need bricks. The Macrophages undergo a radical physical transformation to become these bricks.\n\nMacrophages flatten out, widen, and press tightly against each other. Because they now look like skin (epithelial) cells, pathologists call them **Epithelioid Macrophages**. They are the defining hallmark of a granuloma!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Megazords: Giant Cells",
+                text: "Sometimes, flattening out isn't enough. Multiple Macrophages will literally fuse their cell membranes together to create one massive, super-cell with dozens of nuclei! This is called a **Multinucleated Giant Cell**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Foreign Body Granulomas",
+                text: "A **Foreign Body Granuloma** forms around non-living material that is simply too big for a single macrophage to eat (like a splinter or surgical suture).\n\nThe body recognizes it's not a biological infection, so T-cells are not involved. The macrophages just fuse into **Giant Cells** and wrap tightly around the object.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Immune Granulomas",
+                text: "An **Immune Granuloma** forms against stubborn living threats (like TB) or autoimmune targets.\n\nThis requires the \"Vicious Cycle\"! T-cells release massive amounts of **IFN-γ**, which commands the macrophages to transform into a highly organized wall of **Epithelioid cells**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "sort",
+                question: "Is it a foreign object or an immune response? Drag the characteristics to the correct granuloma type!",
+                buckets: ["Foreign Body Granuloma", "Immune Granuloma"],
+                items: [
+                    { text: "Triggered by a surgical suture left in the tissue", bucket: 0 },
+                    { text: "Triggered by Mycobacterium tuberculosis", bucket: 1 },
+                    { text: "Requires T-cells and IFN-γ", bucket: 1 },
+                    { text: "No T-cells involved, just giant cells wrapping an object", bucket: 0 }
+                ],
+                explanation: ""
+            },
+            {
+                type: "concept",
+                title: "Caseating Granulomas: The Cheese",
+                text: "**Caseating Granulomas** are incredibly destructive. The center of the granuloma turns into a mushy, dead, yellow-white zone of necrosis.\n\n\"**Caseous**\" literally translates to \"cheese-like.\" When you see a caseating granuloma, the diagnosis is almost always **Tuberculosis (TB)** until proven otherwise!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Non-Caseating Granulomas",
+                text: "**Non-Caseating Granulomas** do not have that dead, cheesy center. The quarantine wall is solid all the way through.\n\n**Foreign Body** granulomas are non-caseating. Classic immune examples include **Sarcoidosis** and **Crohn's Disease**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "sort",
+                question: "Classify the disease by its granuloma morphology.",
+                buckets: ["Caseating (Cheese) 🧀", "Non-Caseating (Solid) 🧱"],
+                items: [
+                    { text: "Tuberculosis (TB)", bucket: 0 },
+                    { text: "Sarcoidosis", bucket: 1 },
+                    { text: "Crohn's Disease", bucket: 1 },
+                    { text: "Has a core of necrotic, mushy cell debris", bucket: 0 },
+                    { text: "Reaction to a surgical suture", bucket: 1 }
+                ],
+                explanation: ""
+            },
+            {
+                type: "mcq",
+                question: "A patient with a chronic cough has a lung biopsy. The pathologist sees an Immune Granuloma featuring a ring of epithelioid macrophages surrounding a central core of granular, cheese-like necrotic debris. What is the most likely culprit?",
+                options: [
+                    "A) A splinter of wood (Foreign body)",
+                    "B) Mycobacterium tuberculosis (TB)",
+                    "C) Sarcoidosis"
+                ],
+                answer: 1,
+                explanation: "The \"cheese-like\" necrotic core confirms it is a **Caseating Granuloma**. Combined with an immune response, the culprit is TB!"
+            }
+        ],
+        next: "3.7.1"
+    },
+
+    // UNIT 7: SYSTEMIC EFFECTS
+    "3.7.1": {
+        title: "Turning Up the Heat (Fever and Chills) 🌡️🔥",
+        objectives: [
+            "Understand the systemic acute-phase response. Trace the pathway of Fever from Pyrogens (exogenous and endogenous) to the Hypothalamus, highlight the role of Prostaglandin E2 (PGE2), and explain the physiological reason behind 'chills.'"
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Body-Wide Alarm",
+                text: "Up until now, we’ve focused on the local battle (a cut on your finger, an infection in your lung). But what happens when the whole body gets involved?\n\nWhen severe inflammation occurs, chemical mediators enter the bloodstream and travel throughout the body, causing the **Systemic Acute-Phase Response**. The most famous symptom of this response is a **Fever**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Brain's Thermostat",
+                text: "To understand a fever, you have to look at the brain. Specifically, the **Hypothalamus**.\n\nThe **hypothalamus** acts as your body’s internal thermostat. Normally, it is strictly set to 98.6°F (37°C). But during a systemic inflammatory response, the thermostat gets cranked up!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Fire Makers: Pyrogens",
+                text: "What cranks the dial up? Molecules called **Pyrogens** (from the Greek pyro meaning \"fire\"). There are two types:\n\n1. **Exogenous Pyrogens (Outside)**: Bacterial products like **LPS (endotoxin)** that enter the blood.\n2. **Endogenous Pyrogens (Inside)**: Our old friends, the Cytokine Generals! When Macrophages detect bacteria, they release **IL-1 and TNF** into the blood.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "When macrophages detect an infection, they act as Endogenous Pyrogens by releasing the cytokines ____________ and ____________ into the bloodstream, which travel to the brain to trigger a fever.",
+                options: ["Histamine & Bradykinin", "IL-1 & TNF", "C3a & C5a"],
+                answer: 1,
+                explanation: "TNF and IL-1 are the Master Regulators that take the local alarm and make it systemic!",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Molecular Messenger: PGE2",
+                text: "When **IL-1 and TNF** reach the brain, they don't turn the dial directly. They knock on the door of the hypothalamus and tell it to manufacture a lipid mediator: **Prostaglandin E2 (PGE2)**.\n\n**PGE2** is the ultimate molecular messenger that physically reaches into the hypothalamus and resets the thermostat from 98.6°F to 102°F! (Remember the mnemonic: **PGE2 = Pain & Fever!**)",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "You have a terrible fever, so you take Ibuprofen (an NSAID). NSAIDs work by blocking the COX enzyme. Why does this cure your fever?",
+                options: [
+                    "A) It kills the bacteria directly.",
+                    "B) It stops the production of PGE2, allowing the thermostat to return to normal.",
+                    "C) It cools down your blood like an ice pack."
+                ],
+                answer: 1,
+                explanation: "By blocking COX, you block PGE2. Without PGE2 holding the dial up, the hypothalamus thermostat instantly drops back down to 98.6°F!"
+            },
+            {
+                type: "concept",
+                title: "Why do we get Chills?",
+                text: "Have you ever wondered why you get shivering \"chills\" when you have a fever?\n\nWhen **PGE2** resets the thermostat to 102°F, your physical body is still at 98.6°F. The brain looks at this difference and thinks, \"Oh no, we are freezing!\" To rapidly generate heat and reach the new 102°F goal, the brain forces your muscles to rapidly contract—which you feel as shivering **Chills**!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "order",
+                question: "Put the steps of Fever generation in the correct chronological order.",
+                items: [
+                    "Bacteria release LPS (Exogenous Pyrogen)",
+                    "Macrophages release IL-1 & TNF (Endogenous Pyrogens)",
+                    "Hypothalamus produces PGE2",
+                    "Thermostat goes up, causing Chills to generate heat!"
+                ],
+                explanation: ""
+            }
+        ]
+    },
+
+    "3.7.2": {
+        title: "The Liver’s Response (Acute Phase Proteins) 🧪💉",
+        objectives: [
+            "Understand the role of the liver in systemic inflammation. Identify the primary Acute Phase Proteins (CRP, SAA, and Fibrinogen), understand what they do, and learn the clinical significance of the ESR blood test."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Second Alarm",
+                text: "The Cytokine Generals (TNF and IL-1) didn't just travel to the brain to cause a fever. They also sent a special messenger, **IL-6**, directly to the **Liver**!\n\nWhen the **Liver** receives the **IL-6** signal, it starts pumping massive amounts of specialized proteins into the bloodstream known as **Acute Phase Proteins**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Meet the Trio",
+                text: "There are three major **Acute Phase Proteins**:\n\n1. **CRP (C-Reactive Protein)**\n2. **SAA (Serum Amyloid A)**\n3. **Fibrinogen**",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "CRP & SAA: The Backup Opsonins",
+                text: "**CRP** and **SAA** act like backup weapons for the immune system.\n\nJust like **C3b** and **IgG**, **CRP** and **SAA** act as **Opsonins**. They float through the blood, find the bacteria, and bind to their cell walls, \"buttering them up\" so **Macrophages** can easily eat them!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "The liver produces acute phase proteins like CRP, which bind to bacterial walls and act as ____________, making the bacteria easier for white blood cells to phagocytose.",
+                options: ["Pyrogens", "Opsonins", "Selectins", "Chemokines"],
+                answer: 1,
+                explanation: "\"Opsonin\" means to prepare for dining. CRP sets the table for the immune cells!",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Fibrinogen: The Coin Stacker",
+                text: "The third major protein is **Fibrinogen**. It has a very unique physical effect on Red Blood Cells.\n\nNormally, Red Blood Cells repel each other. But when massive amounts of sticky **Fibrinogen** enter the blood, it coats the red blood cells, causing them to stick together in long stacks that look like rolls of coins. Pathologists call this **Rouleaux formation**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Gravity Test: ESR",
+                text: "Because the red blood cells are now clumped together in heavy coin stacks, they sink to the bottom of a blood tube much faster than normal!\n\nDoctors measure how fast they sink using a test called the **ESR (Erythrocyte Sedimentation Rate)**. A high **ESR** means the patient has systemic inflammation!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "Which two blood tests would you order to confirm there is active, body-wide inflammation?",
+                options: [
+                    "A) Histamine and Bradykinin levels",
+                    "B) CRP and ESR",
+                    "C) Oxygen and Carbon Dioxide"
+                ],
+                answer: 1,
+                explanation: "**CRP** measures the C-Reactive Protein directly, and **ESR** measures the heavy, **Fibrinogen**-coated red blood cells. Both are classic markers of systemic inflammation!"
+            },
+            {
+                type: "sort",
+                question: "Sort the acute phase proteins to their correct descriptions!",
+                buckets: ["CRP / SAA", "Fibrinogen", "ESR Test", "IL-6"],
+                items: [
+                    { text: "Acts as an opsonin to help eat bacteria", bucket: 0 },
+                    { text: "Causes red blood cells to stack like coins", bucket: 1 },
+                    { text: "Measured by seeing how fast red blood cells sink", bucket: 2 },
+                    { text: "The cytokine that tells the liver to make these proteins", bucket: 3 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+
+    "3.7.3": {
+        title: "Drafting the Recruits (Leukocytosis) 💂‍♂️📈",
+        objectives: [
+            "Understand how systemic inflammation increases white blood cell counts (Leukocytosis), define 'Left Shift' (release of band cells), and match specific white blood cell types to their triggers (bacteria, viruses, parasites)."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "Calling for Reinforcements",
+                text: "A severe infection requires a massive army. But the blood only has a limited number of white blood cells circulating at any given time.\n\nTo fight a major battle, the body must dramatically increase its total number of white blood cells. Pathologists call this **Leukocytosis** (\"Leuko\" = white, \"cytosis\" = increase in cells).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Bone Marrow Bootcamp",
+                text: "Where do all these extra cells come from? The **Bone Marrow**!\n\nThe Cytokine Generals (**TNF and IL-1**) travel to the bone marrow and shout orders to release the reserves. The marrow instantly dumps its massive storage pool of mature white blood cells into the bloodstream.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The 'Left Shift'",
+                text: "What happens if the battle drags on and the marrow runs out of fully trained, mature cells? It starts drafting the rookies!\n\nThe bone marrow begins releasing immature neutrophils into the blood. Because their nuclei haven't fully separated into segments yet, they look like little horseshoes, so we call them **Band Cells**.\n\nThe presence of these immature **Band Cells** in the blood is called a **\"Left Shift\"**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "When the bone marrow runs out of mature neutrophils, it releases immature, horseshoe-shaped neutrophils called ____________. On a lab report, a high number of these immature cells is called a ____________.",
+                options: ["Lymphocytes", "Band Cells", "Left Shift", "Rouleaux"],
+                answer: [1, 2],
+                explanation: "\"Bands\" are the rookies, and a \"Left Shift\" means the rookies have been drafted!",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Tailoring the Troops",
+                text: "The body is smart. It doesn't just blindly produce random cells; it produces the exact type of cell needed for the specific invader!\n\n• **Bacterial Infections**: Cause an increase in Neutrophils (**Neutrophilia**).\n• **Viral Infections**: Cause an increase in Lymphocytes (**Lymphocytosis**).\n• **Allergies & Parasites**: Cause an increase in Eosinophils (**Eosinophilia**).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "A blood test shows severe Leukocytosis, specifically driven by a massive increase in Lymphocytes (Lymphocytosis). What is the most likely cause of the illness?",
+                options: [
+                    "A) A bacterial infection (like Strep throat)",
+                    "B) A viral infection (like Influenza)",
+                    "C) An allergic reaction (like Asthma)"
+                ],
+                answer: 1,
+                explanation: "Viruses trigger Lymphocytes. If it were a bacterial infection, you would expect to see **Neutrophilia** (and maybe a **Left Shift**!)"
+            },
+            {
+                type: "match",
+                question: "Match the specific type of leukocytosis to its most likely trigger!",
+                pairs: [
+                    { left: "Neutrophilia", right: "Bacterial Infection" },
+                    { left: "Lymphocytosis", right: "Viral Infection" },
+                    { left: "Eosinophilia", right: "Parasitic Worm or Allergies" }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "3.8.1"
+    },
+
+    // UNIT 8: HEALING AND REPAIR
+    "3.8.1": {
+        title: "The Regeneration Spectrum (Cell Types) 🧬🔄",
+        objectives: [
+            "Understand that tissues heal differently based on their inherent ability to divide. Learn to classify tissues into three categories: Labile, Stable, and Permanent cells."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Dust Settles",
+                text: "The acute battle is over, the chronic marathon has ended, and the mediators have faded away. Now, it's time to rebuild the destroyed tissue.\n\nThe body has two ways to heal: **Regeneration** (replacing dead cells with identical new ones) or **Scarring** (patching the hole with tough collagen).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Three Categories",
+                text: "Not all cells have the same ability to divide and multiply. Cells in the human body are classified into three distinct categories based on their regenerative capacity: **Labile**, **Stable**, and **Permanent**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Labile Cells: The Constant Workers",
+                text: "**Labile Cells** are constantly dividing, dying, and replacing themselves every single day.\n\nBecause they never stop dividing, tissues made of labile cells regenerate perfectly and rapidly after an injury! Classic examples include the **Skin (epidermis)**, the lining of the **GI Tract (gut mucosa)**, and the **Bone Marrow**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "The skin is made of ____________ cells, meaning they are continuously cycling and dividing. Therefore, a superficial skin scrape heals via perfect ____________ rather than scarring.",
+                options: ["Permanent", "Labile", "Regeneration", "Inflammation"],
+                answer: [1, 2],
+                explanation: "Because they are constantly dividing anyway, repairing a minor skin scrape is just another day at the office for labile cells!"
+            },
+            {
+                type: "concept",
+                title: "Stable Cells: The Sleeping Reserves",
+                text: "**Stable Cells** are usually asleep. They are resting in the \"**G0**\" phase of the cell cycle and do not normally divide.\n\nHowever, if the tissue is injured, they can \"wake up,\" re-enter the cell cycle, and regenerate! The most famous example is the **Liver**, which can regenerate even if 70% of it is surgically removed. Other examples include the **kidneys** and **pancreas**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "Under normal, healthy conditions, hepatocytes (liver cells) are quietly resting in which phase of the cell cycle?",
+                options: [
+                    "A) M phase (Mitosis)",
+                    "B) S phase (Synthesis)",
+                    "C) G0 phase (Quiescence)"
+                ],
+                answer: 2,
+                explanation: "\"Quiescent\" means quiet or asleep. Stable cells chill in G0 until an injury forces them to wake up and divide!"
+            },
+            {
+                type: "concept",
+                title: "Permanent Cells: The 'One and Done'",
+                text: "Finally, we have **Permanent Cells**. These cells have completely exited the cell cycle and cannot divide, ever.\n\nOnce a permanent cell dies, it is gone forever. The body must replace it with a fibrous collagen patch (a **Scar**). The highest-yield examples are **Neurons (Brain)** and **Cardiac Muscle Cells (Heart)**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "sort",
+                question: "Sort the organs into their correct regenerative categories.",
+                buckets: ["Labile (Always Dividing)", "Stable (Asleep/G0)", "Permanent (Never Dividing)"],
+                items: [
+                    { text: "Skin & GI Tract", bucket: 0 },
+                    { text: "Liver & Kidneys", bucket: 1 },
+                    { text: "Brain & Heart", bucket: 2 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+
+    "3.8.2": {
+        title: "The Fork in the Road (Regeneration vs. Scarring) 🛣️🩹",
+        objectives: [
+            "Understand the two distinct paths of tissue repair. Learn why an intact Extracellular Matrix (ECM) and Stem Cells are required for Regeneration, and how severe damage leads Fibroblasts to form a Scar (Fibrosis)."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Ultimate Decision",
+                text: "How does the body decide whether to rebuild perfectly (**Regeneration**) or just patch the hole (**Scarring**)?\n\nIt comes down to two major factors: the **type of cells** (Labile, Stable, or Permanent) and the **integrity of the tissue's underlying \"scaffolding.\"**",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Regeneration: The Perfect Fix",
+                text: "**Regeneration** restores the tissue to its completely normal, healthy state.\n\nTo pull this off, the body needs two things. First, it needs capable cells (**Labile** or **Stable**). Second, it needs an intact **Extracellular Matrix (ECM)**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Blueprint and the Builders",
+                text: "Think of the **ECM** as the wooden framework or \"blueprint\" of a house.\n\nIf the wooden framework (**ECM**) survives, the tissue's resident **Stem Cells** can easily divide and slide right back into the framework, rebuilding the house exactly as it was!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "For true regeneration to occur, resident ____________ must divide and repopulate the area using the surviving ____________ as a structural blueprint.",
+                options: ["Stem Cells", "Extracellular Matrix (ECM)", "Fibroblasts", "Collagen"],
+                answer: [0, 1],
+                explanation: "Stem cells provide the fresh labor, and the ECM provides the architectural blueprint!"
+            },
+            {
+                type: "concept",
+                title: "Scarring: The Patch Job",
+                text: "What happens if the injury is so severe that it burns down the wooden framework (**ECM**) entirely?\n\nWithout a blueprint, the stem cells don't know how to rebuild. The body decides to just fill the massive crater with heavy biological cement. This is **Scarring (or Fibrosis)**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Meet the Builder: The Fibroblast",
+                text: "The main cells responsible for laying down this \"cement\" are called **Fibroblasts**.\n\n**Fibroblasts** migrate into the crater and secrete massive amounts of **Collagen** (a tough, fibrous protein). The collagen fills the gap and restores structural stability, but it cannot perform the function of the original organ.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "In a chronic alcoholic, the liver suffers severe, repeated destruction that completely annihilates the Extracellular Matrix. What will the liver do?",
+                options: [
+                    "A) Regenerate perfectly because it is made of Stable cells.",
+                    "B) Undergo Scarring (Fibrosis) because the ECM blueprint is destroyed.",
+                    "C) Turn into a permanent tissue like the heart."
+                ],
+                answer: 1,
+                explanation: "Even though liver cells can divide, they are helpless without their ECM blueprint. Massive ECM destruction in the liver leads to heavy scarring (**Cirrhosis**)!"
+            },
+            {
+                type: "sort",
+                question: "Look at the injury and decide if it will heal by Regeneration or by Scarring.",
+                buckets: ["Regeneration", "Scarring"],
+                items: [
+                    { text: "A massive heart attack kills cardiac muscle", bucket: 1 },
+                    { text: "A papercut on the skin, ECM is intact", bucket: 0 },
+                    { text: "A deep, severe third-degree burn destroying the ECM", bucket: 1 },
+                    { text: "Surgical removal of one lobe of a healthy liver", bucket: 0 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+
+    "3.8.3": {
+        title: "The Scaffolding (Granulation Tissue) 🏗️🧱",
+        objectives: [
+            "Understand the composition and function of Granulation Tissue. Master the concepts of Angiogenesis (driven by VEGF) and the early deposition of weak, Type III Collagen."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "The Construction Site",
+                text: "The tissue has decided to heal by Scarring. 3 to 5 days after the injury, the body builds a temporary, highly active construction zone called **Granulation Tissue**.\n\nIt acts as the initial scaffolding that fills the wound.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Pink, Bleeding Bumps",
+                text: "Granulation tissue is bright pink and bumpy (granular), and it bleeds easily because it is absolutely packed with fragile, newly formed blood vessels.\n\nYou see this when you pick a scab off a scraped knee!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Plumbing: Angiogenesis",
+                text: "To keep the construction workers (**Fibroblasts**) alive, the body must build a supply line.\n\nThe process of sprouting brand-new blood vessels from existing ones is called **Angiogenesis**. This is primarily driven by a powerful chemical signal called **VEGF (Vascular Endothelial Growth Factor)**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "To supply the healing wound with oxygen and nutrients, the body initiates ____________, which is primarily driven by the growth factor ____________.",
+                options: ["Phagocytosis", "Angiogenesis", "VEGF", "Histamine"],
+                answer: [1, 2],
+                explanation: "\"Angio\" means vessel, and \"genesis\" means creation. VEGF is the master architect of the new plumbing!"
+            },
+            {
+                type: "concept",
+                title: "The Soft Cement: Type III Collagen",
+                text: "Now that the plumbing is laid, the **Fibroblasts** get to work. In **Granulation Tissue**, they rapidly lay down **Type III Collagen**.\n\nThink of this as a soft, pliable, temporary cement. It fills the hole quickly, but it is very weak.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "Over the next few weeks, the weak Type III Collagen is replaced by a much stronger, permanent collagen to form the final scar. What type is this?",
+                options: [
+                    "A) Type I Collagen",
+                    "B) Type IV Collagen",
+                    "C) Fibrinogen"
+                ],
+                answer: 0,
+                explanation: "**Type III** is early and weak; **Type I** is late and strong! (Type I is the main collagen in your bones and tendons)."
+            },
+            {
+                type: "concept",
+                title: "Fading to White",
+                text: "As **Type III collagen** is replaced by heavy **Type I collagen**, the temporary blood vessels are no longer needed and regress.\n\nThis is why an early scar is bright pink or red, but an old, mature scar is **pale and white**!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "order",
+                question: "Arrange the steps of building a mature scar in chronological order.",
+                items: [
+                    "VEGF drives Angiogenesis (New plumbing)",
+                    "Fibroblasts lay down weak Type III Collagen",
+                    "Type III is replaced by strong Type I Collagen",
+                    "Vessels regress, leaving a white, mature scar"
+                ],
+                explanation: ""
+            }
+        ]
+    },
+
+    "3.8.4": {
+        title: "Closing the Gap (Primary vs. Secondary) 📏✂️",
+        objectives: [
+            "Differentiate between healing by Primary Intention (surgical incisions) and Secondary Intention (open wounds). Master the concept of wound contraction driven by Myofibroblasts."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "Two Ways to Close",
+                text: "How much scaffolding is actually needed? Depending on the nature of the wound, the body will heal using one of two strategies:\n\n• **Primary Intention** (First Intention)\n• **Secondary Intention** (Second Intention)",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Primary Intention: The Clean Cut",
+                text: "**Primary Intention** happens when the wound edges are clean and close together, like a surgical incision closed with **sutures** (stitches).\n\nThe body only needs a tiny sliver of granulation tissue to glue it shut. The result is a fast healing process and a thin, minimal scar!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Secondary Intention: The Grand Canyon",
+                text: "**Secondary Intention** happens when the wound is a large, gaping hole with massive tissue loss (like a severe burn or ulcer).\n\nA doctor cannot stitch this together; the body must fill the crater from the bottom up! This requires massive amounts of granulation tissue and results in a **large, prominent scar**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "A clean surgical incision that is sutured together heals by ____________ intention. A large, gaping ulcer that is left open to heal from the bottom up heals by ____________ intention.",
+                options: ["Secondary", "Primary", "Tertiary", "Granular"],
+                answer: [1, 0],
+                explanation: "Primary = closed edges. Secondary = open crater!"
+            },
+            {
+                type: "concept",
+                title: "The Shrinking Crater",
+                text: "Because gaping wounds take a long time to fill, the body tries to speed up the process via **Wound Contraction**.\n\nOver several weeks, the edges of the massive wound actually pull inward, shrinking the original defect by up to 80%!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Meet the Bodybuilder: Myofibroblasts",
+                text: "How does skin pull itself together? It uses a specialized hybrid cell called the **Myofibroblast**!\n\nDuring secondary intention, fibroblasts grow contractile muscle fibers (**smooth muscle actin**) inside themselves. They grab the edges of the wound and flex, pulling them closer together!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "Which specialized cell is primarily responsible for wound contraction in a large ulcer healing by secondary intention?",
+                options: [
+                    "A) Macrophage",
+                    "B) Endothelial cell",
+                    "C) Myofibroblast"
+                ],
+                answer: 2,
+                explanation: "The **Myofibroblast** acts like a tiny bodybuilder, flexing its smooth muscle actin to pull the wound edges closed!"
+            },
+            {
+                type: "sort",
+                question: "Sort the wound characteristics into the correct healing strategy.",
+                buckets: ["Primary Intention", "Secondary Intention"],
+                items: [
+                    { text: "Clean surgical incision with sutures", bucket: 0 },
+                    { text: "Requires massive amounts of granulation tissue", bucket: 1 },
+                    { text: "Results in a very thin, small scar", bucket: 0 },
+                    { text: "Features wound contraction driven by Myofibroblasts", bucket: 1 }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "3.9.1"
+    },
+
+    // UNIT 9: COMPLICATIONS OF HEALING
+    "3.9.1": {
+        title: "The Weak Foundation (Deficient Repair) 🏚️🩹",
+        objectives: [
+            "Understand what happens when tissue repair is inadequate. Define wound dehiscence and ulceration, and master the highly-tested nutritional requirements for collagen synthesis (Vitamin C and Zinc)."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "When the Patch Fails",
+                text: "The body usually does an incredible job of repairing itself. But sometimes, the repair process fails.\n\nComplications of healing generally fall into two categories: the body didn't do enough (**Deficient Scarring**), or it did way too much (**Excessive Repair**). Today, we are looking at what happens when the scaffolding is too weak.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Wound Dehiscence: The Burst Zipper",
+                text: "The most dramatic complication of a weak scar is **Wound Dehiscence**.\n\nThis means the wound literally ruptures or splits open after it has been closed. It happens most commonly after abdominal surgery. If a patient with a fresh, weak abdominal scar coughs or vomits violently, the increased mechanical pressure can cause the scar to burst open like a broken zipper!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Nutritional Weakness",
+                text: "But why was the scar so weak in the first place? Often, it's because the **Fibroblasts** didn't have the right nutritional ingredients to build strong **Collagen**!\n\nMaking mature, unbreakable **Type I** collagen requires specific vitamins and minerals. If the patient is malnourished, their scars will be incredibly fragile.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Welder: Vitamin C",
+                text: "The most famous required nutrient is **Vitamin C**.\n\nTo make collagen strong, the protein strands must be chemically cross-linked (welded together). The enzyme that does this welding requires **Vitamin C**! A severe deficiency in **Vitamin C** causes **Scurvy**. In scurvy patients, even old, fully healed scars can suddenly break open!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Without ____________, fibroblasts cannot chemically cross-link collagen strands. This results in incredibly fragile tissues, bleeding gums, and wound dehiscence, a condition historically known as ____________.",
+                options: ["Vitamin D", "Vitamin C", "Scurvy", "Rickets"],
+                answer: [1, 2],
+                explanation: "Scurvy is the ultimate example of deficient collagen cross-linking!",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Demolition Crew: Zinc",
+                text: "The second nutrient is **Zinc**.\n\nRemember in Unit 8 how the body must break down the weak **Type III** collagen to replace it with strong **Type I**? The enzyme that breaks down the old collagen is called **Collagenase**. **Collagenase** requires **Zinc** to function!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "A patient with a severe Zinc deficiency suffers a deep cut. Which specific step of wound healing will fail in this patient?",
+                options: [
+                    "A) The replacement of weak Type III collagen with strong Type I collagen.",
+                    "B) The formation of the initial blood clot.",
+                    "C) The creation of weak Type III collagen."
+                ],
+                answer: 0,
+                explanation: "Because **Zinc** is needed for the demolition enzyme (**collagenase**), the body cannot clear out the temporary **Type III** collagen to make room for the permanent **Type I** upgrade!"
+            },
+            {
+                type: "concept",
+                title: "Ulceration: The Oxygen Starvation",
+                text: "The final example of deficient healing is **Ulceration**.\n\nSometimes a wound just refuses to close. This happens when the tissue doesn't have enough blood supply to deliver oxygen and nutrients to the fibroblasts. We see this classically in severe **Diabetics** or patients with severe **atherosclerosis**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "match",
+                question: "Match the underlying cause to the healing complication.",
+                pairs: [
+                    { left: "Mechanical stress on abdominal wound", right: "Dehiscence" },
+                    { left: "Lack of collagen cross-linking", right: "Vitamin C Deficiency" },
+                    { left: "Failure to break down Type III collagen", right: "Zinc Deficiency" },
+                    { left: "Inadequate blood supply", right: "Ulceration" }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+
+    "3.9.2": {
+        title: "The Overachievers (Excessive Repair) 🌋📈",
+        objectives: [
+            "Understand what happens when the healing process doesn't know when to stop. Differentiate between Hypertrophic scars and Keloids based on wound boundaries, and identify Contractures as a complication of severe burns."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "When the Brakes Fail",
+                text: "In our last lesson, the **Fibroblasts** didn't do enough. But what happens if they do way too much?\n\nSometimes, the regulatory signals fail, and the **Fibroblasts** just keep pouring heavy collagen concrete long after the hole is filled. This results in **Excessive Repair**, leading to raised, bulky, or deformed scars.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Hypertrophic Scars: In-Bounds",
+                text: "The first type of excessive repair is the **Hypertrophic Scar**.\n\n\"Hypertrophy\" means increased size. A **hypertrophic scar** is a thick, raised, red bump. However, it follows one very strict rule: **it never grows beyond the boundaries of the original wound.**",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Keloids: Out of Bounds",
+                text: "The second type is the **Keloid**. A **Keloid** breaks the golden rule!\n\nA **keloid** is a massive, tumor-like scar that **grows far beyond the boundaries of the original injury.** **Keloids** contain thick, disorganized, glassy bands of collagen and are more common in people of African descent.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "A ____________ scar is raised but respects the original margins of the wound. A ____________ ignores the margins and invades the surrounding healthy tissue like a tumor.",
+                options: ["Keloid", "Hypertrophic", "Atrophic", "Ulcer"],
+                answer: [1, 0],
+                explanation: "Hypertrophic stays in its lane; Keloids go completely out of bounds!",
+                buttonText: "Continue"
+            },
+            {
+                type: "sort",
+                question: "Look at the scar's behavior and sort it into the correct diagnosis.",
+                buckets: ["Hypertrophic 📏", "Keloid 🌋"],
+                items: [
+                    { text: "Grows far beyond the original cut", bucket: 1 },
+                    { text: "Stays strictly within the original wound margins", bucket: 0 },
+                    { text: "A massive scar forms on an earlobe after a tiny piercing", bucket: 1 },
+                    { text: "Usually flattens and regresses over a few years", bucket: 0 },
+                    { text: "Will not regress on its own and may require steroid injections", bucket: 1 }
+                ],
+                explanation: ""
+            },
+            {
+                type: "concept",
+                title: "Contractures: The Over-Pull",
+                text: "Our final complication isn't about too much collagen; it's about pulling too hard. Welcome to **Contractures**.\n\nIf the wound is massive, the **myofibroblasts** pull so aggressively that they deform the surrounding tissue and completely lock up the nearby joints!",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "A patient survives severe, deep third-degree burns across their chest. Months later, the skin has pulled so tightly that the patient cannot physically lift their arms. What is this complication called?",
+                options: [
+                    "A) Wound Dehiscence",
+                    "B) A Keloid",
+                    "C) A Contracture"
+                ],
+                answer: 2,
+                explanation: "Severe burns are the classic trigger for **Contractures**. The myofibroblasts over-contract the massive wound, leading to severe physical deformities and a loss of joint mobility."
+            },
+            {
+                type: "match",
+                question: "Match the overachieving complication to its clinical description.",
+                pairs: [
+                    { left: "Raised scar that respects original borders", right: "Hypertrophic Scar" },
+                    { left: "Massive scar that grows beyond original borders", right: "Keloid" },
+                    { left: "Excessive pulling that locks up joints", right: "Contracture" }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "4.1.1"
+    },
+
+    // CHAPTER 4
+    // UNIT 1
+    "4.1.1": {
+        title: "Hyperemia & Congestion 🩸",
+        objectives: ["Master basic terminology of hemodynamics, distinguish between active hyperemia and passive congestion, and identify morphological features like heart failure cells and nutmeg liver."],
+        data: [
+            {
+                type: "concept",
+                title: "The River of Life",
+                text: "Hemodynamics relates to the flow of blood within the organs and tissues of the body.",
+                subtext: "It can be thought of as the physics of the body's internal plumbing system.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Hemodynamic Disorders",
+                text: "A Hemodynamic Disorder refers to disturbances in the smooth flow of blood. These are divided into two main categories.",
+                subtext: "1. **Disorders of Circulation:** (e.g., Edema, Shock)\n2. **Thromboembolic Disease:** (e.g., Thrombosis, Embolism, Infarction)",
+                buttonText: "Next"
+            },
+            {
+                type: "sort",
+                question: "Match the disease to its correct disorder type.",
+                buckets: ["Disorders of Circulation", "Thromboembolic Disease"],
+                items: [
+                    { text: "Edema and Shock", bucket: 0 },
+                    { text: "Thrombosis, Embolism, and Infarction", bucket: 1 }
+                ],
+                explanation: ""
+            },
+            {
+                type: "concept",
+                title: "Increased Blood Volume",
+                text: "**Hyperemia** and **Congestion** both refer to an increased blood volume in a particular tissue.",
+                subtext: "Although the end result of increased volume is the same, the underlying physiological mechanisms are different.",
+                buttonText: "Is volume decreased?"
+            },
+            {
+                type: "mcq",
+                question: "Hyperemia and Congestion both result in a decreased blood volume in local tissues.",
+                options: ["True", "False"],
+                answer: 1,
+                explanation: "Both processes involve an increase in local blood volume within the tissue vasculature."
+            },
+            {
+                type: "concept",
+                title: "Hyperemia: The Active Process",
+                text: "Hyperemia is an **ACTIVE** process. Arterioles dilate, allowing an increased inflow of oxygenated blood.",
+                subtext: "Because of the oxygenated blood, the tissue appears red (erythema) and feels warm. Examples include exercising muscle, blushing, or acute inflammation.",
+                buttonText: "Clinical Case"
+            },
+            {
+                type: "mcq",
+                question: "You are doing heavy bicep curls at the gym. Your muscles swell and turn reddish as blood flow increases. What process is this?",
+                options: ["Passive Congestion", "Active Hyperemia", "Embolism"],
+                answer: 1,
+                explanation: "Active hyperemia occurs when arterioles dilate to increase the delivery of oxygenated blood to tissues with high metabolic demand, such as exercising muscle."
+            },
+            {
+                type: "concept",
+                title: "Congestion: The Passive Process",
+                text: "Congestion is a **PASSIVE** process resulting from impaired venous outflow from a tissue.",
+                subtext: "Tissues take on a blue-red color (cyanosis) as deoxygenated hemoglobin accumulates. This occurs in local obstructions (like a DVT) or systemic failure (like Heart Failure).",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Hyperemia is an ____________ process caused by increased arterial inflow, while congestion is a passive process caused by decreased venous outflow.",
+                options: ["Active", "Passive", "Embolic", "Ischemic"],
+                answer: 0,
+                explanation: "Hyperemia is driven by active arterial dilation, whereas congestion is a passive result of blood being unable to exit through the venous system.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Chronic Pulmonary Congestion",
+                text: "In heart failure, blood backs up into the lungs. This pressure cause capillaries to rupture, releasing red blood cells into the alveoli.",
+                subtext: "Macrophages phagocytose these cells and break down the hemoglobin into a brown iron-containing pigment called **Hemosiderin**.",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "What are the hemosiderin-laden macrophages found in the lungs during heart failure commonly called?",
+                options: ["Nutmeg cells", "Heart failure cells", "Foam cells"],
+                answer: 1,
+                explanation: "Heart failure cells are alveolar macrophages that have ingested red blood cells spilled from congested, high-pressure capillaries."
+            },
+            {
+                type: "concept",
+                title: "Acute Hepatic Congestion",
+                text: "In the liver, congestion causes the central vein and sinusoids to become distended.",
+                subtext: "The liver is divided into oxygen zones. The centrilobular area is most distal to blood supply and suffers first, while periportal hepatocytes are closer to inflow and are better oxygenated.",
+                buttonText: "Next"
+            },
+            {
+                type: "mcq",
+                question: "In acute hepatic congestion, the periportal hepatocytes undergo ischemic necrosis because they are furthest from the oxygen supply.",
+                options: ["True", "False"],
+                answer: 1,
+                explanation: "It is the centrilobular hepatocytes that are distal to the blood supply and undergo necrosis. Periportal cells are closer to the hepatic arterioles and typically only show fatty change."
+            },
+            {
+                type: "concept",
+                title: "Chronic Liver Congestion (Nutmeg Liver)",
+                text: "Over time, persistent congestion creates a red-brown centrilobular pattern contrasted against healthy tan liver tissue.",
+                subtext: "This characteristic macroscopic appearance is known as **Nutmeg Liver**.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Microscopically, a 'nutmeg liver' shows centrilobular hemorrhage, hepatocyte dropout, and macrophages laden with ____________.",
+                options: ["Melanin", "Hemosiderin", "Calcium", "Glycogen"],
+                answer: 1,
+                explanation: "In both the lungs and the liver, macrophages digest red blood cells from hemorrhages and store the resulting iron as brown hemosiderin pigment."
+            }
+        ]
+    },
+    "4.1.2": {
+        title: "Push and Pull (Edema) 🌊",
+        objectives: ["Understand the physiological balance of fluid in blood vessels, differentiate between exudates and transudates, and master the four major pathophysiological causes of edema."],
+        data: [
+            {
+                type: "concept",
+                title: "The Leaky Pipes",
+                text: "When cardiovascular, renal, or hepatic functions fail, fluid can accumulate in abnormal locations.",
+                subtext: "If fluid builds up inside solid tissues, it is called **Edema**. If it accumulates in body cavities (like the pleural or peritoneal space), it is called an **Effusion**.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Grand Tug-of-War",
+                text: "Fluid balance in tissues is a contest between two primary forces:\n\n" +
+                    "1. **Hydrostatic Pressure:** Pushes water and salts out of capillaries.\n" +
+                    "2. **Colloid Osmotic (Oncotic) Pressure:** Pulls water back into vessels using plasma proteins.",
+                subtext: "Normally, a small amount of fluid moves into the interstitium and is drained by lymphatic vessels. Edema occurs when this balance is disrupted.",
+                buttonText: "Identify the forces"
+            },
+            {
+                type: "fill",
+                question: "Vascular ____________ pressure acts to push fluid out of the capillary, while plasma ____________ pressure acts to pull fluid back in.",
+                options: ["Hydrostatic", "Osmotic", "Barometric", "Systolic"],
+                answer: [0, 1],
+                explanation: "Hydrostatic pressure is the 'pushing' force exerted by blood against the vessel wall, while osmotic pressure is the 'pulling' force exerted by proteins like albumin.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Exudate vs. Transudate",
+                text: "In inflammation, we see **Exudates**—protein-rich fluids caused by increased vessel permeability.",
+                subtext: "In noninflammatory states (like heart or kidney failure), we see **Transudates**—protein-poor, watery fluids caused by mechanical pressure changes.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "A patient with severe heart failure develops leg edema. Is the fluid accumulating in their tissues likely a protein-poor transudate?", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Heart failure causes edema through hydrostatic pressure changes rather than inflammatory leakiness, resulting in a protein-poor transudate." 
+            },
+            {
+                type: "concept",
+                title: "Cause 1: Increased Hydrostatic Pressure",
+                text: "This occurs when venous return is obstructed. Too much 'PUSH' forces fluid into the tissue.",
+                subtext: "If the obstruction is local (e.g., Deep Vein Thrombosis), the edema is localized. If it is systemic (e.g., Congestive Heart Failure), the edema is widespread.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "A patient has swelling isolated to their left calf due to a blood clot in the femoral vein. What is the primary mechanism?", 
+                options: [
+                    "Decreased colloid osmotic pressure", 
+                    "Increased hydrostatic pressure", 
+                    "Lymphatic obstruction"
+                ], 
+                answer: 1, 
+                explanation: "The clot prevents venous outflow, increasing the hydrostatic pressure in the local capillaries and forcing fluid into the tissues."
+            },
+            {
+                type: "concept",
+                title: "Cause 2: Reduced Osmotic Pressure",
+                text: "This occurs when there is not enough 'PULL' to keep water in the blood. It is usually caused by a loss of **Albumin**.",
+                subtext: "Common causes include liver cirrhosis (failure to produce albumin) or Nephrotic Syndrome (leaking albumin into the urine).",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "A patient with Nephrotic Syndrome excretes massive amounts of albumin in their urine. Why does this cause severe edema?", 
+                options: [
+                    "Blood vessels become inflamed", 
+                    "Loss of plasma proteins reduces osmotic 'pull'", 
+                    "Heart failure increases hydrostatic 'push'"
+                ], 
+                answer: 1, 
+                explanation: "Albumin is the primary driver of plasma oncotic pressure. Its loss reduces the force required to pull fluid from the interstitium back into the circulation." 
+            },
+            {
+                type: "concept",
+                title: "Cause 3: Sodium & Water Retention",
+                text: "When the body retains salt, water follows. This occurs in renal failure or when reduced blood flow to the kidneys activates the **RAAS** system.",
+                subtext: "This increases both hydrostatic pressure (more volume) and decreases osmotic pressure (diluted proteins), significantly worsening edema.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Cause 4: Lymphatic Obstruction",
+                text: "If the lymphatic 'drains' are blocked, fluid cannot be returned to the circulation, resulting in **Lymphedema**.",
+                subtext: "This can be caused by trauma, tumors, surgery (e.g., breast cancer lymph node removal), or parasites like Filariasis (elephantiasis).",
+                buttonText: "Got it!"
+            },
+            {
+                type: "match",
+                question: "Match the clinical scenario to its primary mechanism of edema.",
+                pairs: [
+                    { left: "Deep Vein Thrombosis", right: "Increased Hydrostatic Pressure" },
+                    { left: "Liver Cirrhosis", right: "Reduced Plasma Osmotic Pressure" },
+                    { left: "Renal Failure (RAAS)", right: "Sodium & Water Retention" },
+                    { left: "Filariasis / Surgery", right: "Lymphatic Obstruction" }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "4.1.3": {
+        title: "Where the Water Goes (Locations & Consequences) 🔍",
+        objectives: ["Explore how edema physically alters tissues, discover clinical clues like pitting and puffy eyes, and understand why fluid in the lungs or brain is a medical emergency."],
+        data: [
+            {
+                type: "concept",
+                title: "A Microscopic View",
+                text: "Grossly, swollen tissue is easy to identify. Microscopically, edema appears as 'clearing' or empty space.",
+                subtext: "The excess fluid physically separates the extracellular matrix (ECM) components and causes subtle swelling of the cells themselves.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Gravity is the Boss",
+                text: "In subcutaneous tissues, fluid distribution is heavily influenced by gravity. This is known as **Dependent Edema**.",
+                subtext: "If a patient is standing, fluid pools in the legs and ankles. If a patient is bedridden (recumbent), the fluid pools in the lowest point of the back—the sacrum.",
+                buttonText: "Check the patient"
+            },
+            { 
+                type: "mcq", 
+                question: "You are checking a bedridden hospital patient who has been lying on their back for two weeks. Should you check their ankles and feet first for dependent edema?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Gravity pulls fluid to the lowest point of the body. For a recumbent patient, edema is best detected by examining the sacral region rather than the lower extremities." 
+            },
+            {
+                type: "concept",
+                title: "The Fingerprint Test",
+                text: "Subcutaneous edema has a dough-like quality. If you press your finger firmly into the swollen skin, you physically displace the interstitial fluid.",
+                subtext: "When you remove your finger, a depression remains. This classic clinical sign is called **Pitting Edema**.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Path of Least Resistance",
+                text: "Not all edema follows gravity. Edema caused by kidney disease (like the loss of albumin) leads to a systemic loss of osmotic pull.",
+                subtext: "Fluid first accumulates in areas with the loosest connective tissue, such as the eyelids, because these tissues offer the least physical resistance to swelling.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "What is the medical term for the early, classic sign of severe kidney disease involving puffy eyelids?", 
+                options: ["Dependent edema", "Periorbital edema", "Ascites"], 
+                answer: 1, 
+                explanation: "Periorbital edema refers to swelling around the eyes. Because this tissue is loose, it is often the first location where systemic edema becomes visible." 
+            },
+            {
+                type: "sort",
+                question: "Use the clinical clues to determine the likely underlying cause of the edema.",
+                buckets: ["Heart Failure", "Kidney Disease"],
+                items: [
+                    { text: "Fluid heavily pooling in the legs and ankles.", bucket: 0 },
+                    { text: "Severe puffiness isolated to the eyelids.", bucket: 1 }
+                ],
+                explanation: "Gravity-dependent edema is common in heart failure, whereas periorbital edema is a hallmark of protein-losing kidney conditions."
+            },
+            {
+                type: "concept",
+                title: "A Wet Sponge: Pulmonary Edema",
+                text: "**Pulmonary Edema** is a clinical crisis. The lungs can grow to 2-3 times their normal weight as fluid fills the alveoli.",
+                subtext: "When cut, these congested lungs release a frothy, blood-tinged fluid—a mixture of air, edema fluid, and extravasated red blood cells.",
+                buttonText: "Why is it dangerous?"
+            },
+            { 
+                type: "mcq", 
+                question: "What is the primary clinical consequence of having fluid in the pulmonary alveoli?", 
+                options: [
+                    "It stops the heart from beating", 
+                    "It impedes gas exchange, causing hypoxemia", 
+                    "It causes the lungs to shrink"
+                ], 
+                answer: 1, 
+                explanation: "Lungs are intended for air; fluid in the alveoli creates a physical barrier that prevents oxygen from reaching the blood, leading to low blood oxygen levels (hypoxemia)." 
+            },
+            {
+                type: "concept",
+                title: "The Brain in a Box",
+                text: "**Brain Edema** is life-threatening because the brain is trapped inside the rigid, unyielding skull.",
+                subtext: "As the brain swells, pressure increases. This can force brain tissue to squeeze (**herniate**) through the base of the skull, compressing the brain stem and vital centers.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Fluid in the Cavities",
+                text: "Effusions are accumulations of fluid within body cavities.",
+                subtext: "• **Hydrothorax:** Pleural cavity (lungs)\n• **Hydropericardium:** Pericardial cavity (heart)\n• **Ascites:** Peritoneal cavity (abdomen)",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "____________ effusions are translucent and straw-colored. ____________ effusions are cloudy with white blood cells. ____________ effusions are milky-white because they contain lipids.",
+                options: ["Transudative", "Exudative", "Chylous", "Hemorrhagic"],
+                answer: [0, 1, 2],
+                explanation: "Transudates are protein-poor and clear; exudates are protein-rich and cloudy from inflammation; chylous effusions contain lymph and dietary lipids.",
+                buttonText: "Continue"
+            }
+        ],
+        next: "4.2.1"
+    },
+
+    // UNIT 2
+    "4.2.1": {
+        title: "Types of Shock ⚡",
+        objectives: ["Understand what 'shock' actually means at a cellular level, and learn to differentiate the main categories based on whether the 'pump,' the 'tank,' or the 'pipes' are failing."],
+        data: [
+            {
+                type: "concept",
+                title: "The System Collapse",
+                text: "In pathology, **Shock** is a state of circulatory failure that impairs tissue perfusion.",
+                subtext: "Because blood isn't flowing adequately, cells are deprived of oxygen (cellular hypoxia). It represents a systemic collapse of the city's power and supply lines.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Once a patient enters a state of shock, the cellular injury is immediately permanent and irreversible.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "In the early stages, shock-induced cellular injury is reversible. However, if the state of low perfusion is prolonged, it leads to irreversible tissue injury and death." 
+            },
+            {
+                type: "concept",
+                title: "The Broken Pump: Cardiogenic Shock",
+                text: "**Cardiogenic Shock** results from low cardiac output because the heart muscle fails.",
+                subtext: "Common causes include massive myocardial infarction (heart attack), dangerous arrhythmias, or physical obstructions like a massive pulmonary embolism.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "A patient suffers a massive heart attack that damages the left ventricle, causing their blood pressure to plummet. What type of shock is this?", 
+                options: ["Hypovolemic Shock", "Cardiogenic Shock", "Distributive Shock"], 
+                answer: 1, 
+                explanation: "Because the heart (cardio) is failing as a primary pump, it cannot generate enough force to push blood out to the tissues."
+            },
+            {
+                type: "concept",
+                title: "The Empty Tank: Hypovolemic Shock",
+                text: "**Hypovolemic Shock** occurs when the pump works, but there is not enough blood or fluid to move around.",
+                subtext: "This is caused by massive hemorrhage (bleeding out) or severe fluid loss from extensive burns or dehydration.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "In a severe trauma with massive arterial bleeding, the patient will develop ____________ shock because their overall blood ____________ is too low to maintain cardiac output.",
+                options: ["Cardiogenic", "Hypovolemic", "Volume", "Rate"],
+                answer: [1, 2],
+                explanation: "Loss of blood volume directly reduces the amount of blood returning to the heart, which leads to a collapse in systemic blood pressure.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Wide Pipes: Distributive Shock",
+                text: "**Distributive Shock** occurs when the pipes suddenly get too wide and leaky, even if the pump and tank are normal.",
+                subtext: "Blood pools in the veins and fluid leaks into the tissues, preventing proper delivery to vital organs. The most common cause is **Septic Shock**.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "SIRS: A Sepsis Imposter",
+                text: "A massive outpouring of inflammatory mediators can also be triggered by severe trauma, burns, or pancreatitis without an infection.",
+                subtext: "This is called **Systemic Inflammatory Response Syndrome (SIRS)**. It mimics septic shock and is often seen in 'Cytokine Storm' events.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "In distributive shock, what do inflammatory mediators do to the blood vessels to cause the pressure to drop?", 
+                options: [
+                    "Severe vasoconstriction (shrinking pipes)", 
+                    "Arterial vasodilation and vascular leakage (wide, leaky pipes)", 
+                    "They turn the blood into a solid clot"
+                ], 
+                answer: 1, 
+                explanation: "The mediators cause vessels to open so wide (vasodilation) that blood pools in the periphery rather than circulating, while increased permeability causes fluid to leak out of the vessels." 
+            },
+            {
+                type: "concept",
+                title: "Other Distributive Culprits",
+                text: "Aside from Sepsis, two other classic causes of Distributive Shock are:\n\n" +
+                    "• **Anaphylactic Shock:** A severe IgE-mediated allergic reaction.\n" +
+                    "• **Neurogenic Shock:** Caused by spinal cord injury, where the brain loses control over vessel tone.",
+                subtext: "",
+                buttonText: "Got it!"
+            },
+            {
+                type: "sort",
+                question: "Match the clinical scenario to its corresponding category of shock.",
+                buckets: ["Cardiogenic", "Hypovolemic", "Distributive"],
+                items: [
+                    { text: "Myocardial infarction (Pump fails).", bucket: 0 },
+                    { text: "Massive bleeding from trauma (Empty tank).", bucket: 1 },
+                    { text: "Anaphylaxis or Sepsis (Wide, leaky pipes).", bucket: 2 },
+                    { text: "Severe spinal cord injury.", bucket: 2 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "4.2.2": {
+        title: "The Sepsis Storm (Pathophysiology of Septic Shock) 🦠⛈️",
+        objectives: ["Understand how a local infection triggers a systemic cytokine storm, endothelial damage, disseminated clotting, and metabolic chaos."],
+        data: [
+            {
+                type: "concept",
+                title: "The Perfect Storm",
+                text: "Septic shock is a life-threatening crisis that occurs when the immune system's response to an infection becomes systemic and dysregulated.",
+                subtext: "Cases are rising due to an increasing number of immunocompromised patients, aging populations, and multidrug-resistant 'superbugs' in clinical settings.",
+                buttonText: "Who triggers it?"
+            },
+            { 
+                type: "mcq", 
+                question: "Statistically, which type of microbe is the most frequent trigger for septic shock today?", 
+                options: ["Gram-negative bacteria", "Gram-positive bacteria", "Fungi"], 
+                answer: 1, 
+                explanation: "While gram-negative bacteria and fungi are significant causes, gram-positive bacteria have become the most common triggers for sepsis in the modern clinical environment." 
+            },
+            {
+                type: "concept",
+                title: "The Immune Rollercoaster",
+                text: "Sepsis begins when white blood cells detect PAMPs using Toll-like receptors (TLRs). This activates the transcription factor **NF-κB**, releasing a wave of pro-inflammatory cytokines like TNF and IL-1.",
+                subtext: "The body simultaneously attempts to counter this with anti-inflammatory signals, leading to a complex and often contradictory immune state.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "During septic shock, the patient's immune system stays in a permanent, hyper-active inflammatory state until they are cured.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Sepsis is characterized by an oscillation between hyper-inflammatory states and periods of profound immune suppression or exhaustion." 
+            },
+            {
+                type: "concept",
+                title: "The Endothelial Meltdown",
+                text: "Inflammatory cytokines cause two major disasters in the blood vessel walls (endothelium):\n\n" +
+                    "1. **Increased Permeability:** Tight junctions loosen, allowing protein-rich fluid to leak into tissues (edema).\n" +
+                    "2. **Massive Vasodilation:** The endothelium releases **Nitric Oxide (NO)**, causing systemic blood pressure to drop.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "The massive drop in blood pressure (systemic ____________) and tissue edema means that cells do not get enough ____________, leading to hypoxia and organ failure.",
+                options: ["Hypertension", "Hypotension", "Oxygen", "Carbon Dioxide"],
+                answer: [1, 2],
+                explanation: "Severe hypotension reduces the perfusion pressure required to deliver oxygen to vital organs, resulting in multi-organ dysfunction.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Clotting Crisis (DIC)",
+                text: "The inflamed endothelium becomes **Procoagulant**. The body increases Tissue Factor and inhibits natural anticoagulants.",
+                subtext: "White blood cells deploy NETs that trap platelets, leading to thousands of microscopic blood clots forming throughout the body. This is called **Disseminated Intravascular Coagulation (DIC)**.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "In full-blown DIC, the body makes so many microscopic clots that it exhausts its supply of platelets and factors. What is the result?", 
+                options: [
+                    "The blood turns into a solid gel", 
+                    "The patient begins bleeding and hemorrhaging", 
+                    "Blood pressure returns to normal"
+                ], 
+                answer: 1, 
+                explanation: "DIC creates a consumption coagulopathy; because clotting factors are used up in microscopic clots, the patient is unable to clot elsewhere, leading to widespread bleeding." 
+            },
+            {
+                type: "concept",
+                title: "Metabolic Mayhem",
+                text: "Sepsis causes severe insulin resistance and impairs glucose uptake, leading to **Hyperglycemia**.",
+                subtext: "Systemic micro-clots can also cause adrenal necrosis (Waterhouse-Friderichsen syndrome), leaving the body unable to produce the hormones needed to manage stress.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Superantigen Hack",
+                text: "Certain bacteria produce **Superantigens** (causing Toxic Shock Syndrome).",
+                subtext: "These molecules bypass the usual specific immune recognition and activate a massive percentage of T-cells simultaneously, triggering an immediate and overwhelming cytokine storm.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "sort",
+                question: "Review the deadly dominoes! Match the biological feature to its chaotic consequence.",
+                buckets: ["Nitric Oxide (NO)", "Loose Endothelial Junctions", "Tissue Factor & NETs", "Insulin Resistance"],
+                items: [
+                    { text: "Massive Vasodilation (Hypotension).", bucket: 0 },
+                    { text: "Widespread tissue edema.", bucket: 1 },
+                    { text: "Micro-clots everywhere (DIC).", bucket: 2 },
+                    { text: "Severe Hyperglycemia.", bucket: 3 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "4.2.3": {
+        title: "The Downward Spiral (Stages of Shock) 🌀",
+        objectives: ["Understand the timeline of shock: how the body compensates in the first stage, why lactic acid causes systemic collapse in the second, and the hallmarks of irreversible damage."],
+        data: [
+            {
+                type: "concept",
+                title: "The Ticking Clock",
+                text: "Shock is a progressive process. Unless the underlying cause is corrected or the injury is instantly lethal, shock evolves through three distinct stages.",
+                subtext: "The three stages are: **Nonprogressive**, **Progressive**, and **Irreversible**.",
+                buttonText: "Stage 1: Nonprogressive"
+            },
+            {
+                type: "concept",
+                title: "Stage 1: Compensation",
+                text: "In the **Nonprogressive Phase**, the body activates reflex compensatory mechanisms to maintain blood pressure and perfusion to vital organs.",
+                subtext: "The brain triggers the release of adrenaline, heart rate increases (tachycardia), and peripheral blood vessels clamp down (vasoconstriction) to prioritize the heart and brain.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "During the initial stage of shock, the body shunts blood away from the skin to protect vital organs like the heart and brain.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Peripheral vasoconstriction redirects blood flow from non-essential tissues, such as the skin and kidneys, to ensure the heart and brain receive adequate oxygen." 
+            },
+            { 
+                type: "mcq", 
+                question: "What does the skin of a patient in typical early hypovolemic or cardiogenic shock feel like?", 
+                options: [
+                    "Cool, pale, and 'shocky'", 
+                    "Hot, red, and dry", 
+                    "Warm and perfectly normal"
+                ], 
+                answer: 0, 
+                explanation: "Because blood is shunted away from the surface, the skin becomes cold and pale. Note that early septic shock is an exception, where vasodilation can make the skin feel warm and flushed." 
+            },
+            {
+                type: "concept",
+                title: "Stage 2: The Tipping Point",
+                text: "If untreated, shock enters the **Progressive Phase**. Compensatory mechanisms fail, and widespread tissue hypoxia begins.",
+                subtext: "Cells switch to anaerobic glycolysis, which produces an excess of **Lactic Acid**. This leads to metabolic acidosis.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "The acidic tissue pH blunts the vasomotor response, causing the arterioles to ____________. This causes the blood to ____________ in the microcirculation.",
+                options: ["Dilate", "Constrict", "Pool", "Flow"],
+                answer: [0, 2],
+                explanation: "Acidosis causes blood vessels to lose their tone and dilate. This leads to blood pooling in the periphery, which further reduces the amount of blood returning to the heart.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Stage 3: Irreversible Stage",
+                text: "The **Irreversible Phase** represents the point where cellular injury is so severe that survival is no longer possible, even if hemodynamics are restored.",
+                subtext: "Dying cells rupture and leak lysosomal enzymes into the circulation, compounding the physiological collapse.",
+                buttonText: "The Gut's Role"
+            },
+            { 
+                type: "mcq", 
+                question: "What deadly complication arises from an ischemic, dying bowel during late-stage shock?", 
+                options: [
+                    "It produces massive amounts of bile", 
+                    "Intestinal bacteria cross the dead tissue and enter the bloodstream", 
+                    "The bowel violently contracts, raising blood pressure"
+                ], 
+                answer: 1, 
+                explanation: "When the bowel wall becomes ischemic, it loses its barrier function. This allows normal intestinal flora to enter the systemic circulation, leading to bacteremia and sepsis." 
+            },
+            {
+                type: "sort",
+                question: "Match the clinical or physiological feature to the correct stage of shock.",
+                buckets: ["Nonprogressive (Stage 1)", "Progressive (Stage 2)", "Irreversible (Stage 3)"],
+                items: [
+                    { text: "Tachycardia and cool, pale skin.", bucket: 0 },
+                    { text: "Lactic acidosis and blood pooling.", bucket: 1 },
+                    { text: "Lysosomal enzyme leakage and bacteremia.", bucket: 2 },
+                    { text: "Activation of compensatory mechanisms.", bucket: 0 }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "4.3.1"
+    },
+
+    // UNIT 3
+    "4.3.1": {
+        title: "Primary Hemostasis (The Platelet Plug) 🩹",
+        objectives: ["Understand the four main steps of hemostasis, and dive deep into how platelets adhere, activate, and aggregate to build the initial 'patch' over a leaky blood vessel."],
+        data: [
+            {
+                type: "concept",
+                title: "The Ultimate Balancing Act",
+                text: "**Hemostasis** is the process of forming a blood clot at the site of an injury.",
+                subtext: "It is a delicate balance: too little clotting leads to hemorrhagic disorders, while too much clotting leads to thrombotic disorders like heart attacks or strokes.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Step 1: Arteriolar Vasoconstriction",
+                text: "Immediately following an injury, local blood vessels undergo reflex vasoconstriction.",
+                subtext: "This is mediated by nerve reflexes and a powerful endothelium-derived vasoconstrictor called **endothelin**, which significantly reduces blood flow to the area.",
+                buttonText: "Is it permanent?"
+            },
+            { 
+                type: "mcq", 
+                question: "The immediate vasoconstriction caused by endothelin is permanent and is usually enough to fully stop the bleeding on its own.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Vasoconstriction is a transient (temporary) response. Without the subsequent activation of platelets and the coagulation cascade, bleeding would resume once the initial squeeze relaxes." 
+            },
+            {
+                type: "concept",
+                title: "Step 2: Primary Hemostasis",
+                text: "**Primary Hemostasis** involves the creation of a platelet plug.",
+                subtext: "Platelets are fragments derived from megakaryocytes. When the endothelium is damaged, it exposes the subendothelial matrix (collagen and von Willebrand factor), which recruits platelets to the site.",
+                buttonText: "Step 2a: Adhesion"
+            },
+            {
+                type: "concept",
+                title: "The Handshake: Platelet Adhesion",
+                text: "The first phase of plug formation is **Adhesion**. Platelets must bind to the damaged vessel wall.",
+                subtext: "The platelet uses its surface receptor **Glycoprotein Ib (GpIb)** to bind to the **von Willebrand factor (vWF)** exposed on the subendothelial matrix.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Without vWF in the vessel wall, the platelet's ____________ receptor has nothing to grab onto, meaning normal platelet ____________ cannot occur.",
+                options: ["GpIb", "GpIIb-IIIa", "Adhesion", "Constriction"],
+                answer: [0, 2],
+                explanation: "The GpIb receptor and von Willebrand factor are essential for the initial tethering of platelets to the site of injury. Deficiency in either leads to bleeding disorders.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Step 2b: Platelet Activation",
+                text: "Once adhered, platelets undergo **Activation**, which involves a dramatic physical shape change and the release of granules.",
+                subtext: "Granules contain substances like calcium, serotonin, and ADP that help coordinate the continuing clotting process.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Activated platelets change their shape from smooth discs to spiky structures resembling 'sea urchins'.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "This metamorphosis increases the surface area of the platelets and allows them to better interlock and support the growing hemostatic plug." 
+            },
+            {
+                type: "concept",
+                title: "Recruitment",
+                text: "Activated platelets release ADP and produce **Thromboxane A₂ (TxA₂)**.",
+                subtext: "These molecules act as signals that recruit nearby passing platelets to activate and join the aggregation, creating a snowball effect.",
+                buttonText: "Pharmacology link"
+            },
+            { 
+                type: "mcq", 
+                question: "Which common over-the-counter drug inhibits TxA₂ synthesis to prevent platelet recruitment and aggregation?", 
+                options: ["Penicillin", "Aspirin", "Ibuprofen"], 
+                answer: 1, 
+                explanation: "Aspirin permanently blocks the COX-1 enzyme, preventing the production of Thromboxane A₂, which reduces the ability of platelets to aggregate." 
+            },
+            {
+                type: "concept",
+                title: "Step 2c: Platelet Aggregation",
+                text: "The final phase of primary hemostasis is **Aggregation**.",
+                subtext: "The receptor **Glycoprotein IIb/IIIa (GpIIb/IIIa)** on the platelet surface binds to **Fibrinogen**. Fibrinogen acts as a bridge, linking adjacent platelets together to form the primary plug.",
+                buttonText: "Next"
+            },
+            {
+                type: "match",
+                question: "Receptor Review: Match the platelet receptor to its correct partner or function.",
+                pairs: [
+                    { left: "Glycoprotein Ib (GpIb)", right: "Binds to vWF (Adhesion)." },
+                    { left: "Glycoprotein IIb/IIIa", right: "Binds to Fibrinogen (Aggregation)." },
+                    { left: "PAR-1 Receptor", right: "Activated by Thrombin." }
+                ],
+                explanation: "These receptors are the primary molecular targets for many anti-clotting medications used in clinical practice."
+            }
+        ]
+    },
+    "4.3.2": {
+        title: "Secondary Hemostasis (The Cascade) 🕸️",
+        objectives: ["Understand why the platelet plug needs reinforcement, distinguish between the Extrinsic and Intrinsic pathways, and learn how Thrombin builds the final Fibrin web."],
+        data: [
+            {
+                type: "concept",
+                title: "The Weak Patch",
+                text: "Primary hemostasis forms a fragile platelet plug. In areas of high blood pressure or flow, this 'patch' can easily wash away.",
+                subtext: "To make the clot permanent, the body uses **Secondary Hemostasis** to weave a tough, insoluble protein net over the platelets to lock them in place.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Two Roads, One Destination",
+                text: "The body builds this net through the **Coagulation Cascade**, a series of enzymatic reactions where inactive factors activate each other sequentially.",
+                subtext: "There are two starting points for this cascade: the **Extrinsic Pathway** and the **Intrinsic Pathway**.",
+                buttonText: "See the Extrinsic Pathway"
+            },
+            {
+                type: "concept",
+                title: "The Outside Spark: Extrinsic Pathway",
+                text: "The **Extrinsic Pathway** is the fast, primary initiator of a blood clot. It is triggered by factors 'extrinsic' to (outside) the blood.",
+                subtext: "When a vessel is damaged, it exposes **Tissue Factor (TF)** from the subendothelial cells. TF enters the blood, binds to Factor VII, and sparks the cascade.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Based on its mechanism, which of the following is true about the Extrinsic pathway?", 
+                options: [
+                    "It is triggered by proteins already floating inside the blood", 
+                    "It relies on a trigger (Tissue Factor) from outside the bloodstream", 
+                    "It is a very slow, multi-hour process"
+                ], 
+                answer: 1, 
+                explanation: "The extrinsic pathway requires the exposure of Tissue Factor, which is normally sequestered behind the endothelial lining, to initiate a rapid clotting response." 
+            },
+            {
+                type: "concept",
+                title: "The Inside Patrol: Intrinsic Pathway",
+                text: "The **Intrinsic Pathway** is triggered by factors already patrolling inside the blood.",
+                subtext: "If blood contacts an abnormal, negatively charged surface (like exposed collagen, glass, or metal), internal guards (Factors XII, XI, IX, and VIII) sound the alarm.",
+                buttonText: "Clinical Application"
+            },
+            { 
+                type: "mcq", 
+                question: "A patient receives a mechanical heart valve. Why does this patient require lifelong blood thinners?", 
+                options: ["True", "False"], 
+                answer: 1, // False (Question asks if the blood will safely ignore it)
+                explanation: "The blood will NOT ignore an artificial surface. The Intrinsic pathway identifies the metal as an 'abnormal surface' and triggers a cascade, leading to dangerous clots if not medicated." 
+            },
+            { 
+                type: "mcq", 
+                question: "The core difference between the two pathways is the starting trigger: Extrinsic requires Tissue Factor, while Intrinsic is triggered by contact with abnormal surfaces.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Extrinsic is sparked by tissue damage (outside factor), while Intrinsic is sparked by the blood contacting a surface it doesn't recognize as healthy endothelium (inside factors)." 
+            },
+            {
+                type: "concept",
+                title: "The Choreography of Clotting",
+                text: "The cascade is a highly organized assembly process. Each step requires an Enzyme (active factor), a Substrate (inactive factor), and a Cofactor (accelerator).",
+                subtext: "These components assemble on the negatively charged phospholipid surface of activated platelets. In clotting, the **platelet is the dance floor**.",
+                buttonText: "The Role of Vitamin K"
+            },
+            {
+                type: "concept",
+                title: "Vitamin K & Calcium",
+                text: "To stay on the platelet 'dance floor,' factors need special 'handles' (γ-carboxylated glutamic acid residues) to grab onto Calcium glue.",
+                subtext: "**Vitamin K** is the essential nutrient that builds these handles. Without it, Factors **II, VII, IX, and X** cannot bind to the platelet surface, and clotting fails.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "The medication Warfarin (Coumadin) blocks Vitamin K. Does this action accelerate the coagulation cascade?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Blocking Vitamin K prevents the formation of binding 'handles' on Factors II, VII, IX, and X. This inhibits the cascade and acts as an effective anticoagulant." 
+            },
+            {
+                type: "fill",
+                question: "Both pathways converge at Factor ____________. This meeting point is called the ____________ pathway.",
+                options: ["X (Ten)", "XII (Twelve)", "Common", "Separate"],
+                answer: [0, 2],
+                explanation: "Factor X is the crossroads where the Intrinsic and Extrinsic pathways meet to initiate the Common Pathway, leading to the formation of a stable clot.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Master Builder: Thrombin",
+                text: "Activated Factor X triggers the most important event in the cascade: the activation of **Thrombin** (Factor IIa).",
+                subtext: "Thrombin is the ultimate multi-tasker: it activates more platelets, amplifies the cascade, and physically builds the final fibrin web.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "How does Thrombin turn soluble Fibrinogen into the solid threads of a clot?", 
+                options: [
+                    "Thrombin acts like scissors, cutting Fibrinogen into insoluble Fibrin threads", 
+                    "Thrombin completely destroys Fibrinogen", 
+                    "Thrombin heats up the blood until Fibrinogen melts"
+                ], 
+                answer: 0, 
+                explanation: "Thrombin proteolytically cleaves fibrinogen, releasing fibrin monomers that spontaneously polymerize into a sticky, insoluble mesh." 
+            },
+            { 
+                type: "mcq", 
+                question: "Factor XIII, also activated by Thrombin, chemically cross-links the Fibrin threads to create a permanent, solid mesh.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Factor XIII acts as the final 'glue,' creating covalent bonds between fibrin strands to transform a loose net into an unbreakable mesh." 
+            },
+            {
+                type: "match",
+                question: "Final Review: Match the pathway or factor to its primary role.",
+                pairs: [
+                    { left: "Extrinsic Pathway", right: "Requires Tissue Factor from damaged tissue." },
+                    { left: "Intrinsic Pathway", right: "Triggered by contact with glass or metal." },
+                    { left: "Vitamin K", right: "Builds handles for Factors II, VII, IX, and X." },
+                    { left: "Thrombin", right: "The enzyme that cuts Fibrinogen into Fibrin." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "4.3.3": {
+        title: "Breaking the Web (Fibrinolysis) ✂️",
+        objectives: ["Understand why blood clots must be destroyed, meet the body's ultimate cleanup crew (Plasmin and t-PA), and learn how 'D-dimers' act as clinical clues."],
+        data: [
+            {
+                type: "concept",
+                title: "The Cleanup Crew",
+                text: "Once a blood vessel is healed, the clot must be removed. If it remains or continues to grow, it will eventually obstruct blood flow.",
+                subtext: "The body initiates **Fibrinolysis**, a cascade that limits the size of the clot and eventually dissolves it completely.",
+                buttonText: "Meet the Destroyer"
+            },
+            {
+                type: "concept",
+                title: "The Destroyer: Plasmin",
+                text: "The primary enzyme of the cleanup crew is **Plasmin**.",
+                subtext: "While Thrombin is the 'builder' that creates the fibrin web, Plasmin is the 'destroyer' that chews up fibrin threads and breaks the solid clot back down into liquid.",
+                buttonText: "Is it always active?"
+            },
+            { 
+                type: "mcq", 
+                question: "Because Plasmin is so destructive to the fibrin web, does it circulate in the blood in a highly active state at all times?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Plasmin circulates as an inactive precursor called **Plasminogen**. It is only converted to active Plasmin when the body specifically signals that the clot is ready to be dismantled." 
+            },
+            {
+                type: "concept",
+                title: "The Wake-Up Call: t-PA",
+                text: "The most important activator of Plasminogen is **t-PA** (Tissue Plasminogen Activator).",
+                subtext: "Repaired endothelial cells synthesize and release t-PA at the site of the clot, converting inactive Plasminogen into active, fibrin-chewing Plasmin.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Because t-PA specifically targets fibrin, how is synthetic t-PA utilized in clinical medicine?", 
+                options: [
+                    "To increase the number of platelets in a bleeding patient", 
+                    "As an emergency agent to dissolve dangerous clots (e.g., in stroke or heart attack)", 
+                    "To strengthen the fibrin web and stop a hemorrhage"
+                ], 
+                answer: 1, 
+                explanation: "Synthetic t-PA is used as a 'clot-buster' to rapidly reopen occluded vessels in the brain or heart by targeting the fibrin meshwork of a recent thrombus." 
+            },
+            {
+                type: "concept",
+                title: "The Double Agent: Factor XII",
+                text: "Interestingly, the body uses the start of the clotting cascade to also set the timer for its destruction.",
+                subtext: "**Factor XII** (which initiates the Intrinsic pathway) also participates in activating the fibrinolytic cascade, ensuring that the cleanup begins as the repair process proceeds.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "A patient with a Factor XII deficiency may paradoxically have a higher risk of forming unwanted blood clots (thrombosis).", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Because Factor XII helps activate Plasmin, a deficiency impairs the body's ability to activate the cleanup crew. This can lead to clots that are difficult to dissolve and grow out of control." 
+            },
+            {
+                type: "concept",
+                title: "The Leftovers: D-Dimers",
+                text: "When Plasmin breaks down the fibrin web, it leaves behind debris in the bloodstream known as **Fibrin Split Products**.",
+                subtext: "The most clinically significant of these fragments are called **D-dimers**.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "If a patient has a swollen leg and a blood test reveals highly elevated levels of ____________, the doctor has strong evidence that a deep vein ____________ is occurring.",
+                options: ["Calcium", "D-dimers", "Thrombosis", "Hemorrhage"],
+                answer: [1, 2],
+                explanation: "Elevated D-dimers are a marker that a fibrin clot was formed and is currently being broken down, pointing toward an active thrombotic event.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Leash: α₂-Plasmin Inhibitor",
+                text: "To prevent active Plasmin from digesting healthy proteins elsewhere, the body uses the **α₂-plasmin inhibitor**.",
+                subtext: "This plasma protein instantly binds and inactivates any Plasmin molecule that drifts away from the localized fibrin clot.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "match",
+                question: "Match the fibrinolysis factor to its primary role.",
+                pairs: [
+                    { left: "Plasmin", right: "The active enzyme that chews up the fibrin web." },
+                    { left: "t-PA", right: "Endothelial factor that activates Plasminogen." },
+                    { left: "D-dimers", right: "Debris left behind; a clinical marker of thrombosis." },
+                    { left: "α₂-Plasmin Inhibitor", right: "Prevents runaway Plasmin from damaging proteins." }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "4.4.1"
+    },
+
+    // UNIT 4
+    "4.4.1": {
+        title: "The Antithrombotic Shield (Keeping the Peace) 🛡️",
+        objectives: ["Understand how a healthy blood vessel lining actively prevents blood from clotting, dilutes coagulation factors, and uses chemical weapons to keep platelets and Thrombin in check!"],
+        data: [
+            {
+                type: "concept",
+                title: "The Gatekeepers",
+                text: "Clotting must be strictly confined to the site of injury to prevent systemic solidification of the blood.",
+                subtext: "Healthy **Endothelial cells** maintain the 'Antithrombotic Shield,' an active process that prevents unwanted clot formation in healthy vessels.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Basic Defenses",
+                text: "Beyond chemical weapons, the body uses two physical strategies to limit clotting:\n\n" +
+                    "1. **Dilution:** Normal blood flow washes away active factors to the liver for degradation.\n" +
+                    "2. **The Dance Floor:** The cascade requires an activated platelet surface; without activated platelets, the cascade cannot assemble.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Simple dilution from normal, healthy blood flow plays a major role in preventing a blood clot from growing out of control.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Fast-flowing blood rapidly dilutes active coagulation factors, preventing them from reaching the concentrations necessary to build a fibrin web in healthy areas." 
+            },
+            {
+                type: "concept",
+                title: "Shielding the Platelets",
+                text: "The endothelium acts as a physical barrier, hiding the sticky collagen and vWF in the basement membrane.",
+                subtext: "It also secretes **Prostacyclin (PGI₂)** and **Nitric Oxide (NO)**, gases that signal passing platelets to remain in a relaxed, non-aggregated state.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "The endothelium secretes an enzyme called adenosine diphosphatase, which literally destroys ____________. This silences the platelet's ability to ____________ more platelets to the area.",
+                options: ["ADP", "Fibrin", "Recruit", "Destroy"],
+                answer: [0, 2],
+                explanation: "By degrading ADP, the endothelium removes a key chemical signal used for platelet recruitment, preventing the expansion of the primary hemostatic plug.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Ultimate Brainwash: Thrombomodulin",
+                text: "If the master-builder enzyme, **Thrombin**, floats away toward healthy tissue, the endothelium captures it using a receptor called **Thrombomodulin**.",
+                subtext: "Upon binding, Thrombin is 'reprogrammed'—it loses its ability to activate platelets or cut Fibrinogen.",
+                buttonText: "What does it do instead?"
+            },
+            { 
+                type: "mcq", 
+                question: "Once activated by the Thrombin-Thrombomodulin complex, what is the role of Protein C (and its cofactor Protein S)?", 
+                options: [
+                    "It cuts Fibrinogen into Fibrin", 
+                    "It inhibits Coagulation Factors Va and VIIIa", 
+                    "It causes intense vasoconstriction"
+                ], 
+                answer: 1, 
+                explanation: "Activated Protein C acts as a powerful anticoagulant by cleaving and inactivating Factors Va and VIIIa, effectively shutting down the coagulation cascade." 
+            },
+            { 
+                type: "mcq", 
+                question: "Protein C and Protein S are powerful procoagulants that help the blood clot faster.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Protein C and S are anticoagulants that prevent the spread of a clot into healthy vascular segments." 
+            },
+            {
+                type: "concept",
+                title: "The Natural Heparin",
+                text: "The endothelium expresses **Heparin-like molecules** that bind and activate a plasma protein called **Antithrombin III**.",
+                subtext: "Antithrombin III is a potent inhibitor of Thrombin and Factors IXa, Xa, XIa, and XIIa.",
+                buttonText: "Clinical Link"
+            },
+            { 
+                type: "mcq", 
+                question: "Based on this endothelial mechanism, how does the clinical drug Heparin work to thin a patient's blood?", 
+                options: [
+                    "It stimulates Antithrombin III activity", 
+                    "It provides massive amounts of Vitamin K", 
+                    "It adds more Tissue Factor to the blood"
+                ], 
+                answer: 0, 
+                explanation: "Pharmacologic Heparin acts by binding to Antithrombin III and inducing a conformational change that increases its ability to neutralize clotting factors." 
+            },
+            {
+                type: "concept",
+                title: "Final Backup Systems",
+                text: "The endothelium has additional regulatory tools:\n\n" +
+                    "• **TFPI:** (Tissue Factor Pathway Inhibitor) blocks the Extrinsic pathway initiator.\n" +
+                    "• **t-PA:** Wakes up Plasmin to dissolve any fibrin that accidentally forms on healthy walls.",
+                subtext: "",
+                buttonText: "Got it!"
+            },
+            {
+                type: "match",
+                question: "Final Review: Match the endothelial factor to its primary superpower.",
+                pairs: [
+                    { left: "Nitric Oxide & PGI₂", right: "Keeps platelets relaxed." },
+                    { left: "Thrombomodulin", right: "Brainwashes Thrombin into an anticoagulant." },
+                    { left: "Heparin-like molecules", right: "Activates Antithrombin III." },
+                    { left: "t-PA", right: "Initiates fibrinolysis to dissolve stray nets." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "4.4.2": {
+        title: "The Procoagulant Switch (Endothelial Dark Side) ⚡",
+        objectives: ["Discover how the endothelium transforms into a pro-clotting state when injured or infected, and learn the specific chemical weapons it deploys."],
+        data: [
+            {
+                type: "concept",
+                title: "The Jekyll and Hyde of Blood Vessels",
+                text: "While a healthy endothelium is a peacekeeper, it has a 'dark side'. When injured or activated, it completely shifts its physiological balance.",
+                subtext: "It drops its antithrombotic shield and flips the **Procoagulant Switch**, actively promoting the formation and stabilization of blood clots.",
+                buttonText: "What flips the switch?"
+            },
+            {
+                type: "concept",
+                title: "Poking the Bear",
+                text: "Endothelial activation can be triggered by physical trauma (cuts), microbial pathogens (bacteria), or chaotic hemodynamic forces (turbulence).",
+                subtext: "It is also heavily driven by inflammatory mediators like **TNF** and **IL-1**.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "In response to an inflammatory cytokine storm (as seen in sepsis), how do endothelial cells typically react?", 
+                options: [
+                    "They increase their antithrombotic shield to keep blood thin", 
+                    "They flip the procoagulant switch and promote blood clotting", 
+                    "They detach and transform into platelets"
+                ], 
+                answer: 1, 
+                explanation: "Sepsis triggers the endothelium to become procoagulant, contributing to the formation of thousands of microscopic clots (Disseminated Intravascular Coagulation)." 
+            },
+            {
+                type: "concept",
+                title: "Step 1: Drop the Shield",
+                text: "The first move of an activated endothelium is to drop its defenses. It stops producing calming gases like **Nitric Oxide** and **PGI₂**.",
+                subtext: "It also downregulates **Thrombomodulin** and Protein C receptors. This means Thrombin is no longer inhibited and is free to build its fibrin web.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "When an endothelial cell is exposed to severe inflammation, it dramatically increases its production of Thrombomodulin.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Inflammation causes the endothelium to decrease its expression of Thrombomodulin, thereby removing a critical brake on the coagulation cascade." 
+            },
+            {
+                type: "concept",
+                title: "Step 2: Deploy the Platelet Glue",
+                text: "Inside endothelial cells are storage pods called **Weibel-Palade bodies** packed with **von Willebrand factor (vWF)**.",
+                subtext: "Activated endothelium releases massive amounts of vWF, which acts like molecular super-glue to trap passing platelets and force them to adhere to the vessel wall.",
+                buttonText: "How do they stick?"
+            },
+            {
+                type: "fill",
+                question: "The activated endothelium secretes ____________, which binds to the ____________ receptors on platelets to induce adhesion.",
+                options: ["vWF", "GpIb", "Fibrin", "Protein C"],
+                answer: [0, 1],
+                explanation: "The endothelium releases vWF strings, which platelets then anchor to using their Glycoprotein Ib (GpIb) receptors.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Step 3: Spark the Cascade",
+                text: "Normally, **Tissue Factor (TF)** is hidden beneath the endothelium. However, when 'flipped' by inflammation, endothelial cells synthesize their own TF.",
+                subtext: "By expressing TF on their surface, these cells directly initiate the **Extrinsic** coagulation cascade.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Even without a physical cut, an intact endothelial cell can trigger the coagulation cascade if exposed to inflammatory cytokines.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Inflammation induces endothelial cells to express Tissue Factor on their surface, allowing them to spark clotting without a structural breach in the vessel." 
+            },
+            {
+                type: "concept",
+                title: "Step 4: Lock out the Cleanup Crew",
+                text: "To ensure the clot survives, the endothelium stops making t-PA and instead secretes **PAI-1** (Plasminogen Activator Inhibitor).",
+                subtext: "PAI-1 acts like a lock, inhibiting the activation of the fibrinolytic system.",
+                buttonText: "What does it block?"
+            },
+            { 
+                type: "mcq", 
+                question: "Which critical 'clot-busting' enzyme is directly inhibited by PAI-1?", 
+                options: ["Thrombin", "Tissue Factor", "t-PA (Tissue Plasminogen Activator)"], 
+                answer: 2, 
+                explanation: "PAI-1 blocks t-PA, preventing the conversion of plasminogen into plasmin, which effectively halts the dissolution of the clot." 
+            },
+            {
+                type: "sort",
+                question: "Sort the molecules into the correct functional state of the endothelial cell.",
+                buckets: ["Peacemaker (Antithrombotic)", "War Machine (Prothrombotic)"],
+                items: [
+                    { text: "Thrombomodulin, NO, and t-PA.", bucket: 0 },
+                    { text: "vWF, Tissue Factor, and PAI-1.", bucket: 1 }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "4.5.1"
+    },
+
+    // UNIT 5
+    "4.5.1": {
+        title: "Virchow's Triad (The Deadly Triangle) 📐",
+        objectives: ["Discover the three ultimate rules of rogue clotting (Virchow's Triad), learn why the Endothelium is the 'boss,' and understand the vicious, interconnected cycle of thrombosis."],
+        data: [
+            {
+                type: "concept",
+                title: "When Clotting Goes Rogue",
+                text: "When a solid mass of blood forms inside an intact, uninjured blood vessel, it is called a **Thrombus (Thrombosis)**.",
+                subtext: "This rogue blockage is the leading cause of myocardial infarction (heart attack) and stroke.",
+                buttonText: "Meet the Triad"
+            },
+            {
+                type: "concept",
+                title: "The Deadly Triangle",
+                text: "Rudolf Virchow identified a triad of abnormalities that lead to thrombosis:\n\n" +
+                    "1. **Endothelial Injury** (Damage to the vessel lining)\n" +
+                    "2. **Abnormal Blood Flow** (Stagnation or turbulence)\n" +
+                    "3. **Hypercoagulability** (Chemically 'sticky' blood)",
+                subtext: "These three factors are the foundation of all thrombotic diseases.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "The three components of Virchow's Triad are Endothelial ____________, Abnormal Blood ____________, and ____________.",
+                options: ["Injury", "Flow", "Hypercoagulability", "Oxygenation"],
+                answer: [0, 1, 2],
+                explanation: "Thrombosis results from the interplay of vessel wall damage, hemodynamic changes, and alterations in the blood's biochemical properties.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Top of the Pyramid",
+                text: "Endothelial integrity is the single most important factor in the triad.",
+                subtext: "Severe endothelial injury (caused by factors like high cholesterol or inflammation) is powerful enough to trigger a thrombus independently, even if flow and coagulability are normal.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "In order for a rogue thrombus to form, a patient must possess all three components of Virchow's Triad at the exact same time.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "While the three factors often act in concert, any one of these abnormalities can promote thrombosis independently or in various combinations." 
+            },
+            {
+                type: "concept",
+                title: "The Vicious Cycle",
+                text: "Virchow's Triad is a highly interconnected web where the factors influence and trigger each other.",
+                subtext: "For example, endothelial injury alters local blood flow, while turbulent blood flow can physically stress and injure the endothelium.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "According to the triad's pathways, if a patient has severe Endothelial Injury, what else can it directly trigger?", 
+                options: [
+                    "It can increase local blood flow to normal speeds", 
+                    "It can alter local blood flow and increase blood coagulability", 
+                    "It cures inherited genetic diseases"
+                ], 
+                answer: 1, 
+                explanation: "The endothelium is the central regulator; its damage typically precipitates hemodynamic disturbances and pro-clotting biochemical shifts." 
+            },
+            {
+                type: "concept",
+                title: "Triggers for the Triad",
+                text: "Common clinical triggers for each leg of the triad include:\n\n" +
+                    "• **Endothelial Injury:** Hypercholesterolemia or chronic inflammation.\n" +
+                    "• **Abnormal Flow:** Prolonged bed rest (stasis) or narrowed vessels (turbulence).\n" +
+                    "• **Hypercoagulability:** Genetic mutations (e.g., Factor V Leiden) or cancer.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "A patient on prolonged bed rest is at risk for thrombosis because the lack of movement causes stasis (Abnormal Blood Flow).", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Stagnant blood flow prevents the normal dilution of activated clotting factors, satisfying one of the key conditions of Virchow's Triad." 
+            },
+            {
+                type: "sort",
+                question: "Match the clinical scenario to its specific corner of Virchow's Triad.",
+                buckets: ["Endothelial Injury", "Abnormal Blood Flow", "Hypercoagulability"],
+                items: [
+                    { text: "Hypercholesterolemia (High Cholesterol)", bucket: 0 },
+                    { text: "Atrial Fibrillation & Bed Rest", bucket: 1 },
+                    { text: "Inherited Factor V Leiden & Cancer", bucket: 2 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "4.5.2": {
+        title: "Endothelial Injury & Dysfunction 💥",
+        objectives: ["Understand why endothelial injury dominates in arteries, why high shear stress demands platelet-rich clots, and how invisible 'dysfunction' blocks the cleanup crew."],
+        data: [
+            {
+                type: "concept",
+                title: "The Top of the Pyramid",
+                text: "Endothelial injury is the primary driver of thrombus formation in the heart and the arterial circulation.",
+                subtext: "In the arteries, blood flows at high speeds. This rapid flow normally washes away activated clotting factors before a fibrin web can form, making the vessel wall's integrity the 'Big Boss' of arterial health.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Holding on for Dear Life",
+                text: "To form a clot in a high-flow arterial environment, the mass must anchor itself firmly against high **shear stress**.",
+                subtext: "Platelets are the only blood components sticky enough to adhere under these conditions. Consequently, cardiac and arterial thrombi are characteristically platelet-rich.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Because arterial clots rely heavily on platelets to survive high shear stress, anti-platelet drugs like aspirin are a primary treatment for coronary artery disease.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Preventing platelet aggregation removes the primary 'anchor' of high-speed arterial clots, making anti-platelet therapy a cornerstone of heart attack prevention." 
+            },
+            {
+                type: "concept",
+                title: "The Invisible Scars",
+                text: "While physical trauma triggers clotting, the endothelium can also be 'injured' by metabolic or chemical stimuli.",
+                subtext: "Factors such as high cholesterol (hypercholesterolemia), toxins from cigarette smoke, inflammation, and high levels of homocysteine can chemically damage the vessel lining.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "The endothelium can only trigger a rogue blood clot if the cell wall is physically torn open by trauma.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "An intact endothelial cell can still trigger a massive clot if it is chemically irritated or activated by inflammation, which shifts its behavior toward a pro-clotting state." 
+            },
+            {
+                type: "concept",
+                title: "The Shift: Endothelial Dysfunction",
+                text: "Irritated endothelium undergoes a dangerous shift in gene expression called **Endothelial Activation** (or Dysfunction).",
+                subtext: "The cell downregulates its protective shield and becomes prothrombotic. This shift involves both procoagulant changes and anti-fibrinolytic effects.",
+                buttonText: "Weapon 1: Procoagulant"
+            },
+            {
+                type: "concept",
+                title: "Procoagulant Changes",
+                text: "Dysfunctional endothelial cells actively hide their 'peacemaker' proteins.",
+                subtext: "They downregulate **Thrombomodulin**, **Protein C**, and **Tissue Factor Pathway Inhibitor (TFPI)**. This removes the natural brakes on the coagulation cascade.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "When the inflamed endothelium downregulates ____________, Thrombin remains highly active, greatly enhancing its ____________ and pro-inflammatory actions.",
+                options: ["Thrombomodulin", "Fibrin", "Procoagulant", "Anticoagulant"],
+                answer: [0, 2],
+                explanation: "Without Thrombomodulin to capture and redirect Thrombin, the enzyme is free to build fibrin webs and recruit more platelets unchecked.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Weapon 2: Antifibrinolytic Effects",
+                text: "The dysfunctional endothelium also ensures the rogue clot is not destroyed.",
+                subtext: "It downregulates the release of **t-PA** (which wakes the cleanup crew) and secretes **PAIs** (Plasminogen Activator Inhibitors), which act as padlocks to block the dissolution of the clot.",
+                buttonText: "Next"
+            },
+            {
+                type: "match",
+                question: "Match the mechanism of Endothelial Dysfunction to its clinical or physiological result.",
+                pairs: [
+                    { left: "High Shear Stress", right: "Requires Platelet-rich clots to stay anchored." },
+                    { left: "Invisible Triggers", right: "Smoking, Toxins, and Hypercholesterolemia." },
+                    { left: "Procoagulant Change", right: "Downregulation of Thrombomodulin and Protein C." },
+                    { left: "Antifibrinolytic Change", right: "Secreting PAIs and hiding t-PA." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "4.5.3": {
+        title: "Alterations in Normal Blood Flow 🌊",
+        objectives: ["Learn how normal laminar flow protects the vessel, and how Turbulence and Stasis trigger rogue blood clots."],
+        data: [
+            {
+                type: "concept",
+                title: "The Second Corner",
+                text: "The second leg of Virchow's Triad is **Abnormal Blood Flow**.",
+                subtext: "A healthy vessel behaves like a smoothly flowing river. When the flow becomes chaotic (**Turbulence**) or stagnant (**Stasis**), the risk of rogue blood clots increases significantly.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Laminar Flow",
+                text: "In healthy vessels, blood travels in organized lanes called **Laminar Flow**.",
+                subtext: "The heavy blood cells and platelets move quickly through the center lane, while a slower layer of clear plasma travels in the outside lanes, acting as a buffer that separates platelets from the vessel wall.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Because of normal laminar flow, circulating platelets are kept safely in the center of the vessel and rarely touch the endothelial wall.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Laminar flow creates a protective plasma buffer zone that keeps sticky platelets in the high-velocity central stream, physically separated from the vessel wall." 
+            },
+            {
+                type: "concept",
+                title: "The Flow Disruptors",
+                text: "Disrupting the laminar highway leads to two major clinical patterns:\n\n" +
+                    "1. **Turbulence:** Chaotic, swirling blood flow; a major cause of arterial and cardiac clots.\n" +
+                    "2. **Stasis:** Sluggish, stagnant blood flow; the primary driver of venous clots.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Disrupted flow causes three pro-thrombotic changes: it slams ____________ directly against the endothelium, activates endothelial cells, and prevents blood from ____________ away activated factors.",
+                options: ["Platelets", "Washing", "Fibrin", "Building"],
+                answer: [0, 1],
+                explanation: "Abnormal flow removes the protective plasma buffer and prevents the 'washout' mechanism that normally dilutes and carries away activated clotting factors.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Rapids: Turbulence",
+                text: "Turbulent flow acts as a physical irritant to the endothelium. A classic cause is an **atherosclerotic plaque**.",
+                subtext: "The plaque acts like a boulder in a river, causing blood to swirl aggressively and creating local pockets of stasis and physical injury to the lining.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "When blood flows out of a tight artery into a ballooned-out aneurysm, what happens to the blood flow?", 
+                options: [
+                    "It speeds up significantly", 
+                    "It pools and swirls, causing local stasis", 
+                    "It instantly turns into an exudative fluid"
+                ], 
+                answer: 1, 
+                explanation: "In an aneurysm, blood loses forward momentum and pools in the widened area, creating the stagnant and turbulent conditions necessary for thrombus formation." 
+            },
+            {
+                type: "concept",
+                title: "The Swamp: Stasis",
+                text: "**Stasis** is profound stagnation. It often occurs after a heart attack (myocardial infarction) when the damaged muscle can no longer contract effectively.",
+                subtext: "The blood pools in the heart chamber, often leading to the formation of a cardiac mural thrombus.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "In Atrial Fibrillation, the heart chamber quivers weakly instead of pumping, causing profound stasis.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Atrial fibrillation results in the loss of coordinated contraction, leading to blood stagnation in the atria and a significantly increased risk of clot formation." 
+            },
+            {
+                type: "concept",
+                title: "Microscopic Traffic Jams",
+                text: "Stasis can be caused by the composition of the blood itself rather than the heart's pump.",
+                subtext: "• **Polycythemia vera:** High red cell count makes blood thick as syrup (hyperviscosity).\n• **Sickle Cell Anemia:** Rigid, deformed cells physically jam capillaries and small vessels.",
+                buttonText: "Next"
+            },
+            {
+                type: "sort",
+                question: "Match the clinical condition to the primary reason it disrupts normal blood flow.",
+                buckets: ["Turbulence", "Stasis"],
+                items: [
+                    { text: "Ulcerated Atherosclerotic Plaque", bucket: 0 },
+                    { text: "Atrial Fibrillation", bucket: 1 },
+                    { text: "Polycythemia (Hyperviscosity)", bucket: 1 },
+                    { text: "Sickle Cell Anemia", bucket: 1 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "4.5.4": {
+        title: "Hypercoagulability (The Thick Blood) 🧪",
+        objectives: ["Enter the third corner of Virchow's Triad! Learn why genetics, hormones, and rogue antibodies can turn normal blood into a thick, sticky, clot-making hazard."],
+        data: [
+            {
+                type: "concept",
+                title: "The Final Corner",
+                text: "We’ve reached the third leg of Virchow's Triad: **Hypercoagulability**.",
+                subtext: "This refers to an abnormally high tendency of blood to clot. While endothelial injury dominates in the arteries, hypercoagulability is a major driver of venous clots, such as Deep Vein Thrombosis (DVT).",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Broken 'Off' Switch",
+                text: "Hypercoagulability can be inherited (genetic) or acquired. The most common genetic cause is **Factor V Leiden**.",
+                subtext: "Normally, Protein C deactivates Factor V to stop the clotting cascade. In this mutation, Factor V is deformed such that Protein C cannot bind to it, leaving the cascade persistently active.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "A patient with the Factor V Leiden mutation has a higher risk of developing a DVT because their mutated Factor V is resistant to being deactivated by Protein C.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "The mutation makes Factor V resistant to the body's natural anticoagulant mechanism, meaning the clotting process is not properly regulated." 
+            },
+            {
+                type: "concept",
+                title: "The Overproducer",
+                text: "The second most common genetic mutation is the **Prothrombin Gene Mutation**.",
+                subtext: "A single nucleotide change in the DNA leads to elevated levels of prothrombin. Higher concentrations of prothrombin result in more thrombin and increased fibrin formation.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "What happens if a patient with asymptomatic Factor V Leiden takes a 14-hour airplane flight where they cannot move their legs?", 
+                options: [
+                    "The flight cures their genetic mutation", 
+                    "The combination of genetic hypercoagulability and stasis triggers a massive DVT", 
+                    "Their blood becomes dangerously thin and won't clot at all"
+                ], 
+                answer: 1, 
+                explanation: "Virchow's Triad factors often act synergistically. A genetic predisposition combined with acquired stasis (immobilization) creates a high risk for thrombotic events." 
+            },
+            {
+                type: "concept",
+                title: "Acquired Sticky Blood",
+                text: "Hypercoagulability can also be acquired through physiological changes or disease.",
+                subtext: "High estrogen (Pregnancy/Oral Contraceptives) increases coagulation factor production. Disseminated cancer is also a major trigger, as some tumors release procoagulant molecules.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Advancing age and ____________ both promote hypercoagulability. ____________ also increases risk, though the exact mechanism is still being studied.",
+                options: ["Smoking", "Drinking water", "Obesity", "Exercise"],
+                answer: [0, 2],
+                explanation: "Smoking and obesity are significant acquired risk factors that promote a pro-clotting environment in the blood and damage the vessel lining.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Heparin Paradox: HIT",
+                text: "**HIT (Heparin-Induced Thrombocytopenia)** is a clinical paradox where a blood-thinning drug causes clotting.",
+                subtext: "Patients form antibodies against Heparin-platelet complexes. These antibodies activate platelets, causing them to aggregate and form dangerous systemic clots.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Because HIT uses up all of the patient's platelets (thrombocytopenia), the main clinical danger is bleeding to death.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Even though the platelet count is low, the primary danger is life-threatening thrombosis. The missing platelets are actually being used to form widespread clots throughout the vasculature." 
+            },
+            {
+                type: "concept",
+                title: "The Miscarriage Mystery: APS",
+                text: "**APS (Antiphospholipid Antibody Syndrome)** is an autoimmune disorder where antibodies attack cell membrane proteins.",
+                subtext: "This leads to recurrent thrombosis (strokes, DVT) and is a classic cause of recurrent miscarriages due to placental interference.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "APS antibodies often cross-react with lab reagents, leading to which common 'false positive' test result?", 
+                options: [
+                    "A false positive for Pregnancy", 
+                    "A false positive for Syphilis", 
+                    "A false positive for Covid-19"
+                ], 
+                answer: 1, 
+                explanation: "APS antibodies bind to cardiolipin, which is the same reagent used in screening tests for Syphilis, resulting in a false-positive result in the absence of infection." 
+            },
+            {
+                type: "match",
+                question: "Match the hypercoagulability disorder to its classic description.",
+                pairs: [
+                    { left: "Factor V Leiden", right: "A broken 'off switch' that resists Protein C." },
+                    { left: "Prothrombin Mutation", right: "A genetic typo causing too much Thrombin." },
+                    { left: "HIT", right: "Antibodies turn a blood-thinning drug into a clot-maker." },
+                    { left: "APS", right: "Autoantibodies causing recurrent miscarriages and clots." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "4.5.5": {
+        title: "The Crime Scene (Morphology of a Thrombus) 🕵️‍♂️",
+        objectives: ["Step into the shoes of a pathologist! Learn how to distinguish an arterial clot from a venous clot, and identify clues that a clot formed before death."],
+        data: [
+            {
+                type: "concept",
+                title: "The Crime Scene",
+                text: "Thrombi can develop anywhere in the cardiovascular system. Depending on the speed of the blood and the underlying cause, they take on different sizes, shapes, and colors.",
+                subtext: "Pathologists examine these features to determine if a clot formed during life and whether it is arterial or venous in origin.",
+                buttonText: "Examine the Evidence"
+            },
+            {
+                type: "concept",
+                title: "All Roads Lead to the Heart",
+                text: "Thrombi are firmly attached to the vessel wall at their point of origin.",
+                subtext: "Arterial clots grow backward against the flow (**retrograde**), while venous clots grow forward with the flow (**anterograde**). Regardless, both propagate toward the heart.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "As a thrombus grows, it forms a long, poorly attached 'tail'. Why is this structurally dangerous?", 
+                options: [
+                    "It will absorb all the oxygen in the blood", 
+                    "The tail is prone to breaking off and blocking distant vessels", 
+                    "It will reverse the direction of blood flow"
+                ], 
+                answer: 1, 
+                explanation: "The tail of a propagating thrombus is often fragile and prone to fragmentation, which can lead to embolization—the blockage of a vessel downstream." 
+            },
+            {
+                type: "concept",
+                title: "The Tree Rings of a Clot",
+                text: "Thrombi often show distinct, alternating macroscopic and microscopic layers called **Lines of Zahn**.",
+                subtext: "These consist of pale layers (platelets and fibrin) alternating with darker layers (red blood cells).",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "The presence of striped 'Lines of Zahn' proves that the blood clot formed while the heart was still actively beating.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Lines of Zahn are produced by the movement of blood. Their presence indicates that the clot is **antemortem** (formed before death) rather than postmortem." 
+            },
+            {
+                type: "concept",
+                title: "The Chicken Fat Illusion",
+                text: "Pathologists must distinguish true thrombi from postmortem clots formed after death.",
+                subtext: "When the heart stops, gravity causes heavy red blood cells to sink, leaving a yellow, gelatinous upper layer of plasma that pathologists call **'Chicken Fat'**.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "What is the physical clue that proves a clot is postmortem and NOT a true venous thrombus?", 
+                options: [
+                    "It has highly visible Lines of Zahn", 
+                    "It is completely unattached to the underlying vessel wall", 
+                    "It is made entirely of white blood cells"
+                ], 
+                answer: 1, 
+                explanation: "True thrombi are always anchored to the endothelium by the injury that triggered them. Postmortem clots are unattached and take the shape of the vessel like jelly in a mold." 
+            },
+            {
+                type: "fill",
+                question: "Arterial clots form in fast-moving blood and are primarily made of sticky ____________. Venous clots form in sluggish blood and trap many red blood cells, earning the nickname '____________' thrombi.",
+                options: ["Platelets", "Red", "Oxygen", "White"],
+                answer: [0, 1],
+                explanation: "Fast arterial flow requires platelets to stay anchored (pale clots), while stagnant venous flow leads to massive red blood cell entrapment (red clots).",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Special Names for Special Places",
+                text: "The nomenclature of a thrombus changes based on its location:\n\n• **Mural Thrombi:** Clots formed in the chambers of the heart or the aorta.\n• **Vegetations:** Clots formed on the heart valves.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Vegetations (thrombi on heart valves) are exclusively caused by bacterial or fungal infections.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "While often infectious, vegetations can also be sterile, occurring in patients with hypercoagulable states or autoimmune conditions like systemic lupus erythematosus." 
+            },
+            {
+                type: "match",
+                question: "Match the pathological finding to its correct clinical description.",
+                pairs: [
+                    { left: "Lines of Zahn", right: "Alternating layers formed in flowing blood." },
+                    { left: "Chicken Fat clot", right: "Gelatinous and unattached; postmortem." },
+                    { left: "Red Thrombus", right: "Formed in a sluggish vein; packed with RBCs." },
+                    { left: "Vegetation", right: "A thrombus attached to a heart valve." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "4.5.6": {
+        title: "The Crossroads (Fate of the Thrombus) 🔀",
+        objectives: ["Discover the four possible paths a blood clot can take after it forms, understand the time-sensitivity of clot-busting drugs, and learn why Deep Vein Thrombosis is a silent killer."],
+        data: [
+            {
+                type: "concept",
+                title: "The Four Paths",
+                text: "Once a thrombus forms inside a vessel, it typically undergoes one or more of four clinical fates over the following days and weeks.",
+                subtext: "These potential outcomes are: **Propagation**, **Embolization**, **Dissolution**, or **Organization and Recanalization**.",
+                buttonText: "See the fates"
+            },
+            {
+                type: "concept",
+                title: "Fate 1 & 2: Grow or Go!",
+                text: "The first two potential fates represent an increasing risk to the patient:\n\n" +
+                    "1. **Propagation:** The thrombus accumulates more platelets and fibrin, growing until it completely occludes the vessel.\n" +
+                    "2. **Embolization:** A part of the thrombus dislodges and travels downstream to obstruct a distant vascular site.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Fate 3: Dissolution",
+                text: "The ideal outcome is **Dissolution**, where the body's fibrinolytic factors (t-PA and Plasmin) chew up the fibrin web and dissolve the clot.",
+                subtext: "In clinical emergencies like stroke or heart attack, doctors use synthetic t-PA to accelerate this natural process.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "If a patient has had a massive blood clot in their leg for three weeks, will injected t-PA 'clot-busting' drugs be effective?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Older thrombi develop extensive fibrin cross-linking (via Factor XIII), which makes them highly resistant to lysis. t-PA is primarily effective within the first few hours of thrombus formation." 
+            },
+            {
+                type: "concept",
+                title: "Fate 4: Drilling Tunnels",
+                text: "If a clot persists, the body undergoes **Organization and Recanalization**.",
+                subtext: "Endothelial cells, smooth muscle cells, and fibroblasts grow into the fibrin-rich thrombus. They create new, tiny capillary channels through the mass to reestablish a degree of blood flow.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Thanks to ____________, the solid clot is transformed into a mass of connective tissue with capillary channels. Eventually, it appears as a fibrous ____________ on the vessel wall.",
+                options: ["Recanalization", "Embolization", "Lump", "Aneurysm"],
+                answer: [0, 2],
+                explanation: "Recanalization converts a solid obstruction into a porous mass, eventually incorporating the remains of the thrombus into the vascular wall as subendothelial fibrous tissue.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Clinical Presentation: Arteries vs. Veins",
+                text: "The primary clinical danger of a thrombus depends on its location:\n\n" +
+                    "• **Arterial Thrombi:** The chief danger is **Occlusion** (e.g., myocardial infarction or stroke).\n" +
+                    "• **Venous Thrombi:** The chief danger is **Embolization**, typically to the lungs.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Superficial vs. Deep Veins",
+                text: "Clots in superficial leg veins (varicose veins) cause local pain and swelling but rarely embolize.",
+                subtext: "Clots in deep veins (**DVT**), such as the popliteal or femoral veins, are far more dangerous because they are the primary source of pulmonary emboli.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Why are roughly 50% of Deep Vein Thromboses (DVT) completely asymptomatic until they embolize?", 
+                options: [
+                    "Because deep veins do not carry significant blood", 
+                    "Because collateral (backup) veins open up to drain blood, hiding signs of blockage", 
+                    "Because deep veins lack sensory nerve endings"
+                ], 
+                answer: 1, 
+                explanation: "The opening of collateral bypass channels can prevent the typical swelling and pain of venous obstruction, allowing a large thrombus to remain undetected until it breaks off." 
+            },
+            {
+                type: "concept",
+                title: "The Cancer Clue: Trousseau Syndrome",
+                text: "Disseminated cancer is a major risk factor for thrombosis because tumors release procoagulants into the blood.",
+                subtext: "This can cause wandering clots that appear and disappear in different veins, a phenomenon known as **Migratory Thrombophlebitis** (Trousseau Syndrome).",
+                buttonText: "Got it!"
+            },
+            {
+                type: "sort",
+                question: "Match the term to its correct pathological description.",
+                buckets: ["Thrombus Fate", "Clinical Syndrome"],
+                items: [
+                    { text: "Propagation: Clot grows larger via platelets and fibrin.", bucket: 0 },
+                    { text: "Embolization: Clot breaks off and travels.", bucket: 0 },
+                    { text: "Recanalization: Drilling capillary tunnels through old clots.", bucket: 0 },
+                    { text: "Trousseau Syndrome: Migratory clots caused by cancer.", bucket: 1 }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "4.6.1"
+    },
+
+    // UNIT 6
+    "4.6.1": {
+        title: "Pulmonary Thromboembolism 🫁",
+        objectives: ["Understand what an embolus is, track the journey of a DVT from the leg to the lungs, discover the 'saddle embolus,' and learn why the lung's dual blood supply is protective."],
+        data: [
+            {
+                type: "concept",
+                title: "The Traveling Menace",
+                text: "An **Embolus** is a detached traveling intravascular mass (solid, liquid, or gas) that is carried by the blood to a site distant from its point of origin.",
+                subtext: "While it can be air, fat, or tumor fragments, 99% of emboli are dislodged blood clots, formally known as **Thromboemboli**.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Origin of the PE",
+                text: "The **Pulmonary Embolism (PE)** is the most common form of thromboembolic disease.",
+                subtext: "In over 95% of cases, these emboli originate from deep vein thromboses (DVT) in the legs. The clot fragments travel through progressively larger veins to the right side of the heart before being pumped into the pulmonary arteries.",
+                buttonText: "Track the journey"
+            },
+            {
+                type: "fill",
+                question: "The clot breaks free from a leg ____________, travels up to the ____________ side of the heart, and is pumped directly into the lungs.",
+                options: ["Vein", "Artery", "Right", "Left"],
+                answer: [0, 2],
+                explanation: "Venous blood from the lower extremities returns to the right atrium and ventricle, which then ejects the embolus into the pulmonary circulation.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Saddle Embolus",
+                text: "The clinical impact of a PE depends on the size of the clot and where it lodges.",
+                subtext: "A large embolus may lodge at the bifurcation of the main pulmonary artery, obstructing flow to both lungs. This is known as a **Saddle Embolus**.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Every pulmonary embolism, regardless of size, causes immediate and severe clinical symptoms.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Approximately 60% to 80% of pulmonary emboli are clinically silent because they are small. They are eventually organized and incorporated into the vessel wall." 
+            },
+            {
+                type: "concept",
+                title: "The Tipping Point",
+                text: "A PE becomes fatal when it significantly obstructs the pulmonary tree.",
+                subtext: "If 60% or more of the pulmonary circulation is suddenly obstructed, it causes acute right heart failure (**Cor Pulmonale**), cardiovascular collapse, and sudden death.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Why is lung tissue often protected from death (infarction) when a medium-sized pulmonary artery is blocked?", 
+                options: [
+                    "Lungs absorb oxygen directly from the air", 
+                    "The lungs have a dual blood supply from the bronchial arteries", 
+                    "Lung tissue does not require oxygen to function"
+                ], 
+                answer: 1, 
+                explanation: "The lungs receive blood from both the pulmonary arteries (for gas exchange) and the bronchial arteries (for tissue nutrition). This dual supply often prevents infarction even if one system is blocked." 
+            },
+            { 
+                type: "mcq", 
+                question: "A clot from a leg vein will always be trapped in the lungs; it cannot enter the systemic arteries.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Through a 'Paradoxical Embolism,' a venous clot can pass through a cardiac defect (like an atrial septal defect) from the right to the left side of the heart, allowing it to reach the systemic circulation and the brain." 
+            },
+            {
+                type: "sort",
+                question: "Match the size of the Pulmonary Embolus to its typical clinical consequence.",
+                buckets: ["Silent/Minor", "Severe/Fatal"],
+                items: [
+                    { text: "Small, single embolus leading to a fibrous web.", bucket: 0 },
+                    { text: "Massive Saddle Embolus (>60% obstruction).", bucket: 1 },
+                    { text: "Recurrent small emboli causing hypertension.", bucket: 1 },
+                    { text: "Medium embolus with intact dual circulation.", bucket: 0 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "4.6.2": {
+        title: "Systemic Thromboembolism (The Arterial Missile) 🚀",
+        objectives: ["Understand the difference between venous and systemic emboli, identify the left heart as the primary source, and track where these clots land."],
+        data: [
+            {
+                type: "concept",
+                title: "The Arterial Highway",
+                text: "While venous clots (DVTs) travel to the right side of the heart and lodge in the lungs, a **Systemic Thromboembolism** enters the arterial circulation.",
+                subtext: "Systemic emboli travel out of the left side of the heart and into the aorta, from which they can reach almost any organ or tissue in the body.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Missile Launcher: The Heart",
+                text: "Approximately 80% of systemic emboli originate from intracardiac mural thrombi.",
+                subtext: "Two-thirds of these arise from the wall of the **Left Ventricle** (often following a myocardial infarction), while another 25% originate in a dilated **Left Atrium** (associated with Atrial Fibrillation).",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "If a patient suffers a massive Left Ventricular Myocardial Infarction, why does a mural thrombus often form on the heart wall?", 
+                options: [
+                    "The dead heart muscle cannot contract, causing profound blood stasis", 
+                    "The heart beats too fast, causing blood to evaporate", 
+                    "The heart starts pumping venous blood instead of arterial blood"
+                ], 
+                answer: 0, 
+                explanation: "The infarcted, non-contractile area of the heart muscle creates a zone of stasis where blood pools, providing the ideal conditions for thrombus formation."
+            },
+            {
+                type: "concept",
+                title: "The Other Suspects",
+                text: "The remaining 20% of systemic emboli arise from sources outside the heart chambers.",
+                subtext: "These include fragmented atherosclerotic plaques, thrombi within aortic aneurysms, infected vegetations on heart valves, or paradoxical emboli crossing from the venous side.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Approximately ____________% of systemic emboli travel to the lower extremities, while the ____________ is the second most common target, accounting for 10% of cases.",
+                options: ["10", "75", "Brain", "Liver"],
+                answer: [1, 2],
+                explanation: "The vast majority of systemic emboli are carried by blood flow into the lower limbs, followed significantly by the cerebral circulation, where they cause strokes.",
+                buttonText: "Continue"
+            },
+            { 
+                type: "mcq", 
+                question: "Because most organs have a robust dual blood supply, systemic arterial emboli rarely cause tissue death (infarction).", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Unlike the lungs, most systemic organs (such as the kidneys, spleen, and brain) lack a dual blood supply. Consequently, arterial obstruction almost always results in tissue infarction." 
+            },
+            {
+                type: "concept",
+                title: "The Triangle of Ischemia",
+                text: "Whether an organ survives an embolic event depends on three primary factors:\n\n" +
+                    "1. **Vulnerability to Ischemia:** Different tissues have different metabolic needs.\n" +
+                    "2. **Vessel Caliber:** The size of the blocked artery relative to the tissue it supplies.\n" +
+                    "3. **Collateral Supply:** The presence of 'backup' blood vessels feeding the area.",
+                subtext: "",
+                buttonText: "Got it!"
+            },
+            {
+                type: "match",
+                question: "Venous vs. Systemic: Match the characteristic to the correct type of Embolism.",
+                pairs: [
+                    { left: "DVT in the leg", right: "Pulmonary Embolism" },
+                    { left: "Left Ventricle mural thrombus", right: "Systemic Embolism" },
+                    { left: "Lodges in the lungs", right: "Pulmonary Embolism" },
+                    { left: "Lodges in the legs or brain", right: "Systemic Embolism" }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "4.6.3": {
+        title: "The Bone Marrow Breach (Fat Embolism) 🦴",
+        objectives: ["Understand how broken bones release toxic fat globules, recognize the clinical triad of Fat Embolism Syndrome (FES), and learn the requirements for pathological diagnosis."],
+        data: [
+            {
+                type: "concept",
+                title: "Not All Emboli Are Clots",
+                text: "While 99% of emboli are dislodged blood clots, the vasculature can be invaded by other substances.",
+                subtext: "One clinically significant non-clot embolus is the **Fat Embolism**, referring to microscopic fat globules traveling through the blood vessels.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Great Escape",
+                text: "The classic trigger for a fat embolism is a severe fracture of a long bone, such as the femur.",
+                subtext: "Severe trauma tears the delicate venous sinusoids within the bone marrow, allowing fatty marrow to herniate into the circulation and be swept to the lungs.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Fat embolisms are rare; if a patient has microscopic fat globules in their blood after a crash, they will instantly develop life-threatening symptoms 100% of the time.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Microscopic fat emboli occur in approximately 90% of severe skeletal injuries, but only a very small minority of these patients ever become symptomatic." 
+            },
+            {
+                type: "concept",
+                title: "The 72-Hour Delay: FES",
+                text: "For the symptomatic minority, the condition is known as **Fat Embolism Syndrome (FES)**.",
+                subtext: "FES typically manifests 1 to 3 days after the initial injury with sudden pulmonary insufficiency and neurologic symptoms such as irritability, delirium, or coma.",
+                buttonText: "See the clinical clues"
+            },
+            { 
+                type: "mcq", 
+                question: "Because platelet counts can drop rapidly in FES, which specific visual clue often appears on the patient's skin?", 
+                options: [
+                    "Giant, painful, raised blisters", 
+                    "A diffuse petechial rash (pinpoint bleeding)", 
+                    "Jaundice (yellow skin)"
+                ], 
+                answer: 1, 
+                explanation: "Thrombocytopenia caused by platelets adhering to fat globules leads to a characteristic petechial rash, a major diagnostic clue for Fat Embolism Syndrome." 
+            },
+            {
+                type: "concept",
+                title: "A Two-Pronged Assault",
+                text: "Fat emboli cause damage via two distinct mechanisms:\n\n" +
+                    "1. **Mechanical:** The globules physically obstruct tiny microvessels in the lungs and brain.\n" +
+                    "2. **Biochemical:** The fat breaks down to release toxic **Free Fatty Acids**.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Toxic free fatty acids released from the fat globules cause severe, local chemical burns directly to the ____________, triggering platelet activation and inflammation.",
+                options: ["Endothelium", "Bone", "Epithelium", "Enamel"],
+                answer: 0,
+                explanation: "The biochemical injury to the vascular lining (endothelium) is what makes fat emboli uniquely destructive compared to standard blood clots.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Vanishing Evidence",
+                text: "Fat emboli are notoriously difficult to see on standard pathology slides.",
+                subtext: "The solvents used in standard paraffin embedding (alcohol and xylene) dissolve lipids, often leaving only mysterious, empty holes where the fat globules used to be.",
+                buttonText: "How do we catch it?"
+            },
+            { 
+                type: "mcq", 
+                question: "To prove a fat embolism at autopsy, a pathologist must use specialized frozen tissue sections and special fat stains.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Freezing the tissue preserves the lipids, and specialized stains like **Oil Red O** are required to visualize the fat globules under the microscope." 
+            },
+            {
+                type: "match",
+                question: "Match the clinical or laboratory clue to the correct concept.",
+                pairs: [
+                    { left: "Fractured long bones", right: "The classic trigger." },
+                    { left: "1 to 3 days post-injury", right: "The typical FES Timeline." },
+                    { left: "Petechial rash", right: "Visible sign of low platelets." },
+                    { left: "Toxic free fatty acids", right: "The biochemical weapon." },
+                    { left: "Oil Red O stain", right: "The lab requirement." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "4.6.4": {
+        title: "Air Embolism & Decompression Sickness 🫧",
+        objectives: ["Understand how simple air can become a deadly obstruction, discover why scuba divers fear 'the bends,' and learn how high-pressure chambers act as a cure."],
+        data: [
+            {
+                type: "concept",
+                title: "The Frothy Menace",
+                text: "**Air Embolisms** occur when gas bubbles enter the circulation and merge together to form frothy, foamy masses.",
+                subtext: "Just like a solid clot, this foam can physically obstruct vascular flow and prevent tissue perfusion.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Vacuum Effect",
+                text: "Gas enters the circulation through a physical breach in the vasculature combined with a negative pressure gradient that 'sucks' the air in.",
+                subtext: "For example, during brain surgery performed in a sitting position, gravity pulls blood downward, creating a vacuum in neck veins that can draw in room air.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Will a single, microscopic tiny air bubble accidentally pushed through a standard hospital IV line cause fatal cardiac arrest?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "It generally takes a significant volume of air (typically more than 100 mL) to produce a clinical effect in an adult. However, a rapid introduction of 300 to 500 mL can be fatal." 
+            },
+            {
+                type: "fill",
+                question: "When air microemboli get trapped in the pulmonary capillaries, they induce an intense ____________ response, releasing ____________ that can severely injure the lungs.",
+                options: ["Inflammatory", "Cytokines", "Calming", "Oxygen"],
+                answer: [0, 1],
+                explanation: "Air bubbles act as foreign surfaces that trigger a massive immune response, leading to the release of mediators that damage the delicate alveolar walls.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Scuba Diver's Danger",
+                text: "A dramatic form of gas embolism is **Decompression Sickness**, which affects individuals breathing air under high pressure (like divers or deep-sea welders).",
+                subtext: "Under high ambient pressure, large amounts of gas—specifically **Nitrogen**—dissolve directly into the blood and tissues.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "What happens to the dissolved nitrogen if a diver swims to the surface (depressurizes) too quickly?", 
+                options: [
+                    "It turns into solid bone", 
+                    "It rapidly comes out of solution, forming expanding gas bubbles in the blood", 
+                    "It safely evaporates through the pores of the skin"
+                ], 
+                answer: 1, 
+                explanation: "This is the 'Soda Bottle Effect.' A rapid drop in pressure causes dissolved nitrogen to spontaneously form bubbles in the blood and tissues, obstructing vessels and damaging cells." 
+            },
+            {
+                type: "concept",
+                title: "The Bends and The Chokes",
+                text: "Rapidly expanding nitrogen bubbles cause distinct acute syndromes:\n\n• **The Bends:** Bubbles in the skeletal muscles and joints causing intense pain.\n• **The Chokes:** Bubbles in the lungs causing edema, hemorrhage, and respiratory distress.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Decompression sickness only lasts for a few hours and has no chronic form.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "The chronic form is called **Caisson Disease**. Persistent gas emboli in the skeletal system can lead to multiple areas of ischemic necrosis (infarcts) in the bones." 
+            },
+            { 
+                type: "mcq", 
+                question: "What is the primary medical treatment for acute decompression sickness?", 
+                options: [
+                    "High-altitude flight", 
+                    "Hyperbaric (high-pressure) chamber", 
+                    "Anti-platelet therapy"
+                ], 
+                answer: 1, 
+                explanation: "A hyperbaric chamber increases the pressure to force gas bubbles back into solution. The patient is then decompressed very slowly to allow for safe exhalation of the nitrogen." 
+            },
+            {
+                type: "match",
+                question: "Match the term to its correct clinical or pathological description.",
+                pairs: [
+                    { left: "The Bends", right: "Nitrogen bubbles trapped in muscles and joints." },
+                    { left: "The Chokes", right: "Nitrogen bubbles causing respiratory distress." },
+                    { left: "Caisson Disease", right: "Chronic ischemic bone necrosis from gas emboli." },
+                    { left: "Hyperbaric Chamber", right: "The high-pressure cure to dissolve bubbles." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "4.6.5": {
+        title: "Amniotic Fluid Embolism 🤰🚨",
+        objectives: ["Understand the rare but catastrophic nature of an amniotic fluid embolism, discover why it is a biochemical 'bomb', and learn the unique fetal clues it leaves behind."],
+        data: [
+            {
+                type: "concept",
+                title: "The Delivery Room Crisis",
+                text: "**Amniotic Fluid Embolism** is an incredibly rare but devastating complication that occurs during labor or the immediate postpartum period.",
+                subtext: "Despite occurring in only 2 to 6 cases per 100,000 deliveries, it is the fifth most common cause of maternal mortality worldwide.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "With modern medical advances, do most patients who suffer an amniotic fluid embolism survive without long-term complications?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "The mortality rate for amniotic fluid embolism is approximately 80%. Among survivors, up to 85% suffer permanent neurologic deficits due to severe hypoxia." 
+            },
+            {
+                type: "concept",
+                title: "The Rupture",
+                text: "Amniotic fluid enters the maternal circulation through a breach in the boundary between the mother and the fetus.",
+                subtext: "A tear in the placental membranes or a rupture of the uterine veins creates a gateway for pressurized amniotic fluid and fetal tissue to be infused directly into maternal veins.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Which unique findings in a mother's lung biopsy definitively prove that an amniotic fluid embolism occurred?", 
+                options: [
+                    "Microscopic pieces of broken bone and yellow marrow", 
+                    "Squamous cells from fetal skin, fetal hair (lanugo), and fetal fat", 
+                    "Perfectly round, empty holes where air bubbles used to be"
+                ], 
+                answer: 1, 
+                explanation: "Pathologists identify fetal components, such as squamous cells, mucin, and lanugo hair, within the maternal pulmonary microvasculature to confirm the diagnosis." 
+            },
+            {
+                type: "concept",
+                title: "Not Just a Physical Block",
+                text: "While thromboembolisms cause damage through mechanical obstruction, the fetal debris in amniotic fluid causes relatively little physical blockage.",
+                subtext: "The real danger is that the amniotic fluid acts as a massive **Biochemical Bomb**.",
+                buttonText: "Explain the 'bomb'"
+            },
+            { 
+                type: "mcq", 
+                question: "The extreme morbidity of this condition stems primarily from the biochemical activation of the mother's immune and clotting systems.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Amniotic fluid contains powerful vasoactive and procoagulant substances that trigger an overwhelming systemic inflammatory and thrombotic response." 
+            },
+            {
+                type: "fill",
+                question: "Amniotic fluid triggers thousands of rogue blood clots, sending the mother into full-blown ____________ (DIC), followed by severe neurologic impairment like ____________.",
+                options: ["DIC", "DVT", "Coma", "Sneezing"],
+                answer: [0, 2],
+                explanation: "The sudden infusion of procoagulant material leads to massive disseminated intravascular coagulation and cardiovascular collapse, often resulting in coma." ,
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Domino Effect",
+                text: "Vasoactive substances in the fluid trigger a rapid cardiovascular decline.",
+                subtext: "1. Acute pulmonary hypertension (clamping of lung vessels).\n2. Right heart failure.\n3. Profound hypoxia.\n4. Left heart failure and pulmonary edema.",
+                buttonText: "Next"
+            },
+            {
+                type: "match",
+                question: "Embolism Showdown: Match the specific embolism to its defining classic feature.",
+                pairs: [
+                    { left: "Thromboembolism", right: "Most common; mechanical blockage from a DVT." },
+                    { left: "Fat Embolism", right: "Triggered by broken bones; petechial rash." },
+                    { left: "Air Embolism", right: "Vacuum effect during neurosurgery or diving." },
+                    { left: "Amniotic Embolism", right: "Labor complication acting as a biochemical bomb." }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "4.7.1"
+    },
+
+    // UNIT 7
+    "4.7.1": {
+        title: "Introduction to Infarction (The Dead Zones) 🏚️",
+        objectives: ["Understand what an infarct is, discover the primary culprits behind tissue death, and learn why arterial blockages are typically more lethal than venous ones."],
+        data: [
+            {
+                type: "concept",
+                title: "Welcome to the Dead Zone",
+                text: "When a blood vessel is completely occluded, the tissue it supplies is starved of oxygen.",
+                subtext: "This results in an area of ischemic necrosis known as an **Infarct**.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Heavy Toll",
+                text: "Tissue infarction is a leading cause of morbidity and mortality. Roughly 40% of all deaths in the United States are related to cardiovascular disease.",
+                subtext: "The vast majority of these deaths are the result of myocardial infarctions (heart attacks) or cerebral infarctions (strokes).",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Are the vast majority of all infarctions caused by arterial thrombosis or arterial embolisms?", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Arterial blockages from local clots or traveling emboli are the primary causes of tissue death in clinical practice." 
+            },
+            {
+                type: "concept",
+                title: "The Sneaky Blockages",
+                text: "While clots are the main cause, vessels can be obstructed by other mechanisms.",
+                subtext: "Less common causes include local vasospasm, extrinsic compression (e.g., by a growing tumor), or compartment syndrome (swelling within a confined space).",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Which of the following conditions causes an infarct by physically twisting the blood vessels (torsion)?", 
+                options: [
+                    "Diabetic Gangrene", 
+                    "Testicular torsion or Bowel volvulus", 
+                    "Pulmonary Embolism"
+                ], 
+                answer: 1, 
+                explanation: "In torsion or volvulus, the organ rotates around its vascular pedicle, physically kinking the vessels and cutting off the blood supply." 
+            },
+            {
+                type: "concept",
+                title: "The Venous Loophole",
+                text: "Blocking a vein (outflow) rarely results in an infarct; it typically causes only congestion.",
+                subtext: "Most tissues have highly interconnected venous networks that provide 'detour' routes for blood to exit, which maintains inflow of fresh arterial blood.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "How does tissue typically survive a venous blockage without undergoing necrosis?", 
+                options: [
+                    "Tissues do not require veins to function", 
+                    "Bypass channels (collaterals) rapidly open to drain blood", 
+                    "Blood flows backward through the arteries"
+                ], 
+                answer: 1, 
+                explanation: "The redundancy of the venous system allows blood to find collateral pathways to escape the tissue, preventing the total stagnation that leads to cell death." 
+            },
+            {
+                type: "fill",
+                question: "Venous thrombosis will cause a deadly infarct if it occurs in an organ that only has a ____________ efferent vein, such as the testis or the ____________.",
+                options: ["Single", "Multiple", "Ovary", "Liver"],
+                answer: [0, 2],
+                explanation: "Organs with a single drainage pipe (like the ovary or testis) are vulnerable because they lack the venous bypass channels necessary to survive an obstruction.",
+                buttonText: "Continue"
+            },
+            {
+                type: "sort",
+                question: "Match the clinical scenario to the primary mechanism of tissue death.",
+                buckets: ["Arterial Mechanisms", "Mechanical/Venous Factors"],
+                items: [
+                    { text: "Rogue clot forming on a ruptured plaque.", bucket: 0 },
+                    { text: "Traveling clot lodged in the brain.", bucket: 0 },
+                    { text: "Organ twisting around its own supply.", bucket: 1 },
+                    { text: "Blocked single drainage pipe (no detours).", bucket: 1 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "4.7.2": {
+        title: "Morphology of an Infarct 🎨",
+        objectives: ["Understand why dead tissues turn pale (white) or hemorrhagic (red), identify the classic wedge shape of an infarct, and learn the microscopic timeline of cell death."],
+        data: [
+            {
+                type: "concept",
+                title: "The Color of Death",
+                text: "Infarcts are classified into two main categories based on their color: **White (Anemic)** and **Red (Hemorrhagic)**.",
+                subtext: "The color is determined by the density of the affected organ and the nature of its blood supply (plumbing).",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Pale Ghost: White Infarcts",
+                text: "White Infarcts occur following arterial occlusion in solid, dense organs with single-artery (end-arterial) circulation, such as the **heart, spleen, or kidneys**.",
+                subtext: "Because the tissue is so dense, blood from neighboring capillaries cannot seep into the necrotic area, leaving it pale and dry.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "In solid organs like the kidney, the tissue density is high enough to physically prevent blood from adjoining capillary beds from seeping into the necrotic area.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "High tissue density in end-arterial organs limits the amount of hemorrhage that can occur in the necrotic zone, resulting in a pale or white appearance." 
+            },
+            {
+                type: "concept",
+                title: "The Blood-Soaked Sponge: Red Infarcts",
+                text: "Red Infarcts occur when the necrotic tissue is saturated with blood. This typically happens in five scenarios:\n\n" +
+                    "1. Loose, spongy tissues (lungs).\n" +
+                    "2. Organs with dual circulations (lungs, small intestine).\n" +
+                    "3. Venous occlusions (ovary).\n" +
+                    "4. Previously congested tissues.\n" +
+                    "5. Re-established flow after an arterial blockage.",
+                subtext: "",
+                buttonText: "Clinical Example"
+            },
+            { 
+                type: "mcq", 
+                question: "If an embolus blocks a pulmonary artery in the lung, why does the resulting infarct appear bright Red instead of White?", 
+                options: [
+                    "The lung synthesizes its own red blood cells locally", 
+                    "The lung has a dual circulation (bronchial arteries) that floods the dead zone", 
+                    "The lung tissue extracts red pigment from inhaled air"
+                ], 
+                answer: 1, 
+                explanation: "While the tissue dies from the primary blockage, the intact secondary (bronchial) circulation continues to pump blood into the loose, necrotic lung tissue." 
+            },
+            {
+                type: "concept",
+                title: "The Slice of Pie: Wedge Shape",
+                text: "Regardless of color, most infarcts are **wedge-shaped**.",
+                subtext: "Blood vessels branch outward like a tree. When a branch is blocked, the area of dead tissue radiates outward from that point, creating a characteristic triangle or V-shape.",
+                buttonText: "Anatomy of a Wedge"
+            },
+            {
+                type: "fill",
+                question: "In a wedge-shaped infarct, the blocked vessel is located at the ____________ (narrow tip), while the outer edge of the organ forms the wide ____________.",
+                options: ["Apex", "Base", "Left", "Right"],
+                answer: [0, 1],
+                explanation: "The apex of the wedge points toward the site of vascular occlusion, while the base follows the fanning distribution of the vessel's terminal branches at the organ surface.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Microscopic Timeline",
+                text: "The dominant microscopic feature of infarction is **Coagulative Necrosis**. Over time, this dead tissue is removed and replaced by a fibrous scar.",
+                subtext: "Note: The **Brain** is the exception, where infarction results in **Liquefactive Necrosis**.",
+                buttonText: "Can we see it instantly?"
+            },
+            { 
+                type: "mcq", 
+                question: "If a patient dies exactly 5 minutes after a massive heart attack, will a pathologist see obvious coagulative necrosis under the microscope?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Clear microscopic evidence of cell death (necrosis) typically takes 4 to 12 hours to develop. In the first few minutes or hours, the tissue may appear histologically normal." 
+            },
+            {
+                type: "concept",
+                title: "The Infected Dead Zone",
+                text: "A **Septic Infarct** occurs when the embolus causing the blockage is infected with bacteria (e.g., from an infected heart valve).",
+                subtext: "In these cases, the infarct is converted into an **abscess** as the microbes proliferate and trigger a massive inflammatory response.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "match",
+                question: "Infarct Detective: Match the organ or trait to the correct morphological type.",
+                pairs: [
+                    { left: "Heart or Kidney", right: "White Infarct (Dense organs)." },
+                    { left: "Lung or Bowel", right: "Red Infarct (Dual supply)." },
+                    { left: "Infected Embolus", right: "Septic Infarct (Abscess)." },
+                    { left: "Brain Infarct", right: "Liquefactive Necrosis." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+        "4.7.3": {
+        title: "Survival Factors: Why Tissues Live or Die 🧬",
+        objectives: ["Understand the four critical variables that determine if an organ survives a vascular occlusion, including backup plumbing, tissue toughness, and the speed of the blockage."],
+        data: [
+            {
+                type: "concept",
+                title: "The Ultimate Coin Flip",
+                text: "A vascular occlusion can result in effects ranging from no tissue damage at all to rapid, fatal necrosis.",
+                subtext: "The ultimate outcome is determined by four critical survival variables: Vascular Anatomy, Rate of Occlusion, Tissue Vulnerability, and Blood Oxygen Content.",
+                buttonText: "Factor 1: Backup Plumbing"
+            },
+            {
+                type: "concept",
+                title: "Vascular Anatomy",
+                text: "The most important determinant of survival is the presence or absence of an alternative blood supply.",
+                subtext: "Tissues with a **dual blood supply** are highly resistant to infarction. Examples include the lungs (pulmonary and bronchial), the liver (hepatic artery and portal vein), and the hand (radial and ulnar).",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "The spleen and the kidneys are highly resistant to infarction because they have a massive, overlapping dual blood supply.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "The kidneys and spleen have an end-arterial circulation. Because they lack a dual blood supply, a blockage in their single providing artery typically results in tissue death." 
+            },
+            {
+                type: "concept",
+                title: "Factor 2: Rate of Occlusion",
+                text: "The speed at which a blockage develops significantly impacts the outcome.",
+                subtext: "A sudden embolus is catastrophic, whereas a slowly growing plaque (taking years to develop) allows the body time to open up collateral pathways (detours) to maintain tissue viability.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "If an atherosclerotic plaque slowly chokes off a coronary artery over 10 years, why might the patient NOT suffer a massive infarct?", 
+                options: [
+                    "The heart muscle learns to survive on zero oxygen", 
+                    "The slow blockage allows tiny bypass channels (anastomoses) to widen and reestablish flow", 
+                    "The plaque eventually transforms into healthy heart muscle"
+                ], 
+                answer: 1, 
+                explanation: "Slowly developing occlusions provide time for the development of collateral circulation, which can bypass the obstruction and provide enough blood to prevent necrosis." 
+            },
+            {
+                type: "concept",
+                title: "Factor 3: Tissue Vulnerability",
+                text: "Different cell types have different thresholds for hypoxia (oxygen deprivation).",
+                subtext: "• **Neurons:** Irreversible damage after 3 to 4 minutes.\n• **Myocardial cells:** Irreversible damage after 20 to 30 minutes.\n• **Fibroblasts:** Can survive many hours of ischemia.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "In a stroke, the ____________ in the brain will permanently die in just 3 to 4 minutes. In a heart attack, the ____________ cells will die in 20 to 30 minutes.",
+                options: ["Neurons", "Myocardial", "Fibroblasts", "Epithelial"],
+                answer: [0, 1],
+                explanation: "The sensitivity of neurons to oxygen deprivation is the reason strokes require immediate emergency intervention. Myocardial cells are also sensitive but have a slightly longer window before death.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Factor 4: Blood Oxygen Content",
+                text: "The baseline oxygen level in the blood (Hypoxemia) determines how much 'buffer' a tissue has.",
+                subtext: "Patients with anemia or chronic lung disease start with lower oxygen levels. If a blockage occurs, the resulting infarct is likely to be larger and more severe.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "match",
+                question: "Match the protective trait to its correct survival variable.",
+                pairs: [
+                    { left: "Dual blood supplies", right: "Vascular Anatomy" },
+                    { left: "10 years to block a vessel", right: "Rate of Occlusion" },
+                    { left: "Fibroblasts surviving hours", right: "Tissue Vulnerability" },
+                    { left: "High baseline blood oxygen", right: "Lack of Hypoxemia" }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "5.1.1"
+    },
+
+    // CHAPTER 5
+    // UNIT 1
+    "5.1.1": {
+        title: "Naming the Benign Tumors 😊",
+        objectives: ["Understand the anatomy of a tumor (parenchyma vs. stroma), define what makes a tumor 'benign,' and master the golden '-oma' rule for naming them."],
+        data: [
+            {
+                type: "concept",
+                title: "The New Growth",
+                text: "**Neoplasia** literally translates to 'new growth.'",
+                subtext: "A neoplasm is an abnormal mass of tissue that grows out of control, ignoring the body's normal regulatory signals. In clinical practice, these masses are commonly called **Tumors**.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Tumor Anatomy",
+                text: "No matter where a tumor grows, it always has two basic components:\n\n" +
+                    "1. **Parenchyma:** The neoplastic cells (the 'bad guys' driving the tumor).\n" +
+                    "2. **Stroma:** The healthy connective tissue, blood vessels, and inflammatory cells that the tumor hijacks for support.",
+                subtext: "",
+                buttonText: "Identify the parts"
+            },
+            {
+                type: "fill",
+                question: "The mutated cells that define the tumor are called the ____________, while the healthy tissue they hijack for support is called the ____________.",
+                options: ["Parenchyma", "Stroma", "Epithelium", "Plasma"],
+                answer: [0, 1],
+                explanation: "The parenchyma determines the tumor's name and biological behavior, while the stroma provides the essential blood supply and structural framework.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Good vs. The Bad",
+                text: "Tumors are divided into two categories: **Benign** and **Malignant**.",
+                subtext: "Benign tumors are considered 'innocent' because they remain localized, do not spread (metastasize), and are generally amenable to surgical removal.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Golden Suffix",
+                text: "Pathologists use a specific linguistic formula to name benign tumors.",
+                subtext: "For tumors of connective tissue (mesenchymal origin), the golden rule is to attach the suffix **-oma** to the name of the cell type of origin.",
+                buttonText: "Play the Name Game"
+            },
+            {
+                type: "match",
+                question: "Match the cell of origin to its proper benign tumor name.",
+                pairs: [
+                    { left: "Fibroblasts", right: "Fibroma" },
+                    { left: "Chondrocytes", right: "Chondroma" },
+                    { left: "Osteoblasts", right: "Osteoma" }
+                ],
+                explanation: "Adding '-oma' to the mesenchymal cell type is the standard way to denote a benign connective tissue tumor."
+            },
+            {
+                type: "concept",
+                title: "The Epithelial Exception",
+                text: "Naming benign tumors of epithelial cells is more complex.",
+                subtext: "Rather than just the cell of origin, epithelial tumors are often classified based on their microscopic architecture or their macroscopic (visible) shape.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "What do pathologists call a benign epithelial tumor that forms glandular patterns or arises from glands?", 
+                options: ["Adenoma", "Fibroma", "Lipoma"], 
+                answer: 0, 
+                explanation: "The prefix 'Adeno-' refers to glands. Therefore, a benign epithelial neoplasm that forms glandular structures is called an Adenoma." 
+            },
+            {
+                type: "concept",
+                title: "Warts and Bumps",
+                text: "Epithelial tumors can also be named for their physical growth patterns:\n\n" +
+                    "• **Papilloma:** Grows in finger-like or warty fronds.\n" +
+                    "• **Polyp:** A mass that projects above a mucosal surface into a lumen (e.g., the colon).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Some benign glandular tumors form large, hollow, fluid-filled sacs. These are called Cystadenomas.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "This name combines 'cyst' (fluid-filled sac) and 'adenoma' (benign glandular tumor), a pattern commonly seen in the ovaries." 
+            },
+            {
+                type: "match",
+                question: "Match the benign epithelial tumor to its physical or microscopic description.",
+                pairs: [
+                    { left: "Adenoma", right: "Forms microscopic glandular patterns." },
+                    { left: "Papilloma", right: "Forms finger-like, warty fronds." },
+                    { left: "Polyp", right: "Projects above a mucosal surface." },
+                    { left: "Cystadenoma", right: "Forms large, fluid-filled cystic masses." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.1.2": {
+        title: "Naming the Malignant Tumors 🦀",
+        objectives: ["Understand what defines a malignant tumor, learn the medical term for 'cancer,' and master the naming rules for sarcomas and carcinomas."],
+        data: [
+            {
+                type: "concept",
+                title: "The Crab",
+                text: "Malignant tumors are defined by their ability to invade and destroy adjacent structures and spread to distant sites (**metastasize**).",
+                subtext: "The common term for all malignant tumors is **Cancer**, derived from the Latin word for 'crab,' because they tend to adhere to tissues with a crab-like grip.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "The defining characteristic of a malignant tumor is that it remains neatly localized to its site of origin and never spreads.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Localized growth is characteristic of benign tumors. Malignant tumors are distinguished by their capacity for local invasion and distant metastasis." 
+            },
+            {
+                type: "concept",
+                title: "The Fleshy Tumors: Sarcomas",
+                text: "Malignant tumors arising from solid mesenchymal (connective) tissues use the suffix **-sarcoma**.",
+                subtext: "The root comes from the Greek 'sar', meaning 'fleshy,' as these tumors often present as large, fleshy masses of bone, cartilage, or fat.",
+                buttonText: "Play the Name Game"
+            },
+            {
+                type: "match",
+                question: "Match the cell of origin to its proper malignant '-sarcoma' name.",
+                pairs: [
+                    { left: "Fibrous tissue", right: "Fibrosarcoma" },
+                    { left: "Cartilage", right: "Chondrosarcoma" },
+                    { left: "Bone", right: "Osteosarcoma" },
+                    { left: "Fat", right: "Liposarcoma" }
+                ],
+                explanation: "Sarcomas are named by attaching the suffix to the specific type of connective tissue cell they originate from."
+            },
+            {
+                type: "concept",
+                title: "The Epithelial Cancers: Carcinomas",
+                text: "Malignant tumors arising from epithelial cells—which line organs, skin, and glands—are called **Carcinomas**.",
+                subtext: "This is the most common type of cancer in adults, encompassing everything from skin cancer to internal organ malignancies.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "A malignant tumor arising from connective tissue is called a ____________, while a malignant tumor arising from epithelial cells is called a ____________.",
+                options: ["Sarcoma", "Carcinoma", "Adenoma", "Fibroma"],
+                answer: [0, 1],
+                explanation: "Pathologists differentiate cancers into these two broad categories based on whether they originate from epithelium (carcinoma) or mesenchymal tissue (sarcoma).",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Sub-typing Carcinomas",
+                text: "Pathologists use prefixes to describe the microscopic architecture of a carcinoma.",
+                subtext: "• **Adenocarcinoma:** Malignant epithelial cells growing in glandular patterns.\n• **Squamous Cell Carcinoma:** Malignant epithelial cells producing squamous (skin-like) architecture.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "A tumor in the colon forms glandular structures and is deeply invading into the muscle wall. What is its name?", 
+                options: ["Adenoma", "Adenocarcinoma", "Fibrosarcoma"], 
+                answer: 1, 
+                explanation: "Because it forms glands, it uses the prefix 'Adeno-'. Because it is invading tissue (malignant) and epithelial, it uses the suffix '-carcinoma'." 
+            },
+            {
+                type: "concept",
+                title: "The Liquid Cancers",
+                text: "Not all connective tissue cancers form solid masses. Blood-forming cells are also mesenchymal in origin.",
+                subtext: "Malignant blood cells in the circulation are called **Leukemias**. If malignant immune cells form solid masses in lymphoid tissues, they are called **Lymphomas**.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "A malignant tumor originating from the smooth muscle wall of the uterus is correctly called a Carcinoma.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "While the uterus has an epithelial lining, the muscle wall is mesenchymal tissue. A cancer of smooth muscle is a sarcoma (specifically a leiomyosarcoma)." 
+            },
+            {
+                type: "sort",
+                question: "Medical Translator: Categorize the tumors into Benign or Malignant.",
+                buckets: ["Benign (-oma)", "Malignant (-sarcoma/-carcinoma)"],
+                items: [
+                    { text: "Fibroma", bucket: 0 },
+                    { text: "Chondrosarcoma", bucket: 1 },
+                    { text: "Adenoma", bucket: 0 },
+                    { text: "Squamous Cell Carcinoma", bucket: 1 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.1.3": {
+        title: "The Oddballs (Mixed Tumors & Exceptions) 🎭",
+        objectives: ["Understand tumors that differentiate into multiple tissue types (Mixed Tumors & Teratomas) and identify malignant tumors with benign-sounding names."],
+        data: [
+            {
+                type: "concept",
+                title: "Rule-Breakers",
+                text: "While the '-oma' (benign) and '-sarcoma/-carcinoma' (malignant) rules generally hold true, there are several significant exceptions.",
+                subtext: "These 'oddballs' include tumors with multiple tissue types, tissues in the wrong location, and deadly cancers with benign-sounding names.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Identity Crisis: Mixed Tumors",
+                text: "Most tumors consist of a single type of neoplastic cell. However, a single mutant clone may differentiate into two or more lineages.",
+                subtext: "This is a **Mixed Tumor**. A classic example is the **Pleomorphic Adenoma** of the salivary gland, which contains both epithelial glands and mesenchymal-like cartilage.",
+                buttonText: "How do they form?"
+            },
+            { 
+                type: "mcq", 
+                question: "A mixed tumor occurs when two separate, independent tumors accidentally bump into each other and fuse together.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "A mixed tumor originates from a single neoplastic clone capable of divergent differentiation into both epithelial and mesenchymal components." 
+            },
+            {
+                type: "concept",
+                title: "The Ultimate Shapeshifter: Teratomas",
+                text: "**Teratomas** arise from **totipotent germ cells**, which are normally found in the ovaries and testes.",
+                subtext: "Because these cells can differentiate into any cell type in the body, a teratoma may contain skin, muscle, fat, bone, and even nerve tissue within a single mass.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "A pathologist examines an ovarian mass and finds fully formed hair and a tooth. What is the most likely diagnosis?", 
+                options: ["Chondrosarcoma", "Teratoma", "Fibroma"], 
+                answer: 1, 
+                explanation: "Teratomas originate from germ cells that can produce tissues representing more than one germ layer, often resulting in highly organized structures like hair, teeth, or bone." 
+            },
+            {
+                type: "concept",
+                title: "The Imposters: Hamartoma & Choristoma",
+                text: "Some masses resemble tumors but are not true neoplasms:\n\n" +
+                    "• **Hamartoma:** Disorganized but mature specialized cells indigenous to the particular site (e.g., a lung hamartoma).\n" +
+                    "• **Choristoma:** A mass of normal, well-organized tissue in an abnormal location (heterotopic rest).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "A nodule of normal, healthy pancreatic tissue found sitting in the wall of the stomach is an example of a Choristoma.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "A choristoma refers to a congenital anomaly consisting of a localized mass of well-organized tissue that is not native to the anatomical site where it is found." 
+            },
+            {
+                type: "concept",
+                title: "The 'Deadly Omas'",
+                text: "The suffix '-oma' usually denotes a benign tumor, but several highly aggressive malignancies were named before this nomenclature was standardized.",
+                subtext: "You must memorize these exceptions: **Melanoma** (skin cancer), **Lymphoma** (lymph node cancer), **Mesothelioma**, and **Seminoma** (testicular cancer). All are 100% malignant.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "A malignant cancer of the lung lining is called ____________. A malignant cancer of the testis is called a ____________. Despite the '-oma' suffix, both are dangerous cancers.",
+                options: ["Mesothelioma", "Seminoma", "Fibroma", "Adenoma"],
+                answer: [0, 1],
+                explanation: "Mesothelioma and Seminoma are classic examples of malignant tumors that use a benign-sounding suffix.",
+                buttonText: "Continue"
+            },
+            {
+                type: "match",
+                question: "Match the bizarre mass to its medical classification.",
+                pairs: [
+                    { left: "Glands + Cartilage", right: "Mixed Tumor" },
+                    { left: "Hair + Teeth in ovary", right: "Teratoma" },
+                    { left: "Disorganized native tissue", right: "Hamartoma" },
+                    { left: "Malignant skin cancer", right: "Melanoma" }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "5.2.1"
+    },
+
+    // UNIT 2
+    "5.2.1": {
+        title: "Differentiation and Anaplasia 🔬",
+        objectives: ["Learn how to visually profile a tumor, understand the concept of cellular differentiation, and identify the hallmarks of anaplasia."],
+        data: [
+            {
+                type: "concept",
+                title: "The Microscope Lineup",
+                text: "Pathologists differentiate between benign and malignant tumors by looking for specific visual clues under the microscope.",
+                subtext: "The two most important criteria in morphological diagnosis are **Differentiation** and **Anaplasia**.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Differentiation",
+                text: "**Differentiation** refers to the extent to which neoplastic parenchymal cells resemble their corresponding normal parenchymal cells, both morphologically and functionally.",
+                subtext: "If a tumor cell looks and behaves almost exactly like the healthy tissue of origin, it is called well-differentiated. If it looks like a bizarre, unidentifiable mutant, it is poorly differentiated.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "As a general rule, are benign tumors extremely well-differentiated?", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Benign tumors typically mimic their tissue of origin very closely. For example, a lipoma (benign fat tumor) is composed of mature adipocytes that look identical to normal fat tissue." 
+            },
+            {
+                type: "concept",
+                title: "The Alien Mutants: Anaplasia",
+                text: "Malignant neoplasms frequently display a loss of differentiation.",
+                subtext: "When malignant cells completely lose their differentiation and look nothing like their ancestors, it is called **Anaplasia** (meaning 'backward formation'). Anaplasia is a reliable hallmark of malignancy.",
+                buttonText: "See anaplastic features"
+            },
+            { 
+                type: "mcq", 
+                question: "In pathology, what does the term 'Pleomorphism' describe when examining cancer cells?", 
+                options: [
+                    "The cells all look perfectly identical", 
+                    "The cells and their nuclei show extreme variation in size and shape", 
+                    "The cells turn invisible under the microscope"
+                ], 
+                answer: 1, 
+                explanation: "Pleomorphism refers to the marked variation in the size and shape of cells and their nuclei within a single tumor." 
+            },
+            {
+                type: "fill",
+                question: "Anaplastic nuclei stain extremely dark (known as ____________). Because the nucleus grows massive, the cell develops a high ____________-to-cytoplasmic ratio, sometimes approaching 1:1.",
+                options: ["Hyperchromatic", "Hypochromic", "Nuclear", "Membrane"],
+                answer: [0, 2],
+                explanation: "Normal cells usually have a 1:4 or 1:6 ratio. In anaplastic cells, the large, dark-staining nuclei can consume half or more of the total cell volume.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Chaotic Split: Atypical Mitoses",
+                text: "Because cancer cells grow rapidly, many mitotic figures are usually visible. However, these are often **Atypical** and bizarre.",
+                subtext: "Instead of dividing into two cells, the mitotic spindles may split into three, four, or more directions (tripolar or quadripolar spindles), reflecting genomic chaos.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Is seeing dividing cells (mitoses) under a microscope 100% proof that a tumor is malignant?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Mitoses are found in many normal, rapidly dividing tissues like the gut or bone marrow. The diagnosis of malignancy depends more on the presence of *atypical* (tri- or multipolar) mitotic figures." 
+            },
+            {
+                type: "concept",
+                title: "Loss of Polarity & Function",
+                text: "Anaplastic cells lose their **Polarity**, meaning they lose their sense of direction and organized orientation to each other.",
+                subtext: "Because they lose their structure, they also lose their specialized functions, such as the ability to secrete specific hormones or produce keratin.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "match",
+                question: "Match the visual clue to its correct pathological term.",
+                pairs: [
+                    { left: "Resembles normal tissue", right: "Well-Differentiated" },
+                    { left: "Complete lack of differentiation", right: "Anaplasia" },
+                    { left: "Variation in size and shape", right: "Pleomorphism" },
+                    { left: "Extremely dark nuclei", right: "Hyperchromasia" },
+                    { left: "Multipolar cell division", right: "Atypical Mitoses" }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.2.2": {
+        title: "Metaplasia, Dysplasia & Carcinoma ⚠️",
+        objectives: ["Track the step-by-step escalation of normal tissue turning into cancer, identify pre-malignant warning signs, and understand the role of the basement membrane."],
+        data: [
+            {
+                type: "concept",
+                title: "The Escalator",
+                text: "Tissues usually undergo a predictable sequence of changes before becoming fully invasive cancers.",
+                subtext: "In epithelial linings, we track three major warning signs: **Metaplasia**, **Dysplasia**, and **Carcinoma In Situ**.",
+                buttonText: "Step 1: Metaplasia"
+            },
+            {
+                type: "concept",
+                title: "Step 1: Metaplasia",
+                text: "**Metaplasia** is an adaptation to chronic stress where one adult cell type is replaced by another adult cell type better suited to the environment.",
+                subtext: "This is a reversible change and is not yet considered cancer, though it may predispose the tissue to malignant transformation.",
+                buttonText: "Clinical Example"
+            },
+            { 
+                type: "mcq", 
+                question: "How does the respiratory tract typically adapt via Metaplasia in response to long-term cigarette smoke?", 
+                options: [
+                    "It changes into tough, flat, squamous cells to survive the smoke", 
+                    "It turns into hard bone tissue", 
+                    "It turns invisible to hide from the smoke"
+                ], 
+                answer: 0, 
+                explanation: "The lung swaps its delicate, ciliated columnar cells for stratified squamous epithelium. While more durable, this new 'armor' loses the ability to clear mucus and debris." 
+            },
+            {
+                type: "concept",
+                title: "Step 2: Dysplasia",
+                text: "**Dysplasia** refers to 'disordered growth.' Cells start to lose their uniformity and architectural orientation.",
+                subtext: "Dysplastic cells show signs of pleomorphism and hyperchromasia, but they do not yet constitute a malignant cancer. They are unruly cells breaking structural rules.",
+                buttonText: "Is it permanent?"
+            },
+            { 
+                type: "mcq", 
+                question: "Once a tissue becomes dysplastic, is it considered a permanent, irreversible change that always turns into cancer?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Dysplasia is often reversible. If the irritant or injurious stimulus is removed, mild-to-moderate dysplastic cells can revert to a normal state." 
+            },
+            {
+                type: "concept",
+                title: "Step 3: Carcinoma In Situ (CIS)",
+                text: "When dysplastic changes involve the entire thickness of the epithelium, the lesion is called **Carcinoma In Situ**.",
+                subtext: "In Latin, this means 'cancer in place.' The cells appear malignant, but they remain confined by a specific structural boundary.",
+                buttonText: "The Boundary Line"
+            },
+            {
+                type: "fill",
+                question: "In Carcinoma In Situ, the mutated cells have filled the tissue layer but have NOT yet broken through the ____________ membrane. Because of this, they have no access to blood vessels.",
+                options: ["Basement", "Plasma", "Nuclear", "Mucous"],
+                answer: 0,
+                explanation: "The basement membrane serves as the ultimate boundary. As long as the tumor is trapped above it, it lacks access to the underlying stroma and its vessels.",
+                buttonText: "Continue"
+            },
+            { 
+                type: "mcq", 
+                question: "Is it physically possible for Carcinoma In Situ to metastasize (spread) to distant organs?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Metastasis requires access to blood vessels or lymphatics located in the stroma. Because CIS is confined by the basement membrane, it cannot enter the circulation and is considered 100% curable by local removal." 
+            },
+            {
+                type: "concept",
+                title: "The Final Breach",
+                text: "If untreated, neoplastic cells may eventually mutate to dissolve the basement membrane.",
+                subtext: "Once they cross into the underlying connective tissue stroma, the lesion is officially classified as an **Invasive Carcinoma**.",
+                buttonText: "Got it!"
+            },
+            { 
+                type: "order", 
+                question: "Arrange the stages of cancer progression from the first adaptation to the final invasive state.", 
+                items: [
+                    "Metaplasia (Reversible cell type swap)", 
+                    "Dysplasia (Disordered, unruly growth)", 
+                    "Carcinoma In Situ (Full-thickness entrapment)", 
+                    "Invasive Carcinoma (Breach of the basement membrane)"
+                ], 
+                explanation: "This timeline represents the increasing loss of cellular control and structural integrity leading to malignant disease." 
+            }
+        ]
+    },
+    "5.2.3": {
+        title: "Local Invasion: Breaching the Walls 🤺",
+        objectives: ["Understand the single most reliable feature that distinguishes benign from malignant tumors, visualize how cancer cells 'eat' their way through tissue, and learn the molecular tools they use to invade."],
+        data: [
+            {
+                type: "concept",
+                title: "The Great Divider",
+                text: "While nomenclature and microscopy provide clues, one absolute rule separates benign from malignant tumors: **Local Invasion**.",
+                subtext: "Benign tumors generally remain encapsulated and push healthy tissue aside. Malignant tumors infiltrate, invade, and destroy the surrounding normal tissue.",
+                buttonText: "Push vs. Infiltration"
+            },
+            {
+                type: "concept",
+                title: "Expansile vs. Infiltrative Growth",
+                text: "Benign tumors typically exhibit **Expansile Growth**, expanding slowly and compressing surrounding cells until a fibrous capsule forms.",
+                subtext: "Malignant cancers do not respect boundaries; they send out microscopic 'roots' that chew through tissue, destroying the normal architecture with no clear margin.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "If a surgeon removes a tumor surrounded by a clear, thick fibrous capsule, is it likely to be a malignant, invasive cancer?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "A well-defined fibrous capsule is a hallmark of benign tumors. Malignant tumors are characteristically non-encapsulated because they actively infiltrate the surrounding stroma." 
+            },
+            {
+                type: "concept",
+                title: "The Three-Step Invasion",
+                text: "Local invasion is an active process of migration consisting of three specific steps:\n\n" +
+                    "1. **Loosening:** Cells detach from one another.\n" +
+                    "2. **Degradation:** Cells dissolve the Extracellular Matrix (ECM).\n" +
+                    "3. **Locomotion:** Cells crawl through the degraded path.",
+                subtext: "",
+                buttonText: "Step 1: Letting Go"
+            },
+            {
+                type: "fill",
+                question: "To initiate invasion, cancer cells stop producing ____________, a 'velcro' protein that normally keeps epithelial cells stuck tightly together.",
+                options: ["E-cadherin", "Collagen", "Keratin", "Hemoglobin"],
+                answer: 0,
+                explanation: "E-cadherin is the primary adhesion molecule of epithelium. Its loss allows cancer cells to detach from their neighbors and begin moving through the tissue.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Molecular Scissors",
+                text: "To breach the Extracellular Matrix (ECM), cancer cells secrete powerful enzymes called **Proteases**.",
+                subtext: "Specifically, **Matrix Metalloproteinases (MMPs)** and Cathepsin D act as molecular scissors, slicing through collagen fibers to clear a path for the tumor.",
+                buttonText: "Step 2: Movement"
+            },
+            { 
+                type: "mcq", 
+                question: "How does a cancer cell generate the physical force needed to crawl through the tissue?", 
+                options: [
+                    "It relies on the pressure of blood flow", 
+                    "It uses its actin filaments to form 'pseudopods' that pull the cell forward", 
+                    "It utilizes flagella similar to bacteria"
+                ], 
+                answer: 1, 
+                explanation: "Cancer cells utilize their internal actin cytoskeleton to extend 'false feet' (pseudopods). These grab onto the matrix and provide the traction required for active locomotion." 
+            },
+            { 
+                type: "mcq", 
+                question: "Cancer cells often prefer to invade along paths of least resistance, such as nerves or natural tissue planes.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "This is known as **Permeation**. Cancers frequently follow anatomical highways, such as perineural spaces or blood vessel walls, to facilitate their spread." 
+            },
+            {
+                type: "concept",
+                title: "Clinical Consequence: Margins",
+                text: "The infiltrative nature of cancer dictates surgical strategy.",
+                subtext: "While benign tumors can be 'shelled out' due to their capsules, malignant tumors require the removal of a wide margin of healthy-looking tissue to ensure all microscopic invasive roots are eradicated.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "match",
+                question: "The Invasion Toolkit: Match the molecular tool to its specific function.",
+                pairs: [
+                    { left: "E-cadherin Loss", right: "Allows cells to detach from neighbors." },
+                    { left: "Proteases (MMPs)", right: "Enzymes that degrade the matrix." },
+                    { left: "Pseudopods (Actin)", right: "Cellular 'feet' that pull the cell forward." },
+                    { left: "Permeation", right: "Moving along natural pathways like nerves." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.2.4": {
+        title: "The Great Escape (Metastasis) ✈️",
+        objectives: ["Define the ultimate hallmark of cancer, learn the absolute rule separating benign from malignant, and map the three major highways tumors use to spread through the body."],
+        data: [
+            {
+                type: "concept",
+                title: "The Ultimate Threat",
+                text: "**Metastasis** is the development of secondary tumor implants that are completely disconnected from the primary tumor.",
+                subtext: "This represents the 'Great Escape,' where cancer leaves its organ of origin to colonize and conquer distant sites.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Do benign tumors occasionally metastasize to distant organs if they grow large enough?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Metastasis is the unequivocal hallmark of malignancy. Benign tumors, by definition, do not metastasize." 
+            },
+            {
+                type: "concept",
+                title: "Choosing a Highway",
+                text: "Cancer cells utilize three specific biological pathways to travel through the body:\n\n" +
+                    "1. **Seeding of body cavities**\n" +
+                    "2. **Lymphatic spread**\n" +
+                    "3. **Hematogenous (blood) spread**",
+                subtext: "",
+                buttonText: "Pathway 1: Seeding"
+            },
+            {
+                type: "concept",
+                title: "Pathway 1: Seeding",
+                text: "**Seeding** occurs when a cancer penetrates into a natural 'open space' or cavity, such as the peritoneal or pleural cavities.",
+                subtext: "Once the cancer breaches the cavity, it sheds cells that float through the cavity fluid and implant on the surfaces of other organs.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Because the ovaries are located within the abdomen, which cavity do ovarian cancers famously 'seed'?", 
+                options: [
+                    "The cranial cavity", 
+                    "The peritoneal cavity", 
+                    "The pericardial cavity"
+                ], 
+                answer: 1, 
+                explanation: "Ovarian cancer cells frequently shed into the peritoneal fluid, leading to widespread surface implants across the abdominal wall and intestines." 
+            },
+            {
+                type: "concept",
+                title: "Pathway 2: Lymphatic Spread",
+                text: "**Lymphatic Spread** is the primary highway for **Carcinomas** (cancers of epithelial origin).",
+                subtext: "Cancer cells enter lymphatic vessels and follow the natural drainage patterns until they are trapped in regional lymph nodes.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "The very first regional lymph node that receives lymph fluid from a primary tumor is called the ____________ lymph node.",
+                options: ["Sentinel", "Terminal", "Venous", "Apical"],
+                answer: 0,
+                explanation: "The sentinel lymph node acts as the first 'filter' for traveling cancer cells. Pathologists biopsy this specific node to determine if systemic spread has begun.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Pathway 3: Hematogenous Spread",
+                text: "**Hematogenous Spread** refers to dissemination via blood vessels. This is the preferred pathway for **Sarcomas** (connective tissue cancers).",
+                subtext: "Cancer cells typically invade veins rather than arteries because venous walls are thinner and easier to penetrate.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Because all portal blood flows to the liver and all caval blood flows to the lungs, which two organs are the most common sites for hematogenous metastases?", 
+                options: [
+                    "Liver and Lungs", 
+                    "Brain and Kidneys", 
+                    "Spleen and Pancreas"
+                ], 
+                answer: 0, 
+                explanation: "The liver and lungs act as the primary capillary filters for the venous circulation, frequently trapping traveling cancer cells that then grow into secondary tumors." 
+            },
+            {
+                type: "sort",
+                question: "Mapping the Enemy: Match the cancer type or clinical feature to its preferred pathway of spread.",
+                buckets: ["Seeding", "Lymphatic", "Hematogenous"],
+                items: [
+                    { text: "Ovarian Cancer implants.", bucket: 0 },
+                    { text: "Most Carcinomas (e.g., Breast, Colon).", bucket: 1 },
+                    { text: "Most Sarcomas (e.g., Bone, Fat).", bucket: 2 },
+                    { text: "Sentinel Node biopsy.", bucket: 1 },
+                    { text: "Metastases trapped in the Liver and Lungs.", bucket: 2 }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "5.3.1"
+    },
+
+    // UNIT 3
+    "5.3.1": {
+        title: "Global Impact (Incidence, Mortality, & Age) 🌎",
+        objectives: ["Learn the difference between cancer incidence and mortality, identify the top global killers, and discover why age is the ultimate risk factor."],
+        data: [
+            {
+                type: "concept",
+                title: "The Population Detective",
+                text: "**Epidemiology** looks at massive populations to find hidden patterns in disease distribution.",
+                subtext: "Historically, observing these patterns is how scientists first established that smoking causes lung cancer and certain viruses cause cervical cancer.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Incidence vs. Mortality",
+                text: "When tracking cancer globally, we look at two primary statistics:\n\n" +
+                    "• **Incidence:** The number of new cases diagnosed.\n" +
+                    "• **Mortality:** The number of deaths caused by the disease.",
+                subtext: "The most commonly diagnosed cancer in men is **Prostate cancer**, and in women, it is **Breast cancer**.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Which cancer is the undisputed #1 leading cause of cancer mortality (death) for both men and women worldwide?", 
+                options: ["Colon Cancer", "Lung Cancer", "Brain Cancer"], 
+                answer: 1, 
+                explanation: "While breast and prostate cancers have higher incidence rates, lung cancer is significantly more lethal, claiming more lives globally than any other malignancy." 
+            },
+            {
+                type: "concept",
+                title: "The Ticking Clock: Age",
+                text: "Age is the most significant overall risk factor for cancer.",
+                subtext: "The vast majority of cancer deaths occur in adults over the age of 55. As an individual ages, the statistical likelihood of developing a malignancy increases exponentially.",
+                buttonText: "Why does age matter?"
+            },
+            {
+                type: "fill",
+                question: "As we age, our cells accumulate years' worth of somatic ____________ from environmental damage. Additionally, our ____________ system becomes weaker, failing to eliminate rogue cells.",
+                options: ["Mutations", "Immune", "Oxygen", "Digestive"],
+                answer: [0, 1],
+                explanation: "The combination of accumulated DNA damage over decades and the natural decline of immune surveillance creates a high-risk environment for cancer development.",
+                buttonText: "Continue"
+            },
+            { 
+                type: "mcq", 
+                question: "Because cancer requires a massive accumulation of mutations, it is strictly limited to the elderly and never affects children.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "While frequency increases with age, cancer is still a leading cause of disease-related death in children under 15, though the types of cancer differ from those in adults." 
+            },
+            {
+                type: "concept",
+                title: "Childhood Exceptions",
+                text: "Childhood cancers differ fundamentally from adult cancers in their origin.",
+                subtext: "Adults typically develop **Carcinomas** resulting from years of environmental exposure. Childhood cancers (like Leukemias or 'blastomas') are usually driven by inherited genetic errors or developmental growth mistakes.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "If a 5-year-old child is diagnosed with cancer, it is most likely a Carcinoma of the lung or colon, just like in adults.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Carcinomas require decades of environmental insults. Childhood cancers are typically 'liquid' malignancies or tumors of embryonic/rapidly developing tissues." 
+            },
+            {
+                type: "match",
+                question: "Match the statistic or concept to the correct cancer type.",
+                pairs: [
+                    { left: "Most frequent in Men", right: "Prostate Cancer" },
+                    { left: "Most frequent in Women", right: "Breast Cancer" },
+                    { left: "#1 Cause of cancer death", right: "Lung Cancer" },
+                    { left: "Common child/infant tumors", right: "Leukemia & Blastomas" }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.3.2": {
+        title: "Environmental Factors (Invisible Assassins) 🌿",
+        objectives: ["Discover why lifestyle and geography matter more than DNA in sporadic cancers, trace the 'migrant effect,' and identify major environmental culprits."],
+        data: [
+            {
+                type: "concept",
+                title: "Nature vs. Nurture",
+                text: "For the vast majority of sporadic (non-inherited) cancers, **Environmental Factors** such as diet, lifestyle, and exposures are the dominant risk factors.",
+                subtext: "Epidemiological studies indicate that environmental exposures dictate up to 65% of an individual's total cancer risk.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Geographic Footprint",
+                text: "The impact of environment is evidenced by geography. For example, stomach cancer mortality is 7 times higher in Japan than in the US.",
+                subtext: "Conversely, prostate and breast cancers are significantly more common in the United States than in Japan.",
+                buttonText: "Does risk travel?"
+            },
+            { 
+                type: "mcq", 
+                question: "If a Japanese family moves to the United States, will their descendants retain the high Japanese risk for stomach cancer because their DNA has not changed?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "This is known as the 'Migrant Effect.' Within one or two generations, immigrants typically acquire the cancer risk profile of their new environment, proving that lifestyle and environment often outweigh inherited genetics." 
+            },
+            {
+                type: "concept",
+                title: "Assassin #1: Tobacco",
+                text: "**Smoking** is the #1 preventable cause of human cancer.",
+                subtext: "Because toxins are absorbed and later filtered by the kidneys, smoking causes not only lung cancer but also malignancies of the mouth, throat, esophagus, pancreas, and **Bladder**.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "What happens to a patient's risk of mouth and throat cancer if they use BOTH alcohol and tobacco simultaneously?", 
+                options: [
+                    "The alcohol washes away the toxins", 
+                    "The risk simply adds together (1 + 1 = 2)", 
+                    "The factors act synergistically, multiplying the risk (1 + 1 = 10)"
+                ], 
+                answer: 2, 
+                explanation: "Alcohol acts as a solvent that allows tobacco carcinogens to penetrate oral tissues more deeply, creating a synergistic multiplier effect on cancer risk." 
+            },
+            {
+                type: "concept",
+                title: "Assassin #2: Diet & Obesity",
+                text: "Diet and body weight are major environmental contributors to oncogenesis.",
+                subtext: "• **Stomach Cancer:** Linked to smoked, salted, or pickled foods.\n• **Colon Cancer:** Linked to high-fat, low-fiber diets.\n• **Obesity:** Linked to breast and endometrial cancers due to hormonal changes.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Unprotected exposure to UV radiation is the leading cause of ____________ cancer. This explains why countries with high UV indexes, like ____________, have the highest melanoma rates.",
+                options: ["Skin", "Australia", "Lung", "Canada"],
+                answer: [0, 1],
+                explanation: "UV radiation causes direct DNA damage to skin cells. Australia and New Zealand currently hold the highest rates of melanoma globally due to high UV exposure and fair-skinned populations.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Assassin #3: Infectious Agents",
+                text: "Roughly 15% of all cancers worldwide are caused by infectious microbes.",
+                subtext: "**HPV** (Human Papillomavirus) is responsible for virtually all cervical cancers, while **Hepatitis B and C** are primary drivers of chronic liver inflammation and liver cancer.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "match",
+                question: "Match the environmental exposure to the cancer it most commonly triggers.",
+                pairs: [
+                    { left: "Smoked/Salted Foods", right: "Stomach Cancer" },
+                    { left: "High Fat / Low Fiber", right: "Colon Cancer" },
+                    { left: "Cigarette Smoking", right: "Lung & Bladder Cancer" },
+                    { left: "UV Sunlight", right: "Skin Cancer (Melanoma)" },
+                    { left: "HPV Infection", right: "Cervical Cancer" }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.3.3": {
+        title: "Acquired Predisposing Conditions 💣",
+        objectives: ["Understand how certain non-cancerous diseases act as 'fertile soil' for cancer, learn the dangers of chronic inflammation, and recognize classic precursor lesions."],
+        data: [
+            {
+                type: "concept",
+                title: "The Ticking Time Bombs",
+                text: "Beyond environmental factors, certain non-malignant diseases or physiological states can set the stage for tumor development.",
+                subtext: "These are called **Acquired Predisposing Conditions**. They act as 'fertile soil,' making specific tissues highly vulnerable to malignant transformation.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Smoldering Fire: Chronic Inflammation",
+                text: "The most significant acquired predisposing condition is **Chronic Inflammation**.",
+                subtext: "Persistent inflammation forces local stem cells to constantly divide to repair damage while simultaneously bombarding them with DNA-destroying Reactive Oxygen Species (ROS).",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Does chronic, unresolved inflammation promote cancer by combining constant cellular division with DNA damage from free radicals?", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Constant cellular proliferation in an environment rich in free radicals and growth factors creates the ideal conditions for the accumulation of oncogenic mutations." 
+            },
+            {
+                type: "concept",
+                title: "The Famous Fires",
+                text: "Classic examples of inflammatory conditions predisposing to cancer include:\n\n" +
+                    "• **Ulcerative Colitis:** Chronic bowel inflammation increases the risk of Colon Cancer.\n" +
+                    "• **Hepatitis B & C:** Chronic viral infection leads to Hepatocellular Carcinoma (Liver Cancer).",
+                subtext: "",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "If a patient has an untreated H. pylori infection causing chronic gastritis for decades, what cancer are they highly predisposed to developing?", 
+                options: ["Breast Cancer", "Stomach (Gastric) Cancer", "Melanoma"], 
+                answer: 1, 
+                explanation: "The chronic inflammation triggered by Helicobacter pylori in the gastric mucosa is a major risk factor for the development of gastric adenocarcinoma and MALT lymphoma." 
+            },
+            {
+                type: "concept",
+                title: "The Stepping Stones: Precursor Lesions",
+                text: "The second type of predisposing condition is the **Precursor Lesion**.",
+                subtext: "These are localized tissue changes—such as Metaplasia and Dysplasia—that represent an intermediate stage between healthy tissue and invasive cancer.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "In Barrett Esophagus, the squamous lining undergoes ____________ and turns into glandular tissue. If uncorrected, this can mutate into an esophageal ____________.",
+                options: ["Metaplasia", "Adenocarcinoma", "Apoptosis", "Sarcoma"],
+                answer: [0, 1],
+                explanation: "Barrett esophagus is a classic example of intestinal metaplasia. The resulting glandular tissue is genetically unstable and at increased risk for malignant transformation." ,
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Other Classic Precursors",
+                text: "Precursor lesions can occur in many tissues under stress:\n\n" +
+                    "• **Endometrial Hyperplasia:** Driven by excessive estrogen, predisposing to Endometrial Carcinoma.\n" +
+                    "• **Leukoplakia:** Thick, white, dysplastic oral patches (often from tobacco) that can progress to Squamous Cell Carcinoma.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Does immunodeficiency massively increase the risk of developing all types of cancer, including common ones like lung and breast cancer?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Immunodeficiency primarily increases the risk of virus-induced cancers (e.g., EBV-related lymphomas or HPV-related carcinomas) because the immune system fails to eliminate oncogenic viruses." 
+            },
+            {
+                type: "match",
+                question: "Match the acquired condition to the cancer it most commonly predisposes a patient to.",
+                pairs: [
+                    { left: "H. pylori Gastritis", right: "Stomach Cancer" },
+                    { left: "Barrett Esophagus", right: "Esophageal Adenocarcinoma" },
+                    { left: "Oral Leukoplakia", right: "Squamous Cell Carcinoma" },
+                    { left: "Severe Immunodeficiency", right: "Virus-induced Lymphomas" }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.3.4": {
+        title: "Genetic Predisposition 🧬",
+        objectives: ["Understand the role of genetics in cancer, learn the 'Two-Hit Hypothesis,' meet DNA repair syndromes, and explore gene-environment interactions."],
+        data: [
+            {
+                type: "concept",
+                title: "The Loaded Gun",
+                text: "While environmental factors dominate, inherited genetic predisposition accounts for approximately 5% to 10% of all cancers.",
+                subtext: "Genetic predisposition acts like a 'loaded gun'—it usually requires a secondary environmental trigger to initiate the process of carcinogenesis.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Two-Hit Hypothesis",
+                text: "In **Autosomal Dominant Cancer Syndromes**, individuals inherit one mutant copy of a tumor suppressor gene (the 'First Hit').",
+                subtext: "To initiate a tumor, a random somatic mutation must occur in the remaining functional copy of that gene (the 'Second Hit') within a specific cell.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Is a child who inherits a broken RB gene born with a tumor already fully formed in their eye?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "The child is born with one mutated allele (the first hit). A tumor only develops after the second, functional allele is lost or mutated in a retinal cell during childhood." 
+            },
+            {
+                type: "concept",
+                title: "The Carpet of Polyps: FAP",
+                text: "**Familial Adenomatous Polyposis (FAP)** is caused by inherited mutations in the *APC* tumor suppressor gene.",
+                subtext: "By their teenage years, patients develop thousands of adenomatous polyps throughout the colon, each with the potential to become malignant.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "If left untreated, what is the statistical risk of a patient with FAP developing Colon Cancer by age 50?", 
+                options: ["10%", "50%", "100%"], 
+                answer: 2, 
+                explanation: "Given the thousands of polyps present, it is a statistical certainty that at least one will acquire the 'second hit' and other necessary mutations to progress to invasive carcinoma." 
+            },
+            {
+                type: "concept",
+                title: "Broken DNA Spell-Checkers",
+                text: "**Autosomal Recessive Syndromes of Defective DNA Repair** involve individuals born with impaired systems for correcting genetic errors.",
+                subtext: "In these syndromes, DNA damage from environmental sources is not repaired, allowing mutations to accumulate at an accelerated rate.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Because their DNA repair mechanisms are broken, a child with Xeroderma Pigmentosum must avoid the ____________. Even mild exposure can lead to lethal ____________ cancer at a young age.",
+                options: ["Sun", "Skin", "Moon", "Colon"],
+                answer: [0, 1],
+                explanation: "Xeroderma Pigmentosum is characterized by an inability to repair DNA damage caused by UV radiation, making sunlight a direct and potent carcinogen for these patients.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Deadly Alliance: Gene-Environment",
+                text: "**Gene-Environment Interactions** occur when an inherited genetic variation makes an individual more susceptible to specific environmental toxins.",
+                subtext: "A gene that is otherwise harmless can create a high risk of cancer when the individual is exposed to a specific carcinogen.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Does a hyperactive version of the enzyme Cytochrome P-450 increase a smoker's risk of developing lung cancer?", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "A hyperactive Cytochrome P-450 enzyme more efficiently converts pro-carcinogens found in tobacco smoke into active, DNA-damaging carcinogens." 
+            },
+            {
+                type: "match",
+                question: "Match the genetic syndrome or variation to its classic clinical profile.",
+                pairs: [
+                    { left: "Retinoblastoma (RB)", right: "The classic 'Two-Hit' eye cancer." },
+                    { left: "FAP", right: "Thousands of colon polyps; 100% cancer risk." },
+                    { left: "Xeroderma Pigmentosum", right: "Broken UV-DNA repair making sunlight deadly." },
+                    { left: "Cytochrome P-450", right: "Gene that makes tobacco smoke even deadlier." }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "5.4.1"
+    },
+
+    // UNIT 4
+    "5.4.1": {
+        title: "Chemical Carcinogenesis 🧪",
+        objectives: ["Understand how chemicals mutate DNA, distinguish between direct and indirect carcinogens, and master the two-step 'Initiation and Promotion' sequence."],
+        data: [
+            {
+                type: "concept",
+                title: "The Chemical Weapons",
+                text: "Chemical carcinogens are highly reactive compounds that physically bind to DNA, creating irreversible mutations in critical genes such as *RAS* and *TP53*.",
+                subtext: "These mutations are the first step in the transformation of a normal cell into a neoplastic one.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Direct-Acting Carcinogens",
+                text: "**Direct-Acting Carcinogens** are inherently reactive and require no metabolic conversion to become carcinogenic.",
+                subtext: "The moment they enter the body, they are capable of damaging DNA directly.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Are some chemotherapy drugs (like alkylating agents) classified as direct-acting carcinogens?", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Alkylating agents used in chemotherapy are direct-acting carcinogens. While they treat primary tumors, they can induce DNA damage in healthy cells, potentially leading to secondary malignancies like leukemia later in life." 
+            },
+            {
+                type: "concept",
+                title: "Indirect-Acting Carcinogens",
+                text: "**Indirect-Acting Carcinogens** (procarcinogens) require metabolic conversion within the body to become active 'ultimate' carcinogens.",
+                subtext: "This conversion is primarily carried out by the **Cytochrome P-450** system in the liver.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Which common food source is rich in indirect-acting Polycyclic Aromatic Hydrocarbons (PAHs)?", 
+                options: [
+                    "Boiled vegetables", 
+                    "Heavily smoked or charcoal-grilled meats", 
+                    "Raw sushi"
+                ], 
+                answer: 1, 
+                explanation: "PAHs are produced during the high-heat combustion of organic matter. When consumed, liver enzymes metabolize these compounds into highly reactive, DNA-damaging intermediates." 
+            },
+            {
+                type: "concept",
+                title: "The Two-Step Recipe",
+                text: "Chemical carcinogenesis typically requires a specific two-step sequence: **Initiation** followed by **Promotion**.",
+                subtext: "Without both steps occurring in the correct order, a clinical tumor will not develop.",
+                buttonText: "See the steps"
+            },
+            {
+                type: "fill",
+                question: "First, the cell must undergo ____________ (DNA mutation). Second, the cell must undergo ____________ (stimulated cell division).",
+                options: ["Initiation", "Promotion", "Apoptosis", "Ligation"],
+                answer: [0, 1],
+                explanation: "Initiation causes permanent, irreversible DNA damage. Promotion stimulates the clonal expansion of these mutated cells.",
+                buttonText: "Continue"
+            },
+            { 
+                type: "mcq", 
+                question: "Will a tumor form if a patient is exposed to a Promoter first, and then an Initiator afterward?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Initiation must always precede promotion. Promoting normal cells without existing DNA mutations does not result in tumor formation; the 'bad seed' must be planted before it can be 'watered'." 
+            },
+            {
+                type: "concept",
+                title: "The Hormone Fertilizer",
+                text: "Promoters are not mutagenic themselves; they are growth-stimulating agents that encourage the division of mutated cells.",
+                subtext: "Natural hormones like **Estrogen** are classic promoters. For example, estrogen stimulates the proliferation of breast cells that have previously been initiated by other factors.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "match",
+                question: "Match the chemical carcinogenesis concept to its description.",
+                pairs: [
+                    { left: "Direct-Acting", right: "Requires no metabolic conversion." },
+                    { left: "Indirect-Acting", right: "Requires Cytochrome P-450 to become toxic." },
+                    { left: "Initiation", right: "Irreversible, permanent DNA mutation." },
+                    { left: "Promotion", right: "Reversible stimulation of cellular division." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.4.2": {
+        title: "Radiation Carcinogenesis ☢️",
+        objectives: ["Understand how invisible energy mutates DNA, learn the specific damage caused by UV vs. Ionizing radiation, and identify vulnerable tissues like thyroid and bone marrow."],
+        data: [
+            {
+                type: "concept",
+                title: "The Invisible Assassins",
+                text: "Radiation is a powerful carcinogen that physically alters or breaks DNA. We divide these invisible rays into two main categories: **Ultraviolet (UV)** and **Ionizing**.",
+                subtext: "The wavelength and energy of the radiation determine how it penetrates the body and the specific type of damage it inflicts on the genome.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Sun's Trap: UV Rays",
+                text: "**Ultraviolet (UV) Radiation** from the sun or tanning beds is the leading cause of skin cancers, including Squamous Cell Carcinoma, Basal Cell Carcinoma, and Melanoma.",
+                subtext: "While it does not penetrate deeply, its impact on the surface epithelium is profound.",
+                buttonText: "How does it damage DNA?"
+            },
+            {
+                type: "fill",
+                question: "When UV rays hit a DNA strand, they force two adjacent thymine bases to fuse. This creates a kink in the DNA called a ____________ ____________.",
+                options: ["Thymine", "Dimer", "Oxygen", "Bridge"],
+                answer: [0, 1],
+                explanation: "UV light causes the formation of pyrimidine dimers (specifically thymine dimers). These kinks distort the DNA helix and lead to errors during replication if they are not corrected.",
+                buttonText: "Continue"
+            },
+            { 
+                type: "mcq", 
+                question: "Healthy human cells possess a mechanism called Nucleotide Excision Repair (NER) to snip out and replace Thymine Dimers.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "NER is the primary repair pathway for UV-induced DNA damage. Genetic defects in this system, as seen in Xeroderma Pigmentosum, result in extreme susceptibility to skin cancer." 
+            },
+            {
+                type: "concept",
+                title: "The Heavy Artillery: Ionizing Radiation",
+                text: "**Ionizing Radiation** (X-rays, gamma rays, and nuclear fallout) penetrates deep into the body and carries enough energy to strip electrons from atoms.",
+                subtext: "This creates highly destructive free radicals that shatter the DNA double-helix, causing massive chromosomal breakage and translocations.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Following a nuclear reactor meltdown, which cancer famously skyrockets in children due to the accumulation of radioactive Iodine?", 
+                options: [
+                    "Brain Cancer", 
+                    "Thyroid Cancer", 
+                    "Colon Cancer"
+                ], 
+                answer: 1, 
+                explanation: "The thyroid gland actively concentrates iodine from the blood. In nuclear fallout events, it absorbs radioactive isotopes, leading to localized radiation damage and a high incidence of papillary thyroid carcinoma." 
+            },
+            { 
+                type: "mcq", 
+                question: "Ionizing radiation causes cancer equally in all tissues, regardless of their rate of cell division.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Radiation damage is most lethal or mutagenic to cells that divide rapidly. Tissues like bone marrow (leukemia) are highly sensitive, while non-dividing cells like mature neurons are relatively resistant." 
+            },
+            {
+                type: "concept",
+                title: "The Double-Edged Sword",
+                text: "Because ionizing radiation is so effective at destroying rapidly dividing cells, it is used as a medical treatment (**Radiation Therapy**) to kill tumors.",
+                subtext: "However, therapeutic radiation can inadvertently mutate surrounding healthy tissue, potentially triggering a secondary radiation-induced cancer years later.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "match",
+                question: "Radiation Profiler: Match the trait to the correct form of radiation.",
+                pairs: [
+                    { left: "Thymine Dimers (DNA Kinks)", right: "Ultraviolet (UV) Rays" },
+                    { left: "Shattered Chromosomes", right: "Ionizing Radiation" },
+                    { left: "Exclusively Skin Cancers", right: "Ultraviolet (UV) Rays" },
+                    { left: "Leukemias & Thyroid Cancers", right: "Ionizing Radiation" }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.4.3": {
+        title: "Microbial Carcinogenesis 🦠",
+        objectives: ["Discover how microbes hijack cells to cause cancer, meet the major oncogenic viruses (HPV, EBV, HBV/HCV), and learn about bacteria-linked malignancies."],
+        data: [
+            {
+                type: "concept",
+                title: "The Biological Hijackers",
+                text: "Roughly 15% of all cancers worldwide are caused by infectious microbes.",
+                subtext: "Certain viruses and bacteria insert their own genetic material into host cells or trigger chronic damage, hijacking cellular machinery and forcing uncontrolled growth.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The DNA Saboteur: HPV",
+                text: "**Human Papillomavirus (HPV)** is a prominent oncogenic DNA virus that targets squamous epithelial cells.",
+                subtext: "It is the primary cause of **Cervical Cancer** and is also responsible for many anogenital and head/neck malignancies.",
+                buttonText: "Are all strains dangerous?"
+            },
+            { 
+                type: "mcq", 
+                question: "Are all 100+ strains of HPV highly oncogenic and capable of causing cervical cancer?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Only specific 'High-Risk' strains, most notably **HPV 16 and 18**, are associated with cancer. Low-risk strains, such as 6 and 11, typically cause benign genital warts." 
+            },
+            {
+                type: "fill",
+                question: "High-risk HPV produces viral proteins that act as kidnappers: **E6** binds to and destroys ____________, while **E7** neutralizes ____________.",
+                options: ["p53", "RB (Retinoblastoma)", "E-cadherin", "Insulin"],
+                answer: [0, 1],
+                explanation: "By disabling the p53 and RB tumor suppressor proteins, HPV removes the cell's primary 'brakes,' allowing for unchecked proliferation and the accumulation of mutations.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The B-Cell Invader: EBV",
+                text: "**Epstein-Barr Virus (EBV)** is a member of the herpesvirus family that primarily infects B-lymphocytes.",
+                subtext: "While it causes infectious mononucleosis, in certain contexts (such as in patients with HIV or malaria), it can drive the development of **Burkitt Lymphoma**.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "How do Hepatitis B (HBV) and Hepatitis C (HCV) primarily trigger hepatocellular carcinoma (liver cancer)?", 
+                options: [
+                    "By injecting radioactive iodine into liver cells", 
+                    "By inducing chronic inflammation and constant compensatory regeneration", 
+                    "By causing the liver tissue to freeze"
+                ], 
+                answer: 1, 
+                explanation: "HBV and HCV primarily cause cancer through an indirect pathway: decades of smoldering inflammation and tissue repair lead to an environment rich in free radicals and mutations." 
+            },
+            {
+                type: "concept",
+                title: "The Bacterial Culprit: H. pylori",
+                text: "**Helicobacter pylori** is a bacterium associated with chronic gastritis and peptic ulcers.",
+                subtext: "Similar to the hepatitis viruses, chronic *H. pylori* infection drives a progression from metaplasia to dysplasia, eventually leading to **Gastric Adenocarcinoma**.",
+                buttonText: "The Antibiotic Miracle"
+            },
+            { 
+                type: "mcq", 
+                question: "Can early-stage MALT Lymphoma of the stomach often be cured simply by treating the underlying H. pylori infection with antibiotics?", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Because early MALT lymphoma cells are dependent on the inflammatory signals generated by the bacterial infection, eradicating the *H. pylori* removes the growth stimulus, causing the tumor to regress." 
+            },
+            {
+                type: "match",
+                question: "Match the microbe to the specific malignancy it most commonly triggers.",
+                pairs: [
+                    { left: "High-Risk HPV", right: "Cervical & Head/Neck Carcinoma" },
+                    { left: "Epstein-Barr Virus (EBV)", right: "Burkitt Lymphoma" },
+                    { left: "Hepatitis B & C", right: "Hepatocellular Carcinoma" },
+                    { left: "Helicobacter pylori", right: "Gastric Adenocarcinoma" }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "5.5.1"
+    },
+
+    // UNIT 5
+    "5.5.1": {
+        title: "Genomic Instability & Enabling Inflammation 🔥",
+        objectives: ["Learn how cancer speeds up its own evolution by breaking DNA 'spell-checkers' and how it brainwashes the immune system into helping it grow."],
+        data: [
+            {
+                type: "concept",
+                title: "The Two Enablers",
+                text: "While triggers like chemicals and radiation initiate DNA damage, a single strike is rarely enough to create a malignancy.",
+                subtext: "To become fully malignant, tumors rely on **Enablers**: underlying conditions that accelerate mutation rates. The two primary enablers are **Genomic Instability** and **Cancer-Enabling Inflammation**.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Enabler #1: Genomic Instability",
+                text: "Genomic Instability occurs when a cell loses its 'spell-checker' DNA repair mechanisms.",
+                subtext: "In this state, every random mutation becomes permanent, allowing the cell to acquire a 'mutator phenotype' that rapidly accumulates the mutations required for carcinogenesis.",
+                buttonText: "See the typos"
+            },
+            {
+                type: "fill",
+                question: "Inheriting a broken mismatch repair gene causes **Lynch Syndrome**. These patients accumulate mutations in repeating DNA sequences called ____________, predisposing them to ____________ cancer.",
+                options: ["Microsatellites", "Macrophages", "Colon", "Lung"],
+                answer: [0, 2],
+                explanation: "Defective mismatch repair leads to 'Microsatellite Instability' (MSI). Because these repeating sequences are prone to errors during replication, their instability drives a high risk of colorectal carcinoma.",
+                buttonText: "Continue"
+            },
+            { 
+                type: "mcq", 
+                question: "Mutations in **BRCA1** and **BRCA2** impair Homologous Recombination (double-strand break repair). Which cancers do these mutations primarily drive?", 
+                options: [
+                    "Melanoma and Skin Cancer", 
+                    "Breast and Ovarian Cancers", 
+                    "Leukemias and Lymphomas"
+                ], 
+                answer: 1, 
+                explanation: "The BRCA proteins are essential for the high-fidelity repair of double-strand DNA breaks. When this system fails, genomic instability leads specifically to an increased risk of breast and ovarian malignancies." 
+            },
+            {
+                type: "concept",
+                title: "Enabler #2: Enabling Inflammation",
+                text: "While the immune system typically eliminates abnormal cells, tumors can manipulate the inflammatory response to their advantage.",
+                subtext: "Cancer cells trick the body into treating the tumor as a 'wound that won't heal,' recruiting macrophages and neutrophils to serve as a supportive 'construction crew.'",
+                buttonText: "How are they hijacked?"
+            },
+            { 
+                type: "mcq", 
+                question: "Once brainwashed by a tumor, do inflammatory cells secrete growth factors (EGF) and angiogenic signals (VEGF) that actively feed the cancer?", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Tumor-associated macrophages often switch to an 'M2' phenotype, releasing factors that promote tumor cell proliferation and the growth of new blood vessels (angiogenesis)." 
+            },
+            { 
+                type: "mcq", 
+                question: "How do hijacked inflammatory cells facilitate cancer invasion and metastasis?", 
+                options: [
+                    "They arrest cancer cells to keep them in place", 
+                    "They release protease enzymes (MMPs) that digest the tissue matrix", 
+                    "They build a thick bone wall around the tumor"
+                ], 
+                answer: 1, 
+                explanation: "Inflammatory cells produce Matrix Metalloproteinases (MMPs) which degrade the extracellular matrix, effectively clearing a path for cancer cells to migrate and enter the circulation." 
+            },
+            {
+                type: "match",
+                question: "Match the compromised system or mechanism to its clinical consequence.",
+                pairs: [
+                    { left: "Broken Mismatch Repair", right: "Lynch Syndrome (Colon Cancer)" },
+                    { left: "Broken Homologous Recombination", right: "BRCA1/BRCA2 (Breast Cancer)" },
+                    { left: "Hijacked Macrophages", right: "Secretion of VEGF for Angiogenesis" },
+                    { left: "Immune-derived MMPs", right: "Degradation of ECM for Invasion" }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.5.2": {
+        title: "Chromosomal Damage (Tangled Blueprints) 🧬",
+        objectives: ["Learn how cancer cells swap, copy, delete, and shatter massive chunks of their DNA to dysregulate oncogenes and tumor suppressors."],
+        data: [
+            {
+                type: "concept",
+                title: "The Tangled Blueprints",
+                text: "Cancer cells often go beyond single-letter DNA 'typos' and rip up entire pages of the genetic blueprint.",
+                subtext: "These massive structural changes are called **Chromosomal Abnormalities**. Cells can swap, copy, delete, or even shatter entire chromosomes to radically dysregulate gene expression.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Gene Swap: Translocations",
+                text: "A **Translocation** occurs when two different chromosomes break and the resulting fragments accidentally swap places.",
+                subtext: "This can physically fuse two different genes together, creating a brand-new, mutant 'Frankenstein' gene with novel functions.",
+                buttonText: "See a classic example"
+            },
+            { 
+                type: "mcq", 
+                question: "The t(9;22) translocation creates the famous **Philadelphia Chromosome**. Which classic cancer is driven by this specific gene swap?", 
+                options: [
+                    "Chronic Myeloid Leukemia (CML)", 
+                    "Melanoma", 
+                    "Colon Cancer"
+                ], 
+                answer: 0, 
+                explanation: "The Philadelphia Chromosome fuses the BCR and ABL genes. This produces a mutant tyrosine kinase that can be specifically inhibited by the drug Imatinib (Gleevec)." 
+            },
+            {
+                type: "concept",
+                title: "The Hijacked Promoter",
+                text: "Translocations can also move a normal growth gene into a hyperactive 'neighborhood'.",
+                subtext: "In **Burkitt Lymphoma**, the *MYC* growth gene on chromosome 8 is translocated next to a highly active antibody gene promoter on chromosome 14.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "The *MYC* gene is an ____________ (a gas pedal for growth). By moving it next to a highly active promoter, the cell massively ____________ the *MYC* protein.",
+                options: ["Oncogene", "Tumor Suppressor", "Overexpresses", "Deletes"],
+                answer: [0, 2],
+                explanation: "The *MYC* gene itself is not necessarily mutated; it is simply overexpressed because it has been placed in front of a hyperactive genetic 'megaphone'.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Copy Machine: Gene Amplification",
+                text: "In **Gene Amplification**, the cancer cell hijacks replication machinery to make dozens or hundreds of extra copies of a single oncogene.",
+                subtext: "Under a microscope, these extra copies can appear as tiny, extra-chromosomal dots of DNA called 'Double Minutes'.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "In 20% of breast cancers, the *HER2* gene is amplified. Does this mean there are no targeted therapies available to treat these aggressive tumors?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "The overexpression of HER2 provides a specific target for the drug **Trastuzumab (Herceptin)**, a monoclonal antibody that hunts down cells with these extra receptors." 
+            },
+            {
+                type: "concept",
+                title: "Erasing the Brakes: Deletions",
+                text: "**Deletions** involve the loss of large segments of a chromosome.",
+                subtext: "This is a common method for cancer cells to permanently eliminate the genes that would otherwise stop their growth.",
+                buttonText: "What do they delete?"
+            },
+            { 
+                type: "mcq", 
+                question: "When a cancer cell undergoes a massive chromosomal deletion, which genes is it most likely trying to eliminate?", 
+                options: ["Oncogenes", "Tumor Suppressor Genes"], 
+                answer: 1, 
+                explanation: "Cancer cells use deletions to permanently erase **Tumor Suppressor genes** (like *p53* or *RB*). Erasing an oncogene would be counterproductive to the tumor's growth." 
+            },
+            {
+                type: "concept",
+                title: "Total Chaos: Chromothripsis",
+                text: "The final level of chromosomal disaster includes **Aneuploidy** (wrong number of chromosomes) and **Chromothripsis**.",
+                subtext: "Chromothripsis, or 'chromosome shattering,' occurs when a chromosome breaks into dozens of pieces and is stitched back together in a random, scrambled order.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "match",
+                question: "Match the chromosomal abnormality to its clinical or molecular feature.",
+                pairs: [
+                    { left: "t(9;22)", right: "BCR-ABL fusion in CML." },
+                    { left: "t(8;14)", right: "MYC overexpression in Burkitt Lymphoma." },
+                    { left: "Gene Amplification", right: "HER2 copies in Breast Cancer." },
+                    { left: "Deletion", right: "Loss of Tumor Suppressor genes." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.5.3": {
+        title: "Epigenetic Changes (The Ghost Code) 👻",
+        objectives: ["Understand how cancer silences genes without DNA mutations, learn the effects of methylation and histone modification, and identify the role of microRNAs."],
+        data: [
+            {
+                type: "concept",
+                title: "The Ghost Code",
+                text: "Cancer can turn genes off even when the underlying DNA sequence is perfectly normal.",
+                subtext: "This occurs through **Epigenetics** ('above genetics'), which involves changes in how DNA is read without altering the A, T, C, and G letters themselves.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "DNA Methylation",
+                text: "The primary epigenetic mechanism used by cancer is **DNA Methylation**.",
+                subtext: "Cells naturally use 'methyl tags' on the promoter region of a gene to silence it. Cancer hijacks this system to 'mute' genes that would otherwise stop tumor growth.",
+                buttonText: "Silencing the Brakes"
+            },
+            {
+                type: "fill",
+                question: "In many cancers, the promoter regions of ____________ genes (like p53) undergo massive ____________. Because the switch is muted, the cell's brakes are turned off.",
+                options: ["Tumor Suppressor", "Oncogene", "Hypermethylation", "Hypomethylation"],
+                answer: [0, 2],
+                explanation: "By hypermethylating the promoter regions of tumor suppressor genes, the cancer cell successfully silences its internal security guards without needing to physically delete the DNA.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Global Hypomethylation",
+                text: "While cancer silences specific tumor suppressors, it often strips methyl tags from the rest of the genome.",
+                subtext: "This **global hypomethylation** leads to physical instability of the chromosomes, further increasing the genomic instability that allows cancer to evolve.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Is the silencing of genes through hypermethylation permanent because it destroys the underlying DNA letters?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Because the DNA letters are perfectly intact underneath the methyl tags, epigenetic changes are reversible. Demethylating drugs can strip these tags and reactivate the silenced genes." 
+            },
+            {
+                type: "concept",
+                title: "The Locked Safe: Histones",
+                text: "DNA is wrapped tightly around protein spools called **Histones**.",
+                subtext: "Cancer cells manipulate enzymes like **HDACs** (Histone Deacetylases) to keep the DNA of tumor suppressors wound so tightly that it cannot be accessed or read by the cell's machinery.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Stealth Assassins: microRNAs",
+                text: "Noncoding DNA produces **microRNAs (miRNAs)**—tiny RNA strands that do not build proteins.",
+                subtext: "Instead, they act as post-transcriptional regulators, binding to messenger RNAs (mRNAs) and destroying them or blocking their translation into proteins.",
+                buttonText: "miRNAs in Cancer"
+            },
+            { 
+                type: "mcq", 
+                question: "A specific microRNA is overproduced in a cell to hunt down and destroy the messages for a tumor suppressor. What is this called?", 
+                options: [
+                    "An OncomiR", 
+                    "A Tumor Suppressor miRNA", 
+                    "A Direct-Acting Carcinogen"
+                ], 
+                answer: 0, 
+                explanation: "Because they destroy the mRNA of tumor suppressors, these overexpressed microRNAs facilitate cancer growth and are termed OncomiRs." 
+            },
+            { 
+                type: "mcq", 
+                question: "In order to grow, cancer cells will massively overproduce microRNAs that naturally destroy Oncogenes.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "If a microRNA targets an oncogene, the cancer cell will typically delete or silence it. The loss of these 'Tumor Suppressor miRNAs' allows oncogenes to be expressed unchecked." 
+            },
+            {
+                type: "sort",
+                question: "Match the epigenetic or RNA mechanism to its consequence in cancer.",
+                buckets: ["Silencing", "Instability/Growth"],
+                items: [
+                    { text: "Hypermethylation of a promoter.", bucket: 0 },
+                    { text: "Global Hypomethylation.", bucket: 1 },
+                    { text: "OncomiR (Hunts suppressor mRNA).", bucket: 1 },
+                    { text: "Histone Deacetylation (HDACs).", bucket: 0 }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "5.6.1"
+    },
+
+    // UNIT 6
+    "5.6.1": {
+        title: "Oncogenes: The Stuck Gas Pedal 🏎️",
+        objectives: ["Understand the concept of 'Hallmarks,' distinguish between proto-oncogenes and oncogenes, and trace the hijacked growth pathway from surface to nucleus."],
+        data: [
+            {
+                type: "concept",
+                title: "The Hallmarks of Cancer",
+                text: "The **Hallmarks of Cancer** are a set of fundamental cellular superpowers that every malignancy must acquire to survive and proliferate.",
+                subtext: "The first major hallmark is **Self-Sufficiency in Growth Signals**. Normal cells require external instructions to divide; cancer cells generate their own.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Stuck Gas Pedal",
+                text: "Normal genes that regulate growth are called **Proto-oncogenes**. When mutated into hyperactive versions, they are called **Oncogenes**.",
+                subtext: "Think of a proto-oncogene as a normal car gas pedal. An oncogene is a gas pedal permanently stuck to the floor, driving the cell forward regardless of external signals.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Does it usually only take a mutation in ONE of the two gene copies (alleles) for an oncogene to force a cell to grow out of control?", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Oncogenes are dominant. A mutation in a single allele (a 'single hit') is sufficient to induce the pro-growth phenotype, as the hyperactive protein overrides the signals of the remaining normal allele." 
+            },
+            {
+                type: "concept",
+                title: "The 4 Steps of Growth",
+                text: "Normal growth signals follow a predictable 4-step pathway:\n\n" +
+                    "1. **Growth Factors:** External messengers.\n" +
+                    "2. **Growth Receptors:** Surface antennas.\n" +
+                    "3. **Signal Transducers:** Cytoplasmic relay switches.\n" +
+                    "4. **Transcription Factors:** Nuclear regulators of gene expression.",
+                subtext: "Cancer can hijack any of these steps to achieve self-sufficiency.",
+                buttonText: "Step 1: Growth Factors"
+            },
+            { 
+                type: "mcq", 
+                question: "What does an 'autocrine loop' allow a cancer cell to do?", 
+                options: [
+                    "It allows the cell to destroy its own DNA", 
+                    "The cell synthesizes and secretes the same growth factors its own receptors respond to", 
+                    "It allows the cell to grow without any nutrients or blood supply"
+                ], 
+                answer: 1, 
+                explanation: "In an autocrine loop, a tumor cell produces both a growth factor and its corresponding receptor, creating a self-sustaining cycle of continuous proliferation." 
+            },
+            {
+                type: "concept",
+                title: "Step 2 & 3: Antennas and Relays",
+                text: "**Step 2 (Receptor):** Cancers can overexpress receptors like **HER2**, making them hyper-sensitive to even trace amounts of growth factors.",
+                subtext: "**Step 3 (Transducer):** The **RAS** protein is the most common mutated signal transducer, found in roughly 30% of all human tumors.",
+                buttonText: "The RAS Trap"
+            },
+            {
+                type: "fill",
+                question: "Normally, RAS turns 'ON' by grabbing GTP and 'OFF' by breaking it. Mutant RAS cannot break GTP and is trapped in the ____________ position, constantly telling the cell to ____________.",
+                options: ["OFF", "ON", "Divide", "Apoptose"],
+                answer: [1, 2],
+                explanation: "Point mutations in RAS frequently destroy its GTPase activity. This keeps RAS permanently in the active, GTP-bound state, continuously signaling the cell to divide.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Step 4: The Boss in the Nucleus",
+                text: "The final step in the growth cascade is the activation of **Transcription Factors** in the nucleus.",
+                subtext: "The oncogene **MYC** is the most famous example. When overexpressed or mutated, it binds to DNA and activates a massive program of genes required for rapid and endless cell division.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "match",
+                question: "Trace the growth pathway: Match the oncogene or mechanism to its cellular role.",
+                pairs: [
+                    { left: "Autocrine Loop", right: "Secretes its own Growth Factors." },
+                    { left: "HER2", right: "Over-amplified surface Growth Receptor." },
+                    { left: "RAS", right: "Trapped 'ON' Signal Transducer relay." },
+                    { left: "MYC", right: "Nuclear Transcription Factor boss." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.6.2": {
+        title: "Tumor Suppressor Genes (The Broken Brakes) 🛑",
+        objectives: ["Master the second Hallmark of Cancer! Learn the 'Two-Hit' rule for Tumor Suppressor Genes, meet the 'Governor' (RB), and understand the role of p53."],
+        data: [
+            {
+                type: "concept",
+                title: "The Second Hallmark",
+                text: "While oncogenes act as a stuck gas pedal, cancer must also disable the cell's natural braking system.",
+                subtext: "The second hallmark of cancer is **Insensitivity to Growth Inhibition**, achieved by the permanent destruction of the genes responsible for stopping the cell cycle.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Brake Lines: TSGs",
+                text: "The body’s biological brakes are called **Tumor Suppressor Genes (TSGs)**. Their primary role is to monitor cellular health and stop the cell cycle if errors are detected.",
+                subtext: "When these genes are inactivated, the cell loses its ability to halt division, allowing mutations to accumulate.",
+                buttonText: "How are they broken?"
+            },
+            { 
+                type: "mcq", 
+                question: "Do Tumor Suppressor Genes typically follow a 'Two-Hit' rule, meaning both copies (alleles) of the gene must be broken to lose function?", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Unlike dominant oncogenes, tumor suppressor genes are typically recessive. A cell can usually function with one healthy copy; both alleles must be inactivated for the 'brakes' to fail completely." 
+            },
+            {
+                type: "concept",
+                title: "The Governor: RB",
+                text: "The **RB (Retinoblastoma)** protein is known as the 'Governor of Proliferation.'",
+                subtext: "It acts as a gatekeeper for the G1-S transition of the cell cycle. Unless RB releases its hold, the cell cannot progress to DNA replication.",
+                buttonText: "How does it work?"
+            },
+            { 
+                type: "mcq", 
+                question: "RB normally binds to and sequesters a transcription factor called **E2F**. If a cancer cell destroys both copies of the RB gene, what happens to E2F?", 
+                options: [
+                    "E2F is completely destroyed as well", 
+                    "E2F is released, allowing it to force the cell to copy DNA endlessly", 
+                    "E2F turns into an epithelial cell"
+                ], 
+                answer: 1, 
+                explanation: "When RB is absent or inactivated, E2F is free to enter the nucleus and activate the genes required for the S phase, driving the cell cycle forward without restriction." 
+            },
+            {
+                type: "concept",
+                title: "The Guardian of the Genome: p53",
+                text: "**p53** is the most important gene in human cancer and is mutated in over 50% of all tumors.",
+                subtext: "It is the cell's primary sensor for stress and DNA damage, triggered by chemicals, radiation, or hypoxia.",
+                buttonText: "The p53 Ultimatum"
+            },
+            {
+                type: "fill",
+                question: "When p53 detects damage, it halts the cell cycle to allow time to ____________ the DNA. If the damage is beyond repair, it forces the cell to undergo ____________.",
+                options: ["Repair", "Apoptosis", "Mutate", "Mitosis"],
+                answer: [0, 1],
+                explanation: "p53 ensures that damaged genetic material is not passed on to daughter cells. It either fixes the error or eliminates the defective cell entirely through programmed cell death.",
+                buttonText: "Continue"
+            },
+            { 
+                type: "mcq", 
+                question: "If a cancer cell successfully deletes both copies of the p53 gene, does the cell instantly die?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Loss of p53 allows a damaged cell to survive and continue dividing. This leads to massive genomic instability as new mutations are acquired and never repaired." 
+            },
+            {
+                type: "concept",
+                title: "The Gatekeeper: APC",
+                text: "**APC** is known as the 'Gatekeeper of Colonic Neoplasia.'",
+                subtext: "It normally facilitates the destruction of **β-catenin**, a growth-promoting protein. Loss of APC allows β-catenin to accumulate and trigger the formation of thousands of polyps (FAP).",
+                buttonText: "Got it!"
+            },
+            {
+                type: "match",
+                question: "Brake Shop: Match the Tumor Suppressor Gene or rule to its classic description.",
+                pairs: [
+                    { left: "TSG Rule", right: "Requires TWO hits to break the brakes." },
+                    { left: "RB", right: "The Governor (Traps E2F)." },
+                    { left: "p53", right: "The Guardian (DNA Repair or suicide)." },
+                    { left: "APC", right: "The Gatekeeper (Destroyed in FAP)." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.6.3": {
+        title: "Evasion of Cell Death (Cheating the Reaper) 👻",
+        objectives: ["Master the third Hallmark of Cancer! Understand the intrinsic apoptosis pathway, the role of Caspases, and how cancer uses BCL2 as a protective shield."],
+        data: [
+            {
+                type: "concept",
+                title: "The Third Hallmark",
+                text: "Normally, if a cell suffers irreparable DNA damage, it is programmed to commit suicide via **Apoptosis**.",
+                subtext: "To survive and proliferate, a cancer cell must acquire the third Hallmark: **Evasion of Cell Death**. This allows the cell to ignore self-destruct signals and persist despite genomic damage.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Mitochondrial Vault",
+                text: "The trigger for the **Intrinsic Apoptosis Pathway** is sequestered within the mitochondria.",
+                subtext: "A molecule called **Cytochrome c** is trapped inside the mitochondrial membrane. If this molecule leaks into the cytoplasm, it initiates the biochemical process of cell death.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Cytochrome c activates a deadly cascade of enzymes called ____________. These enzymes act like cellular chainsaws, systematically chopping up proteins until the cell completes ____________.",
+                options: ["Caspases", "Telomerases", "Apoptosis", "Mitosis"],
+                answer: [0, 2],
+                explanation: "Caspases are proteolytic enzymes that serve as the executioners of the apoptotic program, dismantling the cell's structural and functional components.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Battle of the Pores",
+                text: "The release of Cytochrome c is regulated by the balance between opposing protein groups at the mitochondrial wall:\n\n" +
+                    "• **BAX and BAK:** (Pro-apoptotic) These proteins form pores to let Cytochrome c out.\n" +
+                    "• **BCL2:** (Anti-apoptotic) This protein acts as a shield, plugging the pores to keep Cytochrome c trapped.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "To evade cell death, will a successful cancer cell typically mutate its DNA to destroy its BCL2 shield?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Cancer cells benefit from **overexpressing** BCL2. By having more BCL2 shields, they can keep their mitochondrial pores closed and prevent apoptosis, even when the cell is severely damaged." 
+            },
+            {
+                type: "concept",
+                title: "Example: Follicular Lymphoma",
+                text: "A classic example of evading death is **Follicular Lymphoma**, a B-cell malignancy.",
+                subtext: "A **t(14;18) translocation** moves the *BCL2* gene next to a hyperactive antibody promoter. The result is a massive overproduction of the BCL2 protein, making the cells resistant to death.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "How does the massive overexpression of BCL2 make a cancer like Follicular Lymphoma dangerous?", 
+                options: [
+                    "It makes the cancer cell grow 100 times faster than normal", 
+                    "It keeps mitochondrial pores plugged, preventing Cytochrome c release and making cells immortal", 
+                    "It causes the cancer cell to spontaneously explode"
+                ], 
+                answer: 1, 
+                explanation: "Follicular lymphoma cells do not necessarily divide faster than normal cells; instead, they survive far longer because they have blocked the apoptosis pathway, allowing them to accumulate over time." 
+            },
+            {
+                type: "concept",
+                title: "Connecting the Hallmarks",
+                text: "Hallmarks often work in tandem. For example, **p53** (The Guardian of the Genome) normally activates BAX and BAK when it senses DNA damage.",
+                subtext: "By losing p53 (the second hallmark), the cancer ensures that the 'pore-makers' are never activated, perfectly complementing the overexpression of BCL2.",
+                buttonText: "Got it!"
+            },
+            {
+                type: "match",
+                question: "Match the protein or factor to its role in the evasion of cell death.",
+                pairs: [
+                    { left: "BAX and BAK", right: "The pore-makers (Pro-apoptotic)." },
+                    { left: "BCL2", right: "The shield/plug (Anti-apoptotic)." },
+                    { left: "Cytochrome c", right: "The trigger trapped inside mitochondria." },
+                    { left: "Caspases", right: "The executioner enzymes." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.6.4": {
+        title: "Limitless Replicative Potential ⏳",
+        objectives: ["Master the fourth Hallmark of Cancer! Learn about the biological clock of the cell (Telomeres) and how cancer hijacks Stem Cell powers to achieve true immortality."],
+        data: [
+            {
+                type: "concept",
+                title: "The Final Barrier",
+                text: "A cancer cell may possess pro-growth signals and evade death, but it still faces the barrier of cellular aging.",
+                subtext: "Normal human cells are not immortal; they have a built-in biological clock that limits how many times they can divide. To conquer the body, a cancer cell must acquire the fourth Hallmark: **Limitless Replicative Potential**.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Shoelace Tips: Telomeres",
+                text: "The ends of chromosomes are capped by protective DNA sequences called **Telomeres**.",
+                subtext: "Think of Telomeres like the plastic tips at the ends of shoelaces (aglets); they prevent DNA from fraying or fusing with other chromosomes during cell division.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "As a normal cell gets older, do its Telomeres get shorter with every division?", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "This is the cell's internal countdown clock. Because the DNA replication machinery cannot copy the very ends of chromosomes, a small portion of the telomere is lost every time a cell divides." 
+            },
+            {
+                type: "concept",
+                title: "The Hayflick Limit",
+                text: "When telomeres reach a critically short length, the cell hits a permanent barrier called the **Hayflick Limit**.",
+                subtext: "Without protective caps, the chromosomes become unstable. The cell senses this damage and enters a state of permanent non-division called **Senescence**, or it undergoes mitotic catastrophe and dies.",
+                buttonText: "The Fountain of Youth"
+            },
+            {
+                type: "fill",
+                question: "Cancer cells reactivate a special enzyme called ____________. This enzyme's job is to constantly rebuild and lengthen the ____________, granting the cell limitless replicative potential.",
+                options: ["Telomerase", "Telomeres", "Caspases", "Glycogen"],
+                answer: [0, 1],
+                explanation: "Telomerase maintains telomere length, preventing the cell from ever hitting the Hayflick limit and allowing it to divide indefinitely.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Stem Cell Robbery",
+                text: "In a healthy adult, **Telomerase** is silenced in almost all somatic tissues.",
+                subtext: "It is normally only active in **Stem Cells**, which must divide continuously to maintain tissue integrity. Cancer cells 'steal' this capability by inappropriately reactivating the hTERT gene.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "What is the clinical consequence of a tumor possessing a sub-population of immortal 'Cancer Stem Cells'?", 
+                options: [
+                    "The tumor will eventually age and die on its own", 
+                    "A single surviving Cancer Stem Cell can regenerate the entire tumor even after chemotherapy", 
+                    "The tumor cells transform back into healthy bone marrow"
+                ], 
+                answer: 1, 
+                explanation: "Cancer Stem Cells possess limitless replicative potential. If therapeutic interventions do not eliminate this specific population, the tumor can regrow from just one remaining cell." 
+            },
+            {
+                type: "match",
+                question: "Match the immortality concept to its physiological or pathological definition.",
+                pairs: [
+                    { left: "Telomeres", right: "Protective caps on the ends of chromosomes." },
+                    { left: "Senescence", right: "State of permanent cell cycle arrest." },
+                    { left: "Telomerase", right: "Enzyme that rebuilds chromosome caps." },
+                    { left: "Cancer Stem Cell", right: "A tumor cell with infinite replicative capacity." }
+                ],
+                explanation: ""
+            }
+        ],
+        next: "5.7.1"
+    },
+
+    // UNIT 7
+    "5.7.1": {
+        title: "The Sugar Addiction (The Warburg Effect) 🍭",
+        objectives: ["Master the fifth Hallmark of Cancer by discovering how tumors rewire their metabolism and how doctors use this 'sugar addiction' to spot cancer on a scan."],
+        data: [
+            {
+                type: "concept",
+                title: "The Fifth Hallmark",
+                text: "To support rapid and endless growth, cancer cells must acquire massive amounts of raw building materials.",
+                subtext: "To achieve this, cancer acquires the fifth Hallmark: **Growth-Promoting Metabolic Alterations**. This metabolic rewiring is known as **The Warburg Effect**.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Normal Metabolism",
+                text: "Healthy cells primarily generate energy (ATP) through **Oxidative Phosphorylation** in the mitochondria.",
+                subtext: "This is a highly efficient process that produces approximately 36 ATP per molecule of glucose when oxygen is present.",
+                buttonText: "What about low oxygen?"
+            },
+            { 
+                type: "mcq", 
+                question: "If a normal cell is starved of oxygen, it switches to a backup engine called Anaerobic Glycolysis, producing only 2 ATP and lactic acid.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Anaerobic glycolysis is the normal physiological backup used by healthy cells during hypoxia to maintain a minimal energy supply." 
+            },
+            {
+                type: "concept",
+                title: "The Warburg Weirdness",
+                text: "In the 1920s, Otto Warburg observed that cancer cells utilize the inefficient glycolysis pathway even when oxygen is plentiful.",
+                subtext: "This phenomenon is called **Aerobic Glycolysis**. The cancer cell intentionally bypasses its highly efficient mitochondria.",
+                buttonText: "Why be inefficient?"
+            },
+            { 
+                type: "mcq", 
+                question: "Why does a cancer cell choose an inefficient engine (2 ATP) over an efficient one (36 ATP) when oxygen is available?", 
+                options: [
+                    "It requires freezing cold temperatures to survive", 
+                    "It needs raw carbon building blocks to synthesize new DNA, proteins, and lipids", 
+                    "It requires high levels of carbon dioxide for growth"
+                ], 
+                answer: 1, 
+                explanation: "Glycolysis provides metabolic intermediates (carbon scraps) that are essential building blocks for synthesizing the cellular components required for rapid cell division." 
+            },
+            {
+                type: "fill",
+                question: "To survive using the Warburg Effect, cancer cells must massively upregulate the intake of ____________. They become dependent on this fuel source to maintain their high rate of growth.",
+                options: ["Oxygen", "Glucose (Sugar)", "Protein", "Water"],
+                answer: 1,
+                explanation: "Because Aerobic Glycolysis is energy-inefficient, cancer cells must consume enormous quantities of glucose to meet their metabolic demands.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Clinical Application: PET Scans 🏥",
+                text: "Doctors utilize the Warburg Effect to locate hidden tumors in the body.",
+                subtext: "Patients are injected with a radioactive form of sugar called **Fluorodeoxyglucose (FDG)**, which is then tracked using a PET scan machine.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Because cancer cells are 'addicted' to sugar, they will absorb radioactive FDG faster than healthy tissue, causing tumors to glow on a PET scan.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "PET scans visualize high rates of glucose consumption. The increased uptake of the radioactive tracer by malignant cells allows for the precise localization of tumors and metastases." 
+            },
+            {
+                type: "match",
+                question: "Metabolism Map: Match the metabolic state to its clinical or physiological description.",
+                pairs: [
+                    { left: "Oxidative Phosphorylation", right: "Highly efficient; 36 ATP; used by normal cells." },
+                    { left: "Anaerobic Glycolysis", right: "Backup engine used when oxygen is low." },
+                    { left: "The Warburg Effect", right: "Aerobic Glycolysis used to hoard building blocks." },
+                    { left: "FDG-PET Scan", right: "Imaging that identifies sugar-hungry tumors." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.7.2": {
+        title: "Tapping the Mainline (Angiogenesis) 🏗️",
+        objectives: ["Master the sixth Hallmark of Cancer! Learn why a tumor cannot grow beyond a few millimeters without a blood supply, and discover the role of VEGF."],
+        data: [
+            {
+                type: "concept",
+                title: "The Sixth Hallmark",
+                text: "While a cancer cell possesses endless replication and a massive appetite, there is a physical limit to how large a solid tumor can grow without help.",
+                subtext: "Without a dedicated blood supply, a solid tumor cannot grow larger than **1 to 2 millimeters**. To grow further, it must acquire the sixth Hallmark: **Angiogenesis**.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "If a tumor does not acquire the ability to stimulate angiogenesis, will it continue to grow using oxygen drawn directly from the air?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Oxygen and nutrients can only diffuse approximately 1 to 2 mm from a capillary. Without its own blood vessels, the center of a growing tumor will become hypoxic, starve, and undergo necrosis." 
+            },
+            {
+                type: "concept",
+                title: "The Angiogenic Switch",
+                text: "Normally, the body maintains a tight balance between pro-angiogenic factors and anti-angiogenic factors (like Thrombospondin-1).",
+                subtext: "A tumor must flip the 'Angiogenic Switch' by tilting this balance toward signals that force nearby blood vessels to sprout and migrate toward the tumor.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "The most potent pro-angiogenic factor secreted by tumors is ____________ (Vascular Endothelial Growth Factor). When endothelial cells detect this, they migrate and build new ____________.",
+                options: ["VEGF", "p53", "Capillaries", "Nerves"],
+                answer: [0, 2],
+                explanation: "VEGF is a critical signaling protein that stimulates the growth of new blood vessels from pre-existing ones, providing the tumor with a lifeline for nutrients and oxygen.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Hypoxia Trigger",
+                text: "As the center of a tumor reaches its diffusion limit, the cells begin to suffer from **Hypoxia** (low oxygen).",
+                subtext: "Hypoxia triggers a specialized protein called **HIF-1α** (Hypoxia-Inducible Factor), which acts as a sensor that directly activates the transcription of the VEGF gene.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "What is a major functional difference between normal blood vessels and the new vessels built by tumor angiogenesis?", 
+                options: [
+                    "Tumor vessels are made entirely of bone", 
+                    "Tumor vessels are disorganized, chaotic, and extremely 'leaky'", 
+                    "Tumor vessels only carry white blood cells"
+                ], 
+                answer: 1, 
+                explanation: "Tumor-induced vessels are characteristically tortuous and have loose inter-endothelial junctions. This leakiness allows for easier entry of cancer cells into the circulation (metastasizing)." 
+            },
+            {
+                type: "concept",
+                title: "The Twin Benefit",
+                text: "Angiogenesis provides two primary advantages for a malignancy:\n\n" +
+                    "1. **Supply:** It delivers oxygen and glucose for sustained growth.\n" +
+                    "2. **Growth Factors:** Newly formed endothelial cells secrete growth factors (like PDGF) that further stimulate the tumor cells.",
+                subtext: "",
+                buttonText: "Pharmacology link"
+            },
+            { 
+                type: "mcq", 
+                question: "Does the targeted drug **Bevacizumab (Avastin)** work by neutralizing VEGF to effectively starve the tumor?", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Bevacizumab is a monoclonal antibody that binds to VEGF, preventing it from interacting with its receptors on endothelial cells, thereby inhibiting new vessel growth." 
+            },
+            {
+                type: "match",
+                question: "Match the factor or concept to its specific role in tumor angiogenesis.",
+                pairs: [
+                    { left: "1 to 2 millimeters", right: "Maximum tumor size without a blood supply." },
+                    { left: "HIF-1α", right: "The sensor that pulls the hypoxia alarm." },
+                    { left: "VEGF", right: "The primary blood-vessel fertilizer." },
+                    { left: "Bevacizumab", right: "A targeted antibody that blocks VEGF." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.7.3": {
+        title: "Invasion & Metastasis (The Great Escape) ✈️",
+        objectives: ["Master the final, deadliest Hallmark: Invasion and Metastasis! Track the metastatic cascade, discover how cancer cells use molecular 'GPS' to home in on targets, and understand the 'Seed and Soil' hypothesis."],
+        data: [
+            {
+                type: "concept",
+                title: "The Final Hallmark",
+                text: "The true lethality of cancer lies in its ability to spread. The final Hallmark is **Invasion and Metastasis**.",
+                subtext: "Metastasis is responsible for over 90% of cancer-related deaths. It is a complex, multi-step journey known as the **Metastatic Cascade**.",
+                buttonText: "Step 1: Local Invasion"
+            },
+            {
+                type: "concept",
+                title: "Local Invasion",
+                text: "The journey begins with the breach of local tissues.",
+                subtext: "Cancer cells lose their E-cadherin adhesion, secrete protease enzymes (MMPs) to degrade the basement membrane, and utilize their cytoskeleton to crawl through the extracellular matrix.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Is it difficult for cancer cells to enter the bloodstream (Intravasation) because tumor-associated blood vessels have thick, impenetrable walls?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Tumor-associated vessels are notoriously disorganized and 'leaky.' These structural defects provide an easy gateway for invading cancer cells to slip into the systemic circulation." 
+            },
+            {
+                type: "concept",
+                title: "Step 2: Vascular Dissemination",
+                text: "Once inside the bloodstream, cancer cells face significant challenges, including mechanical shear stress and patrolling immune cells like **Natural Killer (NK) cells**.",
+                subtext: "To survive, tumor cells must find a way to shield themselves from these physical and biological threats.",
+                buttonText: "How do they survive?"
+            },
+            { 
+                type: "mcq", 
+                question: "How does a circulating tumor cell typically protect itself while traveling through the bloodstream?", 
+                options: [
+                    "It builds a tiny shell out of calcium", 
+                    "It coats itself in a layer of host Platelets and Coagulation factors to form a 'shield'", 
+                    "It moves so fast that immune cells cannot identify it"
+                ], 
+                answer: 1, 
+                explanation: "Circulating tumor cells often aggregate with host platelets to form 'tumor cell-platelet emboli.' This shield protects them from mechanical damage and hides them from immune recognition." 
+            },
+            {
+                type: "concept",
+                title: "Step 3: Molecular Homing",
+                text: "Cancer cells do not exit the blood randomly; they use a molecular navigation system called **Homing**.",
+                subtext: "Cells express specific **Chemokine Receptors** that act as antennas, detecting chemical beacons (chemokines) released by specific target organs.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "According to the 'Seed and Soil' hypothesis, a cancer cell (the seed) only grows where the organ (the soil) provides the right environment. For example, Prostate cancer cells frequently home to the ____________.",
+                options: ["Brain", "Bone", "Skin", "Stomach"],
+                answer: 1,
+                explanation: "Specific interactions between the tumor's surface receptors and the microenvironment of the bone make it a highly receptive 'soil' for prostate cancer colonization.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Tumor Dormancy",
+                text: "Sometimes, a 'seed' lands in distant soil but does not grow immediately.",
+                subtext: "This is called **Tumor Dormancy**. Cancer cells can remain silently sequestered in a distant organ for years or decades before unknown triggers cause them to wake up and form a clinical metastasis.",
+                buttonText: "Got it!"
+            },
+            { 
+                type: "order", 
+                question: "Arrange the steps of the Metastatic Cascade in the correct chronological order.", 
+                items: [
+                    "Local Invasion (Breaching the basement membrane)", 
+                    "Intravasation (Entering leaky blood vessels)", 
+                    "Vascular Dissemination (Hiding in a platelet shield)", 
+                    "Homing & Colonization (Settling in compatible 'soil')"
+                ], 
+                explanation: "This sequence illustrates the gauntlet of survival challenges a cancer cell must overcome to successfully establish a secondary tumor." 
+            }
+        ]
+    },
+    "5.7.4": {
+        title: "Immune Evasion (Hiding in Plain Sight) 🥷",
+        objectives: ["Learn how the immune system hunts cancer, discover what 'Tumor Antigens' are, and reveal the tricks cancer uses to turn off the body's police force."],
+        data: [
+            {
+                type: "concept",
+                title: "The Constant War",
+                text: "The body possesses a built-in security system known as **Immune Surveillance**.",
+                subtext: "Immune cells constantly patrol tissues to identify and destroy abnormal cells. To survive, a successful cancer must acquire the Hallmark of **Evasion of the Immune System**.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Mugshots: Tumor Antigens",
+                text: "Cancer cells produce abnormal proteins that serve as markers for the immune system. These are called **Tumor Antigens**.",
+                subtext: "These include **Neoantigens** (produced by mutated DNA), viral proteins (like HPV), or overexpressed normal proteins (like HER2) that appear foreign to the body.",
+                buttonText: "Who hunts them?"
+            },
+            { 
+                type: "mcq", 
+                question: "Which primary immune cell is responsible for recognizing tumor antigens and physically eliminating the cancer cell?", 
+                options: [
+                    "CD8+ Cytotoxic T-Lymphocyte", 
+                    "Red Blood Cell", 
+                    "Fibroblast"
+                ], 
+                answer: 0, 
+                explanation: "CD8+ Cytotoxic T-cells are the primary effectors of the anti-tumor immune response. Upon recognizing a specific tumor antigen, they induce apoptosis in the target cell." 
+            },
+            {
+                type: "concept",
+                title: "Trick 1: Dropping the Disguise",
+                text: "The first evasion strategy is **Antigen-Negative Selection**.",
+                subtext: "If the immune system successfully eliminates cells carrying a specific mutant protein, only the cells that do not express that antigen survive. The tumor eventually consists entirely of cells that the 'police' cannot see.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Trick 2: Hiding the ID Badge",
+                text: "T-cells can only 'see' a tumor antigen if it is displayed on a specialized surface molecule.",
+                subtext: "This molecule is called **MHC Class I**. If the cell does not present the antigen on this 'tray,' the T-cell will not recognize the cell as a threat.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Many aggressive cancers downregulate or delete their ____________ molecules. Even with internal mutations, the cancer refuses to display them, making the cell ____________ to T-cells.",
+                options: ["MHC Class I", "Invisible", "PD-L1", "Giant"],
+                answer: [0, 1],
+                explanation: "The loss of MHC Class I expression allows cancer cells to avoid being identified by patrolling Cytotoxic T-cells, even when highly abnormal proteins are present inside the cell.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Trick 3: The Jedi Mind Trick",
+                text: "The most sophisticated trick involves hijacking **Immune Checkpoints**.",
+                subtext: "T-cells have a natural 'Off Switch' called **PD-1**. Cancer cells can express a protein called **PD-L1** that binds to this switch, effectively putting the T-cell to 'sleep' and preventing an attack.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "If a patient is given an immunotherapy drug (Checkpoint Inhibitor) that blocks the cancer's PD-L1 arm, what is the expected result?", 
+                options: [
+                    "The cancer cell will grow twice as fast", 
+                    "The T-cell remains active, allowing it to recognize and destroy the tumor", 
+                    "The T-cell will mutate into a cancer cell"
+                ], 
+                answer: 1, 
+                explanation: "Checkpoint inhibitors prevent the cancer cell from silencing the immune response. By blocking the PD-1/PD-L1 interaction, the drug 'unleashes' the body's own T-cells to attack the malignancy." 
+            },
+            {
+                type: "match",
+                question: "Stealth Handbook: Match the immune evasion concept to its mechanism.",
+                pairs: [
+                    { left: "Neoantigens", right: "Mutant proteins that alert the immune system." },
+                    { left: "Antigen-Negative Selection", right: "Survival of cells that lose the mutant protein marker." },
+                    { left: "MHC Class I Loss", right: "Hiding the display tray from patrolling T-cells." },
+                    { left: "PD-L1 Expression", right: "Activating the T-cell's 'Off Switch' (PD-1)." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.7.5": {
+        title: "Multistep Carcinogenesis (The Staircase) 🪜",
+        objectives: ["Synthesize everything you've learned to understand how a normal cell climbs the 'staircase' of mutations over time, using the classic Colon Cancer model."],
+        data: [
+            {
+                type: "concept",
+                title: "The Grand Finale",
+                text: "Cancer is never an overnight event; it is a **Multistep Process**.",
+                subtext: "A cell must accumulate multiple, specific genetic mutations over years or decades to transform from a healthy cell into a metastatic malignancy.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "If a healthy cell suffers a single mutation that destroys its p53 gene, is that enough to instantly turn it into a metastatic cancer?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "A single mutation is insufficient. Carcinogenesis requires the stepwise accumulation of multiple mutations (typically 4 to 7) involving both oncogenes and tumor suppressor genes." 
+            },
+            {
+                type: "concept",
+                title: "The Classic Model: Colon Cancer",
+                text: "The **Adenoma-Carcinoma Sequence** in the colon provides the best visual model for multistep carcinogenesis.",
+                subtext: "Through colonoscopy, clinicians can observe the physical transformation of tissue as it climbs the 'staircase' of genetic errors.",
+                buttonText: "Step 1: The Gatekeeper"
+            },
+            {
+                type: "fill",
+                question: "The first step in colon cancer is typically the loss of the ____________ gene. Without this anchor, cells begin to divide too fast, creating hyper-proliferative tissue.",
+                options: ["APC", "KRAS", "VEGF", "Telomerase"],
+                answer: 0,
+                explanation: "Loss of the APC tumor suppressor gene is the 'gatekeeping' event. It results in the accumulation of β-catenin, which drives early cellular proliferation.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "Step 2: Sticking the Gas Pedal",
+                text: "Because the APC-mutated cells are dividing rapidly, they are prone to acquiring further DNA errors.",
+                subtext: "The second major step often involves a mutation in an oncogene, usually **KRAS**. This forces the tissue to overgrow into a benign polyp called an **Adenoma**.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "To transition from a benign Adenoma into a malignant, invasive Carcinoma, which 'Guardian' gene must typically be destroyed?", 
+                options: ["p53", "E-cadherin", "Cytochrome c"], 
+                answer: 0, 
+                explanation: "The loss of p53 function is the critical 'tipping point' that allows a benign adenoma to acquire the genomic instability necessary to become an invasive carcinoma." 
+            },
+            {
+                type: "concept",
+                title: "Step 4: The Final Superpowers",
+                text: "Once the tumor becomes a malignant Carcinoma, it continues to accumulate mutations to ensure its survival.",
+                subtext: "It activates **Telomerase** for immortality, secretes **VEGF** for blood supply, and downregulates **E-cadherin** to initiate invasion and metastasis.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "Because all cells in a tumor originate from one single mutated ancestor, is every cell in a late-stage tumor genetically identical?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "As a tumor grows, its genomic instability leads to the development of different sub-clones with different mutations. This is known as **Tumor Heterogeneity**, and it contributes to chemotherapy resistance." 
+            },
+            { 
+                type: "order", 
+                question: "Arrange the classic genetic steps of the Adenoma-Carcinoma sequence in the correct chronological order.", 
+                items: [
+                    "Loss of APC (Hyper-proliferation)", 
+                    "Mutation of KRAS (Benign Adenoma)", 
+                    "Loss of p53 (Malignant Carcinoma)", 
+                    "Loss of E-cadherin & VEGF secretion (Metastasis)"
+                ], 
+                explanation: "This sequential progression (often summarized as APC -> KRAS -> p53) is the fundamental paradigm for understanding how solid tumors evolve." 
+            }
+        ],
+        next: "5.8.1"
+    },
+
+    // UNIT 8
+    "5.8.1": {
+        title: "Clinical Manifestations & Cachexia 🏥",
+        objectives: ["Learn how tumors physically harm the patient, understand the biochemical cause of cancer 'wasting' (Cachexia), and decode Paraneoplastic Syndromes."],
+        data: [
+            {
+                type: "concept",
+                title: "The Clinical Battlefield",
+                text: "A tumor's impact on a patient involves more than just microscopic mutations. Clinically, tumors harm the host through three primary mechanisms:",
+                subtext: "1. **Local and Hormonal Effects** (Location)\n2. **Cancer Cachexia** (Systemic wasting)\n3. **Paraneoplastic Syndromes** (Bizarre systemic symptoms)",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Location, Location, Location",
+                text: "The physical site of a tumor determines its immediate clinical danger. Masses can compress blood vessels, obstruct the bowel, or crush vital nerves.",
+                subtext: "Because of this, a 'benign' tumor can be clinically fatal if it occurs in a critical anatomical location.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "A patient develops a benign, slow-growing meningioma (a tumor of the brain's lining). Does this pose zero threat to the patient's life because it is not malignant?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Even benign tumors can be lethal by virtue of their location. Inside the rigid skull, an expanding mass increases intracranial pressure and can crush healthy brain tissue, leading to coma or death." 
+            },
+            {
+                type: "concept",
+                title: "Hormonal Warfare",
+                text: "Tumors arising in endocrine glands (e.g., pancreas, thyroid, adrenal glands) can cause systemic chaos through hormone overproduction.",
+                subtext: "A small, benign adenoma in the pancreatic beta cells can produce enough insulin to cause fatal hypoglycemia, even if the tumor itself is tiny.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Wasting Syndrome: Cachexia",
+                text: "Many cancer patients suffer from **Cachexia**: a state of progressive weakness, anorexia, and massive loss of both body fat and lean muscle.",
+                subtext: "Cachexia is not simply caused by the tumor 'eating the patient's food' or the patient eating less; it is a complex metabolic derangement.",
+                buttonText: "What causes it?"
+            },
+            {
+                type: "fill",
+                question: "Cachexia is primarily driven by inflammatory ____________ (like TNF-α). These molecules rewire metabolism, causing massive muscle ____________ regardless of caloric intake.",
+                options: ["Cytokines", "Lipids", "Breakdown", "Growth"],
+                answer: [0, 2],
+                explanation: "TNF-α (also called cachectin) and other mediators increase the basal metabolic rate and stimulate the breakdown of myofibrillar proteins, making the wasting resistant to nutritional supplementation.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Imposters: Paraneoplastic Syndromes",
+                text: "**Paraneoplastic Syndromes** occur in about 10% of cancer patients.",
+                subtext: "These are systemic symptoms that cannot be explained by the tumor's local spread or the indigenous hormones of the tissue of origin. The tumor effectively 'impersonates' the function of a different organ.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "A patient with Small Cell Carcinoma of the lung develops Cushing Syndrome due to high levels of ACTH (a pituitary hormone). Why?", 
+                options: [
+                    "The lung tumor metastasized to the brain", 
+                    "The lung cancer cells mutated to inappropriately manufacture their own ACTH", 
+                    "The patient's pituitary gland developed a second tumor"
+                ], 
+                answer: 1, 
+                explanation: "This is an example of ectopic hormone production. The cancer cells unlock and express genetic code that is normally silenced in lung tissue, leading to a systemic paraneoplastic syndrome." 
+            },
+            { 
+                type: "mcq", 
+                question: "Is Trousseau Syndrome (wandering blood clots caused by procoagulants from a lung or pancreas tumor) classified as a Paraneoplastic Syndrome?", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "Because the thrombotic events occur at sites distant from the tumor and are caused by tumor-secreted factors rather than local invasion, it meets the criteria for a paraneoplastic syndrome." 
+            },
+            {
+                type: "match",
+                question: "Match the clinical presentation to the correct oncological mechanism.",
+                pairs: [
+                    { left: "Tumor crushing the optic nerve", right: "Local Effect (Location)" },
+                    { left: "Adenoma causing low blood sugar", right: "Normal Hormonal Effect" },
+                    { left: "Profound muscle loss (TNF-α)", right: "Cancer Cachexia" },
+                    { left: "Lung tumor making ACTH", right: "Paraneoplastic Syndrome" }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.8.2": {
+        title: "Measuring the Threat (Grading & Staging) 📏",
+        objectives: ["Learn how oncologists quantify the danger of a tumor, understand the difference between Grading and Staging, and master the TNM system."],
+        data: [
+            {
+                type: "concept",
+                title: "Measuring the Threat",
+                text: "Pathologists and oncologists use two distinct standardized systems to determine the severity of a cancer and plan treatment.",
+                subtext: "These two systems are **Grading** (the microscopic behavior of the cells) and **Staging** (the physical extent of the disease throughout the body).",
+                buttonText: "See Grading"
+            },
+            {
+                type: "concept",
+                title: "The Microscope View: Grading",
+                text: "**Grading** is based entirely on the microscopic appearance of the tumor cells.",
+                subtext: "Pathologists evaluate the degree of **Differentiation** (how much they resemble normal cells) and the number of mitotic figures (how fast they are dividing). Cancers are typically graded from I to IV.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "A **Grade I** tumor is low-risk because the cells are ____________. A **Grade IV** tumor is high-risk because the cells show extreme ____________.",
+                options: ["Well-differentiated", "Anaplasia", "Benign", "Apoptosis"],
+                answer: [0, 1],
+                explanation: "Grading describes the degree of malignancy. High-grade tumors are poorly differentiated or anaplastic and tend to be more aggressive than low-grade tumors.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Whole-Body View: Staging",
+                text: "**Staging** evaluates the extent of the disease in the entire patient, rather than just the microscopic features of the cells.",
+                subtext: "Staging is determined by clinical examination, imaging (CT, MRI, or PET scans), and surgical exploration to see how far the tumor has physically spread.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The TNM System",
+                text: "The **TNM System** is the global standard for cancer staging, scoring three categories:\n\n" +
+                    "• **T (Primary Tumor):** Size and level of local invasion (T1 to T4).\n" +
+                    "• **N (Nodes):** Involvement of regional lymph nodes (N0 to N3).\n" +
+                    "• **M (Metastasis):** Presence of distant metastases (M0 or M1).",
+                subtext: "",
+                buttonText: "Practice Staging"
+            },
+            { 
+                type: "mcq", 
+                question: "A patient's breast cancer is staged as **T2, N1, M0**. Based on this TNM score, what is true about the cancer?", 
+                options: [
+                    "The tumor is at its maximum size (T4)", 
+                    "The cancer has spread to distant organs like the liver", 
+                    "The cancer has reached local lymph nodes, but not distant organs"
+                ], 
+                answer: 2, 
+                explanation: "N1 indicates that the cancer has spread to regional lymph nodes, while M0 indicates that there is no evidence of distant metastatic spread." 
+            },
+            { 
+                type: "mcq", 
+                question: "Is the microscopic Grade considered more clinically important for prognosis than the whole-body Stage?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "**Staging is the ultimate predictor of survival.** The physical extent of spread (Stage) is a much more critical factor in determining prognosis and treatment strategy than the microscopic appearance (Grade)." 
+            },
+            {
+                type: "sort",
+                question: "Sort the concepts into the correct clinical measurement system.",
+                buckets: ["Grading", "Staging"],
+                items: [
+                    { text: "Evaluated purely under a microscope.", bucket: 0 },
+                    { text: "Measures Anaplasia and Mitoses (I to IV).", bucket: 0 },
+                    { text: "Evaluated using imaging and surgery.", bucket: 1 },
+                    { text: "Uses the TNM System.", bucket: 1 },
+                    { text: "The most important predictor of survival.", bucket: 1 }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.8.3": {
+        title: "Laboratory Diagnosis & Tumor Markers 🔬",
+        objectives: ["Learn how doctors extract tumor samples, use Immunohistochemistry (IHC) to trace a tumor's origin, and understand the clinical value and limitations of blood-based Tumor Markers."],
+        data: [
+            {
+                type: "concept",
+                title: "The Detective's Toolkit",
+                text: "To treat cancer effectively, clinicians must first confirm the diagnosis and determine the cell of origin.",
+                subtext: "The pathology laboratory uses a variety of methods, from direct microscopic examination (Morphology) to the detection of molecular breadcrumbs in the blood (Tumor Markers).",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Gold Standard: Morphology",
+                text: "Direct microscopic examination of cells and tissues remains the 'Gold Standard' for cancer diagnosis.",
+                subtext: "Samples are obtained via several methods:\n• **Biopsy/Excision:** Surgical removal of tissue.\n• **Fine-Needle Aspiration (FNA):** Sucking cells from a mass via a thin needle.\n• **Cytologic Smears:** Examining cells that naturally shed from surfaces.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "The 'Pap Smear' is a cytologic smear used to detect dysplastic cells before they progress to invasive cervical cancer.", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "The Pap smear allows pathologists to identify pre-malignant warning signs (Dysplasia and Carcinoma In Situ), enabling curative treatment before the basement membrane is breached." 
+            },
+            {
+                type: "concept",
+                title: "Immunohistochemistry (IHC)",
+                text: "When a tumor is highly anaplastic and its origin is unclear, pathologists use **Immunohistochemistry (IHC)**.",
+                subtext: "This involves applying dye-tagged antibodies to the tissue. These antibodies bind to specific protein markers, causing cells of a certain lineage to 'light up' under the microscope.",
+                buttonText: "Clinical Case"
+            },
+            { 
+                type: "mcq", 
+                question: "Pathologists apply an antibody for Prostate-Specific Antigen (PSA) to a spinal bone biopsy, and the cancer cells light up. What does this prove?", 
+                options: [
+                    "The patient has primary bone cancer", 
+                    "The spinal tumor is a metastasis originating from the prostate", 
+                    "The patient has a localized bone infection"
+                ], 
+                answer: 1, 
+                explanation: "Because PSA is exclusively produced by prostate tissue, its presence in a distant site like the spine confirms that the metastatic cells originated from a primary prostate carcinoma." 
+            },
+            {
+                type: "concept",
+                title: "Molecular Diagnostics",
+                text: "Techniques like **PCR** and **DNA Sequencing** allow doctors to read the cancer's genetic code directly.",
+                subtext: "Identifying specific mutations (such as *HER2* amplification or the *BCR-ABL* translocation) is essential for prescribing targeted therapies that attack the tumor's specific driver mutations.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Blood Trails: Tumor Markers",
+                text: "**Tumor Markers** are biochemical indicators (proteins, enzymes, or hormones) that a tumor sheds into the bloodstream.",
+                subtext: "Common examples include **PSA** (Prostate), **CEA** (Carcinoembryonic Antigen - Colon/Pancreas), and **AFP** (Alpha-fetoprotein - Liver/Germ cell).",
+                buttonText: "Are they for screening?"
+            },
+            { 
+                type: "mcq", 
+                question: "Are blood-based tumor markers the best and most definitive way to diagnose a patient with a brand-new primary cancer?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Tumor markers generally lack the sensitivity and specificity required for definitive diagnosis. They can produce false negatives in early cancer or false positives due to benign inflammation." 
+            },
+            {
+                type: "fill",
+                question: "If a patient's CEA marker drops to zero after surgery but suddenly spikes a year later, the marker has alerted the doctor to a ____________ of the cancer.",
+                options: ["Cure", "Recurrence", "Benignification", "Shrinkage"],
+                answer: 1,
+                explanation: "The primary clinical value of tumor markers is monitoring the response to therapy and detecting the early recurrence of a previously treated malignancy.",
+                buttonText: "Continue"
+            },
+            {
+                type: "match",
+                question: "Match the diagnostic tool to its primary clinical application.",
+                pairs: [
+                    { left: "Cytologic Smear", right: "Scraping shed cells to catch early dysplasia." },
+                    { left: "Immunohistochemistry", right: "Using antibodies to find a metastasis' origin." },
+                    { left: "Molecular Diagnostics", right: "Reading DNA to identify targets for therapy." },
+                    { left: "Tumor Markers", right: "Tracking therapy response and recurrence." }
+                ],
+                explanation: ""
+            }
+        ]
+    },
+    "5.8.4": {
+        title: "The Future of Diagnosis 🧬🚀",
+        objectives: ["Understand tumor sequencing, the role of Precision Medicine, and the clinical hurdles and limitations these new technologies face."],
+        data: [
+            {
+                type: "concept",
+                title: "The Dawn of Precision Medicine",
+                text: "We are entering the era of **Precision Medicine**. Instead of treating all cancers of a specific organ the same way, clinicians now analyze the individual tumor's genetic blueprint.",
+                subtext: "This analysis creates a custom **Molecular Profile** that dictates a personalized treatment strategy.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "Reading the Whole Library: NGS",
+                text: "In the past, genes had to be tested one at a time. Today, we use **Next-Generation Sequencing (NGS)**.",
+                subtext: "NGS reads millions of DNA strands simultaneously, allowing for the sequencing of an entire tumor genome in hours to identify every critical mutation.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "If two patients have Breast Adenocarcinoma that looks identical under a microscope, will they have the same molecular profile and drug response?", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Morphologically identical tumors can be genetically distinct. DNA sequencing reveals unique genetic 'fingerprints' that help clinicians choose the specific targeted therapy for each individual." 
+            },
+            {
+                type: "concept",
+                title: "The Smart Bomb",
+                text: "Molecular profiles allow for the use of **Targeted Therapies**.",
+                subtext: "These medications act as molecular 'smart-bombs' that exploit a tumor's specific mutations while sparing healthy cells, reducing the collateral damage associated with traditional chemotherapy.",
+                buttonText: "Next"
+            },
+            {
+                type: "concept",
+                title: "The Holy Grail: Liquid Biopsies",
+                text: "Cancer cells shed tiny fragments of mutated DNA directly into the bloodstream, known as **ctDNA** (circulating tumor DNA).",
+                subtext: "The **Liquid Biopsy** allows clinicians to sample tumor genetics through a simple blood draw, avoiding invasive and painful surgical biopsies.",
+                buttonText: "Next"
+            },
+            {
+                type: "fill",
+                question: "Because liquid biopsies only require a simple ____________ draw, doctors can monitor the tumor in real-time, catching the moment the cancer develops ____________ to a drug.",
+                options: ["Blood", "Resistance", "Spinal", "Surrender"],
+                answer: [0, 1],
+                explanation: "Frequent blood sampling enables clinicians to track the genetic evolution of a tumor and adjust therapy as soon as resistance mutations are detected.",
+                buttonText: "Continue"
+            },
+            {
+                type: "concept",
+                title: "The Reality Check",
+                text: "While NGS and liquid biopsies are revolutionary, they face clinical hurdles including high costs, the need for specialized laboratories, and biological limitations.",
+                subtext: "",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "What is the medical term for a genetic mutation found by NGS that has no currently known clinical impact or targeted drug?", 
+                options: [
+                    "Variant of Unknown Significance (VUS)", 
+                    "Primary Oncogene", 
+                    "Telomerase Identifier"
+                ], 
+                answer: 0, 
+                explanation: "Data overload from NGS often reveals a VUS. It is difficult for clinicians to determine if these are 'driver' mutations causing the cancer or harmless 'passenger' mutations." 
+            },
+            { 
+                type: "mcq", 
+                question: "Because NGS is so accurate, a single needle biopsy from one side of a tumor will perfectly reflect the genetic profile of the entire mass.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Tumor heterogeneity means a tumor is often a swarm of different sub-clones. A single biopsy might miss a specific sub-clone that has a more aggressive genetic profile or drug resistance." 
+            },
+            {
+                type: "fill",
+                question: "Very tiny, early-stage tumors might not ____________ enough DNA into the blood to be detected by machines. This can lead to a dangerous false ____________ result.",
+                options: ["Shed", "Negative", "Absorb", "Positive"],
+                answer: [0, 1],
+                explanation: "Liquid biopsies currently have sensitivity limitations; a clean result does not definitively guarantee that a patient is cancer-free, especially in early stages.",
+                buttonText: "Continue"
+            },
+            {
+                type: "match",
+                question: "Match the futuristic tool or its limitation to the correct definition.",
+                pairs: [
+                    { left: "Next-Generation Sequencing", right: "Reading the entire DNA blueprint at once." },
+                    { left: "VUS", right: "Finding a mutation we don't understand yet." },
+                    { left: "ctDNA", right: "Tumor DNA detected in a blood draw." },
+                    { left: "Targeted Therapy", right: "Prescribing a drug based on a specific profile." }
+                ],
+                explanation: ""
+            }
         ]
     }
 };
+
+// { type: "concept", title: "Cellular Adaptation", text: "Cells change to survive stress.", subtext: "Adaptations are reversible until the 'point of no return'.", buttonText: "Start" },
+// { type: "mcq", question: "Increase in cell **size** is called:", options: ["Hypertrophy", "Hyperplasia", "Atrophy"], answer: 0, explanation: "Size = Trophy (like a trophy growing)." },
+// { type: "order", question: "Order the stages of disease development:", items: ["Etiology", "Pathogenesis", "Morphology", "Clinical Manifestation"], explanation: "The logical sequence of pathology." },
+// { type: "clinical", question: "CASE: A patient with heart failure has swollen ankles. This is a:", options: ["Etiology", "Pathogenesis", "Clinical Manifestation"], answer: 2, explanation: "Swelling is the patient's presentation (Clinical)." },
+// { type: "clinical", question: "CASE: A lung biopsy shows 'squamous metaplasia.' This structural change is:", options: ["Etiology", "Pathogenesis", "Morphology"], answer: 2, explanation: "Structural changes seen on slides are Morphology." }
