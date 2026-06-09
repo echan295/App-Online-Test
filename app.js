@@ -4,6 +4,12 @@ let currentIndex   = 0;
 let currentActiveID = "";
 let xp = parseInt(localStorage.getItem('pathXP')) || 0;
 
+// Tracking vars for scoring
+let totalQuestionsCount = 0;
+let correctFirstTryCount = 0;
+let hasAttemptedCurrentQuestion = false;
+let missedConcepts = [];
+
 // All modules are unlocked by default.
 // To restore saved-progress mode, replace this line with:
 let unlockedModules = JSON.parse(localStorage.getItem('pathUnlocked')) || ['0.1'];
@@ -84,6 +90,13 @@ function startModule(id) {
     currentModule = JSON.parse(JSON.stringify(module.data));
     currentIndex  = 0;
 
+    // Reset scoring tracking
+    correctFirstTryCount = 0;
+    // Count how many questions are non-info items
+    totalQuestionsCount = currentModule.filter(item => item.type !== 'concept' && item.type !== 'flashcard').length;
+    hasAttemptedCurrentQuestion = false;
+    missedConcepts = [];
+
     document.getElementById('map-view').classList.add('hidden');
     document.getElementById('lesson-view').classList.remove('hidden');
     renderScreen();
@@ -113,30 +126,138 @@ function finishModule() {
     document.getElementById('feedback-bar').classList.remove('show');
     document.getElementById('progress-bar').style.width = "100%";
 
-    // Determine the next module ID (uses explicit `next` property or auto-increments)
     const data = moduleContent[currentActiveID];
-    let nextID;
-    if (data && data.next) {
-        nextID = data.next;
+    const isReviewNode = data && (data.isReviewNode || currentActiveID.includes('review'));
+
+    // ─── CASE A: THIS IS A REVIEW NODE (Show Stars & Gating Rules) ───
+    if (isReviewNode) {
+        let scorePercent = totalQuestionsCount > 0 ? Math.round((correctFirstTryCount / totalQuestionsCount) * 100) : 100;
+
+        // Determine Tiering Layout & Stars (ONLY for the Review Node)
+        let starsHtml = '';
+        let feedbackTierTitle = '';
+        let feedbackTierText = '';
+        let titleColor = 'var(--text)';
+
+        if (scorePercent >= 90) { // Tier 1: Attending
+            starsHtml = `
+                <i class="fas fa-star" style="font-size:2rem;color:#ffce00"></i>
+                <i class="fas fa-star" style="font-size:2.5rem;color:#ffce00;margin:0 10px;"></i>
+                <i class="fas fa-star" style="font-size:2rem;color:#ffce00"></i>`;
+            feedbackTierTitle = "Board Certified!";
+            feedbackTierText = "Incredible job. You seamlessly connected the cell's structure, signaling, and environment. You are more than ready to tackle Cell Injury and Disease!";
+            titleColor = "var(--success-green)";
+        } else if (scorePercent >= 70) { // Tier 2: Resident
+            starsHtml = `
+                <i class="fas fa-star" style="font-size:2rem;color:#ffce00"></i>
+                <i class="fas fa-star" style="font-size:2.5rem;color:#ffce00;margin:0 10px;"></i>
+                <i class="far fa-star" style="font-size:2rem;color:#ccc"></i>`;
+            feedbackTierTitle = "Great Clinical Reasoning!";
+            feedbackTierText = "You have a solid grasp of the normal cell, but a few connections got crossed. Let’s review your missed concepts so you are 100% ready for the pathology chapters.";
+            titleColor = "var(--orange)";
+        } else { // Tier 3: Intern
+            starsHtml = `
+                <i class="fas fa-star" style="font-size:2rem;color:#ffce00"></i>
+                <i class="far fa-star" style="font-size:2.5rem;color:#ccc;margin:0 10px;"></i>
+                <i class="far fa-star" style="font-size:2rem;color:#ccc"></i>`;
+            feedbackTierTitle = "Good Effort!";
+            feedbackTierText = "The human cell is a highly complex machine, and integrating all these parts takes practice. Let's do a quick focused review on your weak spots before moving forward. You've got this!";
+            titleColor = "var(--error-red)";
+        }
+
+        // Evaluate progression gating condition (80% rule)
+        let canProgress = (scorePercent >= 80);
+
+        // Build Diagnostic Remediation Cards
+        let diagnosticHtml = '';
+        if (missedConcepts.length > 0) {
+            diagnosticHtml += `
+                <div style="text-align:left; margin-top:25px; border-top:1px solid #ddd; padding-top:15px; max-width:400px; margin-left:auto; margin-right:auto;">
+                    <h3 style="font-size:1.1rem; margin-bottom:10px; color:var(--text); font-weight:bold;">🩺 Unit Topics to Review:</h3>
+                    <ul style="padding-left:20px; margin:0; color:#555; font-size:0.95rem; line-height:1.6;">
+                        ${missedConcepts.map(topic => `<li>${topic}</li>`).join('')}
+                    </ul>
+                </div>`;
+        }
+
+        if (canProgress) {
+            // Unlock next module
+            let nextID = (data && data.next) ? data.next : (() => {
+                const parts = currentActiveID.split('.');
+                parts[parts.length - 1] = parseInt(parts[parts.length - 1]) + 1;
+                return parts.join('.');
+            })();
+
+            if (moduleContent[nextID] && !unlockedModules.includes(nextID)) {
+                unlockedModules.push(nextID);
+                localStorage.setItem('pathUnlocked', JSON.stringify(unlockedModules));
+                updateMapUI();
+            }
+
+            document.getElementById('stage').innerHTML = `
+                <div style="margin-top:30px; padding: 0 15px;">
+                    <div style="margin-bottom:15px;">${starsHtml}</div>
+                    <h1 style="color:${titleColor}; margin-bottom:5px;">${feedbackTierTitle}</h1>
+                    <p style="font-size:1rem; color:#555; margin-bottom:15px; max-width:400px; margin-left:auto; margin-right:auto;">${feedbackTierText}</p>
+                    <div style="background:#eef9ec; padding:10px; border-radius:12px; display:inline-block; margin-bottom:20px;">
+                        <span style="font-size:1.3rem; font-weight:bold; color:var(--success-green);">${correctFirstTryCount} / ${totalQuestionsCount} Correct</span>
+                        <span style="font-size:1rem; color:#666;">(${scorePercent}%)</span>
+                    </div>
+                    ${diagnosticHtml}
+                    <div style="margin-top:25px; display:flex; gap:10px; justify-content:center;">
+                        <button class="primary-btn" style="margin:0; flex:1;" onclick="startModule(currentActiveID)">Practice Again</button>
+                        <button class="option-btn" style="margin:0; flex:1;" onclick="exitLesson()">Back to Map</button>
+                    </div>
+                </div>`;
+        } else {
+            // Blocked layout (Scored under 80%)
+            document.getElementById('stage').innerHTML = `
+                <div style="margin-top:30px; padding: 0 15px;">
+                    <div style="margin-bottom:15px;">${starsHtml}</div>
+                    <h1 style="color:var(--error-red); margin-bottom:5px;">Review Unsuccessful</h1>
+                    <p style="font-size:1rem; color:#555; margin-bottom:15px; max-width:400px; margin-left:auto; margin-right:auto;">${feedbackTierText}</p>
+                    <div style="background:#fff3f3; padding:12px; border-radius:12px; border:1px solid #ffe3e3; margin-bottom:20px;">
+                        <div style="font-size:1.2rem; font-weight:bold; color:var(--error-red);">${correctFirstTryCount} / ${totalQuestionsCount} (${scorePercent}%)</div>
+                        <div style="font-size:0.85rem; color:#777; margin-top:4px;">Minimum score of <b>80%</b> on first attempts required to unlock Chapter 2.</div>
+                    </div>
+                    ${diagnosticHtml}
+                    <div style="margin-top:25px; display:flex; gap:10px; justify-content:center;">
+                        <button class="primary-btn" style="margin:0; flex:1;" onclick="startModule(currentActiveID)">Try Again</button>
+                        <button class="option-btn" style="margin:0; flex:1;" onclick="exitLesson()">Back to Map</button>
+                    </div>
+                </div>`;
+        }
+
+    // ─── CASE B: THIS IS A REGULAR LESSON NODE (Standard No-Stars Layout) ───
     } else {
-        const parts = currentActiveID.split('.');
-        parts[parts.length - 1] = parseInt(parts[parts.length - 1]) + 1;
-        nextID = parts.join('.');
-    }
+        // Automatically unlock next linear module index (e.g. 0.1 -> 0.2)
+        let nextID;
+        if (data && data.next) {
+            nextID = data.next;
+        } else {
+            const parts = currentActiveID.split('.');
+            parts[parts.length - 1] = parseInt(parts[parts.length - 1]) + 1;
+            nextID = parts.join('.');
+        }
 
-    if (moduleContent[nextID] && !unlockedModules.includes(nextID)) {
-        unlockedModules.push(nextID);
-        localStorage.setItem('pathUnlocked', JSON.stringify(unlockedModules));
-        updateMapUI();
-    }
+        if (moduleContent[nextID] && !unlockedModules.includes(nextID)) {
+            unlockedModules.push(nextID);
+            localStorage.setItem('pathUnlocked', JSON.stringify(unlockedModules));
+            updateMapUI();
+        }
 
-    document.getElementById('stage').innerHTML = `
-        <div style="margin-top:50px">
-            <i class="fas fa-trophy" style="font-size:5rem;color:#ffce00"></i>
-            <h1>Mastered!</h1>
-            <button class="primary-btn" onclick="startModule(currentActiveID)">Practice Again</button>
-            <button class="option-btn" onclick="exitLesson()">Back to Map</button>
-        </div>`;
+        // Standard layout matching button layout of Case A, but without stars/diagnostics
+        document.getElementById('stage').innerHTML = `
+            <div style="margin-top:50px; padding: 0 15px;">
+                <div style="font-size:4rem; margin-bottom:20px;">🎉</div>
+                <h1 style="color:var(--success-green); margin-bottom:5px;">Lesson Completed!</h1>
+                <p style="font-size:1.1rem; color:#666; margin-bottom:30px;">Great job working through this study module.</p>
+                <div style="margin-top:25px; display:flex; gap:10px; justify-content:center;">
+                    <button class="primary-btn" style="margin:0; flex:1;" onclick="startModule(currentActiveID)">Practice Again</button>
+                    <button class="option-btn" style="margin:0; flex:1;" onclick="exitLesson()">Back to Map</button>
+                </div>
+            </div>`;
+    }
 }
 
 function exitLesson() {
@@ -156,6 +277,9 @@ function renderScreen() {
     stage.scrollTop = 0;
     const data = currentModule[currentIndex];
     if (!data) return;
+
+    // Reset flag for the new item
+    hasAttemptedCurrentQuestion = false;
 
     stage.innerHTML = '';
     document.getElementById('feedback-bar').classList.remove('show');
@@ -197,14 +321,18 @@ function renderScreen() {
         const qText = formatText(data.question).replace(/_{3,}/g, () =>
             `<span id="blank-${blankCount++}" class="fill-blank clickable-blank" onclick="clearBlank(${blankCount - 1})">&nbsp;</span>`
         );
+        // Map each string option to its original data index, then safely randomize the presentation order
+        const mappedFillOptions = data.options.map((opt, idx) => ({ text: opt, originalIndex: idx }));
+        const shuffledFillOptions = shuffleArray([...mappedFillOptions]);
+
         stage.innerHTML = `
             ${reviewHeader}
             <div class="fill-instruction">Tap to fill, tap blank to clear</div>
             <h3 style="text-align:left;">${qText}</h3>
             <div id="options" class="word-bank">
-                ${data.options.map((opt, i) =>
-                    `<button class="option-btn fill-option" id="option-${i}"
-                        onclick="checkFill(${i}, this, '${opt.replace(/'/g, "\\'")}')">${formatText(opt)}</button>`
+                ${shuffledFillOptions.map((opt) =>
+                    `<button class="option-btn fill-option" id="option-${opt.originalIndex}"
+                        onclick="checkFill(${opt.originalIndex}, this, '${opt.text.replace(/'/g, "\\'")}')">${formatText(opt.text)}</button>`
                 ).join('')}
             </div>
             <button id="verify-fill-btn" class="primary-btn" style="display:none;margin-top:20px;" onclick="verifyFill()">CHECK ANSWER</button>`;
@@ -254,6 +382,7 @@ function renderScreen() {
         stage.innerHTML = `
             ${reviewHeader}
             <h3>${formatText(data.question)}</h3>
+            <div class="fill-instruction">Tap an item on the left, then find its match on the right</div>
             <div class="match-container">
                 <div class="match-column">
                     ${leftCol.map(item =>
@@ -269,18 +398,20 @@ function renderScreen() {
                 </div>
             </div>
             <button id="verify-match-btn" class="primary-btn" style="display:none;margin-top:20px;" onclick="verifyMatch()">CHECK ANSWER</button>`;
+    
+        } else {
+        const header = data.type === "clinical" ? `<div style="color:var(--blue);font-weight:bold;margin-bottom:10px;">🩺 CLINICAL CASE</div>` : '';
+        
+        // Map original answer text to its original index, then shuffle the structural positions
+        const mappedOptions = data.options.map((opt, idx) => ({ text: opt, originalIndex: idx }));
+        const shuffledOptions = shuffleArray([...mappedOptions]);
 
-    } else {
-        // mcq / clinical
-        const header = data.type === "clinical"
-            ? `<div style="color:var(--blue);font-weight:bold;margin-bottom:10px;">🩺 CLINICAL CASE</div>`
-            : '';
         stage.innerHTML = `
             ${reviewHeader}${header}
             <h3>${formatText(data.question)}</h3>
             <div id="options">
-                ${data.options.map((opt, i) =>
-                    `<button class="option-btn" onclick="checkMCQ(${i}, this)">${formatText(opt)}</button>`
+                ${shuffledOptions.map((opt) =>
+                    `<button class="option-btn" onclick="checkMCQ(${opt.originalIndex}, this)">${formatText(opt.text)}</button>`
                 ).join('')}
             </div>`;
     }
@@ -302,6 +433,7 @@ function checkMCQ(idx, btn) {
     document.querySelectorAll('.option-btn').forEach(b => b.style.pointerEvents = 'none');
     const data = currentModule[currentIndex];
     if (idx === data.answer) {
+        if (!hasAttemptedCurrentQuestion && !data.isReview) correctFirstTryCount++;
         showFeedback(true, "✨ Correct!", data.explanation);
         btn.style.borderColor = "var(--success-green)";
     } else {
@@ -309,6 +441,7 @@ function checkMCQ(idx, btn) {
         showFeedback(false, "❌ Not Quite", data.explanation);
         btn.style.borderColor = "var(--error-red)";
     }
+    hasAttemptedCurrentQuestion = true;
 }
 
 function checkFill(idx, btn, val) {
@@ -336,8 +469,15 @@ function verifyFill() {
     const correct = Array.isArray(data.answer)
         ? JSON.stringify(window.userSelections) === JSON.stringify(data.answer)
         : window.userSelections[0] === data.answer;
-    if (correct) showFeedback(true, "✨ Correct!", data.explanation);
-    else { addToMistakes(data); showFeedback(false, "❌ Not Quite", data.explanation); }
+        
+    if (correct) {
+        if (!hasAttemptedCurrentQuestion && !data.isReview) correctFirstTryCount++;
+        showFeedback(true, "✨ Correct!", data.explanation);
+    } else { 
+        addToMistakes(data); 
+        showFeedback(false, "❌ Not Quite", data.explanation); 
+    }
+    hasAttemptedCurrentQuestion = true;
 }
 
 function selectChip(el, event) {
@@ -394,8 +534,14 @@ function verifySort() {
         });
     });
     if (placed < data.items.length) return alert("Sort all items!");
-    if (correct) showFeedback(true, "✨ Correct!", data.explanation);
-    else { addToMistakes(data); showFeedback(false, "❌ Not Quite", data.explanation); }
+    if (correct) {
+        if (!hasAttemptedCurrentQuestion && !data.isReview) correctFirstTryCount++;
+        showFeedback(true, "✨ Correct!", data.explanation);
+    } else { 
+        addToMistakes(data); 
+        showFeedback(false, "❌ Not Quite", data.explanation); 
+    }
+    hasAttemptedCurrentQuestion = true;
 }
 
 function handleOrderTap(val, idx) {
@@ -405,12 +551,15 @@ function handleOrderTap(val, idx) {
         window.userOrder.push(val);
         document.getElementById(`slot-${slotIdx}`).innerText = `${slotIdx + 1}. ${val}`;
         document.getElementById(`chip-${idx}`).style.visibility = "hidden";
-        if (window.userOrder.length === data.items.length)
+        if (window.userOrder.length === data.items.length) {
+            if (!hasAttemptedCurrentQuestion && !data.isReview) correctFirstTryCount++;
             showFeedback(true, "Perfect!", data.explanation);
+        }
     } else {
         document.querySelectorAll('.draggable-chip').forEach(b => b.style.pointerEvents = 'none');
         addToMistakes(data);
         showFeedback(false, "Wrong Order", `Next: ${data.items[slotIdx]}`);
+        hasAttemptedCurrentQuestion = true;
     }
 }
 
@@ -441,8 +590,14 @@ function handleMatchTap(side, id) {
 
 function verifyMatch() {
     const data = currentModule[currentIndex];
-    if (window.userPairs.every(p => p.l === p.r)) showFeedback(true, "✨ Correct!", data.explanation);
-    else { addToMistakes(data); showFeedback(false, "❌ Not Quite", data.explanation); }
+    if (window.userPairs.every(p => p.l === p.r)) {
+        if (!hasAttemptedCurrentQuestion && !data.isReview) correctFirstTryCount++;
+        showFeedback(true, "✨ Correct!", data.explanation);
+    } else { 
+        addToMistakes(data); 
+        showFeedback(false, "❌ Not Quite", data.explanation); 
+    }
+    hasAttemptedCurrentQuestion = true;
 }
 
 
@@ -463,8 +618,14 @@ function updateXP() {
 
 function addToMistakes(d) {
     if (d.alreadyAddedToMistakes) return;
+
+    if (d.topic && !missedConcepts.includes(d.topic)) {
+        missedConcepts.push(d.topic);
+    }
+
     const review = JSON.parse(JSON.stringify(d));
     review.isReview = true;
     d.alreadyAddedToMistakes = true;
+    review.alreadyAddedToMistakes = false;
     currentModule.push(review);
 }

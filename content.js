@@ -1302,6 +1302,120 @@ const moduleContent = {
                 explanation: ""
             }
         ],
+        next: "1.review"
+    },
+
+    // REVIEW
+    "1.review" : {
+        title: "Master Review: The Normal Cell! 🌟",
+        isReviewNode: true,       
+        objectives: [
+            "Synthesize concepts across intracellular organelles, communication, and microenvironments.",
+            "Pass with a grade of 80% or higher to unlock Chapter 2: Cell Injury."
+        ],
+        data: [
+            {
+                type: "concept",
+                title: "Welcome to the Boss Level!",
+                text: "🌟 Congratulations on finishing the chapter! You now know how the cell is built, how it talks, and where it lives. But in the human body, nothing works in isolation!",
+                subtext: "In this Master Review, we are going to combine everything you’ve learned. Get ready to connect the factory walls, the signaling inbox, and the extracellular neighborhood! Tap to begin!",
+                buttonText: "Let's Go!"
+            },
+            {
+                type: "order",
+                question: "The cell needs to repair a tear in the squishy Interstitial Matrix outside. It decides to build and secrete Type I Collagen. Arrange the steps of this collagen molecule's journey from synthesis to its final neighborhood!",
+                items: [
+                    "Synthesis of the protein by attached ribosomes.",
+                    "Packaging the protein into a secretory vesicle.",
+                    "The vesicle fuses with the plasma membrane to spit the collagen out.",
+                    "The collagen joins Elastin and Proteoglycans to form the semi-fluid gel."
+                ],
+                explanation: "<b>The Secretory Pathway:</b> Protein synthesis starts on the **Rough ER** via attached ribosomes. The protein is then sent to the **Golgi Apparatus** for modification and packaging into a secretory vesicle. This vesicle travels along microtubules to the plasma membrane, discharging its contents via **exocytosis** into the extracellular space, where structural proteins join the **Interstitial Matrix** scaffolding.",
+                topic: "The Protein Secretory Pathway"
+            },
+            {
+                type: "match",
+                question: "The cell uses different 'molecular tags' to decide the fate of proteins. Match the molecular tag to its correct cellular destination!",
+                pairs: [
+                    { left: "Mannose-6-Phosphate (M6P)", right: "Delivers massive, dangerous digestive enzymes to the Lysosome." },
+                    { left: "Ubiquitin", right: "Feeds tiny, misfolded cytosolic proteins into the Proteasome shredder." },
+                    { left: "N-linked oligosaccharides", right: "Added early in the Rough ER to assist with initial folding." }
+                ],
+                explanation: "<b>Intracellular Addressing:</b> Proteins are sorted using unique molecular tags. **Mannose-6-Phosphate (M6P)** is attached in the Golgi to flag acid hydrolases bound for the **Lysosome**. In contrast, damaged or misfolded proteins in the cytosol are tagged with **Ubiquitin**, marking them for degradation inside the **Proteasome barrel**. **N-linked oligosaccharides** are basic tags added early in the ER to assist chaperone proteins with initial folding.",
+                topic: "Intracellular Addressing and Waste Tags"
+            },
+            {
+                type: "clinical",
+                question: "You are looking at a biopsy of an unknown, poorly differentiated tumor. The tumor cells are breaking through a flat, organized sheet of Type IV Collagen and Laminin. You stain the tumor cells, and they are positive for Cytokeratin intermediate filaments. What kind of tumor is this?",
+                options: [
+                    "A muscle tumor breaking through the interstitial matrix.",
+                    "An epithelial tumor breaking through the basement membrane.",
+                    "A mesenchymal (fibroblast) tumor breaking through the basement membrane.",
+                    "A brain (glial) tumor breaking through the interstitial matrix."
+                ],
+                answer: 1,
+                explanation: "<b>Diagnostic Architecture:</b> **Cytokeratin** is the diagnostic intermediate filament unique to **epithelial cells** (carcinomas). Epithelial sheets are always structurally anchored to a specialized extracellular floor called the **Basement Membrane**, which is composed primarily of **Type IV Collagen** and **Laminin**. Breaking through this barrier is the classic hallmark of microinvasive malignant disease.",
+                topic: "Tumor Markers and Extracellular Scaffolding"
+            },
+            {
+                type: "fill",
+                question: "A cell's Mitochondria are failing to produce enough ATP because the tissue's blood supply was cut off. The cell is starving for oxygen (Hypoxia)! To survive, the cell activates the HIF-1 transcription factor, which secretes a paracrine growth factor called ___ to stimulate the growth of new blood vessels.",
+                options: ["VEGF", "TGF-β", "EGF", "Calcium"],
+                answer: 0,
+                explanation: "<b>The Hypoxic Response:</b> When low oxygen impairs **Mitochondrial oxidative phosphorylation**, the cell stabilizes **Hypoxia-Inducible Factor 1 (HIF-1)**. HIF-1 acts as a transcription factor that triggers the production and paracrine secretion of **Vascular Endothelial Growth Factor (VEGF)**. VEGF binds to receptors on nearby endothelial cells, driving angiogenesis (new blood vessel growth) to restore blood supply.",
+                topic: "Hypoxic Cell Responses and Growth Factors"
+            },
+            {
+                type: "match",
+                question: "Connect the pieces! Match the junction to what it connects inside and outside the cell.",
+                pairs: [
+                    { left: "Desmosomes", right: "Uses Cadherins to link neighbor cells to internal Intermediate Filaments." },
+                    { left: "Hemidesmosomes", right: "Uses Integrins to link internal fibers to the Basement Membrane floor." },
+                    { left: "Adherens Junctions", right: "Uses Cadherins to link neighbor cells to internal Actin Microfilaments." }
+                ],
+                explanation: "<b>Anchoring Junction Mechanics:</b> Cells rely on distinct anchoring junctions to withstand mechanical stress. **Desmosomes** use transmembrane **Cadherins** to link neighboring cells together, anchoring directly into tough internal **intermediate filaments**. **Adherens Junctions** also use Cadherins but hook into the dynamic **Actin microfilament** network instead. **Hemidesmosomes** switch out Cadherins for **Integrins** to mechanically glue intermediate filaments down to the extracellular basement membrane floor.",
+                topic: "Cellular Anchoring Junctions"
+            },
+            {
+                type: "mcq",
+                question: "A tissue is badly damaged. Secretion of the pleiotropic growth factor TGF-β will help stop the inflammation, but it will also tell fibroblasts to pump out massive amounts of Type I Collagen, leading to a permanent scar.",
+                options: ["True", "False"],
+                answer: 0,
+                explanation: "<b>Chronic Wound Repair:</b> **Transforming Growth Factor-Beta (TGF-β)** is a powerful pleiotropic cytokine. While it plays a crucial anti-inflammatory role by shutting down immune cell activity, it acts as the primary driver of fibrosis. It potently activates local fibroblasts to synthesize and deposit thick strands of fibrillar **Type I Collagen**, replacing missing functional parenchyma with a permanent, non-contractile interstitial matrix scar.",
+                topic: "Growth Factors and Tissue Fibrosis"
+            },
+            {
+                type: "clinical",
+                question: "A cardiac muscle cell receives an endocrine signal (like adrenaline) that activates a G-Protein Coupled Receptor (GPCR). This pathway causes the Smooth ER to dump a specific ion into the cytoplasm. Which ion is released, and what junction does it rapidly flow through to tell the neighboring heart cells to contract at the exact same time?",
+                options: [
+                    "Calcium flowing through Gap Junctions.",
+                    "ATP flowing through Tight Junctions.",
+                    "Sodium flowing through Anchoring Junctions.",
+                    "GTP flowing through Hemidesmosomes."
+                ],
+                answer: 0,
+                explanation: "<b>Electromechanical Coupling:</b> Secondary messengers downstream of **GPCR activation** open channels on the **Smooth Endoplasmic Reticulum**, releasing stored **Calcium ions (Ca²⁺)** into the cytoplasm. To synchronize mechanical contraction across the tissue, these Ca²⁺ ions quickly pass to neighboring cardiomyocytes via **Gap Junctions** (made of Connexon channels), allowing the heart muscle to behave as an integrated electrical syncytium.",
+                topic: "Signal Transduction and Intercellular Communication"
+            },
+            {
+                type: "sort",
+                question: "You’ve mastered the normal cell! Let's do one final sort. Drag the cellular component to the Unit it belongs to!",
+                buckets: ["Unit 1: Inside the Factory", "Unit 2: The Social Network", "Unit 3: The Neighborhood"],
+                items: [
+                    { text: "Proteasome", bucket: 0 },
+                    { text: "Microtubules", bucket: 0 },
+                    { text: "Rough ER", bucket: 0 },
+                    { text: "GPCRs", bucket: 1 },
+                    { text: "Paracrine signals", bucket: 1 },
+                    { text: "Claudins (Tight Junctions)", bucket: 1 },
+                    { text: "Proteoglycans", bucket: 2 },
+                    { text: "Laminin", bucket: 2 },
+                    { text: "Type IV Collagen", bucket: 2 }
+                ],
+                explanation: "<b>Integrated Cellular Physiology:</b> The normal tissue environment functions in three tiers: 1) **Inside the Factory:** Metabolic and structural machinery such as protein production (**Rough ER**), structural movement (**Microtubules**), and protein turnover (**Proteasomes**). 2) **The Social Network:** Communication pathways consisting of inter-cellular barriers (**Claudins/Tight Junctions**), close-range communication (**Paracrine signals**), and transmembrane signaling nodes (**GPCRs**). 3) **The Neighborhood:** The extracellular matrix scaffolding, containing fluid-retaining gels (**Proteoglycans**), adhesion sheets (**Laminin**), and specialized structural basement floors (**Type IV Collagen**).",
+                topic: "Integrated Cellular Anatomy and Structures"
+            }
+        ],
         next: "2.1.1"
     },
 
@@ -1809,7 +1923,7 @@ const moduleContent = {
             }
         ]
     },
-        "2.2.5": {
+    "2.2.5": {
         title: "The Factory Glitch (Misfolded Proteins) 🪲",
         objectives: ["Master how the Endoplasmic Reticulum (ER) handles misfolded proteins, the Unfolded Protein Response (UPR), and why a broken quality control system triggers cell suicide."],
         data: [
@@ -1965,7 +2079,7 @@ const moduleContent = {
             }
         ]
     },
-        "2.3.2": {
+    "2.3.2": {
         title: "Irreversible Injury - The Point of No Return 🚫",
         objectives: ["Master the defining hallmarks of irreversible cell injury and the clinical importance of leaky membranes as the cell crosses the threshold toward necrosis."],
         data: [
