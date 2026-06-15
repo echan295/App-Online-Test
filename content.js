@@ -280,110 +280,162 @@ const moduleContent = {
     // CHAPTER 1
     // UNIT 1
     "1.1.1": {
-        title: "The Wall & The Gates (Plasma Membrane) 🛡️",
-        objectives: ["Review the fluid bilayer's structural asymmetry, protein anchors, and bulk transport functions."],
+        title: "The 3-Nutrient Cell Membrane 🥗",
+        objectives: ["Understand how lipids, proteins, and carbohydrates combine to build the plasma membrane, where they are located, and what jobs they perform."],
         data: [
             {
                 type: "concept",
-                title: "Structure - The Bilayer",
-                text: "Welcome back! Let's review the factory's outer wall. The plasma membrane is a fluid bilayer of amphipathic phospholipids.",
-                subtext: "It has hydrophilic (water-loving) heads facing outward, and hydrophobic (water-fearing) tails hiding inside. This creates a tight barrier!",
+                title: "The Balanced Diet of a Cell",
+                images: [
+                    {
+                        url: "images/1.1.1/cell_membrane.png",
+                        title: "Cell Membrane",
+                        reference: "Source: https://old-ib.bioninja.com.au/standard-level/topic-1-cell-biology/13-membrane-structure/fluid-mosaic-model.html"
+                    },
+                    {
+                        url: "images/1.1.1/art_work.jpeg",
+                        title: "Art Work",
+                        reference: "Source: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR4HrRivtNp56EeUYJLLN02fAcs1jFRi2RHuyzwYm2w2VZDGfca"
+                    }
+                ],
+                text: "Welcome! Did you know the cell membrane is built from the same three macronutrients you eat?\n\nIt takes **Lipids, Proteins, and Carbohydrates** working together to create a functional barrier.",
+                subtext: "We call this the **'Fluid Mosaic Model.'**\n\n• **Fluid:** The pieces aren't glued in place; they can float and move laterally.\n\n• **Mosaic:** Just like artwork made of different colored tiles, the membrane is a diverse patchwork of different fats, proteins, and sugars all mixed together!",
+                buttonText: "Let's see the ingredients"
+            },
+            {
+                type: "concept",
+                title: "Lipids - The Foundation & Barrier",
+                images: [
+                    {
+                        url: "images/1.1.1/phospholipid.png",
+                        title: "Phospholipid",
+                        reference: "Source: https://ib.bioninja.com.au/phospholipids/"
+                    },
+                    {
+                        url: "images/1.1.1/bilayer.png",
+                        title: "Bilayer",
+                        reference: "Source: https://old-ib.bioninja.com.au/standard-level/topic-1-cell-biology/13-membrane-structure/fluid-mosaic-model.html"
+                    }
+                ],
+                text: "First up: Lipids! They make up the core architecture of the membrane, forming a fluid phospholipid bilayer. This structure is **amphipathic**, which means it has:",
+                subtext: "• **Hydrophilic (water-loving) heads:** Face the aqueous extracellular fluid and cytosolic environments.\n\n• **Hydrophobic (water-fearing) tails:** Face inward, preventing the passive diffusion of large or charged molecules. This creates a tight barrier!",
                 buttonText: "Got it!"
             },
             {
                 type: "concept",
-                title: "Function - The 3 Main Jobs",
-                text: "The lipid wall is studded with proteins that do the heavy lifting. They have 3 main jobs for the cell:\n\n" +
-                    "**1. Ion and metabolite transport** (The Gates).\n" +
-                    "**2. Fluid-phase and receptor-mediated uptake** of macromolecules (The Loading Docks).\n" +
-                    "**3. Cell-ligand, cell-matrix, and cell-cell interactions** (The Communication Antennas).",
-                subtext: "",
-                buttonText: "Let's dive in!"
-            },
-            {
-                type: "match",
-                question: "Match the membrane's job to its factory equivalent!",
-                pairs: [
-                    { left: "Ion and metabolite transport", right: "Pumping basic nutrients and waste through the gates." },
-                    { left: "Uptake of macromolecules", right: "Swallowing giant shipments in vesicles." },
-                    { left: "Cell-cell interactions", right: "Connecting to and communicating with neighboring factories." }
+                title: "Lipids Barrier – Asymmetry",
+                images: [
+                    {
+                        url: "images/1.1.1/lipids_barrier.png",
+                        reference: "Modified from source: https://ib.bioninja.com.au/phospholipids/"
+                    }
                 ],
-                explanation: ""
+                text: "The inner and outer layers are NOT identical.",
+                subtext: "**Outside membrane:** Glycolipids, Phosphatidylcholine, and Sphingomyelin.\n\n**Inside membrane:** Phosphatidylserine, Phosphatidylethanolamine, and Phosphatidylinositol.",
+                buttonText: "Next"
+            },
+            { 
+                type: "mcq", 
+                question: "The lipid bilayer allows large and charged molecules, like glucose and sodium ions, to easily pass through the membrane on their own.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "The hydrophobic core dictates what can cross. Small, uncharged molecules can pass through easily (passive diffusion), but large or charged molecules are blocked and require special transport proteins." 
             },
             { 
                 type: "mcq", 
                 question: "The inner and outer layers of the lipid bilayer are identical in composition.", 
                 options: ["True", "False"], 
                 answer: 1, 
-                explanation: "The membrane is highly asymmetric. For example, glycolipids are only on the outside, while phosphatidylserine is normally restricted to the inside face!" 
+                explanation: "The layers are asymmetric! The outside consists mostly of glycolipids, phosphatidylcholine, and sphingomyelin, while the inside has phosphatidylserine, phosphatidylethanolamine, and phosphatidylinositol." 
             },
             {
                 type: "concept",
-                title: "Structure - The Proteins",
-                text: "To perform those 3 main jobs, proteins attach to the membrane in different ways:\n\n" +
-                    "• **Transmembrane:** Pierce all the way through (e.g., ion channels).\n" +
-                    "• **GPI-anchored:** Tied to the outside face by sugar-lipid tails.\n" +
-                    "• **Lipid-linked:** Anchored to the inside face by fatty acids.",
-                subtext: "",
-                buttonText: "Got it!"
+                title: "Proteins — The Workhorses",
+                images: [
+                    {
+                        url: "images/1.1.1/proteins.png",
+                        reference: "Source: https://ib.bioninja.com.au/b-membrane-proteins/"
+                    }
+                ],
+                text: "If lipids are the factory walls, proteins are the doors, windows, and security guards. They make up 50% of the membrane's mass and do the cell’s heavy lifting!",
+                subtext: "Proteins attach in different ways:\n\n• **Transmembrane/Integral:** Goes all the way through.\n\n• **Peripheral:** Loosely attached to surfaces.\n\n• **Lipid-Anchored:** Permanently tied to a buried lipid (GPI-anchored on the outside; Fatty-acid linked on the inside).",
+                buttonText: "See their jobs"
             },
             {
                 type: "match",
-                question: "Match the protein anchor to its correct location and factory job!",
+                question: "Match the membrane protein to its factory equivalent!",
                 pairs: [
-                    { left: "Inside-Face Lipid-Linked", right: "Tethered to the cytoplasm side. Acts as a relay baton for internal signaling." },
-                    { left: "Outside-Face GPI-Linked", right: "Tethered to the extracellular side. Acts as a shield or sensor for outside recognition." }
+                    { left: "Transport Proteins", right: "The Gates: Moves molecules, nutrients, and waste in and out." },
+                    { left: "Receptor Proteins", right: "The Antennas: Catches chemical signals to communicate." },
+                    { left: "Enzymes", right: "Assembly Line Workers: Speeds up chemical reactions." },
+                    { left: "Recognition Proteins", right: "Security ID Badges: So the body knows who belongs." },
+                    { left: "Adhesion Proteins", right: "Glue or Hooks: Sticks neighboring factory walls together." }
                 ],
-                explanation: "Where they are tethered dictates what they do!"
+                explanation: ""
             },
             {
                 type: "concept",
-                title: "Function - Transport Basics",
-                text: "Let's look at Job #1: Transport! The hydrophobic core blocks large or charged molecules. How do things cross?\n\n" +
-                    "• **Passive Diffusion:** Small/nonpolar molecules slide right through the lipids.\n" +
-                    "• **Channels & Carriers:** Proteins that create pores or shuttle specific molecules.",
+                title: "Transport Basics - Small Molecules",
+                text: "Let's look at Job #1/Gates: Transport! The hydrophobic core blocks large or charged molecules. How do things cross?\n\n" +
+                    "• **Passive Diffusion:** Small/nonpolar molecules (O₂, CO₂, steroid hormones) slide right through the lipids.\n" +
+                    "• **Channels & Carriers:** Proteins that create pores or shuttle specific molecules (like Aquaporins for water).\n" +
+                    "• **Active Transport:** Uses energy (ATP) to pump molecules against their natural flow.",
                 subtext: "",
+                buttonText: "What about big cargo?"
+            },
+            {
+                type: "concept",
+                title: "Bulk Transport – The Shape Shifters",
+                text: "Instead of using tiny protein gates, the plasma membrane physically deforms to wrap around massive cargo.\n\n" +
+                    "• **Endocytosis:** The membrane folds inward to swallow fluid and macromolecules.\n" +
+                    "• **Exocytosis:** Internal vesicles fuse with the membrane to release cargo outside.\n" +
+                    "• **Phagocytosis:** The membrane actively reaches out to 'eat' giant targets like whole bacteria.\n" +
+                    "• **Transcytosis:** Swallowed on one side, moved across, and spit out the other side!",
+                subtext: "Exocytosis and endocytosis must be perfectly balanced so the cell doesn't shrink or expand.",
                 buttonText: "Next"
             },
             {
                 type: "sort",
-                question: "Drag the molecule to the correct method it uses to cross the plasma membrane!",
-                buckets: ["Passive Diffusion", "Channel Proteins", "Active Transport"],
+                question: "Drag the cargo to the correct transport method it uses to cross the plasma membrane!",
+                buckets: ["Passive Diffusion", "Channel Proteins", "Exocytosis", "Phagocytosis"],
                 items: [
                     { text: "O₂, CO₂, and steroid hormones", bucket: 0 },
-                    { text: "Water (H₂O) via Aquaporins", bucket: 1 },
-                    { text: "Pumping molecules against concentration gradient", bucket: 2 }
-                ],
-                explanation: "Passive diffusion requires no energy, while Active transport burns ATP!"
-            },
-            {
-                type: "concept",
-                title: "Bulk Transport: In & Out",
-                text: "Now for Job #2: Moving huge shipments! Instead of using tiny protein gates, the plasma membrane physically deforms to wrap around cargo.\n\n" +
-                    "• **Endocytosis:** The membrane folds inward to swallow cargo.\n" +
-                    "• **Exocytosis:** Internal vesicles fuse with the membrane to spit cargo out.",
-                subtext: "The membrane is constantly recycled! These must be perfectly balanced so the cell doesn't shrink or expand.",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Bulk Transport: Eating & Crossing",
-                text: "The membrane also performs two specialized transport moves:\n\n" +
-                    "• **Phagocytosis ('Cellular eating'):** The membrane actively reaches out to engulf giant targets like whole bacteria.\n" +
-                    "• **Transcytosis:** The membrane swallows cargo on one side, moves the vesicle across, and spits it out the other side!",
-                subtext: "",
-                buttonText: "Got it!"
-            },
-            {
-                type: "match",
-                question: "The membrane is moving! Match the action to the correct transport name.",
-                pairs: [
-                    { left: "Endocytosis", right: "Membrane folds inward to swallow fluid." },
-                    { left: "Exocytosis", right: "Vesicle fuses with membrane to release cargo." },
-                    { left: "Phagocytosis", right: "Membrane reaches out to 'eat' a giant particle." },
-                    { left: "Transcytosis", right: "Cargo passes entirely across the cell." }
+                    { text: "Water (H₂O)", bucket: 1 },
+                    { text: "Fusing a vesicle to the membrane to release cargo", bucket: 2 },
+                    { text: "Reaching out to engulf a giant bacteria", bucket: 3 }
                 ],
                 explanation: ""
+            },
+            {
+                type: "concept",
+                title: "Carbohydrates - The ID System",
+                images: [
+                    {
+                        url: "images/1.1.1/carbohydrates.png",
+                        reference: "Source: https://biology4isc.weebly.com/cell-membranes.html"
+                    }
+                ],
+                text: "Finally: Carbohydrates! They form a fuzzy coating called the **Glycocalyx**. They have 4 main jobs:\n\n" +
+                    "1. **The ID Card:** Name tags for immune recognition.\n" +
+                    "2. **The Antenna:** Receives outside messages.\n" +
+                    "3. **The Glue:** Helps cells stick together.\n" +
+                    "4. **The Shield:** Forms sugary armor against stress.",
+                subtext: "Carbohydrates attach to proteins (glycoproteins) or lipids (glycolipids).",
+                buttonText: "Check your knowledge"
+            },
+            { 
+                type: "mcq", 
+                question: "Carbohydrate chains can be found on both the inside (cytosolic) and outside (extracellular) faces of the cell membrane.", 
+                options: ["True", "False"], 
+                answer: 1, 
+                explanation: "Sugars only face the outside world! They are strictly located on the outer membrane to interact with the external environment. The inner (cytosolic) face has none." 
+            },
+            { 
+                type: "mcq", 
+                question: "Your A, B, or O blood type is determined by specific sugar chains projecting from your red blood cells, which allow the immune system to recognize the cell as 'self.'", 
+                options: ["True", "False"], 
+                answer: 0, 
+                explanation: "These specific carbohydrate chains (oligosaccharides) act as identification tags on the outside of the cell, allowing the immune system to distinguish between your own cells and foreign invaders." 
             }
         ]
     },

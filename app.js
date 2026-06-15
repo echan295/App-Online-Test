@@ -251,7 +251,7 @@ function finishModule() {
             <div style="margin-top:50px; padding: 0 15px;">
                 <div style="font-size:4rem; margin-bottom:20px;">🎉</div>
                 <h1 style="color:var(--success-green); margin-bottom:5px;">Lesson Completed!</h1>
-                <p style="font-size:1.1rem; color:#666; margin-bottom:30px;">Great job working through this study module.</p>
+                <p style="font-size:1.1rem; color:#666; margin-bottom:30px;">Great job working through this lesson.</p>
                 <div style="margin-top:25px; display:flex; gap:10px; justify-content:center;">
                     <button class="primary-btn" style="margin:0; flex:1;" onclick="startModule(currentActiveID)">Practice Again</button>
                     <button class="option-btn" style="margin:0; flex:1;" onclick="exitLesson()">Back to Map</button>
@@ -291,10 +291,41 @@ function renderScreen() {
         : '';
 
     if (data.type === "concept") {
+        // Initialize an empty string for our images layout HTML
+        let imagesHtml = '';
+
+        // Check if the 'images' array exists and has items
+        if (data.images && Array.isArray(data.images)) {
+            imagesHtml = `
+                <div class="concept-images-gallery" style="margin: 20px 0; display: flex; flex-direction: column; gap: 20px;">
+                    ${data.images.map(img => `
+                        <div class="single-image-wrapper" style="text-align: center;">
+                            <img src="${img.url}" alt="${img.title || 'Concept illustration'}" style="max-width: 100%; max-height: 250px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+                            
+                            ${img.title ? `<div class="image-title" style="font-size: 0.85rem; color: #666; font-style: italic; margin-top: 8px; line-height: 1.3;">${formatText(img.title)}</div>` : ''}
+                            
+                            ${img.reference ? `<div class="image-reference" style="font-size: 0.75rem; color: #999; margin-top: 4px; line-height: 1.2;">${img.reference}</div>` : ''}
+                        </div>
+                    `).join('')}
+                </div>`;
+        } 
+        // Backward compatibility: Handle single data.image format if you still have old cards
+        else if (data.image) {
+            imagesHtml = `
+                <div class="concept-image-container" style="text-align: center; margin: 20px 0;">
+                    <img src="${data.image}" alt="Concept illustration" style="max-width: 100%; max-height: 250px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                </div>`;
+        }
+
+        // Render the screen with the images element placed AFTER the subtext/extra information card
         stage.innerHTML = `
             <h2 style="color:var(--blue)">${formatText(data.title)}</h2>
             <div style="font-size:1.1rem;text-align:left;line-height:1.6;margin-bottom:20px;">${formatText(data.text)}</div>
+            
             ${data.subtext ? `<div class="concept-card" style="border-left:5px solid var(--blue);padding:15px;background:#f0f8ff;border-radius:15px;text-align:left;margin-bottom:20px;">${formatText(data.subtext)}</div>` : ''}
+            
+            ${imagesHtml} 
+            
             <button class="primary-btn" onclick="advanceStep()">${data.buttonText || 'Continue'}</button>`;
 
     } else if (data.type === "flashcard") {
