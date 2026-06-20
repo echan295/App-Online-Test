@@ -1,6 +1,6 @@
 {
-  "name": "PathoLogic!",
-  "short_name": "PathoLogic",
+  "name": "Pathology App",
+  "short_name": "Pathology App",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",

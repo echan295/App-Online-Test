@@ -288,12 +288,12 @@ const moduleContent = {
                 title: "The Balanced Diet of a Cell",
                 images: [
                     {
-                        url: "images/1.1.1/cell_membrane.png",
+                        url: "images/Chapter 1/Unit 1/1.1.1/cell_membrane.png",
                         title: "Cell Membrane",
                         reference: "Source: https://old-ib.bioninja.com.au/standard-level/topic-1-cell-biology/13-membrane-structure/fluid-mosaic-model.html"
                     },
                     {
-                        url: "images/1.1.1/art_work.jpeg",
+                        url: "images/Chapter 1/Unit 1/1.1.1/art_work.jpeg",
                         title: "Art Work",
                         reference: "Source: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR4HrRivtNp56EeUYJLLN02fAcs1jFRi2RHuyzwYm2w2VZDGfca"
                     }
@@ -307,12 +307,12 @@ const moduleContent = {
                 title: "Lipids - The Foundation & Barrier",
                 images: [
                     {
-                        url: "images/1.1.1/phospholipid.png",
+                        url: "images/Chapter 1/Unit 1/1.1.1/phospholipid.png",
                         title: "Phospholipid",
                         reference: "Source: https://ib.bioninja.com.au/phospholipids/"
                     },
                     {
-                        url: "images/1.1.1/bilayer.png",
+                        url: "images/Chapter 1/Unit 1/1.1.1/bilayer.png",
                         title: "Bilayer",
                         reference: "Source: https://old-ib.bioninja.com.au/standard-level/topic-1-cell-biology/13-membrane-structure/fluid-mosaic-model.html"
                     }
@@ -326,7 +326,7 @@ const moduleContent = {
                 title: "Lipids Barrier – Asymmetry",
                 images: [
                     {
-                        url: "images/1.1.1/lipids_barrier.png",
+                        url: "images/Chapter 1/Unit 1/1.1.1/lipids_barrier.png",
                         reference: "Modified from source: https://ib.bioninja.com.au/phospholipids/"
                     }
                 ],
@@ -353,7 +353,7 @@ const moduleContent = {
                 title: "Proteins — The Workhorses",
                 images: [
                     {
-                        url: "images/1.1.1/proteins.png",
+                        url: "images/Chapter 1/Unit 1/1.1.1/proteins.png",
                         reference: "Source: https://ib.bioninja.com.au/b-membrane-proteins/"
                     }
                 ],
@@ -411,7 +411,7 @@ const moduleContent = {
                 title: "Carbohydrates - The ID System",
                 images: [
                     {
-                        url: "images/1.1.1/carbohydrates.png",
+                        url: "images/Chapter 1/Unit 1/1.1.1/carbohydrates.png",
                         reference: "Source: https://biology4isc.weebly.com/cell-membranes.html"
                     }
                 ],
@@ -440,50 +440,75 @@ const moduleContent = {
         ]
     },
     "1.1.2": {
-        title: "The Scaffolding (Cytoskeleton) 🏗️",
+        title: "Lesson 2: The 3-Filament Cytoskeleton 🏗️",
         objectives: ["Master the three classes of cytoskeletal proteins, their motor functions, and how pathologists use them to diagnose tumors."],
         data: [
             {
                 type: "concept",
-                title: "Introduction",
-                text: "Every factory needs a structural scaffold. The Cytoskeleton allows the cell to adopt a shape, maintain polarity, organize its organelles, and migrate.",
-                subtext: "But unlike a real building, this scaffold is not rigid! It is constantly elongating, shrinking, and rebuilding itself.",
-                buttonText: "Let's see how!"
+                title: "Cytoskeleton: The 3 in 1 cell machine",
+                images: [
+                    {
+                        url: "images/Chapter 1/Unit 1/1.1.2/cytoskeleton.png",
+                        reference: "Source: https://ncdnadayblog.org/2026/01/05/cytoskeleton/"
+                    }
+                ],
+                text: "Welcome to the next lesson!\n\nDid you know your cells have a framework that acts as a **skeleton**, **muscle** and a **highway**?\n\nBut unlike the cell membrane, this structure is built from just one macronutrient: **Protein!**\n\nIt takes **Microfilaments**, **Intermediate Filaments** and **Microtubules** —all made entirely of proteins—working together to create a dynamic support system.",
+                subtext: "But unlike normal skeleton, this network is **NOT** rigid. It is highly dynamic—constantly elongating, shrinking, and rebuilding itself!",
+                buttonText: "Let's dive in!"
             },
             { 
                 type: "mcq", 
                 question: "The cell's cytoskeleton is a permanent, static structure made of solid beams that never change shape.", 
                 options: ["True", "False"], 
                 answer: 1, 
-                explanation: "It is highly dynamic. The constant assembly and disassembly of these fibers is actually what drives cell migration!" 
+                explanation: "The **cytoskeleton** is highly dynamic. The constant assembly and disassembly of these fibers is **what drives cell migration!**" 
             },
             {
                 type: "concept",
-                title: "1. Actin Microfilaments",
-                text: "Let's meet the thinnest fibers: **Actin Microfilaments (5-9 nm)**. They are made of globular G-actin monomers that link into long double-stranded helices (F-actin).",
-                subtext: "By rapidly adding subunits to one end and removing them from the other (actin treadmilling), these fibers drive migration and vesicular transport!",
-                buttonText: "Got it!"
+                title: "Microfilaments: Muscles",
+                images: [
+                    {
+                        url: "images/Chapter 1/Unit 1/1.1.2/actin_microfilaments.png",
+                        reference: "Image generated by ChatGPT"
+                    }
+                ],
+                text: "Let's meet the thinnest of the 3 fibers! Say hello to **Actin Microfilaments**.\n\n**Where are they?**\n• Just beneath the cell membrane.\n\n**What are they made of?**\n• Tiny globular protein monomers called **G-actin**.\n• These link up and twist into long, double-stranded helices called **F-actin**.\n• Think of two pearl necklaces twisted together!\n\n**What do they do?**\n• They are the **muscle** of the cell! They help it move, change shape, and divide. \n\n**HOW THEY WORK:**\n• Enter: Actin Treadmilling! Remember how we said the cell's skeleton isn't stiff? It's **highly dynamic!**\n• Microfilaments rapidly add protein pieces to one end while pulling them off the other.\n• Just like a treadmill, this continuous conveyor-belt action is what drives cell migration, transports vesicles, and keeps your cellular barriers tight!",
+                subtext: "",
+                buttonText: "Next"
             },
             {
                 type: "fill",
                 question: "In skeletal and cardiac muscle, ____________ hydrolysis by the motor protein myosin slides the actin filaments past each other to cause muscle contraction.",
-                options: ["ATP", "Calcium", "Formalin", "GTP", "Glucose"],
+                options: ["ATP", "Calcium", "Sodium", "GTP", "Glucose"],
                 answer: 0,
-                explanation: "ATP directly powers the myosin motors to slide the actin fibers and contract the muscle.",
+                explanation: "**ATP** directly powers the myosin motors to slide the actin fibers and contract the muscle.",
                 buttonText: "Continue"
             },
             {
                 type: "concept",
-                title: "2. Intermediate Filaments",
-                text: "Next are **Intermediate Filaments (10 nm)**. Unlike actin, these form stable, ropelike polymers that do not actively reorganize.",
-                subtext: "Their main job is to provide tensile strength so cells can survive mechanical stress. They act like shock absorbers!",
-                buttonText: "Next"
+                title: "Intermediate Filaments: Skeleton",
+                images: [
+                    {
+                        url: "images/Chapter 1/Unit 1/1.1.2/intermediate_filaments.png",
+                        reference: "Image generated by ChatGPT"
+                    }
+                ],
+                text: "Let's meet the \"middle child\" of the 3 fibers! Say hello to **Intermediate Filaments**.\n\n**Where are they?**\n• Spread like a net across the cell to protect the nucleus and link to neighbors!\n\n**What are they made of?**\n• Long proteins (like the **Keratin** in your hair!) twisted into super-strong cables. Think of a **twisted steel cables!**\n\n**What do they do?**\n• They are **shock absorbers!** They stop the cell from tearing under physical stress.\n\n**How do they work?**\n• They are **built to last**, unlike the other filaments! They anchor organelles securely in place (like **bungee cords**) and hold tissues together!",
+                subtext: "",
+                buttonText: "Meet the Family"
             },
             {
                 type: "concept",
-                title: "Clinical Correlation - Tumor Markers! 🩺",
-                text: "**Pathology Secret!** Intermediate filaments are unique to specific tissue types. \n\nPathologists use them as 'markers' to figure out exactly where a poorly differentiated cancer cell originally came from!",
-                subtext: "This is a must-know for diagnostic pathology.",
+                title: "Types of Intermediate Filaments",
+                text: "Different tissues have different needs! So, they build their cables using unique proteins that act as permanent cellular name tags.\n\nLet's meet the 4 famous members of the family:\n\n**The Bodyguards: Keratins**\n• **Where?** Skin, hair, nails, and organ linings.\n• **The Job:** Provide a tough, waterproof barrier.\n This is why your skin doesn't tear when you stretch it!\n\n**The Flexers: Vimentin & Desmin**\n• **Where?** Connective tissue (**Vimentin**) & Muscles (**Desmin**).\n• **The Job:** Stop muscles tearing when you flex or jump!\n\n**The Wiring: Neurofilaments**\n• **Where?** Nerve cells (Neurons).\n• **The Job:** Support nerve cables so they don't snap!\n\n**The VIP Security: Nuclear Lamins**\n• **Where?** Inside the nucleus of every animal cell.\n• **The Job:** Build a protective cage around your DNA",
+                subtext: "Lamins only ones allowed inside the VIP nucleus!",
+                buttonText: "Pathology Secret"
+            },
+            {
+                type: "concept",
+                title: "Clinical Correlation: Tumor Markers!",
+                text: "**Pathology Secret!**\n• Since Intermediate filaments are unique to specific tissue types and are tough and stable, a stray cancer cell keeps its original **\"name tag\"** even when it moves to a new neighborhood!\n\n• Pathologists use them as **\"markers\"** to figure out exactly where a cancer cell originally came from!\n\n• Pathologists use special glowing tags to test the tumor's skeleton: They don't just hold the cell together—they tell doctors exactly who the cell is!",
+                subtext: "",
                 buttonText: "Play the Marker Game"
             },
             {
@@ -491,45 +516,56 @@ const moduleContent = {
                 question: "You are looking at an unknown tumor biopsy. Match the intermediate filament to the tissue type it came from!",
                 pairs: [
                     { left: "Cytokeratin", right: "Epithelial cells (e.g., skin, GI tract)." },
-                    { left: "Vimentin", right: "Mesenchymal cells (e.g., fibroblasts)." },
+                    { left: "Vimentin", right: "Mesenchymal cells (e.g., fibroblasts, endothelium)." },
                     { left: "Desmin", right: "Muscle cells." },
-                    { left: "GFAP", right: "Glial cells (in the brain)." }
+                    { left: "Glial fibrillary acidic protein (GFAP)", right: "Glial cells." }
                 ],
-                explanation: "These markers allow us to identify the 'identity' of a cancer cell even if it looks totally abnormal!"
+                explanation: "Pathologists use these tissue-specific proteins as cellular 'fingerprints' to identify exactly where an unknown tumor originated. Cytokeratin pairs with epithelial cells, vimentin goes with mesenchymal cells, desmin links to muscle cells, and GFAP matches with glial cells."
             },
             {
                 type: "concept",
-                title: "3. Microtubules",
-                text: "The thickest fibers are **Microtubules (25 nm)**. They are hollow tubes made of α- and β-tubulin dimers that grow from a central hub called the centrosome.",
-                subtext: "Their main jobs: Acting as 'train tracks' for cargo, pulling chromatids apart during mitosis, and forming the core of cilia!",
-                buttonText: "Next"
+                title: "Microtubules: The Highway",
+                images: [
+                    {
+                        url: "images/Chapter 1/Unit 1/1.1.2/microtubules.png",
+                        reference: "Image generated by ChatGPT"
+                    },
+                    {
+                        url: "images/Chapter 1/Unit 1/1.1.2/microtubules_functions.png",
+                        reference: "Image generated by ChatGPT"
+                    }
+                ],
+                text: "Let's meet the thickest of the 3 fibers! Say hello to **Microtubules**.\n\n**Where are they?**\n• Radiating from the cell's center to the edges, like spokes on a bike wheel!\n\n**What are they made of?**\n• Pairs of **α- and β-tubulin** proteins stacked together into stiff, hollow tubes!\n\n**What do they do?**\n• They are the cell's **highways** and **heavy lifters!** They transport cargo, form the structural core of cilia and flagella, and form the \"cables\" that pull chromosomes apart when the cell divides.\n\n**How do they work?**\n• They act as a vast network of train tracks. But tracks need trains, right?\n\nEnter the motor proteins: **Kinesin** and **Dynein**.\n• These tiny molecular machines literally have \"feet\" and walk along the hollow microtubule tubes, carrying giant packages across the cell!",
+                subtext: "",
+                buttonText: "Check the Tracks"
             },
             {
                 type: "match",
-                question: "Match the motor protein to the direction it travels on the microtubule 'train tracks'!",
+                question: "Match the motor protein to the direction it travels on the microtubule!",
                 pairs: [
-                    { left: "Kinesins", right: "Anterograde (Outward, - to + end)." },
-                    { left: "Dyneins", right: "Retrograde (Inward, + to - end)." }
+                    { left: "Kinesins", right: "Transport cargo anterograde (outward, - to + end)." },
+                    { left: "Dyneins", right: "Transport cargo retrograde (inward, + to - end)." }
                 ],
-                explanation: "Think of Kinesins moving 'Klean' out of the center, and Dyneins moving 'Dining' back into the center."
+                explanation: "To move cargo along microtubule 'highways', motor proteins like **kinesins** travel outward (- to +) and **dyneins** travel inward (+ to -)."
             },
             { 
                 type: "mcq", 
-                question: "Besides acting as train tracks for vesicles, microtubules pull what apart during cell division?", 
+                question: "Besides acting as train tracks for vesicles, microtubules also form the core of moving structures like sperm flagella, and they pull what apart during cell division?", 
                 options: ["Sister chromatids (Mitosis)", "The plasma membrane", "The nuclear lamins"], 
                 answer: 0, 
-                explanation: "The microtubule spindle separates the sister chromatids. This is why many chemo drugs target microtubules to stop cancer cells from dividing!"
+                explanation: "The microtubule spindle separates the sister chromatids during mitosis.",
+                subtext: "Many chemotherapy drugs target microtubules to stop cancer cells from dividing!"
             },
             {
                 type: "sort",
-                question: "Final review! Sort the factory scaffold fibers by their main description.",
-                buckets: ["Actin Microfilaments", "Intermediate Filaments", "Microtubules"],
+                question: "Final review! Sort the factory fibers by their main description.",
+                buckets: ["Microfilaments", "Intermediate Filaments", "Microtubules"],
                 items: [
-                    { text: "Double-helices that 'treadmill' and slide with myosin.", bucket: 0 },
-                    { text: "Stable, ropelike fibers for tensile strength (Tumor markers!).", bucket: 1 },
-                    { text: "Thick hollow tubes acting as train tracks and forming cilia.", bucket: 2 }
+                    { text: "Double-stranded helices, G-actin, Drives cell migration", bucket: 0 },
+                    { text: "Stable strong cables, Keratin and desmin, Provides tensile strength", bucket: 1 },
+                    { text: "Stiff hollow tubes, α- and β-tubulin, Transports cargo", bucket: 2 }
                 ],
-                explanation: ""
+                explanation: "**Microfilaments** are double-stranded helices of G-actin that drive cell migration, **intermediate filaments** are stable strong cables that provide tensile strength, and **microtubules** are stiff hollow tubes used to transport cargo."
             }
         ]
     },

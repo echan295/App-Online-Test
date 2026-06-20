@@ -251,7 +251,7 @@ function finishModule() {
             <div style="margin-top:50px; padding: 0 15px;">
                 <div style="font-size:4rem; margin-bottom:20px;">🎉</div>
                 <h1 style="color:var(--success-green); margin-bottom:5px;">Lesson Completed!</h1>
-                <p style="font-size:1.1rem; color:#666; margin-bottom:30px;">Great job working through this lesson.</p>
+                <p style="font-size:1.1rem; color:#666; margin-bottom:30px;">Great job working through this study module.</p>
                 <div style="margin-top:25px; display:flex; gap:10px; justify-content:center;">
                     <button class="primary-btn" style="margin:0; flex:1;" onclick="startModule(currentActiveID)">Practice Again</button>
                     <button class="option-btn" style="margin:0; flex:1;" onclick="exitLesson()">Back to Map</button>
