@@ -11,9 +11,14 @@
 }
 
 * {
+    box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     user-select: none;
     touch-action: manipulation; /* Disables double-tap to zoom, making taps instant */
+}
+
+html {
+    overflow-x: hidden; /* Prevent horizontal bounce on mobile */
 }
 
 body { 
@@ -21,7 +26,7 @@ body {
     font-family: 'Segoe UI', sans-serif; 
     background: #f0f2f5; /* Desktop background color */
     color: var(--text); 
-    overflow: hidden; 
+    overflow-x: hidden;
     display: flex;
     justify-content: center; /* Centers the app horizontally */
 }
@@ -40,7 +45,14 @@ body {
     padding-top: env(safe-area-inset-top);
     padding-bottom: env(safe-area-inset-bottom);
 }
+
 .hidden { display: none !important; }
+
+h1, h2, h3, .node-label, .draggable-chip, .unit-tag, .option-btn, .match-btn {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
 
 @media (max-width: 500px) {
     body {
@@ -190,8 +202,34 @@ body {
 /* ... (Keep your Flashcard, Fill, and Match CSS from the bottom of your file) */
 
 .sort-pool { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; padding: 15px; min-height: 60px; background: #f9f9f9; border-radius: 15px; border: 2px dashed #ddd; margin-bottom: 20px; }
-.bucket-container { display: flex; gap: 10px; margin-bottom: 20px; }
-.sort-bucket { flex: 1; min-height: 120px; background: white; border: 2px solid #ddd; border-radius: 15px; padding: 10px; display: flex; flex-direction: column; gap: 5px; }
+.bucket-container { 
+    display: flex; 
+    flex-wrap: wrap;    /* This is the key: it allows items to move to the next line */
+    gap: 10px; 
+    margin-bottom: 20px; 
+    justify-content: center; /* Centers the buckets if you have an odd number */
+}
+.sort-bucket { 
+    /* 
+       flex-grow: 1 (fills space)
+       flex-shrink: 0 (don't get squished)
+       flex-basis: calc(50% - 10px) (aims for 2 per row, accounting for gap)
+    */
+    flex: 1 1 calc(50% - 10px);
+    
+    /* Optional: Ensure buckets don't get TOO small on tiny screens */
+    min-width: 140px; 
+    
+    min-height: 120px; 
+    background: white; 
+    border: 2px solid #ddd; 
+    border-radius: 15px; 
+    padding: 10px; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 5px; 
+    box-sizing: border-box; /* Ensures padding doesn't add to the width */
+}
 .sort-bucket:active {
     background-color: #f0f8ff;
 }
@@ -213,7 +251,14 @@ body {
 .order-slot { min-height: 45px; border: 2px dashed #ddd; border-radius: 10px; margin-bottom: 5px; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold; }
 
 /* Flashcard Container */
-.flashcard-scene { width: 280px; height: 320px; perspective: 600px; margin: 20px auto; cursor: pointer; }
+.flashcard-scene { 
+    width: 90%;
+    max-width: 320px;
+    height: 320px; 
+    perspective: 600px; 
+    margin: 20px auto; 
+    cursor: pointer;
+}
 .flashcard { width: 100%; height: 100%; position: relative; transition: transform 0.6s; transform-style: preserve-3d; }
 .flashcard.is-flipped { transform: rotateY(180deg); }
 .flashcard-face { position: absolute; width: 100%; height: 100%; -webkit-backface-visibility: hidden; backface-visibility: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 20px; padding: 20px; box-sizing: border-box; box-shadow: 0 8px 16px rgba(0,0,0,0.1); border: 2px solid var(--gray-light); background: white;}
@@ -288,8 +333,8 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-.match-container { display: flex; gap: 15px; margin-top: 20px; }
-.match-column { flex: 1; display: flex; flex-direction: column; gap: 10px; }
+.match-container { display: flex; gap: 15px; margin-top: 20px; width: 100%; }
+.match-column { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
 
 .match-btn { 
     font-size: 0.85rem !important; 
