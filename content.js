@@ -425,9 +425,9 @@ const moduleContent = {
             },
             { 
                 type: "mcq", 
-                question: "Carbohydrate chains can be found on both the inside (cytosolic) and outside (extracellular) faces of the cell membrane.", 
+                question: "Carbohydrate chains can be found on the outside (extracellular) face of the cell membrane, but they are absent from the inside (cytosolic) face.", 
                 options: ["True", "False"], 
-                answer: 1, 
+                answer: 0, 
                 explanation: "Sugars only face the outside world! They are strictly located on the outer membrane to interact with the external environment. The inner (cytosolic) face has none." 
             },
             { 
@@ -500,7 +500,7 @@ const moduleContent = {
             {
                 type: "concept",
                 title: "Types of Intermediate Filaments",
-                text: "Different tissues have different needs! So, they build their cables using unique proteins that act as permanent cellular name tags.\n\nLet's meet the 4 famous members of the family:\n\n**The Bodyguards: Keratins**\n• **Where?** Skin, hair, nails, and organ linings.\n• **The Job:** Provide a tough, waterproof barrier.\n This is why your skin doesn't tear when you stretch it!\n\n**The Flexers: Vimentin & Desmin**\n• **Where?** Connective tissue (**Vimentin**) & Muscles (**Desmin**).\n• **The Job:** Stop muscles tearing when you flex or jump!\n\n**The Wiring: Neurofilaments**\n• **Where?** Nerve cells (Neurons).\n• **The Job:** Support nerve cables so they don't snap!\n\n**The VIP Security: Nuclear Lamins**\n• **Where?** Inside the nucleus of every animal cell.\n• **The Job:** Build a protective cage around your DNA",
+                text: "Different tissues have different needs! So, they build their cables using unique proteins that act as permanent cellular name tags.\n\nLet's meet the 4 famous members of the family:\n\n**The Bodyguards: Keratins**\n• **Where?** Skin, hair, nails, and organ linings.\n• **The Job:** Provide a tough, waterproof barrier.\n This is why your skin doesn't tear when you stretch it!\n\n**The Flexers: Vimentin & Desmin**\n• **Where?** Connective tissue (**Vimentin**) & Muscles (**Desmin**).\n• **The Job:** Stop muscles tearing when you flex or jump!\n\n**The Wiring: Neurofilaments**\n• **Where?** Nerve cells (Neurons).\n• **The Job:** Support nerve cables so they don't snap!\n\n**The Scaffolding: GFAP**\n• **Where?** Glial cells.\n• **The Job:** Mechanical strength support.\n\n**The VIP Security: Nuclear Lamins**\n• **Where?** Inside the nucleus of every animal cell.\n• **The Job:** Build a protective cage around your DNA",
                 subtext: "Lamins only ones allowed inside the VIP nucleus!",
                 buttonText: "Pathology Secret"
             },
@@ -764,9 +764,9 @@ const moduleContent = {
             },
             { 
                 type: "mcq", 
-                question: "Autophagy is only used to destroy broken parts. It has absolutely no use if the cell is starving.", 
+                question: "Autophagy is used to destroy broken parts, and it is also activated during starvation to help the cell survive by recycling its own cellular components.", 
                 options: ["True", "False"], 
-                answer: 1, 
+                answer: 0, 
                 explanation: "**Autophagy** is a brilliant survival tool. During nutrient depletion (starvation), the cell will \"eat\" its own organelles to survive!" 
             },
             {
@@ -829,7 +829,7 @@ const moduleContent = {
     // UNIT 1
     "1.1.5": {
         title: "The Powerhouse (Mitochondria & Metabolism) ⚡",
-        objectives: ["Understand mitochondrial structure, maternal inheritance, ATP generation, and the Warburg effect."],
+        objectives: ["Understand mitochondrial structure, maternal inheritance, and ATP generation."],
         data: [
             {
                 type: "concept",
