@@ -1176,7 +1176,7 @@ const moduleContent = {
                     { left: "Eicosanoids", right: "Cut directly from the cell membrane during injury." },
                     { left: "Amines", right: "Rapid responders derived from single amino acids." }
                 ],
-                explanation: "Each ligand family has distinct traits based on their chemistry and solubility!"
+                explanation: "Each ligand family has distinct traits: steroids are hydrophobic and act internally without being stored; proteins are large, water-soluble molecules that bind to the cell surface; and gases are tiny, fast-acting, and short-lived. Additionally, eicosanoids are cleaved directly from the cell membrane during injury, while amines serve as rapid responders derived from single amino acids."
             },
             {
                 type: "concept",
