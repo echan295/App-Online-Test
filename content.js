@@ -371,7 +371,7 @@ const moduleContent = {
                     { left: "Recognition Proteins", right: "Security ID Badges: So the body knows who belongs." },
                     { left: "Adhesion Proteins", right: "Glue or Hooks: Sticks neighboring factory walls together." }
                 ],
-                explanation: ""
+                explanation: "Transport proteins act as gates to move molecules in and out, while receptor proteins function as antennas to catch chemical signals. Enzymes serve as assembly line workers that speed up chemical reactions at the surface, recognition proteins act as security ID badges for cellular identification, and adhesion proteins work as glue or hooks to stick neighboring cells together."
             },
             {
                 type: "concept",
@@ -404,7 +404,7 @@ const moduleContent = {
                     { text: "Fusing a vesicle to the membrane to release cargo", bucket: 2 },
                     { text: "Reaching out to engulf giant bacteria", bucket: 3 }
                 ],
-                explanation: ""
+                explanation: "In membrane transport, O₂, CO₂, and steroid hormones cross via passive diffusion, whereas water utilizes specific channel proteins. For bulk transport, exocytosis releases cargo by fusing a vesicle to the membrane, and phagocytosis reaches out to engulf massive particles such as bacteria."
             },
             {
                 type: "concept",
