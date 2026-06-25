@@ -300,7 +300,10 @@ function renderScreen() {
                 <div class="concept-images-gallery" style="margin: 20px 0; display: flex; flex-direction: column; gap: 20px;">
                     ${data.images.map(img => `
                         <div class="single-image-wrapper" style="text-align: center;">
-                            <img src="${img.url}" alt="${img.title || 'Concept illustration'}" style="max-width: 100%; max-height: 250px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+                            <img src="${img.url}" 
+                                alt="${img.title || 'Concept illustration'}" 
+                                onclick="openLightbox('${img.url}', '${img.title || ''}')"
+                                style="max-width: 100%; max-height: 250px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; cursor: pointer;">
                             
                             ${img.title ? `<div class="image-title" style="font-size: 0.85rem; color: #666; font-style: italic; margin-top: 8px; line-height: 1.3;">${formatText(img.title)}</div>` : ''}
                             
@@ -631,6 +634,98 @@ function verifyMatch() {
     hasAttemptedCurrentQuestion = true;
 }
 
+// ─── ADVANCED LIGHTBOX LOGIC (Pinch & Pan) ──────────────────────────────────
+
+let scale = 1;
+let lastScale = 1;
+let startDist = 0;
+let posX = 0;
+let posY = 0;
+let lastPosX = 0;
+let lastPosY = 0;
+let isDragging = false;
+
+function openLightbox(url, caption) {
+    const lightbox = document.getElementById('image-lightbox');
+    const img = document.getElementById('lightbox-img');
+    const cap = document.getElementById('lightbox-caption');
+
+    img.src = url;
+    cap.innerHTML = formatText(caption);
+    
+    // Reset Zoom State
+    scale = 1; posX = 0; posY = 0;
+    updateImageTransform();
+
+    lightbox.classList.remove('hidden');
+    setTimeout(() => lightbox.classList.add('show'), 10);
+    
+    // Add Touch Listeners
+    img.addEventListener('touchstart', handleTouchStart, { passive: false });
+    img.addEventListener('touchmove', handleTouchMove, { passive: false });
+    img.addEventListener('touchend', handleTouchEnd);
+}
+
+function updateImageTransform() {
+    const img = document.getElementById('lightbox-img');
+    img.style.transform = `translate(${posX}px, ${posY}px) scale(${scale})`;
+}
+
+function handleTouchStart(e) {
+    if (e.touches.length === 2) {
+        // Prepare for Pinch
+        startDist = Math.hypot(
+            e.touches[0].pageX - e.touches[1].pageX,
+            e.touches[0].pageY - e.touches[1].pageY
+        );
+    } else if (e.touches.length === 1) {
+        // Prepare for Pan
+        isDragging = true;
+        lastPosX = e.touches[0].pageX - posX;
+        lastPosY = e.touches[0].pageY - posY;
+    }
+}
+
+function handleTouchMove(e) {
+    e.preventDefault(); // Stop page from bouncing
+
+    if (e.touches.length === 2) {
+        // Logic for Pinch to Zoom
+        const dist = Math.hypot(
+            e.touches[0].pageX - e.touches[1].pageX,
+            e.touches[0].pageY - e.touches[1].pageY
+        );
+        scale = Math.min(Math.max(1, lastScale * (dist / startDist)), 4);
+    } else if (e.touches.length === 1 && isDragging) {
+        // Logic for Panning
+        posX = e.touches[0].pageX - lastPosX;
+        posY = e.touches[0].pageY - lastPosY;
+    }
+    updateImageTransform();
+}
+
+function handleTouchEnd(e) {
+    lastScale = scale;
+    isDragging = false;
+}
+
+function closeLightbox() {
+    const lightbox = document.getElementById('image-lightbox');
+    lightbox.classList.remove('show');
+    setTimeout(() => lightbox.classList.add('hidden'), 300);
+}
+
+// Tap to zoom fallback/shortcut
+function toggleZoom(event) {
+    event.stopPropagation();
+    if (scale > 1) {
+        scale = 1; posX = 0; posY = 0;
+    } else {
+        scale = 2.5;
+    }
+    lastScale = scale;
+    updateImageTransform();
+}
 
 // ─── FEEDBACK & XP ────────────────────────────────────────────────────────────
 

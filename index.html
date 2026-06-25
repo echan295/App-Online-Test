@@ -841,6 +841,15 @@
             </footer>
         </section>
     </div>
+
+    <div id="image-lightbox" class="lightbox hidden" onclick="closeLightbox()">
+        <span class="lightbox-close">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Enlarged view" onclick="toggleZoom(event)">
+            <p id="lightbox-caption" style="color: white; margin-top: 10px; font-size: 0.9rem;"></p>
+        </div>
+    </div>
+    
     <script src="content.js"></script>
     <script src="app.js"></script>
 </body>
