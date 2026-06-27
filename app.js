@@ -85,6 +85,8 @@ function startModule(id) {
     const module = moduleContent[id];
     if (!module) return;
 
+    isReviewNodeGlobal = !!(module.isReviewNode || id.includes('review'));
+
     // Deep-copy so mutations (e.g. isReview, alreadyAddedToMistakes) don't
     // affect the source data across runs.
     currentModule = JSON.parse(JSON.stringify(module.data));
@@ -743,6 +745,13 @@ function updateXP() {
 }
 
 function addToMistakes(d) {
+    if (isReviewNodeGlobal) {
+        if (d.topic && !missedConcepts.includes(d.topic)) {
+            missedConcepts.push(d.topic);
+        }
+        return; 
+    }
+    
     if (d.alreadyAddedToMistakes) return;
 
     if (d.topic && !missedConcepts.includes(d.topic)) {
