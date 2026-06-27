@@ -1640,8 +1640,7 @@ const moduleContent = {
                     "The Golgi Apparatus"
                 ],
                 "answer": 1,
-                "explanation": "**The Actin Cytoskeleton**.\n\nIntegrins physically link the outside world to the cell's internal muscles (actin). This bridge is the key to all communication!",
-                "buttonText": "Communication Highway"
+                "explanation": "Integrins physically link the outside world to the cell's internal muscles (actin). This bridge is the key to all communication!"
             },
             {
                 "type": "concept",
@@ -1685,8 +1684,7 @@ const moduleContent = {
                     "False"
                 ],
                 "answer": 1,
-                "explanation": "The ECM is highly dynamic. It constantly remodels, stores growth factors, and sends signals to cells via **integrin receptors** to tell them when to grow or move!",
-                "buttonText": "The Demolition Crew"
+                "explanation": "The ECM is highly dynamic. It constantly remodels, stores growth factors, and sends signals to cells via **integrin receptors** to tell them when to grow or move!"
             },
             {
                 "type": "concept",
@@ -1721,7 +1719,6 @@ const moduleContent = {
                     1
                 ],
                 "explanation": "The dynamic balance between **MMPs**, which degrade the matrix, and **TIMPs**, which inhibit them, directly determines whether the ECM is broken down or accumulates.",
-                "buttonText": "Finish Lesson"
             }
         ],
         next: "1.review"
@@ -1873,8 +1870,7 @@ const moduleContent = {
                     "Apoptosis"
                 ],
                 "answer": 1,
-                "explanation": "**Homeostasis** is the normal, perfectly balanced state of a healthy cell.",
-                "buttonText": "The First Response"
+                "explanation": "**Homeostasis** is the normal, perfectly balanced state of a healthy cell."
             },
             {
                 "type": "concept",
@@ -1891,8 +1887,7 @@ const moduleContent = {
                     "False"
                 ],
                 "answer": 1,
-                "explanation": "Adaptations are completely reversible. If the stress goes away, the cell returns to its original homeostasis.",
-                "buttonText": "Crossing the Line"
+                "explanation": "Adaptations are completely reversible. If the stress goes away, the cell returns to its original homeostasis."
             },
             {
                 "type": "concept",
@@ -1913,8 +1908,7 @@ const moduleContent = {
                 "answer": [
                     1
                 ],
-                "explanation": "When stress **exceeds** the cell's ability to adapt, the process of cell injury begins.",
-                "buttonText": "The Tipping Point"
+                "explanation": "When stress **exceeds** the cell's ability to adapt, the process of cell injury begins."
             },
             {
                 "type": "concept",
@@ -2028,8 +2022,7 @@ const moduleContent = {
                     "False"
                 ],
                 "answer": 1,
-                "explanation": "In excessive amounts or abnormal concentrations, everyday substances like glucose, salt, and oxygen can disrupt cellular homeostasis and cause significant injury.",
-                "buttonText": "Infectious & Immunologic"
+                "explanation": "In excessive amounts or abnormal concentrations, everyday substances like glucose, salt, and oxygen can disrupt cellular homeostasis and cause significant injury."
             },
             {
                 "type": "concept",
@@ -2078,8 +2071,7 @@ const moduleContent = {
                 "answer": [
                     1
                 ],
-                "explanation": "**Atherosclerosis** and cardiovascular disease are driven by **nutritional excess**, where an over-accumulation of dietary lipids causes cellular injury.",
-                "buttonText": "Finish Lesson"
+                "explanation": "**Atherosclerosis** and cardiovascular disease are driven by **nutritional excess**, where an over-accumulation of dietary lipids causes cellular injury."
             }
         ],
         next: "2.2.1"
@@ -2140,8 +2132,7 @@ const moduleContent = {
                     "The mitochondria expand and fill with glucose."
                 ],
                 "answer": 1,
-                "explanation": "Intracellular sodium accumulation drives the osmotic gain of water, leading to cellular swelling.",
-                "buttonText": "Disaster 2"
+                "explanation": "Intracellular sodium accumulation drives the osmotic gain of water, leading to cellular swelling."
             },
             {
                 "type": "concept",
@@ -2158,8 +2149,7 @@ const moduleContent = {
                     "False"
                 ],
                 "answer": 0,
-                "explanation": "The cell desperately burns through all of its glycogen reserves to generate whatever ATP it can while the mitochondria are offline.",
-                "buttonText": "Disaster 3"
+                "explanation": "The cell desperately burns through all of its glycogen reserves to generate whatever ATP it can while the mitochondria are offline."
             },
             {
                 "type": "concept",
@@ -2233,8 +2223,7 @@ const moduleContent = {
                     "False"
                 ],
                 "answer": 1,
-                "explanation": "In a healthy cell, free intracellular calcium is kept at very low levels, and the majority is locked away in the mitochondria and endoplasmic reticulum.",
-                "buttonText": "The Floodgates"
+                "explanation": "In a healthy cell, free intracellular calcium is kept at very low levels, and the majority is locked away in the mitochondria and endoplasmic reticulum."
             },
             {
                 "type": "concept",
@@ -2258,8 +2247,7 @@ const moduleContent = {
                     "It rushes in from outside the plasma membrane."
                 ],
                 "answer": 1,
-                "explanation": "During early cell injury, the initial wave of excess calcium is released directly from intracellular stores such as the endoplasmic reticulum and mitochondria.",
-                "buttonText": "Enzyme Avalanche"
+                "explanation": "During early cell injury, the initial wave of excess calcium is released directly from intracellular stores such as the endoplasmic reticulum and mitochondria."
             },
             {
                 "type": "concept",
@@ -2278,8 +2266,7 @@ const moduleContent = {
                     "ATPase"
                 ],
                 "answer": 1,
-                "explanation": "When activated by excess calcium, phospholipases directly degrade the cell's lipid membrane, whereas other activated enzymes like proteases and endonucleases target cellular proteins and DNA, respectively.",
-                "buttonText": "Nuclear Destruction"
+                "explanation": "When activated by excess calcium, phospholipases directly degrade the cell's lipid membrane, whereas other activated enzymes like proteases and endonucleases target cellular proteins and DNA, respectively."
             },
             {
                 "type": "concept",
@@ -2300,8 +2287,7 @@ const moduleContent = {
                 "answer": [
                     1
                 ],
-                "explanation": "**Endonucleases** are the calcium-activated enzymes that directly break down and fragment DNA and chromatin during cell injury.",
-                "buttonText": "The Final Trigger"
+                "explanation": "**Endonucleases** are the calcium-activated enzymes that directly break down and fragment DNA and chromatin during cell injury."
             },
             {
                 "type": "concept",
@@ -2367,8 +2353,7 @@ const moduleContent = {
                     "False"
                 ],
                 "answer": 0,
-                "explanation": "The unpaired electron drives the free radical to steal electrons from other cellular molecules, creating a chain reaction of damage.",
-                "buttonText": "Sources of ROS"
+                "explanation": "The unpaired electron drives the free radical to steal electrons from other cellular molecules, creating a chain reaction of damage."
             },
             {
                 "type": "concept",
@@ -2398,7 +2383,6 @@ const moduleContent = {
                 ],
                 "answer": 1,
                 "explanation": "Leukocytes (white blood cells) intentionally produce and utilize ROS as a defensive weapon to destroy invading microbes.",
-                "buttonText": "The Metal Threat"
             },
             {
                 "type": "fill",
@@ -2412,8 +2396,7 @@ const moduleContent = {
                 "answer": [
                     1
                 ],
-                "explanation": "Free iron and free copper are dangerous catalysts, so the cell safely binds them to proteins to prevent the generation of ROS.",
-                "buttonText": "Cellular Defenders"
+                "explanation": "Free iron and free copper are dangerous catalysts, so the cell safely binds them to proteins to prevent the generation of ROS."
             },
             {
                 "type": "concept",
@@ -2469,8 +2452,7 @@ const moduleContent = {
                     "It yields unstable peroxides, triggering a continuous, autocatalytic chain reaction."
                 ],
                 "answer": 2,
-                "explanation": "Lipid peroxidation creates unstable peroxides that trigger an autocatalytic chain reaction, progressively tearing the plasma membrane apart.",
-                "buttonText": "Final Review"
+                "explanation": "Lipid peroxidation creates unstable peroxides that trigger an autocatalytic chain reaction, progressively tearing the plasma membrane apart."
             },
             {
                 "type": "match",
@@ -2494,88 +2476,132 @@ const moduleContent = {
         ]
     },
     "2.2.4": {
-        title: "Bursting the Bubble (Membrane Damage) 🫧",
-        objectives: ["Master the four mechanisms that destroy cellular membranes and the specific disasters that occur when the plasma, mitochondrial, and lysosomal membranes rupture."],
-        data: [
+        "title": "Bursting the Bubble - Membrane Damage 🫧",
+        "objectives": [
+            "Understand the biochemical mechanisms that destroy cellular membranes and the catastrophic consequences of plasma, mitochondrial, and lysosomal membrane failure."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The Universal Feature",
-                text: "A cell is only as strong as its walls. The early loss of selective membrane permeability is a consistent feature of almost all forms of cell injury.",
-                subtext: "One major exception is **Apoptosis** (programmed cell death), where the plasma membrane remains intact while the cell is neatly dismantled.",
-                buttonText: "Is it always damaged?"
-            },
-            { 
-                type: "mcq", 
-                question: "Severe membrane damage and rupture is a consistent feature of ALL types of cell death, including apoptosis.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Membrane damage is a hallmark of necrosis and severe injury, but during apoptosis, the membrane remains intact to prevent the leakage of cellular contents into the surrounding tissue." 
+                "type": "concept",
+                "title": "The Ultimate Barrier",
+                "text": "The plasma membrane is the cell's ultimate barrier. \n\nMembrane damage is a key indicator of cell health:\n\n**Early Injury**:\n• Loss of selective permeability.\n• The barrier becomes leaky.\n\n**Irreversible Injury**:\n• Overt structural damage.\n• The barrier breaks apart.\n\n**One Major Exception**:\n• During programmed cell death (apoptosis), the membrane safely remains intact.",
+                "subtext": "",
+                "buttonText": "Check the Exception"
             },
             {
-                type: "concept",
-                title: "How membranes break",
-                text: "While membranes can be damaged directly by toxins, four major internal biochemical mechanisms drive their destruction:\n\n" +
-                    "1. **ROS** (Lipid Peroxidation)\n" +
-                    "2. **Decreased Phospholipid Synthesis**\n" +
-                    "3. **Increased Phospholipid Breakdown**\n" +
-                    "4. **Cytoskeletal Abnormalities**",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "Making new membrane lipids requires energy. Therefore, hypoxia reduces the production of ____________, which starves the cell of the energy needed to synthesize new phospholipids.",
-                options: ["Calcium", "ATP", "ROS", "Protein"],
-                answer: 1,
-                explanation: "Without ATP, the cell's synthetic pathways fail, preventing the replacement of damaged or degraded membrane lipids.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "The Detergent Effect",
-                text: "High cytosolic calcium activates phospholipases that aggressively break down membrane lipids.",
-                subtext: "This process creates toxic lipid byproducts, such as free fatty acids, which act like detergents that insert into the lipid bilayer and destroy its permeability.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "The membrane is normally anchored to the inside of the cell. What happens when high calcium levels activate proteases?", 
-                options: [
-                    "They strengthen the anchors to prevent swelling", 
-                    "They damage the cytoskeletal tethers, causing the membrane to detach and rupture", 
-                    "They convert the anchors into ATP"
-                ], 
-                answer: 1, 
-                explanation: "Proteases cleave the cytoskeletal elements that support the plasma membrane. In a swelling cell, this detachment makes the membrane more susceptible to stretching and rupture."
-            },
-            {
-                type: "concept",
-                title: "Location, Location, Location",
-                text: "The consequences of membrane damage depend on which membrane is affected.",
-                subtext: "Rupture of the plasma, mitochondrial, or lysosomal membranes each leads to a specific cellular disaster.",
-                buttonText: "See the disasters"
-            },
-            {
-                type: "sort",
-                question: "Match the damaged membrane to the specific disaster it causes.",
-                buckets: ["Plasma Membrane", "Mitochondrial Membrane", "Lysosomal Membrane"],
-                items: [
-                    { text: "Loss of osmotic balance and leakage of cellular contents.", bucket: 0 },
-                    { text: "Opens the transition pore and releases apoptotic proteins.", bucket: 1 },
-                    { text: "Leaks acid hydrolases that digest the cell from the inside.", bucket: 2 }
+                "type": "mcq",
+                "question": "Severe membrane damage and rupture is a consistent feature of ALL types of cell death, including apoptosis.",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                explanation: ""
+                "answer": 1,
+                "explanation": "Membrane damage is a hallmark of necrosis and severe cell injury, but during apoptosis, the membrane remains intact while the cell packs itself away."
             },
-            { 
-                type: "mcq", 
-                question: "When the lysosomal membrane ruptures, it dumps enzymes like RNases and proteases into the cytoplasm. What is the ultimate fate of the cell?", 
-                options: [
-                    "It undergoes controlled apoptosis", 
-                    "It successfully adapts and recovers", 
-                    "It is enzymatically digested and enters necrosis"
-                ], 
-                answer: 2, 
-                explanation: "Lysosomes contain acid hydrolases intended for controlled digestion. When these leak into the cytoplasm, they trigger the unregulated enzymatic digestion of the entire cell (necrosis)."
+            {
+                "type": "concept",
+                "title": "Breaking the Barrier",
+                "text": "The cell's lipid bilayer can be damaged directly by toxins or physical agents. \n\n**Internally, 4 major biochemical mechanisms tear the membrane apart**:\n1. Decreased phospholipid synthesis.\n2. Increased phospholipid breakdown.\n3. Reactive oxygen species (ROS).\n4. Cytoskeletal abnormalities.",
+                "subtext": "",
+                "buttonText": "Synthesis vs. Breakdown"
+            },
+            {
+                "type": "concept",
+                "title": "A Losing Battle - Synthesis vs. Breakdown",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 2/2.2.4/lipid_bilayer_damage.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Membrane damage is often driven by a deadly imbalance between phospholipid synthesis and breakdown. \n\n**This happens in two simultaneous ways**:\n\n**Decreased Synthesis**:\n• Low ATP (due to hypoxia) leaves the cell without the energy needed to make new phospholipids for repair.\n\n**Increased Breakdown**:\n• Toxic intracellular calcium activates phospholipases, which actively destroy the existing membrane.",
+                "subtext": "",
+                "buttonText": "The Lipid Destroyers"
+            },
+            {
+                "type": "fill",
+                "text": "Membrane damage is often driven by a deadly imbalance between phospholipid synthesis and breakdown.",
+                "question": "The calcium-activated enzymes responsible for actively breaking down the lipid bilayer of the cell membrane are known as ________.",
+                "options": [
+                    "Proteases",
+                    "Phospholipases",
+                    "Endonucleases",
+                    "ATPases"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "Phospholipases specifically target and degrade the phospholipids that comprise cellular membranes."
+            },
+            {
+                "type": "concept",
+                "title": "Structural Collapse and ROS",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 2/2.2.4/cytoskeleton_destruction.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Beyond just the lipids, the physical scaffolding of the membrane is also targeted:\n\n**Cytoskeleton Destruction**:\n• Excess calcium activates proteases that sever the cytoskeleton from the plasma membrane, leaving it weak and prone to tearing.\n\n**Chemical Degradation**:\n• Reactive oxygen species (ROS) cause lipid peroxidation, chemically breaking down the membrane's architecture.",
+                "subtext": "",
+                "buttonText": "Cutting the Anchors"
+            },
+            {
+                "type": "mcq",
+                "text": "Beyond just the lipids, the physical scaffolding of the membrane is also targeted.",
+                "question": "What happens to the cell membrane when high calcium activates proteases?",
+                "options": [
+                    "They damage the cytoskeletal tethers, causing the membrane to detach, stretch, and rupture.",
+                    "They strengthen the anchors to prevent swelling.",
+                    "They convert the anchors into ATP."
+                ],
+                "answer": 0,
+                "explanation": "The proteases cut the structural anchors. If the cell is swelling with water, the detached membrane will easily stretch and rupture."
+            },
+            {
+                "type": "concept",
+                "title": "The Detergent Effect",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 2/2.2.4/detergent_effect.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "As the membrane degrades, lipid breakdown products (like free fatty acids) accumulate inside the damaged cell. \n\n**These breakdown products act like chemical detergents**:\n• They insert themselves back into the lipid bilayer.\n• They alter membrane permeability.\n• They drive further structural collapse.",
+                "subtext": "Chemical detergents are substances that dissolve fats and break apart lipid structures, much like soap cuts through grease.",
+                "buttonText": "Location Matters"
+            },
+            {
+                "type": "concept",
+                "title": "Location Matters – Plasma, Mitochondria, Lysosomes",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 2/2.2.4/membrane_consequences.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "The consequences of membrane damage depend entirely on which membrane ruptures:\n\n**Plasma Membrane**:\n• Causes a massive influx of fluids and a catastrophic loss of vital cellular contents, including ATP.\n\n**Mitochondrial Membrane**:\n• Halts energy production and releases pro-apoptotic proteins, guaranteeing cell death.\n\n**Lysosomal Membrane**:\n• The most destructive internal breach. \n• These acidic digestive sacs leak powerful enzymes that completely digest the cell from the inside out—a hallmark of necrosis.",
+                "subtext": "",
+                "buttonText": "Final Review"
+            },
+            {
+                "type": "match",
+                "question": "Match the specific cellular membrane to the catastrophic consequence of its rupture.",
+                "pairs": [
+                    {
+                        "left": "Plasma Membrane",
+                        "right": "Loss of cellular contents and influx of fluid"
+                    },
+                    {
+                        "left": "Mitochondrial Membrane",
+                        "right": "Halt in ATP production and release of apoptotic proteins"
+                    },
+                    {
+                        "left": "Lysosomal Membrane",
+                        "right": "Enzymatic digestion of the cell via acid hydrolases"
+                    }
+                ],
+                "explanation": "When cellular membranes fail, plasma membrane damage leads to the loss of cellular contents and fluid influx, mitochondrial membrane damage halts ATP production and releases apoptotic proteins, and lysosomal membrane damage results in enzymatic digestion of the cell by acid hydrolases."
             }
         ]
     },
