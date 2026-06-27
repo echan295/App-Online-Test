@@ -363,7 +363,7 @@ const moduleContent = {
             },
             {
                 type: "match",
-                question: "Match the membrane protein to its factory equivalent!",
+                question: "The lipid wall is studded with proteins that perform specific jobs.\n\nMatch the membrane protein to its factory equivalent!",
                 pairs: [
                     { left: "Transport Proteins", right: "The Gates: Moves molecules, nutrients, and waste in and out." },
                     { left: "Receptor Proteins", right: "The Antennas: Catches chemical signals to communicate." },
@@ -478,7 +478,7 @@ const moduleContent = {
             },
             {
                 type: "fill",
-                question: "In skeletal and cardiac muscle, ____________ hydrolysis by the motor protein myosin slides the actin filaments past each other to cause muscle contraction.",
+                question: "Actin loves to team up with motor proteins like myosin to generate movement.\n\nIn skeletal and cardiac muscle, ____________ hydrolysis by the motor protein myosin slides the actin filaments past each other to cause muscle contraction.",
                 options: ["ATP", "Calcium", "Sodium", "GTP", "Glucose"],
                 answer: 0,
                 explanation: "**ATP** directly powers the myosin motors to slide the actin fibers and contract the muscle.",
@@ -541,7 +541,7 @@ const moduleContent = {
             },
             {
                 type: "match",
-                question: "Match the motor protein to the direction it travels on the microtubule!",
+                question: "Let's look closer at those \"train tracks.\" \n\n Match the motor protein to the direction it travels on the microtubule!",
                 pairs: [
                     { left: "Kinesins", right: "Transport cargo anterograde (outward, - to + end)." },
                     { left: "Dyneins", right: "Transport cargo retrograde (inward, + to - end)." }
@@ -694,7 +694,7 @@ const moduleContent = {
             },
             {
                 type: "sort",
-                question: "Final Review: The Assembly Line Challenge!",
+                question: "Let's see what you remember about the cell's protein synthesis pathway! \n\nDrag and drop the correct clues into the matching department's bucket.",
                 buckets: ["Free Ribosomes", "Rough ER", "Smooth ER", "Chaperones", "Golgi"],
                 items: [
                     { text: "Synthesizes cytosolic proteins; unattached in cytoplasm.", bucket: 0 },
@@ -807,7 +807,7 @@ const moduleContent = {
             },
             { 
                 type: "mcq", 
-                question: "What is the name of the small protein tag that identifies a molecule for destruction by the Proteasome?", 
+                question: "The Proteasome cylinder does not just eat any protein. It only shreds proteins that have a specific \"kiss of death\" tag covalently attached to them. \n\n What is the name of the small protein tag that identifies a molecule for destruction by the Proteasome?", 
                 options: ["Ubiquitin", "Clathrin", "Actin", "Lysine", "Phosphate"], 
                 answer: 0, 
                 explanation: "**Polyubiquitinated** proteins are unfolded and funneled straight into the Proteasome shredder." 
@@ -895,7 +895,7 @@ const moduleContent = {
             },
             {
                 type: "fill",
-                question: "A natural, low-level by-product of mitochondrial electron transport is the production of ____________ .",
+                question: "This energy-making process is highly efficient, but it naturally produces some dangerous chemical sparks as a by-product. \n\n A natural, low-level by-product of mitochondrial electron transport is the production of ____________ .",
                 options: ["Reactive Oxygen Species (ROS)", "Mannose-6-Phosphate", "ATP"],
                 answer: 0,
                 explanation: "Mitochondrial electron transport naturally produces **Reactive Oxygen Species (ROS)** as a by-product, the damaging effects of which are detailed in the upcoming Cell Injury module.",
@@ -981,7 +981,7 @@ const moduleContent = {
             },
             {
                 type: "fill",
-                question: "Gap junctions in the heart allow rapid cell-to-cell fluxes of ____________ ions to coordinate this heartbeat.",
+                question: "Gap junctions are famously used in cardiac muscle cells so the whole heart can contract together in a synchronized wave (a functional syncytium). \n\n Gap junctions in the heart allow rapid cell-to-cell fluxes of ____________ ions to coordinate this heartbeat.",
                 options: ["Calcium", "Potassium", "ATP", "Formalin", "E-cadherin"],
                 answer: 0,
                 explanation: "The rapid flow of **Calcium** through the gap junctions allows the heart cells to beat as one single unit.",
@@ -1903,7 +1903,7 @@ const moduleContent = {
             },
             {
                 "type": "fill",
-                "question": "If the limits of adaptive responses are ____________, the cell enters a state of cell injury.",
+                "question": "When a cell can no longer handle the stress, it crosses a dangerous threshold.\n\n If the limits of adaptive responses are ____________, the cell enters a state of cell injury.",
                 "options": [
                     "Eliminated",
                     "Exceeded",
@@ -1944,7 +1944,7 @@ const moduleContent = {
             },
             {
                 "type": "order",
-                "question": "Drag the stages into the correct order to build the timeline of progressive cellular impairment!",
+                "question": "A cell is under severe, persistent stress and eventually dies.\n\nDrag the stages into the correct order to build the timeline of progressive cellular impairment!",
                 "items": [
                     "Adaptation",
                     "Reversible Injury",
@@ -2000,7 +2000,7 @@ const moduleContent = {
             },
             {
                 "type": "fill",
-                "question": "While hypoxia is a general lack of oxygen, ________ refers specifically to hypoxia caused by reduced blood flow.",
+                "question": "Medical students must know the difference between these two foundational terms.\n\nWhile hypoxia is a general lack of oxygen, ________ refers specifically to hypoxia caused by reduced blood flow.",
                 "options": [
                     "Anemia",
                     "Ischemia",
