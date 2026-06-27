@@ -2087,95 +2087,122 @@ const moduleContent = {
 
     // UNIT 2
     "2.2.1": {
-        title: "The Power Outage (ATP Depletion) 🔋",
-        objectives: ["Master the role of mitochondria, how ATP depletion occurs, and the disastrous domino effect that happens when a cell loses its energy supply."],
-        data: [
+        "title": "The Broken Power Plant – Mitochondrial Damage & ATP Depletion",
+        "objectives": [
+            "Understand how mitochondria get damaged, why this leads to a disastrous loss of ATP, and the domino effect that happens when a cell loses its energy supply."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The Arbiter of Life and Death",
-                text: "Mitochondria are the cell's power plants, producing life-sustaining ATP. Because of this, they are the ultimate arbiters of cell life and death!",
-                subtext: "They are highly sensitive to injury. Increases in calcium, lack of oxygen (hypoxia), and toxins can all damage the mitochondria and trigger cell death.",
-                buttonText: "How is ATP made?"
-            },
-            {
-                type: "concept",
-                title: "ATP Production",
-                text: "Cells make ATP in two ways:\n\n" +
-                    "1. **Oxidative Phosphorylation:** Uses oxygen in the mitochondria (high yield).\n" +
-                    "2. **Glycolysis:** Uses glucose without oxygen (low yield).",
-                subtext: "If a cell loses its oxygen supply (ischemia/hypoxia) or is exposed to toxins like cyanide, oxidative phosphorylation fails, leading to severe ATP depletion.",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "When mitochondria are damaged, a high-conductance channel opens in their membrane called the Mitochondrial Permeability Transition ____________.",
-                options: ["Tube", "Pore", "Valve", "Gate"],
-                answer: 1,
-                explanation: "The opening of this pore ruins the mitochondrial membrane potential, stopping ATP production and ultimately leading to necrosis.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "The 5% Danger Zone",
-                text: "ATP is required for virtually everything: membrane transport, making proteins, and building lipids.",
-                subtext: "When ATP levels drop to just 5% to 10% of normal, a massive, cell-wide crisis begins across three major systems.",
-                buttonText: "See Disaster 1"
-            },
-            {
-                type: "concept",
-                title: "Disaster 1: Cell Swelling",
-                text: "ATP powers the **Na+/K+ pump** on the cell membrane. Without ATP, the pump fails and Sodium (Na+) accumulates inside the cell.",
-                subtext: "Where sodium goes, water follows. This osmotic pull causes severe cell swelling (edema) and ER dilation.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "When the ATP-dependent sodium pump fails, what causes the cell to swell?", 
-                options: [
-                    "Water leaves the cell to follow potassium", 
-                    "Sodium enters the cell, dragging water in with it", 
-                    "The mitochondria expand and fill with glucose"
-                ], 
-                answer: 1, 
-                explanation: "Intracellular sodium accumulation drives osmotic water gain, which results in cellular swelling."
-            },
-            {
-                type: "concept",
-                title: "Disaster 2: Lactic Acidosis",
-                text: "When mitochondria fail, the cell switches to anaerobic glycolysis to generate emergency ATP from glycogen.",
-                subtext: "Glycolysis produces **Lactic Acid** as a byproduct. This buildup lowers intracellular pH, which inhibits many essential cellular enzymes.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Because the starving cell relies on glycolysis to survive, its intracellular glycogen stores rapidly increase.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Glycogen stores are rapidly depleted because the cell is burning through its glucose reserves to maintain ATP production." 
-            },
-            {
-                type: "concept",
-                title: "Disaster 3: Factory Shutdown",
-                text: "Prolonged ATP depletion causes the cell's structural scaffolding to break down, leading to the detachment of ribosomes from the rough ER.",
-                subtext: "This results in a severe reduction in protein synthesis and an increase in toxic, misfolded proteins.",
-                buttonText: "The Final Blow"
-            },
-            {
-                type: "match",
-                question: "The power is out! Match the cellular system failure to its direct consequence.",
-                pairs: [
-                    { left: "Na+/K+ Pump Failure", right: "Cellular Swelling" },
-                    { left: "Shift to Glycolysis", right: "Lactic Acid buildup & pH drop" },
-                    { left: "Ribosome Detachment", right: "Decreased Protein Synthesis" }
+                "type": "concept",
+                "title": "The Cell's Power Plant",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 2/2.2.1/oxphos_vs_glycolysis.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                explanation: ""
+                "text": "Mitochondria are the cell's power plants, responsible for generating life-sustaining energy (ATP).\n\nCells make ATP in two ways:\n\n**Oxidative Phosphorylation**:\n• Happens inside the mitochondria.\n• Uses oxygen to produce a massive amount of ATP.\n• Highly efficient.\n\n**Glycolysis**:\n• Happens in the cytoplasm.\n• Needs no oxygen, but makes very little ATP\n• Inefficient backup plan",
+                "subtext": "",
+                "buttonText": "Mitochondrial Damage"
             },
             {
-                type: "concept",
-                title: "The Final Blow",
-                text: "If the power is not restored, irreversible damage occurs. Mitochondrial and lysosomal membranes eventually rupture, leading to necrosis.",
-                subtext: "Damaged mitochondria also leak ROS and pro-apoptotic proteins like BAX and BAK, triggering cell death.",
-                buttonText: "Finish Lesson"
+                "type": "concept",
+                "title": "Attack on the Power Plant – Mitochondrial Damage",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 2/2.2.1/mitochondrial_damage_causes.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Mitochondria are incredibly sensitive. They are the main target for almost all types of cell injury!\n\nThe cellular power plant gets damaged by:\n1. **Cut off the air**: Hypoxia or ischemia (lack of oxygen).\n2. **Internal sabotage**: Excess cytosolic calcium and free radicals (ROS).\n3. **External toxins**: Poisons like cyanide.\n4. **Genetic/Metabolic stress**: Lack of nutrients or fuel.\n\nWhen damaged, the mitochondrial membrane becomes leaky, shutting down its ability to perform oxidative phosphorylation.",
+                "subtext": "",
+                "buttonText": "Disaster 1"
+            },
+            {
+                "type": "concept",
+                "title": "Disaster 1 - Cellular Swelling",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 2/2.2.1/pump_failure_swelling.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "ATP powers the sodium-potassium (**Na+/K+**) pump. Without ATP, the pump fails and sodium rushes into the cell.\n\nRemember the golden medical rule: **Where sodium goes, water follows.**\n\n**This chain reaction causes**:\n• Water influx via osmosis.\n• Severe cellular swelling.\n• Dilation of the endoplasmic reticulum.",
+                "subtext": "ATP depletion → Na+/K+ pump failure → Na+ accumulates inside, K+ leaks out → Osmotic water influx → Cellular swelling.",
+                "buttonText": "Check your understanding"
+            },
+            {
+                "type": "mcq",
+                "question": "When the ATP-dependent sodium pump fails, what causes the cell to swell?",
+                "options": [
+                    "Water leaves the cell to follow potassium.",
+                    "Sodium enters the cell, dragging water in with it.",
+                    "The mitochondria expand and fill with glucose."
+                ],
+                "answer": 1,
+                "explanation": "Intracellular sodium accumulation drives the osmotic gain of water, leading to cellular swelling.",
+                "buttonText": "Disaster 2"
+            },
+            {
+                "type": "concept",
+                "title": "Disaster 2 - The Acidic Shift",
+                "text": "With mitochondrial oxidative phosphorylation shut down, the starving cell desperately switches to its **backup plan: anaerobic glycolysis**, trying to squeeze a tiny bit of ATP from its glycogen stores.\n\nBut this backup plan has a **toxic byproduct: lactic acid**.\n\n**As lactic acid builds up**:\n• The cell becomes highly acidic (pH drops).\n• The acidic environment physically shuts down important enzymes.",
+                "subtext": "",
+                "buttonText": "Glycogen Stores"
+            },
+            {
+                "type": "mcq",
+                "question": "Because the mitochondria are damaged, the starving cell relies entirely on glycolysis to survive, rapidly depleting its intracellular glycogen stores.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 0,
+                "explanation": "The cell desperately burns through all of its glycogen reserves to generate whatever ATP it can while the mitochondria are offline.",
+                "buttonText": "Disaster 3"
+            },
+            {
+                "type": "concept",
+                "title": "Disaster 3 - Factory Shutdown",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 2/2.2.1/ribosome_detachment.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "With prolonged ATP depletion, the cell's structural scaffolding breaks down. Ribosomes physically detach from the **rough endoplasmic reticulum (RER)**.\n\n**Without these ribosomes, the cell's manufacturing factory shuts down entirely, causing**:\n• A severe drop in protein synthesis.\n• The loss of the cell's ability to repair and maintain itself.",
+                "subtext": "",
+                "buttonText": "Disaster 4"
+            },
+            {
+                "type": "concept",
+                "title": "Disaster 4 - The Calcium Crisis",
+                "text": "Normally, cells use energy to pump calcium out, maintaining very low internal calcium levels.\n\n**Without ATP, the calcium pump fails, causing a dangerous influx of calcium into the cell.** \n\n**This excess calcium triggers a crisis**:\n• It activates destructive enzymes.\n• It damages cellular components.\n• It pushes the cell closer to irreversible injury.",
+                "subtext": "",
+                "buttonText": "Final Match"
+            },
+            {
+                "type": "match",
+                "question": "The power is out. Match the cellular system failure to its direct consequence.",
+                "pairs": [
+                    {
+                        "left": "Na+/K+ Pump Failure",
+                        "right": "Cellular Swelling"
+                    },
+                    {
+                        "left": "Shift to Glycolysis",
+                        "right": "Lactic acid buildup and pH drop"
+                    },
+                    {
+                        "left": "Ribosomes Detach from ER",
+                        "right": "Decreased protein synthesis"
+                    },
+                    {
+                        "left": "Calcium Pump Failure",
+                        "right": "Harmful enzyme activation"
+                    }
+                ],
+                "explanation": "**Na+/K+ pump failure** causes cellular swelling, a **shift to glycolysis** causes lactic acid buildup and a pH drop, **detached ribosomes** decrease protein synthesis, and **calcium pump failure** activates harmful enzymes."
             }
         ]
     },
