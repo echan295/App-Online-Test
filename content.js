@@ -1954,7 +1954,7 @@ const moduleContent = {
                 "explanation": "**Adaptation** is the attempt to stress, **Reversible Injury** allows recovery, **Irreversible Injury** is severe/persistent stress passing the \"Point of No Return,\" and **Cell Death** is the final outcome."
             },
             {
-                "type": "mcq",
+                type: "clinical",
                 "title": "Mini-Case – The Heart Attack",
                 "question": "A patient has a blocked coronary artery. The heart muscle cells suddenly lose their oxygen supply (stress!). If doctors clear the blockage in 15 minutes, the heart cells go back to normal. If the blockage remains for 4 hours, the heart cells die.\n\nWhat does the 15-minute mark represent in our timeline?",
                 "options": [
