@@ -524,105 +524,153 @@ const moduleContent = {
         ]
     },
     "0.5": {
-        title: "Inside the Histopathology Lab 🥼",
-        objectives: ["Understand the step-by-step journey of a tissue sample from the operating room to the microscope."],
-        data: [
-            {
-                type: "concept",
-                title: "Information",
-                text: "When a piece of tissue is removed from a patient, the very first step is Gross (Macroscopic) Examination. The pathologist looks at the tissue with their naked eye to find obvious disease.",
-                subtext: "",
-                buttonText: "Got it!"
-            },
-            { 
-                type: "mcq", 
-                question: "Gross examination of a tissue sample requires a high-powered microscope.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: '"Gross" or "Macroscopic" means looking with the _naked eye_.'
-            },
-            {
-                type: "concept",
-                title: "Tissue Processing - Step 1",
-                text: "We can't let the tissue rot! To preserve the cells and stop decay, the tissue is placed in a chemical called formalin. This crucial step is called **Fixation**.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Tissue Processing - Step 2",
-                text: "Next, the tissue must be made stiff enough to cut. We remove the water and place the tissue into a hard block of paraffin wax. This is called **Embedding**.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Tissue Processing - Step 3",
-                text: "Now that the tissue is in a hard wax block, we use a machine called a Microtome to cut it into ultra-thin slices (thinner than a human hair!). This is called **Sectioning**.",
-                subtext: "",
-                buttonText: "Got it!"
-            },
-            {
-                type: "match",
-                question: "Match the lab process to its correct description!",
-                pairs: [
-                    { left: "Fixation", right: "Preserving the tissue (usually in formalin)." },
-                    { left: "Embedding", right: "Putting the tissue in a hard wax block." },
-                    { left: "Sectioning", right: "Cutting ultra-thin slices using a microtome." }
-                ],
-                explanation: "This sequence ensures the tissue is hard enough to be cut into slices so thin that light can pass through them!"
-            },
-            {
-                type: "concept",
-                title: "Staining Intro",
-                text: "Because human cells are naturally clear, those ultra-thin slices are invisible under a microscope! We must dye them. The classic, routine stain used is H & E (Hematoxylin and Eosin).",
-                subtext: "Let's see how it works.",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: 'The "H" in H&E',
-                text: "Hematoxylin is a basic dye that loves acidic structures. Since the cell's nucleus is full of acidic DNA, Hematoxylin stains the nucleus a dark **Blue** or **Purple**.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: 'The "E" in H&E',
-                text: "Eosin is an acidic dye that loves basic structures. It surrounds the nucleus and stains the cytoplasm (the body of the cell) and extracellular proteins a beautiful **Pink**.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "match",
-                question: "You are looking through the microscope! Match the dye to the part of the cell it colors.",
-                pairs: [
-                    { left: "Hematoxylin (Blue/Purple)", right: "The Nucleus (DNA)" },
-                    { left: "Eosin (Pink)", right: "The Cytoplasm" }
-                ],
-                explanation: ""
-            },
-            { 
-                type: "mcq", 
-                question: "If you see a lot of dark blue/purple dots on an H&E stained slide, you are looking at the cytoplasms of the cells.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "The dark blue/purple dots are the nuclei (stained by Hematoxylin). The cytoplasm is the pink area!"
-            },
-            {
-                type: "concept",
-                title: "Special Stains",
-                text: "Sometimes, the standard H&E (pink and purple) isn't enough to figure out exactly what the disease is. To get the most accurate diagnosis, pathologists use Special Staining Methods, such as Histochemistry and Immunohistochemistry.",
-                subtext: "",
-                buttonText: "Got it!"
-            },
-            { 
-                type: "order", 
-                question: "You are the pathologist! Arrange the lab steps in the correct chronological order to prepare your slide.", 
-                items: ["Gross Examination", "Fixation (Formalin)", "Embedding (Wax)", "Sectioning (Microtome)", "Staining (H&E)"], 
-                explanation: "" }
+        "title": "Diagnostic Pathology 🔬",
+        "objectives": [
+            "Differentiate between histopathology and cytopathology.",
+            "Learn the five steps of the histopathology workflow (from patient to slide).",
+            "Understand the basic principles of the H&E stain (Hematoxylin and Eosin)."
         ],
-        next: "1.1.1"
+        "data": [
+            {
+                "type": "concept",
+                "title": "The Two Subfields of Diagnosis",
+                "images": [
+                    {
+                        "url": "images/Chapter 0/0.5/histo_vs_cyto.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "When a clinician sends a patient's sample to the lab, the pathologist examines it in one of two ways:\n\n**Histopathology**:\n• The examination of intact, solid tissues (like a surgical biopsy).\n• It preserves the tissue's architecture, showing exactly how the cells are arranged together.\n\n**Cytopathology**:\n• The examination of individual, isolated cells (like fluids or a Pap smear).\n• There is no intact tissue architecture.",
+                "subtext": "",
+                "buttonText": "Tissue vs. Cells"
+            },
+            {
+                "type": "fill",
+                "question": "If a doctor wants to study a piece of tissue cut from an organ, they will use _____. If they want to use a needle to suck up a few loose cells from a deep lump, they will use _____.",
+                "options": [
+                    "Histopathology",
+                    "Cytopathology (FNAC)"
+                ],
+                "answer": [0, 1],
+                "explanation": "Histopathology evaluates whole pieces of tissue to see how cells interact, whereas cytopathology evaluates the internal features of loose, individual cells."
+            },
+            {
+                "type": "concept",
+                "title": "The Workflow – From Patient to Slide",
+                "images": [
+                    {
+                        "url": "images/Chapter 0/0.5/workflow_steps.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "How does a chunk of tissue become a tiny, transparent slice on a glass slide? It takes a five-step workflow!\n\n**1. Gross Examination**: Looking at the tissue with the naked eye to find obvious disease.\n**2. Fixation**: Placing the tissue in a chemical (formalin) to preserve the cells and stop decay.\n**3. Processing & Embedding**: Removing the water and placing tissue into a hard block of paraffin wax so it is stiff enough to cut.\n**4. Sectioning**: Using a microtome to cut the wax block into ultra-thin slices—thinner than a human hair!\n**5. Staining**: Dyeing the naturally clear cells so they become visible under a microscope.",
+                "subtext": "",
+                "buttonText": "Lab Vocabulary"
+            },
+            {
+                "type": "match",
+                "question": "Match the lab process to its correct description!",
+                "pairs": [
+                    {
+                        "left": "Fixation",
+                        "right": "Preserving the tissue (usually in formalin)."
+                    },
+                    {
+                        "left": "Embedding",
+                        "right": "Putting the tissue in a hard wax block."
+                    },
+                    {
+                        "left": "Sectioning",
+                        "right": "Cutting ultra-thin slices using a microtome."
+                    }
+                ],
+                "explanation": "Fixation preserves the tissue in formalin, embedding secures it in a hard wax block, and sectioning uses a microtome to cut the block into ultra-thin slices."
+            },
+            {
+                "type": "order",
+                "question": "A surgeon just removed a tumor. Put the laboratory workflow steps in the correct chronological order to create a microscopic slide!",
+                "items": [
+                    "Grossing examination",
+                    "Fixation",
+                    "Processing & Embedding",
+                    "Sectioning",
+                    "Staining"
+                ],
+                "explanation": "The tissue must first be examined grossly, preserved in formalin, processed and embedded in wax for stability, cut/sectioned into extremely thin slices, and finally stained for microscopic visibility."
+            },
+            {
+                "type": "mcq",
+                "question": "If a biopsied tissue is not immediately placed into a fixative like formalin, it will begin to degrade and the cells will be destroyed before the pathologist can examine them.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 0,
+                "explanation": "Fixation is a critical step because chemical preservatives permanently cross-link proteins, preserving the life-like state of the cells and preventing tissue decay."
+            },
+            {
+                "type": "concept",
+                "title": "The Magic of Staining: H&E",
+                "images": [
+                    {
+                        "url": "images/Chapter 0/0.5/he_mechanism.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Because human cells are naturally clear, they are nearly transparent and invisible under a microscope! To actually see these ultra-thin slices, we must dye them.\n\nThe classic, routine stain used is **H & E (Hematoxylin and Eosin)**. It creates contrast based on chemical properties:\n\n**Hematoxylin (Blue/Purple)**:\n• A basic dye that binds to acidic structures (like DNA/RNA).\n• It stains the nucleus dark blue or purple.\n• These structures are called **basophilic**.\n\n**Eosin (Pink)**:\n• An acidic dye that binds to basic structures (like cytoplasmic proteins).\n• It stains the cytoplasm and extracellular proteins pink.\n• These structures are called **eosinophilic**.",
+                "subtext": "When H&E isn't enough, pathologists use Special Stains like Histochemistry or Immunohistochemistry.",
+                "buttonText": "The Color Code"
+            },
+            {
+                "type": "sort",
+                "question": "Sort the following characteristics into the \"Hematoxylin\" or \"Eosin\" dye categories.",
+                "buckets": ["Hematoxylin", "Eosin"],
+                "items": [
+                    { "text": "Stains structures blue or purple", "bucket": 0 },
+                    { "text": "Binds to acidic DNA in the cell nucleus", "bucket": 0 },
+                    { "text": "Creates \"basophilic\" staining", "bucket": 0 },
+                    { "text": "Stains structures pink or red", "bucket": 1 },
+                    { "text": "Binds to basic proteins in the cell cytoplasm", "bucket": 1 },
+                    { "text": "Creates \"eosinophilic\" staining", "bucket": 1 }
+                ],
+                "explanation": "Hematoxylin is the blue dye that highlights the cell's genetic material, while Eosin is the pink dye that highlights the cell's cytoplasm and surrounding connective tissue."
+            },
+            {
+                "type": "mcq",
+                "question": "If you see a lot of dark blue/purple dots on an H&E stained slide, you are looking at the cytoplasms of the cells.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "The dark blue/purple dots are the nuclei (stained by Hematoxylin). The cytoplasm is the pink area!"
+            },
+            {
+                "type": "concept",
+                "title": "Beyond the Microscope – Molecular Pathology",
+                "text": "While microscopes and H&E stains are the foundation, modern pathology looks even deeper into the cell:\n\n**Molecular Pathology**:\n• Diagnoses disease by examining the actual molecules (DNA, RNA, and proteins).\n\n**This allows pathologists to**:\n• Identify specific genetic mutations (like those driving cancer).\n• Guide clinicians in providing highly personalized, targeted therapies.",
+                "subtext": "",
+                "buttonText": "Unit Review"
+            },
+            {
+                "type": "sort",
+                "question": "Let's review everything we have learned in this unit! Remember, pathology is the bridge between the foundational sciences and patient care.\nSort the following actions into their correct medical fields.",
+                "buckets": ["Basic Sciences", "Pathology", "Clinical Medicine"],
+                "items": [
+                    { "text": "Learning normal body structures", "bucket": 0 },
+                    { "text": "Understanding how healthy organs function", "bucket": 0 },
+                    { "text": "Studying DNA and genetic codes", "bucket": 0 },
+                    { "text": "Knowing the underlying cause of a disease", "bucket": 1 },
+                    { "text": "Tracing how a disease develops step-by-step", "bucket": 1 },
+                    { "text": "Identifying the structural changes in sick cells", "bucket": 1 },
+                    { "text": "Examining sick patients at the bedside", "bucket": 2 },
+                    { "text": "Prescribing medications based on a lab report", "bucket": 2 },
+                    { "text": "Performing surgeries to remove tumors", "bucket": 2 }
+                ],
+                "explanation": "Basic sciences focus on how a healthy body works. Pathology studies the core disease processes. Clinical medicine uses that knowledge to physically treat and manage the patient."
+            }
+        ],
+        "next": "1.1.1"
     },
 
     // CHAPTER 1
