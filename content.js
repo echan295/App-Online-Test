@@ -262,55 +262,151 @@ const moduleContent = {
         ]
     },
     "0.3": {
-        title: "The Core Four (Part 2 - The Results) 🔬",
-        objectives: ["Learn the final two core aspects: Morphologic changes and Clinical manifestations."],
-        data: [
+        "title": "Basic Terminology 🩺",
+        "objectives": [
+            "Master the vocabulary used to describe a patient's clinical journey.",
+            "Differentiate between subjective symptoms and objective signs.",
+            "Understand terms like investigations, diagnosis, management, complications, prognosis, and prevention."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "Information",
-                text: "The disease has started (Etiology) and progressed (Pathogenesis). Now, what happens to the body's structure? We call this Morphologic Changes.",
-                subtext: "These are structural alterations in cells/tissues characteristic of a disease. They can be seen macroscopically (naked eye), microscopically, or even at the molecular/genetic level! ",
-                buttonText: "Let's dive in!"
-            },
-            { 
-                type: "mcq", 
-                question: "Modern diagnostic pathology relies only on looking at tissue structures through a microscope to diagnose tumors.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Morphology is supplemented by analyzing protein expression and genetic alterations (e.g., next-generation sequencing) to predict how tumors will behave!"
+                "type": "concept",
+                "title": "The Patient's Journey",
+                "text": "Welcome to the clinic! To apply pathology to real life, we must speak the language of clinical medicine.\n\nEvery patient goes through a journey: from feeling sick, to getting tested, receiving a name for their illness, getting treated, and predicting the future.\n\nMedical professionals use specific terms to describe each step of this journey.",
+                "subtext": "",
+                "buttonText": "Let's learn them!"
             },
             {
-                type: "concept",
-                title: "Information",
-                text: "Finally, structural changes lead to functional abnormalities. These are the **Clinical Manifestations.**\n\n" +
-                    '**Symptoms:** What the patient feels (e.g., "My chest hurts").\n' +
-                    "**Physical Signs:** What the clinician _discovers_ (e.g., High blood pressure on a monitor).",
-                subtext: "",
-                buttonText: "Got it!"
+                "type": "concept",
+                "title": "Signs vs. Symptoms",
+                "text": "How do we know someone is sick? It starts with **Signs** and **Symptoms**.\n\n**Symptoms**:\n• Subjective complaints reported by the patient.\n• _Example_: \"I have a headache,\" nausea, fatigue.\n• Only the patient can feel them; they cannot be directly measured by an observer.\n\n**Signs**:\n• Objective findings discovered by the clinician during a physical examination.\n• _Example_: A fever of 102°F, a visible rash, high blood pressure.\n• You can see and measure them!",
+                "subtext": "",
+                "buttonText": "Signs vs. Symptoms"
             },
             {
-                type: "sort",
-                question: "Sort the following into Symptoms or Signs.",
-                buckets: ["Symptoms", "Signs"],
-                items: [
-                    { 
-                        text: "Patient feels nauseous.", 
-                        bucket: 0 
+                "type": "sort",
+                "question": "Sort the following findings into \"Sign\" (Objective) or \"Symptom\" (Subjective).",
+                "buckets": [
+                    "Sign",
+                    "Symptom"
+                ],
+                "items": [
+                    {
+                        "text": "Swollen lymph nodes felt on palpation",
+                        "bucket": 0
                     },
-                    { 
-                        text: "Doctor hears a heart murmur", 
-                        bucket: 1 
+                    {
+                        "text": "Heart murmur heard with a stethoscope",
+                        "bucket": 0
                     },
-                    { 
-                        text: "Patient complains of a headache.", 
-                        bucket: 0 
+                    {
+                        "text": "Low oxygen level on a monitor",
+                        "bucket": 0
                     },
-                    { 
-                        text: "Doctor measures a fever of 39°C.", 
-                        bucket: 1 
+                    {
+                        "text": "Dizziness",
+                        "bucket": 1
+                    },
+                    {
+                        "text": "Blurry vision",
+                        "bucket": 1
+                    },
+                    {
+                        "text": "Numbness in the toes",
+                        "bucket": 1
                     }
                 ],
-                explanation: ""
+                "explanation": "Symptoms are subjective experiences felt only by the patient Dizziness, Blurry vision, Numbness in the toes, while signs are objective, measurable findings observed by the clinician Swollen lymph nodes felt on palpation, Heart murmur heard with a stethoscope, Low oxygen level on a monitor."
+            },
+            {
+                "type": "concept",
+                "title": "Investigations & Diagnosis",
+                "text": "Next, the doctor acts like a detective to figure out what is wrong.\n\n**Investigations**:\n• Tests or procedures performed to gather more evidence about the disease.\n• _Examples_: Blood tests, X-rays, tissue biopsies.\n\n**Diagnosis**:\n• The act of formally identifying a disease or condition from its signs, symptoms, and investigations.\n• It answers the crucial question: \"What is it?\"",
+                "subtext": "",
+                "buttonText": "Check your understanding"
+            },
+            {
+                "type": "fill",
+                "question": "Based on a patient's severe cough and the shadowy findings on a chest X-ray, the doctor formally identifies the disease as pneumonia. Identifying the specific disease is called making a ____________.",
+                "options": [
+                    "Prognosis",
+                    "Diagnosis",
+                    "Prevention"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "A diagnosis is the formal identification of a disease or condition based on the evaluation of signs, symptoms, and investigational findings."
+            },
+            {
+                "type": "concept",
+                "title": "Management, Complications, & Prognosis",
+                "images": [
+                    {
+                        "url": "images/Chapter 0/0.3/patient_journey.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Once we have a diagnosis, what happens next?\n\n**Management**:\n• A clinical plan to treat the patient.\n• _Example_: Medications, surgery, supportive care, lifestyle advice.\n\n**Complications**:\n• Unfavorable or secondary conditions that develop during the course of a primary disease.\n• _Example_: A severe bacterial lung infection developing after a simple viral cold.\n\n**Prognosis**:\n• The medical forecast of the probable course and clinical outcome of a disease.\n• It answers the patient's question: \"What will happen to me?\"",
+                "subtext": "",
+                "buttonText": "The Path Forward"
+            },
+            {
+                "type": "match",
+                "question": "Match the clinical term to its correct definition!",
+                "pairs": [
+                    {
+                        "left": "Management",
+                        "right": "The treatment plan (medications, surgery, care)."
+                    },
+                    {
+                        "left": "Complications",
+                        "right": "Secondary, unwanted conditions that worsen the primary disease."
+                    },
+                    {
+                        "left": "Prognosis",
+                        "right": "The forecast or predicted clinical outcome of the disease."
+                    }
+                ],
+                "explanation": "Management refers to how the disease is treated, complications are secondary issues that may arise, and prognosis is the prediction of the future outcome."
+            },
+            {
+                "type": "concept",
+                "title": "Prevention",
+                "text": "The ultimate goal of medicine isn't just to treat disease, but to stop it before it starts!\n\n**Prevention**:\n• Proactive measures taken to eradicate, eliminate, or minimize the impact of disease and disability.\n• _Examples_: Vaccines to prevent infections, smoking cessation to prevent lung cancer, and wearing seatbelts to prevent trauma.",
+                "subtext": "",
+                "buttonText": "Final Review"
+            },
+            {
+                "type": "match",
+                "question": "A patient feels dizzy. The doctor measures a fast heart rate. A blood test is done, which confirms hyperthyroidism. The doctor prescribes daily medication and tells the patient they will fully recover. Match the event to the correct clinical term!",
+                "pairs": [
+                    {
+                        "left": "Dizziness",
+                        "right": "Symptom"
+                    },
+                    {
+                        "left": "Fast heart rate",
+                        "right": "Sign"
+                    },
+                    {
+                        "left": "Blood test",
+                        "right": "Investigation"
+                    },
+                    {
+                        "left": "Confirms hyperthyroidism",
+                        "right": "Diagnosis"
+                    },
+                    {
+                        "left": "Daily medication",
+                        "right": "Management"
+                    },
+                    {
+                        "left": "Full recovery expected",
+                        "right": "Prognosis"
+                    }
+                ],
+                "explanation": "Dizziness is a subjective symptom experienced by the patient, while a fast heart rate is an objective sign measured by the doctor. The blood test serves as the investigation, confirming hyperthyroidism is the diagnosis, prescribing daily medication represents management, and the expectation of a full recovery is the prognosis.."
             }
         ]
     },
