@@ -411,42 +411,115 @@ const moduleContent = {
         ]
     },
     "0.4": {
-        title: "Speaking the Language of Pathology 🗣️",
-        objectives: ["Master the basic vocabulary used in pathology laboratory reports."],
-        data: [
+        "title": "The Three Branches of Pathology 🌲",
+        "objectives": [
+            "Understand how pathology is organized.",
+            "Learn the definitions of General Pathology, Systemic Pathology, and Diagnostic Pathology.",
+            "Differentiate between learning universal cellular reactions, studying specific organ systems, and applying knowledge to diagnose individual patients."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "Clinical Lingo 🩺",
-                text: "To be a great doctor, you must understand the language of pathology reports to treat your patients! Let's learn the lingo.\n\n" +
-                    "• **Lesion:** Characteristic changes in tissues/cells produced by disease.\n" +
-                    "• **Diagnosis:** What is wrong.\n" +
-                    "• **Prognosis:** What is going to happen (the outcome).",
-                subtext: "",
-                buttonText: "Got it!"
-            },
-            { 
-                type: "mcq", 
-                question: "After running tests, the doctor determines the patient has Acute Appendicitis. What is this an example of?", 
-                options: ["Etiology", "Diagnosis", "Prognosis", "Pathogenesis", "Clinical Manifestation"], 
-                answer: 1, 
-                explanation: ""
+                "type": "concept",
+                "title": "The Pathology Skill Tree",
+                "text": "Pathology is a massive subject! To make it easier to study, medical science divides it into three main branches.\n\n**Think of these branches as a progression**:\n• First, you learn the universal rules.\n• Second, you apply those rules to specific organs.\n• Finally, you use that knowledge in the hospital to help real people.",
+                "subtext": "",
+                "buttonText": "Let's look at the three branches!"
             },
             {
-                type: "concept",
-                title: "Information",
-                text: "Pathologists study these lesions using different branches of pathology:\n\n" +
-                    "• **Histopathology:** Study of tissue structures (gross and microscopic, often stained with H&E).\n" +
-                    "• **Cytopathology:** Study of individual shed cells (e.g., Exfoliative cytology or FNAC - Fine Needle Aspiration Cytology).",
-                subtext: "",
-                buttonText: "Got it!"
+                "type": "concept",
+                "title": "General Pathology",
+                "text": "**General Pathology** is the study of fundamental cellular and tissue reactions to abnormal stimuli.\n\nIt covers the \"universal rules\" of disease that apply everywhere in the body, regardless of the specific organ.\n\n**Key examples include**:\n• Cell death mechanisms\n• Inflammation\n• Tissue healing\n• Cancer formation",
+                "subtext": "",
+                "buttonText": "Systemic Pathology"
             },
             {
-                type: "fill",
-                question: "If a doctor wants to study a piece of tissue cut from an organ, they will use ____________. If they want to use a needle to suck up a few loose cells from a deep lump, they will use ____________.",
-                options: ["Histopathology", "Cytopathology (FNAC)"],
-                answer: [0, 1], // Slot 1 = index 0, Slot 2 = index 1
-                explanation: "**Histopathology** examines the 'architecture' of a whole piece of tissue. **Cytopathology** (like FNAC) looks at individual 'loose' cells.",
-                buttonText: "Continue"
+                "type": "concept",
+                "title": "Systemic Pathology",
+                "text": "**Systemic Pathology** is the study of specific diseases as they affect distinct organs or organ systems.\n\nIt takes the \"universal rules\" from General Pathology and applies them to specific locations in the body.\n\n**Key examples include**:\n• **Ischemic heart disease**: Cardiovascular system.\n• **Pneumonia**: Respiratory system.\n• **Ulcers**: Gastrointestinal tract.",
+                "subtext": "",
+                "buttonText": "General vs. Systemic"
+            },
+            {
+                "type": "sort",
+                "question": "Sort the following study topics into \"General Pathology\" or \"Systemic Pathology\" (organ-specific).",
+                "buckets": [
+                    "General Pathology",
+                    "Systemic Pathology"
+                ],
+                "items": [
+                    {
+                        "text": "Steps of cell death",
+                        "bucket": 0
+                    },
+                    {
+                        "text": "Process of acute inflammation",
+                        "bucket": 0
+                    },
+                    {
+                        "text": "Development of asthma in the lungs",
+                        "bucket": 1
+                    },
+                    {
+                        "text": "Effects of a massive heart attack",
+                        "bucket": 1
+                    }
+                ],
+                "explanation": "General pathology focuses on fundamental cellular processes like cell death and inflammation, while systemic pathology focuses on diseases affecting specific organ system like asthma and heart attack."
+            },
+            {
+                "type": "concept",
+                "title": "Diagnostic Pathology",
+                "text": "**Diagnostic Pathology** is the practical application of pathology to diagnose disease in individual patients.\n\nThis is what clinical pathologists do in the hospital every day! To figure out exactly what is wrong, they examine:\n• Tissues\n• Individual cells\n• Body fluids\n\nThis precise diagnosis is what allows the clinical doctor to start the correct management plan.",
+                "subtext": "",
+                "buttonText": "Check your understanding"
+            },
+            {
+                "type": "mcq",
+                "question": "Diagnostic pathology is purely theoretical and does not involve analyzing samples from living patients.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "Diagnostic pathology is a highly practical field dedicated to examining samples (like biopsies and blood) from individual patients to establish an accurate clinical diagnosis."
+            },
+            {
+                "type": "match",
+                "question": "Match the branch of pathology to its correct focus!",
+                "pairs": [
+                    {
+                        "left": "General Pathology",
+                        "right": "The universal, basic cellular reactions to injury."
+                    },
+                    {
+                        "left": "Systemic Pathology",
+                        "right": "The study of diseases affecting specific organs or systems."
+                    },
+                    {
+                        "left": "Diagnostic Pathology",
+                        "right": "The practical examination of patient samples to identify a disease."
+                    }
+                ],
+                "explanation": "The progression of pathology moves from general cellular principles, to systemic organ diseases, and finally to the practical diagnostic application in patients."
+            },
+            {
+                "type": "match",
+                "question": "A student learns how cells mutate into cancer. Next, they study colon cancer specifically. Years later as a clinician, they biopsy a patient's colon and rely on the lab's tissue analysis to choose a treatment.\nMatch the event to the branch!",
+                "pairs": [
+                    {
+                        "left": "Learning about cell mutation",
+                        "right": "General Pathology"
+                    },
+                    {
+                        "left": "Studying colon tumors",
+                        "right": "Systemic Pathology"
+                    },
+                    {
+                        "left": "Lab analyzing the patient's biopsy",
+                        "right": "Diagnostic Pathology"
+                    }
+                ],
+                "explanation": "General pathology explains the cancer mechanism, systemic pathology applies it to the colon, and diagnostic pathology provides the exact diagnosis the clinician needs to manage the patient."
             }
         ]
     },
