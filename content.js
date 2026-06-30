@@ -836,7 +836,7 @@ const moduleContent = {
         ]
     },
     "1.1.2": {
-        title: "Lesson 2: The 3-Filament Cytoskeleton 🏗️",
+        title: "The 3-Filament Cytoskeleton 🏗️",
         objectives: ["Master the three classes of cytoskeletal proteins, their motor functions, and how pathologists use them to diagnose tumors."],
         data: [
             {
@@ -1115,7 +1115,7 @@ const moduleContent = {
         ]
     },
     "1.1.4": {
-        title: "Lesson 4: Waste Management – Lysosomes & Proteasomes 🗑️",
+        title: "Waste Management – Lysosomes, Proteasomes & Peroxisomes 🗑️",
         objectives: ["Understand how the cell uses different organelles to digest large waste, shred tiny proteins, and break down fats."],
         data: [
             {
@@ -1224,7 +1224,7 @@ const moduleContent = {
     // CHAPTER 1
     // UNIT 1
     "1.1.5": {
-        title: "The Powerhouse (Mitochondria & Metabolism) ⚡",
+        title: "The Powerhouse (Mitochondria) ⚡",
         objectives: ["Understand mitochondrial structure, maternal inheritance, and ATP generation."],
         data: [
             {
