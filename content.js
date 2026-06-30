@@ -3319,66 +3319,127 @@ const moduleContent = {
         ]
     },
     "2.3.2": {
-        title: "Irreversible Injury - The Point of No Return 🚫",
-        objectives: ["Master the defining hallmarks of irreversible cell injury and the clinical importance of leaky membranes as the cell crosses the threshold toward necrosis."],
-        data: [
+        "title": "Irreversible Injury - The Point of No Return 🛑",
+        "objectives": [
+            "Understand the concept of the \"point of no return\" and identify the two absolute biochemical hallmarks that condemn a cell to death."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "Crossing the Threshold",
-                text: "If an injurious stimulus is too severe or lasts too long, the cell hits the **Point of No Return** and enters **Irreversible Injury**.",
-                subtext: "Once this line is crossed, the cell is destined to die (usually by necrosis). Even if the stress is removed or oxygen is restored, the cell cannot be saved.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "If a cell has suffered irreversible injury due to ischemia, rapidly restoring its blood supply will allow it to heal and return to normal.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Once the point of no return is crossed, the damage is permanent. Restoring blood flow or nutrients cannot repair the profound structural and functional failures of the cell." 
+                "type": "concept",
+                "title": "The Point of No Return",
+                "text": "If a damaging stimulus is too severe or lasts too long, the injured cell crosses a critical threshold: the **point of no return**.\n\nAt this stage, the injury becomes **irreversible**:\n• The cell is condemned to die.\n• It cannot recover, even if the original cause of the injury is completely removed.",
+                "subtext": "",
+                "buttonText": "Check the Threshold"
             },
             {
-                type: "concept",
-                title: "The Two Hallmarks",
-                text: "Pathologists define irreversible injury by two key phenomena:\n\n" +
-                    "1. **Mitochondrial dysfunction:** The ATP factory is permanently broken.\n" +
-                    "2. **Membrane dysfunction:** The cellular and organellar walls are fundamentally compromised.",
-                subtext: "",
-                buttonText: "Next"
+                "type": "mcq",
+                "question": "If a cell has suffered irreversible injury due to ischemia, rapidly restoring its blood supply will allow it to heal and return to normal.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "Once the point of no return is crossed, the damage is permanent. Restoring blood flow cannot save an irreversibly injured cell."
             },
             {
-                type: "fill",
-                question: "The massive opening of the mitochondrial permeability transition ____________ causes a permanent loss of membrane potential, stopping ATP production forever.",
-                options: ["Pore", "Pump", "Vesicle", "Bleb"],
-                answer: 0,
-                explanation: "The permanent opening of this high-conductance channel in the inner mitochondrial membrane prevents the generation of the proton gradient necessary for ATP synthesis.",
-                buttonText: "Continue"
+                "type": "concept",
+                "title": "The Two Hallmarks of Death",
+                "text": "There is no single biochemical switch that instantly defines cell death. However, **two critical phenomena** consistently mark irreversible injury:\n\n**Permanent mitochondrial failure**:\n• The cell's ATP factory is completely and permanently broken.\n\n**Profound membrane damage**:\n• The cell's protective barriers shatter.",
+                "subtext": "",
+                "buttonText": "The Dual Failure"
             },
             {
-                type: "concept",
-                title: "Clinical Correlation: Leaky Membranes 🩺",
-                text: "When the plasma membrane is profoundly damaged, intracellular contents leak into the bloodstream. This is a critical diagnostic tool in clinical medicine.",
-                subtext: "For example, when heart muscle cells undergo irreversible injury (myocardial infarction), the protein **Troponin** leaks through broken membranes and can be detected in a blood test.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "A patient has elevated levels of liver enzymes (AST/ALT) in their blood. What does this suggest about their liver cells?", 
-                options: [
-                    "The liver cells are undergoing healthy adaptation", 
-                    "The liver cells have suffered irreversible membrane damage and are leaking", 
-                    "The liver cells are multiplying too quickly"
-                ], 
-                answer: 1, 
-                explanation: "Intracellular enzymes detected in the blood are a clinical indicator that cell membranes have ruptured, releasing their contents into the systemic circulation." 
+                "type": "fill",
+                "question": "The two consistent biochemical hallmarks of irreversible cell injury are profound membrane dysfunction and the permanent inability to restore ________ function.",
+                "options": [
+                    "Ribosomal",
+                    "Mitochondrial",
+                    "Lysosomal",
+                    "Cytoskeletal"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "Permanent mitochondrial failure and profound membrane damage are the two primary hallmarks of irreversible cell injury."
             },
             {
-                type: "concept",
-                title: "The Lysosomal Acid Bath",
-                text: "Rupture of lysosomal membranes dumps highly destructive acid hydrolases (RNases, DNases, proteases) into the cytoplasm.",
-                subtext: "This results in the enzymatic digestion of the cell from the inside out, leading directly to the morphology of necrosis.",
-                buttonText: "Finish Lesson"
+                "type": "concept",
+                "title": "Hallmark 1 - Permanent Power Failure",
+                "text": "Severe mitochondrial damage is the first hallmark of irreversible injury.\n\nHere is the critical difference:\n\n**Reversible Injury**:\n• ATP production temporarily stops.\n\n**Irreversible Injury**:\n• The mitochondria are physically ruined.\n\nBecause the factory is destroyed, it cannot resume oxidative phosphorylation, even if oxygen and nutrients are completely restored.",
+                "subtext": "",
+                "buttonText": "Hallmark 2"
+            },
+            {
+                "type": "concept",
+                "title": "Hallmark 2 - Membrane Collapse",
+                "text": "The second hallmark is **profound membrane dysfunction**.\n\nWhen the plasma membrane suffers irreparable structural damage, it completely loses its selective permeability.\n\nIt can no longer regulate what enters or exits the cell.\n\nThis broken barrier causes a fatal final step:\n• A massive, uncontrolled influx of extracellular **calcium**.\n• This excess calcium acts as the ultimate **cellular executioner**.",
+                "subtext": "",
+                "buttonText": "Clinical Connection"
+            },
+            {
+                "type": "mcq",
+                "question": "When the plasma membrane suffers profound, irreversible damage, it loses its selective permeability. Which ion floods into the cell in massive quantities as a direct result?",
+                "options": [
+                    "Potassium",
+                    "Magnesium",
+                    "Iron",
+                    "Calcium"
+                ],
+                "answer": 3,
+                "explanation": "The loss of plasma membrane integrity allows a lethal flood of extracellular calcium into the cytoplasm, which excessively activates destructive enzymes."
+            },
+            {
+                "type": "concept",
+                "title": "The Clinical Connection - Leaky Membranes",
+                "text": "When the plasma membrane ruptures, intracellular contents **leak out** into the bloodstream.\n\nThis creates a highly useful **clinical tool**:\n• Doctors can test a patient's blood for these leaked proteins and enzymes.\n• This allows them to pinpoint exactly **which organ** is suffering from irreversible cell death.",
+                "subtext": "",
+                "buttonText": "Test the Clue"
+            },
+            {
+                "type": "mcq",
+                "question": "You are an ER doctor. A patient has elevated levels of liver enzymes (AST/ALT) in their blood. What does this tell you about their liver cells?",
+                "options": [
+                    "The liver cells are undergoing healthy adaptation.",
+                    "The liver cells have suffered irreversible membrane damage and are leaking.",
+                    "The liver cells are multiplying too quickly."
+                ],
+                "answer": 1,
+                "explanation": "Intracellular enzymes in the blood indicate that cell membranes have ruptured within that specific organ."
+            },
+            {
+                "type": "concept",
+                "title": "The Internal Breach - Lysosomes",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 3/2.3.2/membrane_breakdown.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Profound membrane collapse also happens internally, specifically to the **lysosomes**.\n\nWhen lysosomal membranes rupture, they dump highly destructive enzymes directly into the cytoplasm, including:\n• RNases\n• DNases\n• Proteases\n\nBecause the dying cell's internal environment is already highly acidic, these leaked enzymes become extremely active and aggressively **digest the cell from the inside out**.",
+                "subtext": "",
+                "buttonText": "Final Review"
+            },
+            {
+                "type": "match",
+                "question": "Match the specific hallmark of irreversible injury to its direct consequence.",
+                "pairs": [
+                    {
+                        "left": "Irreversible Mitochondrial Damage",
+                        "right": "Permanent failure to generate ATP"
+                    },
+                    {
+                        "left": "Plasma Membrane Rupture",
+                        "right": "Leakage of intracellular proteins into the blood"
+                    },
+                    {
+                        "left": "Lysosomal Membrane Rupture",
+                        "right": "Enzymatic digestion of the cytoplasm"
+                    }
+                ],
+                "explanation": "Irreversible mitochondrial damage permanently halts ATP generation, plasma membrane rupture leaks intracellular proteins into the blood, and lysosomal membrane rupture causes enzymatic digestion of the cytoplasm."
             }
-        ]
+        ],
+        "next": "2.4.1"
     },
 
     // UNIT 4
