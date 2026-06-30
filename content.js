@@ -3271,7 +3271,7 @@ const moduleContent = {
                     }
                 ],
                 "text": "In addition to structural changes, the injured cell also changes color. Pathologists view this using **Hematoxylin and Eosin (H&E)** stains:\n\n**Healthy cells**:\n• The cytoplasm has a blue/purple tint because its RNA binds the blue dye.\n\n**Injured cells**:\n• The cell loses its RNA. Without RNA to bind the blue dye, the cytoplasm becomes noticeably more red—a state known as **eosinophilia**.",
-                "subtext": "Loss of RNA → decreased basophilia → increased eosinophilia (pinker cytoplasm).",
+                "subtext": "",
                 "buttonText": "The Eosinophilic Shift"
             },
             {
