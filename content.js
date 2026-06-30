@@ -3136,85 +3136,185 @@ const moduleContent = {
 
     // UNIT 3
     "2.3.1": {
-        title: "Reversible Injury - The Warning Signs 🔄",
-        objectives: ["Master the early, correctable warning signs of cell injury, including cellular swelling, fatty change, and key microscopic/ultrastructural alterations."],
-        data: [
+        "title": "Reversible Injury - The Warning Signs ⚠️",
+        "objectives": [
+            "Recognize the hallmark morphological signs of reversible cell injury at both the microscopic/ultrastructural and macroscopic levels."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The Fork in the Road",
-                text: "When a cell is injured, it reaches a fork in the road. In the early stages, or during mild injury, the cell undergoes **Reversible Injury**.",
-                subtext: "These functional and structural alterations are completely correctable if the damaging stimulus is removed before the cell crosses the point of no return.",
-                buttonText: "Can we go back?"
-            },
-            { 
-                type: "mcq", 
-                question: "Reversible cell injury involves permanent structural damage that cannot be fixed, even if the harmful stress is taken away.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "If the damaging stimulus is removed early enough, the cell can repair the damage and return to normal homeostasis." 
+                "type": "concept",
+                "title": "The Fork in the Road",
+                "text": "When a cell is injured, it reaches a fork in the road. Early or mild damage results in **reversible injury**.\n\nThese structural and functional changes are **completely correctable**, provided that:\n• The damaging stimulus is removed.\n• The cell has not yet crossed the \"point of no return\" into cell death.",
+                "subtext": "",
+                "buttonText": "The Reversibility Window"
             },
             {
-                type: "concept",
-                title: "Warning Sign #1: The Swelling Cell",
-                text: "The earliest and most universal manifestation of cell injury is **Cellular Swelling**.",
-                subtext: "When ATP levels drop, the Na+/K+ pump fails. Sodium and water rush into the cell, causing it and its organelles to swell. A swollen organ typically becomes heavy, pale, and turgid.",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "Because this pattern of nonlethal injury looks like tiny clear vacuoles of water, pathologists often call it vacuolar degeneration or ____________ change.",
-                options: ["Hydropic", "Necrotic", "Apoptotic", "Lipid"],
-                answer: 0,
-                explanation: "Hydropic change refers to the cellular accumulation of water due to the failure of energy-dependent ion pumps in the plasma membrane.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "Under the Microscope: H&E Stain 🔬",
-                text: "Healthy cytoplasm often has a purple/blue tint (basophilia) because its RNA binds the blue Hematoxylin dye.",
-                subtext: "In reversible injury, the cell loses RNA. Without RNA to bind the blue dye, the cytoplasm binds more Eosin and becomes noticeably more **Red (Eosinophilic)**.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Why does the cytoplasm of an injured cell appear more red/eosinophilic under an H&E stain?", 
-                options: [
-                    "It produces too much red blood", 
-                    "It loses RNA, which normally binds the blue dye", 
-                    "It absorbs more water from the outside"
-                ], 
-                answer: 1, 
-                explanation: "As RNA is lost from the cytoplasm and proteins are denatured, the cell loses its affinity for basic dyes (Hematoxylin) and binds more acidic dyes (Eosin)."
-            },
-            {
-                type: "concept",
-                title: "Warning Sign #2: Fatty Change",
-                text: "In organs that actively metabolize lipids, such as the liver, toxic injury often causes **Fatty Change**.",
-                subtext: "Injury disrupts metabolic pathways, leading to the accumulation of triglyceride-filled lipid vacuoles inside the cytoplasm.",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Zooming In: Electron Microscopy",
-                text: "Electron Microscopy (EM) reveals ultrastructural changes in a reversibly injured cell:\n\n" +
-                    "• **Plasma Membrane:** Blebbing and loss of microvilli.\n" +
-                    "• **Mitochondria:** Swelling and small amorphous densities.\n" +
-                    "• **ER:** Dilation and ribosome detachment.\n" +
-                    "• **Nucleus:** Chromatin clumping.",
-                subtext: "You may also see 'myelin figures'—swirled phospholipid masses derived from damaged membranes.",
-                buttonText: "Got it!"
-            },
-            {
-                type: "sort",
-                question: "Match the organelle to its classic reversible injury warning sign.",
-                buckets: ["Plasma Membrane", "Endoplasmic Reticulum", "Nucleus", "Cytosol"],
-                items: [
-                    { text: "Blebbing and loss of microvilli.", bucket: 0 },
-                    { text: "Dilation and ribosome detachment.", bucket: 1 },
-                    { text: "Clumping of chromatin.", bucket: 2 },
-                    { text: "Accumulation of 'myelin figures'.", bucket: 3 }
+                "type": "mcq",
+                "question": "Reversible cell injury involves permanent structural damage that cannot be fixed, even if the harmful stress is taken away.",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                explanation: ""
+                "answer": 1,
+                "explanation": "If the damaging stimulus is removed early enough, the cell can repair the damage and return to normal homeostasis."
+            },
+            {
+                "type": "concept",
+                "title": "The First Sign - Cellular Swelling",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 3/2.3.1/swollen_lung_comparison.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "The **earliest and most universal** sign of **cell injury** is **cellular swelling**.\n\nWhen ATP drops, the sodium-potassium pump fails, causing sodium and water to rush in. When millions of cells swell at once, the **gross appearance** of the entire organ changes:\n\nIt becomes:\n• Pale.\n• Turgid (firm).\n• Heavier (increases in weight).",
+                "subtext": "",
+                "buttonText": "The First Hallmark"
+            },
+            {
+                "type": "fill",
+                "question": "The earliest and most common morphological manifestation of reversible cell injury is cellular ________.",
+                "options": [
+                    "Shrinkage",
+                    "Swelling",
+                    "Division",
+                    "Necrosis"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "Due to failure of energy-dependent ion pumps, cellular swelling is the first recognizable sign of cell injury."
+            },
+            {
+                "type": "concept",
+                "title": "Microscopic View: Vacuolar Degeneration",
+                "text": "Under a light microscope, **cellular swelling** appears as **tiny, clear vacuoles** in the **cytoplasm**.\n\nThese are actually **swollen, pinched-off** segments of the **endoplasmic reticulum (ER)**.\n\nBecause \"hydro-\" means water, pathologists refer to this pattern of reversible injury as:\n• Hydropic change\n• Vacuolar degeneration",
+                "subtext": "",
+                "buttonText": "Check Hydropic Change"
+            },
+            {
+                "type": "fill",
+                "question": "Because this pattern of nonlethal injury looks like tiny water bubbles, pathologists often use specific clinical terminology. Pathologists often call it vacuolar degeneration or ________ change.",
+                "options": [
+                    "Hydropic",
+                    "Necrotic",
+                    "Apoptotic",
+                    "Lipid"
+                ],
+                "answer": [
+                    0
+                ],
+                "explanation": "Hydropic change refers to the cell visibly swelling with water due to the accumulation of clear vacuoles."
+            },
+            {
+                "type": "concept",
+                "title": "The Second Sign - Fatty Change",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 3/2.3.1/fatty_liver_comparison.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "The second major hallmark of reversible injury is **fatty change** (also known as **steatosis**).\n\nThis happens when toxic or metabolic injury disrupts fat processing, causing **abnormal lipid vacuoles** to pile up in the cytoplasm.\n\nIt is most commonly seen in cells heavily involved in fat metabolism:\n• **Liver** (Hepatocytes)\n• **Heart** (Myocardial cells)",
+                "subtext": "",
+                "buttonText": "Fat Vacuoles & Expansion"
+            },
+            {
+                "type": "concept",
+                "title": "Fat Vacuoles & Expansion",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 3/2.3.1/steatosis_cell.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "At the cellular level, fatty change causes **cellular enlargement** driven by **cytoplasmic vacuolization**.\n\nHere is what happens inside the cell:\n\n**Triglyceride buildup**:\n• The cytoplasm fills with clear, round fat vacuoles.\n\n**\"Empty\" spaces**:\n• On standard stains, these vacuoles appear as empty holes because the lipids dissolve during slide processing.\n\n**Expansion**:\n• The cell significantly expands in volume, yet maintains its overall structural integrity.",
+                "subtext": "",
+                "buttonText": "Timing and Mechanism"
+            },
+            {
+                "type": "concept",
+                "title": "Timing and Mechanism (First vs. Second)",
+                "text": "Why does swelling happen first?\n\n**Cellular Swelling (Immediate)**:\n• It is a rapid physical reaction. When ATP drops, water instantly rushes in via osmosis.\n\n**Fatty Change (Slower)**:\n• It is a delayed metabolic failure. It takes time for an injured cell to fail at processing, packaging, and exporting lipids, causing a gradual backlog.",
+                "subtext": "",
+                "buttonText": "The Osmotic Shift"
+            },
+            {
+                "type": "mcq",
+                "question": "Cellular swelling occurs before fatty change because disrupting complex lipid metabolism takes more time than a simple osmotic influx of water.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 0,
+                "explanation": "Swelling is an immediate physical reaction to pump failure, whereas fatty change is a gradual accumulation due to a metabolic backlog."
+            },
+            {
+                "type": "mcq",
+                "question": "In which of the following organs is the reversible injury pattern known as fatty change (steatosis) most commonly observed?",
+                "options": [
+                    "The brain",
+                    "The bones",
+                    "The liver",
+                    "The skin"
+                ],
+                "answer": 2,
+                "explanation": "The liver is the central organ for lipid metabolism, therefore hepatocytes are highly susceptible to fatty change during reversible injury."
+            },
+            {
+                "type": "concept",
+                "title": "Staining the Damage: H&E Stain",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 3/2.3.1/eosinophilia_rna.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "In addition to structural changes, the injured cell also changes color. Pathologists view this using **Hematoxylin and Eosin (H&E)** stains:\n\n**Healthy cells**:\n• The cytoplasm has a blue/purple tint because its RNA binds the blue dye.\n\n**Injured cells**:\n• The cell loses its RNA. Without RNA to bind the blue dye, the cytoplasm becomes noticeably more red—a state known as **eosinophilia**.",
+                "subtext": "Loss of RNA → decreased basophilia → increased eosinophilia (pinker cytoplasm).",
+                "buttonText": "The Eosinophilic Shift"
+            },
+            {
+                "type": "mcq",
+                "text": "In addition to structural changes, the injured cell also changes color based on RNA content.",
+                "question": "Why does the cytoplasm of an injured cell appear more red (eosinophilic) under an H&E stain?",
+                "options": [
+                    "It produces too much red blood.",
+                    "It loses RNA, which normally binds the blue dye.",
+                    "It absorbs more water from the outside."
+                ],
+                "answer": 1,
+                "explanation": "As RNA is lost and structural proteins degrade, the cell loses its blue tint and becomes increasingly red."
+            },
+            {
+                "type": "concept",
+                "title": "Zooming In – Electron Microscopy",
+                "text": "If we zoom in with an electron microscope, reversible injury reveals five classic ultrastructural changes:\n\n1. **Plasma Membrane**: Outward bulging (blebbing), blunting, and loss of microvilli.\n2. **Mitochondria**: Swelling and the appearance of small amorphous densities.\n3. **Endoplasmic Reticulum**: Dilation and detachment of ribosomes.\n4. **Nucleus**: Clumping of chromatin.\n5. **Cytosol**: Accumulation of \"myelin figures\" derived from damaged cell membranes.",
+                "subtext": "",
+                "buttonText": "Final Review"
+            },
+            {
+                "type": "match",
+                "question": "Match the morphological sign of reversible cell injury to its correct description.",
+                "pairs": [
+                    {
+                        "left": "Hydropic Change",
+                        "right": "Clear vacuoles formed by distended ER"
+                    },
+                    {
+                        "left": "Fatty Change",
+                        "right": "Accumulation of lipid vacuoles in the cytoplasm"
+                    },
+                    {
+                        "left": "Eosinophilia",
+                        "right": "Redder cytoplasm due to RNA loss"
+                    },
+                    {
+                        "left": "Gross Organ Changes",
+                        "right": "Pale, turgid, and increased in weight"
+                    }
+                ],
+                "explanation": "Hydropic change involves clear vacuoles from distended ER, fatty change is the accumulation of lipid vacuoles, eosinophilia results in a redder cytoplasm from RNA loss, and gross organ changes render the tissue pale, turgid, and heavier."
             }
         ]
     },
