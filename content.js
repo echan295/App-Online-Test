@@ -3705,90 +3705,156 @@ const moduleContent = {
         ],
     },
     "2.4.3": {
-        title: "Patterns of Necrosis - Part 2 (Limbs, Cheese, Chalk, and Vessels) 🧀",
-        objectives: ["Master four highly specific, clinically important patterns of necrosis: Gangrenous, Caseous, Fat, and Fibrinoid."],
-        data: [
+        "title": "Patterns of Necrosis - Part 2: Gangrenous, Caseous, Fat, and Fibrinoid 🧀🩸",
+        "objectives": [
+            "Understand the clinical contexts and defining morphological features of gangrenous, caseous, fat, and fibrinoid necrosis."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The Specialty Patterns",
-                text: "Beyond the basic patterns, there are four 'specialty' patterns of necrosis strongly tied to specific clinical scenarios.",
-                subtext: "These include conditions like severe frostbite, tuberculosis, pancreatitis, and certain autoimmune diseases.",
-                buttonText: "Let's explore"
-            },
-            {
-                type: "concept",
-                title: "Pattern 3: Gangrenous Necrosis",
-                text: "Meet Gangrenous Necrosis: **The Dead Limb**. This clinical term usually refers to a lower leg that has lost its blood supply and suffered coagulative necrosis across multiple tissue layers.",
-                subtext: "When it is purely caused by ischemia (e.g., in severe diabetes or frostbite) without infection, it is called **Dry Gangrene**.",
-                buttonText: "What if it gets infected?"
-            },
-            { 
-                type: "mcq", 
-                question: "If a limb with dry gangrene gets infected with bacteria, the tissue begins to liquefy due to bacterial enzymes and leukocytes. What is this combination called?", 
-                options: ["Caseous gangrene", "Wet gangrene", "Chalky gangrene"], 
-                answer: 1, 
-                explanation: "Bacterial enzymes 'melt' the tissue, converting the mummified tissue of dry gangrene into the more dangerous 'wet gangrene,' which involves both coagulative and liquefactive components." 
+                "type": "concept",
+                "title": "Gangrenous Necrosis - The Clinical Term",
+                "text": "You already know the \"Ghost Town\" (Coagulative) and the \"Puddle\" (Liquefactive).\n\nNow let's explore 4 specialty patterns tied to very specific clinical scenarios.\n\nFirst up is **Gangrenous Necrosis**. This is not a specific biochemical pattern, but a widely used clinical term.\n\n**The scenario**:\n• A limb (usually the lower leg) loses its blood supply.\n\n**What happens**:\n• It undergoes massive coagulative necrosis across multiple tissue layers.",
+                "subtext": "",
+                "buttonText": "Dry vs. Wet"
             },
             {
-                type: "concept",
-                title: "Pattern 4: Caseous Necrosis",
-                text: "Meet Caseous Necrosis: **The Crumbly Cheese**. The term 'caseous' is derived from the Latin word for cheese.",
-                subtext: "This pattern is most famously caused by **Tuberculosis (TB)** infections. To the naked eye, the necrotic tissue appears friable and crumbly white, similar to cheese.",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "Microscopically, caseous necrosis is characterized by a distinctive inflammatory border enclosing the necrotic center. This structure is called a ____________.",
-                options: ["Granuloma", "Infarct", "Saponification", "Vacuole"],
-                answer: 0,
-                explanation: "Granulomas are the body's attempt to wall off injurious agents, such as TB bacteria, that are difficult to eradicate.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "Pattern 5: Fat Necrosis",
-                text: "Meet Fat Necrosis: **The Chalky Soap**. This typically occurs during **Acute Pancreatitis**, an abdominal emergency.",
-                subtext: "Damaged pancreatic cells leak lipases that liquefy fat cell membranes and split triglycerides into free fatty acids.",
-                buttonText: "How does it look?"
-            },
-            { 
-                type: "mcq", 
-                question: "In fat necrosis, released fatty acids combine with calcium to produce visible, chalky-white deposits. This process is called:", 
-                options: ["Fat saponification", "Coagulation", "Lysis"], 
-                answer: 0, 
-                explanation: "Saponification is the chemical process of 'making soap'—in this context, it occurs when fatty acids react with calcium to form mineralized deposits in the tissue." 
-            },
-            {
-                type: "concept",
-                title: "Pattern 6: Fibrinoid Necrosis",
-                text: "Meet Fibrinoid Necrosis: **The Pink Wall**. This specific form of damage targets blood vessel walls during severe immune reactions.",
-                subtext: "It occurs when complexes of antigens and antibodies are deposited into the walls of arteries.",
-                buttonText: "See the H&E stain"
-            },
-            { 
-                type: "mcq", 
-                question: "When immune complexes and leaked plasma proteins build up in the artery wall, how do they appear under an H&E stain?", 
-                options: [
-                    "Bright pink, amorphous, and 'fibrin-like'", 
-                    "Friable, white, and 'cheese-like'", 
-                    "Liquid, creamy, and 'pus-like'"
-                ], 
-                answer: 0, 
-                explanation: "It is called 'Fibrinoid' because the bright pink, proteinaceous damage in the vessel wall resembles the appearance of fibrin." 
-            },
-            {
-                type: "match",
-                question: "Final Review! Match the clinical disease or trigger to its classic necrosis pattern.",
-                pairs: [
-                    { left: "Tuberculosis (TB)", right: "Caseous Necrosis" },
-                    { left: "Acute Pancreatitis", right: "Fat Necrosis" },
-                    { left: "Immune complexes in arteries", right: "Fibrinoid Necrosis" },
-                    { left: "Ischemic leg (no infection)", right: "Dry Gangrene" }
+                "type": "concept",
+                "title": "Dry vs. Wet Gangrene",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 4/2.4.3/gangrene_comparison.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                explanation: ""
+                "text": "**Dry Gangrene**:\n• The ischemic limb undergoes strict coagulative necrosis.\n• The dead tissue remains firm and desiccated (dried out).\n\n**Wet Gangrene**:\n• A bacterial infection attacks the dead tissue.\n• Enzymes from the bacteria and recruited white blood cells trigger **liquefactive necrosis**, turning the tissue mushy and highly destructive.",
+                "subtext": "",
+                "buttonText": "Check the Transition"
+            },
+            {
+                "type": "mcq",
+                "question": "What specific event causes an ischemic limb to transition from the firm state of dry gangrene to the highly destructive state of wet gangrene?",
+                "options": [
+                    "A sudden restoration of blood flow",
+                    "A superimposed bacterial infection",
+                    "The deposition of calcium"
+                ],
+                "answer": 1,
+                "explanation": "An ischemic limb initially undergoes coagulative necrosis (dry gangrene), but a superimposed bacterial infection recruits leukocytes that digest the tissue, transitioning it into the liquefactive state known as wet gangrene."
+            },
+            {
+                "type": "concept",
+                "title": "Caseous Necrosis - The Cheese-Like Death",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 4/2.4.3/caseous_microscopic.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "**Caseous Necrosis**: \"The Crumbly Cheese\"\n• The word \"caseous\" literally translates to \"cheese-like.\"\n\n**What does it look like?**:\n• To the **naked eye**, the dead tissue looks exactly like **friable, white-yellow, crumbly cheese**!\n• Under **the microscope**: It appears as a **structureless, granular, pink mass** as tissue architecture is completely obliterated.\n\n**What causes it?**:\n• This highly distinct pattern is almost exclusively caused by Tuberculosis (TB) infections, most famously in the lungs.",
+                "subtext": "",
+                "buttonText": "The TB Hallmark"
+            },
+            {
+                "type": "fill",
+                "question": "The cheese-like pattern of tissue death characterized by completely obliterated architecture is known as ________ necrosis.",
+                "options": [
+                    "Coagulative",
+                    "Caseous",
+                    "Fat",
+                    "Fibrinoid"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "Caseous necrosis is the hallmark of tuberculosis and is defined by its structureless, cheese-like appearance."
+            },
+            {
+                "type": "concept",
+                "title": "Fat Necrosis - Focal Destruction",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 4/2.4.3/fat_necrosis_scenarios.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "**Fat necrosis** refers to focal areas where fat cells are directly destroyed.\n\nThis most commonly happens in two specific clinical scenarios:\n\n**Acute Pancreatitis**:\n• A medical emergency where leaked pancreatic enzymes (**lipases**) aggressively digest the surrounding fat in the abdominal cavity.\n\n**Physical Trauma**:\n• Frequently seen in fat-rich areas, like breast tissue, following a direct physical injury.",
+                "subtext": "",
+                "buttonText": "Check Saponification"
+            },
+            {
+                "type": "concept",
+                "title": "Saponification – The Chalky Deposits",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 4/2.4.3/saponification_process.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "When lipases destroy fat cells, they release free fatty acids. These fatty acids bind with calcium in the tissue to create macroscopically visible, chalky-white deposits.\n\nThis chemical process is called **saponification** (literally making soap!).\n\n**The Formula**:\n• **Pancreatic Lipases** + **Fat** + **Calcium** = Chalky white soap!",
+                "subtext": "**Clinical Clue**: These bright, chalky-white deposits help surgeons immediately identify severe acute pancreatitis in the operating room.",
+                "buttonText": "The Calcium Reaction"
+            },
+            {
+                "type": "mcq",
+                "question": "What is the defining chemical process of fat necrosis where free fatty acids combine with calcium to form chalky-white deposits?",
+                "options": [
+                    "Peroxidation",
+                    "Saponification",
+                    "Coagulation",
+                    "Karyolysis"
+                ],
+                "answer": 1,
+                "explanation": "Saponification is the chemical reaction between released fatty acids and calcium, creating the chalky white areas characteristic of fat necrosis."
+            },
+            {
+                "type": "concept",
+                "title": "Fibrinoid Necrosis - The Bright Pink Vessel",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 4/2.4.3/fibrinoid_vessel.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "This special form of necrosis is seen exclusively in blood vessels. It typically occurs during severe vasculitis or malignant hypertension.\n\nHere is exactly what happens:\n\n**The Trap**:\n• Immune complexes get deposited and trapped inside the walls of an artery.\n\n**The Mix**:\n• These trapped complexes combine with **fibrin** that is leaking out of the damaged blood vessel.\n\n**The Look (H&E)**:\n• This mixture produces a bright pink, amorphous smudge on a slide.\n• Because it looks like fibrin, pathologists call it **fibrinoid** (fibrin-like) necrosis!",
+                "subtext": "",
+                "buttonText": "The Pink Wall"
+            },
+            {
+                "type": "mcq",
+                "question": "When immune complexes and leaked plasma proteins build up in the artery wall, pathologists look for specific staining characteristics. What do they look like under an H&E stain?",
+                "options": [
+                    "Bright pink, amorphous, and \"fibrin-like\"",
+                    "Friable, white, and \"cheese-like\"",
+                    "Liquid, creamy, and \"pus-like\""
+                ],
+                "answer": 0,
+                "explanation": "In fibrinoid necrosis, the accumulation of immune complexes and plasma proteins within the arterial wall creates a bright pink, amorphous, and 'fibrin-like' appearance when viewed under an H&E stain."
+            },
+            {
+                "type": "match",
+                "question": "Match the specific pattern of necrosis to its clinical hallmark or mechanism.",
+                "pairs": [
+                    {
+                        "left": "Wet Gangrene",
+                        "right": "Ischemic limb with a superimposed bacterial infection"
+                    },
+                    {
+                        "left": "Caseous Necrosis",
+                        "right": "Tuberculosis infection with structureless cheese like appearance."
+                    },
+                    {
+                        "left": "Fat Necrosis",
+                        "right": "Acute pancreatitis causing saponification"
+                    },
+                    {
+                        "left": "Fibrinoid Necrosis",
+                        "right": "Immune complex deposition in blood vessel walls"
+                    }
+                ],
+                "explanation": "Wet gangrene occurs in ischemic limbs with bacterial infection, caseous necrosis with structureless cheese like appearance in tuberculosis, fat necrosis involves saponification in acute pancreatitis, and fibrinoid necrosis results from immune complex deposition in blood vessels."
             }
         ],
-        next: "2.5.1"
+        "next": "2.5.1"
     },
 
     // UNIT 5
