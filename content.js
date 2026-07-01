@@ -3444,75 +3444,118 @@ const moduleContent = {
 
     // UNIT 4
     "2.4.1": {
-        title: "Introduction to Necrosis (The Messy Death) 💥",
-        objectives: ["Master the mechanisms of necrotic cell death, the role of DAMPs and inflammation, clinical biomarkers, and the hallmark microscopic changes of the cytoplasm and nucleus."],
-        data: [
+        "title": "Introduction to Necrosis – The Accidental Death 👻💀",
+        "objectives": [
+            "Understand the definition of necrosis, its inflammatory nature, and the defining morphological changes that occur in the cytoplasm and nucleus of a necrotic cell."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The Messy Death",
-                text: "Unlike controlled cell suicide (apoptosis), **Necrosis** is a messy, pathologic process resulting from severe injury such as ischemia, toxins, or burns.",
-                subtext: "It is characterized by the denaturation of cellular proteins, severe membrane leakage, and the enzymatic digestion of the lethally injured cell.",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Ringing the Alarm: DAMPs",
-                text: "When a necrotic cell's membrane ruptures, it spills molecules that are normally hidden inside. These are called **Damage-Associated Molecular Patterns (DAMPs)**.",
-                subtext: "Examples include ATP (from broken mitochondria) and Uric Acid (from broken DNA). They act as biochemical alarms for the immune system.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "When macrophages detect spilled DAMPs, what host reaction do they trigger to clean up the dead necrotic cells?", 
-                options: ["Adaptation", "Inflammation", "Homeostasis"], 
-                answer: 1, 
-                explanation: "Necrosis triggers local inflammation. Inflammatory cells arrive at the site to digest and phagocytose the dead cellular debris." 
-            },
-            {
-                type: "concept",
-                title: "Clinical Correlation: Biomarkers 🩺",
-                text: "Because necrotic cells leak tissue-specific proteins into the blood, clinicians use them as biomarkers to locate and quantify tissue damage.",
-                subtext: "For example, necrotic hepatocytes leak transaminases (AST/ALT), while necrotic bile ducts leak alkaline phosphatase.",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "Cardiac-specific ____________ can be detected in the blood as early as 2 hours after myocardial cell necrosis, making it critical for early diagnosis.",
-                options: ["Glycogen", "Troponin", "Uric Acid", "ATP"],
-                answer: 1,
-                explanation: "Serial measurements of serum cardiac troponin are the gold standard for diagnosing a myocardial infarction (heart attack).",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "Microscopic Changes: Cytoplasm",
-                text: "Under H&E stain, necrotic cytoplasm becomes intensely **Red (Eosinophilic)** due to lost RNA and the binding of eosin to denatured proteins.",
-                subtext: "It also appears 'glassy' due to the loss of glycogen and eventually 'moth-eaten' as enzymes digest the organelles.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "A necrotic cell looks 'glassy' and homogeneous under a microscope because it has accumulated massive amounts of new glycogen.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "The glassy appearance is actually due to the loss of glycogen particles, which leaves a blank, homogeneous space in the cytoplasm." 
-            },
-            {
-                type: "concept",
-                title: "The Nuclear Demise",
-                text: "As the cell is digested by endonucleases, the nucleus undergoes three progressive stages of destruction before disappearing entirely.",
-                subtext: "",
-                buttonText: "See the stages"
-            },
-            {
-                type: "match",
-                question: "Match the medical term to its specific pattern of nuclear breakdown.",
-                pairs: [
-                    { left: "Pyknosis", right: "Nuclear shrinkage and increased basophilia (darkening)." },
-                    { left: "Karyorrhexis", right: "The shrunken nucleus undergoes fragmentation (shattering)." },
-                    { left: "Karyolysis", right: "Basophilia fades due to enzymatic degradation of DNA." }
+                "type": "concept",
+                "title": "The Accidental Death",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 4/2.4.1/necrosis_unregulated.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                explanation: "These three stages represent the progressive destruction of the genetic material during necrotic cell death."
+                "text": "**Necrosis** is the main pathway of cell death in severe injuries, such as ischemia, toxins, and infections.\n\nIt is an **accidental and unregulated** process. Unlike apoptosis, necrosis is **always pathological** (always a sign of disease).\n\n**It is characterized by 3 major events**:\n• Severe membrane leakage.\n• Protein denaturation.\n• Enzymatic digestion of the lethally injured cell.",
+                "subtext": "",
+                "buttonText": "Check the Nature"
+            },
+            {
+                "type": "mcq",
+                "question": "Necrosis can sometimes be a normal, physiological process used by the body to safely recycle old cells.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "Necrosis is always pathological; the normal, physiological process of safely removing old cells is called apoptosis."
+            },
+            {
+                "type": "concept",
+                "title": "The Membrane Breach and DAMPs",
+                "text": "Necrosis is a \"messy\" death. Its defining feature is the profound loss of membrane integrity.\n\nWhen the cell membrane ruptures, it spills hidden internal molecules.\n\nThese spilled molecules are called Damage-Associated Molecular Patterns (DAMPs) and include:\n• ATP (from broken mitochondria).\n• Uric acid (from broken DNA).\n\nThese DAMPs act as loud biochemical alarms to alert the rest of the body to the injury.",
+                "subtext": "",
+                "buttonText": "The Immune Alarm"
+            },
+            {
+                "type": "concept",
+                "title": "The Immune Alarm",
+                "text": "The body's immune system detects these spilled DAMPs and cellular contents as \"**danger signals**.\"\n\nThis immediately triggers a **local inflammatory response** designed to do 3 things:\n• **Recruit** immune cells.\n• **Clean up** the dead cellular debris.\n• **Start** the healing process.",
+                "subtext": "",
+                "buttonText": "The Messy Aftermath"
+            },
+            {
+                "type": "fill",
+                "question": "Necrotic cells rupture and leak their contents into the surrounding tissue. Because of this rupture, necrosis is consistently accompanied by ________.",
+                "options": [
+                    "Cell division",
+                    "Inflammation",
+                    "Adaptation",
+                    "Mitosis"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "The leakage of intracellular contents acts as a danger signal that recruits immune cells and triggers local inflammation."
+            },
+            {
+                "type": "concept",
+                "title": "The Glassy Ghost – Cytoplasmic Changes",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 4/2.4.1/necrotic_ghost_cell.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Under a microscope, a necrotic cell looks like a **\"ghost\"** of its former self.\n\nHere is exactly what you see (and why):\n\n**Intensely eosinophilic (Dark Pink/Red)**:\n• The cell loses its blue-staining RNA and fills up with denatured proteins.\n\n**Glassy appearance**:\n• The cell's glycogen stores are completely depleted.\n\n**\"Moth-eaten\" cytoplasm**:\n• Enzymes aggressively digest the internal organelles, leaving empty spaces behind.",
+                "subtext": "",
+                "buttonText": "Microscopic View"
+            },
+            {
+                "type": "mcq",
+                "text": "Under a microscope, necrotic cells lose their normal nuclear detail and cytoplasmic appearance.",
+                "question": "What causes the cytoplasm of a necrotic cell to become intensely red (eosinophilic) and glassy under a microscope?",
+                "options": [
+                    "The synthesis of new mitochondria.",
+                    "The loss of RNA and the accumulation of denatured proteins.",
+                    "The influx of red blood cells into the cytoplasm."
+                ],
+                "answer": 1,
+                "explanation": "The degradation of RNA removes the cell's blue tint, while denatured proteins strongly bind the red eosin dye."
+            },
+            {
+                "type": "concept",
+                "title": "Nuclear Breakdown",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 4/2.4.1/nuclear_breakdown_stages.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "While the cytoplasm turns glassy and red, the nucleus undergoes a complete structural collapse, ultimately disappearing entirely within 1-2 days.\n\nThis nuclear destruction is driven by endonucleases and happens in 3 distinct stages:\n\n**Pyknosis (Shrinkage)**:\n• The nucleus shrinks and condenses into a solid, dark blue mass.\n\n**Karyorrhexis (Fragmentation)**:\n• The shrunken nucleus ruptures and breaks into many smaller pieces.\n\n**Karyolysis (Dissolution)**:\n• The DNA is completely degraded. The blue color fades, and the nucleus dissolves entirely, leaving an anucleate (nucleus-free) cell.",
+                "subtext": "",
+                "buttonText": "The Fate of the Nucleus"
+            },
+            {
+                "type": "match",
+                "question": "Match the specific stage of necrotic nuclear breakdown to its description.",
+                "pairs": [
+                    {
+                        "left": "Pyknosis",
+                        "right": "Nucleus shrinks into a dense, dark mass"
+                    },
+                    {
+                        "left": "Karyorrhexis",
+                        "right": "The dense nucleus fragments into smaller pieces"
+                    },
+                    {
+                        "left": "Karyolysis",
+                        "right": "DNA is degraded and the nucleus completely fades away"
+                    }
+                ],
+                "explanation": "Pyknosis occurs when the nucleus shrinks into a dense, dark mass, while karyorrhexis involves that dense nucleus fragmenting into smaller pieces. Finally, karyolysis occurs when the DNA is degraded and the nucleus completely fades away."
             }
         ]
     },

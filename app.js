@@ -12,8 +12,8 @@ let missedConcepts = [];
 
 // All modules are unlocked by default.
 // To restore saved-progress mode, replace this line with:
-let unlockedModules = JSON.parse(localStorage.getItem('pathUnlocked')) || ['0.1'];
-// let unlockedModules = Object.keys(moduleContent);
+// let unlockedModules = JSON.parse(localStorage.getItem('pathUnlocked')) || ['0.1'];
+let unlockedModules = Object.keys(moduleContent);
 
 document.getElementById('xp-count').innerText = xp;
 
