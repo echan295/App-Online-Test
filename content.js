@@ -4216,305 +4216,250 @@ const moduleContent = {
         ]
     },
     "2.5.4": {
-        title: "The Extrinsic Pathway (The External Assassination) 🎯",
-        objectives: ["Master the extrinsic (death receptor) pathway of apoptosis, including Fas/FasL, death domains, and the activation of Caspase-8."],
-        data: [
+        "title": "The Extrinsic Pathway and Execution 🏹🚪",
+        "objectives": [
+            "Understand extrinsic apoptosis: external signals, death receptor engagement, initiator caspase recruitment, and pathway convergence for cell death."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The External Hitman",
-                text: "While the intrinsic pathway involves self-destruction from the inside, the **Extrinsic Pathway** is triggered from the outside by other cells pushing a 'self-destruct' button on the target cell's surface.",
-                subtext: "This allows the body (usually via the immune system) to eliminate cells that may otherwise appear healthy but are no longer needed or are dangerous.",
-                buttonText: "Meet the buttons"
-            },
-            {
-                type: "concept",
-                title: "The Death Receptors",
-                text: "The 'self-destruct buttons' on the cell surface are called **Death Receptors**.",
-                subtext: "The most prominent examples are **Fas** (CD95) and the **TNF Receptor**. These proteins cross the plasma membrane and possess an intracellular 'Death Domain' that relays the signal inward.",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "The External Trigger",
+                "text": "In the last lesson, the cell destroyed itself from the inside. But what if the immune system decides a cell needs to die?\n\nEnter the **Extrinsic (Death Receptor) Pathway**!\n\nInstead of internal damage, this pathway is triggered from the outside:\n\n**The Hit List**:\n• Used by the immune system to eliminate cells that are infected, autoreactive, or simply no longer needed.\n\n**The \"Self-Destruct\" Button**:\n• An immune cell binds to a specific death receptor on the target cell's surface—literally pressing a biochemical self-destruct button!",
+                "subtext": "",
+                "buttonText": "Death Receptors"
             },
             {
-                type: "fill",
-                question: "To trigger the death sequence, a killer T-cell carries a matching key on its surface called Fas ____________ (FasL), which binds directly to the Fas death receptor.",
-                options: ["Ligand", "Lipid", "Domain", "Pore"],
-                answer: 0,
-                explanation: "The Fas Ligand (FasL) on the killer T-cell binds to the Fas receptor on the target cell, inducing a conformational change that activates the death sequence.",
-                buttonText: "Continue"
+                "type": "concept",
+                "title": "The Death Receptors – Fas and FasL",
+                "text": "The \"self-destruct buttons\" on the surface of the cell are called **Death Receptors**. To receive external kill signals, cells express these special transmembrane proteins.\n\nThe most famous examples are:\n• Fas (CD95)\n• Type 1 TNF Receptor (TNFR1)\n\nEach has a specialized intracellular tail called a **\"Death Domain.\"**\n\nHere is the exact self-destruct sequence:\n\n**The Key**:\n• An immune cell carries **Fas Ligand (FasL)** and binds it to the target cell's Fas receptor.\n\n**The Cluster**:\n• This forces the receptors to group together.\n\n**The Magnet**:\n• The internal **Death Domains** act like magnets, pulling in an adaptor protein called **FADD**.\n\n**The Trigger**:\n• **FADD** grabs and activates a specific initiator caspase, officially starting the cell's suicide program!",
+                "subtext": "",
+                "buttonText": "Check the Fatal Signal"
             },
             {
-                type: "concept",
-                title: "The Chain Reaction",
-                text: "When FasL binds to Fas, three receptors group together. Their internal 'Death Domains' pull in an adaptor protein called **FADD** (Fas-Associated Death Domain).",
-                subtext: "FADD then acts as a scaffold to recruit and activate a specific initiator caspase.",
-                buttonText: "Which caspase?"
-            },
-            { 
-                type: "mcq", 
-                question: "Which initiator caspase is strictly activated by FADD in the Extrinsic Pathway?", 
-                options: ["Caspase-3", "Caspase-8", "Caspase-9"], 
-                answer: 1, 
-                explanation: "Caspase-8 is the specific initiator for the extrinsic pathway, whereas Caspase-9 is the initiator for the intrinsic mitochondrial pathway." 
-            },
-            { 
-                type: "mcq", 
-                question: "Both the Extrinsic and Intrinsic pathways ultimately activate the same 'executioner' caspases (like Caspase-3).", 
-                options: ["True", "False"], 
-                answer: 0, 
-                explanation: "Both pathways converge on the same execution phase. Once Caspase-8 or Caspase-9 is activated, they both trigger executioner caspases like Caspase-3 to dismantle the cell." 
-            },
-            {
-                type: "concept",
-                title: "Physiological Role",
-                text: "The extrinsic pathway is vital for immune system regulation.",
-                subtext: "The body uses the Fas/FasL system to eliminate self-reactive immune cells—preventing autoimmune diseases—and to command virus-infected cells to commit suicide.",
-                buttonText: "Got it!"
-            },
-            {
-                type: "sort",
-                question: "Sort the key players into their correct pathway!",
-                buckets: ["Intrinsic Pathway", "Extrinsic Pathway"],
-                items: [
-                    { text: "Cytochrome c leaks from mitochondria.", bucket: 0 },
-                    { text: "Fas Ligand (FasL) binds to Fas.", bucket: 1 },
-                    { text: "Activation of Caspase-9.", bucket: 0 },
-                    { text: "Activation of Caspase-8.", bucket: 1 }
+                "type": "fill",
+                "text": "To receive external kill signals, cells express special transmembrane proteins with specialized intracellular regions.",
+                "question": "Receptors involved in the extrinsic apoptotic pathway, such as Fas, transmit their lethal signal through an intracellular region called the ________ domain.",
+                "options": [
+                    "Growth",
+                    "Death",
+                    "Lipid",
+                    "Survival"
                 ],
-                explanation: ""
+                "answer": [
+                    1
+                ],
+                "explanation": "The death domain is the critical structural region that mediates protein interactions to initiate the extrinsic apoptotic pathway."
+            },
+            {
+                "type": "concept",
+                "title": "The Extrinsic Initiator",
+                "text": "When the Fas death receptors cluster together, they recruit intracellular proteins to form a complex that activates **Caspase-8**.\n\nIt is crucial to remember which initiator starts which pathway:\n\n**Caspase-8**:\n• The specific initiator for the **Extrinsic (Death Receptor)** pathway.\n\n**Caspase-9**:\n• The specific initiator for the **Intrinsic (Mitochondrial)** pathway.",
+                "subtext": "",
+                "buttonText": "Execution Phase"
+            },
+            {
+                "type": "concept",
+                "title": "Convergence - The Execution Phase",
+                "text": "Once activated, both the intrinsic initiator **(Caspase-9)** and the extrinsic initiator **(Caspase-8)** share the exact same job.\n\nThey converge on a final, common pathway known as the **Execution Phase**.\n\nTo trigger this deadly phase, they both activate the heavily armed **executioner caspases**, primarily:\n• Caspase-3\n• Caspase-6",
+                "subtext": "",
+                "buttonText": "Check Convergence"
+            },
+            {
+                "type": "mcq",
+                "text": "The intrinsic and extrinsic pathways begin with different triggers but eventually reach a shared conclusion.",
+                "question": "The intrinsic and extrinsic pathways operate completely independently from start to finish and never converge on the same enzymes.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "The intrinsic and extrinsic pathways are not completely independent, as they ultimately converge on the same executioner caspases to finalize apoptosis."
+            },
+            {
+                "type": "concept",
+                "title": "Dismantling the Cell",
+                "text": "The activated executioner caspases systematically dismantle the cell from the inside out. \n\nThey do this by unleashing two deadly enzyme teams:\n\n**Endonucleases (The DNA Choppers)**:\n• Chop the nuclear DNA into specific, predictable fragments, causing intense chromatin condensation.\n\n**Proteases (The Structure Breakers)**:\n• Destroy the cytoskeleton's structural proteins, causing the cell to shrink and form apoptotic bodies.",
+                "subtext": "",
+                "buttonText": "Check the Work"
+            },
+            {
+                "type": "mcq",
+                "text": "While initiator caspases begin the apoptotic process, the final destruction is carried out in the execution phase.",
+                "question": "What is the primary function of executioner caspases, such as Caspase-3, during apoptosis?",
+                "options": [
+                    "To puncture holes in the mitochondrial membrane.",
+                    "To bind to external Fas ligands.",
+                    "To activate enzymes that dismantle the DNA and cytoskeleton."
+                ],
+                "answer": 2,
+                "explanation": "While initiator caspases begin the apoptotic process, the executioner caspases like Caspase-3 act at the end of the pathway to activate the enzymes that systematically dismantle the cellular DNA and cytoskeleton."
+            },
+            {
+                "type": "concept",
+                "title": "The Final Clearance",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 5/2.5.4/extrinsic_pathway_diagram.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "The executioners finish the job by ensuring the apoptotic bodies display the ultimate \"eat me\" signal: flipping **phosphatidylserine** to the outer membrane.\n\nThis triggers a final, silent cleanup process:\n\n**The Cleanup**:\n• Scavenger macrophages recognize the signal and rapidly engulf the packages.\n\n**No Trace Left**:\n• The cell is completely digested and removed.\n\n**Zero Inflammation**:\n• This silent clearance successfully prevents any messy tissue damage.",
+                "subtext": "",
+                "buttonText": "Final Review"
+            },
+            {
+                "type": "match",
+                "question": "Match the specific apoptotic component to its role in the extrinsic or execution pathways.",
+                "pairs": [
+                    {
+                        "left": "Fas (CD95)",
+                        "right": "Death receptor on the plasma membrane"
+                    },
+                    {
+                        "left": "Caspase-8",
+                        "right": "Initiator caspase for the extrinsic pathway"
+                    },
+                    {
+                        "left": "Caspase-3 and -6",
+                        "right": "Executioner caspases that dismantle the cell"
+                    },
+                    {
+                        "left": "Endonucleases",
+                        "right": "Chop the DNA into fragments"
+                    }
+                ],
+                "explanation": "In the extrinsic and execution pathways of apoptosis, Fas (CD95) acts as the death receptor on the plasma membrane that triggers Caspase-8, the extrinsic initiator caspase. The cascade ultimately activates Caspase-3 and -6, which dismantle the cell, while endonucleases are responsible for chopping the DNA into fragments."
             }
         ]
     },
     "2.5.5": {
-        title: "Morphology of Apoptosis (The Invisible Death) 🫥",
-        objectives: ["Master the ultrastructural hallmarks of apoptosis, how it looks under a microscope, and understand why this 'silent suicide' is so difficult for pathologists to spot!"],
-        data: [
+        "title": "Other Pathways - Necroptosis, Pyroptosis, and Ferroptosis 💀💀",
+        "objectives": [
+            "Understand the hybrid nature of necroptosis, the fever-inducing mechanism of pyroptosis, and the iron-dependent trigger of ferroptosis."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "Hallmark 1: Cell Shrinkage",
-                text: "In contrast to necrosis, where cells swell with water, **Cell Shrinkage** is a defining feature of apoptosis.",
-                subtext: "The cell's size is reduced, the cytoplasm becomes extremely dense, and the internal organelles become tightly packed together.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "You are looking at a dying cell under an electron microscope. The cell is massive, swollen, and pale. What type of cell death is this?", 
-                options: ["Apoptosis", "Necrosis", "Normal Homeostasis"], 
-                answer: 1, 
-                explanation: "Necrotic cells swell and burst due to the loss of osmotic control, whereas apoptotic cells condense and shrink." 
+                "type": "concept",
+                "title": "The Other Deaths",
+                "text": "Historically, cell death was strictly divided into two opposite categories:\n• **Necrosis** (accidental and messy)\n• **Apoptosis** (programmed and clean).\n\nBut there are other \"hybrid\" rebel pathways that completely blur the lines!\n\nThese are programmed suicide mechanisms that intentionally cause a messy inflammatory response.\n\nThese specialized pathways include:\n• Necroptosis\n• Pyroptosis\n• Ferroptosis",
+                "subtext": "",
+                "buttonText": "Necroptosis"
             },
             {
-                type: "concept",
-                title: "Hallmark 2: Chromatin Condensation",
-                text: "The most characteristic feature of apoptosis is **Chromatin Condensation**.",
-                subtext: "The cell's DNA (chromatin) aggregates into dense masses tightly packed against the edges of the nuclear membrane. Eventually, the nucleus fragments.",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "Necroptosis - \"Programmed Necrosis\"",
+                "text": "Necroptosis is a true hybrid. It is a genetically programmed suicide, but it looks exactly like messy necrosis!\n\nHere is how it blends the two:\n\n**Programmed (Like Apoptosis)**:\n• It is triggered by specific, regulated signal transduction pathways.\n\n**Messy (Like Necrosis)**:\n• The cell swells, the membrane ruptures, and it triggers a massive inflammatory response.\n\n**The Key Difference**:\n• Unlike apoptosis, this rebel pathway is completely independent of **Caspases**!",
+                "subtext": "",
+                "buttonText": "Check the Nature"
             },
             {
-                type: "fill",
-                question: "The most characteristic morphologic feature of apoptosis is ____________ condensation.",
-                options: ["Mitochondrial", "Chromatin", "Membrane", "Ribosome"],
-                answer: 1,
-                explanation: "Tightly packed, condensed chromatin is considered the absolute hallmark of programmed cell death.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "Hallmark 3 & 4: Blebs and Bodies",
-                text: "During the process, the cell's surface bulges outward, forming **Cytoplasmic Blebs**.",
-                subtext: "These blebs eventually pinch off to form **Apoptotic Bodies**, which are membrane-bound packages containing cytoplasm and nuclear fragments. These are then rapidly consumed by macrophages.",
-                buttonText: "Next"
-            },
-            { 
-                type: "order", 
-                question: "Arrange the morphologic changes of apoptosis in the correct chronological order.", 
-                items: [
-                    "Cell shrinkage & chromatin condensation", 
-                    "Surface membrane blebbing", 
-                    "Fragmentation into apoptotic bodies", 
-                    "Phagocytosis by macrophages"
-                ], 
-                explanation: "" 
-            },
-            {
-                type: "concept",
-                title: "Under the Light Microscope 🔬",
-                text: "When stained with H&E, an apoptotic cell appears as a tiny, round or oval mass.",
-                subtext: "Because the cytoplasm is highly concentrated, it stains intensely **eosinophilic** (bright pink/red) and contains dark, dense shards of nuclear chromatin.",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Pathology Challenge",
-                text: "Apoptosis is notoriously difficult to identify on a standard tissue slide.",
-                subtext: "This is due to the speed of the process, the rapid clearance of fragments, and the complete absence of an inflammatory response to draw the pathologist's attention.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "It is very easy to detect apoptosis on a tissue slide because it always triggers a massive inflammatory reaction.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Apoptosis is often called a 'silent' death because it does not trigger inflammation and the resulting cell fragments are cleared before they can be easily visualized." 
-            }
-        ]
-    },
-    "2.5.6": {
-        title: "Removal of Dead Cells (The Silent Cleanup) 🧹",
-        objectives: ["Master how apoptotic bodies attract phagocytes using 'Find Me' and 'Eat Me' signals, the role of Phosphatidylserine, and why the cleanup process actively suppresses inflammation."],
-        data: [
-            {
-                type: "concept",
-                title: "The Final Step",
-                text: "Once a cell breaks apart into apoptotic bodies, the leftover pieces must be cleared out immediately.",
-                subtext: "If apoptotic bodies are not removed, they eventually lose membrane integrity and release contents (secondary necrosis). They are cleared by the body's cleanup crew: **Macrophages**.",
-                buttonText: "How do they find them?"
-            },
-            {
-                type: "concept",
-                title: "The 'Find Me' Signals",
-                text: "Before the cell is completely packaged, it releases soluble chemical messengers (lipids and proteins) into the surrounding tissue.",
-                subtext: "These act as **'Find Me' signals**, creating a chemical trail that attracts macrophages to the site of the dying cell.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Apoptotic cells quietly wait for a macrophage to randomly bump into them.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Apoptotic cells actively secrete chemical signals to lure macrophages directly to their location for efficient clearance." 
-            },
-            {
-                type: "concept",
-                title: "The 'Eat Me' Signal",
-                text: "Once the macrophage arrives, it identifies the dying cell by a specific molecular 'flag'.",
-                subtext: "In a healthy cell, the lipid **Phosphatidylserine (PS)** is restricted to the inner leaflet of the plasma membrane. During apoptosis, the membrane 'flips,' exposing PS to the outer surface.",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "The appearance of ____________ on the outer leaflet of the plasma membrane serves as the ultimate 'Eat Me' signal for macrophages.",
-                options: ["Phosphatidylserine", "Cytochrome", "Calcium", "Troponin"],
-                answer: 0,
-                explanation: "The translocation of phosphatidylserine to the outer membrane leaflet is a hallmark of apoptosis that marks the cell for phagocytosis.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "The Anti-Inflammatory Secret",
-                text: "The clearance of apoptotic bodies is an actively 'silent' process that prevents tissue damage.",
-                subtext: "When a macrophage recognizes Phosphatidylserine, it consumes the body and releases **anti-inflammatory cytokines** (like TGF-β and IL-10) to suppress any local immune response.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Why does the tissue remain peaceful and quiet during apoptosis, even when millions of cells are dying?", 
-                options: [
-                    "Macrophages release pro-inflammatory cytokines to warn the body", 
-                    "Macrophages release anti-inflammatory cytokines (like TGF-β) while eating apoptotic bodies", 
-                    "Macrophages ignore apoptotic bodies completely"
-                ], 
-                answer: 1, 
-                explanation: "Macrophages actively suppress the local immune system by releasing anti-inflammatory mediators like TGF-β and IL-10 during the phagocytosis of apoptotic bodies." 
-            },
-            {
-                type: "sort",
-                question: "Compare how the body cleans up Necrosis vs. Apoptosis.",
-                buckets: ["Necrosis", "Apoptosis"],
-                items: [
-                    { text: "Phosphatidylserine (PS) Flip.", bucket: 1 },
-                    { text: "Leaked DAMPs (like ATP).", bucket: 0 },
-                    { text: "Anti-inflammatory (TGF-β) release.", bucket: 1 },
-                    { text: "Pro-inflammatory (Severe swelling).", bucket: 0 }
+                "type": "mcq",
+                "text": "Necroptosis is often described as a hybrid form of cell death because it is genetically programmed but results in cellular rupture.",
+                "question": "Because necroptosis is a programmed form of cell death, it packages the cell neatly and avoids causing an inflammatory response.",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                explanation: ""
-            }
-        ]
-    },
-    "2.5.7": {
-        title: "The Hybrids (Other Types of Cell Death & Survival) 🧟‍♂️",
-        objectives: ["Master the specialized 'hybrid' pathways of cell death and survival: Necroptosis, Pyroptosis, Ferroptosis, and Autophagy."],
-        data: [
-            {
-                type: "concept",
-                title: "The Rebels of Cell Death",
-                text: "Beyond the classic paths of necrosis and apoptosis, pathologists have identified 'hybrid' pathways that combine features of both.",
-                subtext: "These specialized pathways include Necroptosis, Pyroptosis, Ferroptosis, and Autophagy, each involving unique triggers and molecular machinery.",
-                buttonText: "Next"
+                "answer": 1,
+                "explanation": "Despite being programmed, necroptosis ruptures the cell membrane and spills its contents, which inherently triggers an inflammatory response rather than packaging the cell neatly."
             },
             {
-                type: "concept",
-                title: "Path 1: Necroptosis - The Zombie Cell",
-                text: "**Necroptosis** is a hybrid form of cell death. Morphologically, it resembles necrosis (cell swelling and membrane rupture), but it is a genetically programmed process.",
-                subtext: "Critically, necroptosis is independent of caspases, which distinguishes it from the classic apoptotic pathways.",
-                buttonText: "How is it triggered?"
-            },
-            {
-                type: "fill",
-                question: "Because necroptosis does not use caspases, it relies on a different set of executioner enzymes called ____________ kinases (specifically RIPK1 and RIPK3).",
-                options: ["RIP", "Caspase", "Lipase", "Polymerase"],
-                answer: 0,
-                explanation: "RIP (Receptor-Interacting Protein) kinases are the essential signaling molecules that trigger the programmed necrosis pathway.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "Path 2: Pyroptosis - The Fire Death",
-                text: "**Pyroptosis** is a form of programmed cell death that is uniquely associated with the activation of the immune system and fever.",
-                subtext: "When a cell detects certain intracellular microbes, it assembles a danger-sensing protein complex called the **Inflammasome**.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "The Inflammasome activates Caspase-1, which leads to the production of Interleukin-1 (IL-1). What is a common clinical result of IL-1 release?", 
-                options: ["Hypothermia", "Fever", "Bruising"], 
-                answer: 1, 
-                explanation: "IL-1 is a potent pyrogen. Pyroptosis results in cell rupture and the release of inflammatory mediators that trigger fever to help combat infection." 
-            },
-            {
-                type: "concept",
-                title: "Path 3: Ferroptosis - The Rusty Death",
-                text: "**Ferroptosis** is a form of cell death triggered by excessive, toxic levels of intracellular **Iron**.",
-                subtext: "High iron levels catalyze massive lipid peroxidation, which causes widespread destruction of the cell's membrane systems.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Ferroptosis occurs when the cell's antioxidant defense system (specifically Glutathione) fails to neutralize free radicals.", 
-                options: ["True", "False"], 
-                answer: 0, 
-                explanation: "Ferroptosis is prevented by glutathione-dependent antioxidant mechanisms. When these defenses are overwhelmed or inhibited, iron-dependent oxidative damage leads to cell death." 
-            },
-            {
-                type: "concept",
-                title: "Path 4: Autophagy - The Self-Eater",
-                text: "**Autophagy** ('self-eating') is a process where a cell digests its own contents to survive during periods of nutrient deprivation.",
-                subtext: "The cell sequesters organelles into membranes and delivers them to lysosomes for recycling, providing a source of energy and building blocks.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "What happens if the state of starvation is too severe or lasts too long for the cell to recover via autophagy?", 
-                options: [
-                    "The cell duplicates its DNA and divides", 
-                    "The cell successfully becomes immortal", 
-                    "The 'self-eating' process eventually leads to cell death"
-                ], 
-                answer: 2, 
-                explanation: "While autophagy is primarily a survival mechanism, extensive and uncorrected nutrient deprivation can lead to the total consumption of the cell's vital components, resulting in death." 
-            },
-            {
-                type: "sort",
-                question: "Match the specialized cell death or survival pathway to its unique trigger or feature.",
-                buckets: ["Necroptosis", "Pyroptosis", "Ferroptosis", "Autophagy"],
-                items: [
-                    { text: "Programmed necrosis driven by RIP Kinases.", bucket: 0 },
-                    { text: "Inflammasome, Caspase-1, and Fever (IL-1).", bucket: 1 },
-                    { text: "Iron-driven lipid peroxidation damage.", bucket: 2 },
-                    { text: "Recycling organelles for survival during starvation.", bucket: 3 }
+                "type": "concept",
+                "title": "The Kinase Switch (RIPK)",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 5/2.5.5/necroptosis_pathway.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                explanation: ""
+                "text": "The defining biochemical feature of **necroptosis** is that it is **strictly caspase-independent**.\n\nInstead of using caspases as executioners, it relies on a new team of proteins:\n\n**RIPK1 & RIPK3**:\n• Receptor-Interacting Protein Kinases.\n• These kinase proteins do the dirty work.\n• They ultimately punch holes in the plasma membrane, causing the cell to burst open and trigger a massive inflammatory response!",
+                "subtext": "",
+                "buttonText": "The Executioners"
+            },
+            {
+                "type": "fill",
+                "question": "Unlike apoptosis, necroptosis does not use caspases. Instead, it relies on a specific group of kinases known as ________.",
+                "options": [
+                    "Caspases",
+                    "RIPK",
+                    "Endonucleases",
+                    "Chaperones"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "RIPK1 and RIPK3 are the essential kinases that drive the necroptotic pathway."
+            },
+            {
+                "type": "concept",
+                "title": "Pyroptosis - The Fiery Death",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 5/2.5.5/pyroptosis_sequence.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "The Greek root \"pyro\" means fire. This pathway is tied to **fever** and massive inflammation!\n\nWhen an immune cell is infected by a microbe, it initiates a fiery self-destruct sequence:\n\n**The Sensor**:\n• The cell activates a danger-sensing complex called the **Inflammasome**.\n\n**The Fever Alarm**:\n• The inflammasome activates **Caspase-1**, which then releases fever-inducing **IL-1**.\n\n**The Explosion**:\n• The infected cell bursts, destroying the microbes hiding inside and creating a local inflammatory response!",
+                "subtext": "",
+                "buttonText": "The Fever Trigger"
+            },
+            {
+                "type": "mcq",
+                "question": "The Inflammasome activates a very specific enzyme: Caspase-1. Caspase-1 doesn't chop up DNA like normal caspases. Instead, it produces Interleukin-1 (IL-1). What clinical symptom does IL-1 cause in the patient?",
+                "options": [
+                    "Hypothermia",
+                    "Fever",
+                    "Bruising"
+                ],
+                "answer": 1,
+                "explanation": "Pyroptosis causes the cell to burst and release IL-1, triggering fever to burn out the infection. That's why it's the \"fire\" death!"
+            },
+            {
+                "type": "concept",
+                "title": "Ferroptosis - The Iron-Dependent Death",
+                "text": "\"Ferro\"—as the name suggests—requires toxic excess of intracellular iron.\n\nTriggered when the cell's antioxidant defenses completely fail:\n\n**The Catalyst**:\n• High iron levels catalyze a destructive chemical chain reaction.\n\n**The Attack**:\n• This causes severe, uncontrolled **lipid peroxidation** that tears apart the cell's protective membranes.\n\n**The Messy Result**:\n• Morphologically, the dying cell looks just like messy necrosis.",
+                "subtext": "",
+                "buttonText": "The Metal Catalyst"
+            },
+            {
+                "type": "fill",
+                "question": "Ferroptosis is a unique pathway of cell death driven by severe lipid peroxidation that is specifically catalyzed by intracellular ________.",
+                "options": [
+                    "Calcium",
+                    "Copper",
+                    "Iron",
+                    "Sodium"
+                ],
+                "answer": [
+                    2
+                ],
+                "explanation": "Iron is the essential catalyst for the lipid peroxidation that destroys the cell during ferroptosis."
+            },
+            {
+                "type": "match",
+                "question": "Match the specific pathway of cell death to its defining biochemical or clinical feature.",
+                "pairs": [
+                    {
+                        "left": "Necroptosis",
+                        "right": "Programmed death mediated by RIPK kinases"
+                    },
+                    {
+                        "left": "Pyroptosis",
+                        "right": "Inflammasome activation causing fever (IL-1)"
+                    },
+                    {
+                        "left": "Ferroptosis",
+                        "right": "Iron-catalyzed lipid peroxidation"
+                    },
+                    {
+                        "left": "Apoptosis",
+                        "right": "Clean, non-inflammatory programmed death"
+                    }
+                ],
+                "explanation": "Necroptosis is a programmed death mediated by RIPK kinases, while pyroptosis involves inflammasome activation that causes fever via IL-1. Additionally, ferroptosis is driven by iron-catalyzed lipid peroxidation, and apoptosis functions as a clean, non-inflammatory programmed death."
             }
         ],
-        next: "2.6.1"
+        "next": "2.6.1"
     },
 
     // UNIT 6
