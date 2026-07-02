@@ -3988,88 +3988,105 @@ const moduleContent = {
         ]
     },
     "2.5.2": {
-        title: "Causes of Apoptosis (The Sculptor and the Assassin) 🗿",
-        objectives: ["Master the two broad contexts of apoptosis: physiologic (normal cell turnover and development) and pathologic (eliminating irreparably damaged or infected cells)."],
-        data: [
+        "title": "Morphology and Biochemical Features of Apoptosis 🤏📦",
+        "objectives": [
+            "Recognize how an apoptotic cell looks under a microscope, how it safely packages its contents, and the biochemical signals it uses to get cleared away."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The Two Faces of Apoptosis",
-                text: "Apoptosis occurs in two broad contexts: **Physiologic** (normal daily maintenance) and **Pathologic** (disease control).",
-                subtext: "To maintain a healthy steady state, the human body turns over almost 1 million cells every second, mostly through apoptosis!",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Apoptosis only happens when a cell is severely injured or exposed to toxins.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Apoptosis is a normal physiological process that occurs constantly in healthy tissues to maintain homeostatic cell numbers." 
+                "type": "concept",
+                "title": "The Shrinking Cell",
+                "text": "When a cell undergoes necrosis, it rapidly swells with water. But in apoptosis, the exact opposite happens: **the cell shrinks**.\n\nAs the cell activates its suicide program, its physical appearance changes drastically:\n• **Reduced size**: The cell physically shrinks.\n• **Dense cytoplasm**: The cell's interior becomes highly concentrated.\n• **Packed organelles**: The internal components are tightly squeezed together.",
+                "subtext": "",
+                "buttonText": "Size Matters"
             },
             {
-                type: "concept",
-                title: "Physiologic Apoptosis: The Sculptor",
-                text: "In normal physiologic states, apoptosis removes cells that are no longer needed.",
-                subtext: "It deletes extra cells to sculpt organs during development and shrinks hormone-dependent tissues (like during menstruation or weaning) when hormone levels drop.",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "When apoptosis happens specifically during embryogenesis and development, it is called ____________ cell death.",
-                options: ["Programmed", "Pathologic", "Necrotic", "Accidental"],
-                answer: 0,
-                explanation: "'Programmed cell death' refers to the carefully timed apoptosis that occurs as an integral part of embryonic development.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "Physiologic Apoptosis: Retirees & Guards",
-                text: "Apoptosis 'retires' cells that have finished their jobs (e.g., neutrophils after an immune response) and eliminates dangerous, self-reactive lymphocytes in the bone marrow.",
-                subtext: "Eliminating these self-reactive cells is crucial to preventing autoimmune diseases.",
-                buttonText: "What triggers it?"
-            },
-            { 
-                type: "mcq", 
-                question: "In normal physiologic situations, what usually triggers the cell to undergo apoptosis?", 
-                options: [
-                    "Severe DNA mutations", 
-                    "Deprivation of necessary survival signals (growth factors)", 
-                    "A massive influx of calcium"
-                ], 
-                answer: 1, 
-                explanation: "In physiological contexts, cells often enter apoptosis when they no longer receive specific 'stay alive' signals, such as growth factors or hormones." 
-            },
-            {
-                type: "concept",
-                title: "Pathologic Apoptosis: Quality Control",
-                text: "In pathologic conditions, apoptosis serves as a defense mechanism to eliminate cells injured beyond repair without triggering inflammation.",
-                subtext: "It occurs in response to severe DNA damage (from radiation or chemo) and severe ER stress (misfolded proteins) to prevent the development of cancer.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "If a cell suffers severe, unrepairable DNA damage from radiation, apoptosis has a protective effect on the host.", 
-                options: ["True", "False"], 
-                answer: 0, 
-                explanation: "By undergoing apoptosis, the damaged cell is eliminated, preventing mutated DNA from surviving and potentially progressing to a malignant tumor." 
-            },
-            {
-                type: "concept",
-                title: "Pathologic Apoptosis: Viral Assassins",
-                text: "Apoptosis is a key response during viral infections. While some viruses cause cell death directly, the immune system often forces infected cells to commit suicide.",
-                subtext: "**Cytotoxic T Lymphocytes (CTLs)** hunt down infected cells and induce apoptosis to destroy the viral reservoir.",
-                buttonText: "Next"
-            },
-            {
-                type: "sort",
-                question: "Sort these triggers of apoptosis into their correct category: Physiologic or Pathologic.",
-                buckets: ["Physiologic (Normal)", "Pathologic (Disease)"],
-                items: [
-                    { text: "Uterus shedding during menstruation", bucket: 0 },
-                    { text: "Eliminating self-reactive lymphocytes", bucket: 0 },
-                    { text: "Severe DNA damage from radiation", bucket: 1 },
-                    { text: "CTLs killing a virus-infected cell", bucket: 1 }
+                "type": "mcq",
+                "question": "A key morphological difference between necrosis and apoptosis is that apoptotic cells swell up with water.",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                explanation: ""
+                "answer": 1,
+                "explanation": "An apoptotic cell physically shrinks and becomes dense, whereas a necrotic cell swells due to the failure of its energy-dependent ion pumps."
+            },
+            {
+                "type": "concept",
+                "title": "Blebbing and Apoptotic Bodies",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 5/2.5.2/apoptosis_features.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "As the cell continues to shrink, its surface begins to bulge outward, forming **cytoplasmic blebs**.\n\nThese blebs eventually pinch off to form apoptotic bodies—neat little membrane-bound packages containing:\n• Condensed cytoplasm.\n• Tightly packed organelles.\n• Nuclear fragments.\n\n**The Final Cleanup**:\n• These safe, sealed packages are rapidly eaten by **macrophages** before any contents can spill out, completely avoiding a messy inflammatory response!",
+                "subtext": "",
+                "buttonText": "The Safe Packages"
+            },
+            {
+                "type": "mcq",
+                "text": "As the cell continues to shrink, its surface begins to bulge outward, eventually pinching off.",
+                "question": "What is the critical function of the apoptotic bodies formed during membrane blebbing?",
+                "options": [
+                    "To leak destructive enzymes into the surrounding tissue.",
+                    "To safely package the cell's contents within intact membranes.",
+                    "To attach to other cells and spread viral infections."
+                ],
+                "answer": 1,
+                "explanation": "Apoptotic bodies keep the intracellular contents completely sealed away, which is why apoptosis does not trigger an inflammatory response."
+            },
+            {
+                "type": "concept",
+                "title": "The \"Eat Me\" Signal",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 5/2.5.2/eat_me_signal.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "How does the body get rid of these packages? The apoptotic bodies alter their surface to display a biochemical **\"eat me\"** signal!\n\nHere is exactly how they do it:\n\n**The Hidden Lipid**:\n• Normally, a specific lipid (**phosphatidylserine**) is kept safely hidden on the inner surface of the cell membrane.\n\n**The Flip**:\n• During apoptosis, this lipid physically flips to the outer surface!\n\n**The Target**:\n• Macrophages easily spot this flipped lipid, read it as an \"eat me\" sign, and quickly clear the packages away.",
+                "subtext": "",
+                "buttonText": "The Cleanup Crew"
+            },
+            {
+                "type": "concept",
+                "title": "Phagocytosis – The Cleanup Crew",
+                "text": "We know how the cell breaks apart, but what happens to the leftover pieces?\n\nThey must be cleared out instantly by the body's cleanup crew: the **macrophages**!\n\n**The Cleanup Process**:\n• **Spot the Target**: Macrophages easily recognize the newly exposed \"eat me\" signal (phosphatidylserine).\n• **Engulf**: They quickly bind to the bodies and swallow them whole.\n• **Zero Leakage**: The macrophages completely digest the packages before any cellular contents can leak out and cause tissue damage.",
+                "subtext": "",
+                "buttonText": "The Flipped Lipid"
+            },
+            {
+                "type": "fill",
+                "question": "During apoptosis, the membrane lipid known as ________ flips to the outer surface of the plasma membrane to act as an \"eat me\" signal for macrophages.",
+                "options": [
+                    "Cholesterol",
+                    "Phosphatidylserine",
+                    "Triglyceride",
+                    "Glycogen"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "The exposure of phosphatidylserine tells the surrounding macrophages to quickly engulf and clear the apoptotic bodies."
+            },
+            {
+                "type": "match",
+                "question": "Match the morphological or biochemical feature of apoptosis to its description.",
+                "pairs": [
+                    {
+                        "left": "Cellular Shrinkage",
+                        "right": "The cytoplasm becomes dense and tightly packed"
+                    },
+                    {
+                        "left": "Apoptotic Bodies",
+                        "right": "Membrane-bound packages of cellular contents"
+                    },
+                    {
+                        "left": "Phosphatidylserine",
+                        "right": "The flipped lipid that acts as an \"eat me\" signal"
+                    }
+                ],
+                "explanation": "Cellular shrinkage occurs as the cytoplasm becomes dense and tightly packed, while apoptotic bodies form as membrane-bound packages of cellular contents. Additionally, phosphatidylserine is the flipped lipid that acts as an 'eat me' signal."
             }
         ]
     },
