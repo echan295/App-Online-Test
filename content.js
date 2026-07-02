@@ -3859,74 +3859,131 @@ const moduleContent = {
 
     // UNIT 5
     "2.5.1": {
-        title: "Introduction to Apoptosis (The Clean Suicide) 🤫",
-        objectives: ["Master the fundamental concept of apoptosis, how it packages cellular debris, why it does not cause inflammation, and its vital role in normal development."],
-        data: [
+        "title": "Introduction to Apoptosis - The Programmed Death 🧬✨",
+        "objectives": [
+            "Understand the definition of apoptosis, explain why it does not cause inflammation, and distinguish between its physiological and pathological roles."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The Controlled Suicide",
-                text: "Unlike necrosis, **Apoptosis** is a highly controlled, tightly regulated suicide program.",
-                subtext: "When a cell is destined to die via apoptosis, it activates intrinsic enzymes that neatly degrade its own genomic DNA, nuclear proteins, and cytoplasmic proteins from the inside out.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Just like in necrosis, the plasma membrane of an apoptotic cell ruptures and leaks its contents everywhere.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "The hallmark of apoptosis is that the plasma membrane remains perfectly intact while the cell dismantles itself, preventing the leakage of cellular contents into the surrounding environment." 
-            },
-            {
-                type: "concept",
-                title: "The Neat Packages",
-                text: "Instead of bursting open, the apoptotic cell shrinks and breaks up into neat, plasma membrane-bound fragments called **Apoptotic Bodies**.",
-                subtext: "These packages contain portions of the digested cytoplasm and nucleus, safely wrapped up and ready for disposal.",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The 'Eat Me' Signal",
-                text: "Apoptotic bodies alter their surface components to display 'find me' and 'eat me' signals to attract phagocytes.",
-                subtext: "Phagocytes, such as macrophages, recognize these signals and rapidly devour the cell fragments before any internal contents can leak out.",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "Because the cellular contents never leak out to trigger biochemical alarms, apoptosis does NOT elicit an ____________ reaction.",
-                options: ["Inflammatory", "Adaptive", "Apoptotic", "Enzymatic"],
-                answer: 0,
-                explanation: "Since there is no leakage of cellular contents (DAMPs), there is no stimulus for an inflammatory response. This makes apoptosis a 'silent' form of cell death.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "Falling Leaves",
-                text: "The word 'Apoptosis' is Greek for 'falling off,' describing a natural phenomenon like leaves falling from a tree.",
-                subtext: "It is a natural, programmed cell death controlled by specific genes, rather than an accidental result of severe external injury.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Why would the body purposely program its own cells to die?", 
-                options: [
-                    "To cause autoimmune diseases", 
-                    "Because it is required for normal embryogenesis and development", 
-                    "To trigger massive tissue inflammation"
-                ], 
-                answer: 1, 
-                explanation: "Programmed cell death is essential for development; for example, apoptosis is responsible for the removal of tissue between fingers (interdigital webbing) during embryonic development."
-            },
-            {
-                type: "sort",
-                question: "Compare the two paths of cell death! Match the characteristic to the correct type.",
-                buckets: ["Necrosis", "Apoptosis"],
-                items: [
-                    { text: "Intact plasma membrane.", bucket: 1 },
-                    { text: "Triggers severe inflammation.", bucket: 0 },
-                    { text: "Forms neat 'apoptotic bodies'.", bucket: 1 },
-                    { text: "Messy, leaky, and always pathologic.", bucket: 0 }
+                "type": "concept",
+                "title": "The Programmed Suicide",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 5/2.5.1/necrosis_vs_apoptosis.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                explanation: ""
+                "text": "Welcome to Apoptosis!\n\nIf necrosis is a messy, accidental explosion, **apoptosis** is a highly controlled, tightly regulated suicide program.\n\nWhen a cell is destined to die via apoptosis, it actively dismantles itself:\n\n**Inside-Out Destruction**:\n• It activates specialized enzymes to neatly degrade its own DNA and proteins.\n\n**Zero Leakage**:\n• Unlike necrosis, the cell accomplishes all of this while keeping its plasma membrane completely intact.",
+                "subtext": "",
+                "buttonText": "Check the Membrane"
+            },
+            {
+                "type": "mcq",
+                "question": "During apoptosis, the cell's plasma membrane ruptures and spills its contents into the surrounding tissue.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "During apoptosis, the plasma membrane remains intact, and the cell's contents are packaged rather than spilling out."
+            },
+            {
+                "type": "concept",
+                "title": "The Clean Death",
+                "text": "Instead of bursting open, the shrinking cell neatly packs its digested components into sealed vesicles called **Apoptotic Bodies**.\n\nBecause the outer membrane never ruptures, it creates a perfect seal. This leads to the most critical defining feature of apoptosis:\n\n**Zero Leakage**:\n• Danger signals (DAMPs) are safely wrapped up and never escape into the tissue.\n\n**No Inflammation**:\n• The immune system is never alarmed.\n\n**The Result**:\n• Apoptosis is a perfectly clean and silent death.",
+                "subtext": "",
+                "buttonText": "The Silent Departure"
+            },
+            {
+                "type": "fill",
+                "question": "A key diagnostic difference between necrosis and apoptosis is that apoptosis safely contains the cell's contents and therefore never triggers an ________ response.",
+                "options": [
+                    "Inflammatory",
+                    "Autoimmune",
+                    "Ischemic",
+                    "Allergic"
+                ],
+                "answer": [
+                    0
+                ],
+                "explanation": "Apoptosis is a clean cell death that completely avoids the destructive tissue inflammation seen in necrosis."
+            },
+            {
+                "type": "concept",
+                "title": "Two Sides of the Coin",
+                "text": "We learned that necrosis is always pathological (caused by disease or injury).\n\nApoptosis is unique because it serves two totally different roles:\n\n**Physiological (Normal)**:\n• Healthy, daily maintenance required for survival.\n\n**Pathological (Disease Control)**:\n• A controlled sacrifice in response to unrepairable cell damage.",
+                "subtext": "",
+                "buttonText": "Normal Maintenance"
+            },
+            {
+                "type": "concept",
+                "title": "Physiological Apoptosis – Normal Maintenance",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 5/2.5.1/physio_causes.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "In healthy states, apoptosis safely removes cells we simply no longer need.\n\nThis daily cleanup happens in 3 major ways:\n\n**Sculpting during development**:\n• Deletes extra cells to shape our organs.\n• _Example_: Destroying the tissue between developing fingers so they separate.\n\n**Hormone withdrawal**:\n• Safely shrinks tissues when hormone levels drop.\n• _Example_: Breakdown of the endometrium during menstruation.\n\n**Immune cleanup**:\n• Eliminates white blood cells that have finished fighting off an infection.",
+                "subtext": "",
+                "buttonText": "Physiological Role"
+            },
+            {
+                "type": "mcq",
+                "question": "Which of the following is an example of normal, physiological apoptosis?",
+                "options": [
+                    "Cell death caused by a severe bacterial infection.",
+                    "The breakdown of endometrial tissue during the menstrual cycle.",
+                    "Ischemic tissue damage from a heart attack."
+                ],
+                "answer": 1,
+                "explanation": "The breakdown of endometrial tissue during the menstrual cycle is an example of normal, physiological apoptosis whereas infections and ischemic damage cause pathological necrosis."
+            },
+            {
+                "type": "concept",
+                "title": "Pathological Apoptosis – Damage Control",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 5/2.5.1/patho_causes.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "In disease states, apoptosis acts as a critical defense mechanism. It eliminates cells injured beyond repair without causing a messy inflammatory response.\n\nThis suicide program is triggered by 3 major crises:\n\n**Severe DNA Damage**:\n• From radiation or chemo.\n• The cell kills itself to prevent mutating into cancer.\n\n**Misfolded Proteins**:\n• The cell self-destructs when completely overwhelmed by ER stress.\n\n**Viral Infections**:\n• The cell safely sacrifices itself to stop the virus from replicating and spreading.",
+                "subtext": "",
+                "buttonText": "The Ultimate Sacrifice"
+            },
+            {
+                "type": "mcq",
+                "question": "If a cell suffers severe, unrepairable DNA damage from radiation, apoptosis actually has a protective effect on the host.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 0,
+                "explanation": "The cell sacrifices itself via apoptosis so the mutated DNA doesn't survive and turn into a malignant tumor."
+            },
+            {
+                "type": "match",
+                "question": "Match the concept regarding apoptosis to its correct description.",
+                "pairs": [
+                    {
+                        "left": "Embryogenesis",
+                        "right": "Physiological apoptosis"
+                    },
+                    {
+                        "left": "Unrepairable DNA damage",
+                        "right": "Pathological apoptosis"
+                    },
+                    {
+                        "left": "Intact plasma membrane",
+                        "right": "Prevents inflammation"
+                    },
+                    {
+                        "left": "Ruptured plasma membrane",
+                        "right": "Triggers inflammation (Necrosis)"
+                    }
+                ],
+                "explanation": "Embryogenesis involves physiological apoptosis, unrepairable DNA damage causes pathological apoptosis, an intact plasma membrane prevents inflammation, and a ruptured plasma membrane triggers inflammation during necrosis."
             }
         ]
     },
