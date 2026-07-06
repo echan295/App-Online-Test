@@ -5346,285 +5346,495 @@ const moduleContent = {
     // CHAPTER 3: INFLAMMATION
     // UNIT 1: BASICS OF INFLAMMATION
     "3.1.1": {
-        title: "Friend or Foe? (Definition and Triggers) 🛡️🦠",
-        objectives: [
-            "Define inflammation, understand the 'vascularized tissue' rule, categorize its triggers, and recognize when this protective response becomes the disease itself!"
+        "title": "Introduction to Inflammation – The Protective Fire 🔥",
+        "objectives": [
+            "Define inflammation as a vital defense mechanism, identify the triggers that cause it, and distinguish the fundamental differences between acute and chronic inflammation."
         ],
-        data: [
+        "data": [
             {
-                type: "concept",
-                title: "The Ultimate Security System",
-                text: "Welcome to the Inflammation and Healing chapter! Meet Inflammation, your body's ultimate security system.\n\n**Inflammation** is fundamentally a protective response. Its goal is to eliminate the initial cause of cell injury, clear out dead cells and debris, and pave the way for tissue repair.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Golden Rule",
-                text: "Before we look at what trips the alarm, there is one unbreakable golden rule of pathology:\n\nInflammation only occurs in **living, vascularized tissues**. Dead tissue cannot mount an inflammatory response because it needs blood vessels to deliver the security team (white blood cells) to the site of damage!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "mcq",
-                question: "A piece of tissue has completely lost its blood supply and died (necrosis). True or false: This dead tissue can initiate an inflammatory response from within itself.",
-                options: ["True", "False"],
-                answer: 1,
-                explanation: "Inflammation requires a blood supply. Dead tissue can't recruit white blood cells. However, the living, vascularized tissue immediately surrounding the dead zone will launch a massive inflammatory response to clean up the mess!"
-            },
-            {
-                type: "concept",
-                title: "Tripping the Alarm",
-                text: "So, what triggers this security system? We divide the culprits into two main buckets: **Infectious** and **Non-Infectious**.\n\n1. **Infectious Triggers**: The classic invaders like bacteria, viruses, fungi, and parasites.\n2. **Non-Infectious Triggers**: Physical trauma, extreme heat/cold (burns/frostbite), chemical toxins, and tissue necrosis (like a heart attack).",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "sort",
-                question: "Let's play the sorting game! Drag the triggers into the correct 'bucket'.",
-                buckets: ["Infectious Bucket", "Non-Infectious Bucket"],
-                items: [
-                    { text: "Streptococcus pneumoniae", bucket: 0 },
-                    { text: "Severe Sunburn", bucket: 1 },
-                    { text: "Influenza Virus", bucket: 0 },
-                    { text: "Myocardial Infarction (Heart Attack)", bucket: 1 }
+                "type": "concept",
+                "title": "The Protective Fire",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 1/3.1.1/goals_of_inflammation.png",
+                        "reference": "The Three Main Goals of Inflammation"
+                    }
                 ],
-                explanation: ""
+                "text": "Welcome to Inflammation!\n• While often associated with pain and disease, inflammation is actually your body's **ultimate security system**!\n• It is a fundamentally protective response that is absolutely essential for survival. \n\n**The 3 Main Goals**:\n• **Eliminate** the initial cause of cell injury (like an infection or toxin).\n• **Clear out** dead cells and necrotic debris.\n• **Initiate** the process of tissue repair.\n\n**The Golden Rule**:\nInflammation can **ONLY occur in living, vascularized tissue**. **Why?**\n• Because it relies on blood vessels to deliver the white blood cells to the site of damage.\n• **Dead tissue cannot become inflamed!**",
+                "subtext": "",
+                "buttonText": "Goals of Inflammation"
             },
             {
-                type: "concept",
-                title: "The Foe",
-                text: "We've established that inflammation is a protective friend... but is it always a good thing?\n\nSometimes the security team gets confused or overreacts. When inflammation is misdirected against the body's own tissues (**Autoimmune diseases**) or overreacts to harmless things in the environment (**Allergies**), the inflammatory response becomes the **disease**!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "mcq",
-                question: "A 22-year-old woman inhales harmless tree pollen and develops severe asthma (airway inflammation). In this scenario, how is inflammation acting?",
-                options: [
-                    "As a protective Friend, clearing a dangerous pathogen.",
-                    "As a destructive Foe, overreacting to a harmless substance."
+                "type": "mcq",
+                "question": "Inflammation is an inherently protective process designed to destroy harmful pathogens and initiate tissue repair, though it can sometimes cause collateral damage to host tissue.",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                answer: 1,
-                explanation: "This is a hypersensitivity reaction. When the body's security system attacks a harmless substance like pollen, the resulting collateral damage causes the disease."
+                "answer": 0,
+                "explanation": "Inflammation is a vital defense mechanism designed to eliminate threats and clear dead cells to pave the way for healing. It only becomes pathological if it is uncontrolled or misdirected."
+            },
+            {
+                "type": "concept",
+                "title": "The Offending Agents",
+                "text": "**What Trips the Alarm?**\nThe inflammatory response is triggered by 4 main categories of offending agents:\n\n**1. Infections**:\n• Bacteria, fungi, and viruses.\n\n**2. Tissue Necrosis**:\n• Dead or dying cells resulting from ischemia, physical trauma, or chemical injury.\n\n**3. Foreign Bodies**:\n• Like splinters, dirt, or medical sutures.\n\n**4. Immune Reactions**:\n• The immune system inappropriately attacking\n• Allergies, hypersensitivity, or autoimmune diseases.",
+                "subtext": "",
+                "buttonText": "What Trips the Alarm?"
+            },
+            {
+                "type": "mcq",
+                "question": "Why does tissue necrosis consistently trigger an inflammatory response?",
+                "options": [
+                    "Necrotic cells release damage-associated molecular patterns (DAMPs) that act as danger signals.",
+                    "Necrotic cells produce antibodies that attack the immune system.",
+                    "Necrotic cells synthesize new viruses that infect neighboring cells."
+                ],
+                "answer": 0,
+                "explanation": "When necrotic cells rupture, they leak internal contents like ATP and uric acid. The immune system recognizes these **DAMPs (Damage-Associated Molecular Patterns)** as danger signals, immediately triggering inflammation."
+            },
+            {
+                "type": "concept",
+                "title": "The 2 Types of Inflammation",
+                "text": "Depending on the threat, the body will launch one of two distinct patterns of inflammation.\n\nThey are divided based on their **timing** and the **specific immune cells** involved:\n\n**Acute Inflammation**:\n• The rapid, short-term response.\n\n**Chronic Inflammation**:\n• The prolonged, long-term response.",
+                "subtext": "",
+                "buttonText": "Acute vs. Chronic"
+            },
+            {
+                "type": "concept",
+                "title": "Acute Inflammation - The First Responder",
+                "text": "Acute inflammation is the body's immediate first responder. Here is how this short-term response works:\n• **Onset**: Fast! It kicks in within minutes to hours.\n• **Duration**: Short! It typically lasts only a few days.\n• **Tissue Damage**: Usually mild and self-limited.\n\nOnce the threat is gone, the tissue typically heals and returns to normal.",
+                "subtext": "",
+                "buttonText": "The First Responder"
+            },
+            {
+                "type": "concept",
+                "title": "Chronic Inflammation - The Long Haul",
+                "text": "If the rapid response team fails to clear the threat, or if the trigger is persistent (like an autoimmune disease), the body switches to a prolonged response.\n\nHere is how this long-term battle works:\n• **Onset**: Slow. It takes days to develop.\n• **Duration**: Long! It can last for weeks, months, or even years.\n• **Tissue Damage**: Often severe and progressive.",
+                "subtext": "",
+                "buttonText": "The Long Haul"
+            },
+            {
+                "type": "concept",
+                "title": "Meet the Cellular Soldiers",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 1/3.1.1/inflammation_comparison_table.png",
+                        "reference": "Comparison of Acute and Chronic Inflammation"
+                    }
+                ],
+                "text": "Acute and Chronic inflammation use totally different types of White Blood Cells!\n\n**Acute Cells:**\n• The Neutrophil\n• These are the **'First Responders.'**\n• They arrive instantly, aggressively eat bacteria, but die off very quickly (in about 24-48 hours).\n\n**Chronic Cells:**\n• Macrophages and Lymphocytes (T-cells and B-cells).\n• These are the **'Heavy Artillery.'**\n• They take longer to arrive but can survive in the tissue for months to direct a prolonged war.",
+                "subtext": "",
+                "buttonText": "The Cellular Soldiers"
+            },
+            {
+                "type": "sort",
+                "question": "Deploy the correct cells and characteristics to the appropriate pattern of inflammation.",
+                "buckets": ["Acute Inflammation", "Chronic Inflammation"],
+                "items": [
+                    { "text": "Neutrophils", "bucket": 0 },
+                    { "text": "Rapid onset (minutes to hours)", "bucket": 0 },
+                    { "text": "Mild and self-limited tissue injury", "bucket": 0 },
+                    { "text": "Macrophages", "bucket": 1 },
+                    { "text": "Lymphocytes", "bucket": 1 },
+                    { "text": "Tissue destruction and scarring (fibrosis)", "bucket": 1 },
+                    { "text": "Slow onset taking days to develop", "bucket": 1 }
+                ],
+                "explanation": "**Acute inflammation** is defined by a rapid onset and the recruitment of **Neutrophils** to handle short-term threats. If the trigger persists, the response transitions to **Chronic inflammation**, which is driven by 'heavy artillery' like **Macrophages and Lymphocytes**, often resulting in progressive tissue destruction and scarring."
             }
         ]
     },
 
     "3.1.2": {
-        title: "The Security Playbook (The 5 Rs) 📋🏃‍♂️",
-        objectives: [
-            "Master the chronological sequence of the inflammatory response by identifying the '5 Rs': Recognition, Recruitment, Removal, Regulation, and Resolution."
+        "title": "The Cardinal Signs – Ancient Hallmarks 🏛️🩺",
+        "objectives": [
+            "Master the five macroscopic hallmarks of acute inflammation and understand the underlying physiological mechanisms that cause them."
         ],
-        data: [
+        "data": [
             {
-                type: "concept",
-                title: "The Master Plan",
-                text: "Every good security team has a strict protocol. For the body's inflammatory response, this playbook is known as the **5 Rs**!\n\nFrom the moment a pathogen enters the body to the final healing stage, the immune system follows a precise 5-step master plan: **Recognition, Recruitment, Removal, Regulation, and Resolution**.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Step 1: Recognition",
-                text: "**Step 1 is Recognition** (Spotting the threat).\n\nSentinel cells (like resident macrophages and xmast cells) act as the look-outs. They sit quietly in the tissues, using specialized antennae called **Toll-Like Receptors (TLRs)** to detect microbes or dead cells. Once they spot a threat, they sound the chemical alarm!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "mcq",
-                question: "How do the resident sentinel cells in the tissue know that a bacterial invader is present?",
-                options: [
-                    "A) They use Toll-Like Receptors (TLRs) to detect microbial patterns.",
-                    "B) They wait for the bacteria to enter the bloodstream.",
-                    "C) They release antibodies to find them."
+                "type": "concept",
+                "title": "The Ancient Hallmarks",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 1/3.1.2/five_cardinal_signs.png",
+                        "title": "The Five Cardinal Signs of Inflammation",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                answer: 0,
-                explanation: "TLRs are the essential antennae that allow our innate immune system to recognize the bad guys and initiate the alarm."
+                "text": "Over 2,000 years ago, a Roman scholar named **Celsus** documented the first four physical signs of acute inflammation.\n\nA fifth sign was later added by the famous pathologist **Rudolf Virchow**.\n\nToday, these are universally known in medicine as the **5 Cardinal Signs of Inflammation**.\n\nIf you ever smash your thumb with a hammer or get a nasty bug bite, you will experience all five of these ancient symptoms firsthand!",
+                "subtext": "",
+                "buttonText": "The 5 Signs"
             },
             {
-                type: "concept",
-                title: "Step 2: Recruitment",
-                text: "**Step 2 is Recruitment** (Calling for backup).\n\nThe alarm signals cause nearby blood vessels to dilate and become \"leaky.\" This allows the heavy-hitters—swarms of White Blood Cells (like neutrophils) and plasma proteins—to squeeze out of the bloodstream and rush into the injured tissue.",
-                subtext: "",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "Rubor and Calor – Redness and Heat",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 1/3.1.2/vasodilation_mechanism.png",
+                        "title": "How Vasodilation Leads to Redness and Heat",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "The first two signs go hand-in-hand! Why does an inflamed area get red and hot?\n\n**The Highway Expansion**:\n• When the alarm goes off, local blood vessels physically widen in a process called **vasodilation**.\n\n**The Rush**:\n• This expansion allows a massive rush of warm, red blood to flow directly into the damaged tissue.\n• This increased perfusion brings both **heat (Calor)** and **color (Rubor)** to the surface!",
+                "subtext": "",
+                "buttonText": "The Rush of Blood"
             },
             {
-                type: "concept",
-                title: "Step 3: Removal",
-                text: "**Step 3 is Removal** (Taking out the trash).\n\nOnce the backup arrives, they get to work! The recruited white blood cells hunt down, engulf, and destroy the offending microbes or dead cells in a Pac-Man-like process called phagocytosis.",
-                subtext: "",
-                buttonText: "Next"
+                "type": "fill",
+                "question": "The cardinal signs of redness and heat are primarily caused by the expansion of local blood vessels, a physiological process known as ________.",
+                "options": [
+                    "Vasodilation",
+                    "Vasoconstriction",
+                    "Permeability",
+                    "Apoptosis"
+                ],
+                "answer": [
+                    0
+                ],
+                "explanation": "<b>Vasodilation</b> increases local blood flow, directly causing the injured tissue to become hot and red."
             },
             {
-                type: "fill",
-                question: "After the sentinel cells sound the alarm, the blood vessels assist in the ____________ of white blood cells into the tissue. Once there, the cells focus on the ____________ of the pathogen via phagocytosis.",
-                options: ["Recognition", "Recruitment", "Resolution", "Removal"],
-                answer: [1, 3],
-                explanation: "First you bring the troops in (Recruitment), then they neutralize the threat (Removal)!"
+                "type": "concept",
+                "title": "Tumor – Swelling",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 1/3.1.2/vascular_permeability_swelling.png",
+                        "title": "How Vascular Permeability Leads to Swelling",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "After the blood vessels expand, they must become \"leaky\" so the immune cells can actually exit the highway and reach the damage!\n\nHow does swelling happen? \n\n**Increased Permeability:**\n• The walls of the blood vessels physically open up (gaps form between endothelial cells).\n\n**The Leak:**\n• Fluid escapes from the bloodstream and pools in the surrounding extracellular tissue.\n\n**The Clinical Term:**\n• This massive accumulation of fluid is clinically called **edema**, which results in physical **swelling (Tumor)**.",
+                "subtext": "",
+                "buttonText": "The Leaky Pipes"
             },
             {
-                type: "concept",
-                title: "Steps 4 & 5: Regulation & Resolution",
-                text: "The battle is won! But the job isn't finished yet.\n\n• **Regulation**: (Hitting the brakes). The body must actively stop the inflammatory response so it doesn't destroy innocent healthy tissue.\n• **Resolution**: (Rebuilding). The debris is cleared away, and the tissue is repaired either by regenerating normal cells or by laying down a scar.",
-                subtext: "",
-                buttonText: "Next"
+                "type": "fill",
+                "question": "Let's check your understanding of what blood vessels do during an inflammatory response!\n\nIncreased blood flow causes ________ and ________, while leaky vessels cause fluid accumulation, leading to ________.",
+                "options": [
+                    "Redness",
+                    "Swelling",
+                    "Heat",
+                    "Pain"
+                ],
+                "answer": [
+                    0,
+                    2,
+                    1
+                ],
+                "explanation": "Vasodilation drives <b>Redness</b> and <b>Heat</b>, while the 'leaky pipes' of increased vascular permeability cause <b>Swelling</b> (edema)."
             },
             {
-                type: "order",
-                question: "Put the 5 Rs of Inflammation in the correct chronological order.",
-                items: [
+                "type": "mcq",
+                "question": "What is the direct physiological cause of the swelling seen in acute inflammation?",
+                "options": [
+                    "The rapid multiplication of local tissue cells.",
+                    "Increased vascular permeability allowing fluid to leak into the tissue.",
+                    "The accumulation of large amounts of scar tissue."
+                ],
+                "answer": 1,
+                "explanation": "As the vessel walls become permeable, plasma and proteins shift into the interstitial space. This increase in interstitial fluid volume creates the swelling known as **edema**."
+            },
+            {
+                "type": "concept",
+                "title": "Dolor – Pain",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 1/3.1.2/pain_mechanisms.png",
+                        "title": "Physical and Chemical Mechanisms of Pain",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Pain isn't just an accident; it is a critical warning system telling you to protect the injured area!\n\nThis pain is generated by two distinct mechanisms:\n\n**Physical Pressure**:\n• The massive swelling (edema) physically stretches the tissue and compresses local nerve endings (**nociceptors**).\n\n**Chemical Alarms**:\n• Specific inflammatory chemicals (mediators) like **prostaglandins** and **bradykinin** are released.\n• These chemicals directly stimulate and sensitize nerve endings, lowering the pain threshold.",
+                "subtext": "",
+                "buttonText": "The Source of Pain"
+            },
+            {
+                "type": "mcq",
+                "question": "The pain experienced during acute inflammation is solely caused by the physical pressure of swelling, and involves no chemical signals.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "Pain is a complex response caused by a combination of **physical pressure** from edema and **direct chemical stimulation** of nerve endings by inflammatory mediators like prostaglandins."
+            },
+            {
+                "type": "concept",
+                "title": "Functio Laesa – Loss of Function",
+                "text": "The fifth and final sign was added by **Rudolf Virchow**. It is a practical consequence of the first four!\n\n**Why do you lose function?**\n• **The Physical Block**: Severe swelling and intense pain physically and neurologically restrict movement.\n• **The Forced Rest**: You instinctively stop using the injured area to avoid pain.\n\n**The Purpose**:\n• This is actually a **natural protective mechanism**!\n• It forces the area to rest, preventing further damage while the tissue begins to heal.",
+                "subtext": "",
+                "buttonText": "Forced Rest"
+            },
+            {
+                "type": "match",
+                "question": "Match the cardinal sign of acute inflammation to its underlying physiological mechanism.",
+                "pairs": [
+                    {
+                        "left": "Redness and Heat",
+                        "right": "Vasodilation bringing in warm blood"
+                    },
+                    {
+                        "left": "Swelling",
+                        "right": "Increased vascular permeability and edema"
+                    },
+                    {
+                        "left": "Pain",
+                        "right": "Physical pressure and chemical mediators (prostaglandins)"
+                    },
+                    {
+                        "left": "Loss of Function",
+                        "right": "Forced rest due to severe swelling and pain"
+                    }
+                ],
+                "explanation": "<b>The Five Cardinal Signs Summary:</b> Redness and heat result from increased blood flow (**vasodilation**), swelling results from 'leaky' vessels (**permeability**), pain is driven by both **pressure and chemicals**, and the total result is a protective **loss of function**."
+            }
+        ]
+    },
+
+    "3.1.3": {
+        "title": "The Security Playbook & Threat Recognition 🛡️🔍",
+        "objectives": [
+            "Master the chronological sequence of the inflammatory response (the '5 Rs') and understand how the body detects microbes and cellular damage using specific molecular patterns, cellular receptors, and circulating proteins."
+        ],
+        "data": [
+            {
+                "type": "concept",
+                "title": "The Master Plan – The 5 Rs",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 1/3.1.3/five_rs_playbook.png",
+                        "reference": "The Five Rs of Inflammation"
+                    }
+                ],
+                "text": "Every good security team has a strict protocol.\n\nThe body's inflammatory response follows a playbook known as the **5 Rs**.\n\nGuiding the immune system from pathogen entry to full healing:\n• **Recognition**: Detecting the threat.\n• **Recruitment**: Calling the white blood cells to the scene.\n• **Removal**: Destroying the invader and cleaning up the debris.\n• **Regulation**: Hitting the brakes so the response doesn't destroy healthy tissue.\n• **Resolution**: Healing the tissue and returning to normal function.",
+                "subtext": "",
+                "buttonText": "The Playbook"
+            },
+            {
+                "type": "concept",
+                "title": "Step 1: Recognition – Spotting the Threat",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 1/3.1.3/sentinel_cells_locations.png",
+                        "reference": "Immune Sentinel Cells and Their Locations"
+                    }
+                ],
+                "text": "Before the security alarm can sound, the body must first detect the danger!\n\nThis is the job of the **sentinel cells** (**phagocytes, dendritic cells, and epithelial cells**), which act as the body's **cellular lookouts**.\n\nHow do they spot the enemy?\n\nThey sit quietly in tissues, equipped with receptors that instantly recognize two things:\n• **Foreign Invaders**: Microbes from the outside world.\n• **Internal Casualties**: Damaged or dead host cells.",
+                "subtext": "",
+                "buttonText": "Cellular Lookouts"
+            },
+            {
+                "type": "concept",
+                "title": "What do the cells see?",
+                "text": "The sentinel cells rely on two specific biochemical signatures to trigger the alarm:\n\n**PAMPs (Pathogen-Associated Molecular Patterns)**:\n• The Outside Invaders - the enemy\n• Microbes display unique molecular structures on their surface that are never found in healthy human cells (e.g., bacterial endotoxin).\n\n**DAMPs (Damage-Associated Molecular Patterns)**:\n• The Internal Casualties - the damage\n• Lethally injured cells burst open and spill molecules that are normally hidden inside, such as **ATP** and **uric acid**.",
+                "subtext": "",
+                "buttonText": "Molecular Signatures"
+            },
+            {
+                "type": "fill",
+                "question": "While DAMPs signal internal cellular damage, the molecular signatures found exclusively on the surfaces of invading microbes are known as ________.",
+                "options": [
+                    "PAMPs",
+                    "Macrophages",
+                    "Antigens",
+                    "Cytokines"
+                ],
+                "answer": [
+                    0
+                ],
+                "explanation": "<b>PAMPs</b> (Pathogen-Associated Molecular Patterns) are specific microbial structures detected by the innate immune system to initiate the inflammatory response."
+            },
+            {
+                "type": "concept",
+                "title": "The Primary Sensors – Toll-Like Receptors (TLRs)",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 1/3.1.3/tlr_recognition_pathway.png",
+                        "reference": "Mechanism of TLR Signaling"
+                    }
+                ],
+                "text": "The most important family of receptors used to detect these threats are the **Toll-Like Receptors (TLRs)**.\n\nTo catch every possible invader, TLRs are strategically placed in two key locations:\n• **On the Surface (Plasma Membrane)**: To detect extracellular microbes floating outside the cell.\n• **On the Inside (Endosomes)**: To detect ingested microbes and viral DNA hiding inside the cell.",
+                "subtext": "",
+                "buttonText": "Strategic Sensors"
+            },
+            {
+                "type": "mcq",
+                "question": "Where are Toll-Like Receptors (TLRs) strategically positioned within a phagocyte to maximize the detection of pathogens?",
+                "options": [
+                    "Only inside the nucleus.",
+                    "Exclusively floating in the blood plasma.",
+                    "On the plasma membrane and inside endosomes."
+                ],
+                "answer": 2,
+                "explanation": "To maximize the detection of both extracellular microbes and intracellular threats, Toll-Like Receptors (TLRs) are strategically located on the plasma membrane and within the endosomes of phagocytes."
+            },
+            {
+                "type": "concept",
+                "title": "The Internal Alarm – The Inflammasome",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 1/3.1.3/inflammasome_mechanism.png",
+                        "reference": "Role of the Inflammasome in Inflammation"
+                    }
+                ],
+                "text": "To specifically detect the products of dead cells (**DAMPs**) and certain microbes floating inside the cytoplasm, the cell relies on a massive multi-protein complex called the **Inflammasome**.\n\nHere is how this internal alarm system works: \n• **The Sensor**: The Inflammasome detects cellular damage or stress signals.\n• **The Output**: It activates an enzyme called Caspase-1, which triggers the massive production of **Interleukin-1 (IL-1)**.\n• **The Result**: IL-1 acts as a powerful mediator that kicks off the inflammatory response and induces **fever**!",
+                "subtext": "",
+                "buttonText": "Internal Alarm"
+            },
+            {
+                "type": "mcq",
+                "question": "The inflammasome is a multi-protein complex located in the cytosol that detects cell damage signals.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 0,
+                "explanation": "Located within the **cytosol**, the inflammasome is responsible for detecting internal danger signals and triggering the release of pro-inflammatory cytokines like IL-1."
+            },
+            {
+                "type": "concept",
+                "title": "The Liquid Radar – The Complement System",
+                "text": "Detection isn't limited to cells! Your blood contains free-floating proteins that act as a constant early warning system called the **Complement System**.\n\nHere is how this liquid radar works:\n• **The Sensor**: These proteins circulate in the plasma, constantly scanning for unique microbial surface markers.\n• **The Reaction**: Once it recognizes an invader, it directly attacks the microbe and 'coats' it (opsonization), making it easy for phagocytes to find and eat!",
+                "subtext": "",
+                "buttonText": "Liquid Radar"
+            },
+            {
+                "type": "concept",
+                "title": "Steps 2 & 3 - Recruitment and Removal",
+                "text": "**Step 2: Recruitment (Calling for Backup)**\n• Once the threat is recognized, the alarm is sounded via chemical messengers.\n• Blood vessels dilate and become leaky, allowing White Blood Cells (WBCs) to squeeze out and swarm into the injured tissue.\n\n**Step 3: Removal (Taking Out the Trash)**\n• The recruited WBCs (neutrophils and macrophages) hunt down, engulf, and destroy microbes and dead debris through **phagocytosis**.",
+                "subtext": "",
+                "buttonText": "Recruitment & Removal"
+            },
+            {
+                "type": "fill",
+                "question": "After the sentinel cells sound the alarm, the blood vessels assist in the __________ of white blood cells into the tissue. Once there, the cells focus on the __________ of the pathogen via phagocytosis.",
+                "options": [
+                    "Recognition",
+                    "Recruitment",
+                    "Resolution",
+                    "Removal"
+                ],
+                "answer": [
+                    1,
+                    3
+                ],
+                "explanation": "During the inflammatory response, blood vessels facilitate the recruitment of white blood cells into the affected tissue, allowing these cells to execute the removal of the pathogen through phagocytosis."
+            },
+            {
+                "type": "concept",
+                "title": "Steps 4 & 5 - Regulation & Resolution",
+                "text": "**Step 4: Regulation (Hitting the Brakes)**\n• The body actively shut down the inflammatory response to stop the immune system destroying the healthy tissue.\n\n**Step 5: Resolution (Rebuilding)**\n• Once the alarm is silenced, the healing begins.\n• The final cellular debris is completely cleaned up.\n• The tissue is repaired either by **regenerating** normal cells or by laying down permanent **scar tissue** (fibrosis).",
+                "subtext": "",
+                "buttonText": "Regulation & Resolution"
+            },
+            {
+                "type": "order",
+                "question": "Time for the ultimate protocol test! Put the 5 Rs of Inflammation in the correct chronological order.",
+                "items": [
                     "Recognition",
                     "Recruitment",
                     "Removal",
                     "Regulation",
                     "Resolution"
                 ],
-                explanation: ""
+                "explanation": "In the inflammatory response, the sequence of the 5 Rs proceeds chronologically starting with the recognition of the offending agent, followed by the recruitment of leukocytes, removal of the threat, regulation of the response, and finally tissue resolution"
+            },
+            {
+                "type": "match",
+                "question": "Match the detection system or molecular signal to its correct description.",
+                "pairs": [
+                    {
+                        "left": "PAMPs",
+                        "right": "Molecular signatures on invading microbes"
+                    },
+                    {
+                        "left": "DAMPs",
+                        "right": "Danger signals released by dead host cells"
+                    },
+                    {
+                        "left": "Toll-Like Receptors (TLRs)",
+                        "right": "Cellular receptors that detect microbial patterns"
+                    },
+                    {
+                        "left": "Inflammasome",
+                        "right": "Cytoplasmic complex that triggers IL-1 release"
+                    },
+                    {
+                        "left": "Circulating Proteins",
+                        "right": "Liquid radar system in the blood plasma"
+                    }
+                ],
+                "explanation": "PAMPs are microbial markers, DAMPs are internal danger signals, TLRs are the receptors that 'read' these markers, the inflammasome manages the internal response, and the complement system provides plasma-based surveillance."
             }
-        ]
+        ],
+        "next": "3.2.1"
     },
 
-    "3.1.3": {
-        title: "The Ancient Alarm (The 5 Cardinal Signs) 🏛️🚩",
-        objectives: [
-            "Memorize the five classic physical signs of acute inflammation, translate their Latin names, and link each sign to its basic underlying physiological cause."
-        ],
-        data: [
-            {
-                type: "concept",
-                title: "A 2,000-Year-Old Medical Record",
-                text: "In the first century AD, a Roman scholar named Celsus wrote down the four physical signs of inflammation. Centuries later, a fifth was added.\n\nToday, we call these the **5 Cardinal Signs of Inflammation**. If you ever smash your thumb with a hammer or get a nasty bug bite, you will experience all five of these ancient symptoms firsthand!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Rubor and Calor",
-                text: "The first two signs go hand-in-hand: **Rubor (Redness)** and **Calor (Heat)**.\n\nWhy does an inflamed area get red and hot? Because the blood vessels act like highways. When the security alarm goes off, the local vessels dilate (vasodilation) to bring in a massive rush of warm, red blood to the injured site.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Tumor",
-                text: "The third sign is **Tumor (Swelling)**.\n\nTo get the white blood cells out of the \"blood highway\" and into the tissues, the vessel walls must become leaky. As cells and protein-rich fluid leak out into the surrounding tissue, the area balloons up like a water balloon. We call this fluid accumulation **edema**.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "Increased blood flow (vasodilation) causes ____________ and ____________, while leaky vessels cause fluid accumulation, leading to ____________.",
-                options: ["Redness", "Swelling", "Heat", "Pain"],
-                answer: [0, 2, 1],
-                explanation: "The vascular flush brings the heat and color, while the \"leaky pipes\" cause the swelling."
-            },
-            {
-                type: "concept",
-                title: "Dolor",
-                text: "The fourth sign is **Dolor (Pain)**.\n\nPain isn't just an accident; it's a warning system! It is caused by two things: the physical stretch of the tissue from all that swelling (Tumor), and specific chemical mediators (like bradykinin and prostaglandins) that actively stimulate your nerve endings to yell \"Ouch!\"",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Functio Laesa",
-                text: "The final sign, added by Rudolf Virchow in the 19th century, is **Functio Laesa (Loss of Function)**.\n\nIf a joint is severely swollen and incredibly painful, you instinctively stop using it. This forced rest is actually a protective mechanism to prevent further injury while the tissue heals.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "match",
-                question: "Match the Latin term to its English translation.",
-                pairs: [
-                    { left: "Rubor", right: "Redness" },
-                    { left: "Calor", right: "Heat" },
-                    { left: "Tumor", right: "Swelling" },
-                    { left: "Dolor", right: "Pain" },
-                    { left: "Functio laesa", right: "Loss of function" }
-                ],
-                explanation: ""
-            },
-            {
-                type: "mcq",
-                question: "A basketball player rolls her ankle. Within an hour, her ankle is visibly enlarged (Tumor), warm to the touch (Calor), bright pink (Rubor), and she cannot bear weight on it (Functio laesa). Which cardinal sign is missing from this description?",
-                options: [
-                    "A) Necrosis",
-                    "B) Vasodilation",
-                    "C) Dolor (Pain)"
-                ],
-                answer: 2,
-                explanation: "If she can't bear weight, she is definitely experiencing Dolor, even if the prompt didn't explicitly say \"it hurts.\""
-            }
-        ]
-    },
-
-    "3.1.4": {
-        title: "The Sprinter vs. The Marathoner (Acute vs. Chronic) ⚡🐢",
-        objectives: [
-            "Distinguish between Acute and Chronic inflammation by comparing their onset, duration, primary cellular players, and extent of tissue damage."
-        ],
-        data: [
-            {
-                type: "concept",
-                title: "A Tale of Two Responses",
-                text: "We know why inflammation happens and the 5 steps it follows. But did you know there are two completely different \"modes\" of inflammation?\n\nDepending on the threat, the body will launch either an **Acute** (short-term) or a **Chronic** (long-term) response. Think of Acute inflammation as a **Sprinter**, and Chronic inflammation as a **Marathoner**!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Sprinter: Acute Inflammation",
-                text: "**Acute Inflammation** is the body's rapid response team.\n\n• **Onset**: Fast! It starts within minutes to hours.\n• **Duration**: Short. It lasts for a few days to a week.\n• **Tissue Damage**: Usually mild and self-limited. Once the threat is gone, the tissue typically returns to normal.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Marathoner: Chronic Inflammation",
-                text: "If the rapid response team fails to clear the threat, or if the trigger is a persistent autoimmune disease, the body switches to **Chronic Inflammation**.\n\n• **Onset**: Slow. It takes days to develop.\n• **Duration**: Long. It lasts for weeks, months, or even years!\n• **Tissue Damage**: Often severe and progressive. Because the battle drags on, healthy tissue gets destroyed and replaced by scar tissue (fibrosis).",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "____________ inflammation has a rapid onset and usually resolves in a few days, whereas ____________ inflammation has a slow onset and lasts for months, often causing severe scarring.",
-                options: ["Acute", "Chronic", "Systemic", "Local"],
-                answer: [0, 1],
-                explanation: "Acute is fast and brief; Chronic is slow and prolonged."
-            },
-            {
-                type: "concept",
-                title: "Meet the Cellular Soldiers",
-                text: "Just like different missions require different soldiers, Acute and Chronic inflammation use totally different types of White Blood Cells!\n\n• **Acute Cells**: The **Neutrophil**. These are the \"First Responders.\" They arrive instantly, aggressively eat bacteria, but die off very quickly (in about 24-48 hours).\n• **Chronic Cells**: The **Macrophages and Lymphocytes (T-cells and B-cells)**. These are the \"Heavy Artillery.\" They take longer to arrive but can survive in the tissue for months to direct a prolonged war.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "sort",
-                question: "Deploy the correct cells to the correct type of inflammation.",
-                buckets: ["Acute Inflammation Bucket", "Chronic Inflammation Bucket"],
-                items: [
-                    { text: "Neutrophils", bucket: 0 },
-                    { text: "Macrophages", bucket: 1 },
-                    { text: "Lymphocytes", bucket: 1 }
-                ],
-                explanation: ""
-            },
-            {
-                type: "mcq",
-                question: "You see a massive amount of tissue destruction, severe scarring (fibrosis), and thousands of Lymphocytes and Macrophages. What kind of process are you looking at?",
-                options: [
-                    "A) Acute Inflammation",
-                    "B) Chronic Inflammation",
-                    "C) Normal, healthy tissue"
-                ],
-                answer: 1,
-                explanation: "The presence of Macrophages/Lymphocytes paired with severe tissue destruction and scarring is the classic hallmark of Chronic Inflammation."
-            }
-        ],
-        next: "3.2.1"
-    },
+    // "3.1.4": {
+    //     title: "The Sprinter vs. The Marathoner (Acute vs. Chronic) ⚡🐢",
+    //     objectives: [
+    //         "Distinguish between Acute and Chronic inflammation by comparing their onset, duration, primary cellular players, and extent of tissue damage."
+    //     ],
+    //     data: [
+    //         {
+    //             type: "concept",
+    //             title: "A Tale of Two Responses",
+    //             text: "We know why inflammation happens and the 5 steps it follows. But did you know there are two completely different \"modes\" of inflammation?\n\nDepending on the threat, the body will launch either an **Acute** (short-term) or a **Chronic** (long-term) response. Think of Acute inflammation as a **Sprinter**, and Chronic inflammation as a **Marathoner**!",
+    //             subtext: "",
+    //             buttonText: "Next"
+    //         },
+    //         {
+    //             type: "concept",
+    //             title: "The Sprinter: Acute Inflammation",
+    //             text: "**Acute Inflammation** is the body's rapid response team.\n\n• **Onset**: Fast! It starts within minutes to hours.\n• **Duration**: Short. It lasts for a few days to a week.\n• **Tissue Damage**: Usually mild and self-limited. Once the threat is gone, the tissue typically returns to normal.",
+    //             subtext: "",
+    //             buttonText: "Next"
+    //         },
+    //         {
+    //             type: "concept",
+    //             title: "The Marathoner: Chronic Inflammation",
+    //             text: "If the rapid response team fails to clear the threat, or if the trigger is a persistent autoimmune disease, the body switches to **Chronic Inflammation**.\n\n• **Onset**: Slow. It takes days to develop.\n• **Duration**: Long. It lasts for weeks, months, or even years!\n• **Tissue Damage**: Often severe and progressive. Because the battle drags on, healthy tissue gets destroyed and replaced by scar tissue (fibrosis).",
+    //             subtext: "",
+    //             buttonText: "Next"
+    //         },
+    //         {
+    //             type: "fill",
+    //             question: "____________ inflammation has a rapid onset and usually resolves in a few days, whereas ____________ inflammation has a slow onset and lasts for months, often causing severe scarring.",
+    //             options: ["Acute", "Chronic", "Systemic", "Local"],
+    //             answer: [0, 1],
+    //             explanation: "Acute is fast and brief; Chronic is slow and prolonged."
+    //         },
+    //         {
+    //             type: "concept",
+    //             title: "Meet the Cellular Soldiers",
+    //             text: "Just like different missions require different soldiers, Acute and Chronic inflammation use totally different types of White Blood Cells!\n\n• **Acute Cells**: The **Neutrophil**. These are the \"First Responders.\" They arrive instantly, aggressively eat bacteria, but die off very quickly (in about 24-48 hours).\n• **Chronic Cells**: The **Macrophages and Lymphocytes (T-cells and B-cells)**. These are the \"Heavy Artillery.\" They take longer to arrive but can survive in the tissue for months to direct a prolonged war.",
+    //             subtext: "",
+    //             buttonText: "Next"
+    //         },
+    //         {
+    //             type: "sort",
+    //             question: "Deploy the correct cells to the correct type of inflammation.",
+    //             buckets: ["Acute Inflammation Bucket", "Chronic Inflammation Bucket"],
+    //             items: [
+    //                 { text: "Neutrophils", bucket: 0 },
+    //                 { text: "Macrophages", bucket: 1 },
+    //                 { text: "Lymphocytes", bucket: 1 }
+    //             ],
+    //             explanation: ""
+    //         },
+    //         {
+    //             type: "mcq",
+    //             question: "You see a massive amount of tissue destruction, severe scarring (fibrosis), and thousands of Lymphocytes and Macrophages. What kind of process are you looking at?",
+    //             options: [
+    //                 "A) Acute Inflammation",
+    //                 "B) Chronic Inflammation",
+    //                 "C) Normal, healthy tissue"
+    //             ],
+    //             answer: 1,
+    //             explanation: "The presence of Macrophages/Lymphocytes paired with severe tissue destruction and scarring is the classic hallmark of Chronic Inflammation."
+    //         }
+    //     ],
+    //     next: "3.2.1"
+    // },
 
     // UNIT 2: ACUTE INFLAMMATION VASCULAR EVENTS
     "3.2.1": {
