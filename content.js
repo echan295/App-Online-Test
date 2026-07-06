@@ -5188,7 +5188,159 @@ const moduleContent = {
                 "explanation": "Dystrophic calcification affects dead tissue with normal calcium levels, metastatic calcification affects healthy tissue due to hypercalcemia, psammoma bodies are concentrically layered calcium deposits, and hyperparathyroidism is a systemic cause of metastatic calcification."
             }
         ],
-        next: "3.1.1"
+        next: "2.review"
+    },
+
+    "2.review": {
+        "title": "Master Review: Cell Injury, Adaptation, and Death! 🛡️💀",
+        "isReviewNode": true,
+        "objectives": [
+            "Integrate and apply your knowledge of the mechanisms, morphology, and clinical implications of cellular adaptation, reversible injury, and irreversible cell death.",
+            "Pass with a grade of 80% or higher to unlock Chapter 3: Inflammation."
+        ],
+        "data": [
+            {
+                "type": "clinical",
+                "question": "A patient suffers a blockage in a coronary artery, cutting off blood flow (ischemia) to the cardiac muscle. What is the very first morphological change that will occur in these oxygen-deprived cardiac cells?",
+                "options": [
+                    "The cells will shrink due to the activation of caspases.",
+                    "The cells will swell due to ATP depletion and sodium pump failure.",
+                    "The cells will undergo rapid hyperplasia to compensate.",
+                    "The cells will accumulate lipofuscin."
+                ],
+                "answer": 1,
+                "explanation": "Cellular swelling is the earliest and most universal sign of **reversible cell injury**. It is driven by the immediate failure of **ATP-dependent sodium-potassium pumps**. Without ATP, sodium stays inside the cell, pulling water in with it.",
+                "topic": "Reversible Cell Injury"
+            },
+            {
+                "type": "mcq",
+                "question": "If the ischemia in the patient's heart continues, the cells will eventually suffer irreversible injury. This irreversible threshold is crossed when the cells' lysosomes swell but the mitochondria remain fully functional.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "Irreversible injury is defined by two specific hallmarks: **profound membrane dysfunction** (plasma, lysosomal, and mitochondrial membranes) and the **permanent inability to restore mitochondrial function** (oxidative phosphorylation) even after re-oxygenation.",
+                "topic": "Irreversible Cell Injury"
+            },
+            {
+                "type": "match",
+                "question": "Match the specific biochemical mechanism of cell injury to its direct destructive consequence inside the cell.",
+                "pairs": [
+                    {
+                        "left": "ATP Depletion",
+                        "right": "Failure of the Na+/K+ pump and cell swelling"
+                    },
+                    {
+                        "left": "Intracellular Calcium Influx",
+                        "right": "Inappropriate activation of destructive enzymes"
+                    },
+                    {
+                        "left": "Reactive Oxygen Species (ROS)",
+                        "right": "Autocatalytic lipid peroxidation of membranes"
+                    },
+                    {
+                        "left": "Misfolded Proteins",
+                        "right": "Endoplasmic reticulum stress and the UPR"
+                    }
+                ],
+                "explanation": "ATP depletion directly causes **Na+/K+ pump failure**. Excess cytosolic calcium activates enzymes like **phospholipases and proteases** that shred the cell. **ROS** cause free-radical damage to lipids, while misfolded proteins trigger **ER stress** and the Unfolded Protein Response (UPR).",
+                "topic": "Mechanisms of Cell Injury"
+            },
+            {
+                "type": "match",
+                "question": "Match the cell death pathway to its defining initiator or executioner molecule.",
+                "pairs": [
+                    {
+                        "left": "Intrinsic Apoptosis",
+                        "right": "Triggered by Cytochrome c leaking from mitochondria"
+                    },
+                    {
+                        "left": "Extrinsic Apoptosis",
+                        "right": "Initiated by Fas/FasL death receptors and Caspase-8"
+                    },
+                    {
+                        "left": "Necroptosis",
+                        "right": "Caspase-independent death driven by RIPK kinases"
+                    },
+                    {
+                        "left": "Pyroptosis",
+                        "right": "Inflammasome activation causing an IL-1 fever response"
+                    }
+                ],
+                "explanation": "**Intrinsic apoptosis** relies on mitochondrial permeability and **Cytochrome c**. **Extrinsic apoptosis** uses surface death receptors like **Fas**. **Necroptosis** is a unique caspase-independent pathway using **RIPK kinases**, while **Pyroptosis** triggers inflammation via the **inflammasome**.",
+                "topic": "Cell Death Pathways"
+            },
+            {
+                "type": "fill",
+                "question": "A chronic smoker's respiratory tract replaces its fragile ciliated columnar cells with rugged stratified squamous cells to survive the constant irritation. This genetic reprogramming of stem cells to change the cell's identity is called ________.",
+                "options": [
+                    "Hyperplasia",
+                    "Hypertrophy",
+                    "Metaplasia",
+                    "Atrophy"
+                ],
+                "answer": [
+                    2
+                ],
+                "explanation": "**Metaplasia** is the reversible replacement of one mature cell type with another. In smokers, the lung swaps delicate cells for **stratified squamous cells** to withstand smoke, though this results in the loss of mucus-clearing cilia.",
+                "topic": "Cellular Adaptation"
+            },
+            {
+                "type": "mcq",
+                "question": "A patient with normal blood calcium levels experiences physical trauma to breast tissue, resulting in localized fat necrosis. Months later, a mammogram reveals chalky-white deposits in that exact area. What type of pathologic calcification is this?",
+                "options": [
+                    "Metastatic calcification",
+                    "Dystrophic calcification",
+                    "Psammoma calcification"
+                ],
+                "answer": 1,
+                "explanation": "**Dystrophic calcification** occurs locally in **dead or dying tissue** (like fat necrosis) while systemic blood calcium levels remain **completely normal**. This is a permanent record of past tissue injury.",
+                "topic": "Pathologic Calcification"
+            },
+            {
+                "type": "match",
+                "question": "Match the specialized terminology to its correct pathological definition.",
+                "pairs": [
+                    {
+                        "left": "Karyorrhexis",
+                        "right": "The fragmentation of a necrotic, shrunken nucleus"
+                    },
+                    {
+                        "left": "Steatosis",
+                        "right": "Reversible fatty change due to disrupted lipid metabolism"
+                    },
+                    {
+                        "left": "Autophagy",
+                        "right": "A starved cell digesting its own organelles to survive"
+                    },
+                    {
+                        "left": "Hemosiderin",
+                        "right": "The golden-yellow endogenous pigment representing stored iron"
+                    },
+                    {
+                        "left": "Caseous Necrosis",
+                        "right": "A cheese-like pattern of death characteristic of tuberculosis"
+                    }
+                ],
+                "explanation": "**Karyorrhexis** is a stage of nuclear breakdown in necrosis. **Steatosis** is the hoarding of triglycerides. **Autophagy** is a survival-based 'self-eating.' **Hemosiderin** represents stored iron, and **Caseous necrosis** is the hallmark of TB granulomas.",
+                "topic": "Cellular Morphology"
+            },
+            {
+                "type": "clinical",
+                "question": "Autopsy of an 80-year-old woman who died from natural causes shows a slightly small heart with brownish-yellow discoloration. Microscopy reveals granular brown-yellow pigment near cardiac cell nuclei. What is this pigment, and what underlying cellular mechanism does it indicate?",
+                "options": [
+                    "Hemosiderin; indicating systemic iron overload.",
+                    "Lipofuscin; indicating advanced age and past free radical damage.",
+                    "Melanin; indicating a response to severe radiation exposure.",
+                    "Calcium; indicating widespread metastatic calcification."
+                ],
+                "answer": 1,
+                "explanation": "**Lipofuscin** is the non-toxic **'wear-and-tear' pigment**. It is composed of oxidized lipids and accumulates in long-lived cells (like heart and brain) over a lifetime of lipid peroxidation and free radical damage.",
+                "topic": "Endogenous Pigments"
+            }
+        ],
+        "next": "3.1.1"
     },
 
     // CHAPTER 3: INFLAMMATION
