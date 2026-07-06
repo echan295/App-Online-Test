@@ -4464,175 +4464,356 @@ const moduleContent = {
 
     // UNIT 6
     "2.6.1": {
-        title: "Hypertrophy and Atrophy ⬆️⬇️",
-        objectives: ["Master how cells adapt to stress by altering their size, specifically focusing on the mechanisms and clinical examples of Hypertrophy and Atrophy."],
-        data: [
+        "title": "Cellular Adaptation - Hypertrophy and Atrophy 📐📉",
+        "objectives": [
+            "Understand how cells respond to stress by altering their physical size, distinguish between hypertrophy and atrophy, and identify their underlying mechanisms."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The Shapeshifter",
-                text: "When a cell faces new physiological demands or chronic stress, it adapts to achieve a new, stable steady state.",
-                subtext: "Cells can alter their size, number, or type. This lesson focuses on adaptations of size: Growing (**Hypertrophy**) and Shrinking (**Atrophy**).",
-                buttonText: "Let's grow"
-            },
-            {
-                type: "concept",
-                title: "Hypertrophy: The Bodybuilder",
-                text: "**Hypertrophy** is an increase in the size of individual cells, which leads to an increase in the size of the entire organ.",
-                subtext: "The cells enlarge because they synthesize more structural proteins and organelles. There is no increase in the number of cells, only their volume.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "When an organ undergoes hypertrophy, it gets larger because the cells are rapidly dividing and multiplying their total numbers.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Hypertrophy specifically refers to an increase in cell size. An increase in cell number is a different adaptation called hyperplasia." 
+                "type": "concept",
+                "title": "The Survival Strategy",
+                "text": "Cells are constantly adjusting to their environment. When faced with stress or disease, they undergo **cellular adaptation**.\n\nThis is a **reversible structural** and **functional response**.\n\nThe main goals of adaptation are to:\n• **Survive** the new stress.\n• **Continue functioning**.\n• **Prevent the cell** from crossing the threshold into actual cell injury.",
+                "subtext": "",
+                "buttonText": "Goals of Adaptation"
             },
             {
-                type: "concept",
-                title: "Physiologic vs. Pathologic",
-                text: "Hypertrophy occurs when cells are forced to work harder.",
-                subtext: "It can be **Physiologic** (e.g., skeletal muscle growth in athletes) or **Pathologic** (e.g., the heart enlarging to pump against chronic high blood pressure).",
-                buttonText: "Clinical Example"
-            },
-            {
-                type: "fill",
-                question: "Tissues that cannot divide, such as cardiac muscle, rely on ____________ to handle increased workloads, such as chronic high blood pressure.",
-                options: ["Atrophy", "Hypertrophy", "Necrosis", "Apoptosis"],
-                answer: 1,
-                explanation: "Because cardiac myocytes cannot divide to create new cells, they must increase the size and protein content of existing cells to generate more force.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "Atrophy: The Shrinking Cell",
-                text: "**Atrophy** is a decrease in cell size and metabolic activity, which can lead to the shrinkage of an entire organ.",
-                subtext: "This is a survival mechanism. By shrinking, the cell reduces its metabolic needs to survive with reduced blood supply, nutrition, or trophic stimulation.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Which of the following scenarios is a classic example of 'disuse atrophy'?", 
-                options: [
-                    "A uterus expanding during pregnancy", 
-                    "Skeletal muscles shrinking after a broken leg is kept in a cast", 
-                    "The heart enlarging from high blood pressure"
-                ], 
-                answer: 1, 
-                explanation: "When skeletal muscles are immobilized, the lack of mechanical demand leads to a reduction in cell size to conserve energy."
-            },
-            {
-                type: "concept",
-                title: "Mechanisms of Atrophy",
-                text: "Cells shrink by decreasing protein synthesis and increasing protein degradation.",
-                subtext: "The **Ubiquitin-Proteasome** pathway is the primary system for protein degradation. Cells also utilize **Autophagy** to digest their own organelles for survival during nutrient deprivation.",
-                buttonText: "Got it!"
-            },
-            {
-                type: "sort",
-                question: "Match the clinical condition to the correct cellular adaptation.",
-                buckets: ["Hypertrophy", "Atrophy"],
-                items: [
-                    { text: "Weightlifter's massive biceps", bucket: 0 },
-                    { text: "Leg muscles shrinking inside a cast", bucket: 1 },
-                    { text: "Heart enlarging due to high blood pressure", bucket: 0 },
-                    { text: "Brain shrinking due to reduced blood flow in old age", bucket: 1 }
+                "type": "concept",
+                "title": "The Four Avenues",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 6/2.6.1/cellular_adaptation_overview.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                explanation: ""
+                "text": "Cells adapt by changing their size, number, or type.\n\nThere are 4 main pathways of adaptation:\n1. **Hypertrophy**: Increased cell size.\n2. **Atrophy**: Decreased cell size.\n3. **Hyperplasia**: Increased cell number.\n4. **Metaplasia**: Change in cell type.\n\nLet's start by looking at how cells change their physical size!",
+                "subtext": "",
+                "buttonText": "The Four Pathways"
+            },
+            {
+                "type": "mcq",
+                "question": "Cellular adaptations, such as changing size or number, are permanent changes that cannot be undone even if the stress is removed.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 0,
+                "explanation": "Cellular adaptations are reversible. If the stress is removed, the cell can repair its structure and return to its normal homeostatic state."
+            },
+            {
+                "type": "concept",
+                "title": "Hypertrophy – The Bodybuilder",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 6/2.6.1/mechanism_of_hypertrophy.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Meet Hypertrophy!\n\nThis is an increase in the physical size of individual cells, which ultimately makes the entire organ larger.\n\n**The Golden Rule**: There are **NO new cells, just bigger ones**!\n\n**How do they grow?**\n• The cells get bigger by synthesizing more structural proteins and organelles.\n\nThis manufacturing overdrive is triggered by two things:\n\n**Increased Workload**:\n• Mechanical sensors detect physical stress.\n\n**Chemical Signals**:\n• Growth factors and vasoactive agents tell the cell to bulk up.",
+                "subtext": "",
+                "buttonText": "Manufacturing Overdrive"
+            },
+            {
+                "type": "fill",
+                "question": "Hypertrophy results in an enlarged organ due to an increase in the ________ of the existing cells.",
+                "options": [
+                    "Size",
+                    "Quantity",
+                    "Division"
+                ],
+                "answer": [
+                    0
+                ],
+                "explanation": "Hypertrophy strictly refers to the physical enlargement of individual, existing cells."
+            },
+            {
+                "type": "concept",
+                "title": "Physiological vs. Pathological Hypertrophy",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 6/2.6.1/physiological_hypertrophy.png",
+                        "reference": "Image generated by ChatGPT"
+                    },
+                    {
+                        "url": "images/Chapter 2/Unit 6/2.6.1/pathological_hypertrophy.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Why do they grow?\n• Hypertrophy happens when cells are forced to work harder.\n\nThis growth happens in two main ways:\n\n**Physiological (Normal)**:\n• Driven by healthy stress or hormones.\n• _Examples_: **Skeletal muscle** bulging from weightlifting, or the **uterus** expanding during pregnancy.\n\n**Pathological (Abnormal)**:\n• Driven by disease.\n• _Examples_: The **heart** enlarging to pump against high blood pressure, or the **bladder** thickening to push urine past an enlarged prostate.",
+                "subtext": "",
+                "buttonText": "Why Cells Grow"
+            },
+            {
+                "type": "mcq",
+                "question": "If a patient has chronic high blood pressure, the heart must pump much harder against the resistance. How do the cardiac muscle cells adapt to this increased workload?",
+                "options": [
+                    "They undergo atrophy to save energy.",
+                    "They undergo hypertrophy, increasing in size.",
+                    "They rapidly divide to create new cardiac cells."
+                ],
+                "answer": 1,
+                "explanation": "Cardiac muscle cells have a very limited capacity to divide, so they must adapt to the increased workload by undergoing hypertrophy."
+            },
+            {
+                "type": "concept",
+                "title": "Atrophy – The Shrinking Cell",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 6/2.6.1/cellular_atrophy.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Meet Atrophy!\n\nThe exact opposite of hypertrophy is atrophy: a decrease in cell size and metabolic activity.\n\nIf enough cells shrink, the entire organ shrinks too.\n\n**Why do they shrink?**\n• It is a pure survival mechanism!\n\nBy shrinking, the cell reduces its energy needs so it can survive conditions like:\n• Decreased workload\n• Diminished blood supply\n• Lack of nutrition or stimulation",
+                "subtext": "",
+                "buttonText": "A Survival Mechanism"
+            },
+            {
+                "type": "concept",
+                "title": "The Causes of Atrophy",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 6/2.6.1/causes_of_atrophy.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "What causes atrophy?\n• A cell will shrink when its normal support systems are removed.\n\nThe 5 most common causes are:\n1. **Decreased workload**: Like a broken limb immobilized in a cast.\n2. **Loss of nerve supply**: Denervation.\n3. **Reduced blood supply**: Ischemia.\n4. **Inadequate nutrition**: Malnutrition or starvation.\n5. **Loss of endocrine stimulation**: A drop in hormone levels.",
+                "subtext": "",
+                "buttonText": "The 5 Causes"
+            },
+            {
+                "type": "mcq",
+                "question": "The primary goal of cellular atrophy is to undergo apoptosis because the cell is no longer useful.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "Atrophy is a survival mechanism. The cell shrinks to establish a new equilibrium where it can survive on reduced resources."
+            },
+            {
+                "type": "concept",
+                "title": "How Do Cells Shrink?",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 6/2.6.1/mechanism_atrophy.png",
+                        "reference": "Image generated by ChatGPT"
+                    },
+                    {
+                        "url": "images/Chapter 2/Unit 6/2.6.1/denervation_atrophy.png",
+                        "reference": "Image generated by ChatGPT"
+                    },
+                    {
+                        "url": "images/Chapter 2/Unit 6/2.6.1/pressure_atrophy.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "How does a cell actually make itself smaller? To shrink, the cell must break down its own internal components.\n\nIt achieves this using 3 main strategies:\n\n**Decreased Synthesis**:\n• It simply stops making new proteins.\n\n**Increased Degradation**:\n• It tags its own structural proteins with a marker called **ubiquitin** and sends them to the **proteasome** (the cell's internal trash shredder).\n\n**Autophagy (\"Self-eating\")**:\n• The cell literally digests its own unneeded organelles to recycle nutrients and survive!",
+                "subtext": "",
+                "buttonText": "Shrinking Strategies"
+            },
+            {
+                "type": "match",
+                "question": "Match the adaptive process to its specific mechanism or clinical example.",
+                "pairs": [
+                    {
+                        "left": "Hypertrophy",
+                        "right": "Increased synthesis of cellular proteins"
+                    },
+                    {
+                        "left": "Atrophy",
+                        "right": "Decreased size to survive diminished resources"
+                    },
+                    {
+                        "left": "Ventricular enlargement",
+                        "right": "Pathological hypertrophy"
+                    },
+                    {
+                        "left": "Ubiquitin-Proteasome system",
+                        "right": "Shreds proteins during atrophy"
+                    },
+                    {
+                        "left": "Autophagy",
+                        "right": "Self-eating of organelles for survival"
+                    }
+                ],
+                "explanation": "In cellular adaptation, hypertrophy relies on the increased synthesis of structural proteins, whereas atrophy reduces cell size to survive diminished resources—often utilizing the ubiquitin-proteasome system to shred proteins and autophagy to consume organelles. Clinically, ventricular enlargement serves as a classic example of pathological hypertrophy."
             }
         ]
     },
     "2.6.2": {
-        title: "Hyperplasia and Metaplasia 👥🔄",
-        objectives: ["Master how cells adapt by changing their number (Hyperplasia) or their identity (Metaplasia), understand the mechanism of stem cell reprogramming, and recognize the clinical risks."],
-        data: [
+        "title": "Cellular Adaptation - Hyperplasia and Metaplasia 👥🦎",
+        "objectives": [
+            "Understand how cells adapt by multiplying their numbers or entirely changing their identity, and recognize the clinical risks associated with these adaptations."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "Hyperplasia: The Cloner",
-                text: "**Hyperplasia** is an increase in the *number* of cells in an organ or tissue.",
-                subtext: "This adaptation only occurs in tissues capable of dividing (e.g., skin, glands, or bone marrow). It is frequently driven by growth factors or hormonal stimulation.",
-                buttonText: "Can all cells do this?"
-            },
-            { 
-                type: "mcq", 
-                question: "To handle high blood pressure, heart muscle cells undergo massive hyperplasia to create millions of new cardiac cells.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Cardiac muscle cells are permanent cells and generally cannot divide. They adapt to increased workloads exclusively through hypertrophy (increase in size) rather than hyperplasia." 
-            },
-            {
-                type: "concept",
-                title: "Physiologic Hyperplasia",
-                text: "Hyperplasia can be a normal physiologic response to a need for increased functional capacity or compensatory growth.",
-                subtext: "A classic example is compensatory hyperplasia in the liver: if a portion is removed, the remaining cells divide rapidly to restore the organ to its original mass.",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "Excessive hormonal stimulation can cause pathologic overgrowth, such as endometrial ____________, which is a significant risk factor for uterine cancer.",
-                options: ["Atrophy", "Hyperplasia", "Metaplasia", "Necrosis"],
-                answer: 1,
-                explanation: "Pathologic hyperplasia, while controlled, provides a fertile environment in which cancerous mutations may eventually arise if the stimulus persists.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "Metaplasia: The Shapeshifter",
-                text: "**Metaplasia** is a reversible change in which one adult cell type (epithelial or mesenchymal) is replaced by another adult cell type.",
-                subtext: "This allows the tissue to substitute a sensitive cell type with one better able to withstand a specific harsh environment.",
-                buttonText: "How do they change?"
-            },
-            {
-                type: "concept",
-                title: "Mechanism: Stem Cell Reprogramming",
-                text: "Metaplasia does not involve a mature cell changing its identity. Instead, it is the result of **reprogramming of stem cells**.",
-                subtext: "In response to environmental changes (cytokines and growth factors), local tissue stem cells are diverted down a different differentiation pathway to produce a new cell type.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "In metaplasia, an already mature, fully differentiated adult cell directly transforms into another mature cell type.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Fully differentiated cells cannot change their phenotype. Metaplasia occurs because stem cells are reprogrammed to differentiate into a different type of mature cell." 
-            },
-            {
-                type: "fill",
-                question: "Both a deficiency and an excess of Vitamin ____________ (retinoic acid) can disrupt stem cell differentiation and induce metaplasia.",
-                options: ["A", "C", "D", "K"],
-                answer: 0,
-                explanation: "Vitamin A regulates gene transcription through nuclear retinoid receptors; its imbalance interferes with the normal differentiation of epithelial stem cells.",
-                buttonText: "Continue"
-            },
-            { 
-                type: "mcq", 
-                question: "How do the delicate, ciliated columnar cells of the respiratory tract adapt to the chronic irritation of cigarette smoke?", 
-                options: [
-                    "They shrink to hide from the smoke (Atrophy)", 
-                    "Stem cells are reprogrammed to produce tough, flat squamous cells", 
-                    "The delicate cells multiply into a giant tumor"
-                ], 
-                answer: 1, 
-                explanation: "Through squamous metaplasia, the respiratory lining becomes tougher. However, the loss of cilia impairs the clearance of mucus and debris, often leading to a chronic cough." 
-            },
-            {
-                type: "concept",
-                title: "The Clinical Consequence",
-                text: "Another example is **Barrett's Esophagus**, where chronic acid reflux causes the squamous lining of the esophagus to be replaced by columnar cells.",
-                subtext: "While metaplasia is an adaptation for survival, if the injurious stimulus persists, it can progress to dysplasia and eventually malignant transformation (cancer).",
-                buttonText: "Next"
-            },
-            {
-                type: "sort",
-                question: "Final Review! Match the clinical scenario to the correct cellular adaptation.",
-                buckets: ["Hypertrophy", "Hyperplasia", "Metaplasia", "Atrophy"],
-                items: [
-                    { text: "Weightlifter's enlarged muscle cells", bucket: 0 },
-                    { text: "A liver regenerating after surgery", bucket: 1 },
-                    { text: "Lung airways changing into squamous cells", bucket: 2 },
-                    { text: "Leg muscles shrinking inside a cast", bucket: 3 }
+                "type": "concept",
+                "title": "Hyperplasia - Multiplying the Workforce",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 6/2.6.2/hyperplasia_vs_normal.png",
+                        "reference": "Image generated by ChatGPT"
+                    },
+                    {
+                        "url": "images/Chapter 2/Unit 6/2.6.2/types_of_cells_division.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                explanation: ""
+                "text": "Meet Hyperplasia!\n\nWhile hypertrophy increases cell size, **hyperplasia** is an **increase in the number of cells**.\n\nBy rapidly dividing, they **multiply their workforce** which makes the entire organ big.\n\n**What triggers it?**\n• It is usually driven by **hormones or growth factors** demanding a larger workforce.\n\n**The Golden Rule**: Hyperplasia only happens in **tissues capable of dividing**.\n\n**Can divide**:\n• Skin, glands, and bone marrow.\n\n**Cannot divide**:\n• Cardiac muscle and nerve cells.\n\nTo survive stress, tissues that cannot divide must rely entirely on **hypertrophy** (getting bigger)!",
+                "subtext": "",
+                "buttonText": "Division Limits"
+            },
+            {
+                "type": "mcq",
+                "question": "If the heart is subjected to chronic high blood pressure, it adapts by undergoing hyperplasia to create millions of new cardiac muscle cells.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "Cardiac muscle cells have a very limited capacity to divide. Therefore, the heart adapts to stress via hypertrophy, not hyperplasia."
+            },
+            {
+                "type": "concept",
+                "title": "Physiological Hyperplasia - Normal Growth",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 6/2.6.2/physiological_hyperplasia.png",
+                        "reference": "Image generated by ChatGPT"
+                    },
+                    {
+                        "url": "images/Chapter 2/Unit 6/2.6.2/compensatory_hyperplasia.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Physiological hyperplasia is a normal, healthy response to the body's changing needs.\n\nIt completely reverts back to normal when the stimulus is removed. Here are two amazing examples:\n\n**Hormonal**:\n• Hormones drive the massive proliferation of glandular cells in the **female breast** during puberty and pregnancy.\n\n**Compensatory (The Liver's Superpower!)**:\n• If a portion of the **liver** is surgically removed, the remaining cells rapidly divide to regenerate the missing tissue.\n• It is a normal, healthy, and strictly controlled survival response.\n• Once the organ is fully restored, the growth stops entirely!",
+                "subtext": "",
+                "buttonText": "Healthy Growth"
+            },
+            {
+                "type": "concept",
+                "title": "Pathological Hyperplasia – The Danger Zone",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 6/2.6.2/pathological_hyperplasia_danger.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Pathological hyperplasia happens when there is excessive, uncontrolled stimulation from hormones or growth factors.\n\nHere is the crucial clinical distinction:\n\n**It is NOT cancer**:\n• The process is still completely **reversible** if the excessive hormones are removed.\n\n**The Danger (\"Fertile Soil\")**:\n• Rapid, excessive cell division massively increases the chance of genetic errors.\n• This creates a \"fertile soil\" for mutations that can eventually turn into **CANCER**.",
+                "subtext": "",
+                "buttonText": "The Danger Zone"
+            },
+            {
+                "type": "mcq",
+                "question": "Why is pathological hyperplasia considered a risk factor for the development of cancer?",
+                "options": [
+                    "It directly destroys the cell's DNA.",
+                    "The excessive cell division creates fertile soil for malignant genetic mutations.",
+                    "It immediately converts normal cells into necrotic tissue."
+                ],
+                "answer": 1,
+                "explanation": "Although hyperplasia is a controlled and reversible adaptation, the constant, excessive division increases the statistical risk of cancerous mutations."
+            },
+            {
+                "type": "fill",
+                "question": "Hyperplasia can also be pathologic if hormones get out of control.\nFor example, excessive estrogen can cause the lining of the uterus to over-multiply.\nThis abnormal overgrowth is called endometrial ____________, and it is a major risk factor for uterine cancer!",
+                "options": [
+                    "Atrophy",
+                    "Hyperplasia",
+                    "Metaplasia",
+                    "Necrosis"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "Endometrial hyperplasia refers to the pathological over-multiplication of the uterine lining due to excessive estrogen stimulation, establishing a significant risk factor for the development of uterine cancer."
+            },
+            {
+                "type": "concept",
+                "title": "Metaplasia - Changing Identity",
+                "text": "**Meet Metaplasia: The Shapeshifter!**\nThis is a **reversible change** where one fully mature cell type is completely replaced by a different mature cell type.\n\n**Why does it happen?**\n• It is an extreme survival mechanism.\n• A delicate cell type is swapped out for a tougher cell type that is better suited to withstand a specific, chronic stress.",
+                "subtext": "**The Shapeshifter Mystery**: How does a tissue actually shapeshift? Does an already mature cell just magically change its identity? No! (We will see exactly how they do it next!)",
+                "buttonText": "The Mechanism"
+            },
+            {
+                "type": "concept",
+                "title": "The Mechanism of Reprogramming",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 6/2.6.2/mechanism_metaplasia.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "**How Does Metaplasia Actually Work?**\n• Metaplasia does NOT happen by magically transforming an already mature cell into a different one.\n• It actually happens at the **stem cell level**!\n\nHere is the exact mechanism:\n\n**The Trigger**:\n• A harsh, stressful environment releases chemical signals like cytokines and growth factors.\n\n**The Reprogramming**:\n• These signals genetically reprogram the underlying tissue **stem cells**.\n\n**The Swap**:\n• Instead of producing the original fragile cell type, the stem cells start differentiating into a brand new, tougher cell type!",
+                "subtext": "",
+                "buttonText": "Stem Cell Level"
+            },
+            {
+                "type": "fill",
+                "question": "Metaplasia occurs through the genetic reprogramming of underlying tissue ________, which begin differentiating into a new, more resilient cell type.",
+                "options": [
+                    "Macrophages",
+                    "Stem cells",
+                    "Erythrocytes",
+                    "Ribosomes"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "Metaplasia is driven by the reprogramming of stem cells, not the physical alteration of already mature cells."
+            },
+            {
+                "type": "concept",
+                "title": "Classic Example: The Smoker's Lung",
+                "text": "To survive the constant, toxic irritation of cigarette smoke, the airway undergoes a massive shapeshift:\n\n**The Original Cell**:\n• Fragile, **ciliated columnar cells**.\n\n**The Tough Replacement**:\n• Rugged, **stratified squamous cells**.\n\n**The Clinical Cost**:\n• While the new, rugged cells survive the smoke, this adaptation comes at a steep price.\n• The lung completely loses its protective, mucus-clearing cilia (which is exactly why smokers develop a chronic cough)!",
+                "subtext": "",
+                "buttonText": "The Smoker's Airway"
+            },
+            {
+                "type": "concept",
+                "title": "Another Classic Example: Barrett Esophagus",
+                "text": "When a patient suffers from chronic acid reflux, the lower esophagus is severely burned by stomach acid.\n\nTo survive this highly acidic environment, the tissue undergoes another massive shapeshift:\n\n**The Original Cell**:\n• Normal, flat **squamous cells**.\n\n**The Tough Replacement**:\n• Acid-resistant **columnar cells** (just like the ones found in the stomach!).\n\nJust like the smoker's lung, the local stem cells genetically reprogram themselves to build a tougher wall against the chronic stress.",
+                "subtext": "",
+                "buttonText": "Acid Reflux Shift"
+            },
+            {
+                "type": "concept",
+                "title": "The Dark Side of Metaplasia",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 6/2.6.2/hyperplasia_metaplasia.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Just like pathological hyperplasia, metaplasia is a double-edged sword. While it keeps the tissue alive in the short term, it creates a dangerous long-term problem.\n\nIf the chronic stress is not removed:\n\n**Constant Irritation**:\n• The tissue remains persistently inflamed.\n\n**Persistent Reprogramming**:\n• The stem cells are forced to constantly adapt and change.\n\n**The Ultimate Danger**:\n• This highly unstable environment massively increases the risk of malignant transformation (**cancer**).",
+                "subtext": "",
+                "buttonText": "The Double-Edged Sword"
+            },
+            {
+                "type": "match",
+                "question": "Match the cellular adaptation to its specific description or clinical example.",
+                "pairs": [
+                    {
+                        "left": "Hyperplasia",
+                        "right": "Increase in the total number of cells"
+                    },
+                    {
+                        "left": "Liver regeneration",
+                        "right": "Compensatory physiological hyperplasia"
+                    },
+                    {
+                        "left": "Metaplasia",
+                        "right": "Reversible replacement of one cell type with another"
+                    },
+                    {
+                        "left": "Smoker's respiratory tract",
+                        "right": "Squamous metaplasia causing a loss of cilia"
+                    },
+                    {
+                        "left": "Barrett Esophagus",
+                        "right": "Columnar metaplasia due to acid reflux"
+                    }
+                ],
+                "explanation": "Hyperplasia increases the total number of cells (exemplified by liver regeneration), and metaplasia reversibly replaces one cell type with another (exemplified by squamous metaplasia in a smoker's airway and columnar metaplasia in Barrett esophagus)."
             }
         ],
         next: "2.7.1"
