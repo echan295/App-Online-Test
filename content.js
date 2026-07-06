@@ -4821,174 +4821,371 @@ const moduleContent = {
 
     // UNIT 7
     "2.7.1": {
-        title: "Intracellular Accumulations (The Clutter) 📦",
-        objectives: ["Master why cells become 'hoarders' and learn to identify the classic clinical accumulations of the main macromolecules (lipids, proteins, carbohydrates) and pigments."],
-        data: [
+        "title": "Intracellular Accumulations – The Clutter 📦🧹",
+        "objectives": [
+            "Understand why cells accumulate abnormal substances, identify the four primary mechanisms of cellular hoarding, and identify the clinical examples of accumulating normal substances, abnormal waste, and colorful pigments."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The Hoarder Cell",
-                text: "Normally, cells keep their cytoplasm clean. However, under metabolic stress or chronic injury, they can begin to hoard various substances.",
-                subtext: "This is called **Intracellular Accumulation**. Cells may store normal cellular components, abnormal misfolded materials, or foreign substances that they cannot digest.",
-                buttonText: "What do they hoard?"
-            },
-            {
-                type: "concept",
-                title: "The Big Three",
-                text: "Most commonly, cells accumulate excessive amounts of the body's three main macromolecules: **Lipids**, **Proteins**, and **Carbohydrates**.",
-                subtext: "This occurs due to abnormal metabolism, missing digestive enzymes, or production levels that exceed the cell's capacity to package and secrete them.",
-                buttonText: "See Clutter: Lipids"
+                "type": "concept",
+                "title": "Intracellular Hoarding",
+                "text": "Normally, cells keep their cytoplasm perfectly clean. But under stress or injury, they become hoarders!\n\n**What exactly do they hoard?**\n• **Category 1**: Normal lipids, proteins, and carbohydrates.\n• **Category 2**: Abnormal Waste.\n• **Category 3**: Pigments.\n\n**Where does it go, and is it dangerous?**\n• These pool in the **cytoplasm, or the nucleus**.\n• Depending on the substance and the amount, this accumulation can be **completely harmless** or **highly toxic** to the cell.",
+                "subtext": "",
+                "buttonText": "The Three Categories"
             },
             {
-                type: "concept",
-                title: "Clutter Type 1: Lipids",
-                text: "The most frequent macromolecule accumulation is fat, known as **Steatosis** (Fatty Change).",
-                subtext: "This occurs most often in the liver. Toxins like alcohol disrupt lipid metabolism, causing triglycerides to accumulate in massive clear vacuoles that displace the cytoplasm.",
-                buttonText: "See Clutter: Proteins"
+                "type": "concept",
+                "title": "The Four Mechanisms",
+                "text": "Cells accumulate substances when their internal processing systems fail. This happens in 4 main ways:\n\n1. **Abnormal metabolism**: The cell cannot process a normal substance fast enough.\n2. **Defective transport or folding**: Mutated proteins pile up because they cannot be exported.\n3. **Enzyme deficiency**: A missing enzyme prevents the breakdown of metabolites.\n4. **Indigestible materials**: The cell engulfs exogenous substances that it lacks the enzymes to degrade.",
+                "subtext": "",
+                "buttonText": "Why Cells Hoard"
             },
             {
-                type: "concept",
-                title: "Clutter Type 2: Proteins",
-                text: "Cells hoard **Proteins** when they synthesize excessive amounts or when misfolded proteins cannot be exported.",
-                subtext: "Unlike lipid vacuoles, accumulated proteins typically appear as glassy, bright pink (eosinophilic) droplets under H&E stain. An example is the 'Russell bodies' found in plasma cells.",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "Massive glycogen clutter occurs in genetic 'Lysosomal ____________ Diseases,' where the specific enzyme needed to break these molecules down is missing.",
-                options: ["Storage", "Excretion", "Folding", "Metaplasia"],
-                answer: 0,
-                explanation: "Lysosomal Storage Diseases are hereditary disorders where a deficiency in a specific lysosomal enzyme leads to the accumulation of undigested substrates within the cell.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "Clutter Type 3: Exogenous Pigments",
-                text: "Cells also hoard pigments from the outside world. The most common exogenous pigment is **Carbon** (coal dust/pollution).",
-                subtext: "Alveolar macrophages in the lungs ingest carbon but lack the enzymes to digest it. This results in the pigment remaining in the tissue permanently, a condition called anthracosis.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Tattoos are permanent because the ink is eaten by dermal macrophages and safely digested away within a few days.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Tattoos are permanent because macrophages cannot digest the ink particles. The cells ingest the pigment and remain in the dermis, holding the ink in place indefinitely." 
-            },
-            {
-                type: "concept",
-                title: "Clutter Type 4: Endogenous Pigments",
-                text: "The body can also produce its own colored clutter, known as **Endogenous pigments**.",
-                subtext: "• **Hemosiderin:** A golden-yellow pigment derived from hemoglobin (iron storage).\n• **Lipofuscin:** A brownish-yellow pigment composed of oxidized lipids and proteins.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Because Lipofuscin slowly accumulates over a lifetime from chronic free radical damage, it is famously known as the ________ pigment.", 
-                options: [
-                    "Wear and Tear (Aging)", 
-                    "Iron Storage", 
-                    "Foreign Body"
-                ], 
-                answer: 0, 
-                explanation: "Lipofuscin is considered a marker of past free radical injury and aging. It is not harmful to the cell itself but indicates the age of the cell and its history of oxidative stress." 
-            },
-            {
-                type: "sort",
-                question: "You are examining tissues under the microscope. Match the accumulation to its classic description.",
-                buckets: ["Lipids", "Proteins", "Hemosiderin", "Lipofuscin"],
-                items: [
-                    { text: "Massive clear vacuoles of triglycerides.", bucket: 0 },
-                    { text: "Glassy, bright pink (eosinophilic) droplets.", bucket: 1 },
-                    { text: "Golden-yellow accumulations of Iron.", bucket: 2 },
-                    { text: "Brownish-yellow 'wear and tear' pigment.", bucket: 3 }
+                "type": "match",
+                "question": "Match the mechanism of accumulation to its defining characteristic.",
+                "pairs": [
+                    {
+                        "left": "Abnormal metabolism",
+                        "right": "Cannot process a normal substance fast enough"
+                    },
+                    {
+                        "left": "Defective transport",
+                        "right": "Mutated proteins cannot be properly folded or exported"
+                    },
+                    {
+                        "left": "Enzyme deficiency",
+                        "right": "Inability to break down cellular metabolites"
+                    },
+                    {
+                        "left": "Indigestible materials",
+                        "right": "Engulfing exogenous substances that cannot be destroyed"
+                    }
                 ],
-                explanation: ""
+                "explanation": "Abnormal metabolism fails to process normal substances fast enough, defective transport prevents the folding or export of mutated proteins, enzyme deficiencies hinder the breakdown of metabolites, and indigestible materials accumulate when engulfed exogenous substances cannot be destroyed."
+            },
+            {
+                "type": "concept",
+                "title": "Category 1 - Normal Stuff, Abnormal Amounts",
+                "text": "The first category of cellular hoarding involves completely normal, everyday substances!\n\n**Why does it happen?**\nThe cell simply takes in more than it can process, or it stops burning fuel efficiently.\n\n**What piles up?**\nThis metabolic backup leads to a massive accumulation of normal cellular materials, specifically:\n• **Lipids** (Fats)\n• **Carbohydrates** (Like glycogen)\n• **Excess Proteins**",
+                "subtext": "",
+                "buttonText": "Normal Substances"
+            },
+            {
+                "type": "concept",
+                "title": "Hoarding Fat: Triglycerides vs. Cholesterol",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 7/2.7.1/accumulation_triglycerides.png",
+                        "reference": "Image generated by ChatGPT"
+                    },
+                    {
+                        "url": "images/Chapter 2/Unit 7/2.7.1/accumulation_cholesterol.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "The most common macromolecule that cells hoard is fat! To understand how fat clutters the body, we must first know the difference between the two main types:\n\n**Triglycerides: The Fuel**\n**Normal Job**:\n• They store unused calories to be burned later for energy.\n\n**The Hoarding Problem**:\n•  Steatosis (Fatty Change).\n\n**What Happens**:\n• Toxins (like alcohol) disrupt normal metabolism.\n• The unburned fuel piles up into massive, clear vacuoles that crowd the cell—most commonly in the liver.\n\n**Cholesterol: The Building Blocks**\n**Normal Job**:\n• Not used for energy! The body uses it to build cell membranes and hormones.\n\n**The Hoarding Problem**:\n• When cells hoard too many building blocks, they get deposited in dangerous places.\n\n**Clinical Results**:\n This causes \n• **Atherosclerosis**: plaque buildup inside blood vessel walls.\n• **Xanthomas**: yellowish cholesterol clusters deposited just under the skin.",
+                "subtext": "",
+                "buttonText": "Triglycerides vs Cholesterol"
+            },
+            {
+                "type": "concept",
+                "title": "Glycogen Accumulations",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 7/2.7.1/accumulation_glycogen.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Glycogen is a normal energy store, but hoarding too much is pathological.\n\nThis excessive accumulation happens in 2 main clinical scenarios:\n\n**Poorly Controlled Diabetes**:\n• Chronically high blood sugar forces the cell to store massive amounts of glucose as glycogen.\n\n**Glycogen Storage Diseases**:\n• A genetic defect where the cell lacks the specific lysosomal enzymes needed to break glycogen down.",
+                "subtext": "",
+                "buttonText": "Energy Storage"
+            },
+            {
+                "type": "concept",
+                "title": "Protein Accumulations",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 7/2.7.1/accumulation_protein.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "**Hoarding Proteins: The Pink Clutter**\nCells hoard proteins when forced to absorb or produce too much. They appear as glassy, **bright pink (eosinophilic) droplets**.\n\n**Kidney Disease (Over-absorption)**:\n• When proteins leak into urine, kidney tubule cells reabsorb them, becoming packed with pink droplets.\n\n**Russell Bodies (Overproduction)**:\n• When plasma cells make excessive antibodies, their ER swells with pink protein blobs called **Russell bodies**.",
+                "subtext": "",
+                "buttonText": "The Pink Clutter"
+            },
+            {
+                "type": "concept",
+                "title": "Category 2 – Hoarding Abnormal Waste",
+                "text": "This occurs when the cell manufactures a defective product, or when its internal \"garbage disposal\" system completely fails.\n\nThis abnormal clutter falls into 2 main types:\n\n**1. The Mutated Misfits: Defective Proteins**\n**Alpha-1-antitrypsin deficiency**\n• A genetic mutation causes proteins to misfold. They cannot be exported and get permanently stuck inside liver cells.\n\n**Mallory bodies**\n• Damaged structural proteins of the cytoskeleton pile up in liver cells (a classic sign of alcoholic liver disease).\n\n**2. The Unprocessed Garbage: Missing Enzymes**\nWhen a cell lacks a key lysosomal enzyme, waste accumulates, causing lysosomal storage diseases:\n\n**Tay-Sachs**\n• Missing hexosaminidase A → toxic GM2 ganglioside builds up → fatal neuronal swelling.\n\n**Gaucher**\n• Missing glucocerebrosidase → lipids accumulate in macrophages → cells look like \"crumpled tissue paper.\"",
+                "subtext": "",
+                "buttonText": "Abnormal Waste Types"
+            },
+            {
+                "type": "mcq",
+                "question": "Why does the mutated protein accumulate inside the liver cells of a patient with Alpha-1-antitrypsin deficiency?",
+                "options": [
+                    "The cell creates too many ribosomes.",
+                    "The protein cannot be properly folded and exported from the cell.",
+                    "The protein is an exogenous, indigestible material."
+                ],
+                "answer": 1,
+                "explanation": "The mutated protein accumulates in the liver cells because its improper folding prevents it from being exported."
+            },
+            {
+                "type": "fill",
+                "question": "Lysosomal storage diseases, where cells swell with unprocessed cellular waste, are directly caused by a missing or defective ________.",
+                "options": [
+                    "Ribosome",
+                    "Enzyme",
+                    "Nucleus",
+                    "Mitochondrion"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "The absence of a specific digestive enzyme causes the lysosome to endlessly accumulate waste it cannot break down."
+            },
+            {
+                "type": "concept",
+                "title": "Category 3 - Pigments (The Colorful Clutter)",
+                "text": "The third category of cellular accumulation involves pigments, colored substances cells hoard.\n\nThis colorful clutter comes from two different sources:\n\n**Exogenous Pigments (Outside Invaders):** Colors that enter from the outside world.\n\n**Endogenous Pigments (Internal Products):** Colors manufactured by the body itself.",
+                "subtext": "",
+                "buttonText": "Pigment Sources"
+            },
+            {
+                "type": "concept",
+                "title": "Exogenous Pigments – The Outside Invaders",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 7/2.7.1/accumulation_exogenous_pigments.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Exogenous pigments are indigestible materials from the outside world.\n\nBecause cells completely lack the enzymes to digest these foreign colors, they get trapped inside the cell forever!\n\n**Carbon Dust (Air Pollution)**\nInhaled carbon is eaten by lung macrophages but can't be digested. It stays trapped forever, turning lung tissue permanently black (anthracosis).\n\n**Tattoo Ink**\nInjected ink is engulfed by skin macrophages but can't be broken down. The pigment stays trapped forever, making tattoos permanent.",
+                "subtext": "",
+                "buttonText": "Indigestible Colors"
+            },
+            {
+                "type": "fill",
+                "question": "Inhaled carbon dust and injected tattoo ink remain permanently trapped in the tissue because they are engulfed by scavenger cells called ________, which lack the enzymes to digest them.",
+                "options": [
+                    "Macrophages",
+                    "Erythrocytes",
+                    "Ribosomes",
+                    "Melanocytes"
+                ],
+                "answer": [
+                    0
+                ],
+                "explanation": "Macrophages act as the tissue's cleanup crew, but when they ingest indigestible materials, they simply store the pigment indefinitely."
+            },
+            {
+                "type": "concept",
+                "title": "Endogenous Pigments – The Internal Colors",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 7/2.7.1/accumulation_endogenous_pigments.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Endogenous pigments are synthesized by the body itself.\n\nHere are the 3 most important ones to know:\n\n**1. Melanin: Brown/Black**\n• The normal pigment made by melanocytes to protect the skin from UV radiation.\n\n**2. Hemosiderin: Golden-Yellow**\n• Made of large aggregates of stored iron.\n• You can see it locally (like in an old healing bruise) or systemically in dangerous iron-overload disorders (hemosiderosis).\n\n**3. Lipofuscin: Brownish-Yellow**\n• Made of oxidized lipids.\n• It is not toxic, but acts as a telltale sign of aging and past free radical damage.\n• Because of this, it is famously known as the cellular 'wear-and-tear' pigment!",
+                "subtext": "",
+                "buttonText": "Internal Pigments"
+            },
+            {
+                "type": "mcq",
+                "question": "Which endogenous pigment accumulates as a golden-yellow deposit representing excess stored iron?",
+                "options": [
+                    "Lipofuscin",
+                    "Hemosiderin",
+                    "Melanin",
+                    "Carbon"
+                ],
+                "answer": 1,
+                "explanation": "Hemosiderin is the golden yellow pigment complex formed when cells accumulate excess iron."
+            },
+            {
+                "type": "mcq",
+                "question": "Lipofuscin is not toxic to the cell, but it is a very important visual clue for pathologists. Because Lipofuscin slowly accumulates over a lifetime from chronic free radical damage, it is famously known as the \"____________\" pigment.",
+                "options": [
+                    "Wear and Tear",
+                    "Iron Storage",
+                    "Foreign Body"
+                ],
+                "answer": 0,
+                "explanation": "Lipofuscin is the 'wear and tear' pigment. When pathologists see it, they know they are looking at an older, aging cell!"
+            },
+            {
+                "type": "match",
+                "question": "Match the specific cellular pigment to its description.",
+                "pairs": [
+                    {
+                        "left": "Carbon",
+                        "right": "Exogenous pigment causing blackened lung tissue"
+                    },
+                    {
+                        "left": "Lipofuscin",
+                        "right": "The brownish-yellow wear-and-tear pigment"
+                    },
+                    {
+                        "left": "Hemosiderin",
+                        "right": "The golden-yellow iron storage pigment"
+                    },
+                    {
+                        "left": "Melanin",
+                        "right": "The brown-black pigment that protects against UV radiation"
+                    }
+                ],
+                "explanation": "Carbon is an exogenous pigment that blackens lung tissue, lipofuscin is the brownish-yellow wear-and-tear pigment, hemosiderin is the golden-yellow iron storage pigment, and melanin is the brown-black pigment protecting against UV radiation."
             }
         ]
     },
+
     "2.7.2": {
-        title: "Pathologic Calcification (Turning to Stone) 🪨",
-        objectives: ["Master the two main types of pathologic calcification: Dystrophic (normal calcium levels, dead tissue) and Metastatic (high calcium levels, normal tissue), and understand the clinical causes of hypercalcemia."],
-        data: [
+        "title": "Pathologic Calcification 🪨🦴",
+        "objectives": [
+            "Differentiate dystrophic from metastatic calcification by correlating tissue viability and serum calcium status, identify their key microscopic features, and link metastatic calcification to its major clinical causes of hypercalcemia."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "Turning to Stone",
-                text: "**Pathologic Calcification** is the abnormal deposition of calcium salts, together with smaller amounts of iron, magnesium, and other mineral salts, in tissues.",
-                subtext: "There are two distinct forms: **Dystrophic Calcification** and **Metastatic Calcification**. They are distinguished by the state of the tissue and the systemic calcium levels.",
-                buttonText: "See Dystrophic"
-            },
-            {
-                type: "concept",
-                title: "Dystrophic Calcification: The Tombstone",
-                text: "**Dystrophic Calcification** occurs locally in nonviable, dying, or damaged tissues.",
-                subtext: "It is seen in areas of any type of necrosis (e.g., caseous TB granulomas), advanced atherosclerosis (damaged vessels), and aging or damaged heart valves.",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "Turning to Stone",
+                "text": "Sometimes, cells and tissues literally turn to stone!\n\nThis is called **Pathologic Calcification**: the **abnormal deposition of calcium salts** (along with iron and magnesium) in the body.\n\nThis process is divided into 2 pathways:\n1. **Dystrophic Calcification**\n2. **Metastatic Calcification**\n\n**How do we tell them apart?**\nThese two pathways are differentiated based on two simple questions:\n• **Tissue Health**: Is the calcium depositing in damaged/dead tissue, or perfectly healthy tissue?\n• **Blood Levels**: Are the patient's blood calcium levels normal, or dangerously high?",
+                "subtext": "",
+                "buttonText": "The Two Pathways"
             },
             {
-                type: "fill",
-                question: "In Dystrophic calcification, the patient's overall serum (blood) calcium levels are completely ____________.",
-                options: ["Normal", "High", "Low", "Toxic"],
-                answer: 0,
-                explanation: "In Dystrophic calcification, calcium metabolism is normal; the minerals deposit in damaged tissue even when systemic calcium levels are not elevated.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "Metastatic Calcification: The Flood",
-                text: "**Metastatic Calcification** occurs in normal, healthy tissues whenever there is **Hypercalcemia** (high blood calcium).",
-                subtext: "The excess calcium in the blood precipitates out of solution and into various organs throughout the body.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Does the term 'Metastatic' calcification always mean the patient has a malignant cancer spreading through their body?", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "While malignancy can cause hypercalcemia, the term 'metastatic' in this context refers to the widespread nature of the mineral deposits in otherwise normal tissues, regardless of whether cancer is present." 
-            },
-            {
-                type: "concept",
-                title: "Culprits of Hypercalcemia (Part 1)",
-                text: "Hypercalcemia (the trigger for metastatic calcification) has several primary causes:\n\n" +
-                    "1. **Increased Parathyroid Hormone (PTH):** Often due to parathyroid tumors, PTH causes excessive bone resorption.\n" +
-                    "2. **Resorption of Bone Tissue:** Occurs due to bone marrow tumors (multiple myeloma) or leukemia.",
-                subtext: "",
-                buttonText: "More causes"
-            },
-            {
-                type: "concept",
-                title: "Culprits of Hypercalcemia (Part 2)",
-                text: "Other major causes of hypercalcemia include:\n\n" +
-                    "1. **Vitamin D Disorders:** Vitamin D intoxication or sarcoidosis causes increased intestinal absorption of calcium.\n" +
-                    "2. **Renal Failure:** Retention of phosphate leads to secondary hyperparathyroidism, ultimately raising calcium levels.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Clinical Tidbit: Milk-Alkali Syndrome 🥛",
-                text: "This syndrome was historically caused by excessive consumption of milk (calcium) and antacids (alkali) for peptic ulcer disease.",
-                subtext: "This combination significantly raises serum calcium and pH, triggering widespread metastatic calcification.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Which organ is a primary target for Metastatic Calcification because it excretes acid (creating an internal alkaline environment)?", 
-                options: ["The Brain", "The Stomach (Gastric mucosa)", "The Skin"], 
-                answer: 1, 
-                explanation: "Calcium salts tend to deposit in tissues that lose acid, such as the stomach, lungs, and kidneys. The localized alkaline environment favors the precipitation of calcium salts." 
-            },
-            {
-                type: "sort",
-                question: "Match the clinical clue to the correct type of calcification.",
-                buckets: ["Dystrophic", "Metastatic"],
-                items: [
-                    { text: "Normal blood calcium; found on a scarred heart valve.", bucket: 0 },
-                    { text: "High blood calcium from Vitamin D; in healthy stomach.", bucket: 1 },
-                    { text: "Found inside a dead, caseous TB granuloma.", bucket: 0 },
-                    { text: "Kidney calcification caused by a parathyroid tumor.", bucket: 1 }
+                "type": "mcq",
+                "question": "Pathologic calcification only occurs when a patient has abnormally high levels of calcium in their blood.",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                explanation: ""
+                "answer": 1,
+                "explanation": "While metastatic calcification is driven by abnormally high blood calcium levels, dystrophic calcification occurs in dead or dying tissues even when a patient's serum calcium levels are completely normal."
+            },
+            {
+                "type": "concept",
+                "title": "Dystrophic Calcification - The Tombstone",
+                "text": "This pathway specifically targets **dead, dying, or damaged tissues** (areas of necrosis).\n\nHere is exactly how to identify it:\n\n**Tissue Health**:\n• The local tissue is dead or damaged.\n\n**Blood Levels**:\n• The patient's blood calcium levels are **perfectly normal**!\n• The calcification is driven entirely by local tissue damage, not a systemic calcium overload.",
+                "subtext": "",
+                "buttonText": "The Tombstone"
+            },
+            {
+                "type": "fill",
+                "question": "A key diagnostic feature of dystrophic calcification is that the patient's systemic serum calcium levels are ________.",
+                "options": [
+                    "Normal",
+                    "Elevated",
+                    "Depleted",
+                    "Fluctuating"
+                ],
+                "answer": [
+                    0
+                ],
+                "explanation": "Dystrophic calcification is a local reaction to necrosis and occurs despite perfectly normal systemic serum calcium levels."
+            },
+            {
+                "type": "concept",
+                "title": "The Clinical Impact – A Permanent Record",
+                "text": "Dystrophic calcification serves as a permanent, physical record of past tissue injury.\n\nWhile it marks an old cellular battleground, turning to stone can cause severe clinical problems:\n\n• **Arteries**: Hardens advanced atherosclerotic plaques, making blood vessels dangerously stiff.\n• **Heart Valves**: Hardens aging or damaged valves so they cannot open properly (causing a dangerous condition called aortic stenosis).\n• **Lungs**: Leaves permanent, hardened scars inside old caseous necrosis from healed Tuberculosis infections.",
+                "subtext": "",
+                "buttonText": "Clinical Impact"
+            },
+            {
+                "type": "concept",
+                "title": "Metastatic Calcification - The Systemic Overload",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 7/2.7.2/comparison_calcification.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "This pathway is the exact opposite of dystrophic calcification!\n\nHere is exactly how to identify it:\n\n**Tissue Health**:\n• The tissue receiving the calcium is **perfectly healthy and normal**.\n\n**Blood Levels**:\n• The patient has **Hypercalcemia** (dangerously high blood calcium).\n\n**The Mechanism**:\n• The blood is so flooded with excess calcium that the mineral spills over and physically precipitates into living tissues!",
+                "subtext": "",
+                "buttonText": "Systemic Overload"
+            },
+            {
+                "type": "mcq",
+                "question": "Which of the following best describes the tissue environment where metastatic calcification takes place?",
+                "options": [
+                    "Areas of severe caseous necrosis.",
+                    "Normal, healthy tissues exposed to hypercalcemia.",
+                    "Dead cells that have formed a crystallization seed."
+                ],
+                "answer": 1,
+                "explanation": "Metastatic calcification targets viable, healthy tissues simply because the systemic blood is severely overloaded with calcium."
+            },
+            {
+                "type": "concept",
+                "title": "The Four Causes of Hypercalcemia",
+                "text": "Why Does Blood Calcium Spike?\n\nFour major clinical conditions drive the systemic calcium overload seen in metastatic calcification:\n\n1. **Increased Parathyroid Hormone (PTH): The Miner.**\n• PTH pulls stored calcium out of the bones and dumps it into the blood.\n\n2. **Bone Destruction: The Demolition.**\n• Tumors physically destroy the bone tissue, releasing massive amounts of stored calcium.\n\n3. **Vitamin D Disorders: The Sponge.**\n• Too much Vitamin D causes the intestines to over-absorb calcium from your diet.\n\n4. **Renal Failure: The Chain Reaction.**\n• Failing kidneys retain phosphate. To compensate, the body releases even more PTH, which drives calcium levels up.",
+                "subtext": "**A Historic Mistake: Milk-Alkali Syndrome!**\nIn the past, patients with stomach ulcers would treat themselves by drinking massive amounts of milk (high calcium) AND taking tons of antacids (alkali). This accidental combination flooded the blood with calcium, triggering severe metastatic calcification!",
+                "buttonText": "Why Blood Calcium Spikes"
+            },
+            {
+                "type": "concept",
+                "title": "Target Organs – The Acid Secretors",
+                "text": "**Where Does the Calcium Spill?**\n• Metastatic calcification does not deposit calcium randomly.\n• It specifically targets tissues that **secrete acid**.\n\nThe 3 primary targets are:\n1. **The Stomach** (Gastric mucosa)\n2. **The Lungs**\n3. **The Kidneys**\n\n**Why these specific organs?**\n• By actively secreting acid, these cells leave behind an internal **alkaline (basic) compartment**.\n• This alkaline environment is the perfect chemical trap—it forces the excess calcium to precipitate into solid stone!",
+                "subtext": "",
+                "buttonText": "The Acid Secretors"
+            },
+            {
+                "type": "concept",
+                "title": "Morphology - The Chalky Deposits",
+                "images": [
+                    {
+                        "url": "images/Chapter 2/Unit 7/2.7.2/calcification_morphology.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "**What Does Calcification Look Like?**\nWhether the pathway is dystrophic or metastatic, the final result looks exactly the same!\n\n**To the naked eye (Macroscopic/Gross)**:\n• The calcium deposits appear as fine, **chalky-white, gritty clumps**.\n\n**Under the microscope (H&E Stain)**:\n• The calcium appears as **deeply basophilic** (dark purple or blue), amorphous granular deposits.",
+                "subtext": "",
+                "buttonText": "Chalky Deposits"
+            },
+            {
+                "type": "concept",
+                "title": "Morphology - Psammoma Bodies",
+                "text": "Occasionally, dystrophic calcium deposits take on a highly specific and famous shape!\n\nHere is how they form and why they matter:\n\n**The Shape**:\n• Calcium builds up in concentric layers around a dead cell, creating a **laminated, onion-like structure**.\n\n**The Name**:\n• Because they resemble tiny grains of sand, they are called **psammoma bodies** (from the Greek word for sand).",
+                "subtext": "**The Clinical Clue**: These layered stones are a classic diagnostic hallmark for certain cancers, most famously **Papillary Thyroid Carcinoma**.",
+                "buttonText": "Next"
+            },
+            {
+                "type": "fill",
+                "question": "The concentrically layered, sand-like calcium deposits frequently seen in specific cancers are known as ________ bodies.",
+                "options": [
+                    "Macrophage",
+                    "Psammoma",
+                    "Mallory",
+                    "Eosinophilic"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "Psammoma bodies are laminated calcifications that serve as important diagnostic markers in pathology."
+            },
+            {
+                "type": "match",
+                "question": "Match the characteristic or clinical scenario to the correct type of pathologic calcification.",
+                "pairs": [
+                    {
+                        "left": "Dystrophic",
+                        "right": "Occurs in dead or dying tissue with normal serum calcium"
+                    },
+                    {
+                        "left": "Metastatic",
+                        "right": "Occurs in normal, healthy tissue due to hypercalcemia"
+                    },
+                    {
+                        "left": "Psammoma bodies",
+                        "right": "Concentrically layered calcium deposits"
+                    },
+                    {
+                        "left": "Hyperparathyroidism",
+                        "right": "Systemic cause of metastatic calcification"
+                    }
+                ],
+                "explanation": "Dystrophic calcification affects dead tissue with normal calcium levels, metastatic calcification affects healthy tissue due to hypercalcemia, psammoma bodies are concentrically layered calcium deposits, and hyperparathyroidism is a systemic cause of metastatic calcification."
             }
         ],
         next: "3.1.1"
