@@ -5517,7 +5517,6 @@ const moduleContent = {
                 ],
                 "answer": [
                     0,
-                    2,
                     1
                 ],
                 "explanation": "Vasodilation drives <b>Redness</b> and <b>Heat</b>, while the 'leaky pipes' of increased vascular permeability cause <b>Swelling</b> (edema)."
