@@ -4474,7 +4474,7 @@ const moduleContent = {
                 "title": "The Survival Strategy",
                 "text": "Cells are constantly adjusting to their environment. When faced with stress or disease, they undergo **cellular adaptation**.\n\nThis is a **reversible structural** and **functional response**.\n\nThe main goals of adaptation are to:\n• **Survive** the new stress.\n• **Continue functioning**.\n• **Prevent the cell** from crossing the threshold into actual cell injury.",
                 "subtext": "",
-                "buttonText": "Goals of Adaptation"
+                "buttonText": "Explore the Pathways"
             },
             {
                 "type": "concept",
@@ -4487,7 +4487,7 @@ const moduleContent = {
                 ],
                 "text": "Cells adapt by changing their size, number, or type.\n\nThere are 4 main pathways of adaptation:\n1. **Hypertrophy**: Increased cell size.\n2. **Atrophy**: Decreased cell size.\n3. **Hyperplasia**: Increased cell number.\n4. **Metaplasia**: Change in cell type.\n\nLet's start by looking at how cells change their physical size!",
                 "subtext": "",
-                "buttonText": "The Four Pathways"
+                "buttonText": "Check Your Knowledge"
             },
             {
                 "type": "mcq",
@@ -4510,7 +4510,7 @@ const moduleContent = {
                 ],
                 "text": "Meet Hypertrophy!\n\nThis is an increase in the physical size of individual cells, which ultimately makes the entire organ larger.\n\n**The Golden Rule**: There are **NO new cells, just bigger ones**!\n\n**How do they grow?**\n• The cells get bigger by synthesizing more structural proteins and organelles.\n\nThis manufacturing overdrive is triggered by two things:\n\n**Increased Workload**:\n• Mechanical sensors detect physical stress.\n\n**Chemical Signals**:\n• Growth factors and vasoactive agents tell the cell to bulk up.",
                 "subtext": "",
-                "buttonText": "Manufacturing Overdrive"
+                "buttonText": "Size vs. Number"
             },
             {
                 "type": "fill",
@@ -4540,7 +4540,7 @@ const moduleContent = {
                 ],
                 "text": "Why do they grow?\n• Hypertrophy happens when cells are forced to work harder.\n\nThis growth happens in two main ways:\n\n**Physiological (Normal)**:\n• Driven by healthy stress or hormones.\n• _Examples_: **Skeletal muscle** bulging from weightlifting, or the **uterus** expanding during pregnancy.\n\n**Pathological (Abnormal)**:\n• Driven by disease.\n• _Examples_: The **heart** enlarging to pump against high blood pressure, or the **bladder** thickening to push urine past an enlarged prostate.",
                 "subtext": "",
-                "buttonText": "Why Cells Grow"
+                "buttonText": "The Cardiac Response"
             },
             {
                 "type": "mcq",
@@ -4564,7 +4564,7 @@ const moduleContent = {
                 ],
                 "text": "Meet Atrophy!\n\nThe exact opposite of hypertrophy is atrophy: a decrease in cell size and metabolic activity.\n\nIf enough cells shrink, the entire organ shrinks too.\n\n**Why do they shrink?**\n• It is a pure survival mechanism!\n\nBy shrinking, the cell reduces its energy needs so it can survive conditions like:\n• Decreased workload\n• Diminished blood supply\n• Lack of nutrition or stimulation",
                 "subtext": "",
-                "buttonText": "A Survival Mechanism"
+                "buttonText": "The 5 Causes"
             },
             {
                 "type": "concept",
@@ -4577,7 +4577,7 @@ const moduleContent = {
                 ],
                 "text": "What causes atrophy?\n• A cell will shrink when its normal support systems are removed.\n\nThe 5 most common causes are:\n1. **Decreased workload**: Like a broken limb immobilized in a cast.\n2. **Loss of nerve supply**: Denervation.\n3. **Reduced blood supply**: Ischemia.\n4. **Inadequate nutrition**: Malnutrition or starvation.\n5. **Loss of endocrine stimulation**: A drop in hormone levels.",
                 "subtext": "",
-                "buttonText": "The 5 Causes"
+                "buttonText": "Test the Goal"
             },
             {
                 "type": "mcq",
@@ -4608,7 +4608,7 @@ const moduleContent = {
                 ],
                 "text": "How does a cell actually make itself smaller? To shrink, the cell must break down its own internal components.\n\nIt achieves this using 3 main strategies:\n\n**Decreased Synthesis**:\n• It simply stops making new proteins.\n\n**Increased Degradation**:\n• It tags its own structural proteins with a marker called **ubiquitin** and sends them to the **proteasome** (the cell's internal trash shredder).\n\n**Autophagy (\"Self-eating\")**:\n• The cell literally digests its own unneeded organelles to recycle nutrients and survive!",
                 "subtext": "",
-                "buttonText": "Shrinking Strategies"
+                "buttonText": "Scaling Summary"
             },
             {
                 "type": "match",
@@ -4660,7 +4660,7 @@ const moduleContent = {
                 ],
                 "text": "Meet Hyperplasia!\n\nWhile hypertrophy increases cell size, **hyperplasia** is an **increase in the number of cells**.\n\nBy rapidly dividing, they **multiply their workforce** which makes the entire organ big.\n\n**What triggers it?**\n• It is usually driven by **hormones or growth factors** demanding a larger workforce.\n\n**The Golden Rule**: Hyperplasia only happens in **tissues capable of dividing**.\n\n**Can divide**:\n• Skin, glands, and bone marrow.\n\n**Cannot divide**:\n• Cardiac muscle and nerve cells.\n\nTo survive stress, tissues that cannot divide must rely entirely on **hypertrophy** (getting bigger)!",
                 "subtext": "",
-                "buttonText": "Division Limits"
+                "buttonText": "Test the Limits"
             },
             {
                 "type": "mcq",
@@ -4687,7 +4687,7 @@ const moduleContent = {
                 ],
                 "text": "Physiological hyperplasia is a normal, healthy response to the body's changing needs.\n\nIt completely reverts back to normal when the stimulus is removed. Here are two amazing examples:\n\n**Hormonal**:\n• Hormones drive the massive proliferation of glandular cells in the **female breast** during puberty and pregnancy.\n\n**Compensatory (The Liver's Superpower!)**:\n• If a portion of the **liver** is surgically removed, the remaining cells rapidly divide to regenerate the missing tissue.\n• It is a normal, healthy, and strictly controlled survival response.\n• Once the organ is fully restored, the growth stops entirely!",
                 "subtext": "",
-                "buttonText": "Healthy Growth"
+                "buttonText": "The Danger Zone"
             },
             {
                 "type": "concept",
@@ -4700,7 +4700,7 @@ const moduleContent = {
                 ],
                 "text": "Pathological hyperplasia happens when there is excessive, uncontrolled stimulation from hormones or growth factors.\n\nHere is the crucial clinical distinction:\n\n**It is NOT cancer**:\n• The process is still completely **reversible** if the excessive hormones are removed.\n\n**The Danger (\"Fertile Soil\")**:\n• Rapid, excessive cell division massively increases the chance of genetic errors.\n• This creates a \"fertile soil\" for mutations that can eventually turn into **CANCER**.",
                 "subtext": "",
-                "buttonText": "The Danger Zone"
+                "buttonText": "The Cancer Link"
             },
             {
                 "type": "mcq",
@@ -4732,7 +4732,7 @@ const moduleContent = {
                 "title": "Metaplasia - Changing Identity",
                 "text": "**Meet Metaplasia: The Shapeshifter!**\nThis is a **reversible change** where one fully mature cell type is completely replaced by a different mature cell type.\n\n**Why does it happen?**\n• It is an extreme survival mechanism.\n• A delicate cell type is swapped out for a tougher cell type that is better suited to withstand a specific, chronic stress.",
                 "subtext": "**The Shapeshifter Mystery**: How does a tissue actually shapeshift? Does an already mature cell just magically change its identity? No! (We will see exactly how they do it next!)",
-                "buttonText": "The Mechanism"
+                "buttonText": "Stemp Cell Secrets"
             },
             {
                 "type": "concept",
@@ -4745,7 +4745,7 @@ const moduleContent = {
                 ],
                 "text": "**How Does Metaplasia Actually Work?**\n• Metaplasia does NOT happen by magically transforming an already mature cell into a different one.\n• It actually happens at the **stem cell level**!\n\nHere is the exact mechanism:\n\n**The Trigger**:\n• A harsh, stressful environment releases chemical signals like cytokines and growth factors.\n\n**The Reprogramming**:\n• These signals genetically reprogram the underlying tissue **stem cells**.\n\n**The Swap**:\n• Instead of producing the original fragile cell type, the stem cells start differentiating into a brand new, tougher cell type!",
                 "subtext": "",
-                "buttonText": "Stem Cell Level"
+                "buttonText": "Identity Crisis Quiz"
             },
             {
                 "type": "fill",
@@ -4766,14 +4766,14 @@ const moduleContent = {
                 "title": "Classic Example: The Smoker's Lung",
                 "text": "To survive the constant, toxic irritation of cigarette smoke, the airway undergoes a massive shapeshift:\n\n**The Original Cell**:\n• Fragile, **ciliated columnar cells**.\n\n**The Tough Replacement**:\n• Rugged, **stratified squamous cells**.\n\n**The Clinical Cost**:\n• While the new, rugged cells survive the smoke, this adaptation comes at a steep price.\n• The lung completely loses its protective, mucus-clearing cilia (which is exactly why smokers develop a chronic cough)!",
                 "subtext": "",
-                "buttonText": "The Smoker's Airway"
+                "buttonText": "Acid Reflux Shift"
             },
             {
                 "type": "concept",
                 "title": "Another Classic Example: Barrett Esophagus",
                 "text": "When a patient suffers from chronic acid reflux, the lower esophagus is severely burned by stomach acid.\n\nTo survive this highly acidic environment, the tissue undergoes another massive shapeshift:\n\n**The Original Cell**:\n• Normal, flat **squamous cells**.\n\n**The Tough Replacement**:\n• Acid-resistant **columnar cells** (just like the ones found in the stomach!).\n\nJust like the smoker's lung, the local stem cells genetically reprogram themselves to build a tougher wall against the chronic stress.",
                 "subtext": "",
-                "buttonText": "Acid Reflux Shift"
+                "buttonText": "The Dark Side"
             },
             {
                 "type": "concept",
@@ -4786,7 +4786,7 @@ const moduleContent = {
                 ],
                 "text": "Just like pathological hyperplasia, metaplasia is a double-edged sword. While it keeps the tissue alive in the short term, it creates a dangerous long-term problem.\n\nIf the chronic stress is not removed:\n\n**Constant Irritation**:\n• The tissue remains persistently inflamed.\n\n**Persistent Reprogramming**:\n• The stem cells are forced to constantly adapt and change.\n\n**The Ultimate Danger**:\n• This highly unstable environment massively increases the risk of malignant transformation (**cancer**).",
                 "subtext": "",
-                "buttonText": "The Double-Edged Sword"
+                "buttonText": "The Final Match"
             },
             {
                 "type": "match",
@@ -4831,14 +4831,14 @@ const moduleContent = {
                 "title": "Intracellular Hoarding",
                 "text": "Normally, cells keep their cytoplasm perfectly clean. But under stress or injury, they become hoarders!\n\n**What exactly do they hoard?**\n• **Category 1**: Normal lipids, proteins, and carbohydrates.\n• **Category 2**: Abnormal Waste.\n• **Category 3**: Pigments.\n\n**Where does it go, and is it dangerous?**\n• These pool in the **cytoplasm, or the nucleus**.\n• Depending on the substance and the amount, this accumulation can be **completely harmless** or **highly toxic** to the cell.",
                 "subtext": "",
-                "buttonText": "The Three Categories"
+                "buttonText": "Failure Mechanisms"
             },
             {
                 "type": "concept",
                 "title": "The Four Mechanisms",
                 "text": "Cells accumulate substances when their internal processing systems fail. This happens in 4 main ways:\n\n1. **Abnormal metabolism**: The cell cannot process a normal substance fast enough.\n2. **Defective transport or folding**: Mutated proteins pile up because they cannot be exported.\n3. **Enzyme deficiency**: A missing enzyme prevents the breakdown of metabolites.\n4. **Indigestible materials**: The cell engulfs exogenous substances that it lacks the enzymes to degrade.",
                 "subtext": "",
-                "buttonText": "Why Cells Hoard"
+                "buttonText": "Check the Mechanics"
             },
             {
                 "type": "match",
@@ -4868,7 +4868,7 @@ const moduleContent = {
                 "title": "Category 1 - Normal Stuff, Abnormal Amounts",
                 "text": "The first category of cellular hoarding involves completely normal, everyday substances!\n\n**Why does it happen?**\nThe cell simply takes in more than it can process, or it stops burning fuel efficiently.\n\n**What piles up?**\nThis metabolic backup leads to a massive accumulation of normal cellular materials, specifically:\n• **Lipids** (Fats)\n• **Carbohydrates** (Like glycogen)\n• **Excess Proteins**",
                 "subtext": "",
-                "buttonText": "Normal Substances"
+                "buttonText": "Triglycerides vs. Cholesterol"
             },
             {
                 "type": "concept",
@@ -4885,7 +4885,7 @@ const moduleContent = {
                 ],
                 "text": "The most common macromolecule that cells hoard is fat! To understand how fat clutters the body, we must first know the difference between the two main types:\n\n**Triglycerides: The Fuel**\n**Normal Job**:\n• They store unused calories to be burned later for energy.\n\n**The Hoarding Problem**:\n•  Steatosis (Fatty Change).\n\n**What Happens**:\n• Toxins (like alcohol) disrupt normal metabolism.\n• The unburned fuel piles up into massive, clear vacuoles that crowd the cell—most commonly in the liver.\n\n**Cholesterol: The Building Blocks**\n**Normal Job**:\n• Not used for energy! The body uses it to build cell membranes and hormones.\n\n**The Hoarding Problem**:\n• When cells hoard too many building blocks, they get deposited in dangerous places.\n\n**Clinical Results**:\n This causes \n• **Atherosclerosis**: plaque buildup inside blood vessel walls.\n• **Xanthomas**: yellowish cholesterol clusters deposited just under the skin.",
                 "subtext": "",
-                "buttonText": "Triglycerides vs Cholesterol"
+                "buttonText": "Glycogen Storage"
             },
             {
                 "type": "concept",
@@ -4898,7 +4898,7 @@ const moduleContent = {
                 ],
                 "text": "Glycogen is a normal energy store, but hoarding too much is pathological.\n\nThis excessive accumulation happens in 2 main clinical scenarios:\n\n**Poorly Controlled Diabetes**:\n• Chronically high blood sugar forces the cell to store massive amounts of glucose as glycogen.\n\n**Glycogen Storage Diseases**:\n• A genetic defect where the cell lacks the specific lysosomal enzymes needed to break glycogen down.",
                 "subtext": "",
-                "buttonText": "Energy Storage"
+                "buttonText": "Pink Protein Blobs"
             },
             {
                 "type": "concept",
@@ -4911,14 +4911,14 @@ const moduleContent = {
                 ],
                 "text": "**Hoarding Proteins: The Pink Clutter**\nCells hoard proteins when forced to absorb or produce too much. They appear as glassy, **bright pink (eosinophilic) droplets**.\n\n**Kidney Disease (Over-absorption)**:\n• When proteins leak into urine, kidney tubule cells reabsorb them, becoming packed with pink droplets.\n\n**Russell Bodies (Overproduction)**:\n• When plasma cells make excessive antibodies, their ER swells with pink protein blobs called **Russell bodies**.",
                 "subtext": "",
-                "buttonText": "The Pink Clutter"
+                "buttonText": "Abnormal Waste"
             },
             {
                 "type": "concept",
                 "title": "Category 2 – Hoarding Abnormal Waste",
                 "text": "This occurs when the cell manufactures a defective product, or when its internal \"garbage disposal\" system completely fails.\n\nThis abnormal clutter falls into 2 main types:\n\n**1. The Mutated Misfits: Defective Proteins**\n**Alpha-1-antitrypsin deficiency**\n• A genetic mutation causes proteins to misfold. They cannot be exported and get permanently stuck inside liver cells.\n\n**Mallory bodies**\n• Damaged structural proteins of the cytoskeleton pile up in liver cells (a classic sign of alcoholic liver disease).\n\n**2. The Unprocessed Garbage: Missing Enzymes**\nWhen a cell lacks a key lysosomal enzyme, waste accumulates, causing lysosomal storage diseases:\n\n**Tay-Sachs**\n• Missing hexosaminidase A → toxic GM2 ganglioside builds up → fatal neuronal swelling.\n\n**Gaucher**\n• Missing glucocerebrosidase → lipids accumulate in macrophages → cells look like \"crumpled tissue paper.\"",
                 "subtext": "",
-                "buttonText": "Abnormal Waste Types"
+                "buttonText": "Test the Misfits"
             },
             {
                 "type": "mcq",
@@ -4950,7 +4950,7 @@ const moduleContent = {
                 "title": "Category 3 - Pigments (The Colorful Clutter)",
                 "text": "The third category of cellular accumulation involves pigments, colored substances cells hoard.\n\nThis colorful clutter comes from two different sources:\n\n**Exogenous Pigments (Outside Invaders):** Colors that enter from the outside world.\n\n**Endogenous Pigments (Internal Products):** Colors manufactured by the body itself.",
                 "subtext": "",
-                "buttonText": "Pigment Sources"
+                "buttonText": "Indigestible Colors"
             },
             {
                 "type": "concept",
@@ -4963,7 +4963,7 @@ const moduleContent = {
                 ],
                 "text": "Exogenous pigments are indigestible materials from the outside world.\n\nBecause cells completely lack the enzymes to digest these foreign colors, they get trapped inside the cell forever!\n\n**Carbon Dust (Air Pollution)**\nInhaled carbon is eaten by lung macrophages but can't be digested. It stays trapped forever, turning lung tissue permanently black (anthracosis).\n\n**Tattoo Ink**\nInjected ink is engulfed by skin macrophages but can't be broken down. The pigment stays trapped forever, making tattoos permanent.",
                 "subtext": "",
-                "buttonText": "Indigestible Colors"
+                "buttonText": "Internal Pigments"
             },
             {
                 "type": "fill",
@@ -4990,7 +4990,7 @@ const moduleContent = {
                 ],
                 "text": "Endogenous pigments are synthesized by the body itself.\n\nHere are the 3 most important ones to know:\n\n**1. Melanin: Brown/Black**\n• The normal pigment made by melanocytes to protect the skin from UV radiation.\n\n**2. Hemosiderin: Golden-Yellow**\n• Made of large aggregates of stored iron.\n• You can see it locally (like in an old healing bruise) or systemically in dangerous iron-overload disorders (hemosiderosis).\n\n**3. Lipofuscin: Brownish-Yellow**\n• Made of oxidized lipids.\n• It is not toxic, but acts as a telltale sign of aging and past free radical damage.\n• Because of this, it is famously known as the cellular 'wear-and-tear' pigment!",
                 "subtext": "",
-                "buttonText": "Internal Pigments"
+                "buttonText": "Pigment Review"
             },
             {
                 "type": "mcq",
@@ -5052,7 +5052,7 @@ const moduleContent = {
                 "title": "Turning to Stone",
                 "text": "Sometimes, cells and tissues literally turn to stone!\n\nThis is called **Pathologic Calcification**: the **abnormal deposition of calcium salts** (along with iron and magnesium) in the body.\n\nThis process is divided into 2 pathways:\n1. **Dystrophic Calcification**\n2. **Metastatic Calcification**\n\n**How do we tell them apart?**\nThese two pathways are differentiated based on two simple questions:\n• **Tissue Health**: Is the calcium depositing in damaged/dead tissue, or perfectly healthy tissue?\n• **Blood Levels**: Are the patient's blood calcium levels normal, or dangerously high?",
                 "subtext": "",
-                "buttonText": "The Two Pathways"
+                "buttonText": "The Tombstone"
             },
             {
                 "type": "mcq",
@@ -5069,7 +5069,7 @@ const moduleContent = {
                 "title": "Dystrophic Calcification - The Tombstone",
                 "text": "This pathway specifically targets **dead, dying, or damaged tissues** (areas of necrosis).\n\nHere is exactly how to identify it:\n\n**Tissue Health**:\n• The local tissue is dead or damaged.\n\n**Blood Levels**:\n• The patient's blood calcium levels are **perfectly normal**!\n• The calcification is driven entirely by local tissue damage, not a systemic calcium overload.",
                 "subtext": "",
-                "buttonText": "The Tombstone"
+                "buttonText": "Hardened Records"
             },
             {
                 "type": "fill",
@@ -5090,7 +5090,7 @@ const moduleContent = {
                 "title": "The Clinical Impact – A Permanent Record",
                 "text": "Dystrophic calcification serves as a permanent, physical record of past tissue injury.\n\nWhile it marks an old cellular battleground, turning to stone can cause severe clinical problems:\n\n• **Arteries**: Hardens advanced atherosclerotic plaques, making blood vessels dangerously stiff.\n• **Heart Valves**: Hardens aging or damaged valves so they cannot open properly (causing a dangerous condition called aortic stenosis).\n• **Lungs**: Leaves permanent, hardened scars inside old caseous necrosis from healed Tuberculosis infections.",
                 "subtext": "",
-                "buttonText": "Clinical Impact"
+                "buttonText": "Systemic Overload"
             },
             {
                 "type": "concept",
@@ -5103,7 +5103,7 @@ const moduleContent = {
                 ],
                 "text": "This pathway is the exact opposite of dystrophic calcification!\n\nHere is exactly how to identify it:\n\n**Tissue Health**:\n• The tissue receiving the calcium is **perfectly healthy and normal**.\n\n**Blood Levels**:\n• The patient has **Hypercalcemia** (dangerously high blood calcium).\n\n**The Mechanism**:\n• The blood is so flooded with excess calcium that the mineral spills over and physically precipitates into living tissues!",
                 "subtext": "",
-                "buttonText": "Systemic Overload"
+                "buttonText": "Why Blood Spikes"
             },
             {
                 "type": "mcq",
@@ -5121,14 +5121,14 @@ const moduleContent = {
                 "title": "The Four Causes of Hypercalcemia",
                 "text": "Why Does Blood Calcium Spike?\n\nFour major clinical conditions drive the systemic calcium overload seen in metastatic calcification:\n\n1. **Increased Parathyroid Hormone (PTH): The Miner.**\n• PTH pulls stored calcium out of the bones and dumps it into the blood.\n\n2. **Bone Destruction: The Demolition.**\n• Tumors physically destroy the bone tissue, releasing massive amounts of stored calcium.\n\n3. **Vitamin D Disorders: The Sponge.**\n• Too much Vitamin D causes the intestines to over-absorb calcium from your diet.\n\n4. **Renal Failure: The Chain Reaction.**\n• Failing kidneys retain phosphate. To compensate, the body releases even more PTH, which drives calcium levels up.",
                 "subtext": "**A Historic Mistake: Milk-Alkali Syndrome!**\nIn the past, patients with stomach ulcers would treat themselves by drinking massive amounts of milk (high calcium) AND taking tons of antacids (alkali). This accidental combination flooded the blood with calcium, triggering severe metastatic calcification!",
-                "buttonText": "Why Blood Calcium Spikes"
+                "buttonText": "The Acid Secretors"
             },
             {
                 "type": "concept",
                 "title": "Target Organs – The Acid Secretors",
                 "text": "**Where Does the Calcium Spill?**\n• Metastatic calcification does not deposit calcium randomly.\n• It specifically targets tissues that **secrete acid**.\n\nThe 3 primary targets are:\n1. **The Stomach** (Gastric mucosa)\n2. **The Lungs**\n3. **The Kidneys**\n\n**Why these specific organs?**\n• By actively secreting acid, these cells leave behind an internal **alkaline (basic) compartment**.\n• This alkaline environment is the perfect chemical trap—it forces the excess calcium to precipitate into solid stone!",
                 "subtext": "",
-                "buttonText": "The Acid Secretors"
+                "buttonText": "Visual Hallmarks"
             },
             {
                 "type": "concept",
@@ -5141,14 +5141,14 @@ const moduleContent = {
                 ],
                 "text": "**What Does Calcification Look Like?**\nWhether the pathway is dystrophic or metastatic, the final result looks exactly the same!\n\n**To the naked eye (Macroscopic/Gross)**:\n• The calcium deposits appear as fine, **chalky-white, gritty clumps**.\n\n**Under the microscope (H&E Stain)**:\n• The calcium appears as **deeply basophilic** (dark purple or blue), amorphous granular deposits.",
                 "subtext": "",
-                "buttonText": "Chalky Deposits"
+                "buttonText": "Psammoma Bodies"
             },
             {
                 "type": "concept",
                 "title": "Morphology - Psammoma Bodies",
                 "text": "Occasionally, dystrophic calcium deposits take on a highly specific and famous shape!\n\nHere is how they form and why they matter:\n\n**The Shape**:\n• Calcium builds up in concentric layers around a dead cell, creating a **laminated, onion-like structure**.\n\n**The Name**:\n• Because they resemble tiny grains of sand, they are called **psammoma bodies** (from the Greek word for sand).",
                 "subtext": "**The Clinical Clue**: These layered stones are a classic diagnostic hallmark for certain cancers, most famously **Papillary Thyroid Carcinoma**.",
-                "buttonText": "Next"
+                "buttonText": "Final Summary"
             },
             {
                 "type": "fill",
@@ -5508,11 +5508,11 @@ const moduleContent = {
             },
             {
                 "type": "fill",
-                "question": "Let's check your understanding of what blood vessels do during an inflammatory response!\n\nIncreased blood flow causes ________ and ________, while leaky vessels cause fluid accumulation, leading to ________.",
+                "question": "Let's check your understanding of what blood vessels do during an inflammatory response!\n\nIncreased blood flow causes ________, while leaky vessels acause fluid accumulation leading to ________ correct answer redness and swelling.",
                 "options": [
                     "Redness",
                     "Swelling",
-                    "Heat",
+                    "Cold",
                     "Pain"
                 ],
                 "answer": [
@@ -5602,7 +5602,8 @@ const moduleContent = {
                 "images": [
                     {
                         "url": "images/Chapter 3/Unit 1/3.1.3/five_rs_playbook.png",
-                        "reference": "The Five Rs of Inflammation"
+                        "text": "The Five Rs of Inflammation",
+                        "reference": "Image generated by ChatGPT"
                     }
                 ],
                 "text": "Every good security team has a strict protocol.\n\nThe body's inflammatory response follows a playbook known as the **5 Rs**.\n\nGuiding the immune system from pathogen entry to full healing:\n• **Recognition**: Detecting the threat.\n• **Recruitment**: Calling the white blood cells to the scene.\n• **Removal**: Destroying the invader and cleaning up the debris.\n• **Regulation**: Hitting the brakes so the response doesn't destroy healthy tissue.\n• **Resolution**: Healing the tissue and returning to normal function.",
@@ -5615,7 +5616,8 @@ const moduleContent = {
                 "images": [
                     {
                         "url": "images/Chapter 3/Unit 1/3.1.3/sentinel_cells_locations.png",
-                        "reference": "Immune Sentinel Cells and Their Locations"
+                        "text": "Immune Sentinel Cells and Their Locations",
+                        "reference": "Image generated by ChatGPT"
                     }
                 ],
                 "text": "Before the security alarm can sound, the body must first detect the danger!\n\nThis is the job of the **sentinel cells** (**phagocytes, dendritic cells, and epithelial cells**), which act as the body's **cellular lookouts**.\n\nHow do they spot the enemy?\n\nThey sit quietly in tissues, equipped with receptors that instantly recognize two things:\n• **Foreign Invaders**: Microbes from the outside world.\n• **Internal Casualties**: Damaged or dead host cells.",
@@ -5649,7 +5651,8 @@ const moduleContent = {
                 "images": [
                     {
                         "url": "images/Chapter 3/Unit 1/3.1.3/tlr_recognition_pathway.png",
-                        "reference": "Mechanism of TLR Signaling"
+                        "text": "Mechanism of TLR Signaling",
+                        "reference": "Image generated by ChatGPT"
                     }
                 ],
                 "text": "The most important family of receptors used to detect these threats are the **Toll-Like Receptors (TLRs)**.\n\nTo catch every possible invader, TLRs are strategically placed in two key locations:\n• **On the Surface (Plasma Membrane)**: To detect extracellular microbes floating outside the cell.\n• **On the Inside (Endosomes)**: To detect ingested microbes and viral DNA hiding inside the cell.",
@@ -5673,7 +5676,8 @@ const moduleContent = {
                 "images": [
                     {
                         "url": "images/Chapter 3/Unit 1/3.1.3/inflammasome_mechanism.png",
-                        "reference": "Role of the Inflammasome in Inflammation"
+                        "text": "Role of the Inflammasome in Inflammation",
+                        "reference": "Image generated by ChatGPT"
                     }
                 ],
                 "text": "To specifically detect the products of dead cells (**DAMPs**) and certain microbes floating inside the cytoplasm, the cell relies on a massive multi-protein complex called the **Inflammasome**.\n\nHere is how this internal alarm system works: \n• **The Sensor**: The Inflammasome detects cellular damage or stress signals.\n• **The Output**: It activates an enzyme called Caspase-1, which triggers the massive production of **Interleukin-1 (IL-1)**.\n• **The Result**: IL-1 acts as a powerful mediator that kicks off the inflammatory response and induces **fever**!",
@@ -5769,194 +5773,302 @@ const moduleContent = {
         "next": "3.2.1"
     },
 
-    // "3.1.4": {
-    //     title: "The Sprinter vs. The Marathoner (Acute vs. Chronic) ⚡🐢",
-    //     objectives: [
-    //         "Distinguish between Acute and Chronic inflammation by comparing their onset, duration, primary cellular players, and extent of tissue damage."
-    //     ],
-    //     data: [
-    //         {
-    //             type: "concept",
-    //             title: "A Tale of Two Responses",
-    //             text: "We know why inflammation happens and the 5 steps it follows. But did you know there are two completely different \"modes\" of inflammation?\n\nDepending on the threat, the body will launch either an **Acute** (short-term) or a **Chronic** (long-term) response. Think of Acute inflammation as a **Sprinter**, and Chronic inflammation as a **Marathoner**!",
-    //             subtext: "",
-    //             buttonText: "Next"
-    //         },
-    //         {
-    //             type: "concept",
-    //             title: "The Sprinter: Acute Inflammation",
-    //             text: "**Acute Inflammation** is the body's rapid response team.\n\n• **Onset**: Fast! It starts within minutes to hours.\n• **Duration**: Short. It lasts for a few days to a week.\n• **Tissue Damage**: Usually mild and self-limited. Once the threat is gone, the tissue typically returns to normal.",
-    //             subtext: "",
-    //             buttonText: "Next"
-    //         },
-    //         {
-    //             type: "concept",
-    //             title: "The Marathoner: Chronic Inflammation",
-    //             text: "If the rapid response team fails to clear the threat, or if the trigger is a persistent autoimmune disease, the body switches to **Chronic Inflammation**.\n\n• **Onset**: Slow. It takes days to develop.\n• **Duration**: Long. It lasts for weeks, months, or even years!\n• **Tissue Damage**: Often severe and progressive. Because the battle drags on, healthy tissue gets destroyed and replaced by scar tissue (fibrosis).",
-    //             subtext: "",
-    //             buttonText: "Next"
-    //         },
-    //         {
-    //             type: "fill",
-    //             question: "____________ inflammation has a rapid onset and usually resolves in a few days, whereas ____________ inflammation has a slow onset and lasts for months, often causing severe scarring.",
-    //             options: ["Acute", "Chronic", "Systemic", "Local"],
-    //             answer: [0, 1],
-    //             explanation: "Acute is fast and brief; Chronic is slow and prolonged."
-    //         },
-    //         {
-    //             type: "concept",
-    //             title: "Meet the Cellular Soldiers",
-    //             text: "Just like different missions require different soldiers, Acute and Chronic inflammation use totally different types of White Blood Cells!\n\n• **Acute Cells**: The **Neutrophil**. These are the \"First Responders.\" They arrive instantly, aggressively eat bacteria, but die off very quickly (in about 24-48 hours).\n• **Chronic Cells**: The **Macrophages and Lymphocytes (T-cells and B-cells)**. These are the \"Heavy Artillery.\" They take longer to arrive but can survive in the tissue for months to direct a prolonged war.",
-    //             subtext: "",
-    //             buttonText: "Next"
-    //         },
-    //         {
-    //             type: "sort",
-    //             question: "Deploy the correct cells to the correct type of inflammation.",
-    //             buckets: ["Acute Inflammation Bucket", "Chronic Inflammation Bucket"],
-    //             items: [
-    //                 { text: "Neutrophils", bucket: 0 },
-    //                 { text: "Macrophages", bucket: 1 },
-    //                 { text: "Lymphocytes", bucket: 1 }
-    //             ],
-    //             explanation: ""
-    //         },
-    //         {
-    //             type: "mcq",
-    //             question: "You see a massive amount of tissue destruction, severe scarring (fibrosis), and thousands of Lymphocytes and Macrophages. What kind of process are you looking at?",
-    //             options: [
-    //                 "A) Acute Inflammation",
-    //                 "B) Chronic Inflammation",
-    //                 "C) Normal, healthy tissue"
-    //             ],
-    //             answer: 1,
-    //             explanation: "The presence of Macrophages/Lymphocytes paired with severe tissue destruction and scarring is the classic hallmark of Chronic Inflammation."
-    //         }
-    //     ],
-    //     next: "3.2.1"
-    // },
-
     // UNIT 2: ACUTE INFLAMMATION VASCULAR EVENTS
     "3.2.1": {
-        title: "The Flush and the Flow (Vasodilation & Stasis) 🌡️🏎️",
-        objectives: [
-            "Understand the very first reactions of blood vessels to injury, including the histamine-driven 'flush' (vasodilation) and the resulting 'traffic jam' (stasis)."
+        "title": "Vasodilation and Stasis 🩸🚦",
+        "objectives": [
+            "Understand the sequence of vascular events in acute inflammation, from histamine-induced vasodilation to the slowing of blood flow known as stasis."
         ],
-        data: [
+        "data": [
             {
-                type: "concept",
-                title: "Changing the Highways",
-                text: "The alarm has been sounded, and now the body needs to bring the cellular army to the battlefield.\n\nTo do this, the local blood vessels (the \"highways\") must completely change their behavior. We call these the **Vascular Events** of acute inflammation, and they happen in two main steps: **changes in flow** and **changes in permeability**.",
-                subtext: "",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "The Vascular Phase",
+                "text": "The body must bring its cellular army directly to the injured tissue—the 'battlefield.'\n\nTo maximize the delivery of immune cells and plasma proteins, the local blood vessels respond in two main steps:\n\n• **Changes in Flow**: Adjusting the traffic to bring a massive rush of blood to the area.\n• **Changes in Permeability**: Making the vessel walls 'leaky' so the White Blood Cells (WBCs) can exit the blood and enter the tissue!",
+                "subtext": "",
+                "buttonText": "The First Reaction"
             },
             {
-                type: "concept",
-                title: "The Flush: Vasodilation",
-                text: "The very first major event is **Vasodilation** (widening of the blood vessels).\n\nChemical messengers, most notably **Histamine**, tell the smooth muscle around the blood vessels to relax. The vessels open wide, allowing a massive rush of warm, red blood into the capillary beds.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "mcq",
-                question: "The massive influx of blood during vasodilation is directly responsible for which two Cardinal Signs of inflammation?",
-                options: [
-                    "A) Tumor (Swelling) and Dolor (Pain)",
-                    "B) Rubor (Redness) and Calor (Heat)",
-                    "C) Functio laesa (Loss of function)"
+                "type": "concept",
+                "title": "The First Step - Vasodilation",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 2/3.2.1/vasodilation_histamine.png",
+                        "title": "Mechanism of Histamine-induced Vasodilation",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                answer: 1,
-                explanation: "The rush of warm blood causes the area to turn red and feel hot to the touch. The \"Flush\" is complete!"
+                "text": "The very first major event is **vasodilation** (the widening of local blood vessels). Here is how it happens:\n\n**The Chemical Signal:**\n• Local mast cells in the tissue release chemical messengers, primarily **Histamine**.\n\n**The Action:**\n• Histamine tells the smooth muscle around the blood vessels to relax and open wide.\n\n**The Result:**\n• A rush of warm, red blood floods into the capillary beds!\n• This massive rush is exactly what causes the classic cardinal signs of **Redness (Rubor)** and **Heat (Calor)**.",
+                "subtext": "",
+                "buttonText": "Connect the Signs"
             },
             {
-                type: "concept",
-                title: "The Fluid Shift",
-                text: "But as the blood rushes in and the vessels widen, something else happens: fluid begins to escape.\n\nAs water pushes out of the bloodstream and into the tissues, the **Red Blood Cells** get left behind inside the vessel.",
-                subtext: "",
-                buttonText: "Next"
+                "type": "fill",
+                "question": "The immediate widening of blood vessels during acute inflammation is primarily triggered by a chemical mediator called ________.",
+                "options": [
+                    "Histamine",
+                    "Insulin",
+                    "Troponin",
+                    "Calcium"
+                ],
+                "answer": [
+                    0
+                ],
+                "explanation": "<b>Histamine</b> is the primary mediator for early vasodilation. It relaxes the vascular smooth muscle, allowing the vessel to expand and increase blood flow to the site of injury."
             },
             {
-                type: "concept",
-                title: "The Traffic Jam: Stasis",
-                text: "Imagine a river suddenly losing half its water. The river becomes thick with mud, and the current slows to a crawl.\n\nBecause the **Red Blood Cells** are now tightly packed together, the blood becomes highly **viscous** (thick). The blood flow slows down dramatically. Pathologists call this localized slowing of blood flow **Stasis**.",
-                subtext: "",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "Stasis – The Slowdown",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 2/3.2.1/stasis_localized_resistance.png",
+                        "title": "Slowing down of blood flow",
+                        "reference": "Image generated by ChatGPT"
+                    },
+                    {
+                        "url": "images/Chapter 3/Unit 2/3.2.1/stasis_leakage_viscosity.png",
+                        "title": "Increase permeability",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Immediately after vasodilation, the blood vessels become highly permeable. As the fluid leaks into the tissue, it changes the physics of the blood flow.\n\nHere is the chain reaction:\n\n**The Leak**:\n• Water and proteins escape, leaving the **Red Blood Cells (RBCs)** packed tightly together inside the vessel.\n\n**The Muddy River**:\n• Imagine a river suddenly losing half its water! The blood becomes thick, highly **viscous**, and slows to a crawl.",
+                "subtext": "This localized engorgement of slow-moving, concentrated red blood cells is called **Stasis**.",
+                "buttonText": "The Pace of Flow"
             },
             {
-                type: "fill",
-                question: "As fluid leaves the dilated vessel, the remaining Red Blood Cells become highly concentrated. This increases blood ____________, which leads to a dramatic slowing of blood flow known as ____________.",
-                options: ["Viscosity", "Stasis", "Velocity", "Margination"],
-                answer: [0, 1],
-                explanation: "Loss of fluid = high viscosity = Stasis!"
+                "type": "mcq",
+                "question": "During the vascular response of acute inflammation, the blood flows through the local capillaries much faster than normal.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "Due to the loss of fluid and increased viscosity, local blood flow actually slows down significantly, resulting in **stasis**.",
+                "topic": "Vascular Flow Dynamics"
             },
             {
-                type: "concept",
-                title: "Interactive: See the Flow",
-                text: "When **Histamine** is released, the vessel gets wider (**Vasodilation**), fluid escapes, and red blood cells bunch up tightly.\n\nNotice how **Stasis** forces the White Blood Cells to the edges of the vessel? This is the perfect setup for them to exit!",
-                subtext: "This process prepares the cells for the next stage: Cellular Events.",
-                buttonText: "Next"
+                "type": "fill",
+                "question": "As fluid leaves the dilated vessel, the remaining Red Blood Cells become highly concentrated. This increases blood __________, which leads to a dramatic slowing of blood flow known as __________.",
+                "options": [
+                    "Viscosity",
+                    "Stasis",
+                    "Velocity",
+                    "Margination"
+                ],
+                "answer": [
+                    0,
+                    1
+                ],
+                "explanation": "Concentrated red blood cells increase blood **viscosity** (thickness), leading to a dramatic slowing of blood flow known as **stasis**. This is a hallmark of the early inflammatory response.",
+                "topic": "Vascular Flow Dynamics"
+            },
+            {
+                "type": "concept",
+                "title": "The Purpose of Stasis – Margination",
+                "text": "Why is Stasis actually a good thing? It serves a critical purpose for the immune response!\n\n**Margination:**\n• As the current slows down, the heavy white blood cells fall out of the fast central stream and get pushed against the inner walls of the vessel.\n\n**Ready to Exit:**\n• This positions the WBCs perfectly to dock with the wall, squeeze out of the blood, and march directly into the tissue!",
+                "subtext": "",
+                "buttonText": "Final Summary"
+            },
+            {
+                "type": "match",
+                "question": "Match the sequence of vascular events to their physiological definitions.",
+                "pairs": [
+                    {
+                        "left": "Histamine release",
+                        "right": "Triggers smooth muscle relaxation and vasodilation"
+                    },
+                    {
+                        "left": "Vasodilation",
+                        "right": "Increases local blood flow and causes redness"
+                    },
+                    {
+                        "left": "Increased viscosity",
+                        "right": "Caused by the leakage of fluid and protein"
+                    },
+                    {
+                        "left": "Stasis",
+                        "right": "The dramatic slowing of local blood flow"
+                    },
+                    {
+                        "left": "Margination",
+                        "right": "Leukocytes moving toward the vessel wall"
+                    }
+                ],
+                "explanation": "During vascular inflammation, **histamine release triggers vasodilation** to increase local blood flow. The subsequent **leakage of fluid** into the tissue causes increased **blood viscosity** and **stasis** (the slowing of blood flow), which ultimately allows for margination as leukocytes move toward the **vessel wall**.",
+                "topic": "Acute Inflammation Overview"
             }
         ]
     },
 
     "3.2.2": {
-        title: "Opening the Gates (Vascular Permeability) 🚪💧",
-        objectives: [
-            "Understand how blood vessels become 'leaky' through endothelial cell contraction, and link this increased permeability to the formation of edema (tissue swelling)."
+        "title": "Vascular Permeability – Opening the Gates 🚪💧",
+        "objectives": [
+            "Understand the specific cellular mechanisms that allow blood vessels to become 'leaky' during acute inflammation.",
+            "Differentiate between the two types of tissue fluid (edema) by comparing their protein content, cellularity, and the state of the endothelial barrier."
         ],
-        data: [
+        "data": [
             {
-                type: "concept",
-                title: "Escaping the Highway",
-                text: "We have a traffic jam (Stasis) and the blood vessel is packed. But the white blood cells and plasma proteins are still trapped inside the vessel!\n\nTo fight the infection in the tissues, the body needs to open the gates and let them out. This process is called increasing **Vascular Permeability** (making the vessels \"leaky\").",
-                subtext: "",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "The Leaky Barrier",
+                "text": "Despite stasis (the traffic jam), WBCs and proteins are still trapped in the blood.\n\nTo reach the injured tissue, the body must increase **vascular permeability**—making vessels leaky to open the gates.\n\n**How the barrier works**:\n• **The Endothelium**: A single layer of flat cells lining the blood vessels.\n• **Normal State**: Cells are tightly glued together, forming a waterproof barrier.\n• **Inflamed State**: The seal breaks, allowing immune cells and large proteins to escape into the tissue.\n\nLet's look at exactly how the body breaks this seal next!",
+                "subtext": "",
+                "buttonText": "How Gates Open"
             },
             {
-                type: "concept",
-                title: "The Living Wallpaper",
-                text: "The inside of every blood vessel is lined by a single layer of flat, tightly packed cells called the **Endothelium**.\n\nNormally, these endothelial cells are glued tightly together, forming a waterproof barrier so blood doesn't leak out into your tissues.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Endothelial Contraction",
-                text: "So, how do we open the gates? The most common way is **Endothelial Cell Contraction**.\n\nChemical messengers (like our old friend **Histamine**) bind to the endothelial cells and tell them to **contract** (shrink). As the cells pull away from each other, tiny \"gaps\" form between them!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "mcq",
-                question: "During an acute inflammatory response, how do blood vessels rapidly become leaky?",
-                options: [
-                    "A) The endothelial cells undergo apoptosis (die) and fall off.",
-                    "B) The endothelial cells contract and pull apart, creating intercellular gaps.",
-                    "C) The white blood cells punch physical holes through the cells."
+                "type": "concept",
+                "title": "Mechanism 1: Endothelial Contraction",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 2/3.2.2/endothelial_contraction.png",
+                        "title": "Mechanism of Endothelial Contraction",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                answer: 1,
-                explanation: "While severe burns or toxins can sometimes cause endothelial cells to die, the immediate, most common mechanism for leakiness is simple contraction triggered by histamine!"
+                "text": "**How Do We Open the Gates?**\n• The most common way to open the gates is **Endothelial Contraction**.\n\nHere is exactly how the barrier is broken:\n\n**The Signal**:\n• Chemical messengers (like our old friend **Histamine**) bind to the endothelial cells.\n\n**The Shrink**:\n• Histamine forces the cells to physically contract (shorten).\n\n**The Leak**:\n• As the cells pull away from each other, **intercellular gaps** open up, allowing protein-rich fluid to rush out into the tissue!",
+                "subtext": "",
+                "buttonText": "The Next Mechanism"
             },
             {
-                type: "concept",
-                title: "The Leak and the Swell",
-                text: "Once these gaps open, protein-rich fluid pours out of the blood vessel and into the surrounding tissue space.\n\nThe accumulation of this fluid in the tissue is called **Edema**. This physical buildup of fluid stretches the tissue, which leads us directly to our third Cardinal Sign...",
-                subtext: "",
-                buttonText: "Next"
+                "type": "fill",
+                "question": "The binding of histamine causes endothelial cells to ________, opening intercellular gaps in the vessel wall.",
+                "options": [
+                    "Multiply",
+                    "Contract",
+                    "Expand",
+                    "Apoptosis"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "**Endothelial contraction** pulls the cells apart, facilitating the rapid **leakage of protein-rich fluid** into the tissue.",
+                "topic": "Mechanisms of Permeability"
             },
             {
-                type: "fill",
-                question: "Increased vascular permeability allows fluid to leak into the tissues, causing ____________. This fluid accumulation is directly responsible for the cardinal sign of ____________ (Swelling).",
-                options: ["Edema", "Tumor", "Rubor", "Vasodilation"],
-                answer: [0, 1],
-                explanation: "Endothelial contraction leads to permeability, which causes edema, which we see clinically as Tumor!"
+                "type": "concept",
+                "title": "Mechanism 2: Direct Endothelial Injury",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 2/3.2.2/endothelial_injury_leak.png",
+                        "title": "Direct Destruction of the Endothelial Barrier",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Sometimes the barrier doesn’t just shrink—it is completely destroyed!\n\nPermeability can also be caused by direct injury to the blood vessel.\n\nHere is how this mechanism works:\n\n**The Cause**:\n• Severe damage from thermal burns, physical trauma, or destructive bacterial toxins.\n\n**The Destruction**:\n• The endothelial cells lining the vessel are physically killed and torn apart.\n\n**The Result**:\n• This causes **immediate and prolonged leakage**.\n• This massive leak continues until the damaged vessel is finally repaired or completely blocked off (thrombosed).",
+                "subtext": "",
+                "buttonText": "Where Fluid Pools"
             },
             {
-                type: "concept",
-                title: "Histamine in Action",
-                text: "As you trigger **Histamine**, the **Endothelial Cells** visibly shrink and contract. As these gaps open, fluid starts leaking through until the gates are fully open.\n\nThe highway is now leaky, allowing fluid to escape and cause swelling!",
-                subtext: "",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "Edema – Understanding the Swelling",
+                "text": "Leaky blood vessels cause fluid to pool in the tissues—a condition called **Edema**.\n\nIn medicine, not all edema is the same!\n\nIf a doctor drains fluid from a swollen knee or lung, they immediately send it to the lab to differentiate between the two types:\n1. **Transudate**\n2. **Exudate**\n\nWhy does it matter?\n• Telling them apart is a **critical diagnostic tool**.\n• The exact makeup of the fluid tells the doctor exactly why the swelling happened!",
+                "subtext": "",
+                "buttonText": "The Pressure Fluid"
+            },
+            {
+                "type": "concept",
+                "title": "Transudate - The Pressure Fluid",
+                "text": "Let's start with Transudate. This swelling happens when the **endothelial barrier** is completely healthy and **intact**.\n\n**Why does it leak?**\n• It is **NOT** caused by inflammation!\n• Instead, severe pressure imbalances (like high blood pressure or heart failure) force water out of the vessels.\n\n**What is inside the fluid?**\n• Because the gaps are tightly closed, only water can squeeze through.\n• **Appearance**: Clear and watery.\n• **Contents**: Very low protein and virtually no cells.",
+                "subtext": "",
+                "buttonText": "The Inflammatory Fluid"
+            },
+            {
+                "type": "concept",
+                "title": "Exudate - The Inflammatory Fluid",
+                "text": "Now, meet Exudate. This is the **hallmark** fluid of **acute inflammation**!\n\n**Why does it leak?**\n• Because chemical messengers (like histamine) forced the endothelial cells to **contract**, opening wide physical gaps in the vessel wall.\n\n**What is inside?**\n• Because the gaps are so wide, the big stuff easily escapes!\n• **Appearance**: Cloudy and thick.\n• **Contents**: **High protein** and thousands of **white blood cells** (WBCs).",
+                "subtext": "",
+                "buttonText": "The Diagnostic Lab"
+            },
+            {
+                "type": "concept",
+                "title": "The Diagnostic Lab",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 2/3.2.2/edema_mechanism_comparison.png",
+                        "reference": "Starling Forces vs. Capillary Permeability"
+                    },
+                    {
+                        "url": "images/Chapter 3/Unit 2/3.2.2/transudate_exudate_table.png",
+                        "reference": "Laboratory Characteristics of Effusions"
+                    }
+                ],
+                "text": "To classify a fluid, pathologists look at the protein content and the cell count.\n\n**Transudate (Non-Inflammatory)**:\n• Protein: Low (< 2.5 - 3.0 g/dL).\n• Cells: Few.\n\n**Exudate (Inflammatory)**:\n• Protein: High (> 2.5 - 3.0 g/dL).\n• Cells: Many (> 1,000 cells/µL).",
+                "subtext": "Rule of Thumb: Light's Criteria is used clinically to help classify these effusions.",
+                "buttonText": "Check the Protein"
+            },
+            {
+                "type": "fill",
+                "question": "Let's make sure you've got the core difference down!\n\nBecause the endothelial barrier is completely intact, a __________ is clear and low in protein. In contrast, because inflammation opens wide gaps, an __________ is cloudy and packed with high protein and cells.",
+                "options": [
+                    "Transudate",
+                    "Exudate",
+                    "Plasma",
+                    "Serum"
+                ],
+                "answer": [
+                    0,
+                    1
+                ],
+                "explanation": "A **transudate** is clear and low in protein due to an **intact endothelial barrier**, while an **exudate** is cloudy and high in protein due to **wide gaps** caused by **inflammation**.",
+                "topic": "Effusion Types"
+            },
+            {
+                "type": "sort",
+                "question": "Drag and Drop the fluid characteristics to the correct category.",
+                "buckets": [
+                    "Transudate",
+                    "Exudate"
+                ],
+                "items": [
+                    {
+                        "text": "Low Protein Content",
+                        "bucket": 0
+                    },
+                    {
+                        "text": "Caused by Pressure Imbalances",
+                        "bucket": 0
+                    },
+                    {
+                        "text": "Clear and Watery",
+                        "bucket": 0
+                    },
+                    {
+                        "text": "Contains White Blood Cells",
+                        "bucket": 1
+                    },
+                    {
+                        "text": "Caused by Endothelial Contraction (Inflammation)",
+                        "bucket": 1
+                    },
+                    {
+                        "text": "Cloudy and Thick",
+                        "bucket": 1
+                    }
+                ],
+                "explanation": "A **transudate** is a **clear, low-protein fluid** caused by **pressure imbalances**, while an **exudate** is a **thick, cloudy fluid** containing **white blood cells** caused by **inflammatory endothelial contraction**.",
+                "topic": "Edema Classification"
+            },
+            {
+                "type": "match",
+                "question": "Match the physiological concept related to vascular permeability to its correct description.",
+                "pairs": [
+                    {
+                        "left": "Exudate",
+                        "right": "Protein-rich inflammatory fluid"
+                    },
+                    {
+                        "left": "Transudate",
+                        "right": "Protein-poor fluid caused by pressure imbalances"
+                    },
+                    {
+                        "left": "Endothelial Contraction",
+                        "right": "Histamine-driven gap formation between cells"
+                    },
+                    {
+                        "left": "Endothelial Injury",
+                        "right": "Leakage due to severe physical damage or toxins"
+                    }
+                ],
+                "explanation": "An **exudate** is a **protein-rich inflammatory fluid**, a **transudate** is a **protein-poor fluid** caused by **pressure imbalances**, **endothelial contraction** is the **histamine-driven formation of intercellular gaps**, and **endothelial injury** causes **leakage** due to **severe damage or toxins**.",
+                "topic": "Vascular Permeability Summary"
             }
         ]
     },
