@@ -6372,7 +6372,7 @@ const moduleContent = {
             },
             {
                 "type": "concept",
-                "title": "Step 4 - Chemotaxis – The Chemical Trail",
+                "title": "Step 5 - Chemotaxis – The Chemical Trail",
                 "text": "The neutrophil is out of the blood vessel! But how does it know exactly where the bacteria is? It follows a chemical scent!\n\nHere is how the tracking works:\n• **The Scent Trail**: The site of injury or infection releases a trail of chemical signals into the tissue.\n• **The Tracking**: The neutrophils senses this and crawls toward the **highest concentration** of the signal.\n\nThis directed cellular movement along a chemical gradient is formally called **chemotaxis**.",
                 "subtext": "",
                 "buttonText": "Directed Movement"
