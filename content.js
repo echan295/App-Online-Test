@@ -6915,247 +6915,405 @@ const moduleContent = {
 
     // UNIT 5: MEDIATORS
     "3.5.1": {
-        title: "The Messengers' Rulebook (Principles) 📣📡",
-        objectives: [
-            "Master the general principles that govern all inflammatory mediators, including the 'Big Four' classes, where they come from (Cell vs. Plasma), how they are stored, and their strict rules of engagement."
+        "title": "Introduction to Chemical Mediators 📣📡",
+        "objectives": [
+            "Understand the general principles of chemical mediators, distinguish between cell-derived and plasma-derived sources, and explain the critical importance of their short half-lives."
         ],
-        data: [
+        "data": [
             {
-                type: "concept",
-                title: "The Directors",
-                text: "How does the body know exactly when and where to start inflammation? It uses a complex communication network of **Chemical Mediators**.\n\nMediators are the biochemical substances that initiate and regulate the entire inflammatory reaction. Without them, the immune system is completely blind and deaf!",
-                subtext: "",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "The Chemical Messengers",
+                "text": "Inflammation doesn't just happen randomly—it is coordinated by a complex communication network of **Chemical Mediators**!\n\n**The Commanders**:\n•These substances initiate and regulate the entire inflammatory reaction.\n\n**The Instructions**:\n• They dictate exactly what the tissue should do, from opening the blood vessels (**vasodilation**) to guiding the white blood cells to the target (**chemotaxis**).\n\n**The Bottom Line**:\n• Without these chemical messengers, the immune system would be completely blind and deaf!",
+                "subtext": "",
+                "buttonText": "Two Main Sources"
             },
             {
-                type: "concept",
-                title: "The Big Four",
-                text: "There are countless mediators, but the most important ones belong to four main classes:\n\n1. **Vasoactive Amines** (like Histamine)\n2. **Lipid Products** (like Prostaglandins & Leukotrienes)\n3. **Cytokines & Chemokines** (like IL-1 & TNF)\n4. **Complement Proteins** (like C3b)",
-                subtext: "",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "Two Main Sources",
+                "text": "Where do mediators come from?\n\nThese chemical messengers come from two completely different sources:\n• **Cell-Derived (Local)**: Produced and released by cells right at the site of the injury.\n• **Plasma-Derived (Global)**: Circulating in the blood as inactive precursors, just waiting to be triggered.\n\n**The 4 Major Classes to Know**:\nThere are many mediators, but important ones belong to these 4 main families:\n1. **Vasoactive Amines**: Histamine.\n2. **Lipid Products**: Prostaglandins & Leukotrienes.\n3. **Cytokines & Chemokines**: IL-1 & TNF.\n4. **Complement Proteins**: C3b & C5a.",
+                "subtext": "",
+                "buttonText": "Test the Source"
             },
             {
-                type: "mcq",
-                question: "Each class of mediator has one specific job, and there is absolutely zero overlap in their functions.",
-                options: ["True", "False"],
-                answer: 1,
-                explanation: "While they have distinct mechanisms, there is significant overlap (redundancy). This ensures that if one system fails, the body can still trigger inflammation!"
-            },
-            {
-                type: "concept",
-                title: "Origin 1: Cell-Derived",
-                text: "Where do these messengers come from? The first source is **Cells**.\n\n\"Sentinel\" cells (like macrophages and mast cells) produce mediators in two different ways:\n\n• **Way #1**: They store pre-made mediators in intracellular granules for instant release (like Histamine).\n• **Way #2**: They build them from scratch (**de novo**) when the alarm sounds (like Cytokines).",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "Because the histamine is already sequestered inside intracellular ____________, the mast cell can secrete it instantly via exocytosis the moment tissue is damaged.",
-                options: ["Nuclei", "Granules", "Mitochondria", "Ribosomes"],
-                answer: 1,
-                explanation: "Granules act like loaded water balloons ready to burst at the first sign of danger."
-            },
-            {
-                type: "concept",
-                title: "Origin 2: Plasma-Derived",
-                text: "The second source is the **Plasma** (the liquid part of your blood).\n\nPlasma-derived mediators (like Complement proteins) are manufactured mainly in the **Liver**. They constantly float through your circulation as inactive precursors, completely asleep!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "mcq",
-                question: "How do these inactive plasma mediators finally \"wake up\" to acquire their functional properties?",
-                options: [
-                    "A) They are activated by proteolytic cleavages (enzymatic cuts).",
-                    "B) They go back to the liver to be recharged.",
-                    "C) They wait for the brain to send an electrical signal."
+                "type": "mcq",
+                "question": "All chemical mediators of inflammation are produced locally by cells directly at the site of injury.",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                answer: 0,
-                explanation: "Like cutting a lock off a box, an enzyme must cleave (cut) the inactive precursor to unleash the active mediator!"
+                "answer": 1,
+                "explanation": "While some chemical mediators are produced locally by cells at the injury site, others are **plasma-derived** and synthesized by the **liver** before circulating in the bloodstream.",
+                "topic": "Mediator Origins"
             },
             {
-                type: "concept",
-                title: "The Golden Rules",
-                text: "To prevent endless inflammation, mediators follow three strict **Golden Rules**:\n\n1. **Strict Triggers**: Produced ONLY in response to microbes or dead tissue.\n2. **Short-Lived**: They rapidly decay or are enzymatically destroyed.\n3. **The Domino Effect**: One mediator can stimulate the release of secondary mediators! These can amplify the signal, but they can also have opposing activities to counteract it!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "mcq",
-                question: "Why is it so important that some secondary mediators have \"opposing activities\" to the initial mediator?",
-                options: [
-                    "A) To confuse the white blood cells.",
-                    "B) To completely destroy the healthy tissue.",
-                    "C) To act as a built-in brake, stopping the inflammation from spiraling out of control."
+                "type": "concept",
+                "title": "The 6 Rules of Chemical Mediators",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 5/3.5.1/rules_of_mediators.png",
+                        "title": "6 Principles or Rules of Mediators",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                answer: 2,
-                explanation: "The cascade provides a mechanism to amplify the attack, but also perfectly counteracts it when it's time to stop the inflammation!"
+                "text": "These powerful messengers are kept under strict control. Almost all mediators follow these universal rules:\n\n**1. Lock & Key (Receptors)**:\n• They must bind to specific receptors on target cells to deliver their message.\n\n**2. Multi-Tasking (Different Jobs)**:\n• One mediator can have many different responses depending on the target cells.\n\n**3. Backup Systems (Redundancy)**:\n• Completely different mediators can do the exact same job, ensuring the immune response doesn't fail.\n\n**4. Domino Effect (Amplification)**:\n• One mediator can trigger the release of more mediators, rapidly amplifying the alarm!\n\n**5. Balancing Act (Opposing Effects)**:\n• They don't all do the same thing! Some drive inflammation, while others keep it in check.\n\n**6. Short-Lived (Quick Fade)**:\n• They quickly decay or are destroyed by enzymes, ensuring that inflammation is localized and doesn't last forever!\n• This biological design prevents massive, uncontrolled collateral damage to healthy host tissue.",
+                "subtext": "",
+                "buttonText": "See Them in Action"
             },
             {
-                type: "sort",
-                question: "Sort these mediator characteristics into their correct categories.",
-                buckets: ["Cell-Derived (Granules)", "Plasma-Derived", "Lifespan", "Secondary Mediators"],
-                items: [
-                    { text: "Ready for instant release (e.g., Histamine)", bucket: 0 },
-                    { text: "Made in the liver and circulates in an inactive state", bucket: 1 },
-                    { text: "Very short-lived to prevent endless inflammation", bucket: 2 },
-                    { text: "Can amplify or counteract the initial signal", bucket: 3 }
+                "type": "mcq",
+                "question": "Let's test how these mediators work together.\n\nEach type of mediator has one specific job, and there is absolutely zero overlap in their functions.",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                explanation: ""
+                "answer": 1,
+                "explanation": "Chemical mediators of inflammation often have highly **overlapping and redundant** functions, meaning multiple different mediators can trigger the exact same physiological response.",
+                "topic": "Redundancy"
+            },
+            {
+                "type": "mcq",
+                "question": "The Domino Effect creates a powerful cascade of signals.\n\nWhy is it so important that some secondary mediators have 'opposing activities' to the initial mediator?",
+                "options": [
+                    "To confuse the white blood cells.",
+                    "To completely destroy the healthy tissue.",
+                    "To act as a built-in brake to stop inflammation."
+                ],
+                "answer": 2,
+                "explanation": "The cascade provides a mechanism to amplify the attack, but also perfectly counteracts it when it's time to **stop the inflammation**!",
+                "topic": "The Balancing Act"
+            },
+            {
+                "type": "concept",
+                "title": "Cell-Derived Mediators: Ready vs. Made-to-Order",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 5/3.5.1/degranulation_neutrophils.png",
+                        "reference": "Images generated by ChatGPT"
+                    }
+                ],
+                "text": "Sentinel cells like macrophages and mast cells produce local chemical messengers in two completely different ways:\n\n**Ready to Fire (Pre-Formed)**:\n• Some mediators are pre-packaged and stored in **intracellular granules** for instant release the second the alarm sounds!\n• _Example_: Histamine inside mast cells.\n\n**Made-to-Order (Newly Synthesized)**:\n• Other mediators are built entirely from scratch (**de novo**) exactly when the cell detects a threat.\n• _Examples_: Prostaglandins and Cytokines.",
+                "subtext": "",
+                "buttonText": "Test the Release"
+            },
+            {
+                "type": "fill",
+                "question": "Cell-derived mediators that need to be released instantly, such as histamine, are pre-formed and stored inside intracellular ________.",
+                "options": [
+                    "Granules",
+                    "Nuclei",
+                    "Ribosomes",
+                    "Mitochondria"
+                ],
+                "answer": [
+                    0
+                ],
+                "explanation": "Storing mediators in **granules** allows for immediate secretion the moment a cell detects an inflammatory trigger.",
+                "topic": "Mediator Storage"
+            },
+            {
+                "type": "concept",
+                "title": "Plasma-Protein-Derived Mediators",
+                "text": "The second source of mediators is the plasma. These are primarily **manufactured** by the **Liver**.\n\nThey constantly float through your circulation as **inactive precursors**—completely asleep!\n\n**The Trigger**:\n• Upon microbial encounter, they cleave—literally pulling a biochemical safety pin—and instantly transform into highly active, destructive mediators!\n\n**Example**: The **Complement System**.",
+                "subtext": "",
+                "buttonText": "Final Summary"
+            },
+            {
+                "type": "match",
+                "question": "Match the concept regarding chemical mediators to its correct description.",
+                "pairs": [
+                    {
+                        "left": "Cell-derived (Pre-formed)",
+                        "right": "Stored in granules for immediate release"
+                    },
+                    {
+                        "left": "Cell-derived (Newly synthesized)",
+                        "right": "Produced from scratch upon activation"
+                    },
+                    {
+                        "left": "Plasma-protein-derived",
+                        "right": "Produced by the liver as inactive precursors"
+                    },
+                    {
+                        "left": "Short half-life",
+                        "right": "Ensures the response remains temporary"
+                    }
+                ],
+                "explanation": "**Pre-formed** cell-derived mediators are stored for immediate release, **newly synthesized** mediators are produced upon cellular activation, **plasma-protein-derived** mediators circulate in an inactive state after being produced by the liver, and a **short half-life** keeps the inflammatory response temporary.",
+                "topic": "Mediator Principles Summary"
             }
         ]
     },
 
     "3.5.2": {
-        title: "The Fast and the Furious (Vasoactive Amines) 🎈⚡",
-        objectives: [
-            "Meet the fastest mediators in the immune system! Learn the sources, triggers, and vascular effects of Histamine and Serotonin."
+        "title": "Vasoactive Amines – The First Responders 🚀🧪",
+        "objectives": [
+            "Understand the role of fastest mediators in the immune system the pre-formed amines – Histamine and Serotonin – covering their sources, triggers, and vascular effects."
         ],
-        data: [
+        "data": [
             {
-                type: "concept",
-                title: "The Name Decoded",
-                text: "We are starting our \"alphabet soup\" with the fastest mediators of all: the **Vasoactive Amines**.\n\n\"Amine\" refers to their chemical structure. \"**Vasoactive**\" means their primary job is to act on blood vessels. These are the very first mediators released during acute inflammation!",
-                subtext: "",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "The First Responders",
+                "text": "These are the very first chemical messengers released during acute inflammation!\n\n**The Target (\"Vasoactive\")**:\n• Their primary job is to act directly on the blood vessels.\n\n**The Speed**:\n• They are so incredibly fast because there is no time to build them from scratch.\n• They are **pre-formed** and stored inside cellular granules, ready to fire instantly!",
+                "subtext": "",
+                "buttonText": "Histamine: Master of Vessels"
             },
             {
-                type: "concept",
-                title: "The Star of the Show: Histamine",
-                text: "The undisputed superstar of the vasoactive amines is **Histamine**.\n\nIt is the primary chemical responsible for the early vascular events of acute inflammation: causing both **vasodilation** (widening vessels) and **increased vascular permeability** (leaky gaps).",
-                subtext: "",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "Histamine - The Master of Vessels",
+                "text": "The undisputed superstar of the vasoactive amines is **Histamine**.\n\n**Where is it found?**\n• **Mast Cells**: Packed tightly inside these cells, which are found in connective tissues right next to blood vessels.\n• **The Blood**: Inside basophils and platelets.\n\n**What does it do?**\nIt binds to **H1 receptors** on blood vessels to trigger the classic signs of acute inflammation:\n• **Vasodilation**: In the arterioles, causing a rush of blood that creates redness and heat.\n• **Permeability**: In the venules, it contracts endothelial cells, creating leaky gaps that cause fluid escape and tissue swelling.",
+                "subtext": "",
+                "buttonText": "Strategic Storage"
             },
             {
-                type: "fill",
-                question: "Histamine is pre-packaged and stored inside the intracellular ____________ of **Mast Cells**, allowing for instant release the moment an injury occurs!",
-                options: ["Nuclei", "Granules", "Mitochondria", "Lysosomes"],
-                answer: 1,
-                explanation: "Mast cells are packed with histamine-filled granules. When triggered, they \"degranulate\" (pop!), releasing a massive flood of Histamine instantly."
-            },
-            {
-                type: "concept",
-                title: "Tripping the Mast Cell",
-                text: "What causes the **Mast Cell** to \"pop\" and release all this Histamine?\n\n1. **Physical trauma** (like a scratch or extreme cold/heat).\n2. **Allergies** (when allergens bind to IgE antibodies on the mast cell).\n3. **Anaphylatoxins** (specifically, two complement proteins named **C3a and C5a** that act as intense chemical alarms).",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "mcq",
-                question: "A patient with a peanut allergy eats a peanut. Their mast cells degranulate, releasing massive amounts of Histamine, causing their throat to swell (edema). You give them a drug like Benadryl (an antihistamine). How does it work?",
-                options: [
-                    "A) It destroys the mast cells.",
-                    "B) It binds to and blocks the Histamine receptors on the blood vessels.",
-                    "C) It turns Histamine into Serotonin."
+                "type": "fill",
+                "question": "The primary cellular source of histamine in acute inflammation is the ________ cell, which resides in the connective tissue adjacent to blood vessels.",
+                "options": [
+                    "Red blood",
+                    "Mast",
+                    "Epithelial",
+                    "T-lymphocyte"
                 ],
-                answer: 1,
-                explanation: "Mediators need receptors! An antihistamine simply plugs the keyhole so Histamine can't open the door."
-            },
-            {
-                type: "concept",
-                title: "The Sidekick: Serotonin",
-                text: "Histamine has a lesser-known sidekick in the vasoactive amine family: **Serotonin**.\n\nIn pathology, it is primarily stored in **Platelets** (the cells that form blood clots) and in the GI tract.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Platelet Pop",
-                text: "When blood vessels are damaged, **Platelets** clump together to stop the bleeding. As they clump, they release their stored **Serotonin**!\n\n**Serotonin** acts similarly to Histamine, causing changes in the local blood vessels to assist with the early inflammatory and clotting response.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "sort",
-                question: "Time to organize your vasoactive amines! Match the characteristic to the correct mediator.",
-                buckets: ["Histamine", "Serotonin"],
-                items: [
-                    { text: "Stored primarily in Mast Cells", bucket: 0 },
-                    { text: "Stored primarily in Platelets", bucket: 1 },
-                    { text: "Triggered by IgE (Allergies) and C3a/C5a", bucket: 0 },
-                    { text: "Released during blood clotting", bucket: 1 }
+                "answer": [
+                    1
                 ],
-                explanation: ""
+                "explanation": "**Mast cells** act as sentinels around blood vessels, storing pre-formed histamine to guarantee a rapid vascular response.",
+                "topic": "Histamine Sources"
+            },
+            {
+                "type": "concept",
+                "title": "The Triggers for Release",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 5/3.5.2/histamine_role_diagram.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "So, what causes the Mast Cell to \"pop\" and release all this Histamine?\n\nSeveral things can trigger **degranulation**:\n• **Physical trauma**: Like a scratch or extreme cold/heat.\n• **Allergies**: When allergens bind to **IgE antibodies** on the mast cell surface.\n• **Anaphylatoxins**: Specific complement proteins (**C3a and C5a**) that act as intense chemical alarms.",
+                "subtext": "",
+                "buttonText": "Visualize the Role"
+            },
+            {
+                "type": "concept",
+                "title": "The Clinical Connection - Antihistamines",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 5/3.5.2/antihistamine_mechanism.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "The profound effect of histamine on your blood vessels is exactly why allergic reactions cause rapid swelling, hives, and a runny nose!\n\nThis is also why the most common over-the-counter allergy medications are antihistamines.\n\n**How do they work?**\n• **The Block**: These drugs physically block the **H1 receptors** on your blood vessels.\n• **The Result**: By locking histamine out, they completely prevent it from causing vasodilation and leaky, swollen edema!",
+                "subtext": "",
+                "buttonText": "Antihistamine Mechanism"
+            },
+            {
+                "type": "mcq",
+                "question": "A patient presents to the clinic with severe hives, redness, and swelling after a bee sting.\n\nYou immediately administer an over-the-counter antihistamine.\n\nBy blocking the H1 receptors, which of the following specific cellular actions are you trying to prevent?",
+                "options": [
+                    "The manufacturing of new histamine inside the mast cells.",
+                    "The release of Reactive Oxygen Species (ROS) from neutrophils.",
+                    "Endothelial cell contraction in the post-capillary venules."
+                ],
+                "answer": 2,
+                "explanation": "Histamine binds to **H1 receptors** on the venules, forcing the endothelial cells to physically **contract**. This opens 'leaky' gaps, causing the massive swelling (edema) seen in allergic reactions. **Antihistamines** block this exact step.",
+                "topic": "Clinical Pharmacology"
+            },
+            {
+                "type": "concept",
+                "title": "Serotonin - The Platelet Amine",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 5/3.5.2/serotonin_inflammation_role.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "You probably know serotonin as a neurotransmitter in the brain, but it also has a secret life in the inflammatory response!\n\n**Where is it found?**\n• Stored inside the granules of **platelets**.\n\n**The Trigger**:\n• It is released when platelets aggregate (clump together) to plug a damaged blood vessel.\n\n**What does it do?**\n• Like histamine, it increases **vascular permeability**.\n\n**The Verdict**:\n• Its overall impact on acute inflammation is considered much less prominent than **histamine**.",
+                "subtext": "",
+                "buttonText": "Final Summary"
+            },
+            {
+                "type": "match",
+                "question": "Match the concept or action to the correct vasoactive amine.",
+                "pairs": [
+                    {
+                        "left": "Pre-formed mediators",
+                        "right": "Stored in granules for immediate release"
+                    },
+                    {
+                        "left": "Mast cells",
+                        "right": "The primary cellular source of histamine"
+                    },
+                    {
+                        "left": "Platelets",
+                        "right": "The primary peripheral source of serotonin"
+                    },
+                    {
+                        "left": "Histamine action",
+                        "right": "Vasodilation and endothelial contraction"
+                    },
+                    {
+                        "left": "Antihistamines",
+                        "right": "Block H1 receptors to prevent allergic swelling"
+                    }
+                ],
+                "explanation": "**Pre-formed mediators** are stored for immediate release, **mast cells** are the primary source of histamine, and **platelets** are the primary source of serotonin. Furthermore, **histamine action** causes vasodilation and endothelial contraction, which **antihistamines** counteract by blocking H1 receptors.",
+                "topic": "Vasoactive Amines Summary"
             }
         ]
     },
 
     "3.5.3": {
-        title: "The Lipid Factories (Arachidonic Acid) 🧬🥩",
-        objectives: [
-            "Master the Arachidonic Acid pathway! Learn how cell membranes are converted into Prostaglandins (via COX) and Leukotrienes (via LOX), and discover exactly where common drugs like NSAIDs and Steroids work."
+        "title": "Arachidonic Acid Metabolites 🧬🧪",
+        "objectives": [
+            "Understand how arachidonic acid is released from cell membranes, identify the key functions of prostaglandins and leukotrienes, and learn how common drugs inhibit these pathways."
         ],
-        data: [
+        "data": [
             {
-                type: "concept",
-                title: "The Hidden Pantry",
-                text: "The second major class of mediators are the **Lipid Products**. But they aren't pre-packaged in granules like Histamine.\n\nInstead, their raw ingredient is actually part of the cell's own structural wall! A 20-carbon fatty acid called **Arachidonic Acid (AA)** is normally locked safely away inside the cell membrane phospholipids.",
-                subtext: "",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "The Membrane Precursor",
+                "text": "The second major class of mediators are the **Lipid Products**.\n\nUnlike vasoactive amines, they are built entirely from scratch on demand!\n\n**The Secret Ingredient**:\n• The raw material is a 20-carbon fatty acid called **Arachidonic Acid (AA)**.\n\n**The Pantry: Cell Membrane**:\n• Normally it is tightly bound inside the **phospholipids** of the cell membrane.\n• It is like raw food stored in a pantry, waiting to be used.",
+                "subtext": "",
+                "buttonText": "The Molecular Scissors"
             },
             {
-                type: "concept",
-                title: "The Scissors: Phospholipase A2",
-                text: "When a cell is injured, a specific enzyme acts like a pair of scissors to cut the **Arachidonic Acid** out of the membrane.\n\nThis enzyme is called **Phospholipase A2 (PLA2)**. Once **PLA2** frees the **Arachidonic Acid**, the newly freed lipid enters the cellular factory to be turned into active mediators!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "The raw ingredient, ____________, is locked inside the cell membrane. It is released during tissue injury by the enzyme ____________.",
-                options: ["Histamine", "Arachidonic Acid", "Cyclooxygenase", "Phospholipase A2"],
-                answer: [1, 3],
-                explanation: "PLA2 acts as the scissors to free the Arachidonic Acid from the membrane!"
-            },
-            {
-                type: "concept",
-                title: "The Fork in the Road",
-                text: "Once **Arachidonic Acid** is free, it stands at a fork in the road. It will be grabbed by one of two completely different factory lines:\n\n1. The **Cyclooxygenase (COX)** factory.\n2. The **Lipoxygenase (LOX)** factory.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The COX Factory",
-                text: "If **Arachidonic Acid** goes down the **COX** pathway, it produces **Prostaglandins** and **Thromboxanes**.\n\n• **Prostaglandins (PGE2)**: These are famous for causing **Pain and Fever** (**PGE2 = Pain & Fever!**). They also cause vasodilation.\n• **Thromboxane A2 (TXA2)**: Causes blood vessels to constrict and makes platelets clump together to form clots.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "mcq",
-                question: "Drugs like Aspirin and Ibuprofen (NSAIDs) specifically block the COX enzyme. Why does taking Ibuprofen cure your headache and fever?",
-                options: [
-                    "A) It stops Phospholipase A2 from cutting the membrane.",
-                    "B) It blocks COX, stopping the production of Pain/Fever-causing Prostaglandins.",
-                    "C) It destroys the Arachidonic Acid directly."
+                "type": "concept",
+                "title": "Phospholipase – The Scissors",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 5/3.5.3/aa_release_mechanism.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                answer: 1,
-                explanation: "By shutting down the COX factory, NSAIDs prevent the cell from making the specific Prostaglandins that trigger pain and fever!"
+                "text": "When a cell is injured or triggered, it needs to rapidly access that stored Arachidonic Acid!\n\nHere is how it gets it:\n\n**The Molecular Scissors**:\n• An intracellular enzyme called **Phospholipase A2 (PLA2)** is activated.\n\n**The Cut**:\n• This enzyme acts like scissors, physically cutting the **Arachidonic Acid** free from the membrane phospholipids.\n\n**The Release**:\n• The free AA drops into the cytoplasm, ready to be cooked into powerful, active mediators!",
+                "subtext": "",
+                "buttonText": "Test the Start"
             },
             {
-                type: "concept",
-                title: "The LOX Factory",
-                text: "What if **Arachidonic Acid** goes down the other path? The **LOX** factory produces **Leukotrienes**.\n\n• **LTB4**: A powerful chemical scent trail that calls Neutrophils to the area (\"**LTB4 calls the Boys!**\").\n• **LTC4, D4, E4**: These cause massive bronchospasm (airway tightening) and are the main culprits behind severe Asthma attacks.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Ultimate Brakes",
-                text: "Wait, what about **Corticosteroids** (like Prednisone)? Doctors give steroids for severe, massive inflammation.\n\nSteroids are incredibly powerful because they block the very first step: **Phospholipase A2 (PLA2)**. By stopping the scissors, NO **Arachidonic Acid** is freed, meaning both the **COX** and **LOX** factories are completely shut down!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "sort",
-                question: "You are the Pharmacist! Block the correct enzyme for the patient's scenario.",
-                buckets: ["Block COX (NSAID)", "Block LOX / Leukotrienes", "Block PLA2 (Steroid)"],
-                items: [
-                    { text: "Patient has a headache", bucket: 0 },
-                    { text: "Patient has severe Asthma", bucket: 1 },
-                    { text: "Patient has severe total-body inflammation", bucket: 2 }
+                "type": "fill",
+                "question": "Let's make sure you know the starting line of this famous pathway.\n\nThe raw ingredient, __________, is locked inside the cell membrane. It is released during tissue injury by the enzyme __________.",
+                "options": [
+                    "Histamine",
+                    "Arachidonic Acid",
+                    "Cyclooxygenase",
+                    "Phospholipase A2"
                 ],
-                explanation: ""
+                "answer": [
+                    1,
+                    3
+                ],
+                "explanation": "<b>PLA2</b> acts as the molecular scissors to free <b>Arachidonic Acid</b> from the membrane phospholipids, initiating the lipid mediator cascade.",
+                "topic": "Arachidonic Acid Release"
+            },
+            {
+                "type": "concept",
+                "title": "The Fork in the Road",
+                "text": "Once Arachidonic Acid is free, it stands at a fork in the road. It will be grabbed by one of two completely different factory lines:\n\n• **The COX factory**: Cyclooxygenase.\n• **The LOX factory**: Lipoxygenase.\n\nLet's look at what each factory produces!",
+                "subtext": "",
+                "buttonText": "The COX Pathway"
+            },
+            {
+                "type": "concept",
+                "title": "The COX Pathway – Prostaglandins",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 5/3.5.3/cox_pathway_products.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "If Arachidonic Acid goes down the COX pathway, it produces:\n• **Prostaglandins**\n• **Thromboxanes**.\n\n**Prostaglandins (PGE2)**:\n• These are famous for causing **Pain and Fever** (PGE2 = Pain & Fever!).\n• They also cause vasodilation.\n\n**Thromboxane A2 (TXA2)**:\n• Causes blood vessels to **constrict**.\n• Makes platelets clump together to form **clots**.",
+                "subtext": "",
+                "buttonText": "The Pain Mediators"
+            },
+            {
+                "type": "mcq",
+                "question": "Which of the following arachidonic acid metabolites, generated by the COX pathway, are primarily responsible for inducing pain and fever during inflammation?",
+                "options": [
+                    "Leukotrienes",
+                    "Prostaglandins",
+                    "Histamines",
+                    "Selectins"
+                ],
+                "answer": 1,
+                "explanation": "**Prostaglandins** are the principal lipid mediators that drive the systemic **fever response** and sensitize **pain receptors**.",
+                "topic": "COX Pathway Products"
+            },
+            {
+                "type": "concept",
+                "title": "The LOX Pathway – Leukotrienes",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 5/3.5.3/lox_pathway_products.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "What if Arachidonic Acid goes down the other path?\n• The **LOX factory** produces **Leukotrienes**.\n\n**LTB4: Chemoattractant**:\n• A powerful chemical scent trail that calls **Neutrophils** to the area.\n\n**LTC4, D4, E4**:\n• These cause massive **bronchospasm** (airway tightening).\n• They are the main culprits behind severe **Asthma** attacks.",
+                "subtext": "",
+                "buttonText": "Test the LOX Line"
+            },
+            {
+                "type": "mcq",
+                "question": "Leukotrienes, produced by the lipoxygenase pathway, are the primary mediators that cause systemic fever.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "**Leukotrienes** primarily drive chemotaxis and bronchospasm. **Fever** is driven by prostaglandins from the **COX pathway**.",
+                "topic": "LOX Pathway Roles"
+            },
+            {
+                "type": "concept",
+                "title": "Clinical Pharmacology – NSAIDs vs. Steroids",
+                "text": "Because these lipid products cause inflammation and pain, they are major pharmacological targets!\n\nHere is how our most common drugs stop the pain:\n\n**NSAIDs & Aspirin (The Targeted Block)**:\n• Inhibits the **Cyclooxygenase (COX)** enzyme.\n• Stops the production of **prostaglandins**.\n• This reduces pain and fever directly.\n\n**Corticosteroids (The Total Shutdown)**:\n• Inhibits **Phospholipase A2** at the very beginning!\n• Prevents the release of **Arachidonic Acid**, shutting down **BOTH** the COX and LOX pathways simultaneously.\n• These are much broader and more powerful anti-inflammatories.",
+                "subtext": "",
+                "buttonText": "Arachidonic Cascade"
+            },
+            {
+                "type": "match",
+                "question": "Match the enzyme or drug to its specific role in the arachidonic acid cascade.",
+                "pairs": [
+                    {
+                        "left": "Phospholipase A2",
+                        "right": "Releases arachidonic acid from cell membranes"
+                    },
+                    {
+                        "left": "Cyclooxygenase (COX)",
+                        "right": "Produces pain- and fever-inducing prostaglandins"
+                    },
+                    {
+                        "left": "Lipoxygenase (LOX)",
+                        "right": "Produces chemotactic leukotrienes"
+                    },
+                    {
+                        "left": "NSAIDs and Aspirin",
+                        "right": "Inhibit COX to relieve pain and fever"
+                    },
+                    {
+                        "left": "Corticosteroids",
+                        "right": "Inhibit phospholipase to shut down both pathways"
+                    }
+                ],
+                "explanation": "**Phospholipase A2** releases arachidonic acid from membranes, **COX** produces pain- and fever-inducing prostaglandins, and **LOX** produces chemotactic leukotrienes. Furthermore, **NSAIDs and aspirin** inhibit COX to relieve pain, while **corticosteroids** inhibit phospholipase to shut down both pathways.",
+                "topic": "Pharmacological Inhibition"
+            },
+            {
+                "type": "match",
+                "question": "You are the Pharmacist! A patient has a specific problem, and you must match correct drug to block the enzyme with the patient symptom.",
+                "pairs": [
+                    {
+                        "left": "Patient has a headache",
+                        "right": "Block COX with NSAIDs"
+                    },
+                    {
+                        "left": "Patient has severe Asthma",
+                        "right": "Block LOX or Leukotrienes"
+                    },
+                    {
+                        "left": "Severe total-body inflammation",
+                        "right": "Block PLA2 with Corticosteroids"
+                    }
+                ],
+                "explanation": "A **headache** is treated by **blocking COX with NSAIDs**, severe **asthma** is managed by **blocking LOX or leukotrienes**, and severe **total-body inflammation** requires **blocking PLA2 with corticosteroids**.",
+                "topic": "Clinical Applications"
             }
         ]
     },
