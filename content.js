@@ -7319,210 +7319,318 @@ const moduleContent = {
     },
 
     "3.5.4": {
-        title: "The Cytokine Bosses 🗣️🗺️",
-        objectives: [
-            "Master the 'bosses' of the inflammatory response (TNF and IL-1), understand the etymology of their names, learn the navigation system of Chemokines, and see how targeting these molecules treats major diseases."
+        "title": "Cytokines and Chemokines – The Immune Generals 📣📡",
+        "objectives": [
+            "Understand the function of cytokines as the communication network of the immune system, focusing on the local and systemic effects of the master regulators TNF and IL-1, and the role of chemokines."
         ],
-        data: [
+        "data": [
             {
-                type: "concept",
-                title: "The Cell Movers",
-                text: "Welcome to the command center! Let's decode the name: **Cytokine**. In Greek, \"**Cyto**\" means cell, and \"**kinesis**\" means movement or action.\n\nThey are literally \"cell-movers\"! These special proteins act as the \"generals\" of the immune system, commanding other cells to spring into action.",
-                subtext: "",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "Cytokines – The Immune Generals",
+                "text": "Welcome to the command center!\n\nLet's decode the name: In Greek, \"Cyto\" means cell, and \"kinesis\" means movement.\n\nThey are literally the **\"cell-movers\"**!\n\n**The Role**:\n• The **\"hormones\"** or **\"generals\"** of the immune system.\n• They allow cells to communicate over short and long distances to coordinate the entire inflammatory war.\n\n**The Source**:\n• Tissue sentinels—**Macrophages**, **Dendritic cells**, and **Mast cells**.\n\n**Made-to-Order**:\n• They are **NOT** kept in storage.\n• When a threat is detected, the cell builds them completely from scratch (**de novo**) and secretes them into the tissue!",
+                "subtext": "",
+                "buttonText": "Meet the Family"
             },
             {
-                type: "concept",
-                title: "Between the Whites",
-                text: "You will see many cytokines named **Interleukins** (like **IL-1** or **IL-6**). Let's decode this one too! \"**Inter-**\" means between, and \"**leuko-**\" means white blood cell.\n\nWhen first discovered, scientists thought these proteins were exclusively used to communicate between white blood cells!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Printing Press",
-                text: "Where do these **Cytokine Generals** come from? They are **Cell-Derived**!\n\nThe primary producers are the tissue sentinels: **Macrophages**, **Dendritic cells**, and **Mast cells**.\n\nUnlike histamine, they aren't kept in storage. When a **Macrophage** detects a threat, it uses its DNA to synthesize **TNF** and **IL-1** completely from scratch (**de novo**)!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "While Vasoactive Amines are released instantly from pre-made granules, Cytokines like TNF and IL-1 are synthesized ____________ by cells like ____________ after they recognize a pathogen.",
-                options: ["In the Liver", "De Novo (from scratch)", "Macrophages", "Red Blood Cells"],
-                answer: [1, 2],
-                explanation: "Macrophages have to read their DNA and \"print\" fresh cytokines, which is why it takes a few hours for you to get a fever after you catch a bug!"
-            },
-            {
-                type: "concept",
-                title: "The Two Generals",
-                text: "The two most powerful cytokine bosses in acute inflammation are **Tumor Necrosis Factor (TNF)** and **Interleukin-1 (IL-1)**.\n\nTheir first order is **Endothelial Activation**! They command the blood vessels to deploy those \"speed bumps\" (**Selectins** and **Integrin ligands**) we learned about earlier.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "mcq",
-                question: "When IL-1 and TNF reach the brain during a severe infection, they induce a systemic ________ to help \"burn out\" the invading microbes.",
-                options: ["Fever", "Apoptosis", "Necrosis", "Hemorrhage"],
-                answer: 0,
-                explanation: "IL-1 and TNF are the classic mediators that cause the system-wide fever you feel when you are sick."
-            },
-            {
-                type: "mcq",
-                question: "TNF suppresses appetite and promotes lipid and protein mobilization. Therefore, if a patient has chronic, sustained TNF production, they will gain a massive amount of weight.",
-                options: ["True", "False"],
-                answer: 1,
-                explanation: "Sustained TNF causes profound weight loss and anorexia, a pathologic wasting state known as **Cachexia**."
-            },
-            {
-                type: "concept",
-                title: "The Pharmacy: Anti-TNF",
-                text: "Because **TNF** is so powerful, scientists created \"**TNF Antagonists**\" (drugs that block **TNF**) to treat chronic inflammatory diseases like **Rheumatoid Arthritis** and **Psoriasis**.\n\nBut there is a catch! By blocking **TNF**, the macrophages lose their ability to kill intracellular microbes. This makes the patient highly susceptible to severe infections like **Tuberculosis**!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Meet the Navigators: Chemokines",
-                text: "If **TNF** and **IL-1** are the Generals, **Chemokines** are the Navigators! \"**Chemo-**\" (Chemical) + \"**-kine**\" (Movement).\n\nThey are a family of small proteins that use a chemical scent trail to guide specific types of leukocytes exactly where they need to go via **chemotaxis**.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "sort",
-                question: "Chemokines are classified by a special arrangement of Cysteine (C) amino acids. Match the code to the leukocyte it recruits!",
-                buckets: ["C-X-C (like IL-8)", "C-C (like Eotaxin)", "C"],
-                items: [
-                    { text: "Recruits Neutrophils", bucket: 0 },
-                    { text: "Recruits Monocytes and Eosinophils", bucket: 1 },
-                    { text: "Recruits Lymphocytes", bucket: 2 }
+                "type": "concept",
+                "title": "The Cytokine Family",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 5/3.5.4/four_types_cytokines.png",
+                        "title": "Let's meet each of them",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                explanation: ""
+                "text": "While there are dozens of cytokines, they are generally grouped into 4 main families based on their specific roles:\n\n1. **TNF & IL-1**: The Master Regulators.\n2. **Chemokines**: The Trackers (Directing traffic).\n3. **Interferons (IFN)**: The Virus Hunters.\n4. **Interleukins (IL)**: The Messengers (Communication between WBCs).",
+                "subtext": "",
+                "buttonText": "The Master Regulators"
             },
             {
-                type: "mcq",
-                question: "Which famous virus cleverly hijacks chemokine receptors (like CXCR4 and CCR5), using them as a door to infect human immune cells?",
-                options: [
-                    "A) Influenza (Flu)",
-                    "B) Human Immunodeficiency Virus (HIV)",
-                    "C) Hepatitis B"
+                "type": "concept",
+                "title": "The Master Regulators: TNF and IL-1",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 5/3.5.4/tnf_effects_diagram.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                answer: 1,
-                explanation: "HIV specifically targets and binds to **CCR5** and **CXCR4** to force its way into the cell."
+                "text": "These are the supreme commanders of inflammation.\n\nThey are produced by tissue macrophages after their Toll-Like Receptors (TLRs) detect microbial products or dead cells.\n\nThey coordinate the war effort using two main strategies:\n\n**1. Endothelial Activation (Local)**:\n• They command local blood vessels to express adhesion molecules (like **selectins**).\n• This makes the vessels \"sticky\" so white blood cells can safely stop and exit the blood.\n\n**2. Systemic Effects (Global)**:\nThey enter the bloodstream to trigger a full-body response!\n• **Brain**: Induce **fever**, lethargy, and loss of appetite.\n• **Liver**: Stimulate the production of **acute-phase proteins** (e.g., CRP and Fibrinogen).\n\nBecause TNF is so powerful, **TNF Antagonists** are used to treat chronic diseases like Rheumatoid Arthritis and Psoriasis.",
+                "subtext": "**But there is a catch!** By blocking TNF, the macrophages lose their ability to kill intracellular microbes. This makes the patient highly susceptible to severe infections like Tuberculosis (mycobacteria)!",
+                "buttonText": "Test the Generals"
+            },
+            {
+                "type": "fill",
+                "question": "TNF and IL-1 drive inflammation locally by causing endothelial ________, which forces the blood vessel to express adhesion molecules for leukocytes.",
+                "options": [
+                    "Permeability",
+                    "Contraction",
+                    "Activation",
+                    "Apoptosis"
+                ],
+                "answer": [
+                    2
+                ],
+                "explanation": "<b>Endothelial activation</b> is the specific process where TNF and IL-1 induce the expression of selectins and integrin ligands on the vessel wall.",
+                "topic": "Endothelial Activation"
+            },
+            {
+                "type": "fill",
+                "question": "While Vasoactive Amines are released instantly from pre-made granules, Cytokines like TNF and IL-1 are synthesized __________ by cells like __________ after they recognize a pathogen.",
+                "options": [
+                    "In the Liver",
+                    "De Novo (from scratch)",
+                    "Macrophages",
+                    "Red Blood Cells"
+                ],
+                "answer": [
+                    1,
+                    2
+                ],
+                "explanation": "<b>Macrophages</b> must read their DNA and \"print\" fresh cytokines (**de novo**), which is why systemic symptoms like fever usually take a few hours to develop.",
+                "topic": "Cytokine Synthesis"
+            },
+            {
+                "type": "mcq",
+                "question": "Which of the following describes a systemic (whole-body) effect driven by the cytokines TNF and IL-1 circulating in the bloodstream?",
+                "options": [
+                    "The induction of fever and lethargy.",
+                    "The local dilation of a single capillary bed.",
+                    "The immediate destruction of a virus inside a cell."
+                ],
+                "answer": 0,
+                "explanation": "TNF and IL-1 act systemically on organs like the **brain** to produce full-body symptoms, such as **fever**.",
+                "topic": "Systemic Effects"
+            },
+            {
+                "type": "concept",
+                "title": "Chemokines – The Chemical Trackers",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 5/3.5.4/chemokine_function_gps.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Let's decode the name: \"Chemo\" (chemical) and \"kines\" (movement).\n\nThis specific sub-family of small proteins has one highly focused job: directing traffic!\n\nIf TNF and IL-1 are the Generals, **Chemokines** are the Navigators! Their focused job is directing traffic via movement (**kinesis**).\n\n**How do they work?**\n• **The Trail**: They lay a chemical trail from the injury site to the blood vessels.\n• **The Tracker**: White blood cells follow this trail by \"sniffing\" the chemokines using specialized receptors on their surface.",
+                "subtext": "",
+                "buttonText": "Test the Navigators"
+            },
+            {
+                "type": "mcq",
+                "question": "While cytokines like TNF generally regulate the overall immune response, what is the primary, specialized function of chemokines?",
+                "options": [
+                    "To form structural webs that trap bacteria.",
+                    "To digest dead cellular debris.",
+                    "To stimulate the directed movement (chemotaxis) of leukocytes.",
+                    "To physically puncture the bacterial cell wall."
+                ],
+                "answer": 2,
+                "explanation": "<b>Chemokines</b> serve specifically as **chemoattractants** to guide leukocytes to the exact location of the threat.",
+                "topic": "Chemokine Function"
+            },
+            {
+                "type": "concept",
+                "title": "Interleukins (IL) – The Messengers",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 5/3.5.4/interleukin_communication.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Let's decode the name: **\"Inter\" (between)** and **\"leukin\" (leukocytes/white blood cells)**.\n\nA massive family numbered **IL-1** through **IL-30+** used for communication between white blood cells. And they have completely opposing jobs:\n\n**Pro-inflammatory**:\n• _Example_: **IL-6**, **IL-17** cause systemic effects and WBC recruitment.\n\n**Anti-inflammatory**:\n• _Example_: **IL-10** is the ultimate **\"ceasefire\"** signal, shutting down the immune response so the tissue can finally heal.",
+                "subtext": "",
+                "buttonText": "The Virus Hunters"
+            },
+            {
+                "type": "concept",
+                "title": "Interferons (IFN) – The Virus Hunters",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 5/3.5.4/interferon_function.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "As their name suggests, these cytokines were discovered because they physically interfere with viral infections!\n\n**How do they protect the body?**\n\n**The Neighborhood Alarm**:\n• When a cell is infected by a virus, it secretes interferons to warn neighboring cells to raise their antiviral shields.\n\n**Stopping the Spread**:\n• They command nearby cells to shut down their protein synthesis, making it impossible for the virus to hijack them and replicate!\n\n**Waking the Giants**:\n• Specific types like **IFN-γ** wake up resting macrophages and turning them into ruthless killers.",
+                "subtext": "",
+                "buttonText": "Final Summary"
+            },
+            {
+                "type": "match",
+                "question": "Match the specific cytokine or family to its primary role.",
+                "pairs": [
+                    {
+                        "left": "Interferons",
+                        "right": "Prevent viral replication and activate macrophages"
+                    },
+                    {
+                        "left": "TNF/IL-1",
+                        "right": "Endothelial Activation making vessels sticky"
+                    },
+                    {
+                        "left": "Interleukins",
+                        "right": "Have proinflammatory and anti-inflammatory effects"
+                    },
+                    {
+                        "left": "Chemokines",
+                        "right": "Specialized cytokines that drive leukocyte chemotaxis"
+                    }
+                ],
+                "explanation": "**Interferons** prevent viral replication, **TNF and IL-1** cause endothelial activation, **interleukins** exhibit both pro- and anti-inflammatory effects, and **chemokines** are specialized cytokines driving leukocyte chemotaxis.",
+                "topic": "Cytokine Poster Summary"
             }
         ]
     },
 
     "3.5.5": {
-        title: "The Liver’s Special Ops (Complement) ⚔️🩸",
-        objectives: [
-            "Understand how the Complement system is activated (Classical, Alternative, Lectin pathways), master the functions of its proteins (C3a, C5a, C3b, MAC), and discover how the Kinin system causes pain (Bradykinin)."
+        "title": "The Complement System 🛡️💧",
+        "objectives": [
+            "Understand how the Complement system is activated (Classical, Alternative, Lectin pathways), and converge to activate C3 and C5, and how the resulting products (C3a, C5a, C3b, and MAC) mediate the three core functions: opsonization, inflammation, and cell lysis."
         ],
-        data: [
+        "data": [
             {
-                type: "concept",
-                title: "Waking up the Plasma",
-                text: "We’ve finished the Cell-Derived mediators. Now, it's time to check in on the **Liver**!\n\nRemember our rulebook? The liver constantly produces **Plasma-Derived** mediators that float asleep in your bloodstream. The two most important plasma pathways are the **Complement System** and the **Kinin System**.",
-                subtext: "",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "Plasma Derived Mediators",
+                "text": "We’ve finished the Cell-Derived mediators. Now, it's time to check in on the **Liver**!\n\nThe liver constantly produces **Plasma-Derived mediators** that float inactive in the blood.\n\n**Activation**:\n• When an injury occurs, enzymes **\"cleave\"** (cut) them to turn them on.\n\n**The Cascade**:\n• One activated protein rapidly cleaves the next in an explosive domino effect!\n\n**The 2 Main Pathways**:\n1. **The Complement System**: A massive defensive network of 20+ proteins.\n2. **The Kinin System**: A pathway that generates intense pain and leaky vessels.",
+                "subtext": "",
+                "buttonText": "The 3 Triggers"
             },
             {
-                type: "concept",
-                title: "The Complement Cascade",
-                text: "The **Complement System** is a team of 9 proteins (named **C1 through C9**) that act like a Special Ops squad against bacteria.\n\nTo start the attack, the system must activate an enzyme called **C3 Convertase**. This enzyme's job is to cut the **C3** protein, kicking off a massive cascade.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Three Keys",
-                text: "There are three different pathways (or \"keys\") to turn on the **Complement System**. All three lead to the exact same result: activating **C3 Convertase**!\n\n1. The **Classical Pathway**\n2. The **Alternative Pathway**\n3. The **Lectin Pathway**",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Classical Pathway",
-                text: "The **Classical Pathway** is triggered by **Antibodies**.\n\nWhen your adaptive immune system creates specific antibodies (**IgG or IgM**) that bind to a microbe, the **C1** complement protein locks onto those antibodies and turns the system on! (**Mnemonic: GM makes Classic cars -> IgG, IgM = Classical**).",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Alternative & Lectin Pathways",
-                text: "What if you don't have antibodies yet? The innate immune system uses the other two pathways:\n\n• **Alternative Pathway**: Triggered directly when complement proteins bump into microbial surface molecules (like **bacterial endotoxins/LPS**).\n• **Lectin Pathway**: Triggered when a plasma protein (**Mannose-Binding Lectin**) detects a specific sugar (**Mannose**) on microbes.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "sort",
-                question: "Match the trigger to the correct pathway that turns on C3 Convertase.",
-                buckets: ["Classical Pathway", "Alternative Pathway", "Lectin Pathway"],
-                items: [
-                    { text: "Triggered by IgG or IgM Antibodies", bucket: 0 },
-                    { text: "Triggered directly by microbial surface molecules (LPS)", bucket: 1 },
-                    { text: "Triggered by detecting microbial sugars (Mannose)", bucket: 2 }
+                "type": "concept",
+                "title": "The 3 Triggers of the Complement System",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 5/3.5.5/complement_pathways_activation.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                explanation: ""
+                "text": "There are three completely different ways to turn on this massive defensive network:\n\n**The Classical Pathway**:\n• Activated when specific **antibodies** bind to the invader.\n\n**The Alternative Pathway**:\n• Triggered when complement proteins directly touch and bind to a **microbe's surface**.\n\n**The Lectin Pathway**:\n• Set off when a plasma protein (**Mannose-Binding Lectin**) detects a specific sugar (mannose) found exclusively on microbes.",
+                "subtext": "",
+                "buttonText": "The Critical Step"
             },
             {
-                type: "concept",
-                title: "C3a & C5a: The Alarms",
-                text: "Now that the cascade is on, **C3** is cut into pieces! First up are **C3a and C5a**, called the **Anaphylatoxins**.\n\nTheir main job is to act as massive chemical alarms. They float over to **Mast Cells** and trigger them to instantly release **Histamine**! Additionally, **C5a** is a powerful **chemotactic agent**.",
-                subtext: "",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "The Critical Convergence - C3",
+                "text": "**The Common Goal: Cleaving C3!**\n• No matter which pathway trips the alarm, they all lead to the exact same explosive result:\n• They **activate** a crucial enzyme called **C3 Convertase**.\n• This enzyme cleaves **C3** (the most abundant complement protein) into two highly active fragments: **C3a** and **C3b**.",
+                "subtext": "",
+                "buttonText": "Test the Central Step"
             },
             {
-                type: "concept",
-                title: "C3b: The Seasoning",
-                text: "You actually already met the other half of **C3**: **C3b**!\n\n**C3b** is the ultimate **Opsonin**. It attaches to the surface of the bacteria, acting as a tasty \"seasoning\" or \"handle\" so the **Neutrophil** can easily grab and eat the bug.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The MAC Attack: C5b-C9",
-                text: "The final pieces of the cascade (**C5b, C6, C7, C8, and C9**) join forces to form the ultimate weapon: **The Membrane Attack Complex (MAC)**.\n\nThe **MAC** acts like a microscopic drill. It literally punches a massive hole straight through the bacterial cell wall, and the bacteria explodes (**lysis**!)",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "mcq",
-                question: "Which complement protein acts as an opsonin to help neutrophils eat bacteria, and which group of proteins drills a hole to cause bacterial lysis?",
-                options: [
-                    "A) C3a (Opsonin) / Lectin (Lysis)",
-                    "B) C5a (Opsonin) / Bradykinin (Lysis)",
-                    "C) C3b (Opsonin) / MAC (Lysis)"
+                "type": "fill",
+                "question": "The three activation pathways of the complement system all converge on the enzymatic cleavage of the critical protein ________ into its active fragments.",
+                "options": [
+                    "C1",
+                    "C3",
+                    "C5",
+                    "C9"
                 ],
-                answer: 2,
-                explanation: "C3b butters them up, and the MAC (C5b-C9) drills them down!"
-            },
-            {
-                type: "concept",
-                title: "The Kinin System",
-                text: "The second plasma-derived pathway is the **Kinin System**.\n\nJust like Complement, this system uses a cascade to create a highly active final product. The star of this system is a molecule called **Bradykinin**.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Bradykinin Brings the Pain",
-                text: "**Bradykinin** does almost the exact same thing as Histamine (causes vasodilation and leaky vessels). But it has one very special unique feature: **Pain**.\n\n**Bradykinin** physically stimulates your nerve endings. It is the primary chemical mediator responsible for **Dolor (Pain)**!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "mcq",
-                question: "A patient presents with a swollen, red, and incredibly painful wasp sting. Which plasma-derived mediator is directly responsible for the pain (Dolor)?",
-                options: [
-                    "A) Bradykinin",
-                    "B) C3b",
-                    "C) Lipoxins"
+                "answer": [
+                    1
                 ],
-                answer: 0,
-                explanation: "While Prostaglandins (from the lipid pathway) also cause pain, **Bradykinin** is the undisputed king of pain in the plasma-derived systems!"
+                "explanation": "The cleavage of **C3** is the central, mandatory step that drives all subsequent functions of the complement cascade.",
+                "topic": "Complement Activation"
+            },
+            {
+                "type": "match",
+                "question": "You are the C3 Convertase enzyme! Match the trigger to the correct pathway that turns you on.",
+                "pairs": [
+                    {
+                        "left": "IgG or IgM Antibodies",
+                        "right": "Classical Pathway"
+                    },
+                    {
+                        "left": "Microbial surface (LPS)",
+                        "right": "Alternative Pathway"
+                    },
+                    {
+                        "left": "Microbial sugars (Mannose)",
+                        "right": "Lectin Pathway"
+                    }
+                ],
+                "explanation": "The **classical** pathway is antibody-dependent, the **alternative** pathway is triggered directly by the microbe, and the **lectin** pathway recognizes specific microbial sugars.",
+                "topic": "Complement Triggers"
+            },
+            {
+                "type": "concept",
+                "title": "Function 1 - Opsonization (C3b)",
+                "text": "The newly cleaved **C3b** fragment has one primary job: **tagging the enemy for destruction**!\n\n**The Tag**:\n• C3b firmly attaches to the outer surface of the invading microbe.\n• It is the body's ultimate **opsonin**.\n\n**The \"Handle\"**:\n• Many bacteria are slippery and hard to catch.\n• C3b coats the bacteria, acting as a physical **\"handle\"** on the surface.\n\n**The Capture**:\n• Phagocytes (like neutrophils and macrophages) possess highly specific receptors for C3b.\n• This allows them to instantly grip the handle, lock onto the microbe, and engulf it!",
+                "subtext": "",
+                "buttonText": "Test the Tag"
+            },
+            {
+                "type": "mcq",
+                "question": "Which specific complement fragment acts as an opsonin, physically coating microbes to dramatically enhance phagocytosis?",
+                "options": [
+                    "C3a",
+                    "C3b",
+                    "C5a",
+                    "C9"
+                ],
+                "answer": 1,
+                "explanation": "**C3b** binds to the surface of microbes and acts as a tag that phagocytes can easily recognize and grip.",
+                "topic": "Opsonization"
+            },
+            {
+                "type": "concept",
+                "title": "Function 2 - Inflammation (C3a and C5a)",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 5/3.5.5/c3_cleavage_effects.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "The smaller fragments, **C3a** and **C5a**, don't attach to the bacteria.\n\nThey are released into the surrounding fluid as highly potent alarms called **anaphylatoxins**.\n\nWhat do they do? \n\n**Trigger Histamine**:\n• They float over to local mast cells and force them to instantly release **histamine**, driving massive vasodilation and swelling.\n\n**Lay the Trail**:\n• **C5a** has an extra superpower!\n• It is a powerful **chemotactic agent** that lays down a chemical trail, guiding neutrophils directly to the injured site.",
+                "subtext": "",
+                "buttonText": "Test the Alarms"
+            },
+            {
+                "type": "mcq",
+                "question": "The complement fragments C3a and C5a function to suppress the immune response and prevent the release of histamine.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "**C3a and C5a** powerfully **stimulate** inflammation by triggering histamine release from mast cells and acting as chemoattractants.",
+                "topic": "Anaphylatoxins"
+            },
+            {
+                "type": "concept",
+                "title": "Function 3 - Cell Lysis (The MAC)",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 5/3.5.5/mac_formation_lysis.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "The complement system doesn't just tag targets and sound alarms—it can execute the microbe directly!\n\nHere is how it makes the kill:\n\n**The Assembly**:\n• Late-stage complement proteins (**C5b, C6, C7, C8, and multiple C9s**) physically group together right on the surface of the microbe.\n\n**The Drill**:\n• They form a structure called the **Membrane Attack Complex (MAC)**.\n\n**The Kill**:\n• The MAC physically punches a massive hole straight through the microbe's cell membrane.\n• Fluid rushes in, causing the bug to violently rupture and die!",
+                "subtext": "",
+                "buttonText": "Final Summary"
+            },
+            {
+                "type": "match",
+                "question": "Match the specific complement protein or complex to its primary function in the immune response.",
+                "pairs": [
+                    {
+                        "left": "C3",
+                        "right": "Central protein that must be cleaved for the cascade to proceed"
+                    },
+                    {
+                        "left": "C3b",
+                        "right": "Acts as an opsonin to tag microbes for phagocytosis"
+                    },
+                    {
+                        "left": "C5a",
+                        "right": "Acts as a powerful chemoattractant to recruit neutrophils"
+                    },
+                    {
+                        "left": "MAC",
+                        "right": "Punches holes in cell membranes to cause lysis"
+                    }
+                ],
+                "explanation": "In the complement cascade, **C3** serves as the central protein that must be cleaved for the pathway to proceed, yielding **C3b**, which acts as an opsonin to tag microbes for phagocytosis. Furthermore, **C5a** functions as a powerful chemoattractant to recruit neutrophils, and the **Membrane Attack Complex (MAC)** ultimately punches holes in microbial cell membranes to cause lysis.",
+                "topic": "Complement System Summary"
             }
         ],
-        next: "3.6.1"
+        "next": "3.6.1"
     },
 
     // UNIT 6: CHRONIC INFLAMMATION
