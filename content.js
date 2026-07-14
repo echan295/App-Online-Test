@@ -7798,179 +7798,529 @@ const moduleContent = {
     },
 
     "3.6.2": {
-        title: "The Heavy Artillery (Chronic Cells) 🔋💣",
-        objectives: [
-            "Identify the primary cellular players of chronic inflammation, understand the Macrophage's dual role (destruction and repair), and master the 'vicious cycle' of Macrophage-Lymphocyte activation."
+        "title": "The Macrophage-Lymphocyte Dance 💃🕺",
+        "objectives": [
+            "Understand the bidirectional activation loop between macrophages and T-lymphocytes, identify the key cytokines involved (IL-12 and IFN-γ), and distinguish between the destructive (M1) and repairing (M2) roles of macrophages."
         ],
-        data: [
+        "data": [
             {
-                type: "concept",
-                title: "Changing the Guard",
-                text: "The rapid-response team has failed. The Neutrophils are all dead. It's time to call in the heavy artillery!\n\nIn Chronic Inflammation, the cell population completely changes. The battlefield is taken over by **Mononuclear cells**: primarily **Macrophages**, **Lymphocytes**, and **Plasma cells**. These cells can survive in the tissues for months or years!",
-                subtext: "",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "The Ultimate Duo",
+                "text": "Chronic inflammation is driven by a continuous, highly coordinated routine!\n\n**Coordinated Routine**:\n•The entire process relies on continuous back-and-forth communication between **Macrophages** and **T-Lymphocytes**.\n\n**Mutual Activation**:\n• Once at the site of injury or infection, they lock together in a cycle of mutual activation.\n\n**Built for the Long Haul**:\n• Unlike neutrophils, these cells are resilient. They can survive in the tissues, driving inflammation for months or even years.",
+                "subtext": "",
+                "buttonText": "The Dominant Force"
             },
             {
-                type: "concept",
-                title: "The Five-Star General: Macrophage",
-                text: "The absolute dominant player in chronic inflammation is the **Macrophage**.\n\nBut Macrophages don't start out that way! They circulate in the bloodstream as inactive rookies called **Monocytes**. When a **Monocyte** leaves the blood and enters the tissue, it bulks up, gains a ton of lysosomes, and officially transforms into a mature **Macrophage**!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "The circulating white blood cell is called a **____________**. Once it crosses the endothelium and enters the tissue to fight, it matures into a **____________**.",
-                options: ["Lymphocyte", "Monocyte", "Macrophage", "Neutrophil"],
-                answer: [1, 2],
-                explanation: "Monocyte in the blood; Macrophage in the tissue!"
-            },
-            {
-                type: "concept",
-                title: "The Dual Role",
-                text: "Why is the Macrophage the General? Because it commands *both* halves of chronic inflammation: Destruction and Repair!\n\n1. **Destruction:** It eats microbes and secretes toxic ROS and proteases.\n2. **Repair:** It secretes Growth Factors (like **TGF-β**) that tell the body to lay down heavy collagen (scarring/fibrosis).",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Special Forces: Lymphocytes",
-                text: "The Macrophages are tough, but for stubborn infections (like Tuberculosis) or autoimmune diseases, they call in the Special Forces: **T-Lymphocytes** (T-cells) and **B-Lymphocytes** (B-cells).\n\nLymphocytes are the masters of *Adaptive Immunity*. They are highly specific, trained assassins.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Vicious Cycle",
-                text: "When Macrophages and T-cells get together, they create an endless hype-loop called **Reciprocal Activation**.\n\n1. The Macrophage shows the microbe to the T-cell and secretes **IL-12** to hype it up.\n2. The activated T-cell fires back a cytokine called **IFN-γ** (Interferon-gamma).\n3. **IFN-γ** turns the Macrophage into a super-charged, hyper-aggressive killer!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "mcq",
-                question: "In the vicious cycle of chronic inflammation, T-cells secrete a specific cytokine that turns regular macrophages into hyper-aggressive 'super macrophages.' What is this cytokine?",
-                options: [
-                    "A) Histamine",
-                    "B) IFN-γ (Interferon-gamma)",
-                    "C) IL-10"
+                "type": "concept",
+                "title": "Macrophage – The Dominant Force",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 6/3.6.2/monocyte_macrophage_differentiation.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                answer: 1,
-                explanation: "IFN-γ is the ultimate Macrophage-activating signal! IL-10 puts the fire out, while IFN-γ throws gas on it!"
+                "text": "Macrophages are the absolute dominate cells and this is how they take control.\n\n**From Rookie to Pro**\n• They start as inactive rookies called **monocytes** in the blood.\n• When a monocyte enters the tissue, it bulks up, gains lysosomes, and transforms into a **macrophage**.\n\n**Taking the Lead**\n• Macrophages engulf the pathogen and display tiny pieces of it (**antigens**) on their surface for the T-lymphocytes to see.\n\n**The Wake-Up Call**\n• At the same time, the macrophage secretes a cytokine called **Interleukin-12 (IL-12)**.\n• This activates the resting T-lymphocytes to join the fight!",
+                "subtext": "",
+                "buttonText": "Track the Career"
             },
             {
-                type: "concept",
-                title: "The Artillery: Plasma Cells",
-                text: "Last but not least, we have the **Plasma Cells**.\n\n**Plasma cells** are just fully activated B-Lymphocytes. Think of them as heavy artillery cannons. They set up camp in the chronically inflamed tissue and constantly shoot out thousands of **Antibodies** to neutralize the ongoing threat.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "sort",
-                question: "Match the cell to its job description.",
-                buckets: ["Monocyte", "Macrophage", "T-Lymphocyte", "Plasma Cell"],
-                items: [
-                    { text: "Circulates in the blood, matures in the tissue", bucket: 0 },
-                    { text: "The General: Handles both destruction and repair", bucket: 1 },
-                    { text: "Secretes IFN-γ to super-charge the macrophages", bucket: 2 },
-                    { text: "The Artillery: Acts as an antibody factory", bucket: 3 }
+                "type": "fill",
+                "question": "Let's track this cell's career!\n\nThe circulating white blood cell is called a __________. Once it crosses the endothelium and enters the tissue to fight, it matures into a __________.",
+                "options": [
+                    "Lymphocyte",
+                    "Monocyte",
+                    "Macrophage",
+                    "Neutrophil"
                 ],
-                explanation: ""
+                "answer": [
+                    1,
+                    2
+                ],
+                "explanation": "Monocyte in the blood; Macrophage in the tissue!",
+                "topic": "Macrophage Maturation"
+            },
+            {
+                "type": "mcq",
+                "question": "Let’s see if you can track the first signal in the loop!\n\nWhich specific cytokine is secreted by macrophages to wake up and activate T-lymphocytes?",
+                "options": [
+                    "Histamine",
+                    "Interleukin-12 (IL-12)",
+                    "Serotonin"
+                ],
+                "answer": 1,
+                "explanation": "Macrophages produce **IL-12** to activate T-lymphocytes, officially starting the cellular dance.",
+                "topic": "Cytokine Signaling"
+            },
+            {
+                "type": "concept",
+                "title": "Two Faces of the Macrophage (M1 vs. M2)",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 6/3.6.2/m1_m2_polarization.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Did you know macrophages have dual personalities depending on the signals they receive?\n\n**Classical Activation (M1)**:\n• Triggered by **IFN-γ**.\n• These are the **\"Destroyers.\"**\n• They produce reactive oxygen species and lysosomal enzymes to kill microbes and destroy tissue.\n\n**Alternative Activation (M2)**:\n• Triggered by **IL-4** and **IL-13**.\n• These are the **\"Healers.\"**\n• Instead of killing, their job is tissue repair, blood vessel growth (**angiogenesis**), and scar formation (**fibrosis**).",
+                "subtext": "",
+                "buttonText": "Destroyers vs. Healers"
+            },
+            {
+                "type": "mcq",
+                "question": "Let's test your knowledge of macrophage personalities!\n\nAlternatively activated macrophages (M2) are primarily responsible for aggressive microbicidal actions and tissue destruction.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "Classically activated (**M1**) macrophages are the destroyers, while alternatively activated (**M2**) macrophages focus on **tissue repair** and anti-inflammatory functions.",
+                "topic": "Macrophage Polarization"
+            },
+            {
+                "type": "concept",
+                "title": "Lymphocyte – The Special Force",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 6/3.6.2/lymphocyte_role_chronic.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "For stubborn infections, macrophages call in **Lymphocytes**.\n\nThey are the **masters of adaptive immunity**, acting as a **highly specific** force to **target exact microbes**.\n\n**The Counter-Signal**:\n• Once activated, T-lymphocytes join the fight by secreting a highly potent cytokine called **Interferon-gamma (IFN-γ)**.\n\n**Creating \"Terminators\"**:\n• **IFN-γ** is the ultimate power-up.\n• It transforms ordinary macrophages into aggressive \"Terminators,\" massively boosting their ability to kill microbes and destroy tissue.",
+                "subtext": "",
+                "buttonText": "The Vicious Cycle"
+            },
+            {
+                "type": "concept",
+                "title": "The Vicious Cycle",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 6/3.6.2/macrophage_lymphocyte_loop.png",
+                        "reference": "Image generated by ChatGPT"
+                    },
+                    {
+                        "url": "images/Chapter 3/Unit 6/3.6.2/primary_mediators.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "This isn't a one-and-done interaction! \n\n**The Loop**:\n• Activated macrophages secrete more **IL-12**, which activates more T-lymphocytes, which secrete more **IFN-γ**, which supercharges even more macrophages!\n\n**The Consequence**:\n• This bidirectional cycle continuously recruits and activates both cells.\n• It is the core reason why chronic inflammation persists and causes severe collateral tissue damage.",
+                "subtext": "",
+                "buttonText": "Test the Counter-Move"
+            },
+            {
+                "type": "fill",
+                "question": "While macrophages release IL-12 to activate T-cells, activated T-cells release ____________ to supercharge the macrophages.",
+                "options": [
+                    "Interferon-gamma (IFN-γ)",
+                    "Complement",
+                    "Antibodies",
+                    "Interleukin-1"
+                ],
+                "answer": [
+                    0
+                ],
+                "explanation": "<b>IFN-γ</b> is the primary cytokine released by T-lymphocytes to powerfully activate macrophages.",
+                "topic": "Cellular Crosstalk"
+            },
+            {
+                "type": "concept",
+                "title": "Building a Permanent Base",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 6/3.6.2/tertiary_lymphoid_organs.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Sometimes, the dance goes on for so long that the cells decide to move in permanently!\n\n**Tertiary Lymphoid Organs**:\n• In long and severe chronic inflammation, the accumulated immune cells organize themselves into structures that look exactly like **lymph nodes**!\n• The tissue is so chronically inflamed that the immune system builds a permanent **local base of operations** right inside the target organ.",
+                "subtext": "",
+                "buttonText": "The Final Summary"
+            },
+            {
+                "type": "match",
+                "question": "Match the cell, cytokine, or term to its correct role in the Macrophage-Lymphocyte interaction.",
+                "pairs": [
+                    {
+                        "left": "IL-12",
+                        "right": "Cytokine released by macrophages to activate T-cells"
+                    },
+                    {
+                        "left": "IFN-γ",
+                        "right": "Cytokine released by T-cells to supercharge macrophage"
+                    },
+                    {
+                        "left": "M1 Macrophage",
+                        "right": "The \"Destroyer\" focused on killing microbes"
+                    },
+                    {
+                        "left": "M2 Macrophage",
+                        "right": "The \"Healer\" focused on tissue repair and fibrosis"
+                    },
+                    {
+                        "left": "Tertiary Lymphoid Organ",
+                        "right": "A lymph node-like structure built directly in chronically inflamed tissue"
+                    }
+                ],
+                "explanation": "**IL-12** is released by macrophages to activate T-cells, **IFN-γ** is released by T-cells to supercharge macrophages, **M1** macrophages focus on killing microbes, **M2** macrophages focus on tissue repair, and **tertiary lymphoid organs** are lymph node-like structures built in chronically inflamed tissue.",
+                "topic": "The Dance Summary"
             }
         ]
     },
 
     "3.6.3": {
-        title: "The Ultimate Quarantine (Granuloma) 🏰🧱",
-        objectives: [
+        "title": "Granulomatous Inflammation – The Ultimate Quarantine 🧱☣️",
+        "objectives": [
+            "Understand the definition and purpose of granulomatous inflammation.",
             "Understand the structure of a Granuloma (Epithelioid macrophages and Giant cells), classify them by their trigger (Foreign Body vs. Immune), and distinguish their microscopic appearance (Caseating vs. Non-caseating)."
         ],
-        data: [
+        "data": [
             {
-                type: "concept",
-                title: "The Quarantine Wall",
-                text: "What happens if the immune system faces an invader it absolutely cannot kill? If it can't be destroyed, it must be contained!\n\nThe body builds a biological prison wall around the threat to quarantine it. This unique pattern of chronic inflammation is called **Granulomatous Inflammation**, and the \"prison\" is called a **Granuloma**.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Bricklayers: Epithelioid Macrophages",
-                text: "To build a wall, you need bricks. The Macrophages undergo a radical physical transformation to become these bricks.\n\nMacrophages flatten out, widen, and press tightly against each other. Because they now look like skin (epithelial) cells, pathologists call them **Epithelioid Macrophages**. They are the defining hallmark of a granuloma!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Megazords: Giant Cells",
-                text: "Sometimes, flattening out isn't enough. Multiple Macrophages will literally fuse their cell membranes together to create one massive, super-cell with dozens of nuclei! This is called a **Multinucleated Giant Cell**.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Foreign Body Granulomas",
-                text: "A **Foreign Body Granuloma** forms around non-living material that is simply too big for a single macrophage to eat (like a splinter or surgical suture).\n\nThe body recognizes it's not a biological infection, so T-cells are not involved. The macrophages just fuse into **Giant Cells** and wrap tightly around the object.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Immune Granulomas",
-                text: "An **Immune Granuloma** forms against stubborn living threats (like TB) or autoimmune targets.\n\nThis requires the \"Vicious Cycle\"! T-cells release massive amounts of **IFN-γ**, which commands the macrophages to transform into a highly organized wall of **Epithelioid cells**.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "sort",
-                question: "Is it a foreign object or an immune response? Drag the characteristics to the correct granuloma type!",
-                buckets: ["Foreign Body Granuloma", "Immune Granuloma"],
-                items: [
-                    { text: "Triggered by a surgical suture left in the tissue", bucket: 0 },
-                    { text: "Triggered by Mycobacterium tuberculosis", bucket: 1 },
-                    { text: "Requires T-cells and IFN-γ", bucket: 1 },
-                    { text: "No T-cells involved, just giant cells wrapping an object", bucket: 0 }
+                "type": "concept",
+                "title": "The Ultimate Quarantine",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 6/3.6.3/granuloma_structure_diagram.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                explanation: ""
+                "text": "What happens if the immune system faces an invader it absolutely cannot kill, no matter how hard it tries?\n\n**Containment**\n• If it can't be destroyed, it must be contained!\n• The body builds a biological prison wall around the threat to quarantine it from the rest of the body!\n\n**The Granuloma**\n• This unique pattern of chronic inflammation is called **Granulomatous Inflammation**, and the \"prison\" is called a **Granuloma**.",
+                "subtext": "",
+                "buttonText": "Anatomy of a Prison"
             },
             {
-                type: "concept",
-                title: "Caseating Granulomas: The Cheese",
-                text: "**Caseating Granulomas** are incredibly destructive. The center of the granuloma turns into a mushy, dead, yellow-white zone of necrosis.\n\n\"**Caseous**\" literally translates to \"cheese-like.\" When you see a caseating granuloma, the diagnosis is almost always **Tuberculosis (TB)** until proven otherwise!",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Non-Caseating Granulomas",
-                text: "**Non-Caseating Granulomas** do not have that dead, cheesy center. The quarantine wall is solid all the way through.\n\n**Foreign Body** granulomas are non-caseating. Classic immune examples include **Sarcoidosis** and **Crohn's Disease**.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "sort",
-                question: "Classify the disease by its granuloma morphology.",
-                buckets: ["Caseating (Cheese) 🧀", "Non-Caseating (Solid) 🧱"],
-                items: [
-                    { text: "Tuberculosis (TB)", bucket: 0 },
-                    { text: "Sarcoidosis", bucket: 1 },
-                    { text: "Crohn's Disease", bucket: 1 },
-                    { text: "Has a core of necrotic, mushy cell debris", bucket: 0 },
-                    { text: "Reaction to a surgical suture", bucket: 1 }
+                "type": "concept",
+                "title": "The Shape-Shifters",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 6/3.6.3/macrophage_epithelioid_transformation.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                explanation: ""
+                "text": "To build this wall, the dominant cell of chronic inflammation—the macrophage—undergoes a dramatic transformation.\n\n**The Shape-Shifters**\n• Driven by strong T-cell signals (like **IFN-γ**), macrophages plump up with extra cytoplasm until they begin to look like skin (epithelial) cells.\n\n**The Defining Feature**\n• We call these transformed cells **\"Epithelioid Macrophages.\"** Finding them under the microscope is the absolute defining feature of a granuloma!",
+                "subtext": "",
+                "buttonText": "The Hallmark Cell"
             },
             {
-                type: "mcq",
-                question: "A patient with a chronic cough has a lung biopsy. The pathologist sees an Immune Granuloma featuring a ring of epithelioid macrophages surrounding a central core of granular, cheese-like necrotic debris. What is the most likely culprit?",
-                options: [
-                    "A) A splinter of wood (Foreign body)",
-                    "B) Mycobacterium tuberculosis (TB)",
-                    "C) Sarcoidosis"
+                "type": "mcq",
+                "question": "Let’s see if you can identify the architect of the quarantine wall!\n\nWhich specially transformed cell is the defining feature (hallmark) of a granuloma?",
+                "options": [
+                    "Neutrophils",
+                    "Epithelioid Macrophages",
+                    "Red Blood Cells"
                 ],
-                answer: 1,
-                explanation: "The \"cheese-like\" necrotic core confirms it is a **Caseating Granuloma**. Combined with an immune response, the culprit is TB!"
+                "answer": 1,
+                "explanation": "The plump, transformed **epithelioid macrophages** are the essential cells used to contain the infection and are the histological hallmark of a granuloma.",
+                "topic": "Granuloma Histology"
+            },
+            {
+                "type": "concept",
+                "title": "Multinucleated Giant Cells",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 6/3.6.3/giant_cell_formation.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Sometimes, the job requires a more containing power than a single cell can provide.\n\n**The Fusion**\n• To trap a large or stubborn invader, individual **epithelioid macrophages** actually **fuse** together.\n\n**The Super-Cell**\n• This creates one massive structure with dozens of nuclei inside a single body.\n• This towering defender is officially called a **Multinucleated Giant Cell**.",
+                "subtext": "",
+                "buttonText": "The Heavy Lifters"
+            },
+            {
+                "type": "fill",
+                "question": "When epithelioid macrophages fuse together to surround and handle a tough invader, they form massive _____________ cells.",
+                "options": [
+                    "Multinucleated Giant",
+                    "Small Lymphocyte",
+                    "Endothelial",
+                    "Plasma"
+                ],
+                "answer": [
+                    0
+                ],
+                "explanation": "The fusion of numerous epithelioid macrophages leads to the formation of multinucleated giant cell.",
+                "topic": "Cellular Fusion"
+            },
+            {
+                "type": "concept",
+                "title": "Two Reasons to Build a Prison",
+                "text": "**Why Build a Prison?**\n\n**The Two Triggers**\n• Granulomas are built for specific reasons.\n• We divide them into two main categories based purely on what triggered the lockdown.\n\n**The Categories**:\n1. **Foreign Body Granulomas**: Triggered by lifeless, physical objects.\n2. **Immune Granulomas**: Triggered by stubborn, biological threats.\n\n**What is the Difference?**\nLet's explore exactly how the immune system changes its strategy when facing an inert object versus a living invader!",
+                "subtext": "",
+                "buttonText": "Type 1: Foreign Body"
+            },
+            {
+                "type": "concept",
+                "title": "Type 1 - Foreign Body Granulomas",
+                "text": "**The Physical Trigger**\n• They form around non-living materials that are too big for one macrophage to eat.\n• _Example_: sutures, pieces of wood or glass.\n\n**No Infection, No T-Cells**\n• Since the threat is a physical rather than a biological, **T-lymphocytes** are not involved.\n\n**The Giant Cell Wall**\n• Unable to digest the object, macrophages fuse into massive **\"Giant Cells\"** to wrap up and permanently hide it from the rest of the body.",
+                "subtext": "",
+                "buttonText": "Type 2: Immune"
+            },
+            {
+                "type": "concept",
+                "title": "Type 2 - Immune Granulomas & TB",
+                "text": "**The Biological Trigger**\n• These form against stubborn living microbes (like **Tuberculosis**) or autoimmune targets.\n\n**The Vicious Cycle**\n• Because the threat is biological, **T-lymphocytes** step in.\n• They lock into a communication loop with macrophages and release massive amounts of **IFN-γ**.\n\n**Building the Wall**\n• This signal commands macrophages to transform into tightly linked **\"Epithelioid cells.\"**\n• Together, they build a highly organized biological prison to trap the infection.",
+                "subtext": "",
+                "buttonText": "Two Types of Prisons"
+            },
+            {
+                "type": "concept",
+                "title": "Two Types of Prisons",
+                "text": "Now that we know why granulomas are built, let's look at their internal structure\n\nPathologists divide them into two major categories based purely on what is happening at the center of the wall.\n\n**The Core Defines the Type**:\n• **Caseating Granulomas**: These feature a dead, necrotic center.\n• **Non-Caseating Granulomas**: These feature a solid, fully living center.",
+                "subtext": "",
+                "buttonText": "Test the Dead Center"
+            },
+            {
+                "type": "mcq",
+                "question": "Let's test your knowledge of granuloma anatomy!\n\nEvery single granuloma in the body contains a dead, \"cheese-like\" center of caseous necrosis.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "While Tuberculosis classically causes **caseating** (cheese-like) granulomas, other conditions like Sarcoidosis or foreign bodies cause **non-caseating** granulomas that do not have a dead center.",
+                "topic": "Caseous Necrosis"
+            },
+            {
+                "type": "concept",
+                "title": "Caseating Granulomas: The Cheese",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 6/3.6.3/caseating_granuloma_micro.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "**The Golden Rule**\n• See a caseating granuloma? Think **Tuberculosis (TB)** until proven otherwise.\n\n**\"Caseating\"** means cheese-like.\n• The granuloma's center turns into a crumbly, yellow-white mass which looks like cheese.\n\n**Total Destruction**\n• Macrophages release toxins to kill TB but it obliterates your surrounding tissue, leaving a mushy, dead center.\n\n**The Double-Edged Sword**\n• **The Good**: It walls off the bacteria.\n• **The Bad**: It is a time bomb. If immunity weakens, the dead center can erode into an airway. This creates a lung cavity, allows TB to spread through coughing, and causes permanent organ scarring.",
+                "subtext": "",
+                "buttonText": "The Solid Wall"
+            },
+            {
+                "type": "concept",
+                "title": "Non-Caseating Granulomas: The Solid Wall",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 6/3.6.3/non_caseating_granuloma_micro.png",
+                        "reference": "Image from Robbins Pathology"
+                    }
+                ],
+                "text": "**A Solid Wall**\n• There is no dead, cheesy center.\n• The quarantine wall is made of solid, living cells all the way through.\n\n**Why No Necrosis?**\n• The threat doesn't trigger a violent, oxygen-starving chemical war, allowing the central cells to survive.\n\n**Common Causes**\n• Physical objects like wood or glass.\n• Hallmark of certain immune diseases like **Sarcoidosis** and **Crohn's Disease**.",
+                "subtext": "",
+                "buttonText": "Cheese or No Cheese?"
+            },
+            {
+                "type": "sort",
+                "question": "You are looking through the microscope! Classify the disease into caseating and non caseating by its granuloma morphology.",
+                "buckets": [
+                    "Caseating",
+                    "Non-Caseating"
+                ],
+                "items": [
+                    { "text": "Tuberculosis (TB)", "bucket": 0 },
+                    { "text": "Core of necrotic, mushy cell debris", "bucket": 0 },
+                    { "text": "Sarcoidosis", "bucket": 1 },
+                    { "text": "Crohn's Disease", "bucket": 1 },
+                    { "text": "Reaction to a surgical suture", "bucket": 1 }
+                ],
+                "explanation": "Tuberculosis and necrotic-core granulomas are **caseating**, whereas sarcoidosis, Crohn's disease, and foreign body reactions are typically **non-caseating**.",
+                "topic": "Classification of Granulomas"
+            },
+            {
+                "type": "match",
+                "question": "Match the granuloma concept to its correct description.",
+                "pairs": [
+                    {
+                        "left": "Granuloma",
+                        "right": "A cellular wall built to quarantine an unkillable invader"
+                    },
+                    {
+                        "left": "Epithelioid Macrophages",
+                        "right": "Plump, shape-shifting cells that are the hallmark of a granuloma"
+                    },
+                    {
+                        "left": "Multinucleated Giant Cells",
+                        "right": "Massive cells formed by the fusion of multiple macrophages"
+                    },
+                    {
+                        "left": "Foreign Body Granuloma",
+                        "right": "A quarantine wall built around physical objects like sutures or splinters"
+                    },
+                    {
+                        "left": "Caseous Necrosis",
+                        "right": "A 'cheese-like' dead center seen in Tuberculosis granulomas"
+                    }
+                ],
+                "explanation": "A **granuloma** is a cellular wall built to quarantine unkillable invaders, **epithelioid macrophages** are its hallmark cells, and **multinucleated giant cells** form from fused macrophages. **Caseous necrosis** is the cheese-like center typical of **TB**.",
+                "topic": "Granuloma Summary"
+            }
+        ]
+    },
+
+    "3.6.4": {
+        "title": "Systemic Effects of Inflammation 🌡️🧬",
+        "objectives": [
+            "Understand how local inflammation triggers body-wide symptoms (the Acute-Phase Response), including the mechanisms of fever, the liver's production of acute-phase proteins, and the bone marrow's release of white blood cells."
+        ],
+        "data": [
+            {
+                "type": "concept",
+                "title": "The Alarm Spreads",
+                "text": "Inflammation isn't always just a local event!\n\n**The Spillover**:\n• When a severe injury or infection occurs, the chemical messengers (cytokines like **TNF**, **IL-1**, and **IL-6**) spill into the bloodstream.\n\n**The Acute-Phase Response**:\n• These circulating cytokines travel throughout the body, causing systemic (body-wide) reactions.\n• This is why a localized infection can make you feel sick, tired, and feverish all over!",
+                "subtext": "",
+                "buttonText": "Turning Up the Heat"
+            },
+            {
+                "type": "concept",
+                "title": "Fever – Turning Up the Heat",
+                "text": "**The Temperature Controller**:\n• The **hypothalamus** acts as your body's temperature control center.\n• Normally set to 98.6°F (37°C), it cranks the heat up during inflammation.\n\n**The Fire Starters**:\n• Molecules called **Pyrogens** (\"fire makers\") trigger this temperature spike.\n\n**Two Types of Pyrogens**:\n• **Outside (Exogenous)**: Invading bacterial products (like **LPS**) entering the blood.\n• **Inside (Endogenous)**: Our own immune signals (cytokines like **IL-1** and **TNF**). Macrophages release them to tell the brain to raise the heat.",
+                "subtext": "",
+                "buttonText": "Chills and Shivers"
+            },
+            {
+                "type": "concept",
+                "title": "The Messenger, Fever, Chills and Shivers",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 6/3.6.4/fever_production_mechanism.png",
+                        "reference": "Image generated by ChatGPT"
+                    },
+                    {
+                        "url": "images/Chapter 3/Unit 6/3.6.4/chills_shivering_mechanism.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "**The Final Messenger**:\n• Immune signals tell the hypothalamus to make a molecule called **Prostaglandin E2 (PGE2)**, resetting your target temperature to 102°F!\n\n**Why Turn Up the Heat?**\n• Fever is a defense weapon. A hotter environment slows down invading bacteria.\n\n**Why Do We Get Chills?**\n• When the brain's target jumps to 102°F, your physical body is still at 98.6°F.\n• The brain senses this gap and thinks you are freezing.\n\n**Shivering to Warm Up**:\n• To quickly reach the new 102°F goal, the brain forces your muscles to rapidly contract.\n• This muscle movement is what you feel as **chills**!",
+                "subtext": "",
+                "buttonText": "Test the Path"
+            },
+            {
+                "type": "mcq",
+                "question": "Let’s see if you can trace the chemical pathway of a fever!\n\nWhich chemical mediator acts directly on the hypothalamus to reset the body's internal thermostat and cause a fever?",
+                "options": [
+                    "Histamine",
+                    "Prostaglandins",
+                    "Interleukin-12"
+                ],
+                "answer": 1,
+                "explanation": "Cytokines trigger the synthesis of **prostaglandins** in the brain, which then tell the hypothalamus to increase the body's temperature. (This is why anti-inflammatory drugs that block prostaglandins, like aspirin or ibuprofen, reduce fever!)",
+                "topic": "Mechanism of Fever"
+            },
+            {
+                "type": "order",
+                "question": "You are the attending physician! Put the steps of Fever generation in the correct chronological order.",
+                "items": [
+                    "Bacteria release LPS (Exogenous Pyrogen)",
+                    "Macrophages release IL-1 & TNF (Endogenous Pyrogens)",
+                    "Hypothalamus produces PGE2",
+                    "Thermostat goes up, causing Chills to generate heat!"
+                ],
+                "explanation": "The sequence of fever generation starts with bacteria releasing LPS, prompting macrophages to release IL-1 and TNF. This causes the hypothalamus to produce PGE2, which raises the body's thermostat and induces chills.",
+                "topic": "Systemic Inflammation Pathway"
+            },
+            {
+                "type": "concept",
+                "title": "The Liver’s Response – Acute-Phase Proteins",
+                "text": "**The Messenger**:\nImmune signals do not just cause fevers. They also send a special messenger, **IL-6**, directly to the liver.\n\n**A Manufacturing Shift**:\nWhen the liver receives **IL-6**, it dramatically changes its production line. It starts pumping massive amounts of specialized proteins into the blood known as **Acute Phase Proteins**.\n\n**The Big Three**:\nThe liver produces three major proteins:\n1. **CRP** (C-Reactive Protein)\n2. **SAA** (Serum Amyloid A)\n3. **Fibrinogen**\n\nLet's look at what these powerful proteins actually do once they enter the bloodstream!",
+                "subtext": "",
+                "buttonText": "Backup Opsonins"
+            },
+            {
+                "type": "concept",
+                "title": "CRP & SAA – The Backup Opsonins",
+                "text": "**The Opsonins**:\n• Just like C3b and IgG, **CRP** and **SAA** act as powerful backup weapons for the immune system known as **opsonins**.\n\n**Buttering Up the Target**:\n• They float through the bloodstream, locate invading bacteria, and bind tightly to their cell walls.\n\n**Preparing the Feast**:\n• This chemical coating effectively \"butters up\" the bacteria.\n• It flags the invaders, making it incredibly easy for macrophages to recognize, grab, and eat them!",
+                "subtext": "",
+                "buttonText": "The ESR Test"
+            },
+            {
+                "type": "concept",
+                "title": "Fibrinogen and the ESR Test",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 6/3.6.4/esr_test_rouleaux.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "**Sticky Coin Stacks**:\n• Normally, red blood cells (RBCs) repel each other.\n• But sticky **Fibrinogen** coats them, causing them to stick together in heavy stacks called **Rouleaux formation**.\n\n**The Gravity Test**:\n• Because these stacks are heavy, they sink to the bottom of a blood tube much faster than normal cells.\n\n**Measuring Inflammation**:\n• Doctors measure this sinking speed using the **ESR (Erythrocyte Sedimentation Rate)** test.\n• A high ESR means cells sank quickly, confirming active systemic inflammation!",
+                "subtext": "",
+                "buttonText": "Test the Stacking"
+            },
+            {
+                "type": "fill",
+                "question": "The acute-phase protein ________ is produced by the liver and causes red blood cells to stack together, resulting in an elevated Erythrocyte Sedimentation Rate (ESR) on a blood test.",
+                "options": [
+                    "Albumin",
+                    "Complement",
+                    "Fibrinogen",
+                    "Bradykinin"
+                ],
+                "answer": [
+                    2
+                ],
+                "explanation": "High **fibrinogen** causes red blood cells to clump and fall faster, making the **ESR test** a great clinical indicator of systemic inflammation.",
+                "topic": "Acute Phase Proteins"
+            },
+            {
+                "type": "concept",
+                "title": "Calling Up the Reserves (Leukocytosis)",
+                "text": "**Need for Reinforcements**:\n• A severe infection requires a massive army, but the bloodstream only keeps a limited number of white blood cells on patrol.\n\n**Leukocytosis**:\n• To fight a major battle, the body must dramatically increase its total number of white blood cells.\n• This is called **Leukocytosis**.\n• A normal count of 4,000 to 10,000 cells can suddenly jump to 20,000!\n\n**Deploying the Reserves**:\nWhere do these extra troops come from? **The Bone Marrow.**\n• Immune signals (**TNF** and **IL-1**) travel to the **Bone Marrow** and command it to instantly dump its massive storage pool of mature cells into the bloodstream.",
+                "subtext": "",
+                "buttonText": "The Left Shift"
+            },
+            {
+                "type": "concept",
+                "title": "The \"Left Shift\"",
+                "images": [
+                    {
+                        "url": "images/Chapter 3/Unit 6/3.6.4/leukocytosis_left_shift.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "**Drafting the Rookies**:\n• If the bone marrow runs out of mature cells, it starts releasing immature neutrophils called **band cells** directly into the blood.\n\n**Band Cells**:\n• Because the nuclei of these immature cells haven't fully separated into segments yet, they look like little horseshoes.\n\n**Why \"Left\"?**\n• The increase in the immature cells in the blood is called a \"Left Shift.\"\n\n**A Clinical Red Flag**:\n• A \"Left Shift\" on a blood test is a big red flag.\n• It tells doctors the patient is fighting a severe, active infection that is draining the immune reserves.",
+                "subtext": "",
+                "buttonText": "Test the Reserves"
+            },
+            {
+                "type": "mcq",
+                "question": "Let's test your knowledge of the body's troop reserves.\n\nA \"left shift\" on a blood test indicates that the bone marrow is releasing highly advanced, fully mature lymphocytes to fight a chronic infection.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "A **'left shift'** means the bone marrow is overwhelmed and is releasing **immature neutrophils (band cells)** into the bloodstream to keep up with acute demand.",
+                "topic": "Hematologic Changes"
+            },
+            {
+                "type": "concept",
+                "title": "Tailoring the Troops",
+                "text": "The body is smart. It doesn't just blindly produce random cells; it produces the exact type of cell needed for the specific invader!\n\n• **Bacterial Infections**: Cause an increase in Neutrophils (**Neutrophilia**).\n• **Viral Infections**: Cause an increase in Lymphocytes (**Lymphocytosis**).\n• **Allergies & Parasites**: Cause an increase in Eosinophils (**Eosinophilia**).",
+                "subtext": "",
+                "buttonText": "Final Summary"
+            },
+            {
+                "type": "match",
+                "question": "Match the systemic effect of inflammation to its correct description or mechanism.",
+                "pairs": [
+                    {
+                        "left": "Fever",
+                        "right": "Driven by prostaglandins resetting the hypothalamus"
+                    },
+                    {
+                        "left": "CRP",
+                        "right": "An acute-phase protein pumped out by the liver"
+                    },
+                    {
+                        "left": "ESR",
+                        "right": "A test that rises when RBCs stack together"
+                    },
+                    {
+                        "left": "Leukocytosis",
+                        "right": "An abnormally high white blood cell count"
+                    },
+                    {
+                        "left": "Left Shift",
+                        "right": "The release of immature neutrophils from marrow"
+                    }
+                ],
+                "explanation": "Fever is driven by prostaglandins resetting the hypothalamus, CRP is an acute-phase protein produced by the liver, and the ESR rises when fibrinogen causes red blood cells to stack. Additionally, leukocytosis is an abnormally high white blood cell count, and a 'left shift' is the release of immature neutrophils.",
+                "topic": "Systemic Response Overview"
             }
         ],
-        next: "3.7.1"
+        "next": "3.7.1"
     },
 
     // UNIT 7: SYSTEMIC EFFECTS
