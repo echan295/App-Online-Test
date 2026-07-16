@@ -8971,6 +8971,135 @@ const moduleContent = {
         "next": "3.review"
     },
 
+    "3.review": {
+        "title": "Master Review: Inflammation and Tissue Repair! 🔥🩹",
+        "isReviewNode": true,
+        "objectives": [
+            "Integrate and apply your knowledge of the mechanisms, morphology, and clinical timeline of acute inflammation, chronic inflammation, and tissue regeneration and repair.",
+            "Pass with a grade of 80% or higher to unlock Chapter 4: Hemodynamic Disorders."
+        ],
+        "data": [
+            {
+                "type": "mcq",
+                "question": "A patient steps on a rusty nail. To fight the invading bacteria, neutrophils need to get from the blood vessel lumen into the tissue site. What is the correct sequence of events for leukocyte recruitment to the site of injury?",
+                "options": [
+                    "Chemotaxis → Transmigration → Margination → Firm Adhesion",
+                    "Margination and Rolling → Firm Adhesion → Transmigration → Chemotaxis",
+                    "Transmigration → Firm Adhesion → Margination and Rolling → Chemotaxis",
+                    "Firm Adhesion → Chemotaxis → Margination and Rolling → Transmigration"
+                ],
+                "answer": 1,
+                "explanation": "Leukocytes first move to the vessel periphery (**Margination**) and tumble along the wall (**Rolling** via selectins). They then lock down (**Firm Adhesion** via integrins), squeeze through junctions (**Transmigration** via PECAM-1), and follow a chemical scent trail (**Chemotaxis**) to the target.",
+                "topic": "Leukocyte Recruitment Sequence"
+            },
+            {
+                "type": "mcq",
+                "question": "During the early acute phase of inflammation, the release of histamine from mast cells mediates pain and fever, while prostaglandins cause immediate vasodilation and vascular permeability.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "It is the exact opposite! **Histamine** causes immediate vasodilation and increased permeability (redness/heat/swelling), whereas **Prostaglandins** (generated via the COX pathway) are the primary mediators of **pain and fever**.",
+                "topic": "Mediator Functions"
+            },
+            {
+                "type": "mcq",
+                "question": "Which cytokines are the primary driver of the continuous, bidirectional signaling loop that sustains chronic inflammation?",
+                "options": [
+                    "Macrophages secrete IL-12 to activate T-cells, and T-cells secrete IFN-γ to further activate macrophages.",
+                    "Macrophages secrete Histamine to recruit T-cells, and T-cells secrete Prostaglandins to activate macrophages.",
+                    "Macrophages secrete VEGF to stimulate T-cells, and T-cells secrete TGF-β to promote macrophage apoptosis.",
+                    "Macrophages secrete IL-17 to activate T-cells, and T-cells secrete IL-1 to suppress macrophage activity."
+                ],
+                "answer": 0,
+                "explanation": "**Macrophages** present antigens and secrete **IL-12** to drive **T-cell activation**. The activated T-cells then produce **IFN-γ** (Interferon-gamma), a potent activator that supercharges macrophages, creating a relentless cycle of cellular activation.",
+                "topic": "Chronic Inflammation Signaling"
+            },
+            {
+                "type": "sort",
+                "question": "These two terms sound very similar but represent completely different pathological processes in the timeline of inflammation and repair.\n\nSort the features into the correct category!",
+                "buckets": [
+                    "Granuloma (Chronic Inflammation)",
+                    "Granulation Tissue (Tissue Repair)"
+                ],
+                "items": [
+                    {
+                        "text": "Epithelioid Macrophages",
+                        "bucket": 0
+                    },
+                    {
+                        "text": "Multinucleated Giant Cells",
+                        "bucket": 0
+                    },
+                    {
+                        "text": "Angiogenesis (New Vessels)",
+                        "bucket": 1
+                    },
+                    {
+                        "text": "Loose Collagen & Fibroblasts",
+                        "bucket": 1
+                    }
+                ],
+                "explanation": "A granuloma is a specific cellular attempt to wall off an indestructible agent (featuring epithelioid macrophages and giant cells). Granulation tissue is the highly vascular, pink provisional matrix that is the hallmark of wound healing.",
+                "topic": "Granuloma vs. Granulation Tissue"
+            },
+            {
+                "type": "fill",
+                "question": "The liver can completely regenerate after a surgical resection because it is composed of ________ cells. These cells are normally quiescent (in G0) but can rapidly enter the cell cycle to divide when stimulated by injury.",
+                "options": [
+                    "Labile",
+                    "Stable",
+                    "Permanent",
+                    "Neoplastic"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "Tissues are divided into **Labile** (continuous dividers), **Stable** (quiescent G0 cells that divide if pushed, like the liver), and **Permanent** (terminally differentiated cells like neurons/heart muscle that cannot divide).",
+                "topic": "Tissue Proliferative Capacity"
+            },
+            {
+                "type": "match",
+                "question": "Let's integrate the entire inflammatory continuum.\n\nMatch the timeline of a healing skin laceration to the dominant cellular and tissue process occurring at that stage.",
+                "pairs": [
+                    {
+                        "left": "Days 1 to 2",
+                        "right": "Vasodilation, edema, and massive neutrophil infiltration"
+                    },
+                    {
+                        "left": "Days 3 to 7",
+                        "right": "Macrophage infiltration and clearance of debris"
+                    },
+                    {
+                        "left": "Days 7 to 14",
+                        "right": "Formation of highly vascular granulation tissue"
+                    },
+                    {
+                        "left": "Day 30 and beyond",
+                        "right": "Remodeling by MMPs to form an avascular scar"
+                    }
+                ],
+                "explanation": "<b>The Healing Continuum:</b> First, **neutrophils** fight infection (Days 1-2). Next, **macrophages** clean the site (Days 3-7). Then, **angiogenesis** and fibroblasts build **granulation tissue** (Days 7-14). Finally, collagen is remodeled into a mature, strong **scar**.",
+                "topic": "Wound Healing Timeline"
+            },
+            {
+                "type": "clinical",
+                "question": "A 55-year-old man suffers a severe myocardial infarction. Six months later, an echocardiogram shows a thinned, akinetic (non-moving) area of the left ventricle wall.\n\nBased on the proliferative capacity of cardiac tissue, what is this thinned area primarily composed of?",
+                "options": [
+                    "Regenerated and hyperplastic cardiac myocytes.",
+                    "Caseous necrosis surrounded by epithelioid macrophages.",
+                    "Type I collagen forming a mature, dense scar.",
+                    "Edema fluid and heavy neutrophil infiltrates."
+                ],
+                "answer": 2,
+                "explanation": "Cardiac muscle is a **'permanent'** tissue. Because it cannot undergo regenerative cell division, any severe injury results in **replacement by connective tissue** (scarring), typically composed of dense **Type I collagen**.",
+                "topic": "Clinical Outcomes of Repair"
+            }
+        ],
+        "next": "4.1.1"
+    },
+
     // CHAPTER 4
     // UNIT 1
     "4.1.1": {
