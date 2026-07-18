@@ -10123,315 +10123,443 @@ const moduleContent = {
 
     // UNIT 3
     "4.3.1": {
-        title: "Primary Hemostasis (The Platelet Plug) 🩹",
-        objectives: ["Understand the four main steps of hemostasis, and dive deep into how platelets adhere, activate, and aggregate to build the initial 'patch' over a leaky blood vessel."],
-        data: [
+        "title": "Primary Hemostasis – The Emergency Plug 🔌🩸",
+        "objectives": [
+            "Understand the sequence of events immediately following a blood vessel injury, including vasoconstriction, platelet adhesion, activation, and aggregation to form the temporary primary hemostatic plug."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The Ultimate Balancing Act",
-                text: "**Hemostasis** is the process of forming a blood clot at the site of an injury.",
-                subtext: "It is a delicate balance: too little clotting leads to hemorrhagic disorders, while too much clotting leads to thrombotic disorders like heart attacks or strokes.",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Step 1: Arteriolar Vasoconstriction",
-                text: "Immediately following an injury, local blood vessels undergo reflex vasoconstriction.",
-                subtext: "This is mediated by nerve reflexes and a powerful endothelium-derived vasoconstrictor called **endothelin**, which significantly reduces blood flow to the area.",
-                buttonText: "Is it permanent?"
-            },
-            { 
-                type: "mcq", 
-                question: "The immediate vasoconstriction caused by endothelin is permanent and is usually enough to fully stop the bleeding on its own.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Vasoconstriction is a transient (temporary) response. Without the subsequent activation of platelets and the coagulation cascade, bleeding would resume once the initial squeeze relaxes." 
+                "type": "concept",
+                "title": "Step 1: Vasoconstriction",
+                "text": "When a blood vessel is cut, the body must act fast to prevent massive bleeding.\n\n**Hemostasis** is the strictly regulated process of stopping the leak.\n\n**The Immediate Reflex:**\n• The very first thing the damaged blood vessel does is clamp down — **Transient Vasoconstriction**.\n\n**The Chemical Trigger:**\n• This reflex is heavily driven by a powerful molecule called **Endothelin**, which is released directly by the injured endothelial cells.\n\n**The Goal:**\n• Temporarily slow down the blood flow to the injured area so the clotting cells (platelets) don't just wash away.",
+                "subtext": "",
+                "buttonText": "Test the Reflex"
             },
             {
-                type: "concept",
-                title: "Step 2: Primary Hemostasis",
-                text: "**Primary Hemostasis** involves the creation of a platelet plug.",
-                subtext: "Platelets are fragments derived from megakaryocytes. When the endothelium is damaged, it exposes the subendothelial matrix (collagen and von Willebrand factor), which recruits platelets to the site.",
-                buttonText: "Step 2a: Adhesion"
-            },
-            {
-                type: "concept",
-                title: "The Handshake: Platelet Adhesion",
-                text: "The first phase of plug formation is **Adhesion**. Platelets must bind to the damaged vessel wall.",
-                subtext: "The platelet uses its surface receptor **Glycoprotein Ib (GpIb)** to bind to the **von Willebrand factor (vWF)** exposed on the subendothelial matrix.",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "Without vWF in the vessel wall, the platelet's ____________ receptor has nothing to grab onto, meaning normal platelet ____________ cannot occur.",
-                options: ["GpIb", "GpIIb-IIIa", "Adhesion", "Constriction"],
-                answer: [0, 2],
-                explanation: "The GpIb receptor and von Willebrand factor are essential for the initial tethering of platelets to the site of injury. Deficiency in either leads to bleeding disorders.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "Step 2b: Platelet Activation",
-                text: "Once adhered, platelets undergo **Activation**, which involves a dramatic physical shape change and the release of granules.",
-                subtext: "Granules contain substances like calcium, serotonin, and ADP that help coordinate the continuing clotting process.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Activated platelets change their shape from smooth discs to spiky structures resembling 'sea urchins'.", 
-                options: ["True", "False"], 
-                answer: 0, 
-                explanation: "This metamorphosis increases the surface area of the platelets and allows them to better interlock and support the growing hemostatic plug." 
-            },
-            {
-                type: "concept",
-                title: "Recruitment",
-                text: "Activated platelets release ADP and produce **Thromboxane A₂ (TxA₂)**.",
-                subtext: "These molecules act as signals that recruit nearby passing platelets to activate and join the aggregation, creating a snowball effect.",
-                buttonText: "Pharmacology link"
-            },
-            { 
-                type: "mcq", 
-                question: "Which common over-the-counter drug inhibits TxA₂ synthesis to prevent platelet recruitment and aggregation?", 
-                options: ["Penicillin", "Aspirin", "Ibuprofen"], 
-                answer: 1, 
-                explanation: "Aspirin permanently blocks the COX-1 enzyme, preventing the production of Thromboxane A₂, which reduces the ability of platelets to aggregate." 
-            },
-            {
-                type: "concept",
-                title: "Step 2c: Platelet Aggregation",
-                text: "The final phase of primary hemostasis is **Aggregation**.",
-                subtext: "The receptor **Glycoprotein IIb/IIIa (GpIIb/IIIa)** on the platelet surface binds to **Fibrinogen**. Fibrinogen acts as a bridge, linking adjacent platelets together to form the primary plug.",
-                buttonText: "Next"
-            },
-            {
-                type: "match",
-                question: "Receptor Review: Match the platelet receptor to its correct partner or function.",
-                pairs: [
-                    { left: "Glycoprotein Ib (GpIb)", right: "Binds to vWF (Adhesion)." },
-                    { left: "Glycoprotein IIb/IIIa", right: "Binds to Fibrinogen (Aggregation)." },
-                    { left: "PAR-1 Receptor", right: "Activated by Thrombin." }
+                "type": "mcq",
+                "question": "Immediately following a vascular injury, the blood vessels dilate (widen) to bring more blood to the site of the cut.",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                explanation: "These receptors are the primary molecular targets for many anti-clotting medications used in clinical practice."
+                "answer": 1,
+                "explanation": "The immediate response is transient vasoconstriction (clamping down) driven by **endothelin**, which slows blood flow to minimize blood loss and help clot formation.",
+                "topic": "Vascular Response"
+            },
+            {
+                "type": "concept",
+                "title": "Platelets: The main cells in Clotting",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 3/4.3.1/platelet_structure.png",
+                        "title": "Platelets: The main cells in Clotting",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Platelets are the smallest blood cells, essential for stopping bleeding and wound healing.\n\n**Structure of a Platelet:**\n• **Alpha granules**: Contain vWF, fibrinogen, factor V, PF4, PDGF, TGF-β, etc.\n• **Dense granules**: Contain ADP, ATP, Ionized calcium, serotonin.\n• **Peripheral zone**: Plasma membrane contains receptors (e.g., **GPIb**, **GPIIb/IIIa**) for adhesion and aggregation.\n\n**Functions of Platelets:**\n1. Adhesion\n2. Activation\n3. Aggregation\n4. Secretion\n5. Hemostasis",
+                "subtext": "_Platelets are cytoplasmic fragments of megakaryocytes formed in the red bone marrow._",
+                "buttonText": "Step 2: Adhesion"
+            },
+            {
+                "type": "concept",
+                "title": "Step 2: Platelet Adhesion",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 3/4.3.1/platelet_adhesion_mechanism.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Once blood flow slows, the tiny clotting cells (platelets) can get to work.\n\nBut normally, platelets slide right past healthy tissue.\n\n**The Exposed Foundation:**\n• Injury strips away the protective endothelial lining, exposing the highly sticky **subendothelial collagen** underneath.\n\n**The Glue:**\n• A crucial protein called **von Willebrand Factor (vWF)** coats the exposed collagen.\n\n**The Receptor:**\n• Floating platelets use a specific surface receptor called **GpIb** to bind directly to the vWF.",
+                "subtext": "",
+                "buttonText": "The Crucial Glue"
+            },
+            {
+                "type": "fill",
+                "question": "Platelets cannot stick to bare collagen effectively; they require ________ to act as the molecular glue between the collagen and the platelet's GpIb receptor.",
+                "options": [
+                    "Albumin",
+                    "Endothelin",
+                    "von Willebrand Factor (vWF)",
+                    "Hemoglobin"
+                ],
+                "answer": [
+                    2
+                ],
+                "explanation": "<b>vWF</b> is essential for platelet adhesion. Without it (as seen in von Willebrand Disease), platelets cannot stick to the injured vessel wall.",
+                "topic": "Platelet Adhesion"
+            },
+            {
+                "type": "concept",
+                "title": "Step 3: Platelet Activation",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 3/4.3.1/platelet_activation_release.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Once the platelet anchors itself via **GpIb**, it \"wakes up\" and becomes fully activated.\n\n**Shape Change:**\n• The smooth, disc-like platelet rapidly changes shape, growing long, spiky arms to cover more surface area.\n\n**Degranulation (Calling for Backup):**\n• The activated platelet dumps its chemical granules into the blood.\n• The two most important chemicals released are **ADP** and **Thromboxane A2 (TXA2)**. These act as loud alarm bells (to recruit), calling thousands of other platelets to the injury site.",
+                "subtext": "",
+                "buttonText": "Calling for Backup"
+            },
+            {
+                "type": "mcq",
+                "question": "When a platelet is activated, it undergoes degranulation to recruit more platelets. Which two molecules are released by activated platelets to recruit more platelets?",
+                "options": [
+                    "Endothelin and Albumin",
+                    "ADP and Thromboxane A2 (TXA2)",
+                    "Hemosiderin and Fibrinogen"
+                ],
+                "answer": 1,
+                "explanation": "**ADP** and **TXA2** are released by activated platelets. They strongly recruit and activate additional circulating platelets to join the growing clot.",
+                "topic": "Platelet Activation"
+            },
+            {
+                "type": "concept",
+                "title": "Step 4: Platelet Aggregation",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 3/4.3.1/platelet_aggregation_binding.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Now that thousands of new platelets have arrived, they need to hold hands to form a solid wall.\n\n**The Handshake Receptors:**\n• The ADP and TXA2 signals cause platelets to express a new receptor on their surface: **GpIIb/IIIa**.\n\n**The Bridge:**\n• A plasma protein called **Fibrinogen** acts as the bridge connecting the GpIIb/IIIa receptors on adjacent platelets.\n\n**The Final Product:**\n• Millions of platelets linking together via Fibrinogen form the **Primary Hemostatic Plug**.",
+                "subtext": "",
+                "buttonText": "A Temporary Fix"
+            },
+            {
+                "type": "concept",
+                "title": "The Weak Wall: A Temporary Fix",
+                "text": "It is critical to understand the nature of the **Primary Hemostatic Plug**.\n\n**The Weakness:**\n• The primary plug is made completely of platelets holding together via **fibrinogen**.\n• It stops the bleeding for now, but it is soft, weak, and easily washed away by normal blood pressure!\n\n**The Next Step:**\n• To make the plug permanent, the body must trigger **Secondary Hemostasis** (the Coagulation Cascade) to wrap the soft platelet plug in a hard, unbreakable net of **Fibrin**.",
+                "subtext": "",
+                "buttonText": "Test the Receptors"
+            },
+            {
+                "type": "match",
+                "question": "Match the platelet receptor or chemical to its specific job in primary hemostasis.",
+                "pairs": [
+                    {
+                        "left": "Endothelin",
+                        "right": "Causes initial transient vasoconstriction"
+                    },
+                    {
+                        "left": "GpIb Receptor",
+                        "right": "Binds to vWF for platelet adhesion"
+                    },
+                    {
+                        "left": "TXA2 & ADP",
+                        "right": "Released by platelets to activate and recruit others"
+                    },
+                    {
+                        "left": "GpIIb/IIIa Receptor",
+                        "right": "Binds to Fibrinogen for platelet aggregation"
+                    }
+                ],
+                "explanation": "Endothelin constricts the vessel. Platelets adhere via GpIb binding to vWF. They release TXA2/ADP to call for backup. Finally, they aggregate by linking GpIIb/IIIa receptors using fibrinogen as a bridge.",
+                "topic": "Primary Hemostasis Summary"
             }
         ]
     },
     "4.3.2": {
-        title: "Secondary Hemostasis (The Cascade) 🕸️",
-        objectives: ["Understand why the platelet plug needs reinforcement, distinguish between the Extrinsic and Intrinsic pathways, and learn how Thrombin builds the final Fibrin web."],
-        data: [
+        "title": "Secondary Hemostasis – The Solid Clot 🧱🩸",
+        "objectives": [
+            "Understand how the coagulation cascade converts a weak platelet plug into a solid clot, focusing on initiation by Tissue Factor, the membrane flip of platelets creating a negatively charged 'dance floor,' the crucial role of Vitamin K and Calcium, and the creation of a Fibrin net."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The Weak Patch",
-                text: "Primary hemostasis forms a fragile platelet plug. In areas of high blood pressure or flow, this 'patch' can easily wash away.",
-                subtext: "To make the clot permanent, the body uses **Secondary Hemostasis** to weave a tough, insoluble protein net over the platelets to lock them in place.",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Two Roads, One Destination",
-                text: "The body builds this net through the **Coagulation Cascade**, a series of enzymatic reactions where inactive factors activate each other sequentially.",
-                subtext: "There are two starting points for this cascade: the **Extrinsic Pathway** and the **Intrinsic Pathway**.",
-                buttonText: "See the Extrinsic Pathway"
+                "type": "concept",
+                "title": "Reinforcing the Plug",
+                "text": "As we learned, primary hemostasis creates a plug made entirely of aggregated platelets.\n\n**The Problem**:\n• This platelet plug is soft, fragile, and easily washed away by the sheer force of blood pressure.\n\n**The Solution**:\n• **Secondary Hemostasis**.\n• The body must trigger a chain reaction (the **Coagulation Cascade**) to manufacture a biological \"concrete\" called **Fibrin**.\n• This Fibrin will weave through the platelets, cementing them permanently in place.",
+                "subtext": "",
+                "buttonText": "Test the Plug"
             },
             {
-                type: "concept",
-                title: "The Outside Spark: Extrinsic Pathway",
-                text: "The **Extrinsic Pathway** is the fast, primary initiator of a blood clot. It is triggered by factors 'extrinsic' to (outside) the blood.",
-                subtext: "When a vessel is damaged, it exposes **Tissue Factor (TF)** from the subendothelial cells. TF enters the blood, binds to Factor VII, and sparks the cascade.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Based on its mechanism, which of the following is true about the Extrinsic pathway?", 
-                options: [
-                    "It is triggered by proteins already floating inside the blood", 
-                    "It relies on a trigger (Tissue Factor) from outside the bloodstream", 
-                    "It is a very slow, multi-hour process"
-                ], 
-                answer: 1, 
-                explanation: "The extrinsic pathway requires the exposure of Tissue Factor, which is normally sequestered behind the endothelial lining, to initiate a rapid clotting response." 
-            },
-            {
-                type: "concept",
-                title: "The Inside Patrol: Intrinsic Pathway",
-                text: "The **Intrinsic Pathway** is triggered by factors already patrolling inside the blood.",
-                subtext: "If blood contacts an abnormal, negatively charged surface (like exposed collagen, glass, or metal), internal guards (Factors XII, XI, IX, and VIII) sound the alarm.",
-                buttonText: "Clinical Application"
-            },
-            { 
-                type: "mcq", 
-                question: "A patient receives a mechanical heart valve. Why does this patient require lifelong blood thinners?", 
-                options: ["True", "False"], 
-                answer: 1, // False (Question asks if the blood will safely ignore it)
-                explanation: "The blood will NOT ignore an artificial surface. The Intrinsic pathway identifies the metal as an 'abnormal surface' and triggers a cascade, leading to dangerous clots if not medicated." 
-            },
-            { 
-                type: "mcq", 
-                question: "The core difference between the two pathways is the starting trigger: Extrinsic requires Tissue Factor, while Intrinsic is triggered by contact with abnormal surfaces.", 
-                options: ["True", "False"], 
-                answer: 0, 
-                explanation: "Extrinsic is sparked by tissue damage (outside factor), while Intrinsic is sparked by the blood contacting a surface it doesn't recognize as healthy endothelium (inside factors)." 
-            },
-            {
-                type: "concept",
-                title: "The Choreography of Clotting",
-                text: "The cascade is a highly organized assembly process. Each step requires an Enzyme (active factor), a Substrate (inactive factor), and a Cofactor (accelerator).",
-                subtext: "These components assemble on the negatively charged phospholipid surface of activated platelets. In clotting, the **platelet is the dance floor**.",
-                buttonText: "The Role of Vitamin K"
-            },
-            {
-                type: "concept",
-                title: "Vitamin K & Calcium",
-                text: "To stay on the platelet 'dance floor,' factors need special 'handles' (γ-carboxylated glutamic acid residues) to grab onto Calcium glue.",
-                subtext: "**Vitamin K** is the essential nutrient that builds these handles. Without it, Factors **II, VII, IX, and X** cannot bind to the platelet surface, and clotting fails.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "The medication Warfarin (Coumadin) blocks Vitamin K. Does this action accelerate the coagulation cascade?", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Blocking Vitamin K prevents the formation of binding 'handles' on Factors II, VII, IX, and X. This inhibits the cascade and acts as an effective anticoagulant." 
-            },
-            {
-                type: "fill",
-                question: "Both pathways converge at Factor ____________. This meeting point is called the ____________ pathway.",
-                options: ["X (Ten)", "XII (Twelve)", "Common", "Separate"],
-                answer: [0, 2],
-                explanation: "Factor X is the crossroads where the Intrinsic and Extrinsic pathways meet to initiate the Common Pathway, leading to the formation of a stable clot.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "The Master Builder: Thrombin",
-                text: "Activated Factor X triggers the most important event in the cascade: the activation of **Thrombin** (Factor IIa).",
-                subtext: "Thrombin is the ultimate multi-tasker: it activates more platelets, amplifies the cascade, and physically builds the final fibrin web.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "How does Thrombin turn soluble Fibrinogen into the solid threads of a clot?", 
-                options: [
-                    "Thrombin acts like scissors, cutting Fibrinogen into insoluble Fibrin threads", 
-                    "Thrombin completely destroys Fibrinogen", 
-                    "Thrombin heats up the blood until Fibrinogen melts"
-                ], 
-                answer: 0, 
-                explanation: "Thrombin proteolytically cleaves fibrinogen, releasing fibrin monomers that spontaneously polymerize into a sticky, insoluble mesh." 
-            },
-            { 
-                type: "mcq", 
-                question: "Factor XIII, also activated by Thrombin, chemically cross-links the Fibrin threads to create a permanent, solid mesh.", 
-                options: ["True", "False"], 
-                answer: 0, 
-                explanation: "Factor XIII acts as the final 'glue,' creating covalent bonds between fibrin strands to transform a loose net into an unbreakable mesh." 
-            },
-            {
-                type: "match",
-                question: "Final Review: Match the pathway or factor to its primary role.",
-                pairs: [
-                    { left: "Extrinsic Pathway", right: "Requires Tissue Factor from damaged tissue." },
-                    { left: "Intrinsic Pathway", right: "Triggered by contact with glass or metal." },
-                    { left: "Vitamin K", right: "Builds handles for Factors II, VII, IX, and X." },
-                    { left: "Thrombin", right: "The enzyme that cuts Fibrinogen into Fibrin." }
+                "type": "mcq",
+                "question": "The primary platelet plug is incredibly strong and is entirely capable of permanently sealing a major vascular injury on its own.",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                explanation: ""
+                "answer": 1,
+                "explanation": "The primary platelet plug is a temporary, weak fix. It strictly requires **secondary hemostasis** (the coagulation cascade) to reinforce it with a solid fibrin net.",
+                "topic": "Hemostasis Overview"
+            },
+            {
+                "type": "concept",
+                "title": "The Spark: Initiating the Cascade",
+                "text": "How does the blood know to start making Fibrin?\n• It relies on a distress signal from the damaged tissue.\n\n**Tissue Factor (Factor III)**:\n• Normally, Tissue Factor is hidden deep in the vessel wall (**subendothelium**).\n• When a vessel is deeply cut, Tissue Factor is exposed to the flowing blood.\n\n**Extrinsic Pathway**:\n• Circulating **Factor VII** binds instantly to this exposed Tissue Factor, starting the massive chain reaction known as the **coagulation cascade**.",
+                "subtext": "",
+                "buttonText": "The Distress Signal"
+            },
+            {
+                "type": "fill",
+                "question": "The major physiological trigger for the coagulation cascade is the exposure of ________, a glycoprotein hidden in the subendothelial tissue that binds to Factor VII.",
+                "options": [
+                    "Albumin",
+                    "Tissue Factor",
+                    "Endothelin",
+                    "GpIb"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "<b>Tissue Factor (Factor III)</b> is the primary initiator of coagulation _in vivo_. Its exposure triggers the extrinsic pathway of the cascade.",
+                "topic": "Coagulation Initiation"
+            },
+            {
+                "type": "concept",
+                "title": "The Coagulation Cascade",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 3/4.3.2/coagulation_cascade_diagram.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "The cascade is a series of inactive enzymes (**proenzymes**) floating in the plasma that activate each other in a specific sequence.\n\n**The Pathways**:\n• **Extrinsic Pathway**: Fast, triggered by **Tissue Factor**.\n• **Intrinsic Pathway**: Slower, triggered by blood contacting abnormal surfaces.\n\n**The Intersection**:\n• Both pathways race toward the same intersection: **The Common Pathway**.\n• The crucial starting point of the common pathway is the activation of **Factor X (Ten)**.",
+                "subtext": "",
+                "buttonText": "The Membrane Flip"
+            },
+            {
+                "type": "concept",
+                "title": "The Membrane Flip",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 3/4.3.2/factor_x_thrombin_conversion.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "So, how do all these factors actually interact? They don't just float randomly in the blood!\n\n**The Trio**:\nEvery single step requires three partners:\n• an **Enzyme** (active factor)\n• a **Substrate** (inactive factor)\n• a **Cofactor** (an accelerator).\n\n**The Stage**:\n• When platelets activate, they **flip their cell membranes, exposing negatively charged phospholipids (phosphatidylserine) to the outside**.\n• This negatively charged surface acts as the essential **\"dance floor\"** where the Enzyme, Substrate, and Cofactor assemble!",
+                "subtext": "",
+                "buttonText": "Setting the Stage"
+            },
+            {
+                "type": "mcq",
+                "question": "How do activated platelets create the essential, negatively charged \"dance floor\" for the coagulation cascade to assemble on?",
+                "options": [
+                    "They secrete massive amounts of Tissue Factor into the blood.",
+                    "They flip their cell membranes, exposing phosphatidylserine to the outside.",
+                    "They absorb Vitamin K from the surrounding injured tissue."
+                ],
+                "answer": 1,
+                "explanation": "Platelets aren't just placeholders! When activated, they flip their membranes to expose **phosphatidylserine**. This creates the perfect workbench for the cascade proteins to interact safely and efficiently.",
+                "topic": "Platelet Membrane Flip"
+            },
+            {
+                "type": "concept",
+                "title": "The Handles: Vitamin K & Calcium",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 3/4.3.2/coagulation_platelet_surface.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "To stay on the dance floor, the proteins need special \"handles\" to grab onto **Calcium**.\n\nCalcium acts as the glue that physically binds the proteins to the negatively charged platelet surface.\n\n**The Magic Nutrient**:\n• **Vitamin K** is the essential nutrient that builds these handles via _γ-carboxylation_.\n\n**The Fatal Flaw**:\n• Without Vitamin K, four specific factors (**Factors II, VII, IX, and X**) lose their handles. They fall off the dance floor, the cascade stops, and the clot fails!",
+                "subtext": "",
+                "buttonText": "The Essential Vitamin"
+            },
+            {
+                "type": "fill",
+                "question": "Factors II, VII, IX, and X strictly require ________ to build the chemical \"handles\" that allow them to grab onto Calcium and anchor to the platelet surface.",
+                "options": [
+                    "Vitamin C",
+                    "Vitamin D",
+                    "Vitamin K",
+                    "Iron"
+                ],
+                "answer": [
+                    2
+                ],
+                "explanation": "<b>Vitamin K</b> is essential for modifying Factors II, VII, IX, and X. Without it (or if blocked by drugs like **Warfarin**), these factors cannot bind Calcium and fall off the platelet dance floor.",
+                "topic": "Vitamin K Dependent Factors"
+            },
+            {
+                "type": "concept",
+                "title": "The Master Enzyme",
+                "text": "**Thrombin (Factor IIa)**\nOnce the cascade components (like Factor X) assemble on the platelet surface, they perform the most important job in the entire process.\n\n**The Conversion**:\n• **Factor Xa** takes an inactive plasma protein called **Prothrombin (Factor II)** and turns it into **Thrombin (Factor IIa)**.\n\n**The Master Key**:\n• Thrombin is the ultimate workhorse of hemostasis.\n• It is the highly active enzyme that drives the final steps of clot formation and powerfully **amplifies** the earlier steps of the cascade!",
+                "subtext": "",
+                "buttonText": "The Workhorse"
+            },
+            {
+                "type": "mcq",
+                "question": "Which enzyme is considered the central \"master key\" of the coagulation cascade because it drives the final creation of the clot and powerfully amplifies the entire process?",
+                "options": [
+                    "Factor VII",
+                    "Thrombin (Factor IIa)",
+                    "Fibrinogen"
+                ],
+                "answer": 1,
+                "explanation": "<b>Thrombin (Factor IIa)</b> is the central, most powerful enzyme in the cascade. It single-handedly triggers the final formation of the fibrin net while also activating other factors to keep the cascade going.",
+                "topic": "Role of Thrombin"
+            },
+            {
+                "type": "concept",
+                "title": "The Final Net: Fibrin (Factor I)",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 3/4.3.2/fibrin_formation_mechanism.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Thrombin's main job is to create the biological \"concrete.\"\n\n**The Raw Material**:\n• A large, soluble protein called **Fibrinogen (Factor I)** constantly floats in the blood.\n\n**The Transformation**:\n• Thrombin cleaves Fibrinogen, turning it into long, insoluble, sticky threads of **Fibrin**.\n\n**The Knots (Factor XIII)**:\n• The Fibrin threads wrap around the platelet plug like a spider web. \n• Finally, Thrombin activates **Factor XIII**, which acts like glue to cross-link the fibrin threads, tying them into tight, unbreakable knots.",
+                "subtext": "",
+                "buttonText": "Final Milestones"
+            },
+            {
+                "type": "match",
+                "question": "Match the coagulation component to its critical role in secondary hemostasis.",
+                "pairs": [
+                    {
+                        "left": "Tissue Factor (Factor III)",
+                        "right": "The tissue spark that initiates the cascade"
+                    },
+                    {
+                        "left": "Phosphatidylserine Flip",
+                        "right": "Exposes the negatively charged dance floor"
+                    },
+                    {
+                        "left": "Vitamin K",
+                        "right": "Builds the handles on Factors II, VII, IX, X"
+                    },
+                    {
+                        "left": "Thrombin (Factor IIa)",
+                        "right": "The master enzyme that builds the net"
+                    },
+                    {
+                        "left": "Factor XIII",
+                        "right": "Cross-links and stabilizes final fibrin threads"
+                    }
+                ],
+                "explanation": "Tissue factor starts the reaction. The membrane flip provides the stage. Vitamin K ensures factors stick via Calcium. Thrombin converts Fibrinogen to Fibrin, and Factor XIII ties the final knots!",
+                "topic": "Cascade Milestones Summary"
             }
         ]
     },
     "4.3.3": {
-        title: "Breaking the Web (Fibrinolysis) ✂️",
-        objectives: ["Understand why blood clots must be destroyed, meet the body's ultimate cleanup crew (Plasmin and t-PA), and learn how 'D-dimers' act as clinical clues."],
-        data: [
-            {
-                type: "concept",
-                title: "The Cleanup Crew",
-                text: "Once a blood vessel is healed, the clot must be removed. If it remains or continues to grow, it will eventually obstruct blood flow.",
-                subtext: "The body initiates **Fibrinolysis**, a cascade that limits the size of the clot and eventually dissolves it completely.",
-                buttonText: "Meet the Destroyer"
-            },
-            {
-                type: "concept",
-                title: "The Destroyer: Plasmin",
-                text: "The primary enzyme of the cleanup crew is **Plasmin**.",
-                subtext: "While Thrombin is the 'builder' that creates the fibrin web, Plasmin is the 'destroyer' that chews up fibrin threads and breaks the solid clot back down into liquid.",
-                buttonText: "Is it always active?"
-            },
-            { 
-                type: "mcq", 
-                question: "Because Plasmin is so destructive to the fibrin web, does it circulate in the blood in a highly active state at all times?", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Plasmin circulates as an inactive precursor called **Plasminogen**. It is only converted to active Plasmin when the body specifically signals that the clot is ready to be dismantled." 
-            },
-            {
-                type: "concept",
-                title: "The Wake-Up Call: t-PA",
-                text: "The most important activator of Plasminogen is **t-PA** (Tissue Plasminogen Activator).",
-                subtext: "Repaired endothelial cells synthesize and release t-PA at the site of the clot, converting inactive Plasminogen into active, fibrin-chewing Plasmin.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Because t-PA specifically targets fibrin, how is synthetic t-PA utilized in clinical medicine?", 
-                options: [
-                    "To increase the number of platelets in a bleeding patient", 
-                    "As an emergency agent to dissolve dangerous clots (e.g., in stroke or heart attack)", 
-                    "To strengthen the fibrin web and stop a hemorrhage"
-                ], 
-                answer: 1, 
-                explanation: "Synthetic t-PA is used as a 'clot-buster' to rapidly reopen occluded vessels in the brain or heart by targeting the fibrin meshwork of a recent thrombus." 
-            },
-            {
-                type: "concept",
-                title: "The Double Agent: Factor XII",
-                text: "Interestingly, the body uses the start of the clotting cascade to also set the timer for its destruction.",
-                subtext: "**Factor XII** (which initiates the Intrinsic pathway) also participates in activating the fibrinolytic cascade, ensuring that the cleanup begins as the repair process proceeds.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "A patient with a Factor XII deficiency may paradoxically have a higher risk of forming unwanted blood clots (thrombosis).", 
-                options: ["True", "False"], 
-                answer: 0, 
-                explanation: "Because Factor XII helps activate Plasmin, a deficiency impairs the body's ability to activate the cleanup crew. This can lead to clots that are difficult to dissolve and grow out of control." 
-            },
-            {
-                type: "concept",
-                title: "The Leftovers: D-Dimers",
-                text: "When Plasmin breaks down the fibrin web, it leaves behind debris in the bloodstream known as **Fibrin Split Products**.",
-                subtext: "The most clinically significant of these fragments are called **D-dimers**.",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "If a patient has a swollen leg and a blood test reveals highly elevated levels of ____________, the doctor has strong evidence that a deep vein ____________ is occurring.",
-                options: ["Calcium", "D-dimers", "Thrombosis", "Hemorrhage"],
-                answer: [1, 2],
-                explanation: "Elevated D-dimers are a marker that a fibrin clot was formed and is currently being broken down, pointing toward an active thrombotic event.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "The Leash: α₂-Plasmin Inhibitor",
-                text: "To prevent active Plasmin from digesting healthy proteins elsewhere, the body uses the **α₂-plasmin inhibitor**.",
-                subtext: "This plasma protein instantly binds and inactivates any Plasmin molecule that drifts away from the localized fibrin clot.",
-                buttonText: "Got it!"
-            },
-            {
-                type: "match",
-                question: "Match the fibrinolysis factor to its primary role.",
-                pairs: [
-                    { left: "Plasmin", right: "The active enzyme that chews up the fibrin web." },
-                    { left: "t-PA", right: "Endothelial factor that activates Plasminogen." },
-                    { left: "D-dimers", right: "Debris left behind; a clinical marker of thrombosis." },
-                    { left: "α₂-Plasmin Inhibitor", right: "Prevents runaway Plasmin from damaging proteins." }
-                ],
-                explanation: ""
-            }
+        "title": "Fibrinolysis – The Demolition Crew ✂️🩹",
+        "objectives": [
+            "Understand the physiological breakdown of a blood clot via Plasmin, identify its triggers (t-PA and Factor XII), learn how α2-plasmin inhibitor restricts the damage, and recognize the clinical importance of D-dimers."
         ],
-        next: "4.4.1"
+        "data": [
+            {
+                "type": "concept",
+                "title": "Removing the Clot",
+                "text": "In the last lesson, we built a rock-solid Fibrin clot to stop the bleeding.\n\nBut a blood clot is strictly a temporary patch!\n\n**The Problem**:\n• If the clot stays in the blood vessel forever, it will permanently block normal blood flow.\n\n**The Solution: Fibrinolysis**:\n• Once the underlying endothelial cells have healed the injured tissue, the body must deploy a **\"demolition crew\"** to safely dissolve the Fibrin net and clear the pathway.",
+                "subtext": "",
+                "buttonText": "The Molecular Scissors"
+            },
+            {
+                "type": "concept",
+                "title": "The Molecular Scissors: Plasminogen & Plasmin",
+                "text": "To dismantle the biological concrete (Fibrin), the body uses a pair of molecular scissors.\n\n**Plasminogen**:\n• When the clot is first being built, an **inactive plasma protein** called **Plasminogen** gets trapped directly inside the Fibrin net.\n• It sits there, asleep, waiting for the signal.\n\n**Plasmin**:\n• When the time is right, Plasminogen is **activated** and transforms into **Plasmin**.\n• Plasmin is a powerful enzyme that violently chops up the Fibrin threads, dissolving the clot!",
+                "subtext": "",
+                "buttonText": "The Sleeper Agent"
+            },
+            {
+                "type": "fill",
+                "question": "During clot formation, an inactive precursor called ________ gets intentionally trapped inside the fibrin net, waiting to be activated into the clot-busting enzyme Plasmin.",
+                "options": [
+                    "Thrombin",
+                    "Plasminogen",
+                    "Fibrinogen",
+                    "Albumin"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "<b>Plasminogen</b> is the inactive precursor. It is baked right into the clot during secondary hemostasis so that it is perfectly positioned to destroy the clot later.",
+                "topic": "Clot-Busting Precursors"
+            },
+            {
+                "type": "concept",
+                "title": "The Triggers",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 3/4.3.3/fibrinolysis_steps.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "How does the sleeping Plasminogen know when it's time to wake up and start cutting?\n\nIt relies on two major triggers!\n\n**Tissue Plasminogen Activator (t-PA)**:\n• Once the vessel heals, healthy endothelial cells secrete **t-PA**.\n• It specifically binds to the clot and converts Plasminogen to **Plasmin**.\n\n**Factor XII (The Built-In Timer)**:\n• Interestingly, **Factor XII** (which helps build the clot) also helps activate Plasminogen!\n• This acts as a built-in timer, ensuring the creation of the clot also plants the seeds for its destruction.",
+                "subtext": "Synthetic t-PA is often given as a drug to patients having strokes or heart attacks!",
+                "buttonText": "The Clot Buster"
+            },
+            {
+                "type": "mcq",
+                "question": "Which molecule is explicitly secreted by healthy, newly repaired endothelial cells to trigger fibrinolysis by converting Plasminogen into active Plasmin?",
+                "options": [
+                    "Tissue Factor (Factor III)",
+                    "Vitamin K",
+                    "Tissue Plasminogen Activator (t-PA)",
+                    "Factor XIII"
+                ],
+                "answer": 2,
+                "explanation": "**t-PA** is the primary physiological trigger released by repaired endothelium to activate Plasminogen.",
+                "topic": "Fibrinolysis Triggers"
+            },
+            {
+                "type": "concept",
+                "title": "α2-Plasmin Inhibitor",
+                "text": "Plasmin is extremely dangerous. It is essentially a chainsaw that cuts up proteins.\n\nWhat stops it from floating away and destroying healthy proteins in the rest of the body?\n\n**The Bodyguard**:\n• A protective protein called **α2-plasmin inhibitor** constantly floats in the plasma.\n\n**The Tackle**:\n• Plasmin is strictly supposed to stay inside the clot.\n• The exact second a Plasmin molecule drifts away from the clot and into the open bloodstream, the α2-plasmin inhibitor shuts it down instantly!\n\n**The Result**:\n• Fibrinolysis stays highly localized to the clot itself.",
+                "subtext": "",
+                "buttonText": "Contain the Damage"
+            },
+            {
+                "type": "mcq",
+                "question": "Once activated, Plasmin freely circulates throughout the entire bloodstream to break down proteins everywhere in the body.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "If **Plasmin** escapes the clot, it is instantly inactivated by the **α2-plasmin inhibitor** floating in the plasma to prevent systemic damage.",
+                "topic": "Localized Clot Breakdown"
+            },
+            {
+                "type": "concept",
+                "title": "FDPs and D-Dimers",
+                "text": "When a demolition crew destroys a concrete wall, there is rubble left behind.\n\n**The Rubble**:\n• When Plasmin chops up the Fibrin net, the broken fragments float away in the blood. These are called **Fibrin Degradation Products (FDPs)**.\n\n**The Specific Clue**:\n• One of the notable products is a **D-dimer**.\n\n**The Clinical Test**:\n• D-dimers are only created when a fully cross-linked Fibrin clot is destroyed.\n• Measuring D-dimers in the blood is a fantastic lab test to see if a patient has been forming and breaking down dangerous clots!",
+                "subtext": "",
+                "buttonText": "The Blood Evidence"
+            },
+            {
+                "type": "mcq",
+                "question": "A patient comes to the emergency room with severe leg swelling. The doctor suspects a massive blood clot (DVT). Which lab test would be the most specific indicator of active clot breakdown?",
+                "options": [
+                    "Low Albumin Levels",
+                    "Elevated D-dimer Levels",
+                    "High Calcium Levels"
+                ],
+                "answer": 1,
+                "explanation": "**D-dimers** are the specific breakdown products of cross-linked fibrin. High levels strongly suggest the body is actively trying to break down a blood clot.",
+                "topic": "Clinical Diagnostics"
+            },
+            {
+                "type": "match",
+                "question": "Match the key player of fibrinolysis to its specific role.",
+                "pairs": [
+                    {
+                        "left": "Plasminogen",
+                        "right": "The inactive precursor trapped inside the clot"
+                    },
+                    {
+                        "left": "t-PA & Factor XII",
+                        "right": "The triggers that activate the demolition crew"
+                    },
+                    {
+                        "left": "Plasmin",
+                        "right": "The molecular scissors that chop up the Fibrin net"
+                    },
+                    {
+                        "left": "α2-Plasmin Inhibitor",
+                        "right": "Neutralizes rogue Plasmin in the plasma"
+                    },
+                    {
+                        "left": "D-dimer",
+                        "right": "Specific rubble left over after clot destruction"
+                    }
+                ],
+                "explanation": "t-PA and Factor XII activate **Plasminogen** into **Plasmin**. Plasmin cuts up the fibrin clot, leaving behind **D-dimers**, while **α2-plasmin inhibitor** acts as a safety net.",
+                "topic": "Fibrinolysis Milestones Summary"
+            }
+        ]
     },
 
     // UNIT 4
