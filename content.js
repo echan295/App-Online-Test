@@ -9884,278 +9884,241 @@ const moduleContent = {
 
     // UNIT 2
     "4.2.1": {
-        title: "Types of Shock ⚡",
-        objectives: ["Understand what 'shock' actually means at a cellular level, and learn to differentiate the main categories based on whether the 'pump,' the 'tank,' or the 'pipes' are failing."],
-        data: [
+        "title": "Hyperemia vs. Congestion 🔴🔵",
+        "objectives": [
+            "Understand that both hyperemia and congestion result in an increased volume of blood in tissue, but distinguish between the active arterial inflow of hyperemia and the passive venous backup of congestion."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The System Collapse",
-                text: "In pathology, **Shock** is a state of circulatory failure that impairs tissue perfusion.",
-                subtext: "Because blood isn't flowing adequately, cells are deprived of oxygen (cellular hypoxia). It represents a systemic collapse of the city's power and supply lines.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Once a patient enters a state of shock, the cellular injury is immediately permanent and irreversible.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "In the early stages, shock-induced cellular injury is reversible. However, if the state of low perfusion is prolonged, it leads to irreversible tissue injury and death." 
+                "type": "concept",
+                "title": "Too Much Blood",
+                "text": "Both Hyperemia and Congestion describe a local increase in the volume of blood within a specific tissue.\n\n**The Key Difference**:\n• Although the end result (extra blood in the tissue) is the same, the underlying mechanisms are exact opposites:\n• One is a **deliberate, active process** of letting more blood **IN**.\n• The other is a **passive, pathological failure** of letting blood **OUT**.",
+                "subtext": "",
+                "buttonText": "The Active Process"
             },
             {
-                type: "concept",
-                title: "The Broken Pump: Cardiogenic Shock",
-                text: "**Cardiogenic Shock** results from low cardiac output because the heart muscle fails.",
-                subtext: "Common causes include massive myocardial infarction (heart attack), dangerous arrhythmias, or physical obstructions like a massive pulmonary embolism.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "A patient suffers a massive heart attack that damages the left ventricle, causing their blood pressure to plummet. What type of shock is this?", 
-                options: ["Hypovolemic Shock", "Cardiogenic Shock", "Distributive Shock"], 
-                answer: 1, 
-                explanation: "Because the heart (cardio) is failing as a primary pump, it cannot generate enough force to push blood out to the tissues."
+                "type": "concept",
+                "title": "Hyperemia: The Active Process",
+                "text": "**Hyperemia** is an active process caused by **arteriolar dilation**.\n\n**The Mechanism**:\n• The arteries deliberately widen, massively increasing the inflow of blood into the tissue.\n\n**The Color (Erythema)**:\n• Because this new, incoming blood is fresh from the heart, it is heavily saturated with oxygen.\n• This oxygen-rich blood turns the affected tissue bright red (a clinical sign called **Erythema**).",
+                "subtext": "",
+                "buttonText": "Oxygen Delivery Quiz"
             },
             {
-                type: "concept",
-                title: "The Empty Tank: Hypovolemic Shock",
-                text: "**Hypovolemic Shock** occurs when the pump works, but there is not enough blood or fluid to move around.",
-                subtext: "This is caused by massive hemorrhage (bleeding out) or severe fluid loss from extensive burns or dehydration.",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "In a severe trauma with massive arterial bleeding, the patient will develop ____________ shock because their overall blood ____________ is too low to maintain cardiac output.",
-                options: ["Cardiogenic", "Hypovolemic", "Volume", "Rate"],
-                answer: [1, 2],
-                explanation: "Loss of blood volume directly reduces the amount of blood returning to the heart, which leads to a collapse in systemic blood pressure.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "The Wide Pipes: Distributive Shock",
-                text: "**Distributive Shock** occurs when the pipes suddenly get too wide and leaky, even if the pump and tank are normal.",
-                subtext: "Blood pools in the veins and fluid leaks into the tissues, preventing proper delivery to vital organs. The most common cause is **Septic Shock**.",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "SIRS: A Sepsis Imposter",
-                text: "A massive outpouring of inflammatory mediators can also be triggered by severe trauma, burns, or pancreatitis without an infection.",
-                subtext: "This is called **Systemic Inflammatory Response Syndrome (SIRS)**. It mimics septic shock and is often seen in 'Cytokine Storm' events.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "In distributive shock, what do inflammatory mediators do to the blood vessels to cause the pressure to drop?", 
-                options: [
-                    "Severe vasoconstriction (shrinking pipes)", 
-                    "Arterial vasodilation and vascular leakage (wide, leaky pipes)", 
-                    "They turn the blood into a solid clot"
-                ], 
-                answer: 1, 
-                explanation: "The mediators cause vessels to open so wide (vasodilation) that blood pools in the periphery rather than circulating, while increased permeability causes fluid to leak out of the vessels." 
-            },
-            {
-                type: "concept",
-                title: "Other Distributive Culprits",
-                text: "Aside from Sepsis, two other classic causes of Distributive Shock are:\n\n" +
-                    "• **Anaphylactic Shock:** A severe IgE-mediated allergic reaction.\n" +
-                    "• **Neurogenic Shock:** Caused by spinal cord injury, where the brain loses control over vessel tone.",
-                subtext: "",
-                buttonText: "Got it!"
-            },
-            {
-                type: "sort",
-                question: "Match the clinical scenario to its corresponding category of shock.",
-                buckets: ["Cardiogenic", "Hypovolemic", "Distributive"],
-                items: [
-                    { text: "Myocardial infarction (Pump fails).", bucket: 0 },
-                    { text: "Massive bleeding from trauma (Empty tank).", bucket: 1 },
-                    { text: "Anaphylaxis or Sepsis (Wide, leaky pipes).", bucket: 2 },
-                    { text: "Severe spinal cord injury.", bucket: 2 }
+                "type": "mcq",
+                "question": "Hyperemia results in pale, oxygen-deprived tissues because it blocks the arteries.",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                explanation: ""
+                "answer": 1,
+                "explanation": "<b>Hyperemia</b> is an active process that dilates the arteries, flooding the tissue with fresh, oxygen-rich blood and turning the tissue a bright red color (**erythema**).",
+                "topic": "Hyperemia Mechanisms"
+            },
+            {
+                "type": "concept",
+                "title": "Triggers of Hyperemia",
+                "text": "Hyperemia is typically a healthy, physiological response, though it also plays a key role in early inflammation.\n\n**Physiological Examples**:\n• **Skeletal muscle** during exercise (muscles need more oxygen to work!).\n• The **skin of the face** when blushing (autonomic nervous system trigger).\n\n**Pathological Example**:\n• Sites of **acute inflammation** (the body actively pumps more blood to the area to deliver white blood cells).",
+                "subtext": "",
+                "buttonText": "The Passive Process"
+            },
+            {
+                "type": "concept",
+                "title": "Congestion: The Passive Process",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 2/4.2.1/hyperemia_vs_congestion.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "**Congestion** is a passive pathological process resulting from **impaired venous outflow** from a tissue.\n\n**The Mechanism**:\n• The blood enters the tissue normally, but the veins are blocked or failing, so the blood cannot exit.\n\n**The Color (Cyanosis)**:\n• Because the stagnant blood is trapped in the tissue, the cells extract all the available oxygen.\n• This accumulation of deoxygenated blood turns the tissue a dark blue-red color (a clinical sign called **Cyanosis**).",
+                "subtext": "",
+                "buttonText": "Compare the Processes"
+            },
+            {
+                "type": "fill",
+                "question": "Congestion is a passive process caused by impaired ________ outflow, leading to the accumulation of deoxygenated blood.",
+                "options": [
+                    "Arterial",
+                    "Venous",
+                    "Lymphatic",
+                    "Capillary"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "<b>Congestion</b> occurs when **venous** outflow is obstructed. Blood enters normally but cannot leave via the veins, becoming trapped and deoxygenated.",
+                "topic": "Congestion"
+            },
+            {
+                "type": "concept",
+                "title": "The Link to Edema",
+                "text": "**Congestion Never Travels Alone**\nBecause congestion is driven by a backup of venous blood, it directly increases the **hydrostatic pressure** inside the blood vessels of that tissue.\n\n**The Consequence**:\n• As we learned before, increased hydrostatic pressure pushes fluid out of the vessels.\n• Therefore, **congestion and edema** commonly occur together!\n•_Example_: Congestive Heart Failure causes both systemic congestion and systemic edema.",
+                "subtext": "",
+                "buttonText": "Red vs. Blue Quiz"
+            },
+            {
+                "type": "clinical",
+                "question": "A patient presents with a swollen, dark blue-purple leg after developing a blood clot in their deep veins (DVT). Which process is primarily responsible for the tissue's dark color?",
+                "options": [
+                    "Hyperemia",
+                    "Congestion",
+                    "Lymphatic obstruction"
+                ],
+                "answer": 1,
+                "explanation": "A venous blood clot blocks outflow, causing passive **congestion**. The trapped blood loses its oxygen, leading to the dark blue-purple color known as **cyanosis**.",
+                "topic": "Clinical Hemodynamics"
+            },
+            {
+                "type": "match",
+                "question": "Match the hemodynamic term to its defining characteristics.",
+                "pairs": [
+                    {
+                        "left": "Hyperemia",
+                        "right": "Active process caused by increased arterial inflow"
+                    },
+                    {
+                        "left": "Congestion",
+                        "right": "Passive process caused by decreased venous outflow"
+                    },
+                    {
+                        "left": "Erythema",
+                        "right": "Bright red tissue color due to oxygenated blood"
+                    },
+                    {
+                        "left": "Cyanosis",
+                        "right": "Blue-red tissue color due to deoxygenated blood"
+                    }
+                ],
+                "explanation": "Hyperemia is active, arterial, and causes red tissue (**erythema**). Congestion is passive, venous, and causes blue tissue (**cyanosis**).",
+                "topic": "Final Summary Match"
             }
         ]
     },
     "4.2.2": {
-        title: "The Sepsis Storm (Pathophysiology of Septic Shock) 🦠⛈️",
-        objectives: ["Understand how a local infection triggers a systemic cytokine storm, endothelial damage, disseminated clotting, and metabolic chaos."],
-        data: [
+        "title": "Chronic Passive Congestion 🫁🫀",
+        "objectives": [
+            "Understand the tissue damage caused by long-standing congestion, focusing on chronic hypoxia, and identify classic morphological signs: 'Heart Failure Cells' in the lungs and the 'Nutmeg Liver.'"
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The Perfect Storm",
-                text: "Septic shock is a life-threatening crisis that occurs when the immune system's response to an infection becomes systemic and dysregulated.",
-                subtext: "Cases are rising due to an increasing number of immunocompromised patients, aging populations, and multidrug-resistant 'superbugs' in clinical settings.",
-                buttonText: "Who triggers it?"
-            },
-            { 
-                type: "mcq", 
-                question: "Statistically, which type of microbe is the most frequent trigger for septic shock today?", 
-                options: ["Gram-negative bacteria", "Gram-positive bacteria", "Fungi"], 
-                answer: 1, 
-                explanation: "While gram-negative bacteria and fungi are significant causes, gram-positive bacteria have become the most common triggers for sepsis in the modern clinical environment." 
+                "type": "concept",
+                "title": "Acute vs. Chronic",
+                "text": "Congestion becomes far more destructive when it is chronic (long-standing).\n\n**The Hypoxia Problem**:\n• Because stagnant venous blood is deoxygenated, the trapped tissue is starved of oxygen (**chronic hypoxia**).\n\n**The Consequence**:\n• Over time, this chronic lack of oxygen leads to tissue **necrosis** (cell death) and subsequent **fibrosis** (scarring).\n\n**Capillary Rupture**:\n• The constantly elevated hydrostatic pressure also causes tiny capillaries to burst, leading to **microscopic tissue hemorrhages**.",
+                "subtext": "",
+                "buttonText": "The Damage of Time"
             },
             {
-                type: "concept",
-                title: "The Immune Rollercoaster",
-                text: "Sepsis begins when white blood cells detect PAMPs using Toll-like receptors (TLRs). This activates the transcription factor **NF-κB**, releasing a wave of pro-inflammatory cytokines like TNF and IL-1.",
-                subtext: "The body simultaneously attempts to counter this with anti-inflammatory signals, leading to a complex and often contradictory immune state.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "During septic shock, the patient's immune system stays in a permanent, hyper-active inflammatory state until they are cured.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Sepsis is characterized by an oscillation between hyper-inflammatory states and periods of profound immune suppression or exhaustion." 
-            },
-            {
-                type: "concept",
-                title: "The Endothelial Meltdown",
-                text: "Inflammatory cytokines cause two major disasters in the blood vessel walls (endothelium):\n\n" +
-                    "1. **Increased Permeability:** Tight junctions loosen, allowing protein-rich fluid to leak into tissues (edema).\n" +
-                    "2. **Massive Vasodilation:** The endothelium releases **Nitric Oxide (NO)**, causing systemic blood pressure to drop.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "The massive drop in blood pressure (systemic ____________) and tissue edema means that cells do not get enough ____________, leading to hypoxia and organ failure.",
-                options: ["Hypertension", "Hypotension", "Oxygen", "Carbon Dioxide"],
-                answer: [1, 2],
-                explanation: "Severe hypotension reduces the perfusion pressure required to deliver oxygen to vital organs, resulting in multi-organ dysfunction.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "The Clotting Crisis (DIC)",
-                text: "The inflamed endothelium becomes **Procoagulant**. The body increases Tissue Factor and inhibits natural anticoagulants.",
-                subtext: "White blood cells deploy NETs that trap platelets, leading to thousands of microscopic blood clots forming throughout the body. This is called **Disseminated Intravascular Coagulation (DIC)**.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "In full-blown DIC, the body makes so many microscopic clots that it exhausts its supply of platelets and factors. What is the result?", 
-                options: [
-                    "The blood turns into a solid gel", 
-                    "The patient begins bleeding and hemorrhaging", 
-                    "Blood pressure returns to normal"
-                ], 
-                answer: 1, 
-                explanation: "DIC creates a consumption coagulopathy; because clotting factors are used up in microscopic clots, the patient is unable to clot elsewhere, leading to widespread bleeding." 
-            },
-            {
-                type: "concept",
-                title: "Metabolic Mayhem",
-                text: "Sepsis causes severe insulin resistance and impairs glucose uptake, leading to **Hyperglycemia**.",
-                subtext: "Systemic micro-clots can also cause adrenal necrosis (Waterhouse-Friderichsen syndrome), leaving the body unable to produce the hormones needed to manage stress.",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Superantigen Hack",
-                text: "Certain bacteria produce **Superantigens** (causing Toxic Shock Syndrome).",
-                subtext: "These molecules bypass the usual specific immune recognition and activate a massive percentage of T-cells simultaneously, triggering an immediate and overwhelming cytokine storm.",
-                buttonText: "Got it!"
-            },
-            {
-                type: "sort",
-                question: "Review the deadly dominoes! Match the biological feature to its chaotic consequence.",
-                buckets: ["Nitric Oxide (NO)", "Loose Endothelial Junctions", "Tissue Factor & NETs", "Insulin Resistance"],
-                items: [
-                    { text: "Massive Vasodilation (Hypotension).", bucket: 0 },
-                    { text: "Widespread tissue edema.", bucket: 1 },
-                    { text: "Micro-clots everywhere (DIC).", bucket: 2 },
-                    { text: "Severe Hyperglycemia.", bucket: 3 }
+                "type": "mcq",
+                "question": "Chronic passive congestion only causes temporary tissue swelling and does not lead to cell death or tissue scarring.",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                explanation: ""
-            }
-        ]
-    },
-    "4.2.3": {
-        title: "The Downward Spiral (Stages of Shock) 🌀",
-        objectives: ["Understand the timeline of shock: how the body compensates in the first stage, why lactic acid causes systemic collapse in the second, and the hallmarks of irreversible damage."],
-        data: [
-            {
-                type: "concept",
-                title: "The Ticking Clock",
-                text: "Shock is a progressive process. Unless the underlying cause is corrected or the injury is instantly lethal, shock evolves through three distinct stages.",
-                subtext: "The three stages are: **Nonprogressive**, **Progressive**, and **Irreversible**.",
-                buttonText: "Stage 1: Nonprogressive"
+                "answer": 1,
+                "explanation": "Chronic passive congestion traps deoxygenated blood in the tissue for long periods. This leads to cell **necrosis** and tissue **fibrosis** (scarring).",
+                "topic": "Chronic Congestion Effects"
             },
             {
-                type: "concept",
-                title: "Stage 1: Compensation",
-                text: "In the **Nonprogressive Phase**, the body activates reflex compensatory mechanisms to maintain blood pressure and perfusion to vital organs.",
-                subtext: "The brain triggers the release of adrenaline, heart rate increases (tachycardia), and peripheral blood vessels clamp down (vasoconstriction) to prioritize the heart and brain.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "During the initial stage of shock, the body shunts blood away from the skin to protect vital organs like the heart and brain.", 
-                options: ["True", "False"], 
-                answer: 0, 
-                explanation: "Peripheral vasoconstriction redirects blood flow from non-essential tissues, such as the skin and kidneys, to ensure the heart and brain receive adequate oxygen." 
-            },
-            { 
-                type: "mcq", 
-                question: "What does the skin of a patient in typical early hypovolemic or cardiogenic shock feel like?", 
-                options: [
-                    "Cool, pale, and 'shocky'", 
-                    "Hot, red, and dry", 
-                    "Warm and perfectly normal"
-                ], 
-                answer: 0, 
-                explanation: "Because blood is shunted away from the surface, the skin becomes cold and pale. Note that early septic shock is an exception, where vasodilation can make the skin feel warm and flushed." 
+                "type": "concept",
+                "title": "Chronic Pulmonary Congestion",
+                "text": "When the left side of the heart fails chronically, blood backs up into the lungs.\n\n**The Micro-Hemorrhages**:\n• The constantly high pressure in the pulmonary veins causes the delicate capillaries in the alveolar walls to rupture.\n\n**The Bleeding**:\n• Red blood cells (RBCs) spill directly into the alveolar air spaces.\n\n**The Clean-Up**:\n• The lung's resident macrophages rush in to consume (**phagocytose**) these spilled red blood cells.",
+                "subtext": "",
+                "buttonText": "Heart Failure Cells"
             },
             {
-                type: "concept",
-                title: "Stage 2: The Tipping Point",
-                text: "If untreated, shock enters the **Progressive Phase**. Compensatory mechanisms fail, and widespread tissue hypoxia begins.",
-                subtext: "Cells switch to anaerobic glycolysis, which produces an excess of **Lactic Acid**. This leads to metabolic acidosis.",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "The acidic tissue pH blunts the vasomotor response, causing the arterioles to ____________. This causes the blood to ____________ in the microcirculation.",
-                options: ["Dilate", "Constrict", "Pool", "Flow"],
-                answer: [0, 2],
-                explanation: "Acidosis causes blood vessels to lose their tone and dilate. This leads to blood pooling in the periphery, which further reduces the amount of blood returning to the heart.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "Stage 3: Irreversible Stage",
-                text: "The **Irreversible Phase** represents the point where cellular injury is so severe that survival is no longer possible, even if hemodynamics are restored.",
-                subtext: "Dying cells rupture and leak lysosomal enzymes into the circulation, compounding the physiological collapse.",
-                buttonText: "The Gut's Role"
-            },
-            { 
-                type: "mcq", 
-                question: "What deadly complication arises from an ischemic, dying bowel during late-stage shock?", 
-                options: [
-                    "It produces massive amounts of bile", 
-                    "Intestinal bacteria cross the dead tissue and enter the bloodstream", 
-                    "The bowel violently contracts, raising blood pressure"
-                ], 
-                answer: 1, 
-                explanation: "When the bowel wall becomes ischemic, it loses its barrier function. This allows normal intestinal flora to enter the systemic circulation, leading to bacteremia and sepsis." 
-            },
-            {
-                type: "sort",
-                question: "Match the clinical or physiological feature to the correct stage of shock.",
-                buckets: ["Nonprogressive (Stage 1)", "Progressive (Stage 2)", "Irreversible (Stage 3)"],
-                items: [
-                    { text: "Tachycardia and cool, pale skin.", bucket: 0 },
-                    { text: "Lactic acidosis and blood pooling.", bucket: 1 },
-                    { text: "Lysosomal enzyme leakage and bacteremia.", bucket: 2 },
-                    { text: "Activation of compensatory mechanisms.", bucket: 0 }
+                "type": "concept",
+                "title": "Heart Failure Cells",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 2/4.2.2/pulmonary_congestion_hfc.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
                 ],
-                explanation: ""
+                "text": "When macrophages eat the red blood cells, they break down the hemoglobin inside them.\n\n**The Iron Pigment**:\n• The iron from the hemoglobin is converted into a golden-brown pigment called **Hemosiderin**.\n\n**The Morphology**:\n• These **macrophages**, now stuffed with brown hemosiderin pigment, are clinically called **\"Heart Failure Cells.\"**\n• Their presence in the lung tissue or sputum is a classic microscopic marker of **chronic left-sided heart failure**.",
+                "subtext": "",
+                "buttonText": "The Golden Pigment"
+            },
+            {
+                "type": "fill",
+                "question": "Macrophages that consume red blood cells in congested lungs become loaded with a golden-brown iron pigment called ________, earning them the name \"Heart Failure Cells.\"",
+                "options": [
+                    "Melanin",
+                    "Lipofuscin",
+                    "Hemosiderin",
+                    "Bilirubin"
+                ],
+                "answer": [
+                    2
+                ],
+                "explanation": "<b>Hemosiderin</b> is the iron-containing pigment formed when macrophages break down red blood cells in chronic pulmonary congestion.",
+                "topic": "Pulmonary Morphology"
+            },
+            {
+                "type": "concept",
+                "title": "Chronic Hepatic Congestion",
+                "text": "When the right side of the heart fails chronically, blood backs up through the inferior vena cava directly into the liver.\n\n**The Trapped Blood**:\n• The central veins inside the liver lobules become massively engorged with deoxygenated blood.\n\n**The Gross Appearance**:\nWhen looking at the cut surface of the liver,\n• you see **dark red spots** (the congested, bleeding central veins)\n• surrounded by **pale, yellowish zones** (the uncongested, fatty liver cells).",
+                "subtext": "",
+                "buttonText": "The Nutmeg Liver"
+            },
+            {
+                "type": "concept",
+                "title": "The Nutmeg Liver",
+                "text": "**A Classic Gross Pathology Sign**\n• This alternating pattern of dark red spots and pale tissue looks exactly like the inside of a nutmeg seed.\n\n**The Term**:\n• In pathology, this gross morphological appearance is specifically called a **\"Nutmeg Liver.\"**\n• It is the hallmark visual sign of chronic passive congestion of the liver, almost always due to **right-sided heart failure**.",
+                "subtext": "",
+                "buttonText": "The Spotted Liver"
+            },
+            {
+                "type": "clinical",
+                "question": "Upon autopsy, a patient's liver demonstrates a mottled, red-and-yellow appearance. This \"Nutmeg Liver\" is a classic sign of chronic passive congestion driven by the failure of which organ?",
+                "options": [
+                    "The Kidneys",
+                    "The Lungs",
+                    "The Right Heart",
+                    "The Left Heart"
+                ],
+                "answer": 2,
+                "explanation": "A **Nutmeg Liver** occurs when blood backs up into the central veins of the liver, which is specifically caused by **Right-Sided Heart Failure**.",
+                "topic": "Hepatic Congestion"
+            },
+            {
+                "type": "concept",
+                "title": "Centrilobular Necrosis",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 2/4.2.2/nutmeg_liver_histology.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Under the microscope, the **'Nutmeg Liver'** reveals how chronic hypoxia kills cells.\n\n**The Central Zones/Centrilobular**:\n• The liver cells closest to the central vein are the furthest away from the fresh arterial blood supply.\n• They are at the end of the line for oxygen.\n• Because of the severe hypoxia and congestion, these central cells die (**Centrilobular Necrosis**).\n\n**The Outer Zones/Periportal**:\n• The cells closer to the outside of the lobule receive better oxygen.\n• They survive, but the stress causes them to undergo **fatty change** (making them look pale yellow).",
+                "subtext": "",
+                "buttonText": "Tie it All Together"
+            },
+            {
+                "type": "match",
+                "question": "Match the pathological finding to its underlying cause or description.",
+                "pairs": [
+                    {
+                        "left": "Heart Failure Cells",
+                        "right": "Hemosiderin-laden macrophages in the lungs"
+                    },
+                    {
+                        "left": "Nutmeg Liver",
+                        "right": "Gross appearance of chronic hepatic congestion"
+                    },
+                    {
+                        "left": "Centrilobular Necrosis",
+                        "right": "Liver cell death due to severe central hypoxia"
+                    },
+                    {
+                        "left": "Chronic Hypoxia",
+                        "right": "Primary mechanism causing death in congestion"
+                    }
+                ],
+                "explanation": "Chronic congestion causes hypoxia. In the lungs, this leads to micro-hemorrhages and \"Heart Failure Cells.\" In the liver, it causes central necrosis and the gross appearance of a \"Nutmeg Liver.\"",
+                "topic": "Chronic Congestion Summary"
             }
         ],
-        next: "4.3.1"
+        "next": "4.3.1"
     },
 
     // UNIT 3
