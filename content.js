@@ -10706,109 +10706,170 @@ const moduleContent = {
 
     // UNIT 4
     "4.4.1": {
-        title: "The Antithrombotic Shield (Keeping the Peace) 🛡️",
-        objectives: ["Understand how a healthy blood vessel lining actively prevents blood from clotting, dilutes coagulation factors, and uses chemical weapons to keep platelets and Thrombin in check!"],
-        data: [
+        "title": "Virchow’s Triad ⚖️🩸",
+        "objectives": [
+            "Define thrombosis as pathologic clot formation, and understand the pathogenesis of thrombosis through Virchow's Triad, detailing the mechanisms of endothelial injury, abnormal blood flow, and hypercoagulability, and recognize their clinical triggers."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The Gatekeepers",
-                text: "Clotting must be strictly confined to the site of injury to prevent systemic solidification of the blood.",
-                subtext: "Healthy **Endothelial cells** maintain the 'Antithrombotic Shield,' an active process that prevents unwanted clot formation in healthy vessels.",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Basic Defenses",
-                text: "Beyond chemical weapons, the body uses two physical strategies to limit clotting:\n\n" +
-                    "1. **Dilution:** Normal blood flow washes away active factors to the liver for degradation.\n" +
-                    "2. **The Dance Floor:** The cascade requires an activated platelet surface; without activated platelets, the cascade cannot assemble.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Simple dilution from normal, healthy blood flow plays a major role in preventing a blood clot from growing out of control.", 
-                options: ["True", "False"], 
-                answer: 0, 
-                explanation: "Fast-flowing blood rapidly dilutes active coagulation factors, preventing them from reaching the concentrations necessary to build a fibrin web in healthy areas." 
+                "type": "concept",
+                "title": "Hemostasis vs. Thrombosis",
+                "text": "Up until now, we’ve learned how the body builds a blood clot to patch a bleeding wound (**Hemostasis**).\n\nThis is a lifesaver!\n\n**The Pathology**:\n• **Thrombosis** is the dark side of this process. It is the formation of a blood clot (a **Thrombus**) inside an uninjured, intact blood vessel.\n\n**The Danger**:\n• Because there is no leak to patch, this abnormal clot simply grows and acts like a plug, blocking normal blood flow and starving tissues of oxygen.",
+                "subtext": "",
+                "buttonText": "Defining the Mass"
             },
             {
-                type: "concept",
-                title: "Shielding the Platelets",
-                text: "The endothelium acts as a physical barrier, hiding the sticky collagen and vWF in the basement membrane.",
-                subtext: "It also secretes **Prostacyclin (PGI₂)** and **Nitric Oxide (NO)**, gases that signal passing platelets to remain in a relaxed, non-aggregated state.",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "The endothelium secretes an enzyme called adenosine diphosphatase, which literally destroys ____________. This silences the platelet's ability to ____________ more platelets to the area.",
-                options: ["ADP", "Fibrin", "Recruit", "Destroy"],
-                answer: [0, 2],
-                explanation: "By degrading ADP, the endothelium removes a key chemical signal used for platelet recruitment, preventing the expansion of the primary hemostatic plug.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "The Ultimate Brainwash: Thrombomodulin",
-                text: "If the master-builder enzyme, **Thrombin**, floats away toward healthy tissue, the endothelium captures it using a receptor called **Thrombomodulin**.",
-                subtext: "Upon binding, Thrombin is 'reprogrammed'—it loses its ability to activate platelets or cut Fibrinogen.",
-                buttonText: "What does it do instead?"
-            },
-            { 
-                type: "mcq", 
-                question: "Once activated by the Thrombin-Thrombomodulin complex, what is the role of Protein C (and its cofactor Protein S)?", 
-                options: [
-                    "It cuts Fibrinogen into Fibrin", 
-                    "It inhibits Coagulation Factors Va and VIIIa", 
-                    "It causes intense vasoconstriction"
-                ], 
-                answer: 1, 
-                explanation: "Activated Protein C acts as a powerful anticoagulant by cleaving and inactivating Factors Va and VIIIa, effectively shutting down the coagulation cascade." 
-            },
-            { 
-                type: "mcq", 
-                question: "Protein C and Protein S are powerful procoagulants that help the blood clot faster.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Protein C and S are anticoagulants that prevent the spread of a clot into healthy vascular segments." 
-            },
-            {
-                type: "concept",
-                title: "The Natural Heparin",
-                text: "The endothelium expresses **Heparin-like molecules** that bind and activate a plasma protein called **Antithrombin III**.",
-                subtext: "Antithrombin III is a potent inhibitor of Thrombin and Factors IXa, Xa, XIa, and XIIa.",
-                buttonText: "Clinical Link"
-            },
-            { 
-                type: "mcq", 
-                question: "Based on this endothelial mechanism, how does the clinical drug Heparin work to thin a patient's blood?", 
-                options: [
-                    "It stimulates Antithrombin III activity", 
-                    "It provides massive amounts of Vitamin K", 
-                    "It adds more Tissue Factor to the blood"
-                ], 
-                answer: 0, 
-                explanation: "Pharmacologic Heparin acts by binding to Antithrombin III and inducing a conformational change that increases its ability to neutralize clotting factors." 
-            },
-            {
-                type: "concept",
-                title: "Final Backup Systems",
-                text: "The endothelium has additional regulatory tools:\n\n" +
-                    "• **TFPI:** (Tissue Factor Pathway Inhibitor) blocks the Extrinsic pathway initiator.\n" +
-                    "• **t-PA:** Wakes up Plasmin to dissolve any fibrin that accidentally forms on healthy walls.",
-                subtext: "",
-                buttonText: "Got it!"
-            },
-            {
-                type: "match",
-                question: "Final Review: Match the endothelial factor to its primary superpower.",
-                pairs: [
-                    { left: "Nitric Oxide & PGI₂", right: "Keeps platelets relaxed." },
-                    { left: "Thrombomodulin", right: "Brainwashes Thrombin into an anticoagulant." },
-                    { left: "Heparin-like molecules", right: "Activates Antithrombin III." },
-                    { left: "t-PA", right: "Initiates fibrinolysis to dissolve stray nets." }
+                "type": "mcq",
+                "question": "A thrombus is a solid mass of blood constituents formed pathologically within an uninjured blood vessel.",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                explanation: ""
+                "answer": 0,
+                "explanation": "A **thrombus** is a pathological clot that forms within an intact, uninjured blood vessel, improperly obstructing normal hemodynamics.",
+                "topic": "Thrombosis Definition"
+            },
+            {
+                "type": "concept",
+                "title": "Virchow’s Triad",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 4/4.4.1/virchows_triad_overview.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Why would the blood suddenly decide to clot inside a perfectly healthy-looking vessel?\n\nThe 19th-century physician **Rudolf Virchow** identified three primary abnormalities that trigger pathologic thrombosis:\n1. **Endothelial Injury** (Vessel Wall Injury)\n2. **Abnormal Blood Flow** (Stasis or Turbulence)\n3. **Hypercoagulability** (Increased Tendency to Clot)\n\n**Interdependence**:\n• These three factors are highly interconnected.\n• For example, endothelial injury can alter local blood flow, and abnormal blood flow can cause physical trauma to the endothelium.",
+                "subtext": "",
+                "buttonText": "Factor 1: Injury"
+            },
+            {
+                "type": "concept",
+                "title": "Endothelial Injury",
+                "text": "A healthy endothelial lining keeps blood flowing smoothly. But when it gets torn, trouble starts!\n\n**What causes the damage?**\n• **Trauma**: Bone fractures or deep cuts.\n• **Procedures**: Surgery, IV needles, or stents.\n• **Mechanical Stress**: Chronic high blood pressure.\n\n**When Healing Turns Deadly (Thrombosis)**\n• Normal clotting saves lives by stopping bleeding.\n• But severely damaged endothelium loses its clot-regulating enzymes.\n\n**The Pathological Shift**:\n• The clot grows uncontrollably inside an intact vessel until it completely blocks it.\n\n **The Result**:\n• Downstream tissues starve of oxygen.\n\n**Key Takeaway**:\n• Vessel injury becomes extremely dangerous when combined with other factors like immobility!",
+                "subtext": "",
+                "buttonText": "Vessel Dysfunction"
+            },
+            {
+                "type": "concept",
+                "title": "Endothelial Dysfunction",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 4/4.4.1/procoagulant_antifibrinolytic_changes.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "When the intact endothelium is chemically injured, it undergoes a prothrombotic shift in gene expression known as **Endothelial Dysfunction**.\n\nThey reduce the production of **anti-thrombotic** factors and increase the production of **pro-coagulant** factors.\n\nThis dangerous functional shift is triggered by systemic stressors such as:\n• Hypertension\n• Toxins from cigarette smoke\n• Hypercholesterolemia\n• Bacterial endotoxins.\n\n**Procoagulant Changes**:\n• Downregulation of **Thrombomodulin** and **Protein C** receptors, leaving Thrombin highly active and the coagulation cascade unchecked.\n\n**Antifibrinolytic Changes**:\n• **Decreased** secretion of **t-PA** and increased secretion of **Plasminogen Activator Inhibitors (PAIs)**, directly preventing the degradation of fibrin networks.",
+                "subtext": "",
+                "buttonText": "Test the Shift"
+            },
+            {
+                "type": "mcq",
+                "question": "How does endothelial dysfunction directly prevent the physiological breakdown of a pathological thrombus?",
+                "options": [
+                    "By downregulating Thrombomodulin",
+                    "By secreting Plasminogen Activator Inhibitors (PAIs)",
+                    "By increasing Nitric Oxide production"
+                ],
+                "answer": 1,
+                "explanation": "Dysfunctional endothelium secretes **PAIs**, which actively inhibit **t-PA**. This prevents the activation of Plasminogen into Plasmin, thereby blocking **fibrinolysis**.",
+                "topic": "Endothelial Dysfunction"
+            },
+            {
+                "type": "concept",
+                "title": "Abnormal Blood Flow",
+                "text": "Normally, blood flows like a smooth, quiet river (**Laminar Flow**).\n\nThe fast-moving blood cells stay in the center, safely separated from the vessel wall by a layer of clear plasma.\n\n**The Disruption**:\n• If flow becomes chaotic (**Turbulence**) or sluggish and stagnant (**Stasis**), this laminar flow breaks down.\n\n**The Crash**:\n• Platelets are thrown out of the center lane and crash directly into the endothelium, allowing them to stick and start a clot!\n• Sluggish flow also prevents fresh plasma from washing away activated clotting factors.",
+                "subtext": "",
+                "buttonText": "Turbulence vs. Stasis"
+            },
+            {
+                "type": "concept",
+                "title": "Turbulence vs. Stasis",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 4/4.4.1/turbulence_mechanism.png",
+                        "reference": "Image generated by ChatGPT"
+                    },
+                    {
+                        "url": "images/Chapter 4/Unit 4/4.4.1/stasis_mechanism.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Abnormal blood flow generally presents in two specific forms depending on the vascular bed.\n\n**Turbulence (Arterial)**:\n• Fast, chaotic flow typically occurs in arteries.\n• It is driven by structural abnormalities such as **ulcerated atherosclerotic plaques** or **aneurysms** that disrupt the plasma layer and cause local tissue injury.\n\n**Stasis (Venous/Cardiac)**:\n• Sluggish, stagnant flow primarily occurs in veins or cardiac chambers.\n• It is caused by prolonged bed rest, immobilization during long flights, hyperviscosity (e.g., Polycythemia vera), or atrial fibrillation.",
+                "subtext": "",
+                "buttonText": "Test the Flow"
+            },
+            {
+                "type": "mcq",
+                "question": "A patient recovering from major knee surgery has been confined to bed rest for a week.\n\nWhich component of Virchow’s Triad is the primary risk factor for DVT in this patient?",
+                "options": [
+                    "Endothelial Injury",
+                    "Turbulence",
+                    "Stasis (Abnormal Blood Flow)"
+                ],
+                "answer": 2,
+                "explanation": "Prolonged bed rest severely reduces venous return from the lower extremities, causing profound blood stasis. This sluggish flow allows platelets to contact the vessel wall and clotting factors to accumulate locally.",
+                "topic": "Clinical Risk Factors"
+            },
+            {
+                "type": "concept",
+                "title": "Hypercoagulability",
+                "text": "The final component is **Hypercoagulability (Thrombophilia)**.\n\n This means abnormality in the coagulation pathways that predisposes the blood to clot, and is a major cause of venous thrombosis.\n\nThis could be due to either:\n• **Primary (Genetic) Causes**\n• **Secondary (Acquired) Causes**",
+                "subtext": "",
+                "buttonText": "Genetic Causes"
+            },
+            {
+                "type": "concept",
+                "title": "Genetic Hypercoagulability",
+                "text": "**Primary or Genetic Causes** can be due to:\n\n**Factor V Leiden**:\n• The most common inherited mutation.\n• It structurally alters Factor V, making it completely resistant to inactivation by **Protein C**.\n\n**Prothrombin Gene Mutation**:\n• A specific mutation that leads to elevated circulating levels of **Prothrombin**.",
+                "subtext": "",
+                "buttonText": "Acquired Causes"
+            },
+            {
+                "type": "concept",
+                "title": "Acquired Hypercoagulability",
+                "text": "Patients can also acquire hypercoagulable states under the following conditions:\n\n**Hormones**:\n• Pregnancy naturally increase the hepatic synthesis of coagulation factors.\n\n**Malignancy**:\n• Disseminated malignancies release procoagulant tumor products into the bloodstream.\n\n**Autoimmune Disorders**:\n• **Antiphospholipid Antibody Syndrome (APS)**: Autoantibodies target membrane phospholipids, resulting in recurrent thromboses, miscarriages, and false-positive syphilis tests.",
+                "subtext": "",
+                "buttonText": "The Genetic Trap"
+            },  
+            {
+                "type": "mcq",
+                "question": "A young, otherwise healthy patient suffers from unprovoked venous thromboses. Testing reveals she has the Factor V Leiden mutation. Why does this mutation cause hypercoagulability?",
+                "options": [
+                    "It induces the overproduction of Prothrombin in the liver.",
+                    "It renders Factor V resistant to inactivation by Protein C.",
+                    "It destroys the endothelial lining."
+                ],
+                "answer": 1,
+                "explanation": "<b>Factor V Leiden</b> is a structural mutation. Because **Protein C** (the natural inhibitor) cannot bind and inactivate it, the coagulation cascade remains improperly regulated and prone to forming clots.",
+                "topic": "Genetic Thrombophilia"
+            },
+            {
+                "type": "match",
+                "question": "Match the clinical disease, lifestyle factor, or pathological mechanism to its primary component within Virchow’s Triad.",
+                "pairs": [
+                    {
+                        "left": "Cigarette smoking / Hypertension",
+                        "right": "Endothelial Injury"
+                    },
+                    {
+                        "left": "14-hour trans-Pacific flight",
+                        "right": "Stasis"
+                    },
+                    {
+                        "left": "Aortic Aneurysm",
+                        "right": "Turbulence"
+                    },
+                    {
+                        "left": "Factor V Leiden",
+                        "right": "Hypercoagulability (Genetic)"
+                    },
+                    {
+                        "left": "Pregnancy",
+                        "right": "Hypercoagulability (Acquired)"
+                    }
+                ],
+                "explanation": "Smoking/Hypertension damage the wall. Immobilization causes **Stasis**. Aneurysms cause **Turbulence**. Mutations and pregnancy alter the chemical balance via **Hypercoagulability**.",
+                "topic": "Triad Application"
             }
         ]
     },
