@@ -11138,979 +11138,681 @@ const moduleContent = {
 
     // UNIT 5
     "4.5.1": {
-        title: "Virchow's Triad (The Deadly Triangle) 📐",
-        objectives: ["Discover the three ultimate rules of rogue clotting (Virchow's Triad), learn why the Endothelium is the 'boss,' and understand the vicious, interconnected cycle of thrombosis."],
-        data: [
+        "title": "Pulmonary Embolism 🫁🚀",
+        "objectives": [
+            "Define an embolus, trace the anatomical path of a Pulmonary Embolism (PE) from a Deep Vein Thrombosis (DVT), and distinguish between the severe effects of a 'saddle embolus' versus smaller peripheral emboli."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "When Clotting Goes Rogue",
-                text: "When a solid mass of blood forms inside an intact, uninjured blood vessel, it is called a **Thrombus (Thrombosis)**.",
-                subtext: "This rogue blockage is the leading cause of myocardial infarction (heart attack) and stroke.",
-                buttonText: "Meet the Triad"
-            },
-            {
-                type: "concept",
-                title: "The Deadly Triangle",
-                text: "Rudolf Virchow identified a triad of abnormalities that lead to thrombosis:\n\n" +
-                    "1. **Endothelial Injury** (Damage to the vessel lining)\n" +
-                    "2. **Abnormal Blood Flow** (Stagnation or turbulence)\n" +
-                    "3. **Hypercoagulability** (Chemically 'sticky' blood)",
-                subtext: "These three factors are the foundation of all thrombotic diseases.",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "The Traveling Mass",
+                "text": "**What is an Embolus?**\nWhen a solid, liquid, or gas mass travels freely through the bloodstream, it is called an **Embolus**.\n\n**The Destination**:\n• An embolus will travel in the blood until it encounters a vessel that is too narrow for it to pass through.\n\n**The Consequence**:\n• It wedges into the narrow vessel, instantly and completely cutting off blood flow to the tissue downstream.\n\n**The Most Common Type**:\n• 99% of all emboli are pieces of a dislodged blood clot (**Thromboembolism**).",
+                "subtext": "",
+                "buttonText": "The Moving Blockage"
             },
             {
-                type: "fill",
-                question: "The three components of Virchow's Triad are Endothelial ____________, Abnormal Blood ____________, and ____________.",
-                options: ["Injury", "Flow", "Hypercoagulability", "Oxygenation"],
-                answer: [0, 1, 2],
-                explanation: "Thrombosis results from the interplay of vessel wall damage, hemodynamic changes, and alterations in the blood's biochemical properties.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "The Top of the Pyramid",
-                text: "Endothelial integrity is the single most important factor in the triad.",
-                subtext: "Severe endothelial injury (caused by factors like high cholesterol or inflammation) is powerful enough to trigger a thrombus independently, even if flow and coagulability are normal.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "In order for a rogue thrombus to form, a patient must possess all three components of Virchow's Triad at the exact same time.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "While the three factors often act in concert, any one of these abnormalities can promote thrombosis independently or in various combinations." 
-            },
-            {
-                type: "concept",
-                title: "The Vicious Cycle",
-                text: "Virchow's Triad is a highly interconnected web where the factors influence and trigger each other.",
-                subtext: "For example, endothelial injury alters local blood flow, while turbulent blood flow can physically stress and injure the endothelium.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "According to the triad's pathways, if a patient has severe Endothelial Injury, what else can it directly trigger?", 
-                options: [
-                    "It can increase local blood flow to normal speeds", 
-                    "It can alter local blood flow and increase blood coagulability", 
-                    "It cures inherited genetic diseases"
-                ], 
-                answer: 1, 
-                explanation: "The endothelium is the central regulator; its damage typically precipitates hemodynamic disturbances and pro-clotting biochemical shifts." 
-            },
-            {
-                type: "concept",
-                title: "Triggers for the Triad",
-                text: "Common clinical triggers for each leg of the triad include:\n\n" +
-                    "• **Endothelial Injury:** Hypercholesterolemia or chronic inflammation.\n" +
-                    "• **Abnormal Flow:** Prolonged bed rest (stasis) or narrowed vessels (turbulence).\n" +
-                    "• **Hypercoagulability:** Genetic mutations (e.g., Factor V Leiden) or cancer.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "A patient on prolonged bed rest is at risk for thrombosis because the lack of movement causes stasis (Abnormal Blood Flow).", 
-                options: ["True", "False"], 
-                answer: 0, 
-                explanation: "Stagnant blood flow prevents the normal dilution of activated clotting factors, satisfying one of the key conditions of Virchow's Triad." 
-            },
-            {
-                type: "sort",
-                question: "Match the clinical scenario to its specific corner of Virchow's Triad.",
-                buckets: ["Endothelial Injury", "Abnormal Blood Flow", "Hypercoagulability"],
-                items: [
-                    { text: "Hypercholesterolemia (High Cholesterol)", bucket: 0 },
-                    { text: "Atrial Fibrillation & Bed Rest", bucket: 1 },
-                    { text: "Inherited Factor V Leiden & Cancer", bucket: 2 }
+                "type": "mcq",
+                "question": "An embolus causes tissue damage by slowly growing in one place over many years until the vessel is blocked.",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                explanation: ""
+                "answer": 1,
+                "explanation": "A thrombus grows in place, but an **embolus** is a free-floating mass that travels through the blood and causes sudden, instant blockage when it gets wedged in a narrow vessel.",
+                "topic": "Embolism vs. Thrombosis"
+            },
+            {
+                "type": "concept",
+                "title": "Pulmonary Emboli",
+                "text": "A **Pulmonary Embolism (PE)** occurs when an embolus gets stuck in the arteries of the lungs.\n\nBut it rarely starts there!\n\n**The Origin**:\n• Over 95% of all pulmonary emboli originate from a **Deep Vein Thrombosis (DVT)** in the large veins of the lower legs (usually above the knee, like the popliteal or femoral veins).\n\n**The Break**:\n• A piece of the DVT snaps off and begins its journey toward the heart.",
+                "subtext": "",
+                "buttonText": "The Common Source"
+            },
+            {
+                "type": "fill",
+                "question": "The vast majority (>95%) of Pulmonary Emboli originate from a detached portion of a Deep Vein ________ located in the lower legs.",
+                "options": [
+                    "Infarction",
+                    "Thrombosis",
+                    "Hemorrhage",
+                    "Aneurysm"
+                ],
+                "answer": [
+                    1
+                ],
+                "explanation": "Almost all pulmonary emboli start as a **Deep Vein Thrombosis (DVT)** in the legs before breaking loose and traveling to the lungs.",
+                "topic": "PE Origin"
+            },
+            {
+                "type": "concept",
+                "title": "The Anatomy of a PE",
+                "text": "To understand a PE, you must trace the anatomical path the clot takes!\n\n**The Departure**:\n• The clot leaves the leg vein and travels up the **Inferior Vena Cava**.\n\n**The Heart**:\n• It enters the **Right Atrium**, drops into the **Right Ventricle**, and gets pumped forcefully out of the heart.\n\n**The Trap**:\n• It is pumped directly into the **Pulmonary Artery**.\n\n**The Blockage**:\n• As the pulmonary arteries branch into smaller vessels inside the lungs, the clot gets permanently wedged.",
+                "subtext": "",
+                "buttonText": "Trace the Journey"
+            },
+            {
+                "type": "mcq",
+                "question": "A piece of a DVT breaks off in the right leg. Through which chamber of the heart must it pass before it gets stuck in the lungs as a Pulmonary Embolism?",
+                "options": [
+                    "The Left Atrium",
+                    "The Left Ventricle",
+                    "The Right Ventricle"
+                ],
+                "answer": 2,
+                "explanation": "Venous blood from the body returns to the right side of the heart. The **Right Ventricle** pumps the clot directly into the pulmonary artery, where it gets wedged in the lungs.",
+                "topic": "Anatomical Path of PE"
+            },
+            {
+                "type": "concept",
+                "title": "The Massive PE",
+                "text": "The clinical outcome of a PE depends entirely on the size of the clot.\n\n**The Bifurcation**:\n• The main pulmonary trunk splits into the left and right pulmonary arteries.\n\n**The Saddle**:\n• If an embolus is big, it can get stuck perfectly across this split, physically straddling it like a saddle on a horse.\n\n**The Result**:\n• A **\"Saddle Embolus\"** instantly blocks 100% of blood flow to both lungs.\n• The right ventricle pumps furiously against a solid wall, causing immediate right heart failure and sudden death.",
+                "subtext": "",
+                "buttonText": "The Fatal Blockage"
+            },
+            {
+                "type": "mcq",
+                "question": "A \"Saddle Embolus\" is a massive clot that gets lodged at the bifurcation of the main pulmonary artery, often leading to sudden right-sided heart failure and death.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 0,
+                "explanation": "A saddle embolus completely blocks the right ventricle from pumping blood into the lungs, leading to acute right heart failure (**Cor Pulmonale**) and cardiovascular collapse.",
+                "topic": "Saddle Embolus"
+            },
+            {
+                "type": "concept",
+                "title": "The Medium PE",
+                "text": "What happens if the clot is medium-sized?\n• It travels further into the lung branches and blocks a segmental/subsegmental pulmonary artery.\n\n**But the lung has dual blood supply**:\n• **Pulmonary arteries** → gas exchange\n• **Bronchial arteries** → nourish lung tissue\n\nSo in a healthy patient, bronchial blood flow usually prevents infarction.\n\n**When does infarction happen?**\nIf the patient has poor cardiopulmonary reserve:\n• Heart failure\n• Chronic lung disease\n\nThen collateral flow may not be enough.\n\n**Result**:\n• Peripheral wedge-shaped hemorrhagic infarct\n\n**Classic symptoms**:\n• **Pleuritic chest pain**: Sharp pain worse with inspiration\n• **Hemoptysis**: Coughing blood-stained sputum",
+                "subtext": "",
+                "buttonText": "The Small PE"
+            },
+            {
+                "type": "concept",
+                "title": "The Small PE",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 5/4.5.1/pe_types_comparison.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "What if the embolus is very small?\n• It lodges in the very far ends of the pulmonary artery tree → tiny distal branches\n\n**Most small PEs are**:\n• Clinically silent\n• If symptoms occur, they are often mild\n• Quickly broken down\n• Unlikely to cause infarction\n\n**Why no infarct?**\nAs the size of the block is small the **Bronchial arteries** easily compensate\n\n**Small PEs are not dangerous by themselves.**\n**The real threat?**\nThey are **warning shots**:\n• Patient may have more clots coming.\n• Recurrent small PEs can slowly cause chronic pulmonary hypertension over time.",
+                "subtext": "",
+                "buttonText": "Final Review"
+            },
+            {
+                "type": "match",
+                "question": "Match the PE concept to its correct pathological description.",
+                "pairs": [
+                    {
+                        "left": "Embolus",
+                        "right": "Any free-floating mass traveling through the bloodstream"
+                    },
+                    {
+                        "left": "DVT",
+                        "right": "The origin of >95% of all pulmonary emboli"
+                    },
+                    {
+                        "left": "Right Ventricle",
+                        "right": "Heart chamber that pumps the clot into the lungs"
+                    },
+                    {
+                        "left": "Saddle Embolus",
+                        "right": "Massive clot blocking the pulmonary bifurcation"
+                    },
+                    {
+                        "left": "Dual Blood Supply",
+                        "right": "Protects lungs from tissue death when small emboli hit"
+                    }
+                ],
+                "explanation": "Emboli are traveling masses. Most PEs originate as DVTs, pass through the **Right Ventricle**, and enter the lungs. A massive **Saddle Embolus** is fatal, while small ones are often buffered by the lung's dual blood supply.",
+                "topic": "PE Principles Summary"
             }
         ]
     },
     "4.5.2": {
-        title: "Endothelial Injury & Dysfunction 💥",
-        objectives: ["Understand why endothelial injury dominates in arteries, why high shear stress demands platelet-rich clots, and how invisible 'dysfunction' blocks the cleanup crew."],
-        data: [
+        "title": "Systemic Thromboembolism 🚀🌐",
+        "objectives": [
+            "Understand the origins of systemic emboli (left heart mural thrombi), trace their path through the arterial circulation to specific target organs (legs, brain, viscera), recognize the outcome of infarction, and define a paradoxical embolus."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The Top of the Pyramid",
-                text: "Endothelial injury is the primary driver of thrombus formation in the heart and the arterial circulation.",
-                subtext: "In the arteries, blood flows at high speeds. This rapid flow normally washes away activated clotting factors before a fibrin web can form, making the vessel wall's integrity the 'Big Boss' of arterial health.",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Holding on for Dear Life",
-                text: "To form a clot in a high-flow arterial environment, the mass must anchor itself firmly against high **shear stress**.",
-                subtext: "Platelets are the only blood components sticky enough to adhere under these conditions. Consequently, cardiac and arterial thrombi are characteristically platelet-rich.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Because arterial clots rely heavily on platelets to survive high shear stress, anti-platelet drugs like aspirin are a primary treatment for coronary artery disease.", 
-                options: ["True", "False"], 
-                answer: 0, 
-                explanation: "Preventing platelet aggregation removes the primary 'anchor' of high-speed arterial clots, making anti-platelet therapy a cornerstone of heart attack prevention." 
+                "type": "concept",
+                "title": "The Arterial Shooters",
+                "text": "In the last lesson, we learned about Pulmonary Emboli, which travel through the venous system to the lungs.\n\nNow we look at **Systemic Thromboembolism**.\n\n**The Definition**:\n• Systemic emboli travel in the high-pressure arterial circulation.\n\n**The Direction**:\n• Because they are in the arteries, they flow **away from the heart** and shoot out to the rest of the body!",
+                "subtext": "",
+                "buttonText": "The Arterial Path"
             },
             {
-                type: "concept",
-                title: "The Invisible Scars",
-                text: "While physical trauma triggers clotting, the endothelium can also be 'injured' by metabolic or chemical stimuli.",
-                subtext: "Factors such as high cholesterol (hypercholesterolemia), toxins from cigarette smoke, inflammation, and high levels of homocysteine can chemically damage the vessel lining.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "The endothelium can only trigger a rogue blood clot if the cell wall is physically torn open by trauma.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "An intact endothelial cell can still trigger a massive clot if it is chemically irritated or activated by inflammation, which shifts its behavior toward a pro-clotting state." 
-            },
-            {
-                type: "concept",
-                title: "The Shift: Endothelial Dysfunction",
-                text: "Irritated endothelium undergoes a dangerous shift in gene expression called **Endothelial Activation** (or Dysfunction).",
-                subtext: "The cell downregulates its protective shield and becomes prothrombotic. This shift involves both procoagulant changes and anti-fibrinolytic effects.",
-                buttonText: "Weapon 1: Procoagulant"
-            },
-            {
-                type: "concept",
-                title: "Procoagulant Changes",
-                text: "Dysfunctional endothelial cells actively hide their 'peacemaker' proteins.",
-                subtext: "They downregulate **Thrombomodulin**, **Protein C**, and **Tissue Factor Pathway Inhibitor (TFPI)**. This removes the natural brakes on the coagulation cascade.",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "When the inflamed endothelium downregulates ____________, Thrombin remains highly active, greatly enhancing its ____________ and pro-inflammatory actions.",
-                options: ["Thrombomodulin", "Fibrin", "Procoagulant", "Anticoagulant"],
-                answer: [0, 2],
-                explanation: "Without Thrombomodulin to capture and redirect Thrombin, the enzyme is free to build fibrin webs and recruit more platelets unchecked.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "Weapon 2: Antifibrinolytic Effects",
-                text: "The dysfunctional endothelium also ensures the rogue clot is not destroyed.",
-                subtext: "It downregulates the release of **t-PA** (which wakes the cleanup crew) and secretes **PAIs** (Plasminogen Activator Inhibitors), which act as padlocks to block the dissolution of the clot.",
-                buttonText: "Next"
-            },
-            {
-                type: "match",
-                question: "Match the mechanism of Endothelial Dysfunction to its clinical or physiological result.",
-                pairs: [
-                    { left: "High Shear Stress", right: "Requires Platelet-rich clots to stay anchored." },
-                    { left: "Invisible Triggers", right: "Smoking, Toxins, and Hypercholesterolemia." },
-                    { left: "Procoagulant Change", right: "Downregulation of Thrombomodulin and Protein C." },
-                    { left: "Antifibrinolytic Change", right: "Secreting PAIs and hiding t-PA." }
+                "type": "mcq",
+                "question": "Systemic thromboemboli travel through the venous system and almost always end up getting wedged in the lungs.",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                explanation: ""
+                "answer": 1,
+                "explanation": "Systemic emboli travel through the **arterial system**, moving away from the heart to get lodged in organs like the brain, kidneys, or legs.",
+                "topic": "Systemic vs. Pulmonary Emboli"
+            },
+            {
+                "type": "concept",
+                "title": "The Source: The Left Heart",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 5/4.5.2/systemic_emboli_origins.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Where do systemic emboli come from?\n• 80% of all systemic emboli originate from inside the left chambers of the heart known as **Mural or intracardiac Thrombi**.\n\n**The Causes**:\n• Myocardial Infarction – left ventricle\n• Atrial Fibrillation – left atrium\n\n**What about the remaining 20% of systemic emboli?**\n• They originate in the arteries itself\n\n**Causes**:\n• Broken off atherosclerotic plaques\n• Clots from aortic aneurysms\n• Infected vegetations from heart valves.",
+                "subtext": "",
+                "buttonText": "The Heart Clot"
+            },
+            {
+                "type": "fill",
+                "question": "80% of systemic emboli break off from a ________ thrombus, which is a blood clot that forms directly on the inner wall of the left heart chambers.",
+                "options": [
+                    "Venous",
+                    "Pulmonary",
+                    "Mural",
+                    "Capillary"
+                ],
+                "answer": [
+                    2
+                ],
+                "explanation": "A <b>mural</b> thrombus (from the Latin 'murus' meaning wall) forms on the wall of the heart. When a piece breaks off, it shoots into the systemic arteries.",
+                "topic": "Mural Thrombi"
+            },
+            {
+                "type": "concept",
+                "title": "The Targets",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 5/4.5.2/atrial_thromboembolism_targets.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Once the embolus leaves the left ventricle, it enters the Aorta and can be carried anywhere in the body!\n\nIts final destination depends on blood flow volume:\n\n**The Legs (75%)**:\n• The vast majority travel straight down the descending aorta and wedge in the lower extremities.\n\n**The Brain (10%)**:\n• The embolus travels up the carotid arteries, causing an **ischemic stroke**.\n\n**The Viscera**:\n• The rest end up in organs with massive blood supplies, primarily the **kidneys, spleen, and intestines**.",
+                "subtext": "",
+                "buttonText": "The Left-Sided Break"
+            },
+            {
+                "type": "mcq",
+                "question": "A patient with a history of atrial fibrillation develops a mural thrombus in their Left Atrium. If a piece of this clot breaks off, where is the most likely place it will get wedged?",
+                "options": [
+                    "The Lungs",
+                    "The Lower Extremities (Legs)",
+                    "The Right Ventricle"
+                ],
+                "answer": 1,
+                "explanation": "Because the clot originates in the left heart, it will be pumped out through the aorta into the systemic arteries. 75% of these systemic emboli end up in the lower legs.",
+                "topic": "Systemic Emboli Distribution"
+            },
+            {
+                "type": "concept",
+                "title": "The Consequence",
+                "text": "**End-Arterial Tissues**\n• Unlike the lungs, which have a protective dual blood supply, most systemic organs are highly vulnerable to emboli.\n\n**End-Arteries**:\n• Organs like the brain, kidneys, and spleen rely on \"end-arteries\"—meaning there is only one road in.\n• There is **no backup blood supply**!\n\n**The Result (Infarction)**:\n• When a systemic embolus blocks an end-artery, the tissue downstream is instantly starved of oxygen and dies.\n• This tissue death is called an **Infarction**.",
+                "subtext": "",
+                "buttonText": "The Ischemic Threat"
+            },
+            {
+                "type": "mcq",
+                "question": "Because organs like the kidneys and spleen have a rich dual blood supply, a systemic embolus rarely causes tissue death (infarction).",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "The kidneys, spleen, and brain generally rely on **end-arterial circulation**. Without a backup supply, a blockage almost always results in **infarction** (tissue death).",
+                "topic": "End-Arteries"
+            },
+            {
+                "type": "concept",
+                "title": "The Strange Exception",
+                "text": "**Paradoxical Embolism**\n• There is one very rare way a systemic embolus can originate from a vein!\n\n**The Setup**:\n• A patient has a **DVT** in their leg.\n• The clot breaks loose and travels to the right side of the heart.\n\n**The Hole**:\n• The patient has an undiagnosed congenital hole between the left and right sides of the heart (e.g., **Atrial Septal Defect** or **Patent Foramen Ovale**).\n\n**The Paradox**:\n• The venous clot crosses through the hole from the right heart directly into the left heart, **completely bypassing the lungs**!\n• It then shoots out into the arteries as a systemic embolus.",
+                "subtext": "",
+                "buttonText": "The Rule Breaker"
+            },
+            {
+                "type": "mcq",
+                "question": "What anatomical defect must be present for a Deep Vein Thrombosis (DVT) from the leg to cause a stroke in the brain (a Paradoxical Embolus)?",
+                "options": [
+                    "A saddle embolus in the lungs",
+                    "A hole between the right and left sides of the heart",
+                    "A mural thrombus in the left ventricle"
+                ],
+                "answer": 1,
+                "explanation": "A **Paradoxical Embolus** is a venous clot that bypasses the lungs by crossing directly through a defect (hole) in the heart walls, entering the systemic arterial circulation.",
+                "topic": "Paradoxical Embolism"
+            },
+            {
+                "type": "match",
+                "question": "Match the systemic embolism concept to its correct description.",
+                "pairs": [
+                    {
+                        "left": "Left Heart",
+                        "right": "The origin of 80% of systemic emboli"
+                    },
+                    {
+                        "left": "Mural Thrombus",
+                        "right": "A clot formed against the wall of the heart"
+                    },
+                    {
+                        "left": "Lower Extremities",
+                        "right": "Most common destination for systemic emboli (75%)"
+                    },
+                    {
+                        "left": "Infarction",
+                        "right": "Tissue death resulting from blockage of an end-artery"
+                    },
+                    {
+                        "left": "Paradoxical Embolus",
+                        "right": "Venous clot crossing a heart hole to become arterial"
+                    }
+                ],
+                "explanation": "Most systemic emboli come from **Left Heart mural thrombi**. They shoot down the arteries, mostly to the legs. Because these organs have **end-arterial supplies**, the result is **infarction**. A paradoxical embolus bypasses the lungs via a heart defect!",
+                "topic": "Systemic Embolism Summary"
             }
         ]
     },
     "4.5.3": {
-        title: "Alterations in Normal Blood Flow 🌊",
-        objectives: ["Learn how normal laminar flow protects the vessel, and how Turbulence and Stasis trigger rogue blood clots."],
-        data: [
+        "title": "Fat, Air, and Amniotic Fluid Embolism 🫧🦴",
+        "objectives": [
+            "Understand that not all emboli are blood clots. Identify the specific clinical triggers and unique pathophysiology for fat emboli (bone fractures), air emboli (decompression sickness), and amniotic fluid emboli (childbirth)."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The Second Corner",
-                text: "The second leg of Virchow's Triad is **Abnormal Blood Flow**.",
-                subtext: "A healthy vessel behaves like a smoothly flowing river. When the flow becomes chaotic (**Turbulence**) or stagnant (**Stasis**), the risk of rogue blood clots increases significantly.",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Laminar Flow",
-                text: "In healthy vessels, blood travels in organized lanes called **Laminar Flow**.",
-                subtext: "The heavy blood cells and platelets move quickly through the center lane, while a slower layer of clear plasma travels in the outside lanes, acting as a buffer that separates platelets from the vessel wall.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Because of normal laminar flow, circulating platelets are kept safely in the center of the vessel and rarely touch the endothelial wall.", 
-                options: ["True", "False"], 
-                answer: 0, 
-                explanation: "Laminar flow creates a protective plasma buffer zone that keeps sticky platelets in the high-velocity central stream, physically separated from the vessel wall." 
+                "type": "concept",
+                "title": "The Bizarre Blockages",
+                "text": "So far, we have focused entirely on Thromboemboli (dislodged blood clots).\n• They make up 99% of all emboli.\n\n**The 1% Rule**:\n• However, anything that travels through the blood and blocks a vessel is an embolus!\n\n**The Bizarre Invaders**:\n• Under very specific, extreme physical conditions, foreign materials like **liquid fat, bubbles of gas, or even fluid** from the womb can enter the bloodstream and act as deadly blockages.",
+                "subtext": "",
+                "buttonText": "The Embolus Definition"
             },
             {
-                type: "concept",
-                title: "The Flow Disruptors",
-                text: "Disrupting the laminar highway leads to two major clinical patterns:\n\n" +
-                    "1. **Turbulence:** Chaotic, swirling blood flow; a major cause of arterial and cardiac clots.\n" +
-                    "2. **Stasis:** Sluggish, stagnant blood flow; the primary driver of venous clots.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "Disrupted flow causes three pro-thrombotic changes: it slams ____________ directly against the endothelium, activates endothelial cells, and prevents blood from ____________ away activated factors.",
-                options: ["Platelets", "Washing", "Fibrin", "Building"],
-                answer: [0, 1],
-                explanation: "Abnormal flow removes the protective plasma buffer and prevents the 'washout' mechanism that normally dilutes and carries away activated clotting factors.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "The Rapids: Turbulence",
-                text: "Turbulent flow acts as a physical irritant to the endothelium. A classic cause is an **atherosclerotic plaque**.",
-                subtext: "The plaque acts like a boulder in a river, causing blood to swirl aggressively and creating local pockets of stasis and physical injury to the lining.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "When blood flows out of a tight artery into a ballooned-out aneurysm, what happens to the blood flow?", 
-                options: [
-                    "It speeds up significantly", 
-                    "It pools and swirls, causing local stasis", 
-                    "It instantly turns into an exudative fluid"
-                ], 
-                answer: 1, 
-                explanation: "In an aneurysm, blood loses forward momentum and pools in the widened area, creating the stagnant and turbulent conditions necessary for thrombus formation." 
-            },
-            {
-                type: "concept",
-                title: "The Swamp: Stasis",
-                text: "**Stasis** is profound stagnation. It often occurs after a heart attack (myocardial infarction) when the damaged muscle can no longer contract effectively.",
-                subtext: "The blood pools in the heart chamber, often leading to the formation of a cardiac mural thrombus.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "In Atrial Fibrillation, the heart chamber quivers weakly instead of pumping, causing profound stasis.", 
-                options: ["True", "False"], 
-                answer: 0, 
-                explanation: "Atrial fibrillation results in the loss of coordinated contraction, leading to blood stagnation in the atria and a significantly increased risk of clot formation." 
-            },
-            {
-                type: "concept",
-                title: "Microscopic Traffic Jams",
-                text: "Stasis can be caused by the composition of the blood itself rather than the heart's pump.",
-                subtext: "• **Polycythemia vera:** High red cell count makes blood thick as syrup (hyperviscosity).\n• **Sickle Cell Anemia:** Rigid, deformed cells physically jam capillaries and small vessels.",
-                buttonText: "Next"
-            },
-            {
-                type: "sort",
-                question: "Match the clinical condition to the primary reason it disrupts normal blood flow.",
-                buckets: ["Turbulence", "Stasis"],
-                items: [
-                    { text: "Ulcerated Atherosclerotic Plaque", bucket: 0 },
-                    { text: "Atrial Fibrillation", bucket: 1 },
-                    { text: "Polycythemia (Hyperviscosity)", bucket: 1 },
-                    { text: "Sickle Cell Anemia", bucket: 1 }
+                "type": "mcq",
+                "question": "By definition, an embolus must be composed of coagulated blood (platelets and fibrin).",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                explanation: ""
-            }
-        ]
-    },
-    "4.5.4": {
-        title: "Hypercoagulability (The Thick Blood) 🧪",
-        objectives: ["Enter the third corner of Virchow's Triad! Learn why genetics, hormones, and rogue antibodies can turn normal blood into a thick, sticky, clot-making hazard."],
-        data: [
-            {
-                type: "concept",
-                title: "The Final Corner",
-                text: "We’ve reached the third leg of Virchow's Triad: **Hypercoagulability**.",
-                subtext: "This refers to an abnormally high tendency of blood to clot. While endothelial injury dominates in the arteries, hypercoagulability is a major driver of venous clots, such as Deep Vein Thrombosis (DVT).",
-                buttonText: "Next"
+                "answer": 1,
+                "explanation": "While 99% are blood clots, an **embolus** is simply any intravascular mass (solid, liquid, or gas) that travels in the blood and blocks a vessel.",
+                "topic": "Embolus Definition"
             },
             {
-                type: "concept",
-                title: "The Broken 'Off' Switch",
-                text: "Hypercoagulability can be inherited (genetic) or acquired. The most common genetic cause is **Factor V Leiden**.",
-                subtext: "Normally, Protein C deactivates Factor V to stop the clotting cascade. In this mutation, Factor V is deformed such that Protein C cannot bind to it, leaving the cascade persistently active.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "A patient with the Factor V Leiden mutation has a higher risk of developing a DVT because their mutated Factor V is resistant to being deactivated by Protein C.", 
-                options: ["True", "False"], 
-                answer: 0, 
-                explanation: "The mutation makes Factor V resistant to the body's natural anticoagulant mechanism, meaning the clotting process is not properly regulated." 
+                "type": "concept",
+                "title": "Fat Embolism",
+                "text": "**The Broken Bone**\n• The most common non-thrombotic embolus is made of fat.\n\n**The Trigger**:\n• A severe trauma crushes a large, heavy long bone (like the Femur or Pelvis).\n\n**The Escape**:\n• The inside of these bones is packed with fatty yellow bone marrow.\n• When the bone breaks, the highly vascular marrow cavity is torn open.\n\n**The Journey**:\n• Microscopic globs of liquid fat are sucked into the torn veins and travel to the lungs.",
+                "subtext": "",
+                "buttonText": "The Marrow Leak"
             },
             {
-                type: "concept",
-                title: "The Overproducer",
-                text: "The second most common genetic mutation is the **Prothrombin Gene Mutation**.",
-                subtext: "A single nucleotide change in the DNA leads to elevated levels of prothrombin. Higher concentrations of prothrombin result in more thrombin and increased fibrin formation.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "What happens if a patient with asymptomatic Factor V Leiden takes a 14-hour airplane flight where they cannot move their legs?", 
-                options: [
-                    "The flight cures their genetic mutation", 
-                    "The combination of genetic hypercoagulability and stasis triggers a massive DVT", 
-                    "Their blood becomes dangerously thin and won't clot at all"
-                ], 
-                answer: 1, 
-                explanation: "Virchow's Triad factors often act synergistically. A genetic predisposition combined with acquired stasis (immobilization) creates a high risk for thrombotic events." 
-            },
-            {
-                type: "concept",
-                title: "Acquired Sticky Blood",
-                text: "Hypercoagulability can also be acquired through physiological changes or disease.",
-                subtext: "High estrogen (Pregnancy/Oral Contraceptives) increases coagulation factor production. Disseminated cancer is also a major trigger, as some tumors release procoagulant molecules.",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "Advancing age and ____________ both promote hypercoagulability. ____________ also increases risk, though the exact mechanism is still being studied.",
-                options: ["Smoking", "Drinking water", "Obesity", "Exercise"],
-                answer: [0, 2],
-                explanation: "Smoking and obesity are significant acquired risk factors that promote a pro-clotting environment in the blood and damage the vessel lining.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "The Heparin Paradox: HIT",
-                text: "**HIT (Heparin-Induced Thrombocytopenia)** is a clinical paradox where a blood-thinning drug causes clotting.",
-                subtext: "Patients form antibodies against Heparin-platelet complexes. These antibodies activate platelets, causing them to aggregate and form dangerous systemic clots.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Because HIT uses up all of the patient's platelets (thrombocytopenia), the main clinical danger is bleeding to death.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Even though the platelet count is low, the primary danger is life-threatening thrombosis. The missing platelets are actually being used to form widespread clots throughout the vasculature." 
-            },
-            {
-                type: "concept",
-                title: "The Miscarriage Mystery: APS",
-                text: "**APS (Antiphospholipid Antibody Syndrome)** is an autoimmune disorder where antibodies attack cell membrane proteins.",
-                subtext: "This leads to recurrent thrombosis (strokes, DVT) and is a classic cause of recurrent miscarriages due to placental interference.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "APS antibodies often cross-react with lab reagents, leading to which common 'false positive' test result?", 
-                options: [
-                    "A false positive for Pregnancy", 
-                    "A false positive for Syphilis", 
-                    "A false positive for Covid-19"
-                ], 
-                answer: 1, 
-                explanation: "APS antibodies bind to cardiolipin, which is the same reagent used in screening tests for Syphilis, resulting in a false-positive result in the absence of infection." 
-            },
-            {
-                type: "match",
-                question: "Match the hypercoagulability disorder to its classic description.",
-                pairs: [
-                    { left: "Factor V Leiden", right: "A broken 'off switch' that resists Protein C." },
-                    { left: "Prothrombin Mutation", right: "A genetic typo causing too much Thrombin." },
-                    { left: "HIT", right: "Antibodies turn a blood-thinning drug into a clot-maker." },
-                    { left: "APS", right: "Autoantibodies causing recurrent miscarriages and clots." }
+                "type": "fill",
+                "question": "A fat embolism most commonly occurs after severe trauma or fracture to a ________ bone, which releases fatty marrow into the venous circulation.",
+                "options": [
+                    "Skull",
+                    "Long",
+                    "Rib",
+                    "Vertebral"
                 ],
-                explanation: ""
-            }
-        ]
-    },
-    "4.5.5": {
-        title: "The Crime Scene (Morphology of a Thrombus) 🕵️‍♂️",
-        objectives: ["Step into the shoes of a pathologist! Learn how to distinguish an arterial clot from a venous clot, and identify clues that a clot formed before death."],
-        data: [
-            {
-                type: "concept",
-                title: "The Crime Scene",
-                text: "Thrombi can develop anywhere in the cardiovascular system. Depending on the speed of the blood and the underlying cause, they take on different sizes, shapes, and colors.",
-                subtext: "Pathologists examine these features to determine if a clot formed during life and whether it is arterial or venous in origin.",
-                buttonText: "Examine the Evidence"
-            },
-            {
-                type: "concept",
-                title: "All Roads Lead to the Heart",
-                text: "Thrombi are firmly attached to the vessel wall at their point of origin.",
-                subtext: "Arterial clots grow backward against the flow (**retrograde**), while venous clots grow forward with the flow (**anterograde**). Regardless, both propagate toward the heart.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "As a thrombus grows, it forms a long, poorly attached 'tail'. Why is this structurally dangerous?", 
-                options: [
-                    "It will absorb all the oxygen in the blood", 
-                    "The tail is prone to breaking off and blocking distant vessels", 
-                    "It will reverse the direction of blood flow"
-                ], 
-                answer: 1, 
-                explanation: "The tail of a propagating thrombus is often fragile and prone to fragmentation, which can lead to embolization—the blockage of a vessel downstream." 
-            },
-            {
-                type: "concept",
-                title: "The Tree Rings of a Clot",
-                text: "Thrombi often show distinct, alternating macroscopic and microscopic layers called **Lines of Zahn**.",
-                subtext: "These consist of pale layers (platelets and fibrin) alternating with darker layers (red blood cells).",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "The presence of striped 'Lines of Zahn' proves that the blood clot formed while the heart was still actively beating.", 
-                options: ["True", "False"], 
-                answer: 0, 
-                explanation: "Lines of Zahn are produced by the movement of blood. Their presence indicates that the clot is **antemortem** (formed before death) rather than postmortem." 
-            },
-            {
-                type: "concept",
-                title: "The Chicken Fat Illusion",
-                text: "Pathologists must distinguish true thrombi from postmortem clots formed after death.",
-                subtext: "When the heart stops, gravity causes heavy red blood cells to sink, leaving a yellow, gelatinous upper layer of plasma that pathologists call **'Chicken Fat'**.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "What is the physical clue that proves a clot is postmortem and NOT a true venous thrombus?", 
-                options: [
-                    "It has highly visible Lines of Zahn", 
-                    "It is completely unattached to the underlying vessel wall", 
-                    "It is made entirely of white blood cells"
-                ], 
-                answer: 1, 
-                explanation: "True thrombi are always anchored to the endothelium by the injury that triggered them. Postmortem clots are unattached and take the shape of the vessel like jelly in a mold." 
-            },
-            {
-                type: "fill",
-                question: "Arterial clots form in fast-moving blood and are primarily made of sticky ____________. Venous clots form in sluggish blood and trap many red blood cells, earning the nickname '____________' thrombi.",
-                options: ["Platelets", "Red", "Oxygen", "White"],
-                answer: [0, 1],
-                explanation: "Fast arterial flow requires platelets to stay anchored (pale clots), while stagnant venous flow leads to massive red blood cell entrapment (red clots).",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "Special Names for Special Places",
-                text: "The nomenclature of a thrombus changes based on its location:\n\n• **Mural Thrombi:** Clots formed in the chambers of the heart or the aorta.\n• **Vegetations:** Clots formed on the heart valves.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Vegetations (thrombi on heart valves) are exclusively caused by bacterial or fungal infections.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "While often infectious, vegetations can also be sterile, occurring in patients with hypercoagulable states or autoimmune conditions like systemic lupus erythematosus." 
-            },
-            {
-                type: "match",
-                question: "Match the pathological finding to its correct clinical description.",
-                pairs: [
-                    { left: "Lines of Zahn", right: "Alternating layers formed in flowing blood." },
-                    { left: "Chicken Fat clot", right: "Gelatinous and unattached; postmortem." },
-                    { left: "Red Thrombus", right: "Formed in a sluggish vein; packed with RBCs." },
-                    { left: "Vegetation", right: "A thrombus attached to a heart valve." }
+                "answer": [
+                    1
                 ],
-                explanation: ""
-            }
-        ]
-    },
-    "4.5.6": {
-        title: "The Crossroads (Fate of the Thrombus) 🔀",
-        objectives: ["Discover the four possible paths a blood clot can take after it forms, understand the time-sensitivity of clot-busting drugs, and learn why Deep Vein Thrombosis is a silent killer."],
-        data: [
-            {
-                type: "concept",
-                title: "The Four Paths",
-                text: "Once a thrombus forms inside a vessel, it typically undergoes one or more of four clinical fates over the following days and weeks.",
-                subtext: "These potential outcomes are: **Propagation**, **Embolization**, **Dissolution**, or **Organization and Recanalization**.",
-                buttonText: "See the fates"
+                "explanation": "Severe fractures of **long bones** (like the femur) rupture the fatty marrow cavity, allowing fat globules to enter the bloodstream.",
+                "topic": "Fat Embolism Trigger"
             },
             {
-                type: "concept",
-                title: "Fate 1 & 2: Grow or Go!",
-                text: "The first two potential fates represent an increasing risk to the patient:\n\n" +
-                    "1. **Propagation:** The thrombus accumulates more platelets and fibrin, growing until it completely occludes the vessel.\n" +
-                    "2. **Embolization:** A part of the thrombus dislodges and travels downstream to obstruct a distant vascular site.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Fate 3: Dissolution",
-                text: "The ideal outcome is **Dissolution**, where the body's fibrinolytic factors (t-PA and Plasmin) chew up the fibrin web and dissolve the clot.",
-                subtext: "In clinical emergencies like stroke or heart attack, doctors use synthetic t-PA to accelerate this natural process.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "If a patient has had a massive blood clot in their leg for three weeks, will injected t-PA 'clot-busting' drugs be effective?", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Older thrombi develop extensive fibrin cross-linking (via Factor XIII), which makes them highly resistant to lysis. t-PA is primarily effective within the first few hours of thrombus formation." 
-            },
-            {
-                type: "concept",
-                title: "Fate 4: Drilling Tunnels",
-                text: "If a clot persists, the body undergoes **Organization and Recanalization**.",
-                subtext: "Endothelial cells, smooth muscle cells, and fibroblasts grow into the fibrin-rich thrombus. They create new, tiny capillary channels through the mass to reestablish a degree of blood flow.",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "Thanks to ____________, the solid clot is transformed into a mass of connective tissue with capillary channels. Eventually, it appears as a fibrous ____________ on the vessel wall.",
-                options: ["Recanalization", "Embolization", "Lump", "Aneurysm"],
-                answer: [0, 2],
-                explanation: "Recanalization converts a solid obstruction into a porous mass, eventually incorporating the remains of the thrombus into the vascular wall as subendothelial fibrous tissue.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "Clinical Presentation: Arteries vs. Veins",
-                text: "The primary clinical danger of a thrombus depends on its location:\n\n" +
-                    "• **Arterial Thrombi:** The chief danger is **Occlusion** (e.g., myocardial infarction or stroke).\n" +
-                    "• **Venous Thrombi:** The chief danger is **Embolization**, typically to the lungs.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "Superficial vs. Deep Veins",
-                text: "Clots in superficial leg veins (varicose veins) cause local pain and swelling but rarely embolize.",
-                subtext: "Clots in deep veins (**DVT**), such as the popliteal or femoral veins, are far more dangerous because they are the primary source of pulmonary emboli.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Why are roughly 50% of Deep Vein Thromboses (DVT) completely asymptomatic until they embolize?", 
-                options: [
-                    "Because deep veins do not carry significant blood", 
-                    "Because collateral (backup) veins open up to drain blood, hiding signs of blockage", 
-                    "Because deep veins lack sensory nerve endings"
-                ], 
-                answer: 1, 
-                explanation: "The opening of collateral bypass channels can prevent the typical swelling and pain of venous obstruction, allowing a large thrombus to remain undetected until it breaks off." 
-            },
-            {
-                type: "concept",
-                title: "The Cancer Clue: Trousseau Syndrome",
-                text: "Disseminated cancer is a major risk factor for thrombosis because tumors release procoagulants into the blood.",
-                subtext: "This can cause wandering clots that appear and disappear in different veins, a phenomenon known as **Migratory Thrombophlebitis** (Trousseau Syndrome).",
-                buttonText: "Got it!"
-            },
-            {
-                type: "sort",
-                question: "Match the term to its correct pathological description.",
-                buckets: ["Thrombus Fate", "Clinical Syndrome"],
-                items: [
-                    { text: "Propagation: Clot grows larger via platelets and fibrin.", bucket: 0 },
-                    { text: "Embolization: Clot breaks off and travels.", bucket: 0 },
-                    { text: "Recanalization: Drilling capillary tunnels through old clots.", bucket: 0 },
-                    { text: "Trousseau Syndrome: Migratory clots caused by cancer.", bucket: 1 }
+                "type": "concept",
+                "title": "Fat Embolism Syndrome (FES)",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 5/4.5.3/fat_embolism_mechanisms.png",
+                        "reference": "Image generated by ChatGPT"
+                            }
                 ],
-                explanation: ""
+                "text": "In about 10% of cases, the fat emboli trigger a massive, deadly inflammatory response known as **Fat Embolism Syndrome** (occurring 1-3 days after the fracture).\n\n**The Classic Triad of Symptoms**:\n• **Pulmonary Distress**: The fat clogs the lungs (shortness of breath).\n• **Neurologic Symptoms**: Fat crosses into the brain (confusion/coma).\n• **Petechial Rash**: The defining hallmark! A rapidly developing rash of tiny red bleeding spots (petechiae) on the chest, neck, and shoulders, caused by platelets sticking to the fat globules and being depleted.\n\n**Why does bone marrow fat cause so much chaos in the brain and lungs?**\nIt is a two-pronged assault!\n\n• **Mechanical**: The fat globs physically plug up the tiny microvessels.\n• **Biochemical**: The fat breaks down and releases highly toxic **Free Fatty Acids**.",
+                "subtext": "",
+                "buttonText": "The Defining Rash"
+            },
+            {
+                "type": "mcq",
+                "question": "A patient recovering from a femur fracture suddenly develops shortness of breath, confusion, and a spotted red rash (petechiae) across his chest. Which type of embolus is most likely responsible?",
+                "options": [
+                    "Pulmonary Thromboembolism",
+                    "Air Embolism",
+                    "Fat Embolism"
+                ],
+                "answer": 2,
+                "explanation": "The triad of **respiratory failure**, **neurological changes**, and a **petechial rash** 1-3 days after a long bone fracture is the classic presentation of Fat Embolism Syndrome.",
+                "topic": "FES Diagnosis"
+            },
+            {
+                "type": "concept",
+                "title": "Air Embolism",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 5/4.5.3/air_embolism_pathway.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "Gas bubbles can physically block blood vessels! But how does air enter a closed circulatory system?\n\n**The Formula: Leak + Vacuum**\n\n**The Leak**:\n• An open vessel exposed to room air\n• _Example_: cut neck vein from trauma or surgery.\n\n**The Vacuum**:\n• Negative pressure.\n• During seated brain surgery, gravity pulls blood down, creating suction in the neck veins that pulls outside air in!\n\n**The Fatal Dose**:\n• Tiny IV bubbles are harmless.\n• It takes >100 mL of air to cause symptoms, and a rapid rush of 300-500 mL to be fatal!",
+                "subtext": "",
+                "buttonText": "The Scuba Diver"
+            },  
+            {
+                "type": "concept",
+                "title": "Decompression Sickness",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 5/4.5.3/decompression_sickness.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "This is the classic \"Scuba Diver\" disease.\n\n**The Mechanism**:\n• Deep underwater, high pressure forces **Nitrogen** to dissolve into the blood.\n• If a diver surfaces too fast, the sudden drop in pressure makes the Nitrogen rapidly \"boil\" out, forming gas bubbles that act like solid emboli!\n\n**Acute Symptoms**:\n• **The Bends**: Bubbles form inside muscles and joints, causing pain.\n• **The Chokes**: Bubbles block lung vessels, causing respiratory distress.\n\n**The Fix**:\n• A high-pressure chamber forces the gas bubbles back into liquid form followed by  slow decompression so the nitrogen can be safely exhaled.",
+                "subtext": "",
+                "buttonText": "The Nitrogen Trap"
+            },
+            {
+                "type": "mcq",
+                "question": "In Decompression Sickness (The Bends), an air embolism is caused by toxic oxygen bubbles forming in the brain.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1,
+                "explanation": "In Decompression Sickness, the emboli are created by **Nitrogen gas** rapidly coming out of solution and forming bubbles due to a sudden drop in pressure.",
+                "topic": "Decompression Sickness"
+            },
+            {
+                "type": "concept",
+                "title": "Amniotic Fluid Embolism",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 5/4.5.3/amniotic_fluid_embolism.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "**The Delivery Room Emergency**\n• This is the rarest, but most deadly type of embolism (approx. 80% mortality rate).\n\n**The Trigger**:\n• Occurs during difficult, complicated labor and childbirth.\n\n**The Mechanism**:\n• A sudden tear in the placental membranes or uterine veins allows **amniotic fluid** (surrounding the baby) to be pushed directly into the mother's circulation.\n\n**The Foreign Material**:\n• Fluid containing fetal skin cells, hair (lanugo), and mucus travel to the lungs, triggering a severe inflammatory/anaphylactoid reaction.",
+                "subtext": "",
+                "buttonText": "Final Review"
+            },
+            {
+                "type": "match",
+                "question": "Match the extreme clinical scenario to the specific type of non-thrombotic embolus it triggers.",
+                "pairs": [
+                    {
+                        "left": "Long Bone Fracture (Femur)",
+                        "right": "Fat Embolism"
+                    },
+                    {
+                        "left": "Scuba Diving (Rapid Ascent)",
+                        "right": "Air (Nitrogen) Embolism"
+                    },
+                    {
+                        "left": "Tearing of Placental Membranes",
+                        "right": "Amniotic Fluid Embolism"
+                    },
+                    {
+                        "left": "Petechial Rash",
+                        "right": "Classic sign of Fat Embolism Syndrome"
+                    }
+                ],
+                "explanation": "Fat emboli come from broken bones and cause petechial rashes. Air emboli come from scuba diving accidents (Nitrogen bubbles). Amniotic fluid emboli happen during childbirth due to tearing of amniotic fluid.",
+                "topic": "Non-Thrombotic Emboli Summary"
             }
         ],
-        next: "4.6.1"
+        "next": "4.6.1"
     },
 
     // UNIT 6
     "4.6.1": {
-        title: "Pulmonary Thromboembolism 🫁",
-        objectives: ["Understand what an embolus is, track the journey of a DVT from the leg to the lungs, discover the 'saddle embolus,' and learn why the lung's dual blood supply is protective."],
-        data: [
+        "title": "Red vs. White Infarcts ⚪🔴",
+        "objectives": [
+            "Define infarction as ischemic cell death, understand the wedge-shaped morphology, and master the mechanical differences between White (pale) infarcts and Red (hemorrhagic) infarcts based on tissue type and blood supply."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The Traveling Menace",
-                text: "An **Embolus** is a detached traveling intravascular mass (solid, liquid, or gas) that is carried by the blood to a site distant from its point of origin.",
-                subtext: "While it can be air, fat, or tumor fragments, 99% of emboli are dislodged blood clots, formally known as **Thromboemboli**.",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Origin of the PE",
-                text: "The **Pulmonary Embolism (PE)** is the most common form of thromboembolic disease.",
-                subtext: "In over 95% of cases, these emboli originate from deep vein thromboses (DVT) in the legs. The clot fragments travel through progressively larger veins to the right side of the heart before being pumped into the pulmonary arteries.",
-                buttonText: "Track the journey"
+                "type": "concept",
+                "title": "The Dead Zone",
+                "text": "Despite all the body's protective mechanisms, sometimes a blood vessel becomes permanently blocked (usually by a thrombus or embolus).\n\n**The Consequence**:\n• The tissue downstream is completely starved of oxygen and nutrients.\n\n**The Definition**:\n• An **Infarct is a localized area of ischemic necrosis (cell death)** caused by the sudden occlusion of either its arterial supply or its venous drainage.",
+                "subtext": "",
+                "buttonText": "The Ischemic Death"
             },
             {
-                type: "fill",
-                question: "The clot breaks free from a leg ____________, travels up to the ____________ side of the heart, and is pumped directly into the lungs.",
-                options: ["Vein", "Artery", "Right", "Left"],
-                answer: [0, 2],
-                explanation: "Venous blood from the lower extremities returns to the right atrium and ventricle, which then ejects the embolus into the pulmonary circulation.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "The Saddle Embolus",
-                text: "The clinical impact of a PE depends on the size of the clot and where it lodges.",
-                subtext: "A large embolus may lodge at the bifurcation of the main pulmonary artery, obstructing flow to both lungs. This is known as a **Saddle Embolus**.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Every pulmonary embolism, regardless of size, causes immediate and severe clinical symptoms.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Approximately 60% to 80% of pulmonary emboli are clinically silent because they are small. They are eventually organized and incorporated into the vessel wall." 
-            },
-            {
-                type: "concept",
-                title: "The Tipping Point",
-                text: "A PE becomes fatal when it significantly obstructs the pulmonary tree.",
-                subtext: "If 60% or more of the pulmonary circulation is suddenly obstructed, it causes acute right heart failure (**Cor Pulmonale**), cardiovascular collapse, and sudden death.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Why is lung tissue often protected from death (infarction) when a medium-sized pulmonary artery is blocked?", 
-                options: [
-                    "Lungs absorb oxygen directly from the air", 
-                    "The lungs have a dual blood supply from the bronchial arteries", 
-                    "Lung tissue does not require oxygen to function"
-                ], 
-                answer: 1, 
-                explanation: "The lungs receive blood from both the pulmonary arteries (for gas exchange) and the bronchial arteries (for tissue nutrition). This dual supply often prevents infarction even if one system is blocked." 
-            },
-            { 
-                type: "mcq", 
-                question: "A clot from a leg vein will always be trapped in the lungs; it cannot enter the systemic arteries.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Through a 'Paradoxical Embolism,' a venous clot can pass through a cardiac defect (like an atrial septal defect) from the right to the left side of the heart, allowing it to reach the systemic circulation and the brain." 
-            },
-            {
-                type: "sort",
-                question: "Match the size of the Pulmonary Embolus to its typical clinical consequence.",
-                buckets: ["Silent/Minor", "Severe/Fatal"],
-                items: [
-                    { text: "Small, single embolus leading to a fibrous web.", bucket: 0 },
-                    { text: "Massive Saddle Embolus (>60% obstruction).", bucket: 1 },
-                    { text: "Recurrent small emboli causing hypertension.", bucket: 1 },
-                    { text: "Medium embolus with intact dual circulation.", bucket: 0 }
+                "type": "mcq",
+                "question": "An infarct is simply a temporary loss of blood flow that causes the cells to shrink, but the cells remain fully alive.",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                explanation: ""
+                "answer": 1,
+                "explanation": "An infarct is an area of **absolute cell death (necrosis)** due to a lack of oxygen (ischemia). The tissue is permanently destroyed.",
+                "topic": "Defining Infarction"
+            },
+            {
+                "type": "concept",
+                "title": "The Shape of Death",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 6/4.6.1/wedge_infarct_kidney.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "**The Wedge**\n• Whether an infarct happens in the lungs, the kidneys, or the spleen, it almost always forms the exact same shape!\n\n**The Vascular Tree**:\n• Blood vessels branch outward from a single main trunk, like the branches of a tree.\n\n**The Wedge Shape**:\n• If you block the main trunk, all the branches downstream die.\n• This creates a classic **\"wedge\" (or triangle) shape**.\n• The blocked vessel is at the **tip (apex)** of the wedge, and the dead tissue fans out toward the **edge (base)** of the organ.",
+                "subtext": "",
+                "buttonText": "The Geometric Clue"
+            },
+            {
+                "type": "fill",
+                "question": "Because blood vessels branch outward like a tree, the resulting zone of dead tissue in an infarct typically takes the shape of a ________.",
+                "options": [
+                    "Circle",
+                    "Square",
+                    "Wedge",
+                    "Cylinder"
+                ],
+                "answer": [
+                    2
+                ],
+                "explanation": "Infarcts are classically **wedge-shaped**, with the blocked vessel at the apex and the dead tissue fanning out to form the base.",
+                "topic": "Infarct Morphology"
+            },
+            {
+                "type": "concept",
+                "title": "White Infarcts",
+                "text": "**The Pale Dead Zone**\n• Pathologists divide infarcts into two color categories: White and Red.\n\n**The Location**:\n• White (pale) infarcts happen in solid organs like the **Heart, Kidneys, and Spleen**.\n\n**The Mechanics**:\n• These organs have strictly **\"End-Arterial\"** circulation (only one road in).\n\n**The Result**:\n• When the single artery is blocked, absolutely no blood can enter the tissue.\n• The **solid nature** of the organ prevents any surrounding blood from seeping in.\n• The tissue simply dies and turns pale white.",
+                "subtext": "",
+                "buttonText": "The One-Way Street"
+            },
+            {
+                "type": "mcq",
+                "question": "Which of the following organs is most likely to suffer a White (pale) infarct because it is a highly solid organ with an end-arterial blood supply?",
+                "options": [
+                    "The Lungs",
+                    "The Intestines",
+                    "The Kidney"
+                ],
+                "answer": 2,
+                "explanation": "The **kidney, heart, and spleen** are solid organs with end-arteries. When blocked, no blood can enter, leaving a pale, white zone of dead tissue.",
+                "topic": "White Infarct Location"
+            },
+            {
+                "type": "concept",
+                "title": "Red Infarcts",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 6/4.6.1/red_vs_white_infarct.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "**The Bloody Dead Zone**\n• Red (hemorrhagic) infarcts happen when tissue dies, but blood continues to pour into the dead space!\n• This happens for three main reasons:\n\n**Dual Blood Supply**:\n• Organs like the Lungs and Liver have two separate blood supplies.\n• If one is blocked, the tissue might still die from severe hypoxia, but the secondary supply continues to pump blood into the dead zone!\n\n**Loose Tissue**:\n• In spongy tissues (like the Lungs), blood from surrounding healthy capillaries easily seeps into the dead, loose spaces.\n\n**Re-perfusion**:\n• If a blocked vessel is suddenly opened up (e.g., a clot-busting drug dissolves the clot), fresh blood wildly rushes into the dead, ruptured capillaries and bleeds out.",
+                "subtext": "",
+                "buttonText": "The Dual Supply"
+            },
+            {
+                "type": "mcq",
+                "question": "Why does an infarct in the lungs classically appear Red (hemorrhagic) rather than White?",
+                "options": [
+                    "Because the lungs are a solid organ with an end-arterial supply.",
+                    "Because the lungs have a dual blood supply and spongy, loose tissue.",
+                    "Because the lungs produce massive amounts of red blood cells."
+                ],
+                "answer": 1,
+                "explanation": "The lungs have both **pulmonary and bronchial arteries**. If one is blocked, the other still pumps blood into the loose, spongy dead tissue, creating a massive red hemorrhage.",
+                "topic": "Red Infarct Mechanism"
+            },
+            {
+                "type": "concept",
+                "title": "Venous Occlusion",
+                "text": "There is one more way a Red Infarct can occur: **The Twisted Vein**.\n\n**The Torsion**:\n• This classically happens when an organ physically twists on its own blood supply (e.g., **Testicular Torsion** or **Ovarian Torsion**).\n\n**The Trap**:\n• The thick, high-pressure arteries keep pumping blood into the organ, but the thin, easily compressible veins are twisted shut, so blood cannot get out.\n\n**The Result**:\n• The organ becomes massively engorged with trapped blood until the pressure stops fresh arterial flow entirely.\n• The organ dies while completely stuffed with blood (a **Red Infarct**).",
+                "subtext": "",
+                "buttonText": "Other Causes"
+            },
+            {
+                "type": "concept",
+                "title": "Other Causes of Infarction",
+                "text": "You don't always need a blood clot to cause an infarct!\n\nVessels can be blocked by:\n• **Vasospasm**: Sudden constriction of the artery.\n• **Extrinsic compression**: A growing tumor compressing the blood vessels from the outside.\n• **Compartment syndrome**: Severe tissue swelling compresses the blood vessels closed.",
+                "subtext": "",
+                "buttonText": "Final Principles"
+            },
+            {
+                "type": "sort",
+                "question": "Categorize the following organs and conditions by the typical color of the infarct they produce.",
+                "buckets": ["White Infarct", "Red Infarct"],
+                "items": [
+                    { "text": "Kidney, Heart, or Spleen", "bucket": 0 },
+                    { "text": "Lungs, Liver, or Intestines", "bucket": 1 },
+                    { "text": "End-Arterial Supply", "bucket": 0 },
+                    { "text": "Dual Blood Supply", "bucket": 1 },
+                    { "text": "Venous Occlusion (e.g., Torsion)", "bucket": 1 }
+                ],
+                "explanation": "Solid organs with one blood supply (heart, kidney, spleen) turn pale <b style='color: #D3D3D3;'>White</b>. Spongy organs, those with a dual supply (lungs, liver), or organs that trap blood via twisted veins turn bloody <b style='color: #FF0000;'>Red</b>.",
+                "topic": "Red vs. White Principles"
             }
         ]
     },
     "4.6.2": {
-        title: "Systemic Thromboembolism (The Arterial Missile) 🚀",
-        objectives: ["Understand the difference between venous and systemic emboli, identify the left heart as the primary source, and track where these clots land."],
-        data: [
+        "title": "Factors Influencing Infarct Development ⏳🛡️",
+        "objectives": [
+            "Understand that not every blocked vessel causes an infarct. Master the four primary factors that determine if tissue survives or dies: Vascular Anatomy, Rate of Occlusion, Tissue Vulnerability, and Blood Oxygen Content."
+        ],
+        "data": [
             {
-                type: "concept",
-                title: "The Arterial Highway",
-                text: "While venous clots (DVTs) travel to the right side of the heart and lodge in the lungs, a **Systemic Thromboembolism** enters the arterial circulation.",
-                subtext: "Systemic emboli travel out of the left side of the heart and into the aorta, from which they can reach almost any organ or tissue in the body.",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Missile Launcher: The Heart",
-                text: "Approximately 80% of systemic emboli originate from intracardiac mural thrombi.",
-                subtext: "Two-thirds of these arise from the wall of the **Left Ventricle** (often following a myocardial infarction), while another 25% originate in a dilated **Left Atrium** (associated with Atrial Fibrillation).",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "If a patient suffers a massive Left Ventricular Myocardial Infarction, why does a mural thrombus often form on the heart wall?", 
-                options: [
-                    "The dead heart muscle cannot contract, causing profound blood stasis", 
-                    "The heart beats too fast, causing blood to evaporate", 
-                    "The heart starts pumping venous blood instead of arterial blood"
-                ], 
-                answer: 0, 
-                explanation: "The infarcted, non-contractile area of the heart muscle creates a zone of stasis where blood pools, providing the ideal conditions for thrombus formation."
+                "type": "concept",
+                "title": "The Tipping Point",
+                "text": "If a blood vessel gets blocked, does the tissue instantly die every single time?\n\n**No!**\n\n**The Variables**:\n• The body is highly adaptable.\n• Whether an occlusion actually turns into an **Infarct** (cell death), and how severe that infarct will be, depends on four major physiological factors.\n\n1. **Vascular Anatomy**\n2. **Rate of Occlusion**\n3. **Tissue Vulnerability**\n4. **Blood Oxygen Content**",
+                "subtext": "",
+                "buttonText": "Factor 1: Anatomy"
             },
             {
-                type: "concept",
-                title: "The Other Suspects",
-                text: "The remaining 20% of systemic emboli arise from sources outside the heart chambers.",
-                subtext: "These include fragmented atherosclerotic plaques, thrombi within aortic aneurysms, infected vegetations on heart valves, or paradoxical emboli crossing from the venous side.",
-                buttonText: "Next"
+                "type": "concept",
+                "title": "Factor 1 - Vascular Anatomy",
+                "text": "This is the single most important factor determining whether tissue will survive a blockage!\n\n**The End-Arterial Trap**:\n• Organs like the kidneys, spleen, and heart have only one arterial pathway.\n• If it gets blocked, there is no alternate route.\n• The tissue almost always dies.\n\n**The Protective Dual Supply**:\n• Organs like the lungs (pulmonary & bronchial arteries) and liver (hepatic artery & portal vein) have two separate pathways.\n• If one is blocked, the other can usually keep the tissue alive!",
+                "subtext": "",
+                "buttonText": "The Most Important Factor"
             },
             {
-                type: "fill",
-                question: "Approximately ____________% of systemic emboli travel to the lower extremities, while the ____________ is the second most common target, accounting for 10% of cases.",
-                options: ["10", "75", "Brain", "Liver"],
-                answer: [1, 2],
-                explanation: "The vast majority of systemic emboli are carried by blood flow into the lower limbs, followed significantly by the cerebral circulation, where they cause strokes.",
-                buttonText: "Continue"
-            },
-            { 
-                type: "mcq", 
-                question: "Because most organs have a robust dual blood supply, systemic arterial emboli rarely cause tissue death (infarction).", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Unlike the lungs, most systemic organs (such as the kidneys, spleen, and brain) lack a dual blood supply. Consequently, arterial obstruction almost always results in tissue infarction." 
-            },
-            {
-                type: "concept",
-                title: "The Triangle of Ischemia",
-                text: "Whether an organ survives an embolic event depends on three primary factors:\n\n" +
-                    "1. **Vulnerability to Ischemia:** Different tissues have different metabolic needs.\n" +
-                    "2. **Vessel Caliber:** The size of the blocked artery relative to the tissue it supplies.\n" +
-                    "3. **Collateral Supply:** The presence of 'backup' blood vessels feeding the area.",
-                subtext: "",
-                buttonText: "Got it!"
-            },
-            {
-                type: "match",
-                question: "Venous vs. Systemic: Match the characteristic to the correct type of Embolism.",
-                pairs: [
-                    { left: "DVT in the leg", right: "Pulmonary Embolism" },
-                    { left: "Left Ventricle mural thrombus", right: "Systemic Embolism" },
-                    { left: "Lodges in the lungs", right: "Pulmonary Embolism" },
-                    { left: "Lodges in the legs or brain", right: "Systemic Embolism" }
+                "type": "fill",
+                "question": "The single most important variable in determining if an occlusion causes an infarct is the ________ anatomy of the organ, specifically whether it has a dual blood supply or an end-arterial supply.",
+                "options": [
+                    "Venous",
+                    "Vascular",
+                    "Lymphatic",
+                    "Neuronal"
                 ],
-                explanation: ""
-            }
-        ]
-    },
-    "4.6.3": {
-        title: "The Bone Marrow Breach (Fat Embolism) 🦴",
-        objectives: ["Understand how broken bones release toxic fat globules, recognize the clinical triad of Fat Embolism Syndrome (FES), and learn the requirements for pathological diagnosis."],
-        data: [
-            {
-                type: "concept",
-                title: "Not All Emboli Are Clots",
-                text: "While 99% of emboli are dislodged blood clots, the vasculature can be invaded by other substances.",
-                subtext: "One clinically significant non-clot embolus is the **Fat Embolism**, referring to microscopic fat globules traveling through the blood vessels.",
-                buttonText: "Next"
-            },
-            {
-                type: "concept",
-                title: "The Great Escape",
-                text: "The classic trigger for a fat embolism is a severe fracture of a long bone, such as the femur.",
-                subtext: "Severe trauma tears the delicate venous sinusoids within the bone marrow, allowing fatty marrow to herniate into the circulation and be swept to the lungs.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Fat embolisms are rare; if a patient has microscopic fat globules in their blood after a crash, they will instantly develop life-threatening symptoms 100% of the time.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "Microscopic fat emboli occur in approximately 90% of severe skeletal injuries, but only a very small minority of these patients ever become symptomatic." 
-            },
-            {
-                type: "concept",
-                title: "The 72-Hour Delay: FES",
-                text: "For the symptomatic minority, the condition is known as **Fat Embolism Syndrome (FES)**.",
-                subtext: "FES typically manifests 1 to 3 days after the initial injury with sudden pulmonary insufficiency and neurologic symptoms such as irritability, delirium, or coma.",
-                buttonText: "See the clinical clues"
-            },
-            { 
-                type: "mcq", 
-                question: "Because platelet counts can drop rapidly in FES, which specific visual clue often appears on the patient's skin?", 
-                options: [
-                    "Giant, painful, raised blisters", 
-                    "A diffuse petechial rash (pinpoint bleeding)", 
-                    "Jaundice (yellow skin)"
-                ], 
-                answer: 1, 
-                explanation: "Thrombocytopenia caused by platelets adhering to fat globules leads to a characteristic petechial rash, a major diagnostic clue for Fat Embolism Syndrome." 
-            },
-            {
-                type: "concept",
-                title: "A Two-Pronged Assault",
-                text: "Fat emboli cause damage via two distinct mechanisms:\n\n" +
-                    "1. **Mechanical:** The globules physically obstruct tiny microvessels in the lungs and brain.\n" +
-                    "2. **Biochemical:** The fat breaks down to release toxic **Free Fatty Acids**.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            {
-                type: "fill",
-                question: "Toxic free fatty acids released from the fat globules cause severe, local chemical burns directly to the ____________, triggering platelet activation and inflammation.",
-                options: ["Endothelium", "Bone", "Epithelium", "Enamel"],
-                answer: 0,
-                explanation: "The biochemical injury to the vascular lining (endothelium) is what makes fat emboli uniquely destructive compared to standard blood clots.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "The Vanishing Evidence",
-                text: "Fat emboli are notoriously difficult to see on standard pathology slides.",
-                subtext: "The solvents used in standard paraffin embedding (alcohol and xylene) dissolve lipids, often leaving only mysterious, empty holes where the fat globules used to be.",
-                buttonText: "How do we catch it?"
-            },
-            { 
-                type: "mcq", 
-                question: "To prove a fat embolism at autopsy, a pathologist must use specialized frozen tissue sections and special fat stains.", 
-                options: ["True", "False"], 
-                answer: 0, 
-                explanation: "Freezing the tissue preserves the lipids, and specialized stains like **Oil Red O** are required to visualize the fat globules under the microscope." 
-            },
-            {
-                type: "match",
-                question: "Match the clinical or laboratory clue to the correct concept.",
-                pairs: [
-                    { left: "Fractured long bones", right: "The classic trigger." },
-                    { left: "1 to 3 days post-injury", right: "The typical FES Timeline." },
-                    { left: "Petechial rash", right: "Visible sign of low platelets." },
-                    { left: "Toxic free fatty acids", right: "The biochemical weapon." },
-                    { left: "Oil Red O stain", right: "The lab requirement." }
+                "answer": [
+                    1
                 ],
-                explanation: ""
-            }
-        ]
-    },
-    "4.6.4": {
-        title: "Air Embolism & Decompression Sickness 🫧",
-        objectives: ["Understand how simple air can become a deadly obstruction, discover why scuba divers fear 'the bends,' and learn how high-pressure chambers act as a cure."],
-        data: [
-            {
-                type: "concept",
-                title: "The Frothy Menace",
-                text: "**Air Embolisms** occur when gas bubbles enter the circulation and merge together to form frothy, foamy masses.",
-                subtext: "Just like a solid clot, this foam can physically obstruct vascular flow and prevent tissue perfusion.",
-                buttonText: "Next"
+                "explanation": "<b>Vascular anatomy</b> dictates the availability of an alternate blood route. A dual blood supply protects tissue from infarction, while an end-arterial supply leaves it highly vulnerable.",
+                "topic": "Vascular Anatomy"
             },
             {
-                type: "concept",
-                title: "The Vacuum Effect",
-                text: "Gas enters the circulation through a physical breach in the vasculature combined with a negative pressure gradient that 'sucks' the air in.",
-                subtext: "For example, during brain surgery performed in a sitting position, gravity pulls blood downward, creating a vacuum in neck veins that can draw in room air.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Will a single, microscopic tiny air bubble accidentally pushed through a standard hospital IV line cause fatal cardiac arrest?", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "It generally takes a significant volume of air (typically more than 100 mL) to produce a clinical effect in an adult. However, a rapid introduction of 300 to 500 mL can be fatal." 
+                "type": "concept",
+                "title": "Factor 2 - Rate of Occlusion",
+                "text": "How fast the vessel gets blocked completely changes the outcome.\n\n**Acute (Fast) Occlusion**:\n• A sudden embolus instantly blocks a vessel. The tissue has zero time to adapt and quickly dies.\n\n**Chronic (Slow) Occlusion**:\n• A plaque slowly grows inside an artery over many years.\n• Because the drop in blood flow is so gradual, the body has time to grow brand new, tiny bypass vessels around the blockage!\n• This life-saving bypass network is called **Collateral Circulation**.",
+                "subtext": "",
+                "buttonText": "The Life-Saving Bypass"
             },
             {
-                type: "fill",
-                question: "When air microemboli get trapped in the pulmonary capillaries, they induce an intense ____________ response, releasing ____________ that can severely injure the lungs.",
-                options: ["Inflammatory", "Cytokines", "Calming", "Oxygen"],
-                answer: [0, 1],
-                explanation: "Air bubbles act as foreign surfaces that trigger a massive immune response, leading to the release of mediators that damage the delicate alveolar walls.",
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "The Scuba Diver's Danger",
-                text: "A dramatic form of gas embolism is **Decompression Sickness**, which affects individuals breathing air under high pressure (like divers or deep-sea welders).",
-                subtext: "Under high ambient pressure, large amounts of gas—specifically **Nitrogen**—dissolve directly into the blood and tissues.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "What happens to the dissolved nitrogen if a diver swims to the surface (depressurizes) too quickly?", 
-                options: [
-                    "It turns into solid bone", 
-                    "It rapidly comes out of solution, forming expanding gas bubbles in the blood", 
-                    "It safely evaporates through the pores of the skin"
-                ], 
-                answer: 1, 
-                explanation: "This is the 'Soda Bottle Effect.' A rapid drop in pressure causes dissolved nitrogen to spontaneously form bubbles in the blood and tissues, obstructing vessels and damaging cells." 
-            },
-            {
-                type: "concept",
-                title: "The Bends and The Chokes",
-                text: "Rapidly expanding nitrogen bubbles cause distinct acute syndromes:\n\n• **The Bends:** Bubbles in the skeletal muscles and joints causing intense pain.\n• **The Chokes:** Bubbles in the lungs causing edema, hemorrhage, and respiratory distress.",
-                subtext: "",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Decompression sickness only lasts for a few hours and has no chronic form.", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "The chronic form is called **Caisson Disease**. Persistent gas emboli in the skeletal system can lead to multiple areas of ischemic necrosis (infarcts) in the bones." 
-            },
-            { 
-                type: "mcq", 
-                question: "What is the primary medical treatment for acute decompression sickness?", 
-                options: [
-                    "High-altitude flight", 
-                    "Hyperbaric (high-pressure) chamber", 
-                    "Anti-platelet therapy"
-                ], 
-                answer: 1, 
-                explanation: "A hyperbaric chamber increases the pressure to force gas bubbles back into solution. The patient is then decompressed very slowly to allow for safe exhalation of the nitrogen." 
-            },
-            {
-                type: "match",
-                question: "Match the term to its correct clinical or pathological description.",
-                pairs: [
-                    { left: "The Bends", right: "Nitrogen bubbles trapped in muscles and joints." },
-                    { left: "The Chokes", right: "Nitrogen bubbles causing respiratory distress." },
-                    { left: "Caisson Disease", right: "Chronic ischemic bone necrosis from gas emboli." },
-                    { left: "Hyperbaric Chamber", right: "The high-pressure cure to dissolve bubbles." }
+                "type": "mcq",
+                "question": "Why might an elderly patient with an artery that is 95% blocked by a slowly growing plaque NOT suffer a heart attack (infarct), whereas a sudden 100% blockage from a fast-traveling embolus would cause immediate cell death?",
+                "options": [
+                    "The slow plaque provides time for protective Collateral Circulation to open up.",
+                    "Slowly growing plaques deliver their own oxygen to the tissue.",
+                    "Emboli are inherently toxic to the heart muscle."
                 ],
-                explanation: ""
-            }
-        ]
-    },
-    "4.6.5": {
-        title: "Amniotic Fluid Embolism 🤰🚨",
-        objectives: ["Understand the rare but catastrophic nature of an amniotic fluid embolism, discover why it is a biochemical 'bomb', and learn the unique fetal clues it leaves behind."],
-        data: [
-            {
-                type: "concept",
-                title: "The Delivery Room Crisis",
-                text: "**Amniotic Fluid Embolism** is an incredibly rare but devastating complication that occurs during labor or the immediate postpartum period.",
-                subtext: "Despite occurring in only 2 to 6 cases per 100,000 deliveries, it is the fifth most common cause of maternal mortality worldwide.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "With modern medical advances, do most patients who suffer an amniotic fluid embolism survive without long-term complications?", 
-                options: ["True", "False"], 
-                answer: 1, 
-                explanation: "The mortality rate for amniotic fluid embolism is approximately 80%. Among survivors, up to 85% suffer permanent neurologic deficits due to severe hypoxia." 
+                "answer": 0,
+                "explanation": "Slow occlusions give the tissue time to adapt by opening up alternative **collateral blood vessels**, which bypass the blockage and keep the tissue alive.",
+                "topic": "Rate of Occlusion"
             },
             {
-                type: "concept",
-                title: "The Rupture",
-                text: "Amniotic fluid enters the maternal circulation through a breach in the boundary between the mother and the fetus.",
-                subtext: "A tear in the placental membranes or a rupture of the uterine veins creates a gateway for pressurized amniotic fluid and fetal tissue to be infused directly into maternal veins.",
-                buttonText: "Next"
-            },
-            { 
-                type: "mcq", 
-                question: "Which unique findings in a mother's lung biopsy definitively prove that an amniotic fluid embolism occurred?", 
-                options: [
-                    "Microscopic pieces of broken bone and yellow marrow", 
-                    "Squamous cells from fetal skin, fetal hair (lanugo), and fetal fat", 
-                    "Perfectly round, empty holes where air bubbles used to be"
-                ], 
-                answer: 1, 
-                explanation: "Pathologists identify fetal components, such as squamous cells, mucin, and lanugo hair, within the maternal pulmonary microvasculature to confirm the diagnosis." 
+                "type": "concept",
+                "title": "Factor 3 - Tissue Vulnerability",
+                "text": "Different cells have entirely different oxygen requirements.\n\nSome cells can survive severe hypoxia, while others die in minutes!\n\n**Neurons (The Weakest)**:\n• Brain cells are incredibly fragile.\n• They undergo irreversible damage after just 3 to 4 minutes without oxygen.\n\n**Myocardium (The Middle)**:\n• Heart muscle cells are tougher, but they will die if deprived of blood for 20 to 30 minutes.\n\n**Fibroblasts (The Strongest)**:\n• Connective tissue cells are incredibly resilient.\n• They can survive many hours of severe ischemia!",
+                "subtext": "",
+                "buttonText": "The Ticking Clock"
             },
             {
-                type: "concept",
-                title: "Not Just a Physical Block",
-                text: "While thromboembolisms cause damage through mechanical obstruction, the fetal debris in amniotic fluid causes relatively little physical blockage.",
-                subtext: "The real danger is that the amniotic fluid acts as a massive **Biochemical Bomb**.",
-                buttonText: "Explain the 'bomb'"
-            },
-            { 
-                type: "mcq", 
-                question: "The extreme morbidity of this condition stems primarily from the biochemical activation of the mother's immune and clotting systems.", 
-                options: ["True", "False"], 
-                answer: 0, 
-                explanation: "Amniotic fluid contains powerful vasoactive and procoagulant substances that trigger an overwhelming systemic inflammatory and thrombotic response." 
-            },
-            {
-                type: "fill",
-                question: "Amniotic fluid triggers thousands of rogue blood clots, sending the mother into full-blown ____________ (DIC), followed by severe neurologic impairment like ____________.",
-                options: ["DIC", "DVT", "Coma", "Sneezing"],
-                answer: [0, 2],
-                explanation: "The sudden infusion of procoagulant material leads to massive disseminated intravascular coagulation and cardiovascular collapse, often resulting in coma." ,
-                buttonText: "Continue"
-            },
-            {
-                type: "concept",
-                title: "The Domino Effect",
-                text: "Vasoactive substances in the fluid trigger a rapid cardiovascular decline.",
-                subtext: "1. Acute pulmonary hypertension (clamping of lung vessels).\n2. Right heart failure.\n3. Profound hypoxia.\n4. Left heart failure and pulmonary edema.",
-                buttonText: "Next"
-            },
-            {
-                type: "match",
-                question: "Embolism Showdown: Match the specific embolism to its defining classic feature.",
-                pairs: [
-                    { left: "Thromboembolism", right: "Most common; mechanical blockage from a DVT." },
-                    { left: "Fat Embolism", right: "Triggered by broken bones; petechial rash." },
-                    { left: "Air Embolism", right: "Vacuum effect during neurosurgery or diving." },
-                    { left: "Amniotic Embolism", right: "Labor complication acting as a biochemical bomb." }
+                "type": "mcq",
+                "question": "All cells in the human body require the exact same amount of oxygen and will all die at the exact same rate when a blood vessel is blocked.",
+                "options": [
+                    "True",
+                    "False"
                 ],
-                explanation: ""
+                "answer": 1,
+                "explanation": "Tissues have vastly different vulnerabilities to hypoxia. **Neurons** die in just 3-4 minutes, while **connective tissue cells** can survive for hours without a blood supply.",
+                "topic": "Tissue Vulnerability"
+            },
+            {
+                "type": "concept",
+                "title": "Factor 4 - Blood Oxygen Content",
+                "images": [
+                    {
+                        "url": "images/Chapter 4/Unit 6/4.6.2/infarction_factors_summary.png",
+                        "reference": "Image generated by ChatGPT"
+                    }
+                ],
+                "text": "The final factor depends on the underlying health of the patient's blood before the blockage even occurs.\n\n**The Healthy Patient**:\n• If a healthy patient gets a partial blockage, the little blood that does squeeze past is 100% saturated with oxygen, which might be enough to keep the tissue alive.\n\n**The Compromised Patient**:\n• If the patient already has severe **Anemia** (low red blood cells) or severe lung disease (low blood oxygen), their blood is already poor quality.\n• A minor blockage that would be harmless to a healthy person will instantly cause an infarct in them!",
+                "subtext": "",
+                "buttonText": "The Pre-existing Condition"
+            },
+            {
+                "type": "mcq",
+                "question": "A patient with severe, chronic anemia suffers a minor, partial blockage in a coronary artery that leads to a massive myocardial infarction. Why did this minor blockage cause such severe damage?",
+                "options": [
+                    "Anemia causes the formation of stronger fibrin nets.",
+                    "The patient's underlying low Blood Oxygen Content made the tissue highly susceptible to even a small drop in blood flow.",
+                    "Anemia prevents collateral circulation from ever forming."
+                ],
+                "answer": 1,
+                "explanation": "If the blood is already lacking oxygen-carrying capacity (**anemia**), any further reduction in blood flow (ischemia) easily pushes the tissue over the edge into irreversible death.",
+                "topic": "Blood Oxygen Content"
+            },
+            {
+                "type": "match",
+                "question": "Match the physiological factor to its correct description.",
+                "pairs": [
+                    {
+                        "left": "Vascular Anatomy",
+                        "right": "The presence or absence of a protective dual blood supply"
+                    },
+                    {
+                        "left": "Rate of Occlusion",
+                        "right": "Determines if there is enough time to grow collateral circulation"
+                    },
+                    {
+                        "left": "Tissue Vulnerability",
+                        "right": "The concept that neurons die in minutes, but fibroblasts survive for hours"
+                    },
+                    {
+                        "left": "Blood Oxygen Content",
+                        "right": "Determines if underlying anemia makes the patient more prone to infarction"
+                    }
+                ],
+                "explanation": "Survival depends on these four factors: **Anatomy** (is there another route?), **Rate** (did it happen slowly enough to build a bypass?), **Vulnerability** (how tough are the cells?), and **Oxygen Content** (how rich was the blood to begin with?).",
+                "topic": "Infarct Factor Summary"
             }
         ],
-        next: "4.7.1"
+        "next": "4.7.1"
     },
 
     // UNIT 7
